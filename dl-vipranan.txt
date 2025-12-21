@@ -1,0 +1,84 @@
+--------------------------------------------------
+Day # 1 - Dec 14, 2026 - sunday
+------------------------------------------
+
+
+------------------------
+Brave custom search setup in local 
+pdf to zip conversion
+
+Time -- 2hours
+
+------------------------/
+
+--------------------------------------------------
+Day # 2 - Dec 15, 2026 - monday
+------------------------------------------
+Brave custom search HK 
+hong kong pdf completed and downloaded
+zip to pdf 
+compressing all the hk pdfs
+
+Time -- 4 hours
+------------------------/
+
+
+--------------------------------------------------
+Day # 3 - Dec 16, 2026 - Tuesday
+------------------------------------------
+setup of brave custom search for issac with kranti 
+
+Time -- 2hours
+
+------------------------/
+
+
+--------------------------------------------------
+Day # 4 - Dec 17, 2026 - wednesday
+------------------------------------------
+Setup for data collection
+collected 100 profiles in linked and compressed
+Data collection setup for justin and wendreneath
+doubts and clarification solved for justin and wendreneath
+python learning 
+
+Time -- 6hours 20mins
+------------------------
+------------------------/
+
+
+--------------------------------------------------
+Day # 5 - Dec 18, 2026 - Thursday
+------------------------------------------
+
+Tact python setup with kiran
+pushed basic codes 
+setting audio-splitter in local
+finding bugs in audio-splitter
+browse file bug solved by onclick only on the parent container
+branch setup with subash
+
+Time -- 6 hours
+
+------------------------/
+
+
+--------------------------------------------------
+Day # 6 - Dec 19, 2026 - Friday
+------------------------------------------
+Day-off
+--------------------------------------------------
+Day # 7 - Dec 20, 2026 - Saturday
+------------------------------------------
+Day-off
+------------------------/
+
+--------------------------------------------------
+Day # 8 - Dec 21, 2026 - Sunday
+------------------------------------------
+Python learning completed basics
+string, operations and control flow
+Daily logs setup with raja sir and time-sheet
+updated time-sheet from jun 2025 to dec 2025
+
+Time -- 8hours
