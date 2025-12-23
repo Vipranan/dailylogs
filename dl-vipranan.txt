@@ -103,4 +103,27 @@ API KEY ERROR
 
 Time -- 7hourss
 
+
 ------------------------/
+
+--------------------------------------------------
+Day # 10 - Dec 23, 2026 - Tesday
+------------------------------------------
+
+kaggele day 2 pending, still api key error 
+thought of provoking -  think about something seriously
+local llm setup
+gpu discussion -- need to find which gpu is optimal for model training within our budget
+linkedin post discussion for sir -- need analysis sir linkedin post
+lm studio setup
+local model download model cancelled - consumes time 
+system specs for macos --  m1 16gb 512gb
+
+pending -- 1
+kaggele -  day 2 genai
+
+Time = 4.5 hourss
+
+------------------------/
+
+
