@@ -107,7 +107,7 @@ Time -- 7hourss
 ------------------------/
 
 --------------------------------------------------
-Day # 10 - Dec 23, 2026 - Tesday
+Day # 10 - Dec 23, 2026 - Tuesday
 ------------------------------------------
 
 kaggele day 2 pending, still api key error 
@@ -124,6 +124,44 @@ kaggele -  day 2 genai
 
 Time = 4.5 hourss
 
-------------------------/
+------------------------/--------------------------------------------------
+Day # 11 - Jan 3, 2026 - Saturday
+------------------------------------------
 
+session started 6 pm
+
+pynotes setup 
+
+10hr 30 min
+
+------------------------/--------------------------------------------------
+Day # 11 - Jan 5, 2026 - Monday 
+------------------------------------------
+
+need to learn swift and react native
+
+learning swift ui -- ios app building
+xcode installation and swift setup during install click ios simulator option
+
+create a file in xcode 
+named - TaskTracker
+
+assignment - create login page and dashboard
+
+------------------------/--------------------------------------------------
+Day # 12 - Jan 6, 2026 - Tuesday 
+------------------------------------------
+created task tracker app swift basics
+
+time - 2hours
+
+------------------------/--------------------------------------------------
+Day # 13 - Jan 7, 2026 - wednesday
+------------------------------------------
+
+added login page for task tracker 
+created pynotes for issac and vishnu
+
+time - 4 hours
+--------------------------------/
 
