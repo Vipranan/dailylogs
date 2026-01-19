@@ -163,5 +163,34 @@ added login page for task tracker
 created pynotes for issac and vishnu
 
 time - 4 hours
+
 --------------------------------/
+
+------------------------/--------------------------------------------------
+Day # 14 - Jan 8, 2026 - Thursday
+------------------------------------------
+
+added login page and landing page for cliniq, pynotes setup for kaaviya
+
+time - 3hours 50mins
+
+--------------------------------/
+
+------------------------/--------------------------------------------------
+Day # 14 - Jan 19, 2026 - Monday
+------------------------------------------
+
+Created 3000 student dummy data, learned naive bayes basics 
+generate a 3k student dataset using python script 
+generated a 3k student dataset using gpt
+learned how naive bayes can be used for our dataset 
+
+
+time - 2hours
+
+--------------------------------/
+
+
+
+
 
