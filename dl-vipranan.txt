@@ -190,6 +190,16 @@ time - 2hours
 
 --------------------------------/
 
+------------------------/--------------------------------------------------
+Day # 15 - Jan 24, 2026 - Saturday
+------------------------------------------
+
+Task 01 : Learning LangChain - L1 - Success - 11:08 - 12:30
+Task 02 : Creating simple weather agents using ollama and gemini- L1 - Success - 12:30 - 2:56
+
+time - 3hours 48 mins
+
+--------------------------------/
 
 
 
