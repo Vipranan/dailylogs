@@ -247,9 +247,25 @@ time - 4hours 20mins
 Day # 18 - Jan 27, 2026 - Tuesday
 ------------------------------------------
 
-Task 01 : conducted test for vishnu and kaaviya - L1 - Success - 10:00 - 11:00
-Task 02 : learning FastApi  - L1 - Success - 11:00 - 12:00
-Task 03 : worked on github files - L2 - Succss - 12:00 - 1:45
+conducted test for vishnu and kaaviya 
+ learning FastApi  
+worked on github files 
+
+
+
+time - 3hours 45mins
+
+--------------------------------/
+
+--------------------------------------------------
+Day # 19 - Jan 28, 2026 - wednesday
+------------------------------------------
+raja sir session vercel deployment
+and mongodb pending
+kactii leaderboard demo modification ui
+api integration
+
+
 
 
 
