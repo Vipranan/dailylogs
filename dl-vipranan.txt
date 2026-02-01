@@ -273,3 +273,46 @@ time - 3hours 45mins
 
 --------------------------------/
 
+--------------------------------------------------
+Day # 20 - Jan 29, 2026 - Thursday
+------------------------------------------
+
+---------------
+
+ Taking python session for packiaraj sir and kaaviya  
+ Session on RILVille web application 
+ modifying ui changes in rilville and commiting 
+
+Total Working Hours: 8 hours 30 minutes
+
+---------------/
+
+
+--------------------------------------------------
+Day # 21 - Jan 30, 2026 - Friday
+------------------------------------------
+
+---------------
+
+ Setuping mongodb and creating database- L2 - Success - 10:30 - 11:30 pm IST
+ FastAPI basics Chapter 1 - L2 - Success - 11:30 - 1:30 pm IST
+ Exploring & Implementing streamlit - L3 - Success - 1:30 - 03:30 am IST
+
+Total Working Hours: 5hrs
+
+---------------/
+
+--------------------------------------------------
+Day # 22 - Jan 31, 2026 - Saturday
+------------------------------------------
+
+---------------
+
+ python session and learning python
+ FastAPI basics Chapter 1 
+Exploring & Implementing rust 
+
+Total Working Hours: 13 hours 45 minutes
+
+---------------/
+
