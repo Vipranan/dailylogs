@@ -348,5 +348,22 @@ Total Working Hours: 9hrs 45mins
 
 ---------------/
 
+--------------------------------------------------
+Day # 25 - Feb 03, 2026 - Tuesday
+------------------------------------------
+
+---------------
+learned python and helped packiaraj sir with commands
+took session on fastapi friendship meter
+setup oh my zsh on gideon sir
+listend to gideon sir python session
+implemented basic fastapi tasks and learned fastapi
+
+
+pending -- ios apps 
+
+Total Working Hours: 10hrs 45mins
+
+---------------/
 
 
