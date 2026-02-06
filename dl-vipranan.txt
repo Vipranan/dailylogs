@@ -366,4 +366,20 @@ Total Working Hours: 10hrs 45mins
 
 ---------------/
 
+--------------------------------------------------
+Day # 25 - Feb 03, 2026 - Tuesday
+------------------------------------------
+
+---------------
+Session on Python topics
+MCP server  
+MCQ on ubuntu commands
+worked on running and mcp, solving errors 
+
+pending -- ios apps 
+
+Total Working Hours: 4hrs 30mins
+
+---------------/
+
 
