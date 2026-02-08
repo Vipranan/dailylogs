@@ -367,7 +367,7 @@ Total Working Hours: 10hrs 45mins
 ---------------/
 
 --------------------------------------------------
-Day # 25 - Feb 03, 2026 - Tuesday
+Day # 26 - Feb 03, 2026 - wednesday
 ------------------------------------------
 
 ---------------
@@ -381,5 +381,36 @@ pending -- ios apps
 Total Working Hours: 4hrs 30mins
 
 ---------------/
+
+
+--------------------------------------------------
+Day # 27 - Feb 06, 2026 - Thursday
+------------------------------------------
+
+---------------
+
+Bayes discussion 
+Python Assignment 
+kbot working 
+
+Total Working Hours: 6 hours 30 minutes…
+
+---------------/
+
+
+--------------------------------------------------
+Day # 28 - Feb 08, 2026 - Saturday
+------------------------------------------
+
+---------------
+
+Bayes discussion 
+Python Assignment and gamified tech battle
+k project 
+
+Total Working Hours: 4 hours 30 minutes…
+
+---------------/
+
 
 
