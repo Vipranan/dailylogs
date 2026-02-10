@@ -428,3 +428,19 @@ Total Working Hours: 4 hours 19 minutes…
 
 ---------------/
 
+--------------------------------------------------
+Day # 30 - Feb 10, 2026 - Tuesday
+------------------------------------------
+
+---------------
+
+Python session 
+learning langchain
+setup zsh on windows
+
+pending --> langchain advanced pending, python basics
+
+
+Total Working Hours: 4 hours 20 minutes…
+
+---------------/
