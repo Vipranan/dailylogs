@@ -460,3 +460,49 @@ pending --> langchain advanced pending, python basics
 Total Working Hours: 6 hours and 40 minutes
 
 ---------------/
+
+--------------------------------------------------
+Day # 32 - Feb 12, 2026 - Thursday
+------------------------------------------
+
+---------------
+Python session
+Worked on rag and llm 
+
+pending --> langchain advanced pending, python basics
+
+
+Total Working Hours: 5 hours 30 minutes
+
+---------------/
+
+--------------------------------------------------
+Day # 33 - Feb 14, 2026 - Saturday
+------------------------------------------
+
+---------------
+
+Raja sir session worked on picoclaw 
+picoclaw setup  
+created agents on picoclaw
+
+
+
+Total Working Hours: 5 hours 40 minutes.
+
+---------------/
+
+--------------------------------------------------
+Day # 34 - Feb 15, 2026 - Sunday
+------------------------------------------
+
+---------------
+
+Session on langchain 
+Worked on kbot and understanding codebase  
+
+pending works --> langchain, packiaraj sir python, fastapi, py advanced
+
+Total Working Hours: 5 hours 25 minutes.
+
+---------------/
