@@ -506,3 +506,21 @@ pending works --> langchain, packiaraj sir python, fastapi, py advanced
 Total Working Hours: 5 hours 25 minutes.
 
 ---------------/
+
+--------------------------------------------------
+Day # 36 - Feb 18, 2026 - Wednesday
+------------------------------------------
+
+---------------
+
+Python basics-File operations 
+Exploring rag systems and learning cross encoder 
+
+
+pending works --> rag system and python basics remaing topics
+
+Total Working Hours: 4 hours 45 minutes.
+
+---------------/
+
+
