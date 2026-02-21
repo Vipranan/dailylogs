@@ -565,7 +565,7 @@ Day # 38 - Feb 20, 2026 - Friday
 
 Python basics session with packia raj 
 Basic setup for issac and vishnu tact-py 
- Exploring rag systems and building rag from scratch
+Exploring rag systems and building rag from scratch
 
 
 
@@ -573,4 +573,21 @@ Basic setup for issac and vishnu tact-py
 Total Working Hours: 6 hours
 
 ---------------/
+
+--------------------------------------------------
+Day # 39 - Feb 21, 2026 - Saturday
+------------------------------------------
+
+---------------
+
+Vercel deployment
+Vercel setup for vishnu
+Debate on genai 
+Git-operation for issac and vishnu 
+
+pending --> langchain, python basics, fastapi
+
+Total Working Hours: 5.5hrs
+
+---------------
 
