@@ -606,3 +606,22 @@ pending --> remaing KT's
 Total Working Hours: 11 hours
 
 ---------------/
+
+--------------------------------------------------
+Day # 41 - Feb 23, 2026 - Monday
+------------------------------------------
+
+---------------
+
+Session for mosus and sanjeev 
+Kt on product generate  
+hands on fastapi with packiaraj sir 
+earning fastapi and implementing it 
+
+
+pending --> FastApi, portfolio site, resume to website
+
+Total Working Hours: 9 hours 
+
+---------------/
+
