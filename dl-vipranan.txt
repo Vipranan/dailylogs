@@ -641,3 +641,21 @@ pending works --> mosus remaing setup, fastapi, langchain, testimonial,
 Total Working Hours: 10 hours
 
 ---------------/
+
+--------------------------------------------------
+Day # 43 - Feb 26, 2026 - Thursday
+------------------------------------------
+
+---------------
+
+Fastapi session with shankar 
+session on langchain 
+Discussion on ollama and langchain
+
+
+
+pending works --> langchain, fastapi, testimonial
+
+Total Working Hours: 3hours
+
+---------------/
