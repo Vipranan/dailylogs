@@ -659,3 +659,22 @@ pending works --> langchain, fastapi, testimonial
 Total Working Hours: 3hours
 
 ---------------/
+
+
+--------------------------------------------------
+Day # 44 - Feb 27, 2026 - Friday
+------------------------------------------
+
+---------------
+
+setup for sanjeev 
+picoclaw setup and agent works
+picoclaw using llama and. ollama integrate telegram 
+
+
+
+
+
+Total Working Hours: 5.5hours
+
+---------------/
