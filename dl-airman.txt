@@ -13,3 +13,21 @@ zoho explanation and credentials will be given eod
 Time -- 7 hours
 
 ------------------------/
+
+--------------------------------------------------
+Day # 2 - Mar3, 2026 - Tuesday
+------------------------------------------
+
+
+------------------------
+KT with KP and nithish on maverick ai
+understanding the workflow
+discussion with sudhersan sir about ai implementation and model training
+explored fine tuning local models(ollama)
+attended meet with shellkode on maverick ai
+github repo access maverick ai - > read only 
+claude code vs cursor
+
+Time -- 9 hours 30 minutes 
+
+------------------------/
