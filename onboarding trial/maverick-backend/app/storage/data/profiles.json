@@ -1,0 +1,13 @@
+[
+  {
+    "id": "09ce4c22-6df2-4cd9-8d96-aa7b5c5df7c2",
+    "created_at": "2026-03-20T15:47:22.609966+00:00",
+    "user_id": "15afc4a1-0411-4684-a939-9a05babcb32c",
+    "first_name": "Nathan",
+    "last_name": "Klein",
+    "phone_number": "+1 555-234-8079",
+    "date_of_birth": "1995-07-14",
+    "gender": "male",
+    "bio": "Aspiring commercial pilot."
+  }
+]

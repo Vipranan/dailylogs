@@ -1,0 +1,134 @@
+[
+  {
+    "id": "rb-001",
+    "name": "Federal Aviation Administration",
+    "acronym": "FAA",
+    "country": "United States",
+    "country_code": "US",
+    "flag": "🇺🇸",
+    "description": "The FAA is the national aviation authority of the United States, responsible for the regulation and oversight of civil aviation.",
+    "website": "https://www.faa.gov",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-002",
+    "name": "Transport Canada Civil Aviation",
+    "acronym": "TCCA",
+    "country": "Canada",
+    "country_code": "CA",
+    "flag": "🇨🇦",
+    "description": "Transport Canada regulates civil aviation safety and security across Canada.",
+    "website": "https://tc.canada.ca",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-003",
+    "name": "Civil Aviation Authority",
+    "acronym": "CAA",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "flag": "🇬🇧",
+    "description": "The UK CAA is the statutory corporation which oversees and regulates all aspects of civil aviation in the UK.",
+    "website": "https://www.caa.co.uk",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-004",
+    "name": "European Union Aviation Safety Agency",
+    "acronym": "EASA",
+    "country": "European Union",
+    "country_code": "EU",
+    "flag": "🇪🇺",
+    "description": "EASA is the European Union agency for aviation safety, providing uniform safety rules across EU member states.",
+    "website": "https://www.easa.europa.eu",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-005",
+    "name": "Directorate General of Civil Aviation",
+    "acronym": "DGCA",
+    "country": "India",
+    "country_code": "IN",
+    "flag": "🇮🇳",
+    "description": "DGCA is the regulatory body for civil aviation in India, responsible for safety oversight of civil aviation requirements.",
+    "website": "https://dgca.gov.in",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-006",
+    "name": "Civil Aviation Safety Authority",
+    "acronym": "CASA",
+    "country": "Australia",
+    "country_code": "AU",
+    "flag": "🇦🇺",
+    "description": "CASA is the government body that regulates civil aviation safety in Australia and the safety of Australian aircraft operating overseas.",
+    "website": "https://www.casa.gov.au",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-007",
+    "name": "General Civil Aviation Authority",
+    "acronym": "GCAA",
+    "country": "United Arab Emirates",
+    "country_code": "AE",
+    "flag": "🇦🇪",
+    "description": "GCAA is the regulatory authority responsible for civil aviation oversight in the UAE.",
+    "website": "https://www.gcaa.gov.ae",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-008",
+    "name": "Agência Nacional de Aviação Civil",
+    "acronym": "ANAC",
+    "country": "Brazil",
+    "country_code": "BR",
+    "flag": "🇧🇷",
+    "description": "ANAC is the Brazilian civil aviation authority, responsible for the certification of aviation products and services.",
+    "website": "https://www.anac.gov.br",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-009",
+    "name": "Japan Civil Aviation Bureau",
+    "acronym": "JCAB",
+    "country": "Japan",
+    "country_code": "JP",
+    "flag": "🇯🇵",
+    "description": "JCAB oversees all civil aviation matters in Japan including licensing, airworthiness, and air traffic management.",
+    "website": "https://www.mlit.go.jp/en/aviation",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-010",
+    "name": "Civil Aviation Administration of China",
+    "acronym": "CAAC",
+    "country": "China",
+    "country_code": "CN",
+    "flag": "🇨🇳",
+    "description": "CAAC is the governmental body responsible for civil aviation in the People's Republic of China.",
+    "website": "http://www.caac.gov.cn",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-011",
+    "name": "South African Civil Aviation Authority",
+    "acronym": "SACAA",
+    "country": "South Africa",
+    "country_code": "ZA",
+    "flag": "🇿🇦",
+    "description": "SACAA regulates civil aviation in South Africa, ensuring safe, orderly, and efficient aviation operations.",
+    "website": "https://www.caa.co.za",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "rb-012",
+    "name": "Civil Aviation Authority of Singapore",
+    "acronym": "CAAS",
+    "country": "Singapore",
+    "country_code": "SG",
+    "flag": "🇸🇬",
+    "description": "CAAS develops and regulates a safe, efficient and competitive civil aviation sector in Singapore.",
+    "website": "https://www.caas.gov.sg",
+    "created_at": "2024-01-01T00:00:00+00:00"
+  }
+]

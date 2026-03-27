@@ -1,0 +1,17 @@
+[
+  {
+    "id": "0dbef6e5-061c-41f4-996f-91234123e75d",
+    "created_at": "2026-03-20T15:47:22.641461+00:00",
+    "user_id": "15afc4a1-0411-4684-a939-9a05babcb32c",
+    "role": "PILOT",
+    "license_level": "Commercial Pilot License (CPL)",
+    "total_hours": 520.5,
+    "aircraft_type": "Single Engine Piston (SEP)",
+    "medical_certificate": "Class 1 — Commercial Operations",
+    "pilot_number": "P-1042983",
+    "instructor_rating": null,
+    "approved_aircraft": null,
+    "years_of_experience": null,
+    "instructor_type": null
+  }
+]
