@@ -1,0 +1,698 @@
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 32 - Flight Warning Systems",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Flight Warning System (FWS) produces cautions and warnings to increase crew situational awareness and provide indications of actions required to avoid danger. Due to multiple warning systems, an integrated system prioritizes warnings relevant to each phase of flight."
+    },
+    {
+      "title": "Levels of Alerts",
+      "content": "Alerts are classified into three levels: Level A (Warnings) require immediate action, Level B (Cautions) require immediate awareness and subsequent action, and Level C (Advisories) require crew awareness."
+    },
+    {
+      "title": "Warnings in General",
+      "content": "Warnings and alerts are presented in visual, aural, and sensory (tactile) forms to ensure effective communication to the crew."
+    },
+    {
+      "title": "Visual Warnings",
+      "content": "Visual alerts use colour coding: red for warnings, amber/yellow for cautions, and other colours for advisories. These are displayed on electronic screens or via lights and flags. Master warning and caution lights are placed in the pilot’s central field of view."
+    },
+    {
+      "title": "Aural Warnings",
+      "content": "Aural warnings include sounds and voice alerts. Warnings are prioritized (e.g., Stall, Windshear, GPWS, ACAS). Boeing uses bells, sirens, and voice alerts, while Airbus uses chimes, tones, and synthetic voice alerts."
+    },
+    {
+      "title": "Caution Alerts",
+      "content": "Cautions are indicated by beepers, tones, or chimes to alert the crew of potential safety threats requiring attention."
+    },
+    {
+      "title": "Sensory (Tactile) Warnings",
+      "content": "Tactile warnings include stick shaker and stick pusher systems to warn of stall conditions and assist in recovery."
+    },
+    {
+      "title": "Master Warning Systems",
+      "content": "Master warning indicators and centralized warning panels (or EFIS displays in modern aircraft) present warnings in a structured and prioritized manner."
+    },
+    {
+      "title": "Flight Warning System Functions",
+      "content": "The FWS generates warnings for engine and airframe malfunctions, aerodynamic limits exceeded, and external hazards such as terrain or traffic."
+    },
+    {
+      "title": "Aerodynamic Limit Warnings",
+      "content": "Warnings include altitude alerts, overspeed warnings, and stall warnings when flight limits are exceeded."
+    },
+    {
+      "title": "External Hazard Warnings",
+      "content": "Hazards such as terrain and traffic are managed using systems like GPWS and ACAS."
+    },
+    {
+      "title": "FWS Components",
+      "content": "The system consists of inputs (sensors, GPWS, ACAS), processing units (flight warning computers), and outputs (visual and aural alerts and warnings)."
+    },
+    {
+      "title": "Outputs",
+      "content": "Outputs include visual alerts (lights, text), aural alerts (tones, voice), and attention-getting indicators such as glare shield lights."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 33 - Aerodynamic Warnings",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Flight Warning System alerts the crew of deviations from aerodynamic parameters such as altitude, airspeed, and angle of attack. It provides altitude alerting, overspeed warning, and stall warning."
+    },
+    {
+      "title": "Altitude Alerting System - Function",
+      "content": "The system warns pilots when approaching or deviating from a selected altitude set on the autopilot control panel within defined height bands."
+    },
+    {
+      "title": "Altitude Alerting System - Operation",
+      "content": "Typical alert bands are 300–900 ft (Boeing) and 250–750 ft (Airbus). Alerts include visual indications and audible warnings when approaching or deviating from selected altitude."
+    },
+    {
+      "title": "Approaching Selected Altitude",
+      "content": "At 900 ft before the selected altitude, a white box appears around altitude display with an audible alert. At 300 ft, the box disappears."
+    },
+    {
+      "title": "Deviation from Selected Altitude",
+      "content": "At 300 ft deviation, master caution lights illuminate, a continuous beeper sounds, EICAS shows ALTITUDE ALERT, and altitude box turns amber."
+    },
+    {
+      "title": "System Inhibition",
+      "content": "Altitude alerting is inhibited when glide slope is captured or when landing flaps are selected with gear down."
+    },
+    {
+      "title": "Regulatory Requirement",
+      "content": "EASA requires altitude alerting systems in large turboprop and all turbojet aircraft. The system must alert when approaching and deviating from selected altitude."
+    },
+    {
+      "title": "Overspeed Warning - Function",
+      "content": "Warns crew when airspeed exceeds VMO/MMO limits calculated by the Air Data Computer."
+    },
+    {
+      "title": "Overspeed Warning - Operation",
+      "content": "Triggers siren/horn, red master warning lights, and OVERSPEED message on EICAS. Warning continues until condition is corrected."
+    },
+    {
+      "title": "Overspeed Displays",
+      "content": "Maximum speed is shown by a barber’s pole on ASI or airspeed tape on PFD. As altitude increases, MMO limit reduces in indicated airspeed."
+    },
+    {
+      "title": "Stall Warning System - Function",
+      "content": "Warns the pilot of an impending stall when angle of attack approaches critical value."
+    },
+    {
+      "title": "Stall Warning Systems",
+      "content": "Simple systems use vane sensors; advanced systems include stick-shaker and stick-pusher mechanisms."
+    },
+    {
+      "title": "Stall Warning Indications",
+      "content": "Warnings may be tactile, aural, visual, or combined. Examples include stick shaker vibration, voice alerts, and warning lights."
+    },
+    {
+      "title": "Stall Warning Operation",
+      "content": "Inputs include angle of attack, flap/slat position, landing gear status, and airspeed. System activates during flight conditions such as take-off."
+    },
+    {
+      "title": "Stall Protection",
+      "content": "Systems prevent stall using flight computers, automatic thrust increase, or stick-pusher mechanisms."
+    },
+    {
+      "title": "Angle of Attack (AoA)",
+      "content": "AoA is the angle between wing chord line and airflow. Lift increases with AoA until critical angle is reached, beyond which stall occurs."
+    },
+    {
+      "title": "Angle of Attack Sensors",
+      "content": "Sensors include conical probes and vane detectors mounted on fuselage, often heated to prevent icing."
+    },
+    {
+      "title": "Angle of Attack Indicators",
+      "content": "AoA indicators may be provided to give pilots continuous awareness of aerodynamic conditions."
+    },
+    {
+      "title": "Configuration Warning",
+      "content": "Warns if aircraft is not in proper configuration for take-off or landing, such as incorrect flap setting or gear status."
+    },
+    {
+      "title": "Take-off Configuration Warning",
+      "content": "Triggers warnings if take-off is attempted with improper configuration such as flaps/slats not set, trim incorrect, spoilers deployed, or parking brake engaged."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 34 - Ground Proximity Warning System",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Ground Proximity Warning System (GPWS) provides visual and aural warnings when terrain proximity threatens aircraft safety. It enhances safety by preventing accidents due to crew error, navigation issues, or ATC instructions."
+    },
+    {
+      "title": "System Overview",
+      "content": "GPWS consists of inputs, outputs, and a central processing unit. It operates between 50 ft and 2450 ft above ground and automatically selects the appropriate warning mode."
+    },
+    {
+      "title": "Definitions",
+      "content": "Alert: A caution generated by EGPWS. Warning: A command generated by EGPWS."
+    },
+    {
+      "title": "Types of Alerts",
+      "content": "Alerts can be Genuine (correct operation), Nuisance (correct but unnecessary in safe conditions), or False (due to system fault)."
+    },
+    {
+      "title": "GPWS Operating Modes Overview",
+      "content": "GPWS has multiple modes to detect hazardous conditions including excessive descent rate, terrain closure, altitude loss, unsafe configuration, glide slope deviation, minimum altitude breach, and windshear."
+    },
+    {
+      "title": "Mode 1 - Excessive Descent Rate",
+      "content": "Triggers 'SINK RATE' alert and 'WHOOP WHOOP PULL UP' warning when descent rate exceeds safe limits."
+    },
+    {
+      "title": "Mode 2 - Excessive Terrain Closure Rate",
+      "content": "Triggers 'TERRAIN TERRAIN' alert followed by 'WHOOP WHOOP PULL UP' warning when terrain closure rate is unsafe."
+    },
+    {
+      "title": "Mode 3 - Altitude Loss After Take-off",
+      "content": "Triggers 'DON'T SINK' alert when altitude decreases after take-off or go-around."
+    },
+    {
+      "title": "Mode 4A - Unsafe Terrain Clearance (Gear Up)",
+      "content": "Triggers 'TOO LOW GEAR' or 'TOO LOW TERRAIN' when flying too low without landing gear deployed."
+    },
+    {
+      "title": "Mode 4B - Unsafe Terrain Clearance (Flaps)",
+      "content": "Triggers 'TOO LOW FLAPS' or 'TOO LOW TERRAIN' when flaps are not in landing configuration."
+    },
+    {
+      "title": "Mode 5 - Glide Slope Deviation",
+      "content": "Triggers 'GLIDE SLOPE' alert when aircraft descends below ILS glide path."
+    },
+    {
+      "title": "Mode 6 - Minimum Altitude and Bank Angle",
+      "content": "Includes 'MINIMUMS' alert and bank angle warnings, as well as altitude call-outs."
+    },
+    {
+      "title": "Mode 7 - Windshear Warning",
+      "content": "Provides windshear warnings based on flight parameter changes. Takes priority over all other modes."
+    },
+    {
+      "title": "Pilot Response to Warnings",
+      "content": "Immediate action is required: level wings and initiate maximum climb until safe altitude is reached. Investigation of cause is secondary."
+    },
+    {
+      "title": "Enhanced GPWS (EGPWS)",
+      "content": "EGPWS uses terrain databases and navigation systems to provide look-ahead warnings and terrain displays, improving safety over basic GPWS."
+    },
+    {
+      "title": "Terrain Display",
+      "content": "Displays terrain ahead using color coding (green, yellow, red) and provides early warnings such as 'Terrain Ahead' or 'Pull Up'."
+    },
+    {
+      "title": "Terrain Clearance Floor",
+      "content": "Prevents premature descent during approaches by monitoring aircraft position relative to runway."
+    },
+    {
+      "title": "Integrity Testing",
+      "content": "GPWS includes Built-In Test Equipment (BITE) for preflight testing and continuous in-flight monitoring."
+    },
+    {
+      "title": "Mode Inhibition",
+      "content": "Certain GPWS modes can be inhibited under specific conditions such as non-standard approaches or equipment configurations."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 35 - Airborne Collision and Avoidance System",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Airborne Collision Avoidance System (ACAS), also known as TCAS, provides an independent safety system to prevent mid-air collisions. It operates independently of ATC using aircraft transponders."
+    },
+    {
+      "title": "TCAS Systems Overview",
+      "content": "Four versions exist (I–IV). TCAS I provides traffic awareness only, while TCAS II provides both Traffic Advisories (TAs) and Resolution Advisories (RAs)."
+    },
+    {
+      "title": "TCAS I",
+      "content": "Provides visual and aural traffic alerts ('Traffic, Traffic') but does not provide avoidance instructions."
+    },
+    {
+      "title": "TCAS II",
+      "content": "Provides both Traffic Advisories (TAs) and Resolution Advisories (RAs) such as climb or descend commands to avoid collisions."
+    },
+    {
+      "title": "Principle of Operation",
+      "content": "TCAS operates using SSR radar frequencies (1030/1090 MHz) and creates protective 3D zones around the aircraft."
+    },
+    {
+      "title": "Aircraft Equipment Requirements",
+      "content": "Intruder aircraft must have at least Mode A transponder. Mode C provides altitude, and Mode S allows coordinated avoidance via data link."
+    },
+    {
+      "title": "Operation",
+      "content": "Range is determined by time delay of signals, bearing by directional antenna, and altitude by comparing Mode C data."
+    },
+    {
+      "title": "System Interconnections",
+      "content": "TCAS integrates with transponders, displays (PFD, ND, VSI), radio altimeter, ADC, and IRS. It also considers aircraft performance and configuration."
+    },
+    {
+      "title": "Synthetic Voice Prioritization",
+      "content": "Warning priorities are: Stall > Windshear > GPWS > TCAS."
+    },
+    {
+      "title": "Traffic Advisories (TAs)",
+      "content": "Generated when intruder enters outer zone (45–35 seconds to collision). Displayed as amber circles with 'Traffic, Traffic' alert."
+    },
+    {
+      "title": "Resolution Advisories (RAs)",
+      "content": "Generated when intruder enters inner zone (35–15 seconds to collision). Displayed as red symbols with commands like 'Climb' or 'Descend'."
+    },
+    {
+      "title": "Types of Resolution Advisories",
+      "content": "Preventative RAs: 'Monitor Vertical Speed'. Corrective RAs: require climb or descent manoeuvres."
+    },
+    {
+      "title": "Traffic Categories",
+      "content": "Proximate traffic (cyan solid diamond) and other traffic (hollow diamond) are displayed for situational awareness."
+    },
+    {
+      "title": "Data Tag Information",
+      "content": "Displays relative altitude and climb/descent trends using arrows and numerical values."
+    },
+    {
+      "title": "Off Scale and No Bearing Alerts",
+      "content": "Traffic outside display range or without bearing is still shown using partial symbols or text alerts."
+    },
+    {
+      "title": "TCAS Displays",
+      "content": "Information is shown on PPI, VSI, and navigation displays (ND) in modern aircraft."
+    },
+    {
+      "title": "Control Panel Functions",
+      "content": "Includes modes: Standby, On, TA, RA/TA, and Test. Range selection controls display scale."
+    },
+    {
+      "title": "TCAS Modes",
+      "content": "TA mode provides advisories only; RA/TA mode provides full collision avoidance guidance."
+    },
+    {
+      "title": "TCAS Testing",
+      "content": "Built-in test equipment (BITE) verifies system functionality with voice feedback indicating success or failure."
+    },
+    {
+      "title": "Action on Traffic Advisory",
+      "content": "Pilots should visually search for traffic and prepare for possible RA but not manoeuvre based solely on TA."
+    },
+    {
+      "title": "Action on Resolution Advisory",
+      "content": "Pilots must immediately follow RA commands, adjusting flight path accordingly and informing ATC."
+    },
+    {
+      "title": "Priority over ATC",
+      "content": "TCAS RA instructions take priority over ATC instructions if they conflict."
+    },
+    {
+      "title": "Disregarding RAs",
+      "content": "RAs may only be disregarded if visual confirmation ensures no collision risk exists."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 36 - Flight Data Recorder",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Flight Data Recorder (FDR) records aircraft parameters throughout the flight to help determine causes of accidents, support trend analysis, and assist troubleshooting. In smaller aircraft, it may be combined with the Cockpit Voice Recorder."
+    },
+    {
+      "title": "FDR Designs",
+      "content": "The FDR records 10 or 25 hours of data on a digital storage device housed in a shock-resistant box located at the rear of the aircraft. It includes an underwater locating device (ULD)."
+    },
+    {
+      "title": "FDR Components",
+      "content": "Components include a recording system, overhead control unit, pedestal control unit, and Data Interface and Acquisition Unit (DIAU)."
+    },
+    {
+      "title": "Data Processing and Systems Integration",
+      "content": "Data from DIAU is sent to the Aeroplane Condition Monitoring System (ACMS) along with inputs from various aircraft systems for monitoring and analysis."
+    },
+    {
+      "title": "Control Units",
+      "content": "The overhead panel controls CVR and DFDR with ON and AUTO modes. The pedestal has an EVENT push-button to mark significant events in recordings."
+    },
+    {
+      "title": "Automatic Operation",
+      "content": "The FDR starts when the first engine starts and stops automatically 5 minutes after the last engine shutdown."
+    },
+    {
+      "title": "Aircraft Integrated Data Systems (AIDS)",
+      "content": "AIDS processes aircraft system data using a Data Management Unit (DMU) and sends selected data to the FDR and maintenance systems. Data can be transmitted via ACARS."
+    },
+    {
+      "title": "Parameters Recorded",
+      "content": "Mandatory parameters include time, attitude, airspeed, altitude, heading, acceleration, engine power, control positions, and configuration states."
+    },
+    {
+      "title": "Additional Parameters",
+      "content": "Additional data includes flight control positions, radio altitude, navigation data, cockpit warnings, and landing gear position."
+    },
+    {
+      "title": "Regulatory Requirements",
+      "content": "FDR carriage is mandatory based on aircraft weight, passenger capacity, and registration date as per European regulations."
+    },
+    {
+      "title": "Recording Duration Requirements",
+      "content": "Aircraft over 5700 kg must record at least 25 hours. Smaller turbine aircraft with more than 9 passengers must record at least 10 hours."
+    },
+    {
+      "title": "Additional Recording Requirements",
+      "content": "Aircraft over 27000 kg MTOM must record additional parameters beyond the basic set."
+    },
+    {
+      "title": "Operational Requirements",
+      "content": "FDR must start before aircraft movement and stop after it ceases movement. It must include a water-locating device."
+    },
+    {
+      "title": "Combined Recorders",
+      "content": "Aircraft under 5700 kg may combine FDR and CVR, while larger aircraft must have separate or dual combined systems."
+    },
+    {
+      "title": "Dispatch with Inoperative FDR",
+      "content": "Aircraft may operate with an inoperative FDR under strict conditions: limited flights, time restrictions, and functional CVR."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 37 - Cockpit Voice Recorder",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Cockpit Voice Recorder (CVR) preserves critical flight deck audio for accident investigation. It records the last 30 minutes (or up to 2 hours) of cockpit communications and sounds."
+    },
+    {
+      "title": "System Operation",
+      "content": "The CVR operates automatically when AC power is available, engines are running, or the aircraft is airborne."
+    },
+    {
+      "title": "Recording Requirements",
+      "content": "The CVR records from before the aircraft moves under its own power until after it stops, including pre-start and post-shutdown phases."
+    },
+    {
+      "title": "Parameters Recorded",
+      "content": "Recorded data includes cockpit voice communications, ambient sounds, interphone communications, headset audio, and PA system communications."
+    },
+    {
+      "title": "Voice Recorder Unit",
+      "content": "The recorder is housed in a crash-resistant, high-temperature and fire-resistant case located at the rear of the aircraft. It includes an underwater locating device (ULD)."
+    },
+    {
+      "title": "Underwater Locating Device (ULD)",
+      "content": "The ULD emits ultrasonic signals when submerged to aid recovery and operates automatically with a battery lasting several days."
+    },
+    {
+      "title": "Control Unit",
+      "content": "Mounted on the flight deck, the control unit includes monitoring systems and an area microphone to capture cockpit audio."
+    },
+    {
+      "title": "Control Modes",
+      "content": "AUTO mode starts recording with engine start and stops after shutdown. ON mode starts recording immediately until engine start resets it to AUTO."
+    },
+    {
+      "title": "Testing (BITE)",
+      "content": "The TEST function performs system checks using built-in test equipment and provides a visual indication of system status."
+    },
+    {
+      "title": "Erase Function",
+      "content": "Erasure is only possible on the ground with engines off and parking brake set. Safety interlocks prevent accidental erasure."
+    },
+    {
+      "title": "European Regulations",
+      "content": "CVR carriage requirements depend on aircraft weight, passenger capacity, and registration date, similar to FDR regulations."
+    },
+    {
+      "title": "Recording Duration Requirements",
+      "content": "Minimum recording time is 30 minutes, or 2 hours for aircraft over 5700 kg registered after April 1998."
+    },
+    {
+      "title": "Combined Recorders",
+      "content": "Aircraft under 5700 kg may use combined CVR/FDR units. Larger aircraft may also use combined systems but must have redundancy."
+    },
+    {
+      "title": "Dispatch with Inoperative CVR",
+      "content": "Dispatch rules for unserviceable CVR are similar to FDR, with limitations on duration and operational conditions."
+    }
+  ]
+}
+
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 38 - Engine Instrumentation",
+  "sub_modules": [
+    {
+      "title": "Introduction to Engine Instruments",
+      "content": "Engine instruments are essential for safe aircraft operation. They are divided into performance indicators (e.g. EPR, N1) and engine condition indicators (e.g. EGT, oil pressure, temperature)."
+    },
+    {
+      "title": "Types of Display",
+      "content": "Displays are either analogue (clockwork cockpit) or electronic (glass cockpit using CRT, LCD, LED). Modern aircraft predominantly use glass cockpits."
+    },
+    {
+      "title": "Thrust and Power Measurement",
+      "content": "Thrust is measured using P7 pressure or EPR (ratio of jet pipe to intake pressure). Propeller aircraft measure torque as an indication of power."
+    },
+    {
+      "title": "Engine Pressure Ratio (EPR)",
+      "content": "EPR is derived from pressure ratios using sensors and transducers. It varies with airspeed due to intake pressure changes and must be set carefully during take-off."
+    },
+    {
+      "title": "Engine Torque Measurement",
+      "content": "Torque indicates engine power and is measured either using oil pressure systems or electronic shaft displacement systems."
+    },
+    {
+      "title": "Oil Torquemeter System",
+      "content": "Uses axial thrust from helical gears balanced by oil pressure to determine torque output."
+    },
+    {
+      "title": "Electronic Torquemeter",
+      "content": "Uses phase shift between rotating shafts detected via electromagnetic pickups to measure torque."
+    },
+    {
+      "title": "Engine RPM Measurement",
+      "content": "Engine speed is measured using tachometers. Methods include mechanical, electrical generator, and inductive probe systems."
+    },
+    {
+      "title": "Mechanical Tachometer",
+      "content": "Uses rotating magnet and drag cup with eddy currents to drive a pointer against a spring."
+    },
+    {
+      "title": "Electrical Tachometer System",
+      "content": "Uses a generator driven by the engine to produce signals interpreted by an indicator."
+    },
+    {
+      "title": "Inductive Speed Probe",
+      "content": "Uses magnetic flux changes from rotating components to generate frequency signals proportional to engine speed."
+    },
+    {
+      "title": "Speed Indications",
+      "content": "Speed is typically shown as a percentage of maximum (N1, N2, N3). Indicators include colour-coded limits and digital displays."
+    },
+    {
+      "title": "Synchroscope",
+      "content": "Used to synchronize engine speeds in multi-engine aircraft to reduce vibration and noise."
+    },
+    {
+      "title": "Temperature Measurement",
+      "content": "Temperature monitoring is critical to prevent engine damage. Systems measure air, oil, and turbine temperatures."
+    },
+    {
+      "title": "Temperature Measurement Types",
+      "content": "Includes expansion type, vapour pressure type, electrical (resistance and thermocouple), and radiation (pyrometry)."
+    },
+    {
+      "title": "Thermocouple System",
+      "content": "Uses two dissimilar metals to generate voltage proportional to temperature (Seebeck effect). Used for EGT/TGT measurements."
+    },
+    {
+      "title": "Temperature Probe Placement",
+      "content": "Multiple probes are placed around the engine to average readings and improve reliability."
+    },
+    {
+      "title": "Air Temperature Measurement",
+      "content": "Includes SAT, RAT, and TAT. Ram rise affects readings at high speeds and requires correction."
+    },
+    {
+      "title": "Pressure Measurement",
+      "content": "Pressure is measured using direct or remote systems. Units include psi, inHg, bar, and pascal."
+    },
+    {
+      "title": "Pressure Sensing Elements",
+      "content": "Includes diaphragms, capsules, bellows, and Bourdon tubes, each suited for different pressure ranges."
+    },
+    {
+      "title": "Remote Indicating Systems",
+      "content": "Use transmitters and receivers to measure pressure remotely, reducing weight and hazards."
+    },
+    {
+      "title": "Engine Vibration Monitoring",
+      "content": "Uses piezoelectric or magnetic sensors to detect abnormal vibration indicating engine damage."
+    },
+    {
+      "title": "Fuel Quantity Measurement",
+      "content": "Fuel can be measured by volume or mass. Mass measurement is preferred in modern aircraft."
+    },
+    {
+      "title": "Float Type Fuel Gauge",
+      "content": "Uses a float and variable resistor system but is prone to errors due to tank shape and aircraft attitude."
+    },
+    {
+      "title": "Capacitance Fuel System",
+      "content": "Uses capacitors with fuel as dielectric to measure fuel quantity accurately and compensate for temperature changes."
+    },
+    {
+      "title": "Fuel Flow Measurement",
+      "content": "Measures rate of fuel consumption using turbine or pressure-based systems. Can indicate both flow rate and total consumption."
+    },
+    {
+      "title": "Remote Signal Transmission",
+      "content": "Uses transmitters and receivers to indicate positions of engine controls remotely."
+    },
+    {
+      "title": "Flight Hour Meter",
+      "content": "Records engine and system usage, typically activated by weight-on-wheels or airspeed switches."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 39 - Electronic Instrumentation",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Electronic instrumentation displays engine and airframe system parameters using CRT or LCD displays. Systems include EICAS (Boeing) and ECAM (Airbus)."
+    },
+    {
+      "title": "EICAS and ECAM Overview",
+      "content": "EICAS focuses on engine data and alerts, while ECAM integrates system monitoring with checklist and schematic displays."
+    },
+    {
+      "title": "EICAS System Architecture",
+      "content": "EICAS consists of display units, control panel, and dual computers (left and right) with automatic or manual switching."
+    },
+    {
+      "title": "Display Units",
+      "content": "Upper display shows primary engine parameters (N1, EGT, alerts). Lower display shows secondary parameters (N2, fuel flow, oil data, vibration, system status)."
+    },
+    {
+      "title": "Display Colour Coding",
+      "content": "White: normal data, Red: warnings, Green: thrust settings, Blue: test, Yellow: cautions/advisories, Magenta: special operations, Cyan: labels and status."
+    },
+    {
+      "title": "Display Modes",
+      "content": "EICAS operates in three modes: operational, status, and maintenance."
+    },
+    {
+      "title": "Operational Mode",
+      "content": "Displays primary engine data and alerts. Secondary data appears on demand."
+    },
+    {
+      "title": "Status Mode",
+      "content": "Displays aircraft system readiness, flight control positions, and system status for dispatch checks."
+    },
+    {
+      "title": "Maintenance Mode",
+      "content": "Provides troubleshooting and system test information for engineers on the ground."
+    },
+    {
+      "title": "Display Select Panel",
+      "content": "Controls EICAS functions including engine display, status display, event recording, computer selection, brightness, thrust reference, and reset functions."
+    },
+    {
+      "title": "Event Recording",
+      "content": "Stores automatic and manual fault data in system memory for later analysis."
+    },
+    {
+      "title": "Alert Message Levels",
+      "content": "Level A (Warning): immediate action, red. Level B (Caution): amber with tone. Level C (Advisory): amber without tone."
+    },
+    {
+      "title": "Alert Message Handling",
+      "content": "Messages are prioritized, can be cancelled or recalled, and automatically removed when conditions normalize."
+    },
+    {
+      "title": "Display Paging",
+      "content": "If messages exceed display capacity, additional pages are created and accessed via controls."
+    },
+    {
+      "title": "Display Unit Failure",
+      "content": "Failure of a display unit causes data transfer to remaining unit in compact format."
+    },
+    {
+      "title": "Standby Engine Indicator",
+      "content": "Provides essential engine data (N1, N2, EGT) in case of total EICAS failure."
+    },
+    {
+      "title": "ECAM System Overview",
+      "content": "ECAM displays aircraft system data in checklist and schematic formats, focusing on system operation and corrective actions."
+    },
+    {
+      "title": "ECAM Display Units",
+      "content": "Left display shows warnings and procedures; right display shows system schematics."
+    },
+    {
+      "title": "ECAM Display Modes",
+      "content": "Includes flight phase-related, advisory/status, failure-related, and manual system display modes."
+    },
+    {
+      "title": "Flight Phase Mode",
+      "content": "Automatically displays relevant data for each phase of flight such as preflight, take-off, cruise, and landing."
+    },
+    {
+      "title": "Advisory and Status Mode",
+      "content": "Displays aircraft condition summaries and operational limitations."
+    },
+    {
+      "title": "Failure-related Mode",
+      "content": "Displays system failures, corrective actions, and associated system diagrams with highest priority."
+    },
+    {
+      "title": "Manual System Display Mode",
+      "content": "Allows manual selection of system diagrams for monitoring and checks."
+    },
+    {
+      "title": "ECAM Control Panel",
+      "content": "Includes controls for system display selection, clearing messages, recalling alerts, and system isolation."
+    },
+    {
+      "title": "Synoptic Displays",
+      "content": "Graphical system representations used for monitoring aircraft systems."
+    },
+    {
+      "title": "Alert Handling in ECAM",
+      "content": "Warnings trigger visual, aural alerts and guide pilots through corrective procedures step-by-step."
+    }
+  ]
+}
+
+

@@ -1,0 +1,99 @@
+<h2>What's the visual mood?</h2>
+<p class="subtitle">Pick the palette that feels most like Maverick.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#04080f;padding:16px;min-height:160px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="display:flex;gap:8px;align-items:center;">
+        <div style="width:32px;height:32px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#4488ff,#0033aa);box-shadow:0 0 12px rgba(68,136,255,0.5);"></div>
+        <div>
+          <div style="width:80px;height:7px;background:#4488ff;border-radius:3px;margin-bottom:4px;"></div>
+          <div style="width:50px;height:5px;background:rgba(68,136,255,0.3);border-radius:3px;"></div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(68,136,255,0.25);border-radius:8px;padding:10px;background:rgba(0,20,60,0.5);">
+        <div style="width:100%;height:5px;background:linear-gradient(90deg,#4488ff,transparent);border-radius:3px;margin-bottom:6px;"></div>
+        <div style="width:70%;height:4px;background:rgba(68,136,255,0.2);border-radius:3px;margin-bottom:4px;"></div>
+        <div style="width:85%;height:4px;background:rgba(68,136,255,0.2);border-radius:3px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <div style="flex:1;height:22px;background:#4488ff;border-radius:4px;"></div>
+        <div style="flex:1;height:22px;border:1px solid rgba(68,136,255,0.4);border-radius:4px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;margin-top:4px;">
+        <div style="width:16px;height:16px;border-radius:3px;background:#04080f;border:2px solid #4488ff;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#0033aa;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#4488ff;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#ffffff;border:2px solid transparent;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Deep Space Blue</h3>
+      <p>Midnight black + electric blue. Clean, techy, cockpit-at-night. Think: mission control.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0a0a0a;padding:16px;min-height:160px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="display:flex;gap:8px;align-items:center;">
+        <div style="width:32px;height:32px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#e8e8e8,#888);box-shadow:0 0 12px rgba(200,200,200,0.3);"></div>
+        <div>
+          <div style="width:80px;height:7px;background:#ffffff;border-radius:3px;margin-bottom:4px;"></div>
+          <div style="width:50px;height:5px;background:rgba(255,255,255,0.2);border-radius:3px;"></div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,255,255,0.15);border-radius:8px;padding:10px;background:rgba(255,255,255,0.04);">
+        <div style="width:100%;height:5px;background:linear-gradient(90deg,#ffffff,transparent);border-radius:3px;margin-bottom:6px;"></div>
+        <div style="width:70%;height:4px;background:rgba(255,255,255,0.12);border-radius:3px;margin-bottom:4px;"></div>
+        <div style="width:85%;height:4px;background:rgba(255,255,255,0.12);border-radius:3px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <div style="flex:1;height:22px;background:white;border-radius:4px;"></div>
+        <div style="flex:1;height:22px;border:1px solid rgba(255,255,255,0.3);border-radius:4px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;margin-top:4px;">
+        <div style="width:16px;height:16px;border-radius:3px;background:#0a0a0a;border:2px solid white;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#222;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#888;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#ffffff;border:2px solid transparent;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Monochrome Black & White</h3>
+      <p>Pure black + stark white. Ultra-minimal, editorial, premium. Think: Apple, Nothing Phone.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#050810;padding:16px;min-height:160px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="display:flex;gap:8px;align-items:center;">
+        <div style="width:32px;height:32px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff6a00,#cc2200);box-shadow:0 0 12px rgba(255,100,0,0.5);"></div>
+        <div>
+          <div style="width:80px;height:7px;background:linear-gradient(90deg,#ff6a00,#ee0979);border-radius:3px;margin-bottom:4px;"></div>
+          <div style="width:50px;height:5px;background:rgba(255,100,0,0.3);border-radius:3px;"></div>
+        </div>
+      </div>
+      <div style="border:1px solid rgba(255,100,0,0.25);border-radius:8px;padding:10px;background:rgba(30,5,0,0.5);">
+        <div style="width:100%;height:5px;background:linear-gradient(90deg,#ff6a00,#ee0979,transparent);border-radius:3px;margin-bottom:6px;"></div>
+        <div style="width:70%;height:4px;background:rgba(255,100,0,0.2);border-radius:3px;margin-bottom:4px;"></div>
+        <div style="width:85%;height:4px;background:rgba(255,100,0,0.2);border-radius:3px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <div style="flex:1;height:22px;background:linear-gradient(90deg,#ff6a00,#ee0979);border-radius:4px;"></div>
+        <div style="flex:1;height:22px;border:1px solid rgba(255,100,0,0.4);border-radius:4px;"></div>
+      </div>
+      <div style="display:flex;gap:6px;margin-top:4px;">
+        <div style="width:16px;height:16px;border-radius:3px;background:#050810;border:2px solid #ff6a00;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#cc2200;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#ff6a00;border:2px solid transparent;"></div>
+        <div style="width:16px;height:16px;border-radius:3px;background:#ee0979;border:2px solid transparent;"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Dark + Fiery Orange/Red</h3>
+      <p>Black + afterburner orange-red gradient. Bold, aggressive, high energy. Think: fighter jet, speed.</p>
+    </div>
+  </div>
+
+</div>

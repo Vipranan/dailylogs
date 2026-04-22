@@ -1,0 +1,952 @@
+[
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 1: Risk Management and Single-Pilot Resource Management",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "\u201cPull the throttle back!\u201d Lenore, a flight instructor, ordered the learner, Jennifer, as the revolutions per minute (rpm) climbed past past 2,000 on engine start. \u201cI did, I did!\u201d Both Jennifer and Lenore grabbed the mixture and pulled. The engine went from a deafening roar to silence. They looked at each other. \u201cWhat happened?\u201d asked Jennifer. \u201cI don\u2019t know. Let\u2019s check the engine,\u201d Lenore said. Ten minutes later, they had removed the cowling from the airplane. A quick engine check gave them the answer. The throttle rod-end was not connected to the carburetor arm\u2014no bolt, no nut, just air between the rod-end and the arm. Jennifer looked at Lenore. \u201cWhat if this had happened in flight?\u201d \u201cWhat I want to know,\u201d Lenore said, \u201cis how this happened at all. The annual inspection was signed off ye"
+      },
+      {
+        "title": "Defining Risk Management",
+        "content": "Risk is defined as the probability and possible severity of accident or loss from exposure to various hazards, including injury to people and loss of resources. [Figure 1-1] All Federal Aviation Administration (FAA) operations in the United States involve risk and benefit from decisions that include risk assessment and risk management. Risk management, a formalized way of thinking about these topics, is the logical process of weighing the potential costs of risks against the possible benefits of allowing those risks to stand uncontrolled. Risk management is a decision-making process designed to identify hazards systematically, assess the degree of risk, and determine the best course of action. Key terms are: \u2981 Hazard\u2014a present condition, event, object, or circumstance that could lead to or"
+      },
+      {
+        "title": "Principles of Risk Management",
+        "content": "The goal of risk management is to proactively identify safety-related hazards and mitigate the associated risks. Risk management is an important component of decision-making. When a pilot follows good decision-making practices, the inherent risk in a flight is reduced or even eliminated. The ability to make good decisions is based upon direct or indirect experience and education. It is important to remember the four fundamental principles of risk management:"
+      },
+      {
+        "title": "Accept No Unnecessary Risk",
+        "content": "Unnecessary risk is that which carries no commensurate return in terms of benefits or opportunities. Everything involves risk. The most logical choices for accomplishing a flight are those that meet all requirements with the minimum acceptable risk. The corollary to this axiom is \u201caccept necessary risk\u201d required to complete the flight or task successfully. Flying is impossible without risk, but unnecessary risk comes without a corresponding return. If flying a new airplane for the first time, a flight instructor might determine that the risk of making that flight in low instrument flight rules (IFR) conditions is unnecessary."
+      },
+      {
+        "title": "Make Risk Decisions at the Appropriate Level",
+        "content": "Anyone can make a risk decision. However, risk decisions should be made by the person who can develop and implement risk controls. In a single-pilot situation, the pilot makes the decision to accept certain levels of risk, so why let anyone else\u2014such as ATC or your passengers\u2014make risk decisions for you? In the maintenance facility, an aviation maintenance technician (AMT) may need to elevate decisions to the next level in the chain of management upon determining that those controls available to him or her will not reduce residual risk to an acceptable level."
+      },
+      {
+        "title": "Accept Risk When Benefits Outweigh the Costs",
+        "content": "All identified benefits should be compared against all identified costs. Even high-risk endeavors may be undertaken when there is clear knowledge that the sum of the benefits exceeds the sum of the costs. For example, in any flying activity, it is necessary to accept some degree of risk. A day with good weather, for example, is a much better time to fly an unfamiliar airplane for the first time than a day with low instrument flight rules (IFR) conditions."
+      },
+      {
+        "title": "Integrate Risk Management into Planning at All Levels",
+        "content": "Risks are more easily assessed and managed in the early planning stages of a flight. Changes made later in the process of planning and executing may become more difficult, time consuming, and expensive. However, safety enhancement occurs at any time appropriate and effective risk management take place."
+      },
+      {
+        "title": "Risk Management Process",
+        "content": "Risk management is a simple process which identifies operational hazards and takes reasonable measures to reduce risk to personnel, equipment, and the mission. During each flight, the pilot makes many decisions under hazardous conditions. To fly safely, the pilot needs to identify the risk, assess the degree of risk, and determine the best course of action to mitigate the risk. Step 1: Identify the Hazard A hazard is defined as any real or potential condition that can cause degradation, injury, illness, death, or damage to or loss of equipment or property. Experience, common sense, and specific analytical tools help identify risks. Once the pilot determines that a hazard poses a potential risk to the flight, it may be further analyzed. Step 2: Assess the Risk Each identified risk may be as"
+      },
+      {
+        "title": "Implementing the Risk Management Process",
+        "content": "The following principles allow for maximum benefit from series of steps described above that form a risk mitigation strategy: \u2981 Apply the steps in sequence\u2014each step is a building block for the next and should be completed before proceeding to the next. If a hazard identification step is interrupted to focus on the control of a particular hazard, more important hazards may be overlooked. Until all hazards are identified, the remainder of the process is not effective. \u2981 Maintain a balance in the process\u2014all steps are important. Allocate the time and resources to perform all. \u2981 Apply the process in a cycle\u2014the \u201csupervise and review\u201d step should include a brand-new look at the operation being analyzed to see whether new hazards can be identified. \u2981 Involve people in the process\u2014ensure that ri"
+      },
+      {
+        "title": "Identifying Risk",
+        "content": "Hazards and their associated risks can either be obvious or harder to detect. You should methodically identify and classify risks to a proposed or ongoing flight by maintaining constant situational awareness. To assist this process, it is helpful to apply the simple acronym PAVE to your risk management process. The acronym stands for Pilot, Aircraft, Environment, External pressures. Use the following guidelines and questions to identify risk using the PAVE acronym. The Pave Checklist By incorporating the PAVE checklist into all stages of flight planning, the pilot divides the risks of flight into four categories: Pilot in command (PIC), Aircraft, enVironment, and External pressures (PAVE), which form part of a pilot\u2019s decision-making process. With the PAVE checklist, pilots have a simple w"
+      },
+      {
+        "title": "IMSAFE Checklist",
+        "content": "As mentioned earlier, one of the best ways that single pilots can identify risk associated with physical and mental readiness for flying is to use the IMSAFE checklist acronym. [Figure 1-3] 1. Illness\u2014Am I sick? Illness is an obvious pilot risk. 2. Medication\u2014Am I taking any medicines that might affect my judgment or make me drowsy? 3. Stress\u2014Am I under psychological pressure from the job? Do I have money, health, or family problems? Stress causes concentration and performance problems. While the regulations list medical conditions that require grounding, stress is not among them. A thorough evaluation of risk accounts for the effects of stress on performance. 4. Alcohol\u2014Have I been drinking within 8 hours? Within 24 hours? A small amount of alcohol can impair flying skills. Alcohol also r"
+      },
+      {
+        "title": "Assessing Risk",
+        "content": "Assessment of risk is an important part of good risk management. For example, the hazard of a nick in the propeller poses a risk only if the airplane is flown. If the damaged prop is exposed to the constant vibration of normal engine operation, there is a high risk is that it could fracture and cause catastrophic damage to the engine and/or airframe and the passengers. Every flight has hazards and some level of risk associated with it. It is critical that pilots and especially learners can differentiate in advance between a low-risk flight and a high-risk flight, and then establish a review process and develop risk mitigation strategies to address flights throughout that range. For the single pilot, assessing risk is not as simple as it sounds. For example, the pilot acts as his or her own"
+      },
+      {
+        "title": "Aeronautical Decision-Making",
+        "content": "Aviation training and flight operations are now seen as a system rather than individual concepts. The goal of system safety is for pilots to utilize all four concepts (ADM, risk management, situational awareness, and SRM) so that risk can be reduced to the lowest possible level. ADM is a systematic approach to the mental process used by aircraft pilots to consistently determine the best course of action in response to a given set of circumstances. Risk management is a decision-making process designed to systematically identify hazards, assess the degree of risk, and determine the best course of action associated with each flight. Situational awareness is the accurate perception and understanding of all the factors and conditions within the four fundamental risk elements that affect safety "
+      },
+      {
+        "title": "Stress Management",
+        "content": "Learning how to recognize and cope with stress is another effective ADM tool. Stress is the body\u2019s response to demands placed upon it. These demands can be either pleasant or unpleasant in nature. The causes of stress for a pilot can range from unexpected weather or mechanical problems while in flight to personal issues unrelated to flying. Stress is an inevitable and necessary part of life; it adds motivation and heightens an individual\u2019s response to meet any challenge. Everyone is stressed to some degree all the time. A certain amount of stress is good since it keeps a person alert and prevents complacency. However, the effects of stress are cumulative and, if not coped with adequately, they eventually add up to an intolerable burden. Performance generally increases with the onset of str"
+      },
+      {
+        "title": "Teaching Decision-Making Skills",
+        "content": "When instructor pilots discuss system safety, they generally worry about the loss of traditional stick-and-rudder skills. The fear is that emphasis on items such as risk management, ADM, SRM, and situational awareness detracts from the training necessary in developing safe pilots. It is important to understand that system safety flight training occurs in three phases. First, there are the traditional stick and rudder maneuvers. In order to apply the critical thinking skills that are to follow, pilots should develop a high degree of confidence in their ability to fly the aircraft. Next, the tenets of system safety are introduced into the training environment as learners begin to understand how best to identify hazards, manage risk, and use all available resources to make each flight as safe"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter introduced aviation instructors to the underlying concepts of safety risk management, which the FAA is integrating into all levels of the aviation community. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 2: Human Behavior",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Derek\u2019s learner, Jason, is very smart and able to retain a lot of information, but has a tendency to rush through the less exciting material and shows interest and attentiveness only when performing tasks that he finds to be interesting. This concerns Derek because he is worried that Jason will overlook many important details and rush through procedures. For a homework assignment Jason was told to take a very thorough look at Preflight Procedures and that for his next flight lesson they would discuss each step in detail. As Derek predicted, Jason found this assignment to be boring and was not prepared. Derek knows that Jason is a \u201cthrill seeker\u201d as he talks about his business, which is a wilderness adventure company. Derek wants to find a way to keep Jason focused and help him find excitem"
+      },
+      {
+        "title": "Definitions of Human Behavior",
+        "content": "The study of human behavior is an attempt to explain how and why humans function the way they do. A complex topic, human behavior is a product both of innate human nature and of individual experience and environment. Definitions of human behavior abound, depending on the field of study. In the scientific world, human behavior is seen as the product of factors that cause people to act in predictable ways. For example, speaking in public is very high on the list of fears many people have. While no two people react the same to any given fear, fear itself does trigger certain innate responses such as an increase in breathing rate. How a person handles that fear is a product of individual experiences. The person who has never spoken in public may be unable to fulfill the obligation. Another per"
+      },
+      {
+        "title": "Instructor and Learner Relationship",
+        "content": "How does personality type testing affect instructors and learners? Research has led many educational psychologists to feel that based on personality type, everyone also has an individual style of learning. In this theory, working with that style, rather than against it, benefits both instructor and learner. Although controversy often swirls around the educational benefits of teaching learners according to personality types, it has gained a large following and been implemented at many levels of education. Today\u2019s learner can visit any number of websites, take a personality test, and discover what type of learner he or she is and how best to study. In a continuing quest to figure out why humans do what they do, the mother-daughter team of Katharine Cook Briggs and Isabel Briggs Myers pioneer"
+      },
+      {
+        "title": "Motivation",
+        "content": "Motivation is the reason one acts or behaves in a certain way and lies at the heart of goals. A goal is the object of a person\u2019s effort. Motivation prompts learners to engage in hard work and affects learner success. Being smart or coordinated seldom guarantees success, but motivation routinely propels learners to the top. An important part of an aviation instructor\u2019s job is to discover what motivates each learner and to use this information to encourage him or her to work hard. Motivation is probably the dominant force that governs the learner\u2019s progress and ability to understand and can be used to the advantage of the instructor. Motivation comes in many guises. It may be negative or positive. Negative motivation may engender fear, for example. While negative motivation may be useful in "
+      },
+      {
+        "title": "Learner Questionnaire",
+        "content": "A short questionnaire can be helpful in gathering additional background information. For example, it is helpful to know a learner\u2019s familiarity with the subject matter. Questions such as \u201cHave you ever taken a course in aircraft maintenance?\u201d or \u201cHave you ever flown a small airplane?\u201d or \u201cHave you had any on-the-job training in avionics?\u201d should garner the type of information needed. A short questionnaire also offers an instructor the chance to discover how different learning styles may improve knowledge transfer (small groups, independent study, etc.). Another possible way to gather information about a learner is to have him or her write a brief autobiography which includes any experience with the subjects being taught. However an instructor gathers information about learners, the informa"
+      },
+      {
+        "title": "Maintaining Motivation",
+        "content": "Motivation is generally not something that can be transferred from one person to another. Instructors should become skillful at recognizing problems with motivation and at encouraging learners to continue to do their best."
+      },
+      {
+        "title": "Rewarding Success",
+        "content": "Positive feedback encourages learners. Practice positive feedback frequently by: \u2981 Praising incremental successes during training. \u2981 Relating daily accomplishments to lesson objectives. \u2981 Commenting favorably on learner progress and level ability. For example, as the learner progresses through training, remark on the milestones. When a learner first performs a task alone, congratulate him or her on having learned it. When that same skill reaches an intermediate level, point out that the learner\u2019s performance is almost consistent with the requirements of the Airman Certification Standards (ACS), the set of standards detailing the knowledge and skills an airman needs to possess and demonstrate to obtain a pilot certificate. When performance is equal to the ACS requirements, comment favorably"
+      },
+      {
+        "title": "Presenting New Challenges",
+        "content": "With each declaration of success, be sure to present learners with the next challenge. For example, when a learner begins to perform a skill consistently to ACS or PTS requirements, challenge him or her to continue to improve it such that the skill can be performed under pressure or when distracted. Instructors can also add new problems or situations to create a learning scenario."
+      },
+      {
+        "title": "Drops in Motivation",
+        "content": "Instructors should be prepared to deal with a number of circumstances in which motivation levels drop. It is natural for motivation to wane somewhat after the initial excitement of the learner\u2019s first days of training, or between major training events such as solo, evaluations, or practical tests. Drops in motivation appear in several different ways. Learners may come to lessons unprepared or give the general sense that aviation training is no longer a priority. During these times, it is often helpful to remind learners of their own stated goals for seeking aviation training. Learning plateaus are a common source of frustration, discouragement, and decreased learner motivation. A first line of defense against this situation is to explain that learning seldom proceeds at a constant pace\u2014no "
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To ensure that learners continue to work hard, the instructor should: 1. Ask new learners about their aviation training goals. 2. Reward incremental successes in learning. 3. Present new challenges. 4. Occasionally remind learners about their own stated goals for aviation training. 5. Assure learners that learning plateaus are normal and that improvement will resume with continued effort."
+      },
+      {
+        "title": "Human Needs and Motivation",
+        "content": "Human needs are things all humans require for normal growth and development. These needs have been studied by psychologists and categorized in a number of ways. Henry A. Murray, one of the founders of personality psychology who was active in developing a theory of motivation, identified a list of core psychological needs in 1938. He described these needs as being either primary (based on biological needs, such as the need for food) or secondary (generally psychological, such as the need for independence). Murray believed the interplay of these needs produce distinct personality types and are internal influences on behavior. Murray\u2019s research underpins the work of psychologist Abraham Maslow who also studied human needs, motivation, and personality. While working with monkeys during his ear"
+      },
+      {
+        "title": "Physiological",
+        "content": "These are biological needs. They consist of the need for air, food, water, and maintenance of the human body. If a learner is unwell, then little else matters. Unless the biological needs are met, a person cannot concentrate fully on learning, self-expression, or any other tasks. Instructors should monitor their learners to make sure that their basic physical needs have been met. A hungry or tired learner may not be able to perform as expected."
+      },
+      {
+        "title": "Security",
+        "content": "Once the physiological needs are met, the need for security becomes active. All humans have a need to feel safe. Security needs are about keeping oneself from harm. If a learner does not feel safe, he or she cannot concentrate. The aviation instructor who stresses flight safety during training mitigates feelings of insecurity. A flight instructor should be aware of his learner\u2019s fear of certain flight regions and ease them into those situations carefully."
+      },
+      {
+        "title": "Belonging",
+        "content": "When individuals are physically comfortable and do not feel threatened, they seek to satisfy their social needs of belonging. Maslow states that people seek to overcome feelings of loneliness and alienation. This involves both giving and receiving love, affection, and the sense of belonging. For example, aviation learners are usually out of their normal surroundings during training, and their need for association and belonging is more pronounced. Instructors should make every effort to help new learners feel at ease and to reinforce their decision to pursue a career or hobby in aviation."
+      },
+      {
+        "title": "Esteem",
+        "content": "When the first three classes of needs are satisfied, the need for esteem can become dominant. Humans have a need for a stable, firmly based, high level of self-respect and respect from others. Esteem is about feeling good about one\u2019s self. Humans get esteem in two ways: internally or externally. Internally, a person judges himself or herself worthy by personally defined standards. High self-esteem results in self-confidence, independence, achievement, competence, and knowledge. Most people, however, seek external esteem through social approval and esteem from other people, judging themselves by what others think of them. External self-esteem relates to one\u2019s reputation, such as status, recognition, appreciation, and respect of associates. When esteem needs are satisfied, a person feels sel"
+      },
+      {
+        "title": "Cognitive and Aesthetic",
+        "content": "In later years, Maslow added cognitive (need to know and understand) and aesthetic (the emotional need of the artist) needs to the pyramid. He realized humans have a deep need to understand what is going on around them. If a person understands what is going on, he or she can either control the situation or make informed choices about what steps might be taken next. The brain even reinforces this need by giving humans a rush of dopamine whenever something is learned, which accounts for that satisfying \u201ceureka!\u201d moment. For example, a flight learner usually experiences a major \u201ceureka!\u201d moment upon completing the first solo flight. Aesthetic needs connect directly with human emotions, which makes it a subtle factor in the domain of persuasion. When someone likes another person, a house, a pa"
+      },
+      {
+        "title": "Self-Actualization",
+        "content": "When all of the foregoing needs are satisfied, then and only then are the needs for self-actualization activated. Maslow describes selfactualization as a person\u2019s need to be and do that which the person was \u201cborn to do.\u201d To paraphrase an old Army recruiting slogan, self-actualization is to \u201cbe all you can be.\u201d Self-actualized people are characterized by: \u2981 Being problem-focused. \u2981 Incorporating an ongoing freshness of appreciation of life. \u2981 A concern about personal growth. \u2981 The ability to have peak experiences. Helping a learner achieve his or her individual potential in aviation training offers the greatest challenge as well as reward to the instructor. Instructors should help learners satisfy their human needs in a manner that creates a healthy learning environment. In this type of env"
+      },
+      {
+        "title": "Human Nature and Motivation",
+        "content": "Human nature refers to the general psychological characteristics, feelings, and behavioral traits shared by all humans. Consider Jason, who came to aviation because he wanted to participate more actively in another realm of his business. Derek needs to capitalize on this motivation to keep Jason interested in the step-by-step procedures that need to be learned in order to fly safely. There is a gap between Jason and his goal of earning a pilot certificate. It is Derek\u2019s job to close the gap. The successful instructor channels learner motivation and guides the learner toward the goal of obtaining aviation skills through education, experience, practice, and study. The psychologist and Nobel Prize winner in Economics, Daniel Kahneman, summarized his findings of human behavior in his book titl"
+      },
+      {
+        "title": "Defense Mechanisms",
+        "content": "Defense mechanisms can be biological or psychological. The biological defense mechanism is a physiological response that protects or preserves organisms. For example, when humans experience a danger or a threat, the \u201cfight or flight\u201d response kicks in. Adrenaline and other chemicals are activated and physical symptoms such as rapid heart rate and increased blood pressure occur. For example, when an anxious learner pilot reacts to impending and full stalls during practice, the anxiety that the learner pilot may feel may resolve itself into a \u201cfight or flight\u201d response. There may be limited time to analyze the problem. Therefore, the learner needs the opportunity to experience and develop a comfort level that mitigates the anxiety. The instructor needs to recognize the learner\u2019s apprehension"
+      },
+      {
+        "title": "Repression",
+        "content": "Repression is the defense mechanism whereby a person places uncomfortable thoughts into inaccessible areas of the unconscious mind. Things a person is unable to cope with now are pushed away, to be dealt with at another time, or hopefully never because they faded away on their own accord. The level of repression can vary from temporarily forgetting an uncomfortable thought to amnesia, where the events that triggered the anxiety are deeply buried. Repressed memories do not disappear and may reappear in dreams or slips of the tongue (\u201cFreudian slips\u201d). For example, a learner pilot may have a repressed fear of flying that inhibits his or her ability to learn how to fly."
+      },
+      {
+        "title": "Denial",
+        "content": "Denial is a refusal to accept external reality because it is too threatening. It is the refusal to acknowledge what has happened, is happening, or will happen. It is a form of repression through which stressful thoughts are banned from memory. Related to denial is minimization. When a person minimizes something, he or she accepts what happened, but in a diluted form. For example, the instructor finds a water bottle under the rudder pedal of an aircraft the student took on a solo flight and explains the hazards of loose objects in the cabin. The learner, unwilling to accept the reality that his or her inattention could have caused an aircraft accident, denies having been inattentive on previous day. Or, the learner minimizes the incident, accepting he or she left the water bottle pointing o"
+      },
+      {
+        "title": "Compensation",
+        "content": "Compensation is a process of psychologically counterbalancing perceived weaknesses by emphasizing strength in other areas. Through compensation, learners often attempt to disguise the presence of a weak or undesirable quality by emphasizing a more positive one. The \u201cI\u2019m not a fighter, I\u2019m a lover\u201d philosophy can be an example of compensation. Compensation involves substituting success in a realm of life other than the realm in which the person suffers a weakness."
+      },
+      {
+        "title": "Projection",
+        "content": "Through projection, an individual places his or her own unacceptable impulses onto someone else. A person relegates the blame for personal shortcomings, mistakes, and transgressions to others or attributes personal motives, desires, characteristics, and impulses to others. The learner pilot who fails a flight exam and says, \u201cI failed because I had a poor examiner\u201d believes the failure was not due to a lack of personal skill or knowledge. This learner projects blame onto an \u201cunfair\u201d examiner. Learners who believe their instruction is inadequate, or that their efforts are not conscientiously considered and evaluated, do not learn well. In addition, their motivation suffers no matter how intent they are on learning to fly. Motivation also declines when a learner believes the instructor is mak"
+      },
+      {
+        "title": "Rationalization",
+        "content": "Rationalization is a subconscious technique for justifying actions that otherwise would be unacceptable. When true rationalization takes place, individuals sincerely believe in the plausible and acceptable excuses which seem real and justifiable. For example, a learner mechanic performs poorly on a test. He or she may justify the poor grade by claiming there was not enough time to learn the required information. The learner does not admit to failing to join the class study group or taking the computer quiz offered by the instructor."
+      },
+      {
+        "title": "Reaction Formation",
+        "content": "In reaction formation a person fakes a belief opposite to the true belief because the true belief causes anxiety. The person feels an urge to do or say something and then actually does or says something that is the opposite of what he or she really wants. For example, a learner may develop a who-cares-how-other-people-feel attitude to cover up feelings of loneliness and a hunger for acceptance. process."
+      },
+      {
+        "title": "Fantasy",
+        "content": "Fantasy occurs when a learner engages in daydreams about how things should be rather than doing anything about how things are. The learner uses his or her imagination to escape from reality into a fictitious world\u2014a world of success or pleasure. However, if a learner gets sufficient satisfaction from daydreaming, he or she may stop trying to achieve goals altogether. Perhaps the transitioning pilot is having trouble mastering a more complex aircraft, which jeopardizes his or her dream of becoming an airline pilot. It becomes easier to daydream about the career than to achieve the certification. Lost in the fantasy, the learner spends more time dreaming about being a successful airline pilot than working toward the goal. When carried to extremes, the worlds of fantasy and reality can become"
+      },
+      {
+        "title": "Displacement",
+        "content": "This defense mechanism results in an unconscious shift of emotion, affect, or desire from the original object to a more acceptable, less threatening substitute. Displacement avoids the risk associated with feeling unpleasant emotions and puts them somewhere other than where they belong. For example, the avionics learner is angry with the instructor over a grade received but fears displaying the anger could antagonize the instructor. The learner might choose to direct the anger towards a different object without risking consequences related to the class. Psychology textbooks or online references offer more in-depth information about defense mechanisms. While most defense mechanisms fall within the realm of normal behavior and serve a useful purpose, in some cases they may be associated with"
+      },
+      {
+        "title": "Learner Emotional Reactions",
+        "content": "While it is not necessary for a flight instructor to be a certified psychologist, it is helpful to learn how to analyze learner behavior before and during each flight lesson. This ability helps a flight instructor develop and use appropriate techniques for instruction yet to occur."
+      },
+      {
+        "title": "Anxiety",
+        "content": "Anxiety is probably the most significant psychological factor affecting flight instruction. This is true because flying is a potentially threatening experience for those who are not accustomed to flying and the fear of falling is universal in human beings. While anxiety is a factor associated with aviation activities where lives depend on consistently doing the job right, the following paragraphs are primarily concerned with instruction and learner reactions. Anxiety is a feeling of worry, nervousness, or unease, often about something that is going to happen, typically something with an uncertain outcome. It results from the fear of anything, real or imagined, which threatens the person who experiences it, and may have a potent effect on actions and the ability to learn from perceptions. T"
+      },
+      {
+        "title": "Impatience",
+        "content": "Impatience is a greater deterrent to learning pilot skills than is generally recognized. For a learner, this may take the form of a desire to make an early solo flight, or to set out on cross-country flights before the basic elements of flight have been learned. The impatient learner fails to understand the need for preliminary training and seeks only the ultimate objective without considering the means necessary to reach it. With every complex human endeavor, it is necessary to master the basics if the whole task is to be performed competently and safely. The instructor can correct learner impatience by presenting the necessary preliminary training one step at a time, with clearly stated goals for each step. The procedures and elements mastered in each step should be clearly identified wh"
+      },
+      {
+        "title": "Worry or Lack of Interest",
+        "content": "Worry or lack of interest has a detrimental effect on learning. Learners who are worried or emotionally upset are not ready to learn and derive little benefit from instruction. Worry or distraction may be due to learner concerns about progress in the training course, or may stem from circumstances completely unrelated to their instruction. Significant emotional upsets may be due to personal problems, emotional problems, or a dislike of the training program or the instructor. The experiences of learners outside their training activities affect behavior and performance in training; the two cannot be separated. When learners begin flight training, they bring with them their interests, enthusiasms, fears, and troubles. The instructor cannot be responsible for these outside diversions, but cann"
+      },
+      {
+        "title": "Fatigue",
+        "content": "Fatigue is one of the most treacherous hazards to flight safety as it may not be apparent to a pilot until serious errors are made. Fatigue can be either acute (short-term) or chronic (long-term). Acute fatigue, a normal occurrence of everyday living, is the tiredness felt after long periods of physical and mental strain, including strenuous muscular effort, immobility, heavy mental workload, strong emotional pressure, monotony, or lack of sleep. Acute fatigue caused by training operations may be physical or mental, or both. It is not necessarily a function of physical strength or mental acuity. The amount of training any learner can absorb without incurring debilitating fatigue varies. Generally speaking, complex operations tend to induce fatigue more rapidly than simpler procedures do, r"
+      },
+      {
+        "title": "Dehydration and Heatstroke",
+        "content": "Dehydration is the term given to a critical loss of water from the body. Dehydration reduces a pilot\u2019s level of alertness, producing a subsequent slowing of decision-making processes or even the inability to control the aircraft. The first noticeable effect of dehydration is fatigue, which in turn makes top physical and mental performance difficult, if not impossible. Flying for long periods in hot summer temperatures or at high altitudes increases susceptibility to dehydration. High altitude is an issue since dry air at high altitudes tends to increase the rate of water loss from the body. If this fluid is not replaced, fatigue progresses to dizziness, weakness, nausea, tingling of hands and feet, abdominal cramps, and extreme thirst. Heatstroke is a condition caused by any inability of t"
+      },
+      {
+        "title": "Apathy Due to Inadequate Instruction",
+        "content": "Learners can become apathetic when they recognize that the instructor has made inadequate preparations for the instruction being given, or when the instruction appears to be deficient, contradictory, or insincere. To hold the learner\u2019s interest and to maintain the motivation necessary for efficient learning, instructors should provide well-planned, appropriate, and accurate instruction. Nothing destroys a learner\u2019s interest as quickly as a poorly organized period of instruction. Even an inexperienced learner realizes immediately when the instructor has failed to prepare a lesson. [Figure 2-7] Instruction may be overly explicit and complicated, too elementary, or so general that it fails to evoke the interest necessary for effective learning. To be effective, the instructor teaches for the "
+      },
+      {
+        "title": "Normal Reactions to Stress",
+        "content": "As mentioned earlier in the chapter, when a threat is recognized or imagined, the brain alerts the body. The adrenal gland activates hormones, which prepare the body to meet the threat or to retreat from it\u2014the fight or flight syndrome. Normal individuals begin to respond rapidly and exactly, within the limits of their experience and training. Many responses are automatic, highlighting the need for proper training in emergency operations prior to an actual emergency. The affected individual thinks rationally, acts rapidly, and is extremely sensitive to all aspects of the surroundings."
+      },
+      {
+        "title": "Abnormal Reactions to Stress",
+        "content": "Reactions to stress may produce abnormal responses in some people. With them, response to anxiety or stress may be completely absent or at least inadequate. Their responses may be random or illogical, or they may do more than is called for by the situation. During flight instruction, instructors are normally the only ones who can observe learners when they are under pressure. Instructors, therefore, are in a position to differentiate between safe and unsafe piloting actions. Instructors also may be able to detect potential psychological problems. The following learner reactions are indicative of abnormal reactions to stress. None of them provides an absolute indication, but the presence of any of them under conditions of stress is reason for careful instructor evaluation. \u2981 Inappropriate r"
+      },
+      {
+        "title": "AMTs and Flight Instructors as Learners",
+        "content": "Both AMTs and flight instructors sometimes deal with new or unfamiliar technology. For instance, an instructor flying a different aircraft may have to manage a particular system or avionics suite for the first time. Likewise, the AMT who is accustomed to working with one type of aircraft has developed analytical processes that may not transfer to another aircraft as well as expected. In both cases, the instructors may be very highly experienced, but change and its associated stress may have risk consequences. Technological advances in aircraft, powerplants, and systems can outpace the knowledge of flight instructors and AMTs if they don\u2019t ensure they remain adequately trained. This ongoing training may remind instructors of their own tendencies to become vulnerable and less objective. By u"
+      },
+      {
+        "title": "Teaching the Adult Learner",
+        "content": "While aviation instructors teach learners of all ages, the average aviation learner age is 30 years old. This means the aviation instructor needs to be versed in the needs of adult learners. The field of adult education is relatively young, having been established in the late twentieth century by Dr. Malcolm Knowles. His research revealed certain traits that need to be recognized when teaching adult learners as well as ways instructors can use these traits to teach older learners. Adults as learners possess the following characteristics: \u2981 Adults who are motivated to seek out a learning experience do so primarily because they have a use for the knowledge or skill being sought. Learning is a means to an end, not an end in itself. \u2981 Adults seek out learning experiences in order to cope with "
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed how human behavior affects learning, the effect of human needs on learning, defense mechanisms learners use to prevent learning, how adults learn, and the flight instructor\u2019s role in determining a learner\u2019s future in the aviation community. For more information on these topics, it is recommended the instructor read a general educational psychology text or visit one of the many online sites devoted to education. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 3: The Learning Process",
+    "sections": [
+      {
+        "title": "The First Flight",
+        "content": "When Beverly (learner) enthusiastically presents herself for her first day of flight instruction, Bill, her flight instructor, decides to spend some time in the classroom. Beverly knows a lot of facts about flying and shares her knowledge with Bill, but when he asks questions to test her understanding of the facts, she cannot answer them. During their first flight, Bill discovers Beverly has mastered a few basic skills but her performance is awkward, as if she were working from a list of memorized steps. In the early stages of flight training, Beverly focuses all her attention on performing each skill. If Bill asks her a question or to perform two tasks at once, she loses her place and needs to restart. As she flies, she makes errors. When she catches herself making an error she becomes vi"
+      },
+      {
+        "title": "The Check Ride",
+        "content": "Months later, Bill is helping Beverly prepare for her practical test. Remembering her first days of instruction, Bill feels as if he were working with a different person. The breadth and depth of her classroom knowledge has grown. Beverly does not simply reiterate facts\u2014she applies her knowledge to solve the problems Bill gives her. In addition to meeting all the elements listed in the Airmen Certification Standards (ACS), she also knows about her local environment, such as the nuances of local weather patterns. In the aircraft, once awkward and tentative actions are now performed with a steady hand and confidence. Skills she struggled to learn in the past have become second nature. When asked to do several things simultaneously, she performs well. When Bill interrupts her, she mentally bo"
+      },
+      {
+        "title": "Analysis of the First Flight and Check Ride",
+        "content": "Between Beverly\u2019s first day of training and the day before her practical test, she has undergone some remarkable changes: 1. She has developed a collection of memorized facts into an in-depth understanding of how to fly and learned to apply this knowledge to problem-solving and decision-making. 2. Skills once performed awkwardly and deliberately are now performed smoothly and efficiently. 3. She comfortably performs several tasks at once, deals with distractions and interruptions, and maintains her focus in demanding situations. Knowledge and skills are now orchestrated. 4. She still makes errors, but they are less frequent, smaller in magnitude, and she quickly identifies and corrects them. 5. Her motivation and enthusiasm remain as high as they were on the first day of training. 6. She d"
+      },
+      {
+        "title": "The Framework for Learning",
+        "content": "Research into how people learn gained momentum with the Swiss scientist and psychologist Jean Piaget, who studied the intellectual development of children in the early twentieth century. His studies influenced others to research not only how people learn, but also the best ways to teach them, leading eventually to the establishment of the field of educational psychology."
+      },
+      {
+        "title": "Learning Theory",
+        "content": "Learning theory is a body of principles advocated by psychologists and educators to explain how people acquire skills, knowledge, and attitudes. Primary learning theories include classical and operant conditioning and social learning. [Figure 3-2] Classical conditioning is learning based on an association made between a neutral environmental stimulus and a natural stimulus. For example, the Russian psychologist Ivan Pavlov discovered that a dog could be trained to associate the sound of a beating metronome with being fed. Pavlov would start the metronome before presenting the dog with food. Over time, the dog learned to associate the unique sound with receiving food and, as a result, the dog would physically respond to only the sound of the metronome. Today, this experiment is commonly ref"
+      },
+      {
+        "title": "Behaviorism",
+        "content": "Behaviorism explains animal and human behavior entirely in terms of observable and measurable responses to stimuli. Behaviorism was introduced in the twentieth century and its followers believed all human behavior is conditioned more or less by events in the environment. Thus, human behavior can be predicted based on past rewards and punishments. Classic behaviorist theory in education stressed a system of rewards and punishment or the \u201ccarrot and stick\u201d approach to learning. In modern education circles, behaviorism stresses the importance of having a particular form of behavior positively reinforced by someone (other than the learner) who shapes or controls what is learned. In aviation training, the instructor provides the reinforcement. Today, behaviorism is now used more to break unwant"
+      },
+      {
+        "title": "Cognitive Theory",
+        "content": "Cognitive theory focuses on what is going on inside the mind. It is more concerned with cognition (the process of thinking and learning)\u2014knowing, perceiving, problem-solving, decision-making, awareness, and related intellectual activities\u2014than with stimulus and response. Learning is not just a change in behavior; it is a change in the way a learner thinks, understands, or feels. Theories based on cognition are concerned with the mental events of the learner. Much of the recent psychological thinking and experimentation in education includes some facets of the cognitive theory. Theories of cognitive learning were established by psychologists and educators such as John Dewey, Jean Piaget, Benjamin Bloom, and Jerome Bruner. [Figure 3-3] There have been many interpretations of the research dat"
+      },
+      {
+        "title": "Information Processing Theory",
+        "content": "Information processing theory uses a computer system as a model for human learning. The human brain processes incoming information, stores and retrieves it and generates responses to the information. This involves a number of cognitive processes: gathering and representing information (encoding), retaining of information, and retrieving the information when needed. This learning system has limitations and needs to be operated properly. A computer gets input from a keyboard, mouse, etc., whereas the human brain gets input from the senses of sight, hearing, touch, taste, and smell. The amount of sensory input the brain receives per second ranges from thousands to millions of bits of information according to various theories. Regardless of the number, that is a lot of information for the brai"
+      },
+      {
+        "title": "Constructivism",
+        "content": "A derivative of cognitive theory, constructivism is a philosophy of learning that holds that learners do not acquire knowledge and skills passively but actively build or construct them based on their experiences. As implied by its name, constructivism emphasizes the constructing or building that goes on during the learning process. Therefore, it creates a learner-centered environment in which they assume responsibility for their own learning. According to constructivism, humans construct a unique mental image by combining preexisting information with the information received from sense organs. Learning is the result of matching new information against this preexisting information and integrating it into meaningful connections. In constructivist thinking, learners are given more latitude to"
+      },
+      {
+        "title": "Perceptions",
+        "content": "Initially, all learning comes from perceptions, which are directed to the brain by one or more of the five senses: sight, hearing, touch, smell, and taste. Psychologists have also found that learning occurs most rapidly when information is received through more than one sense. [Figure 3-5] perception. Perception involves more than the reception of stimuli from the five senses; it also involves a person giving meaning to sensations. People base their actions on the way they believe things to be. The experienced AMT, for example, perceives an engine malfunction quite differently than does an inexperienced learner. This occurs because the beginning aviation learner is overwhelmed by stimuli and often focuses on meaningless things, thus missing key information. It is important for the instruct"
+      },
+      {
+        "title": "Insight",
+        "content": "Insight involves the grouping of perceptions into meaningful wholes. Creating insight is one of the instructor\u2019s major responsibilities. To ensure that this occurs, it is essential to keep each learner constantly receptive to new experiences and to help them understand how each piece relates to all other pieces of the total pattern of the task. For example, during straight-and-level flight in an aircraft with a fixed-pitch propeller, the revolutions per minute (rpm) increase when the throttle is opened and decrease when it is closed. On the other hand, rpm changes can also result from changes in aircraft pitch attitude without changes in power setting. Obviously, engine speed, power setting, airspeed, and aircraft attitude are all related. True learning requires an understanding of how eac"
+      },
+      {
+        "title": "Readiness",
+        "content": "The basic needs of the learner need to be satisfied before he or she is ready or capable of learning (see Chapter 2, Human Behavior). The instructor can do little to motivate the learner if these needs have not been met. This means the individual should want to learn the task being presented and possesses the requisite knowledge and skill. In SBT, the instructor attempts to make the task as meaningful as possible and to keep it within the learner\u2019s capabilities. Learners best acquire new knowledge when they see a clear reason for doing so, often show a strong interest in learning what they believe they need to know next, and tend to set aside things for which they see no immediate need. For example, beginning flight learners commonly ignore the flight instructor\u2019s suggestion to use the tri"
+      },
+      {
+        "title": "Domains of Learning",
+        "content": "As mentioned during the discussion of Cognitive Theory, Dr. Bloom played a central role in transforming the field of educational psychology. Interested in what and how people learn, he proposed a framework to help understand the major areas of learning and thinking. He first classified them into three large groups [Figure 3-8] called the domains of learning: \u2981 Cognitive (thinking) \u2981 Affective (feeling) \u2981 Psychomotor (doing)"
+      },
+      {
+        "title": "Cognitive Domain",
+        "content": "The cognitive domain is one of the best known educational domains. It includes remembering specific facts (content knowledge) and concepts that help develop intellectual abilities and skills. There are six major categories, or levels, starting from the simplest behavior (recalling facts) to the most complex (evaluation). [Figure 3-9] The four practical learning levels are rote, understanding, application, and correlation. [Figure 3-10] The lowest level is the ability to repeat something which one has been taught, without understanding or being able to apply what has been learned. This is referred to as rote learning. The fact level is a single concept. The key verbs which describe or measure this activity are words such as define, identify, and label. The comprehension or understanding lev"
+      },
+      {
+        "title": "Affective Domain",
+        "content": "The affective domain addresses a learner\u2019s emotions toward the educational experience. It includes feelings, values, enthusiasms, motivations, and attitudes. [Figure 3-11] For the aviation instructor, this may mean how the individual approaches learning. Is he or she motivated to learn? Does he or she exhibit confidence in learning? Does the learner display a positive attitude towards safety and risk mitigation? The affective domain provides a framework for teaching in five levels: awareness, response, value, organizing, and integration. In this taxonomy, the learner begins on the awareness level and is open to learning, willing to listen to the instructor. As the learner traverses the taxonomy, he or she responds by participating actively in the training, decides the value of the training"
+      },
+      {
+        "title": "Psychomotor Domain",
+        "content": "The psychomotor domain is skill based and includes physical movement, coordination, and use of the motor-skill areas. [Figure 3-12] Development of these skills utilizes repetitive practice and is measured in terms of speed, precision, distance, and techniques. While various examples of the psychomotor domain exist, the practical instructional levels for aviation training purposes include the following: \u2981 Observation \u2981 Imitation \u2981 Practice \u2981 Habit These basic levels make up the broad instructional process, independent of the specific domain chosen and are important components of instruction when aviation instructors prepare learners for the practical test. At the first level, the learner observes a more experienced person perform the skill. The instructor has the learner observe sequences a"
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To help learners acquire knowledge, the instructor should: \u2981 Ask learners to recite or practice newly acquired knowledge. \u2981 Ask questions that probe learner understanding and prompt them to think about what they have learned in different ways. \u2981 Present opportunities for learners to apply what they know to solving problems or making decisions. \u2981 Present learners with problems and decisions that test the limits of their knowledge. \u2981 Demonstrate the benefits of understanding and being able to apply knowledge. \u2981 Introduce new topics as they support the objectives of the lesson, whenever possible. These additional levels of learning are the basis of the knowledge, attitude, and skill learning objectives commonly used in advanced qualification programs for airline training. They also can be tie"
+      },
+      {
+        "title": "Learning Styles",
+        "content": "Learning styles are simply different approaches or ways of learning based on the fact that people absorb and process information in different ways. Learning style is an individual\u2019s preference for understanding experiences and changing them into knowledge. It denotes the typical strategy a learner adopts in a learning situation. For example, information may be learned in a variety of ways: by seeing or hearing, by reflecting or acting, analyzing or visualizing, or it may be learned piecemeal or steadily. Just as people learn differently, they also have different teaching methods. Some instructors rely on lectures, others demonstrate, and others may prefer computer simulation training. Everyone has a mixture of strengths and preferences, not a single style or preference to the complete excl"
+      },
+      {
+        "title": "Knowledge of Results",
+        "content": "In some simple skills, learners can discover their own errors quite easily. In other cases, such as learning complex aircraft maintenance skills, flight maneuvers, or flight crew duties, mistakes are not always apparent. A learner may know that something is wrong, but not know how to correct it. In any case, the instructor provides a helpful and often critical function in making certain that the learners are aware of their progress. It is perhaps as important for learners to know when they are right as when they are wrong. They should be told as soon after the performance as possible, and should not be allowed to practice mistakes. It is more difficult to unlearn a mistake, and then learn the skill correctly, than to learn correctly in the first place. One way to make learners aware of the"
+      },
+      {
+        "title": "Overlearning of Knowledge",
+        "content": "Overlearning is the continued study of a skill after initial proficiency has been achieved. Practice proceeds beyond the point at which the act can be performed with the required degree of excellence. The phenomenon of overlearning sometimes occurs when knowledge used frequently begins to take on the properties of a skill. For example, a learner\u2019s everyday knowledge about weight and balance concepts tends to center on the routine use of familiar charts found in the aircraft. Eventually, the learner\u2019s performance is characterized less by an understanding of weight and balance concepts, and more by an automatic process in which rows and columns of familiar charts give desired numbers. In some cases, the overlearning of knowledge has the advantage of making application of knowledge more strea"
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To help learners acquire skills, the instructor should: \u2981 Explain that the key to acquiring and improving any skill is continued practice. \u2981 Monitor learner practice of skills and provide immediate feedback. \u2981 Avoid conversation and other distractions when learners are practicing individual skills. \u2981 Explain that learning plateaus are common and that continued practice leads to continued improvement. Putting It All Together Many skills are taught before a learner can fly an airplane or a maintenance learner can rebuild an aircraft engine. Just as practicing scales is a fundamental part of learning to play the piano, the learner does not \u201cmake music\u201d until the ability to combine the notes in a variety of ways is acquired. For the learner pilot or technician, practicing specific skills is es"
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To help learners exercise their knowledge and skills in a concerted fashion, the instructor should: \u2981 Explain the difference between normal task switching and interruption multitasking and give examples of each. \u2981 Ensure that individual skills are reasonably well-practiced before asking learners to perform several tasks at once. \u2981 Teach learners how to deal with distractions and interruptions and provide them with opportunities to practice. \u2981 Point out fixation and inattention when it occurs. \u2981 Devise scenarios that allow learners to use their knowledge and skill to solve realistic problems and make decisions. \u2981 Explain to the learner that continued practice with the goal of improving leads to continued improvement. Errors Errors are a natural part of human performance. Beginners, as well "
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To help learners learn from errors they make and be prepared for them in the future, an instructor should: \u2981 Explain that pilots and mechanics at all levels of skill and experience make occasional errors. \u2981 Explain that the magnitude and frequency of errors tend to decrease as skill and experience increases. \u2981 Explain the difference between slips and mistakes and provide examples of each. \u2981 Explain ways in which the learner can help minimize errors. \u2981 Allow the learner to practice recovering from common errors. \u2981 Point out errors when they occur and ask the learner to explain why they occurred."
+      },
+      {
+        "title": "Memory",
+        "content": "Memory is the vital link between the learner learning/retaining information and the cognitive process of applying what is learned. It is the ability of people and other organisms to encode (initial perception and registration of information), store (retention of encoded information over time), and retrieve (processes involved in using stored information) information. [Figure 3-22] When a person successfully recalls a past experience (or skill), information about the experience has been encoded, stored, and retrieved. complex coding, sorting, storing, and recall functions. Although there is no universal agreement of how memory works, a widely accepted model has three components: sensory memory, short-term memory (STM), and long-term memory (LTM). Sensory Memory Sensory memory is the part of"
+      },
+      {
+        "title": "Forgetting",
+        "content": "Forgetting, which refers to loss of a memory, typically involves a failure in memory retrieval. The failure may be due to the decay or overwriting of information which has been temporarily stored in STM, but generally forgetting refers to loss of information from LTM. The information is not lost, per se, it is somewhere in the person\u2019s LTM, but he or she is not able to retrieve and remember it. Why do people forget? Why don\u2019t we remember everything? Do we need to remember everything? Most of the information people are exposed to each day has a short period of usefulness with little need to retain it. For example, why would anyone need to remember the details of an hourly weather broadcast ten years ago? Thus, forgetting knowledge is not always a bad thing. For example, forgetting old infor"
+      },
+      {
+        "title": "Interference",
+        "content": "Interference theory suggests that people forget something because a certain experience has overshadowed it, or that the learning of similar things has intervened. This theory might explain how the range of experiences after graduation from school causes a person to forget or to lose knowledge. In other words, new events displace many things that had been learned. From experiments, at least two conclusions about interference may be drawn. First, similar material seems to interfere with memory more than dissimilar material; and second, material not well learned suffers most from interference."
+      },
+      {
+        "title": "Repression or Suppression",
+        "content": "Freudian psychology advances the view that some forgetting is caused by repression or suppression. In repression or suppression, a memory is pushed out of reach because the individual does not want to remember the feelings associated with it. Repression is an unconscious form of forgetting while suppression is a conscious form. Forgetting information does not mean it is gone forever. Sometimes it is still there, just inaccessible."
+      },
+      {
+        "title": "Retention of Learning",
+        "content": "Each of the theories of forgetting implies that when a person forgets something, it is not actually lost. Rather, it is simply unavailable for recall. The instructor\u2019s problem is how to make certain that the learner\u2019s learning is readily available for recall. The following suggestions can help. Teach thoroughly and with meaning. Material thoroughly learned is highly resistant to forgetting. This is suggested by experimental studies and it also was pointed out in the sections on skill learning. Meaningful learning builds patterns of relationships in the learner\u2019s consciousness, which is one reason to conduct SBT. In contrast, rote learning is superficial and is not easily retained. Meaningful learning goes deep because it involves principles and concepts anchored in the learner\u2019s own experi"
+      },
+      {
+        "title": "Recall Is Promoted by Association",
+        "content": "As discussed earlier, each bit of information or action, which is associated with something to be learned, tends to facilitate its later recall by the learner. Unique or disassociated facts tend to be forgotten unless they are of special interest or application. Favorable Attitudes Aid Retention People learn and remember only what they wish to know. Without motivation there is little chance for recall. The most effective motivation is based on positive or rewarding objectives. Learning with All Senses Is Most Effective Although people generally receive what is learned through the eyes and ears, other senses also contribute to most perceptions. When several senses respond together, a fuller understanding and greater chance of recall is achieved. Meaningful Repetition Aids Recall Each repeti"
+      },
+      {
+        "title": "Transfer of Learning",
+        "content": "Transfer of learning is broadly defined as the ability to apply knowledge or procedures learned in one context to new contexts. Learning occurs more quickly and he or she develops a deeper understanding of the task if he or she brings some knowledge or skills from previous learning. A positive transfer of learning occurs when the individual practices under a variety of conditions, underscoring again the value of SBT. A distinction is commonly made between near and far transfer. Near transfer consists of transfer from initial learning that is situated in a given setting to ones that are closely related. Far transfer refers both to the ability to use what was learned in one setting to a different one as well as the ability to solve novel problems that share a common structure with the knowle"
+      },
+      {
+        "title": "Habit Formation",
+        "content": "The formation of correct habit patterns from the beginning of any learning process is essential to further learning and for correct performance after the completion of training. Remember, primacy is one of the fundamental principles of learning. Therefore, it is the instructor\u2019s responsibility to insist on correct techniques and procedures from the outset of training to provide proper habit patterns. It is much easier to foster proper habits from the beginning of training than to correct faulty ones later. Due to the high level of knowledge and skill required in aviation for both pilots and maintenance technicians, training has traditionally followed a building block concept. This means new learning and habit patterns are based on a solid foundation of experience and/or old learning. Every"
+      },
+      {
+        "title": "Sources of Knowledge",
+        "content": "Aviation learners obtain knowledge from a variety of sources while training to be pilots or mechanics. The aviation instructor is the learner\u2019s primary source of knowledge, but an instructor also recommends other sources of knowledge. These include books, photographs, videos, diagrams and charts, and other instructional materials. These sources are important for the learner because they allow information to be archived and easily transferred from one person to another. They also allow the reader to self-pace the acquisition of information and permit the reader to pause, think, formulate, and reformulate his or her understanding. The instructor also encourages the learner to gain experience in the real-world of aviation. These experiences enhance the learner\u2019s incidental learning: observati"
+      },
+      {
+        "title": "Summary of Instructor Actions",
+        "content": "To help learners remember what they have learned, the instructor should: \u2981 Discuss the difference between short-term memory and long-term memory. \u2981 Explain the effect of frequent and recent usage of knowledge on remembering and forgetting. \u2981 Explain the effect of depth of understanding on remembering and forgetting. \u2981 Encourage learner use of mnemonic devices while studying. \u2981 Explain the benefits of studying at regularly spaced intervals, and the disadvantages of \u201ccramming.\u201d"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "Learning theory has caused instruction to move from basic skills and pure facts to linking new information with prior knowledge, from relying on a single authority to recognizing multiple sources of knowledge, and from novice-like to expert-like problem-solving. While educational theories facilitate learning, no one learning theory is good for all learning situations and all learners. Instruction in aviation should utilize a combination of learning theories. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 4: Effective Communication",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Carol, a flight instructor, has planned the first tailwheel flight with Jacob, her learner pilot. She begins the preflight briefing with an explanation of the tendency of tailwheel aircraft to yaw in normal takeoff. This yawing tendency gives the illusion that the tailwheel aircraft is unstable during the takeoff. Since this yawing tendency occurs on every takeoff, it is predictable and the pilot is able to compensate for it. Carol then discusses the precession, which causes the noticeable yaw when the tail is raised from a threepoint attitude to a level flight attitude. This change of attitude tilts the horizontal axis of the propeller, and the resulting precession produces a forward force on the right side (90\u00b0 ahead in the direction of rotation), yawing the aircraft\u2019s nose to the left. "
+      },
+      {
+        "title": "Basic Elements of Communication",
+        "content": "Communication takes place when one person transmits ideas or feelings to another person or group of people. The effectiveness of the communication is measured by the similarity between the idea transmitted and the idea received. The process of communication is composed of three elements: \u2981 Source (sender, speaker, writer, encoder, transmitter, or instructor) \u2981 Symbols used in composing and transmitting the message (words or signs [model prop/desk lamp in Figure 4-1]) \u2981 Receiver (listener, reader, decoder, or learner) The three elements are dynamically interrelated since each element is dependent on the others for effective communication to take place. The relationship between the source and the receiver is also dynamic and depends on the two-way flow of symbols between the source and the r"
+      },
+      {
+        "title": "Source",
+        "content": "As indicated, the source in communication is the sender, speaker, writer, encoder, transmitter, or instructor. The effectiveness of persons acting in the role of communicators is related to at least three basic factors. First, their ability to select and use language is essential for transmitting symbols that are meaningful to listeners and readers. It is the responsibility of the speaker or writer, as the source of communication, to realize that the effectiveness of the communication is dependent on the receiver\u2019s understanding of the symbols or words being used. For example, if an aviation maintenance instructor were to use aviation acronyms like ADs, TCDS or STCs or a flight instructor were to use aviation acronyms like ILS, TCAS, or TAWS with a new maintenance learner or learner pilot "
+      },
+      {
+        "title": "Symbols",
+        "content": "At its basic level, all communication is achieved through symbols, which are simple oral, visual, or tactile codes. The words in the vocabulary constitute a basic code. Common gestures and facial expressions form another, but codes and symbols alone do not communicate complex concepts. These are communicated only when symbols are combined in meaningful wholes as ideas, sentences, paragraphs, speeches, or chapters that mean something to the receiver. When symbols are combined into these units, each portion becomes important to effective communication. On a higher level, communication with symbols relies upon different perceptions, sometimes referred to as channels. While many theories have been proposed, one popular theory indicates that the symbols are perceived through one of three sensor"
+      },
+      {
+        "title": "Receiver",
+        "content": "The receiver is the listener, reader, decoder, or learner\u2014the individual or individuals to whom the message is directed. Effective communicators should always keep in mind that communication succeeds only in relation to the reaction of their receivers. When the receiver reacts with understanding and changes his or her behavior according to the intent of the source, effective communication has taken place. In order to understand the process of communication, three characteristics of receivers need to be understood: abilities, attitudes, and experiences. First, an instructor needs to determine the abilities of the learner in order to properly communicate. One factor that can have an effect on learner ability is his or her background. For example, consider how familiar the learner may be with"
+      },
+      {
+        "title": "Barriers to Effective Communication",
+        "content": "It is essential to understand the dynamics of communication, but the instructor also needs to be aware of several barriers to communication that can inhibit learning. The nature of language and the way it is used often lead to misunderstandings. These misunderstandings can be identified by four barriers to effective communication: lack of common experience, confusion between the symbol and the symbolized object, overuse of abstractions, and external factors. [Figure 4-3]"
+      },
+      {
+        "title": "Lack of Common Experience",
+        "content": "Lack of common experience between the communicator (instructor) and the receiver (learner) is probably the greatest single barrier to effective communication. Communication can be effective only to the extent that the experiences (physical, mental, and emotional) of the participants are similar. Many people seem to believe that words transport meanings from speaker to listener in the same way that a truck carries bricks from one location to another. Words, however, rarely carry precisely the same meaning from the mind of the instructor to the mind of the learner. In fact, words, in themselves, do not transfer meanings at all. Whether spoken or written, words are merely stimuli used to arouse a response in the learner. The learner\u2019s past experience with the words and things to which they re"
+      },
+      {
+        "title": "Confusion Between the Symbol and the Symbolized Object",
+        "content": "Confusion between the symbol and the symbolized object results when a word is confused with what it is meant to represent. Although it is obvious that words and the connotations they carry can be different, people sometimes fail to make the distinction. An aviation maintenance technician (AMT) might be introduced as a mechanic. To many people, the term mechanic conjures up images of a person laboring over an automobile. Being referred to as an aircraft mechanic might be an improvement in some people\u2019s minds, but neither really portrays the training and skill of the AMT. Words and symbols do not always represent the same thing to every person. To communicate effectively, speakers and writers should account for possible misinterpretation. Words and symbols can then be chosen to represent wha"
+      },
+      {
+        "title": "Overuse of Abstractions",
+        "content": "Abstractions are words that are general rather than specific. Concrete words or terms refer to objects people can relate directly to their own experiences. These words or terms specify an idea that can be perceived or a thing that can be visualized. Abstract words, on the other hand, stand for ideas that cannot be directly experienced, things that do not call forth mental images in the minds of the learners. The word aircraft is an abstract word. It does not call to mind a specific aircraft. One learner may visualize an airplane, while another might visualize a helicopter, and still another learner might visualize an airship. [Figure 4-4] Although the word airplane is more specific, various learners might envision anything from a Boeing 777 to a Piper Cub. Aircraft engines represent anothe"
+      },
+      {
+        "title": "External Factors",
+        "content": "Some barriers to effective communication can be controlled by the instructor. Others are external factors outside of the instructor\u2019s control that prevent a process or activity from being carried out properly. These factors may include physiological, environmental, and psychological elements. To communicate effectively, the instructor should consider the effects of these factors and mitigate them where possible. Physiological external factors include biological conditions such as hearing loss, injury, physical illness, or other congenital condition. These physiological factors may cause learner discomfort and inhibit communication. The instructor should adapt the presentation to allow the learner to feel better about the situation and be more receptive to new ideas. Adaptation could be as "
+      },
+      {
+        "title": "Interference",
+        "content": "Interference occurs when the message gets disrupted, truncated, or added to somewhere in the communication sequence. While the instructor or learner may believe that an intact message has been sent and received, the assumption may be inaccurate. Noise and other factors may distort the message. Psychological factors also interfere with the receipt of a message. Instructors and learners confirm the message and its proper communication when observing the effect of a message. Additional feedback and confirmation reduce potential harmful effects from interference."
+      },
+      {
+        "title": "Developing Communication Skills",
+        "content": "Communication skills need to be developed; they do not occur automatically. The ability to effectively communicate stems from experience. The experience of instructional communication begins with role playing during training to be an instructor, continues during the actual instruction, and is enhanced by additional training."
+      },
+      {
+        "title": "Role Playing",
+        "content": "Role playing is a method of learning in which learners perform a particular role. In role playing, the learner is provided with a general description of a situation and then applies a new skill or knowledge to perform the role. Experience in instructional communication comes from actually doing it and is learned in the beginning by role playing during the instructor\u2019s initial training. For example, a flight instructor applicant can fly with a flight instructor who assumes the role of a learner pilot. In this role, the flight instructor can duplicate known learner responses and then critique the applicant\u2019s role as instructor. A mentor or supervisor can play the learner AMT for a maintenance instructor applicant. It is essential for the flight instructor to develop good ground instruction s"
+      },
+      {
+        "title": "Instructional Communication",
+        "content": "Instruction has taken place when the instructor explains a particular procedure and subsequently determines that the learner exhibits the desired response. Even so, the instructor can improve communication by adhering to techniques of good communication. One of the basic principles used in public speaking courses is to encourage participants to make presentations about something they understand. It would not be good if an instructor without a maintenance background tried to teach a course for aviation maintenance. Instructors perform better when speaking of something they know very well and for which they have a high level of confidence. The instructor should not be afraid to use examples of past experiences to illustrate particular points. When teaching the procedures to be used for trans"
+      },
+      {
+        "title": "Listening",
+        "content": "Instructors should know something about their learners in order to communicate effectively. As discussed earlier, an instructor needs to determine the abilities of the learners and properly communicate, and one way of becoming better acquainted with learners is to be a good listener. Good instructors work to master listening ability and frequently self-evaluate in this area. Instructors can use a number of techniques to become better at listening. [Figure 4-5] Just as it is important for instructors to want to listen in order to be effective listeners, it is necessary for learners to want to listen. Wanting to listen is just one of several techniques that allow a learner to listen effectively. Instructors can improve the percentage of information transfer by teaching learners how to listen"
+      },
+      {
+        "title": "Questioning",
+        "content": "Good questioning can determine how well the learner understands what is being taught. It also shows the learner that the instructor is paying attention and that the instructor is interested in the learner\u2019s response. An instructor should ask focused, open-ended questions and avoid closed-ended questions. Focused questions allow the instructor to concentrate on desired areas. An instructor may ask for additional details, examples, and impressions from the learner. This allows the instructor to ask further questions if necessary. The presentation can then be modified to fit the understanding of the learner. Open-ended questions are designed to encourage full, meaningful answers using the learner\u2019s own knowledge and perceptions while closed-ended questions encourage a short or single-word ans"
+      },
+      {
+        "title": "Instructional Enhancement",
+        "content": "An instructor never stops learning. While professional development is discussed in greater detail in Chapter 8, the more an instructor knows about a subject, the better the instructor is at conveying that information. For example, a maintenance instructor teaching basic electricity might be able to teach at a minimally satisfactory level if the instructor had only the same training level as that being taught. If asked a question that exceeded the instructor\u2019s knowledge, the instructor could research the answer and get back to the learner. It would be much better if the instructor, through experience or additional training, was prepared to answer the question initially. Additional knowledge and training would also bolster the instructor\u2019s confidence and give the instructional presentation m"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "An awareness of the basic elements of the communicative process (source, symbols, and receiver) is the foundation for a successful communicator. Recognizing the various barriers to communication further enhances the flow of ideas between an instructor and the learner. Instructors develop communications skills in order to convey desired information to the learners. They also recognize that communication is a two-way process. In the end, successful communication has taken place if the desired results have been achieved. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 5: The Teaching Process",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Bob, an aviation maintenance instructor, arrives thirty minutes before a scheduled class to prepare for the lesson he plans to present that day. A quick visual scan tells him the classroom has good lighting, the desks are in order, and the room presents a neat overall appearance. He places his lecture notes on the podium, checking to make sure they are all there and in the correct order. Then, he turns on the computer to ensure the components are working correctly. A quick run of his visual presentation reassures him this portion of his lecture is ready. Next, he counts the handouts he plans to distribute to the class. By now, learners are beginning to filter into the classroom. With his preparations complete, Bob is free to greet the learners, chat with them socially, or answer any questi"
+      },
+      {
+        "title": "Process",
+        "content": "The teaching process organizes the material an instructor wishes to teach in such a way that the learner can understand it. The teaching process consists of four steps: preparation, presentation, application, and assessment. Regardless of the teaching or training delivery method used, the overall sequence remains the same. Much research has been devoted to trying to discover what makes an effective instructor. This research has revealed that effective instructors come in many forms, but they know how to process four essential teaching steps mentioned above. [Figure 5-1] The remainder of this chapter explores the qualities of effective teachers and the methods used for preparing, presenting applying, and assessing lesson material and covers various delivery methods in depth."
+      },
+      {
+        "title": "Essential Teaching Skills",
+        "content": "Four essential skills good teachers have include: 1. People skills 2. Subject matter expertise 3. Assessment skills 4. Management skills"
+      },
+      {
+        "title": "People Skills",
+        "content": "Effective instructors relate well to people. Effective communication, discussed in Chapter 4, underlies people skills. It is important for instructors to remember: \u2981 Technical knowledge is useless if the instructor fails to communicate it effectively. \u2981 The two-way process of effective communication includes actively listening to the learner. In the previous scenario, Bob uses the guided group discussion period to listen to his learners discuss the weight and balance problem. By listening to their discussion and questions, he can pinpoint problem areas and explain them more fully during the review of the solved problem. People skills also include the ability to interact respectfully, pick up when learners are not following along, provide motivation, and adapt to the needs of the learner wh"
+      },
+      {
+        "title": "Subject Matter Expertise",
+        "content": "A subject matter expert (SME) is a person who possesses a high level of expertise, knowledge, or skill in a particular area. For example, the instructor in the opening scenario is an aviation maintenance SME. Effective instructors have a sincere interest in learning and professional growth. There are a number of professional development opportunities for aviation instructors, such as Federal Aviation Administration (FAA) seminars, industry conventions, professional organizations, and online classes. Networking with and observing other instructors and seeking mentoring from an experienced instructor to learn new strategies is also helpful. By being a lifelong learner, the aviation professional remains current in both aviation and education. This topic is explored more thoroughly in the sect"
+      },
+      {
+        "title": "Management Skills",
+        "content": "Management skills generally include the ability to plan, organize, lead, and supervise. For the effective instructor, this translates into being able to plan, organize, and carry out a lesson. A well-planned lesson means the instructor is also practicing time management skills and ensures the time allocated for the lesson is used effectively. To manage time well, it is important that an instructor plans how to use the time to achieve the lesson goals. This includes time for what needs to be done as well as time to handle the unexpected. It minimizes stress by not planning too much for the allotted time. Time management also come into play for the aviation instructor who is teaching a class. Consider the opening scenario in which Bob arrived early for the class and ensured the classroom was"
+      },
+      {
+        "title": "Assessment Skills",
+        "content": "In Chapter 3, The Learning Process, learning was defined as a change in the behavior as a result of experience. The behavior can be physical and overt, or it can be intellectual or attitudinal. This change is measurable and therefore can be assessed. Assessment of learning is a complex process, and it is important to be clear about the purposes of the assessment. There are several points at which assessments can be made: before training, during training, and after training. Assessment of learning is another important skill of an effective instructor. [Figure 5-2] This topic is discussed in detail in Chapter 6, Assessment. Instructor's Code of Ethics While many of the characteristics of effective instructors discussed in the previous paragraphs hold true for any instructor, the aviation ins"
+      },
+      {
+        "title": "Course of Training",
+        "content": "In education, a course of training is a complete series of studies leading to attainment of a specific goal. The goal might be a certificate of completion, graduation, or an academic degree. For example, a learner pilot may enroll in a private pilot certificate course, and upon completion of all course requirements, be awarded a graduation certificate. A course of training also may be limited to something like the additional training required for operating high-performance airplanes. Other terms closely associated with a course of training include curriculum, syllabus, and lesson plan. A curriculum for pilot training usually includes courses for the various pilot certificates and ratings, while the curriculum for an aviation maintenance technician (AMT) addresses the subject areas describe"
+      },
+      {
+        "title": "Preparation of a Lesson",
+        "content": "A determination of objectives and standards precedes instruction. Although some schools and independent instructors may develop their own syllabus, in practice, many instructors use a commercially-developed syllabus. For the aviation instructor, the objectives listed in the syllabus are a beginning point for instruction."
+      },
+      {
+        "title": "Training Objectives and Standards",
+        "content": "Aviation training involves two types of objectives: performance-based and decision-based. Performance-based objectives help define exactly what needs to be done and how it is done during each lesson. As the learner progresses through higher levels of performance and understanding, the instructor should shift the training focus to decision-based training objectives. Decision-based training objectives rely on a more dynamic training environment and are ideally suited to scenario-based training and teach aviation learners critical thinking skills, such as risk management and aeronautical decision-making (ADM). As indicated in Chapter 3, The Learning Process, training objectives apply to all three domains of learning\u2014cognitive (knowledge), affective (attitudes, beliefs, values), and psychomoto"
+      },
+      {
+        "title": "Description of the Skill or Behavior",
+        "content": "The description of the skill or behavior explains the desired outcome of the instruction as a change in knowledge, skill, or attitude. The skill or behavior should be in concrete and measurable terms. Phrases such as \u201cknowledge of ...\u201d and \u201cawareness of ...\u201d cannot be measured very well and should be avoided. Phrases like \u201cable to select from a list of ...\u201d or \u201cable to repeat the steps to ...\u201d are better because they describe something measurable. Conditions Conditions explain the rules for demonstration of the skill. If the desired objective is to navigate from point A to point B, the objective, as stated, is not specific enough for all learners to do it in the same way. Information such as equipment, tools, reference material, and limiting parameters should be included. For example, inse"
+      },
+      {
+        "title": "Presentation of a Lesson",
+        "content": "How does an instructor keep the attention of a class? The steps in Figure 5-6 form a guideline for lesson presentation. Many of them can be combined during the actual presentation. For example, consider a video presentation given during the weight and balance lecture. The video adds a multimedia element to the lecture, is a good attention getter, and can visually demonstrate the learning objective. Organization of Material After determining objectives and standards, an instructor formulates a plan of action to lead learners through the course in a logical manner toward the desired goal. Usually, the goal for learners is a certificate or rating. It could be a private pilot certificate, an instrument rating, an AMT certificate or, other rating. In all cases, a systematic plan of action requi"
+      },
+      {
+        "title": "Attention",
+        "content": "The purpose of the attention element is to focus each learner\u2019s attention on the lesson. The instructor begins by telling a story, showing a video clip, asking a question, or telling a joke. Any of these may be appropriate at one time or another. Regardless of which is used, it should relate to the subject and establish a background for developing the learning outcomes. Telling a story or a joke unrelated in some way to the subject distracts from the lesson. The main concern is to focus everyone\u2019s attention on the subject. [Figure 5-7]"
+      },
+      {
+        "title": "Motivation",
+        "content": "The motivation element offers the learners specific reasons why the lesson content is important to know, understand, apply, or perform and thus ensures readiness (Thorndike\u2019s Law of Readiness). The instructor may provide examples where someone applied the knowledge or remind the learners of an upcoming assessment. The motivation should appeal to each learner personally and engender a desire to understand the material. Overview Every lesson introduction should contain an overview that tells the group what is to be covered during the period. A clear, concise presentation of the objective and the key ideas gives the learners a road map of the route to be followed. A good visual aid can help the instructor show the learners the path that they are to travel. Development Development is the main "
+      },
+      {
+        "title": "Lecture Method",
+        "content": "In the lecture method, the instructor delivers knowledge via lectures to learners who are more or less silent participants. Lectures are best used when an instructor wishes to convey a general understanding of a subject. In general, lectures begin with an introduction of the topic to be discussed. The body of the lecture follows with a summary of the lecture\u2019s main points at the end. Lectures may introduce new subjects, summarize ideas, show relationships between theory and practice, and reemphasize main points. Thus, the lecture method is adaptable to many different settings, including small or large groups. Finally, lectures may be combined with other teaching methods to give added meaning and direction. There are different varieties of lectures. During the illustrated talk, the speaker "
+      },
+      {
+        "title": "Discussion Method",
+        "content": "The discussion method modifies the pure lecture form by using lecture and then discussion to actively integrate the learner into the process. In the discussion method, the instructor provides a short lecture, which gives basic knowledge to the learners. This short lecture is followed by instructor-learner and learner- learner discussion. This method relies on discussion and the exchange of ideas. Everyone has the opportunity to comment, listen, think, and participate. By being actively engaged in discussing the lecture, learners improve their recall and ability to use the information. It is important for the instructor to keep the discussion focused on the subject matter. The instructor may need to initiate leading questions, comment on any disagreements, ensure that all learners participa"
+      },
+      {
+        "title": "Introduction",
+        "content": "The introduction should include an attention element, a motivation element, and an overview of key points. To encourage enthusiasm and stimulate discussion, the instructor should create a relaxed, informal atmosphere. Each learner should be given the opportunity to discuss the various aspects of the subject, and feel free to do so. Moreover, the learner should feel a personal responsibility to contribute. The instructor should try to make the learners feel that their ideas and active participation are wanted and needed. Discussion The instructor opens the discussion by asking one of the prepared lead-off questions. Discussion questions should be easy for learners to understand and put forth decisively. While the instructor should have the answer in mind before asking the question, the lear"
+      },
+      {
+        "title": "Simulation, Role-Playing, and Video Gaming",
+        "content": "Simulation (the appearance of real life), role-playing (playing a specific role in the context of a real-world situation), and video gaming have taken e-learning in new directions. [Figure 5-14] The popularity of simulation games that provide players with complex situations and opportunities to learn have drawn educators into the gaming field as they seek interactive educational games that help retain subject matter learning. The advantages of simulation/role-playing games come as the learner obtains new information, develops skills, connects and manipulates information. A game gives the learner a stake in the outcome by putting them into the shoes of a character (role-playing) who needs to overcome a real-world scenario. Learning evolves as a result of the interactions with the game, and "
+      },
+      {
+        "title": "Demonstration-Performance Method",
+        "content": "Best used for the mastery of mental or physical skills that require practice, the demonstration-performance method is based on the principle that people learn by doing. In this method, learners observe the skill and then try to reproduce it. It is well suited for the aircraft maintenance instructor who uses it in the shop to teach welding, and the flight instructor who uses it in teaching piloting skills. Every instructor should recognize the importance of learner performance in the process. Early in demonstration and performance lesson, the instructor should identify the most important learning outcomes. Next, explain and demonstrate the steps involved in performing the skill being taught. Then, allow learners time to practice each step, so they can increase their ability to perform the s"
+      },
+      {
+        "title": "Explanation Phase",
+        "content": "Explanations need to be clear, pertinent to the objectives of the particular lesson to be presented, and based on the known experience and knowledge of the learners. In teaching a skill, the instructor conveys to the learners the precise actions they are to perform. In addition to the necessary steps, the instructor should describe the end result of these efforts. Before leaving this phase, the instructor should encourage learners to ask questions about any step of the procedure that they do not understand."
+      },
+      {
+        "title": "Demonstration Phase",
+        "content": "The instructor shows learners the actions necessary to perform a skill. Extraneous activity should be excluded from the demonstration so that learners clearly understand the desired actions. If the demonstration deviates from the explanation, this deviation should be immediately acknowledged and explained."
+      },
+      {
+        "title": "Learner Performance and Instruction Supervision Phases",
+        "content": "While they involve separate actions, the learner\u2019s performance of the physical or mental skills that and the instructor\u2019s supervision occur at the same time. The instructor needs to allot enough time for meaningful activity. Through doing, learners learn to follow correct procedures and to reach established standards. It is important that learners be given an opportunity to perform the skill as soon as possible after a demonstration. In flight training, the instructor may allow the learner to follow along on the controls during the demonstration of a maneuver. Immediately thereafter, the instructor should have the learner attempt to perform the maneuver, coaching as necessary. In the opening scenario, learners performed a task (weight and balance computation) as a group, and prior to termi"
+      },
+      {
+        "title": "Evaluation Phase",
+        "content": "In this phase, the instructor judges learner performance. The learner displays whatever competence has been attained, and the instructor identifies how well the skill has been mastered. To test performance ability, the instructor requires learners to work independently throughout this phase and makes some comment about how each performed the skill relative to the way it was taught. From this measurement of learner achievement, the instructor determines the effectiveness of the instruction."
+      },
+      {
+        "title": "Drill and Practice Method",
+        "content": "Drill and practice, based on Thorndike's law of exercise discussed in Chapter 3, The Learning Process, predicts that connections are strengthened with practice. The human mind rarely retains, evaluates, and applies new concepts or practices after one exposure. Learners do not master welding during one shop period or perform crosswind landings during one instructional flight. They learn by practicing and applying what they have been told and shown. Every time practice occurs, learning continues. Effective use of drill and practice revolves around what skill is being developed. The instructor provides opportunities for learners to practice and while directing the process toward an objective. Conclusion A successful instructor needs to be various teaching methods. Although lecture and demonst"
+      },
+      {
+        "title": "Assessment of the Lesson",
+        "content": "Before the end of the instructional period, the instructor should review what has been covered during the lesson and ask the learners to demonstrate how well the lesson objectives have been met. Review and assessment are integral parts of each classroom, or flight lesson. The instructor\u2019s assessment may be informal and recorded only for the instructor\u2019s own use in planning the next lesson, or it may be formal. Often, the assessment is formal and results recorded to certify the learner\u2019s progress in the course. Assessment is explored in more detail in Chapter 6. Instructional Aids and Training Technologies Instructional aids are devices that assist an instructor in the teaching-learning process. Instructional aids are not self-supporting; they support, supplement, or reinforce what is being"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "As indicated by this discussion, the teaching process organizes the material an instructor wishes to teach in such a way that the learner understands what is being taught. An effective instructor uses a combination of teaching methods as well as instructional aids to achieve this goal. By being well prepared, an effective instructor presents and applies lesson material, and also periodically assesses learning. An effective instructor never stops learning. He or she maintains currency in the subject matter being taught, as well as how to teach it by reading professional journals and other aviation publications, many of which can be viewed or purchased via the Internet, another source of valuable aviation information for professional instructors. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 6: Assessment",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Assessment is an essential component of teaching and learning, and it provides the instructor with immediate feedback on the quality of instruction. Instructors continuously evaluate a learner\u2019s performance in order to provide guidance, suggestions for improvement, and positive reinforcement. This chapter examines the instructor\u2019s role when assessing levels of learning, it describes methods of assessment, and it discusses how instructors may construct and conduct effective assessments. Since learners are different and each situation is unique, instructors individualize an assessment as needed. Aviation instructors can use the techniques and methods described in this chapter as appropriate."
+      },
+      {
+        "title": "Assessment Terminology",
+        "content": "This chapter presents two broad categories of assessment. The first is traditional assessment, which often involves the kind of written testing (e.g., multiple choice, matching) and grading that is most familiar to instructors and learners. To achieve a passing score on a traditional assessment, the learner usually has a set amount of time to recognize or reproduce memorized terms, formulas, or data. There is a single answer that is correct. Consequently, the traditional assessment usually assesses the learner\u2019s progress at the rote and understanding levels of learning. However, carefully crafted scenario questions can assess higher levels of learning. The second category of assessment is authentic assessment. Authentic assessment requires the learner to demonstrate not just rote and under"
+      },
+      {
+        "title": "Purpose of Assessment",
+        "content": "An effective assessment provides critical information to both the instructor and the learner. Both instructor and learner need to know how well the learner is progressing. A good assessment provides practical and specific feedback to learners. This includes direction and guidance indicating how they may raise their level of performance. Most importantly, a well-designed and effective assessment provides an opportunity for self-evaluation that enhances the learner's aeronautical decision-making and judgment skills. A well-designed assessment highlights the areas in which a learner\u2019s performance is incorrect or inadequate, it helps the instructor see where more emphasis is needed. If, for example, several learners falter when they reach the same step in a weight-and-balance problem, the inst"
+      },
+      {
+        "title": "General Characteristics of Effective Assessment",
+        "content": "In order to provide direction and raise the learner\u2019s level of performance, assessment needs to be factual, and it should align with the completion standards of the lesson. An effective assessment displays the characteristics shown in Figure 6-1."
+      },
+      {
+        "title": "Objective",
+        "content": "The personal opinions, likes, dislikes, or biases of the instructor might affect an assessment. A conflict of personalities can alter an opinion. Sympathy or over-identification with a learner, to such a degree that it influences objectivity, is known as \u201chalo error.\u201d To what extent does effective assessment need to focus on objectivity and actual learner performance? If an assessment is to be effective, it needs to be honest; and it must be based on the facts of the performance as they were, not as they could have been."
+      },
+      {
+        "title": "Flexible",
+        "content": "The instructor should evaluate the entire performance of a learner in the context in which it is accomplished. Sometimes a good learner turns in a poor performance, and a poor learner turns in a good one. A friendly learner may suddenly become hostile, or a hostile learner may suddenly become friendly and cooperative. The instructor fits the tone, technique, and content of the assessment to the occasion, as well as to the learner. An assessment should be designed and executed so that the instructor can allow for variables. The ongoing challenge for the instructor is deciding what to say, what to omit, what to stress, and what to minimize at the proper moment."
+      },
+      {
+        "title": "Acceptable",
+        "content": "Consider that learners do not like negative feedback. What makes an honest assessment acceptable to the learner? A certificate or credential alone rarely suffices. Learners need to have confidence in the instructor\u2019s qualifications, teaching ability, sincerity, competence, and authority. Usually, instructors have the opportunity to establish themselves with learners before the formal assessment arises. If not, however, the instructor\u2019s manner, attitude, and familiarity with the subject at hand serves this purpose. Assessments presented fairly, with authority, conviction, sincerity, and from a position of recognizable competence tend to work well."
+      },
+      {
+        "title": "Comprehensive",
+        "content": "A comprehensive assessment is not necessarily a long one, nor need it treat every aspect of the performance in detail. While it includes strengths as well as weaknesses, the degree of coverage of each should fit the situation. The instructor might report what most needs improvement, or only what the learner can reasonably be expected to improve. The instructor decides whether the greater benefit comes from a discussion of a few major points or a number of minor points."
+      },
+      {
+        "title": "Constructive",
+        "content": "An assessment is pointless unless the learner benefits from it. Praise can capitalize on things that are done well and inspire the learner to improve in areas of lesser accomplishment. When identifying a mistake or weakness, the instructor needs to give positive guidance for correction. Praise for its own sake or negative comments that do not point toward improvement or a higher level of performance should be omitted from an assessment altogether."
+      },
+      {
+        "title": "Organized",
+        "content": "An assessment must be organized. Almost any pattern is acceptable, as long as it is logical and makes sense to the learner. An effective organizational pattern might be the sequence of the performance itself. Sometimes an assessment can begin at the point at which a demonstration failed, and work backward through the steps that led to the failure. A success can be analyzed in similar fashion. Alternatively, a glaring deficiency can serve as the core of an assessment. Breaking the whole into parts, or building the parts into a whole, is another possible organizational approach."
+      },
+      {
+        "title": "Thoughtful",
+        "content": "An effective assessment reflects the instructor\u2019s thoughtfulness toward the learner\u2019s need for self-esteem, recognition, and approval. The instructor refrains from minimizing the inherent dignity and importance of the individual. Ridicule, anger, or fun at the expense of the learner has no place in assessment. While being straightforward and honest, the instructor should always respect the learner\u2019s personal feelings. For example, the instructor should try to deliver criticism in private."
+      },
+      {
+        "title": "Specific",
+        "content": "The instructor\u2019s comments and recommendations should be specific. Learners cannot act on recommendations unless they know specifically what the recommendations are. A statement such as, \u201cYour second weld wasn\u2019t as good as your first,\u201d has little constructive value. Instead, the instructor should say why it was not as good and offer suggestions on how to improve the weld. If the instructor has a clear, well-founded, and supportable idea in mind, it should be expressed with firmness and authority, and in terms that cannot be misunderstood. At the conclusion of an assessment, learners should have no doubt about what they did well and what they did poorly and, most importantly, specifically how they can improve."
+      },
+      {
+        "title": "Traditional Assessment",
+        "content": "As defined earlier, traditional assessment generally refers to written testing, such as multiple choice, matching, true/false, fill in the blank, etc. Learners typically complete written assessments within a specified time. There is a single, correct response for each item. The assessment, or test, assumes that all learners should learn the same thing, and relies on rote memorization of facts. Responses are often machine scored and offer little opportunity for a demonstration of the thought processes characteristic of critical thinking skills. Traditional assessment lends itself to instructor centered teaching styles. The instructor teaches the material at a low level, and the measure of performance is limited. In traditional assessment, fairly simple grading matrices such as shown in Figu"
+      },
+      {
+        "title": "Authentic Assessment",
+        "content": "Authentic assessment asks the learner to perform real-world tasks and demonstrate a meaningful application of skills and competencies. Authentic assessment lies at the heart of training today\u2019s aviation learner to use critical thinking skills. Rather than selecting from predetermined responses, learners must generate responses from skills and concepts they have learned. By using openended questions and established performance criteria, authentic assessment focuses on the learning process, enhances the development of real-world skills, encourages higher order thinking skills, and teaches learners to assess their own work and performance. Learner-Centered Assessment There are several aspects of effective authentic assessment. The first is the use of open-ended questions in what might be call"
+      },
+      {
+        "title": "Assessing Risk Management Skills",
+        "content": "\u2981 Explain\u2014the learner can verbally identify, describe, and understand the risks inherent in the flight scenario, but needs to be prompted to identify risks and make decisions. \u2981 Practice\u2014the learner is able to identify, understand, and apply SRM principles to the actual flight situation. Coaching, instruction, and/or assistance quickly corrects minor deviations and errors identified by the instructor. The learner is an active decision maker. \u2981 Manage-Decide\u2014the learner can correctly gather the most important data available both inside and outside the flight deck, identify possible courses of action, evaluate the risk inherent in each course of action, and make the appropriate decision. Instructor intervention is not required for the safe completion of the flight. In SRM, the learner may be"
+      },
+      {
+        "title": "Choosing an Effective Assessment Method",
+        "content": "When deciding how to assess learner progress, aviation instructors can follow a four-step process. 1. Determine level-of-learning objectives. 2. List indicators of desired behaviors. 3. Establish criterion objectives. 4. Develop criterion-referenced test items. This process is useful for tests that apply to the cognitive and affective domains of learning, and also can be used for skill testing in the psychomotor domain. The development process for criterion-referenced tests follows a general-to-specific pattern. [Figure 6-5] Instructors should be aware that authentic assessment may not be as useful as traditional assessment in the early phases of training, because the learner does not have enough information about the concepts or knowledge to participate fully. As discussed in Chapter 3, T"
+      },
+      {
+        "title": "Establish Criterion Objectives",
+        "content": "The next step in the test development process is to define criterion (performance-based) objectives. In addition to the behavior expected, criterion objectives state the conditions under which the behavior is to be performed, and the criteria that must be met. If the instructor developed performance-based objectives during the creation of lesson plans, criterion objectives have already been formulated. The criterion objective provides the framework for developing the test items used to measure the level of learning objectives. In the compression test example, a criterion objective to measure the understanding level of learning might be stated as, \u201cThe learner will demonstrate understanding of compression test procedures for reciprocating aircraft engines by completing a quiz with a minimum"
+      },
+      {
+        "title": "Critiques and Oral Assessments",
+        "content": "Used in conjunction with either traditional or authentic assessment, the critique is an instructor-to-learner assessment. These methods can also be used either individually, or in a classroom setting. The word critique sometimes has a negative connotation, and the instructor needs to avoid using this method as an opportunity to be overly critical of learner performance. An effective critique considers good as well as bad performance, the individual parts, relationships of the individual parts, and the overall performance. A critique can and usually should be as varied in content as the performance being evaluated. A critique may be oral, written, or both. It should come immediately after a learner\u2019s performance, while the details of the performance are easy to recall. An instructor may cri"
+      },
+      {
+        "title": "Small Group Critique",
+        "content": "For the small group critique, the class is divided into small groups, each assigned a specific area to analyze. Each group presents its findings to the class. It is desirable for the instructor to furnish the criteria and guidelines. The combined reports from the groups can result in a comprehensive assessment."
+      },
+      {
+        "title": "Individual Learner Critique by Another Learner",
+        "content": "The instructor may require another learner to present the entire assessment. A variation is for the instructor to ask a number of learners questions about the manner and quality of performance. Discussion of the performance and of the assessment can often allow the group to accept more ownership of the ideas expressed. As with all assessments incorporating learner participation, it is important that the instructor maintain firm control over the process. Self-Critique A learner critiques personal performance in a self-critique. Like all other methods, a self-critique receives control and supervision from the instructor."
+      },
+      {
+        "title": "Written Critique",
+        "content": "A written critique has three advantages. First, the instructor can devote more time and thought to it than to an oral assessment in the classroom. Second, learners can keep written assessments and refer to them whenever they wish. Third, when the instructor asks all learners to write an assessment of a performance, the learner-performer has the permanent record of the suggestions, recommendations, and opinions of all the other learners. The disadvantage of a written assessment is that other members of the class do not benefit. Whatever the type of critique, the instructor should resolve disagreements and correct erroneous impressions. The instructor also makes allowances for the learners\u2019 relative inexperience. Normally, the instructor should reserve time at the end of the learner assessme"
+      },
+      {
+        "title": "Oral Assessment",
+        "content": "The most common means of assessment is direct or indirect oral questioning of learners by the instructor. Questions may be loosely classified as fact questions and HOTS questions. The answer to a fact question is based on memory or recall. This type of question usually concerns who, what, when, and where. HOTS questions involve why or how and require the learner to combine knowledge of facts with an ability to analyze situations, solve problems, and arrive at conclusions. Proper quizzing by the instructor can have a number of desirable results, such as: 1. Reveals the effectiveness of the instructor\u2019s training methods 2. Checks learner retention of what has been learned 3. Reviews material already presented to the learner 4. Can be used to retain learner interest and stimulate thinking 5. "
+      },
+      {
+        "title": "Characteristics of Effective Questions",
+        "content": "The instructor should devise and write pertinent questions in advance. One method is to place them in the lesson plan. Prepared questions merely serve as a framework, and as the lesson progresses, should be supplemented by such impromptu questions as the instructor considers appropriate. Objective questions have only one correct answer, while the answer to an open-ended HOTS question can be expressed in a variety of possible solutions. To be effective, questions must: 1. Apply to the subject of instruction. 2. Be brief and concise, but also clear and definite. 3. Be adapted to the ability, experience, and stage of training of the learners. 4. Center on only one idea (limited to who, what, when, where, how, or why, not a combination). 5. Present a challenge to the learners."
+      },
+      {
+        "title": "Types of Questions to Avoid",
+        "content": "Effective quizzing does not include yes/no questions such as \u201cDo you understand?\u201d or \u201cDo you have any questions?\u201d Instructors should also avoid the following types of questions: \u2981 Puzzle\u2014\u201cWhat is the first action you should take if a conventional gear airplane with a weak right brake is swerving left in a right crosswind during a full flap, power-on wheel landing?\u201d \u2981 Oversize\u2014\u201cWhat do you do before beginning an engine overhaul?\u201d \u2981 Toss-up\u2014\u201cIn an emergency, should you squawk 7700 or pick a landing spot?\u201d \u2981 Bewilderment\u2014\u201cIn reading the altimeter\u2014you know you set a sensitive altimeter for the nearest station pressure\u2014if you take temperature into account, as when flying from a cold air mass through a warm front, what precaution should you take when in a mountainous area?\u201d \u2981 Trick questions\u2014the"
+      },
+      {
+        "title": "Answering Learner Questions",
+        "content": "Tips for responding effectively to learner questions, especially in a classroom setting: 1. Be sure that you clearly understand the question before attempting to answer. 2. Display interest in the learner\u2019s question and frame an answer that is as direct and accurate as possible. 3. After responding, determine whether or not the learner is satisfied with the answer. Sometimes it is unwise to introduce considerations more complicated or advanced than necessary to completely answer a learner\u2019s question at the current point in training. In this case, the instructor should carefully explain to the learner that the question was good and pertinent, but that a detailed answer would, at this time, unnecessarily complicate the learning tasks. The instructor should invite the learner to reintroduce t"
+      },
+      {
+        "title": "Scenario-Based Training",
+        "content": "Since flying has become more complex, the focus of training needs to address pilot decision-making and risk management, a concept the authors call Single Pilot Resource Management (SRM). Since SRM training requires practicing the decision-making process in real time and in real situations, a new form of GA training that goes beyond the traditional task and maneuver-based training is recommended. The FITS program emphasizes combining traditional task and maneuver training with Scenario Based Training (SBT) to teach the advanced pilot judgment and risk management skills required in the SRM environment. In many respects, scenario-based training is not a new concept. Experienced flight instructors have been using scenarios to teach cross country operations, emergency procedures, and other flig"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter described the methods and techniques aviation instructors use to assess learner progress. A well-designed and timely assessment defines what is worth knowing, enhances motivation, and improves learning. Today\u2019s learners want to know the criteria by which they are assessed, and they want practical and specific feedback. Aviation instructors familiar with different types of assessments know how and when to use them to promote a productive learning environment. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 7: Planning Instructional Activity",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Susan (learner) and Bill (flight instructor) are flying a lesson scenario which consists of a short cross-country leg to a local airport for some practice landings followed by a return to the home airport located in Class C airspace. While practicing landings at the nontowered airport, Susan notes that the ceiling is lowering, and the crosswind is beginning to increase. In his own mind, Bill is convinced that they can practice landings for another 30 minutes to an hour and still return to home base. However, instead of telling Susan this, while taxiing back after a full stop landing, he first asks her several questions. \u2981 Has the flight situation changed since they left the home field? \u2981 What does she think of the weather situation? \u2981 How can we gain more information? - Check with Flight S"
+      },
+      {
+        "title": "Course of Training",
+        "content": "Whatever the method of teaching, the key to developing well-planned and organized aviation instruction includes using lesson plans and a training syllabus that meet all regulatory certification requirements. Much of the basic planning necessary for the flight instructor and maintenance instructor is provided by the knowledge and proficiency requirements published in Title 14 of the Code of Federal Regulations (14 CFR) parts 61 and 65, approved school syllabi, and the various texts, manuals, and training courses available. As discussed in Chapter 5, The Teaching Process, a course of training is a series of studies leading to attainment of a specific goal such as a certificate of completion, graduation, or an academic degree. An instructor plans instructional content around the course of tra"
+      },
+      {
+        "title": "Blocks of Learning",
+        "content": "After the overall training objectives have been established, the next step is the identification of the blocks of learning which constitute the necessary parts of the total objective. Just as in building a pyramid, some blocks are submerged in the structure and never appear on the surface, but each is an integral and necessary part of the structure. Thus, the various blocks are not isolated subjects, but essential parts of the whole. During the process of identifying the blocks of learning to be assembled for the proposed training activity, the instructor should also examine each block to ensure it is an integral part of the structure. Extraneous blocks of instruction are expensive frills, especially in-flight instruction, and detract from, rather than assist in, the completion of the fina"
+      },
+      {
+        "title": "Training Syllabus",
+        "content": "Instructors need a practical guide to help them make sure the training is accomplished in a logical sequence and that all of the requirements are completed and properly documented. A well organized, comprehensive syllabus can fulfill these needs."
+      },
+      {
+        "title": "Syllabus Format and Content",
+        "content": "The format and organization of the syllabus may vary, but it always should be in the form of an abstract or digest of the course of training. It should contain blocks of learning to be completed in the most efficient order. Since a syllabus is intended to be a summary of a course of training, it should be fairly brief, yet comprehensive enough to cover essential information. This information is usually presented in an outline format with lesson-by-lesson coverage. Some syllabi include tables to show recommended training time for each lesson, as well as the overall minimum time requirements. [Figure 7-2] While many instructors may develop their own training syllabi, there are many well-designed commercial products that may be used. These are found in various training manuals, approved schoo"
+      },
+      {
+        "title": "How to Use a Training Syllabus",
+        "content": "Any practical training syllabus needs to be flexible and should be used primarily as a guide. Under 14 CFR part 61, the order of training can and should be altered to suit the progress of the learner and the demands of special circumstances. For example, previous experience or different rates of learning often require some alteration or repetition to fit individual learners. The syllabus should also be flexible enough so it can be adapted to weather variations, aircraft availability, and scheduling changes without disrupting the teaching process or completely suspending training. When departing from the order prescribed by the syllabus, however, it is the responsibility of the instructor to consider how the relationships of the blocks of learning are affected. For example, if the learner i"
+      },
+      {
+        "title": "Lesson Plans",
+        "content": "A lesson plan is an organized outline for a single instructional period. It is a necessary guide for the instructor because it tells what to do, in what order to do it, and what procedure to use in teaching the material of a lesson. Lesson plans should be prepared for each training period and be developed to show specific knowledge and/or skills to be taught. A mental outline of a lesson is not a lesson plan. A lesson plan should be put into writing. Another instructor should be able to take the lesson plan and know what to do in conducting the same period of instruction. Written out, the lesson plan can be analyzed for adequacy and completeness. Lesson plans make excellent recordkeeping forms that can become a permanent part of a pilot\u2019s training record. They can be formatted for the inst"
+      },
+      {
+        "title": "Purpose of the Lesson Plan",
+        "content": "Lesson plans are designed to assure that each learner receives the best possible instruction under the existing conditions. Lesson plans help instructors keep a constant check on their own activity, as well as that of their learners. The development of lesson plans by instructors signifies, in effect, that they have taught the lessons to themselves prior to attempting to teach the lessons to learners. An adequate lesson plan, when properly used, should: \u2981 Assure a wise selection of material and the elimination of unimportant details. \u2981 Make certain that due consideration is given to each part of the lesson. \u2981 Aid the instructor in presenting the material in a suitable sequence for efficient learning. \u2981 Provide an outline of the teaching procedure to be used. \u2981 Serve as a means of relating "
+      },
+      {
+        "title": "How to Use a Lesson Plan Properly",
+        "content": "Be familiar with the lesson plan. The instructor should study each step of the plan and should be thoroughly familiar with as much information related to the subject as possible. Use the lesson plan as a guide. The lesson plan is an outline for conducting an instructional period. It assures that pertinent materials are at hand and that the presentation is accomplished with order and unity. Having a plan prevents the instructor from getting off track, omitting essential points, and introducing irrelevant material. Learners have a right to expect an instructor to give the same attention to teaching that they give to learning. The most certain means of achieving teaching success is to have a carefully reviewed lesson plan. Adapt the lesson plan to the class or learner. In teaching a class, th"
+      },
+      {
+        "title": "Lesson Plan Formats",
+        "content": "The format and style of a lesson plan depends on several factors. Certainly, the subject matter helps determine how a lesson is presented and what teaching method is used. Individual lesson plans may be quite simple for one-on-one training, or they may be elaborate and complicated for large, structured classroom lessons. Preferably, each lesson should have somewhat limited objectives that are achievable within a reasonable period of time. This principle should apply to both ground and flight training. However, as previously noted, aviation training is not simple. It involves all three domains of learning, and the objectives usually include the higher levels of learning, at least at the application level. In spite of need for varied subject coverage, diverse teaching methods, and relatively"
+      },
+      {
+        "title": "SBT Lesson Plan",
+        "content": "The SBT lesson plan differs from the traditional lesson plan. [Figure 7-7] In this example, the instructor pilot tells the learner to plan for arrival at a specific nontowered airport. The planning should take into consideration the possible wind conditions, arrival paths, airport information and communication procedures, available runways, recommended traffic patterns, courses of action, and preparation for unexpected situations. Upon arrival at the airport, the learner makes decisions (with guidance and feedback, as necessary) to safely enter and fly the traffic pattern. This is followed by a discussion of what was done, why it was done, the consequences, other possible courses of action, and how it applies to other airports. In contrast to the learner who trained under the traditional l"
+      },
+      {
+        "title": "Single-Pilot Resource Management",
+        "content": "SRM is the art and science of managing all the resources (both on-board the aircraft and from outside sources) available to a single pilot (prior and during flight) to ensure that the successful outcome of the flight is never in doubt. The emergence of very light jet (VLJ) aircraft may also affect air travel. [Figure 7-9] Central to their economic success is the concept of single-pilot operations. Since the aircraft is heavily automated, the pilot\u2019s workload may actually be less than the current workload in some high performance single-engine aircraft. This allows more time for the pilot to gather and analyze information about weather, winds, landing conditions, fuel state, pilot physical condition, and passenger desires. However, unless the pilot is trained to manage all of these factors "
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "As indicated by this chapter, it is possible to develop well-planned and organized instruction by using a training syllabus and lesson plans that meet all regulatory certification requirements. By identifying and incorporating \u201cblocks of learning\u201d into the teaching of objectives, the instructor can plan lessons that build on prior knowledge. Maneuver and/or procedure training coupled with SBT will help the aviation instructor train professional aviators and technicians who are able to gather and analyze information to aid in making good aeronautical decisions and decrease risk factors, leading to a successful flight or maintenance outcome. As this training program evolves and new resources are introduced, aviation instructors may access web-based documents such as the generic transition sy"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 8: Aviation Instructor Responsibilities and Professionalism",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Since learners look to aviation instructors as role models, it is important that instructors not only know how to teach, but that they project a knowledgeable and professional image. This chapter addresses the responsibilities of aviation instructors as trainers and as safety advocates. It explains how aviation instructors can enhance their professional image, and offers suggestions and sources of information to assist in professional development."
+      },
+      {
+        "title": "Aviation Instructor Responsibilities",
+        "content": "The job of an aviation instructor is to transfer knowledge. Previous chapters have discussed how people learn, the teaching process, and teaching methods. To summarize in brief, instructors help learners meet and exceed established standards. Instructors measure learner performance against those standards and give positive reinforcement along the way. [Figure 8-1]"
+      },
+      {
+        "title": "Helping Learners",
+        "content": "Learning should be an enjoyable experience. By making each lesson a pleasurable experience, the instructor helps the learner maintain a high level of motivation. This does not mean the instructor sacrifices standards of performance to make things easy. The learner experiences satisfaction by doing a good job or by meeting the challenge of a difficult task. The idea that people need to be led to learning by making it easy is a fallacy. Though learners might initially be drawn to less difficult tasks, they ultimately devote more effort to activities that bring rewards. The use of standards, and measurement against standards, is key to helping learners. Meeting standards holds its own satisfaction for learners. People want to feel capable; they are proud of the successful achievement of diffi"
+      },
+      {
+        "title": "Providing Adequate Instruction",
+        "content": "To tailor his or her teaching technique to the learner, the flight instructor analyzes the learner\u2019s personality, thinking, and ability. No two learners are alike, and a particular method of instruction may not be equally effective for all learners. The instructor talks with a learner at some length to learn about their background, interests, temperament, and way of thinking, and should be prepared to change his or her methods of instruction as the learner advances through successive stages of training. An instructor who incorrectly analyzes a learner may find the instruction does not produce the desired results. For example, the instructor at first thinks the individual is not a quick learner because that learner is quiet and reserved. Such a learner may fail to act at the proper time due"
+      },
+      {
+        "title": "Standards of Performance",
+        "content": "An aviation instructor is responsible for training an applicant to established standards in all subject matter areas, procedures, and maneuvers included in the tasks within each area of operation in the appropriate Airman Certification (ACS)/Airman Practical Test Standards (PTS). It should be emphasized that the ACS/PTS book is a testing document, not a teaching document. [Figure 8-2] Certification Standards (ACS)/Practical Test Standards (PTS)."
+      },
+      {
+        "title": "Emphasizing the Positive",
+        "content": "The way instructors conduct themselves and the attitudes they display make an impression on learners. An aviation instructor's ability to teach in a manner that gives learners a positive image of aviation contributes to the instructor's success. [Figure 8-3] Chapter 3, The Learning Process, emphasized that a negative self-concept inhibits the perceptual process, that fear adversely affects learner perceptions, that the feeling of being threatened limits the ability to perceive, and that negative motivation is not as effective as positive motivation. Merely knowing about these factors is not enough. Instructors need to detect these factors in their learners and strive to prevent negative feelings from undermining the instructional process. Consider how the following negative scenarios condu"
+      },
+      {
+        "title": "Minimizing Learner Frustration",
+        "content": "Minimizing learner frustrations in the classroom, shop, or during flight training is an instructor\u2019s responsibility. Instructors can encourage rather than discourage learning by following some basic rules. For example, lesson plans used as part of an organized curriculum help the learner pilot measure training progress. Since most pilots don\u2019t want to be learners, the ability to measure their progress or \u201csee an end in sight\u201d reduces frustration and increases pilot motivation. [Figure 8-4] Motivate learners\u2014more can be gained from wanting to learn than from being forced to learn. Too often, learners do not realize how a particular lesson or course can help them reach an important goal. When learners can see the benefits and purpose of the lesson or course, their enjoyment and their efforts"
+      },
+      {
+        "title": "Physiological Obstacles for Flight Learners",
+        "content": "Although most learner pilots have been exposed to air travel, they may not have flown in light, training aircraft. Consequently, learners may react to unfamiliar noises or vibrations, or experience unfamiliar sensations due to G-force, or an uncomfortable feeling in the stomach. To teach effectively, instructors cannot ignore the existence of these negative factors, nor should they ridicule learners who are adversely affected. These negative sensations can usually be overcome by understanding the nature of their causes. Remember, a sick learner is preoccupied and may not have the mental or physical capacity to learn."
+      },
+      {
+        "title": "Ensuring Learner Skill Set",
+        "content": "Flight instructors ensure learner pilots develop the required skills and knowledge prior to solo flight. The learner pilot needs to show consistency in the required solo tasks: takeoffs and landings, ability to prioritize maintaining control of the aircraft, proficiency in flight, traffic pattern operation, proper navigation skills, and proper radio procedure and communication skills. Learner pilots should receive instruction to ask for assistance or help from the ATC system when needed. Mastery of the skill set includes consistent use as well as increased accuracy of performance. The decision to determine when a learner is ready for solo flight should be a joint decision between learner and instructor. Generally, this determination is made when the instructor observes the learner from pre"
+      },
+      {
+        "title": "Safety Practices and Accident Prevention",
+        "content": "Aviation instructors are on the front line of efforts to improve the safety record of the aviation industry. Safety, one of the most fundamental considerations in aviation training, is paramount. Comprehensive FAA regulations promote safety by eliminating or mitigating conditions that can cause death, injury, or damage, but even the strictest compliance with regulations may not guarantee safety. Rules and regulations are designed to address known or suspected conditions detrimental to safety, but there is always a chance that some new combination of circumstances not contemplated by the regulations will arise. It is important for aviation instructors to be proactive to ensure the safety of flight or maintenance training activities. The safety practices aviation instructors emphasize have a"
+      },
+      {
+        "title": "Flight Instructor Qualifications",
+        "content": "A flight instructor needs to be thoroughly familiar with the functions, characteristics, and proper use of all flight instruments, avionics, and other aircraft systems being used for training. This is especially important due to the wide variety in global positioning systems (GPS) and glass panel displays. Each flight instructor should maintain familiarity with current pilot training techniques and certification requirements. Frequent review of new periodicals and technical publications, personal contacts with FAA inspectors and designated pilot examiners (DPE), and participation in pilot and flight instructor clinics such as the FAASTeam/SAFE quarterly series of Flight Instructor Open Forums facilitate awareness of current requirements. Additional information can be obtained from veteran "
+      },
+      {
+        "title": "Professionalism",
+        "content": "The aviation instructor is the central figure in aviation training and bears responsibility for all phases of required training. The instructor, either pilot or aircraft maintenance technician, needs to be a professional. As professionals, aviation instructors strive to maintain the highest level of knowledge, training, and currency in the field of aviation. To achieve this goal, instructors need to commit themselves to continuous, lifelong learning and professional development through study, service, and membership in professional organizations such as the Society of Aviation and Flight Educators (SAFE), the National Association of Flight Instructors (NAFI) and Professional Aviation Mechanics Association (PAMA). Professionals build a library of resources that keeps them informed of the mo"
+      },
+      {
+        "title": "Evaluation of Learner Ability",
+        "content": "Evaluation of a learner\u2019s ability is an important element of instruction. Used in this context, evaluation refers to judging a learner\u2019s ability to perform a maneuver or procedure. Demonstrated Ability Evaluation of demonstrated ability during flight or maintenance instruction is based upon established standards of performance, suitably modified to apply to the learner\u2019s experience and stage of development as a pilot or mechanic. The evaluation considers the learner\u2019s mastery of the elements involved in the maneuver or procedure, rather than merely the overall performance. For example, qualification of learner pilots for solo and solo cross-country privileges depends upon demonstrations of performance. Keeping the Learner Informed When evaluating learner demonstrations of ability, the avia"
+      },
+      {
+        "title": "Sources of Material",
+        "content": "An aviation instructor should maintain access to current flight publications or maintenance publications. For the flight instructor, this includes current copies of regulations pertinent to pilot qualification and certification, Aeronautical Information Manual (AIM), ACS/PTS, and pilot training manuals. The aviation maintenance instructor should have copies of applicable regulations, current knowledge and ACS/PTS, and maintenance training manuals. Aviation instructors should be thoroughly familiar with current certification and rating requirements in order to provide competent instruction. Many of the advisory circulars should be considered by the aviation instructor as references. The www.faa.gov website maintains current advisory circulars under the Regulations and Policies tab. In addit"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed the responsibilities of aviation instructors to the learner, the public, and the FAA in the training process. The additional responsibilities of flight instructors who teach new learner pilots as well as rated pilots seeking add-on certification, the role of aviation instructors as safety advocates, and ways in which aviation instructors can enhance their professional image and development were explored. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 9: Techniques of Flight Instruction",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Flight instructor Daniel decides his learner, Mary, has gained enough confidence and experience that it is time for her to develop personal weather minimums. While researching the subject at the Federal Aviation Administration (FAA) website, he locates several sources that provide background information indicating that weather often poses some of the greatest risks to general aviation (GA) pilots, regardless of their experience level. He also finds charts and a lesson plan he can use. Daniel\u2019s decision to help Mary develop personal weather minimums reflects a key component of the flight instructor\u2019s job: providing the learner with the tools to ensure safety during a flight. What does \u201csafety\u201d really mean? How can a flight instructor ensure the safety of flight training activities, and also"
+      },
+      {
+        "title": "Practical Flight Instructor Strategies",
+        "content": "During all phases of flight training, instructors should remember that individuals learn through observing others; therefore, the instructor needs to model safe and professional behavior. The flight instructor should demonstrate good operational sense at all times: \u2981 Before the flight\u2014discuss safety and the importance of a proper preflight and use of the checklist. \u2981 During flight\u2014prioritize the tasks of aviating, navigating, and communicating. Instill importance of aircraft control, \u201csee and avoid,\u201d situational awareness, and workload management in the learner. \u2981 During landing\u2014conduct stabilized approaches, maintain desired airspeed on final, demonstrate good judgment for go-arounds, wake turbulence, traffic, and terrain avoidance. Correct faulty approaches and landings. Make touchdowns "
+      },
+      {
+        "title": "Integrating Instruction Techniques",
+        "content": "A flight instructor uses many instructional techniques during ground instruction, when using simulation, and during hands-on aircraft training. Since flight training costs are high and new aircraft are more complex than in the past, the total training experience should provide a solid base of knowledge and maximize the learner\u2019s time without sacrificing the quality of the end product. This section looks at teaching techniques in greater detail."
+      },
+      {
+        "title": "Ground Instruction",
+        "content": "Ground instruction can be highly effective if it follows an overall plan designed to prepare the learner for flight. In Chapter 7, Planning Instructional Activity, Figure 7-2 shows a ground lesson that includes clear objectives. However, ground training objectives should be related to flight training objectives whenever possible. When elements are taught on the ground (as theory), their practice and application is also experienced in the air. The instructor should point out the connection between the theory and practice to maximize the benefit from integrated ground and flight instruction. [Figure 9-1] Additionally, ground instruction need not be in the classroom for maximum effectiveness. For example, conduct a preflight using an actual aircraft although initially taught in an academic se"
+      },
+      {
+        "title": "Use of Flight Simulation Training Devices",
+        "content": "The FAA separates flight simulation trainers into three specific categories: \u2981 Full Flight Simulator (FFS) \u2981 Flight Training Device (FTD) \u2981 Aviation Training Device (ATD) The National Simulator Program located in Atlanta, GA provides for the evaluation and qualification of FFSs and FTDs. 14 CFR part 60 provides the criteria for the qualification of FFSs [Figure 9-2] and FTDs [Figures 9-3 and 9-4] and further divides these qualifications as FFS Level A-D and FTD Level 4-7. A qualification letter is provided annually by the FAA to the operator and identifies the level of qualification. The level of approval affects what maneuvers or tasks may be accomplished in an FFS or FTD. These FAA-qualified trainers are collectively described in part 60 as Flight Simulation Training Devices (FSTD). Each"
+      },
+      {
+        "title": "Integrated Training Curricula",
+        "content": "An integrated training curriculum can use an FFS, FTD, or ATD to provide seamless training from the classroom to the aircraft. An instructor initially provides the required knowledge in a classroom environment and then follows with procedural training in the simulator. For example, when utilizing an integrated ground and flight-training program, an authorized instructor would initially teach the required knowledge specific to instrument landing system (ILS) design, and the associated flight operations through ground and classroom training. The instructor then provides instruction on aircraft flight procedures and details specific to operations in national airspace system. After the learner has gained the required knowledge and understands the procedures, the instructor then adds practicing"
+      },
+      {
+        "title": "Logging Training Time and Experience",
+        "content": "Instructors or pilots logging time in an FFS or FTD should log and record the FAA ID number or serial number of the device being used for training. FSTDs are re-qualified on an annual basis and users should verify the qualification is current and valid. When logging training time in an ATD, pilot time is logged as a basic aviation training device (BATD) or advanced aviation training device (AATD) time, and the pilot record should identify the manufacturer and model of the ATD trainer. Letters of authorization (LOAs) for ATD\u2019s are valid for five years and a copy of the LOA should be retained by the pilot in training. Pilot time logged in an FFS, FFS, or ATD must be recorded as prescribed in 14 CFR part 61, section 61.51(h). The maximum credit permitted for certificates and ratings is identi"
+      },
+      {
+        "title": "Demonstration-Performance Training Delivery Method",
+        "content": "The demonstration-performance training delivery method was discussed briefly in Chapter 5, The Teaching Process, but the following in-depth discussion is geared to the flight instructor. This training method has been in use for a long time and is very effective in teaching kinesthetic skills so flight instructors find it valuable in teaching procedures and maneuvers. The demonstration-performance method is divided into four phases: explanation, demonstration, learner performance with instructor supervision, and evaluation. [Figure 9-6]"
+      },
+      {
+        "title": "Explanation Phase",
+        "content": "The flight instructor needs to be well prepared and highly organized to teach complex maneuvers and procedures effectively. The learner should be intellectually and psychologically ready for the learning activity. The explanation phase is accomplished prior to the flight lesson with a discussion of lesson objectives and completion standards, as well as a thorough preflight briefing. The instructor presents clear and pertinent objectives of the particular lesson to be presented, based on the known experience and knowledge of the learner. Instructors need to provide details on the lesson content, performance expectations and evaluation measures. When teaching a skill, the instructor conveys the precise actions the learner will perform. In addition to the necessary steps, the instructor shoul"
+      },
+      {
+        "title": "Demonstration Phase",
+        "content": "The instructor demonstrates the actions necessary to perform a skill and may describe the actions simultaneously. The instructor avoids extraneous activity as much as possible so that learners get a clear understanding of the task. If, due to some unanticipated circumstances, the demonstration does not closely conform to the explanation, this deviation should be immediately acknowledged and explained."
+      },
+      {
+        "title": "Learner Performance and Instruction Supervision Phases",
+        "content": "As discussed in Chapter 5, The Teaching Process, these two phases involve separate actions that are performed concurrently. The first of these phases is the learner\u2019s performance of the physical or mental skills that have been explained and demonstrated. The second activity is the instructor\u2019s supervision. Learner performance requires learners to act and do. To gain skills, learners must practice. The instructor must, therefore, allot enough time for meaningful activity. Through doing, learners can follow correct procedures and reach established standards. It is important that learners be given an opportunity to perform the skill as soon as possible after a demonstration. Then, the instructor reviews what has been covered during the instructional flight and determines to what extent the le"
+      },
+      {
+        "title": "Evaluation Phase",
+        "content": "In this phase, the instructor traditionally evaluates learner performance, records the learner\u2019s performance, and verbally advises the learner of the progress made toward the objectives. Regardless of how well a skill is taught, there may still be performance deficiencies. When pointing out areas that need improvement, offer concrete suggestions that help. If possible, avoid ending the evaluation on a negative note. As discussed in Chapter 6, Assessment, collaborative assessment (or learner centered grading (LCG)) is a form of authentic assessment currently used in aviation training with problem-based learning (PBL). PBL structures the lessons to confront learners with problems that are encountered in real life and forces them to reach real-world solutions. Scenario-based training (SBT), a"
+      },
+      {
+        "title": "See and Avoid",
+        "content": "From the start of flight training, the instructor ensures learners develop the habit of looking for other air traffic at all times. If learners believe the instructor assumes all responsibility for scanning and collision avoidance procedures, they do not develop the habit of maintaining a constant vigilance, which is essential to safety. Any observed tendency of a learner to enter flight maneuvers without first making a careful check for other air traffic needs to be corrected immediately. Recent studies of midair collisions determined that: \u2981 Flight instructors were onboard the aircraft in 37 percent of the accidents in the study. \u2981 Most of the aircraft involved in collisions are engaged in recreational flying not on any type of flight plan. \u2981 Most midair collisions occur in VFR weather c"
+      },
+      {
+        "title": "Assessment of Piloting Ability",
+        "content": "Assessment is an essential component of the teaching process and determines how, what, and how well a learner is learning. A welldesigned assessment provides a learner with something constructive upon which he or she can work or build. An assessment should provide direction and guidance to raise the level of performance. Learners must understand the purpose of the assessment; otherwise, they will be unlikely to accept the evaluation offered and little improvement will result. There are many types of assessment but the flight instructor generally uses the review, collaborative assessment (LCG), written tests, and performance-based tests to ascertain knowledge or practical skill levels. Refer to Chapter 6 for an in-depth discussion of the types of assessment available to the flight instructo"
+      },
+      {
+        "title": "Visualization",
+        "content": "SBT lends itself well to visualization techniques. For example, have a learner visualize how the flight may occur under normal circumstances, with the learner describing the progress of the flight. Then, the instructor adds unforeseen circumstances such as a sudden change in weather that brings excessive winds during final approach. Other examples of SBT can have the instructor adding undesired landing sites for balloon learner pilots, rope breaks for glider learners, and radio outages for instrument airplane learners. Now, the learner gets to visualize how to handle the unexpected change. During this visualization, the flight instructor can ask questions to check the learner\u2019s thought processes. The job of the instructor is to challenge the learner with realistic flying situations without"
+      },
+      {
+        "title": "Practice Landings",
+        "content": "Aircraft speed and control take precedence over other actions during landings and takeoffs. Full stop landings help the learner develop aircraft control, allow for careful checklist use, and allow time for detailed instruction. Instructors should stress touching down in the first third of the runway to ensure stopping before the end of the runway. This means teaching learners to go-around if they do not touch down within that distance. Instructors should also stress the need for a go-around if the landing develops an oscillation or results in a significant bounce. These techniques equip a learner for safe solo. Furthermore, requiring the learner to make full stop landings during the first solo gives the instructor the opportunity to stop the flight if necessary. When instructing in a glide"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed the demonstration-performance and telling-and-doing training delivery methods of flight instruction, SBT techniques, practical strategies flight instructors can use to enhance their instruction, integrated flight instruction, positive exchange of flight controls, use of distractions, simulators and flight training devices, obstacles to learning encountered during flight training, and how to evaluate learners. Additional information on recommendations and endorsements can be found in Appendix C, Certificates, Ratings, and Endorsements. Aviation Instructor's Handbook (FAA-H-8083-9)"
+      }
+    ]
+  },
+  {
+    "book_id": "AIH-001",
+    "book_name": "Aviation Instructor's Handbook",
+    "chapter": "Chapter 10: Teaching Practical Risk Management during Flight Instruction",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Examination of accident data leads to the inevitable conclusion that many aviation accidents involve poor risk management decisions. Therefore, effective risk management is one of the most important skills a pilot needs to learn, understand, and practice as a habit. Since flight instructors continually deal with risk, they quickly become subject matter experts. Instructors know to increase the scope of risk management while teaching. For example, risk management during flight instruction includes a consideration of the dangers from maneuvers performed incorrectly by the learner close to the ground, in addition to all the other risks associated with the flight. Chapter 1, Risk Management and Single-Pilot Resource Management, discussed the foundations of effective risk management, as well as"
+      },
+      {
+        "title": "Traditional Accident Investigation Taxonomy",
+        "content": "Aviation accidents are investigated by both the National Transportation Safety Board (NTSB) and the Federal Aviation Administration (FAA). The role of the NTSB is to determine the probable cause of accidents and make recommendations, while the FAA seeks to determine if the accident revealed deficiencies in pilot training, aircraft certification, air traffic control or another area of FAA responsibility. The two government entities are often assisted by other interested parties, such as aircraft and/or engine manufacturers, in an effort to determine the facts. The NTSB role can be illustrated by looking at a typical accident report. [Figure 10-1] While this accident occurred several decades ago and the pilot had LORAN navigation, the lack of risk assessment by the pilot is typical. Pilots h"
+      },
+      {
+        "title": "Risk Analysis Using the PAVE Checklist",
+        "content": "The NTSB report on the Mooney accident reviews the accident facts to arrive at its probable-cause finding. Yet, there is more to learn about the root causality of the accident by examining the pilot\u2019s reaction to events during the flight using the PAVE acronym from Chapter 1. The pilot knew about the vacuum pump failure and the instrument meteorological conditions (IMC) ahead of him. The faulty equipment generated an aircraft, or \"A\" hazard and IMC generated an environment or \u201cV\u201d hazard. The combination of those two hazards created an unacceptable risk once the pilot decided to penetrate the weather. In addition, it is possible that the pilot\u2019s desire to get to his destination created an external pressure, or \u201cE\u201d hazard. Finally, the pilot\u2019s assumption that he could control the aircraft wi"
+      },
+      {
+        "title": "When to Teach Risk Management",
+        "content": "The importance of risk management suggests that it should be taught at the very start of flight training and should be integrated into any actual flight training, rather than taught as a separate subject. However, it will be even more effective if the learner receives ground instruction on this topic prior to the first flight lesson. This preliminary instruction should also be part of any formal ground school. Risk management activity and discussion should be included in all preflight and postflight briefings. Learners should be encouraged to participate and even lead such discussions as their experience increases. Risk management training should not be confined to initial training. Recurrent, transition, flight reviews, instrument proficiency checks, and other training and currency events"
+      },
+      {
+        "title": "Identifying Risk",
+        "content": "As described in Chapter 1, the PAVE checklist is an effective and accepted means for identifying risk. Its four categories capture broad areas of risk and provide the learner with convenient \u201cbuckets\u201d for risk identification. Instructors should coach learners, as required, to ensure they use the PAVE checklist methodically and consider all the sub-elements in each bucket. For example, the \u201cP\u201d applies to both the learner pilot and the instructor pilot, and has two major sub-elements. The first includes pilot qualification, currency and proficiency. The second \"P\" sub-element covers aeromedical hazards and risks and, as described in Chapter 1, the acronym IMSAFE can be used to identify those hazards and risks. Instructors should identify common hazards that generate flight risks. The PAVE ch"
+      },
+      {
+        "title": "Assessing Risk",
+        "content": "In some ways, risk assessment is the most difficult part of the risk management process. Assessing risk severity (consequences) and likelihood (probability) can be subjective during flight operations. In other aviation applications, such as aircraft certification, the likelihood of an event is calculated mathematically, and consequences are also precisely defined. Nevertheless, risk assessment accuracy can improve with practice and experience. Instructors should initially lead learners through the assessment phase of each risk identified and provide examples that will help the learner gain confidence in risk assessment. For example, the instructor could suggest an event with a low but generally fixed likelihood, such as an engine failure after takeoff. The learner should consider the outco"
+      },
+      {
+        "title": "Mitigating Risk",
+        "content": "As explained in Chapter 1, risk mitigation is the \u201cpayoff\u201d for the risk management process. Effective risk mitigation may allow for a proposed flight to begin or an ongoing flight to continue. However, this is not always the case, and the pilot should be prepared to delay or terminate any flight. Instructors should teach that the risk management process begins days or even weeks before a specific flight. Early in the process, if a pilot identifies a risk that cannot be easily mitigated, such as a forecast weather system with widespread icing conditions, then the pilot can transfer the risk by getting an airline ticket. Alternatively, if the flight\u2019s purpose is just recreational, then the pilot can eliminate the risk by cancelling the flight. Other examples of risk elimination include not f"
+      },
+      {
+        "title": "Risk Management Tools",
+        "content": "The risk management process is largely intuitive, but as with many new concepts, it can be daunting to the learner, especially at the beginning of training. Accordingly, the instructor should use available tools to simplify or make the process more orderly and effective. The TEAM acronym and the risk assessment matrix discussed previously should be considered as primary tools for teaching risk management. Learners should be encouraged to use these simple tools as a basis for conducting risk management during and after their flight training. On many flights, the risk management process can be more complex, and a more sophisticated risk management tool is needed. As discussed in Chapter 1, a flight risk assessment tool (FRAT) can serve this purpose. There are a variety of FRATs available fro"
+      },
+      {
+        "title": "Risk Management Training for Experienced Pilots",
+        "content": "Risk management is not a task confined solely to the initial training environment. Instructors should ensure that risk management is part of all training events for all certificated pilots. This is especially important for pilots who have not been exposed to risk management standards now contained in the ACS."
+      },
+      {
+        "title": "Instrument Training",
+        "content": "Risk management training is vital during instruction for the instrument rating because of the potential hazards related to IMC. Instructors should emphasize broad risk management techniques and strategies that will allow a pilot to analyze and evaluate complex weather and other elements that generate risk. For example, an instructor might suggest that a pilot consider the risk management aspects of flight in: \u2981 single-engine aircraft or over terrain higher than the single-engine service ceiling of a multiengine aircraft \u2981 aircraft with a single alternator or a single radio and navigation system \u2981 night conditions \u2981 low IMC \u2981 icing conditions or at altitudes above the freezing level Transition Training Pilots transitioning to more advanced aircraft will encounter additional types of risk as"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "Poor risk management contributes to many fatal accidents. Accordingly, instructors should emphasize and practice risk management in all types of instruction, from primary to advanced training. Instructors should use accepted risk management tools to make training more effective and consistent. Instructors should also use a building block approach to teaching risk management. Risks encountered while giving instruction are similar to those that learners will encounter on operational flights, giving instructors the opportunity to highlight risk management as a tool to be used for safe and enjoyable flying. Aviation Instructor's Handbook (FAA-H-8083-9) Appendix A: References Ashcraft, M.H., 1994: Human Memory and Cognition. New York: Harper Collins. Bloom, B.S. (Ed.), 1956: Taxonomy of Educati"
+      },
+      {
+        "title": "Instructor Records",
+        "content": "14 CFR part 61, section 61.189 requires the flight instructor to maintain a record that includes information on the type of endorsement, the name of the person receiving the endorsement, and the date of the endorsement. This information may be kept in a logbook or a separate document. For a knowledge or practical test endorsement, the record must include the kind of test, the date, and the results. Records of endorsements must be maintained for at least 3 years."
+      },
+      {
+        "title": "Knowledge Tests",
+        "content": "14 CFR part 61, section 61.39(a)(1) requires that the applicant pass a knowledge test. When preparing an applicant for certification (e.g., recreational, private, commercial or instrument), the flight instructor may provide the learner with an endorsement to certify he or she has the required knowledge in accordance with 14 CFR part 61, section 61.35. Bear in mind that some additional ratings do not require a knowledge test. For information concerning additional aircraft certifications not requiring knowledge tests, refer to AC 61-65. Flight instructors (not including sport pilot instructors) take an FOI knowledge test or an aircraft subject matter test as required by 14 CFR part 61, sections 61.183(e) and 61.183(f). Added flight instructor ratings require a knowledge test on subject matte"
+      },
+      {
+        "title": "Stressful events",
+        "content": "None in the last _____ days Illnesses None in the last _____ days D- 1 Aircraft Fuel Reserves (Cross-Country) ______ hours VFR day VFR Night ______ hours IFR day ______ hours IFR Night ______ hours"
+      },
+      {
+        "title": "Experience in Type",
+        "content": "Takeoffs/landings ______ in the last _____ days Takeoffs/landings ______ in aircraft type Aircraft Performance Establish that you have additional performance available over that required. Consider the following: \u2981 Gross weight \u2981 Load distribution \u2981 Density altitude \u2981 Performance charts Aircraft Equipment Avionics familiar with equipment (including autopilot and GPS systems) COM/NAV equipment appropriate to flight Charts current Clothing suitable for preflight and flight Survival gear appropriate for flight/terrain Environment Airport Conditions Crosswind ______ % of max POH Runway length ______ % more than POH Weather Reports and forecasts not more than ______ hours old Icing conditions within aircraft/pilot capabilities Weather for VFR Ceiling day ______ feet Ceiling Night ______ feet Vis"
+      }
+    ]
+  }
+]

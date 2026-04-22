@@ -1,0 +1,2934 @@
+[
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 1 - Definitions",
+    "sub_modules": [
+      {
+        "title": "Introduction to Air Law",
+        "content": "Air Law is based on ICAO conventions, the Chicago Convention Annexes, and EASA regulations such as Part-FCL and Part-MED. It defines the legal and operational framework of aviation."
+      },
+      {
+        "title": "Nature of Air Law",
+        "content": "Air Law is not purely legal; it is practical airmanship combined with aviation regulations. It covers rules of the air, ATC procedures, licensing, aerodromes, and international agreements."
+      },
+      {
+        "title": "Use of Abbreviations",
+        "content": "Air Law contains numerous abbreviations that are essential for communication and exams. Understanding these abbreviations is critical for interpreting aviation documents and procedures."
+      },
+      {
+        "title": "Aircraft",
+        "content": "Any machine that can derive support in the atmosphere from the reactions of the air other than the reactions of the air against the earth’s surface."
+      },
+      {
+        "title": "Aerodrome",
+        "content": "A defined area on land or water intended for the arrival, departure, and surface movement of aircraft."
+      },
+      {
+        "title": "Air Traffic Control Service",
+        "content": "A service provided to prevent collisions between aircraft and maintain an orderly flow of air traffic."
+      },
+      {
+        "title": "Flight Plan",
+        "content": "Specified information provided to air traffic services units relative to an intended flight."
+      },
+      {
+        "title": "Flight Level",
+        "content": "A surface of constant atmospheric pressure related to a standard pressure datum of 1013.2 hPa."
+      },
+      {
+        "title": "Altitude",
+        "content": "The vertical distance of a level, point, or object measured from mean sea level."
+      },
+      {
+        "title": "Controlled Airspace",
+        "content": "Airspace of defined dimensions within which air traffic control service is provided to IFR and VFR flights."
+      },
+      {
+        "title": "Airway",
+        "content": "A control area established in the form of a corridor equipped with radio navigation aids."
+      },
+      {
+        "title": "Alternate Aerodrome",
+        "content": "An aerodrome to which an aircraft may proceed if it becomes impossible or inadvisable to land at the intended destination."
+      },
+      {
+        "title": "Pilot-in-Command",
+        "content": "The pilot responsible for the operation and safety of the aircraft during flight."
+      },
+      {
+        "title": "Runway Visual Range",
+        "content": "The distance over which runway markings or lights can be seen from the touchdown zone."
+      },
+      {
+        "title": "IFR and VFR",
+        "content": "IFR refers to flying using instruments, while VFR refers to flying using visual reference to terrain and obstacles."
+      },
+      {
+        "title": "Flight Information Service",
+        "content": "A service providing advice and information useful for the safe and efficient conduct of flights."
+      },
+      {
+        "title": "Alerting Service",
+        "content": "A service that notifies appropriate organizations regarding aircraft in need of search and rescue assistance."
+      }
+    ],
+    "abbreviations": [
+      {
+        "abbr": "AAIB",
+        "meaning": "Air Accident Investigation Board"
+      },
+      {
+        "abbr": "AAL",
+        "meaning": "Above Aerodrome Level"
+      },
+      {
+        "abbr": "ADF",
+        "meaning": "Automatic Direction Finding"
+      },
+      {
+        "abbr": "AFTN",
+        "meaning": "Aeronautical Fixed Telecommunications Network"
+      },
+      {
+        "abbr": "AGL",
+        "meaning": "Above Ground Level"
+      },
+      {
+        "abbr": "AIP",
+        "meaning": "Aeronautical Information Publication"
+      },
+      {
+        "abbr": "AIS",
+        "meaning": "Aeronautical Information Service"
+      },
+      {
+        "abbr": "ALT",
+        "meaning": "Altitude"
+      },
+      {
+        "abbr": "ATC",
+        "meaning": "Air Traffic Control"
+      },
+      {
+        "abbr": "ATS",
+        "meaning": "Air Traffic Service"
+      },
+      {
+        "abbr": "ATIS",
+        "meaning": "Automatic Terminal Information Service"
+      },
+      {
+        "abbr": "ATM",
+        "meaning": "Air Traffic Management"
+      },
+      {
+        "abbr": "CAS",
+        "meaning": "Controlled Airspace"
+      },
+      {
+        "abbr": "CPL",
+        "meaning": "Commercial Pilot Licence"
+      },
+      {
+        "abbr": "CTR",
+        "meaning": "Control Zone"
+      },
+      {
+        "abbr": "DA",
+        "meaning": "Decision Altitude"
+      },
+      {
+        "abbr": "DH",
+        "meaning": "Decision Height"
+      },
+      {
+        "abbr": "DME",
+        "meaning": "Distance Measuring Equipment"
+      },
+      {
+        "abbr": "DR",
+        "meaning": "Dead Reckoning"
+      },
+      {
+        "abbr": "EASA",
+        "meaning": "European Aviation Safety Agency"
+      },
+      {
+        "abbr": "EET",
+        "meaning": "Estimated Elapsed Time"
+      },
+      {
+        "abbr": "ELT",
+        "meaning": "Emergency Location Transmitter"
+      },
+      {
+        "abbr": "ETA",
+        "meaning": "Estimated Time of Arrival"
+      },
+      {
+        "abbr": "ETOPS",
+        "meaning": "Extended Twin Jet Operations"
+      },
+      {
+        "abbr": "FAA",
+        "meaning": "Federal Aviation Administration"
+      },
+      {
+        "abbr": "FIR",
+        "meaning": "Flight Information Region"
+      },
+      {
+        "abbr": "FL",
+        "meaning": "Flight Level"
+      },
+      {
+        "abbr": "FIS",
+        "meaning": "Flight Information Service"
+      },
+      {
+        "abbr": "GPS",
+        "meaning": "Global Positioning System"
+      },
+      {
+        "abbr": "ICAO",
+        "meaning": "International Civil Aviation Organization"
+      },
+      {
+        "abbr": "IFR",
+        "meaning": "Instrument Flight Rules"
+      },
+      {
+        "abbr": "ILS",
+        "meaning": "Instrument Landing System"
+      },
+      {
+        "abbr": "IMC",
+        "meaning": "Instrument Meteorological Conditions"
+      },
+      {
+        "abbr": "ISA",
+        "meaning": "International Standard Atmosphere"
+      },
+      {
+        "abbr": "kts",
+        "meaning": "Knots"
+      },
+      {
+        "abbr": "METAR",
+        "meaning": "Aviation Routine Weather Report"
+      },
+      {
+        "abbr": "NDB",
+        "meaning": "Non-directional Beacon"
+      },
+      {
+        "abbr": "NOTAM",
+        "meaning": "Notice to Airmen"
+      },
+      {
+        "abbr": "PANS",
+        "meaning": "Procedures for Air Navigation"
+      },
+      {
+        "abbr": "PAPI",
+        "meaning": "Precision Approach Path Indicator"
+      },
+      {
+        "abbr": "PIC",
+        "meaning": "Pilot-in-command"
+      },
+      {
+        "abbr": "RVR",
+        "meaning": "Runway Visual Range"
+      },
+      {
+        "abbr": "SID",
+        "meaning": "Standard Instrument Departure"
+      },
+      {
+        "abbr": "STAR",
+        "meaning": "Standard Instrument Arrival"
+      },
+      {
+        "abbr": "SSR",
+        "meaning": "Secondary Surveillance Radar"
+      },
+      {
+        "abbr": "TAF",
+        "meaning": "Aerodrome Meteorological Forecast"
+      },
+      {
+        "abbr": "TAS",
+        "meaning": "True Airspeed"
+      },
+      {
+        "abbr": "TMA",
+        "meaning": "Terminal Manoeuvring Area"
+      },
+      {
+        "abbr": "UTC",
+        "meaning": "Co-ordinated Universal Time"
+      },
+      {
+        "abbr": "VFR",
+        "meaning": "Visual Flight Rules"
+      },
+      {
+        "abbr": "VHF",
+        "meaning": "Very High Frequency"
+      },
+      {
+        "abbr": "VMC",
+        "meaning": "Visual Meteorological Conditions"
+      },
+      {
+        "abbr": "VOR",
+        "meaning": "VHF Omni-directional Range"
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 2 - International Agreements and Organizations",
+    "sub_modules": [
+      {
+        "title": "Historical Background",
+        "content": "Civil aviation has grown rapidly since 1919, requiring extensive international regulation. Global cooperation ensures safety and standardization across countries."
+      },
+      {
+        "title": "Impact of the Second World War",
+        "content": "WWII accelerated aircraft development and led to the foundation of modern air transport systems and the need for international aviation agreements."
+      },
+      {
+        "title": "Chicago Convention 1944",
+        "content": "An international agreement establishing rules for civil aviation, sovereignty of airspace, and the creation of ICAO to regulate global aviation."
+      },
+      {
+        "title": "Principle of Sovereignty",
+        "content": "Each State has complete and exclusive sovereignty over the airspace above its territory and must grant permission for international flights."
+      },
+      {
+        "title": "International Law in Aviation",
+        "content": "International agreements become enforceable through national adoption and ratification, as there is no global legislative authority."
+      },
+      {
+        "title": "Territorial Airspace",
+        "content": "A State's jurisdiction applies to its territorial airspace laterally, with unlimited vertical extent."
+      },
+      {
+        "title": "High Seas Freedom",
+        "content": "Aircraft have the freedom to operate over international waters under agreements such as the Geneva Convention."
+      },
+      {
+        "title": "Freedoms of the Air",
+        "content": "A set of rights allowing airlines to operate across international borders, including overflight, landing, and carrying passengers or cargo."
+      },
+      {
+        "title": "Technical Freedoms",
+        "content": "First freedom allows overflight without landing, second freedom allows landing for technical purposes such as refuelling."
+      },
+      {
+        "title": "Commercial Freedoms",
+        "content": "Third, fourth, and fifth freedoms allow airlines to carry passengers, cargo, and mail between different countries."
+      },
+      {
+        "title": "Bilateral Agreements",
+        "content": "Countries enter agreements to define air transport rights, including transit and commercial operations."
+      },
+      {
+        "title": "Scheduled and Non-Scheduled Flights",
+        "content": "Scheduled flights operate under agreements between States, while non-scheduled flights include charter or one-off flights."
+      },
+      {
+        "title": "Cabotage",
+        "content": "Transport of goods or passengers within a country by a foreign aircraft, generally restricted."
+      },
+      {
+        "title": "Facilitation",
+        "content": "International flights must land at designated airports for customs, immigration, and health checks."
+      },
+      {
+        "title": "International Obligations of States",
+        "content": "States must comply with ICAO standards, enforce aviation laws, and publish any differences in their AIP."
+      },
+      {
+        "title": "Search and Rescue (SAR)",
+        "content": "States must provide 24-hour SAR services and cooperate with neighboring States."
+      },
+      {
+        "title": "Aircraft Documentation",
+        "content": "Aircraft must carry documents such as registration, airworthiness certificate, crew licenses, and flight logs."
+      },
+      {
+        "title": "ICAO Overview",
+        "content": "ICAO is a UN specialized agency responsible for global aviation standards, safety, and coordination."
+      },
+      {
+        "title": "ICAO Objectives",
+        "content": "To ensure safe, efficient, and economical air transport and promote global aviation development."
+      },
+      {
+        "title": "ICAO Structure",
+        "content": "Includes Assembly, Council, Committees, and Secretariat managing aviation regulations and policies."
+      },
+      {
+        "title": "ICAO Annexes",
+        "content": "There are 18 Annexes covering areas such as licensing, rules of the air, meteorology, ATS, and security."
+      },
+      {
+        "title": "SARPs",
+        "content": "Standards are mandatory specifications, while Recommended Practices are desirable guidelines for aviation safety."
+      },
+      {
+        "title": "PANS and SUPPS",
+        "content": "Procedures for Air Navigation Services provide detailed operational guidance, while SUPPS apply regionally."
+      },
+      {
+        "title": "Tokyo Convention 1963",
+        "content": "Defines jurisdiction over offences on aircraft and grants authority to the aircraft commander."
+      },
+      {
+        "title": "Hague Convention 1970",
+        "content": "Addresses aircraft hijacking and requires severe penalties for offenders."
+      },
+      {
+        "title": "Montreal Convention 1971",
+        "content": "Covers unlawful acts against aviation safety such as sabotage and violence."
+      },
+      {
+        "title": "Warsaw Convention 1929",
+        "content": "Defines airline liability for passengers, baggage, cargo, and delays."
+      },
+      {
+        "title": "Rome Convention 1952",
+        "content": "Deals with liability for damage caused by aircraft to third parties on the ground."
+      },
+      {
+        "title": "IATA",
+        "content": "An international trade organization representing airlines and promoting industry standards."
+      },
+      {
+        "title": "ECAC",
+        "content": "European organization promoting harmonized aviation policies and safety standards."
+      },
+      {
+        "title": "EASA",
+        "content": "European agency responsible for aviation safety regulations, certification, and oversight."
+      },
+      {
+        "title": "JAA",
+        "content": "Organization that developed common aviation safety standards in Europe before EASA."
+      },
+      {
+        "title": "Eurocontrol",
+        "content": "Organization responsible for coordinating air traffic management across Europe."
+      },
+      {
+        "title": "World Trade Organization (WTO)",
+        "content": "Promotes fair international trade and regulates aviation-related services under GATS."
+      },
+      {
+        "title": "Single European Sky",
+        "content": "An initiative to improve efficiency and safety of European airspace management."
+      },
+      {
+        "title": "Geneva Convention 1947",
+        "content": "Protects aircraft ownership rights and regulates aircraft registration and mortgages."
+      },
+      {
+        "title": "EU Regulation 261/2004",
+        "content": "Defines passenger rights in cases of delays, cancellations, and denied boarding."
+      },
+      {
+        "title": "Passenger Compensation",
+        "content": "Passengers are entitled to compensation, re-routing, refunds, and assistance depending on disruption."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 3 - Airworthiness of Aircraft",
+    "sub_modules": [
+      {
+        "title": "Introduction to Airworthiness",
+        "content": "Airworthiness ensures that an aircraft is safe to operate through certification and continuous validation."
+      },
+      {
+        "title": "Background",
+        "content": "The Chicago Convention emphasized aircraft safety by requiring certification during manufacturing and continued validation through its operational life."
+      },
+      {
+        "title": "Type Certification",
+        "content": "The State of Manufacture issues a Type Certificate after rigorous testing, applicable to all production aircraft of that type."
+      },
+      {
+        "title": "Permit to Fly",
+        "content": "Prototype aircraft are allowed to fly under a Permit to Fly during testing phases."
+      },
+      {
+        "title": "Airworthiness Standards",
+        "content": "Annex 8 defines engineering airworthiness standards, while Annex 6 defines operational safety standards."
+      },
+      {
+        "title": "Applicability of Standards",
+        "content": "Standards apply to aircraft above 5700 kg used for international operations, including systems, engines, and equipment."
+      },
+      {
+        "title": "Certificate of Airworthiness (C of A)",
+        "content": "Issued by the State of Registry confirming that an aircraft meets required safety standards."
+      },
+      {
+        "title": "Continuing Airworthiness",
+        "content": "The State of Registry ensures ongoing safety by monitoring defects, faults, and maintenance records."
+      },
+      {
+        "title": "Structural Integrity and Corrosion Control",
+        "content": "The State of Design must ensure programs exist to maintain structural integrity and manage corrosion."
+      },
+      {
+        "title": "Validity of Certificate of Airworthiness",
+        "content": "The certificate remains valid through periodic inspections and proper repair of any damage."
+      },
+      {
+        "title": "Aircraft Limitations",
+        "content": "Aircraft must have a flight manual specifying operational limits and safety information."
+      },
+      {
+        "title": "Aircraft Information and Registration",
+        "content": "States must inform the State of Design when an aircraft is registered and certified."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 4 - Aircraft Nationality and Registration Marks",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "All aircraft must be registered and carry nationality and registration marks as per Annex 7 of the Chicago Convention."
+      },
+      {
+        "title": "Annex 7 Overview",
+        "content": "Annex 7 contains only standards related to aircraft nationality and registration markings, with no recommendations."
+      },
+      {
+        "title": "Differences",
+        "content": "States may notify ICAO of differences, no differences, or provide no information regarding compliance with Annex 7 standards."
+      },
+      {
+        "title": "Nationality and Registration Marks",
+        "content": "Aircraft markings consist of a nationality mark followed by a registration mark, often separated by a hyphen."
+      },
+      {
+        "title": "Nationality Mark",
+        "content": "The nationality mark is assigned based on radio call signs allocated to the State by the International Telecommunications Union."
+      },
+      {
+        "title": "Registration Mark",
+        "content": "The registration mark is assigned by the State of Registry and must be unique to each aircraft."
+      },
+      {
+        "title": "Common Mark",
+        "content": "A common mark is used when an aircraft is operated by entities from multiple countries, with a designated authority acting as the State of Registry."
+      },
+      {
+        "title": "Exclusions in Markings",
+        "content": "Certain combinations such as SOS, PAN, XXX, TTT, Q codes, and signal codes are not allowed in registration marks."
+      },
+      {
+        "title": "Certificate of Registration",
+        "content": "An official document confirming aircraft registration, which must be carried onboard at all times."
+      },
+      {
+        "title": "Contents of Certificate",
+        "content": "Includes nationality mark, registration mark, manufacturer details, serial number, owner information, and official signature."
+      },
+      {
+        "title": "Aircraft Markings",
+        "content": "Markings must be permanent, clearly visible, and maintained in a clean condition."
+      },
+      {
+        "title": "Location of Markings",
+        "content": "Marks are placed on the wing underside, fuselage, or vertical tail surface depending on aircraft type."
+      },
+      {
+        "title": "Size of Markings",
+        "content": "Markings must be at least 50 cm on wings and 30 cm on fuselage or vertical surfaces."
+      },
+      {
+        "title": "Classification of Aircraft",
+        "content": "Aircraft are classified into lighter-than-air and heavier-than-air categories, including aeroplanes, gliders, rotorcraft, and balloons."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 5 - Flight Crew Licensing",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Flight Crew Licensing is based on Annex 1 (Personnel Licensing) with additional requirements from JAR-FCL and EASA regulations."
+      },
+      {
+        "title": "Requirement",
+        "content": "Students must understand SARPs from Annex 1 and differences introduced by JAR-FCL standards."
+      },
+      {
+        "title": "International Standard",
+        "content": "Annex 1 provides global standards, but authorities like FAA, JAA, EASA, and CAA follow their own licensing systems."
+      },
+      {
+        "title": "European Standard",
+        "content": "JAR-FCL defines licensing requirements for pilots, helicopters, medical fitness, and flight engineers."
+      },
+      {
+        "title": "Pilot-in-command (PIC)",
+        "content": "The pilot responsible for aircraft safety and compliance with rules during flight."
+      },
+      {
+        "title": "Category of Aircraft",
+        "content": "Classification based on characteristics such as aeroplane, helicopter, glider, or balloon."
+      },
+      {
+        "title": "Commander",
+        "content": "A designated pilot qualified as PIC who may delegate flight responsibilities."
+      },
+      {
+        "title": "Co-pilot",
+        "content": "A licensed pilot assisting the PIC but not acting as the main pilot."
+      },
+      {
+        "title": "Flight Time",
+        "content": "Total time from aircraft movement for takeoff until it stops at the end of the flight."
+      },
+      {
+        "title": "Instrument Flight Time",
+        "content": "Time during which flight is conducted solely by reference to instruments."
+      },
+      {
+        "title": "Rating",
+        "content": "An authorization attached to a licence specifying privileges and limitations."
+      },
+      {
+        "title": "Synthetic Flight Trainer",
+        "content": "Ground-based systems like simulators used for training and skill demonstration."
+      },
+      {
+        "title": "Authority to Act as Flight Crew",
+        "content": "A valid licence appropriate to duties is required to act as flight crew."
+      },
+      {
+        "title": "Validity of Licence",
+        "content": "Licences are valid only if associated ratings and medical certificates are valid."
+      },
+      {
+        "title": "Medical Fitness",
+        "content": "Pilots must maintain required medical standards and avoid flying if unfit."
+      },
+      {
+        "title": "Recent Experience",
+        "content": "Pilots must complete minimum take-offs and landings within 90 days to carry passengers."
+      },
+      {
+        "title": "Validity of Ratings",
+        "content": "Ratings such as IR are time-limited and require renewal through testing."
+      },
+      {
+        "title": "Licence Types",
+        "content": "Includes PPL, CPL, ATPL, and MPL depending on level of operation."
+      },
+      {
+        "title": "Class and Type Ratings",
+        "content": "Ratings define aircraft types or classes a pilot is qualified to operate."
+      },
+      {
+        "title": "Student Pilot",
+        "content": "Student pilots must meet age and medical requirements and fly under supervision."
+      },
+      {
+        "title": "Private Pilot Licence (PPL)",
+        "content": "Allows non-commercial flying with minimum age 17 and required training hours."
+      },
+      {
+        "title": "Commercial Pilot Licence (CPL)",
+        "content": "Allows commercial operations with higher training, knowledge, and medical standards."
+      },
+      {
+        "title": "Airline Transport Pilot Licence (ATPL)",
+        "content": "Highest level licence allowing command of commercial air transport aircraft."
+      },
+      {
+        "title": "Multi-crew Pilot Licence (MPL)",
+        "content": "Designed for co-pilot roles in multi-crew aircraft operations."
+      },
+      {
+        "title": "Instrument Rating (IR)",
+        "content": "Required for flying under Instrument Flight Rules (IFR)."
+      },
+      {
+        "title": "Instructor and Examiner Ratings",
+        "content": "Special ratings allow pilots to instruct or assess other pilots."
+      },
+      {
+        "title": "Medical Certificates",
+        "content": "Different classes of medical certification are required depending on licence type."
+      },
+      {
+        "title": "Medical Conditions and Suspension",
+        "content": "Medical certificates may be suspended due to illness, injury, or pregnancy."
+      },
+      {
+        "title": "Pilot Proficiency Checks",
+        "content": "Pilots must regularly demonstrate flying skills and emergency procedures."
+      },
+      {
+        "title": "Theoretical Knowledge Examinations",
+        "content": "Exams must be passed with at least 75% within defined time limits."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 6 - Rules of the Air",
+    "sub_modules": [
+      {
+        "title": "History",
+        "content": "Rules of the Air evolved to prevent collisions as aviation developed, especially with increasing aircraft speed and international operations."
+      },
+      {
+        "title": "Applicability (Annex 2)",
+        "content": "ICAO Rules of the Air apply globally to registered aircraft, with priority given to the rules of the state being overflown. Over high seas, ICAO rules apply without exception."
+      },
+      {
+        "title": "Applicable Rules",
+        "content": "Aircraft must follow general rules and operate under either Visual Flight Rules (VFR) or Instrument Flight Rules (IFR)."
+      },
+      {
+        "title": "IFR vs VFR",
+        "content": "Pilots may choose IFR in visual conditions, but must use IFR in instrument conditions. VFR is only allowed in visual meteorological conditions."
+      },
+      {
+        "title": "Visual Meteorological Conditions",
+        "content": "Defined by visibility, altitude, and distance from cloud depending on airspace classification."
+      },
+      {
+        "title": "Pilot-in-command Responsibilities",
+        "content": "The pilot-in-command is responsible for safety, pre-flight planning, weather analysis, and final decisions during flight."
+      },
+      {
+        "title": "Use of Alcohol and Drugs",
+        "content": "Pilots must not operate aircraft under the influence of alcohol, narcotics, or drugs that impair performance."
+      },
+      {
+        "title": "Minimum Heights",
+        "content": "Aircraft must be flown at a height that allows safe emergency landing without danger to persons or property."
+      },
+      {
+        "title": "Cruising Levels",
+        "content": "Flights use flight levels above transition altitude and altitude below it."
+      },
+      {
+        "title": "Right of Way",
+        "content": "Aircraft must avoid collisions. Aircraft with right of way maintains course, but all pilots remain responsible for safety."
+      },
+      {
+        "title": "Head-on Situation",
+        "content": "Both aircraft must turn right to avoid collision."
+      },
+      {
+        "title": "Converging Aircraft",
+        "content": "Aircraft with the other on its right must give way. Priority is based on aircraft type."
+      },
+      {
+        "title": "Overtaking",
+        "content": "Overtaking aircraft must pass on the right and keep clear of the aircraft being overtaken."
+      },
+      {
+        "title": "Landing Priority",
+        "content": "Aircraft landing or on final approach have priority. Lower aircraft have priority over higher ones."
+      },
+      {
+        "title": "Emergency Situations",
+        "content": "Aircraft in distress have absolute priority over all other traffic."
+      },
+      {
+        "title": "Surface Movement",
+        "content": "Taxiing aircraft must follow right-of-way rules similar to airborne operations and obey stop bars."
+      },
+      {
+        "title": "Aircraft Lights",
+        "content": "Navigation and anti-collision lights must be displayed during night or low visibility conditions."
+      },
+      {
+        "title": "Simulated Instrument Conditions",
+        "content": "Simulated instrument flying requires a safety pilot and must be conducted in visual conditions."
+      },
+      {
+        "title": "Aerodrome Traffic",
+        "content": "Aircraft must follow traffic patterns, observe other aircraft, and usually make left-hand circuits."
+      },
+      {
+        "title": "Flight Plans",
+        "content": "Flight plans are required for controlled flights, IFR operations, international flights, and specific airspace operations."
+      },
+      {
+        "title": "Flight Plan Content",
+        "content": "Includes aircraft identification, route, altitude, fuel, persons on board, and other operational details."
+      },
+      {
+        "title": "Closing Flight Plan",
+        "content": "Arrival must be reported to close the flight plan to avoid unnecessary search and rescue actions."
+      },
+      {
+        "title": "Time Standard",
+        "content": "Coordinated Universal Time is used globally in aviation."
+      },
+      {
+        "title": "Air Traffic Control Clearance",
+        "content": "Clearance is required for controlled flights and must be read back correctly."
+      },
+      {
+        "title": "Adherence to Flight Plan",
+        "content": "Flights must follow the filed plan unless deviations are necessary and communicated."
+      },
+      {
+        "title": "Communication Failure",
+        "content": "Specific procedures exist for communication failure under visual or instrument conditions."
+      },
+      {
+        "title": "Interception Procedures",
+        "content": "Intercepted aircraft must follow instructions, communicate on emergency frequency, and use standard signals."
+      },
+      {
+        "title": "Visual Flight Rules",
+        "content": "VFR flights require visual conditions, minimum visibility, and adherence to altitude and airspace rules."
+      },
+      {
+        "title": "Instrument Flight Rules",
+        "content": "IFR applies in instrument conditions and requires appropriate equipment, altitude, and clearance."
+      },
+      {
+        "title": "Minimum Flight Levels",
+        "content": "IFR flights must maintain safe clearance above terrain and obstacles."
+      },
+      {
+        "title": "Semi-circular Rule",
+        "content": "Flight levels are assigned based on magnetic track direction to maintain vertical separation."
+      },
+      {
+        "title": "Reduced Vertical Separation",
+        "content": "Vertical separation between aircraft is reduced in certain airspace to increase capacity."
+      },
+      {
+        "title": "Special Visual Flight Rules",
+        "content": "Special VFR allows flight in controlled zones under reduced visibility with ATC clearance."
+      },
+      {
+        "title": "Distress Signals",
+        "content": "Distress is indicated by MAYDAY and requires immediate assistance."
+      },
+      {
+        "title": "Urgency Signals",
+        "content": "Urgency is indicated by PAN PAN for situations requiring attention but not immediate danger."
+      },
+      {
+        "title": "Transponder Codes",
+        "content": "Specific codes indicate emergencies, radio failure, unlawful interference, or normal operations."
+      },
+      {
+        "title": "Restricted and Prohibited Areas",
+        "content": "States may designate restricted, danger, or prohibited areas for safety and security."
+      },
+      {
+        "title": "Aerodrome Signals",
+        "content": "Visual signals from control towers guide aircraft when radio communication is unavailable."
+      },
+      {
+        "title": "Ground Signals",
+        "content": "Symbols on aerodromes provide information on operations, hazards, and restrictions."
+      },
+      {
+        "title": "Wind Indicators",
+        "content": "Windsocks indicate wind direction and approximate speed."
+      },
+      {
+        "title": "Marshalling Signals",
+        "content": "Standard hand signals guide aircraft movement on the ground."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 7 - Instrument Procedures - Departures",
+    "sub_modules": [
+      {
+        "title": "General Introduction",
+        "content": "Instrument procedures enable safe take-off and landing in low visibility by providing guidance for track, terrain clearance, and obstacle avoidance. These procedures are used under instrument flight rules and require air traffic control clearance."
+      },
+      {
+        "title": "Obstacle Clearance",
+        "content": "Obstacle clearance is achieved through lateral and vertical separation. Minimum obstacle clearance areas ensure safe margins by gradually reducing guaranteed clearance towards the edges of protected airspace."
+      },
+      {
+        "title": "Obstacle Clearance Altitude and Height",
+        "content": "Obstacle clearance altitude or height is determined by identifying the highest obstacle and applying a safety margin. This is used to define safe descent and approach limits."
+      },
+      {
+        "title": "Precision vs Non-Precision Procedures",
+        "content": "Precision procedures provide vertical guidance and allow lower obstacle clearance requirements compared to non-precision procedures which rely only on altitude limits."
+      },
+      {
+        "title": "PANS OPS",
+        "content": "Procedures for Air Navigation Services define international standards for designing instrument flight procedures. Volume 1 covers operational use and Volume 2 covers procedure design."
+      },
+      {
+        "title": "Instrument Departure Procedures",
+        "content": "Departure procedures are designed assuming all engines are operating and are based on terrain, airspace restrictions, and navigation aid availability."
+      },
+      {
+        "title": "Procedure Design Considerations",
+        "content": "Design is influenced by terrain, air traffic requirements, restricted areas, navigation aids, and noise abatement procedures."
+      },
+      {
+        "title": "Procedure Design Gradient",
+        "content": "A standard climb gradient of 3.3 percent is assumed. This includes obstacle clearance and safety margins. Higher gradients may be required in certain cases."
+      },
+      {
+        "title": "Obstacle Clearance in Departures",
+        "content": "Obstacle clearance starts at zero at the runway end and increases with distance. Additional clearance is provided during turns and in mountainous terrain."
+      },
+      {
+        "title": "Mountainous Terrain Considerations",
+        "content": "Additional obstacle clearance is required in areas with strong winds and downdrafts, typically in mountainous regions."
+      },
+      {
+        "title": "Aircraft Categories",
+        "content": "Aircraft are categorized based on speed, which determines the size of protected airspace during departures."
+      },
+      {
+        "title": "Standard Instrument Departures",
+        "content": "Standard departure routes provide predefined paths for aircraft to follow after take-off, ensuring safe navigation and obstacle clearance."
+      },
+      {
+        "title": "Straight Departure",
+        "content": "A straight departure is defined when the track remains within 15 degrees of runway alignment."
+      },
+      {
+        "title": "Turning Departure",
+        "content": "A turning departure is required when the track deviates more than 15 degrees. Turns are initiated after reaching a specified altitude or fix."
+      },
+      {
+        "title": "Turn Initiation",
+        "content": "Aircraft must climb to a minimum height before initiating turns to ensure obstacle clearance."
+      },
+      {
+        "title": "Emergency Procedures",
+        "content": "Operators must define procedures for engine failure or emergencies occurring after decision speed."
+      },
+      {
+        "title": "Omni-directional Departures",
+        "content": "When no specific track guidance is available, aircraft may depart in any direction after reaching a safe altitude, unless restricted sectors are defined."
+      },
+      {
+        "title": "Departure Restrictions",
+        "content": "Certain sectors may be restricted due to obstacles, requiring pilots to follow specific gradients or avoid certain directions."
+      },
+      {
+        "title": "Published Departure Information",
+        "content": "Departure procedures are published as charts that include track guidance, altitude restrictions, navigation aids, and route descriptions."
+      },
+      {
+        "title": "Standard Instrument Departure Charts",
+        "content": "Charts show routes from runway to en route structure, including navigation aids, altitude constraints, and route identifiers."
+      },
+      {
+        "title": "Minimum Sector Altitude",
+        "content": "Provides the lowest safe altitude within a sector around a navigation aid, typically within 25 nautical miles."
+      },
+      {
+        "title": "Navigation Aids in Departures",
+        "content": "Departure procedures use radio navigation aids such as VOR, NDB, and distance measuring systems for track guidance."
+      },
+      {
+        "title": "Area Navigation Procedures",
+        "content": "Area navigation allows aircraft to follow flexible routes using onboard systems such as satellite navigation or flight management systems."
+      },
+      {
+        "title": "Required Navigation Performance",
+        "content": "Aircraft must meet accuracy requirements for specific navigation procedures and ensure system capability before flight."
+      },
+      {
+        "title": "Types of Turns in Navigation",
+        "content": "Turns may be executed at waypoints, at specified altitudes, or using fixed radius paths depending on procedure design."
+      },
+      {
+        "title": "Use of Flight Management Systems",
+        "content": "Flight management systems may be used to follow departure procedures, but pilots must monitor performance using standard navigation displays."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 8 - Approach Procedures",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Instrument approach procedures are designed mainly to ensure terrain clearance until the pilot can safely land after establishing visual contact with the ground. The design depends on terrain, aircraft operations, navigation aids, and airspace restrictions."
+      },
+      {
+        "title": "Responsibility of Air Traffic Control",
+        "content": "If a pilot is unfamiliar with an approach procedure, air traffic control must provide instructions unless the aircraft is cleared for a straight-in approach."
+      },
+      {
+        "title": "Aircraft Categories and Speed",
+        "content": "Aircraft are categorized based on their speed at the runway threshold. This determines spacing between aircraft, manoeuvring areas, and obstacle clearance requirements."
+      },
+      {
+        "title": "Minimum Safe Altitudes",
+        "content": "Minimum safe altitudes ensure obstacle clearance within a defined distance from the aerodrome. Aircraft may descend below this only when visual reference is established, under radar control, or while following a published approach."
+      },
+      {
+        "title": "Types of Approach Procedures",
+        "content": "Approach procedures are classified as precision or non-precision depending on whether vertical guidance is available."
+      },
+      {
+        "title": "Precision Approach",
+        "content": "Precision approaches provide both lateral and vertical guidance. The pilot must decide at a specific altitude whether to land or go around if visual reference is not established."
+      },
+      {
+        "title": "Non-Precision Approach",
+        "content": "Non-precision approaches provide only lateral guidance. Descent is made to a minimum altitude, and landing requires visual reference."
+      },
+      {
+        "title": "Visual Completion of Approach",
+        "content": "Pilots may complete an approach visually once sufficient visual reference is established, even while operating under instrument rules."
+      },
+      {
+        "title": "Procedure Completion",
+        "content": "Once started, the approach must be completed as published unless instructed otherwise. If abandoned after the initial phase, a missed approach must be flown."
+      },
+      {
+        "title": "Approach Segments",
+        "content": "An approach consists of five segments: arrival, initial, intermediate, final, and missed approach. Each segment ensures safe navigation and obstacle clearance."
+      },
+      {
+        "title": "Final Approach",
+        "content": "During the final segment, the aircraft aligns with the runway and descends for landing. Precision approaches use a glide path, while non-precision approaches rely on minimum descent altitude."
+      },
+      {
+        "title": "Missed Approach",
+        "content": "If visual reference is not achieved, the pilot must execute a missed approach by climbing safely and following the published procedure."
+      },
+      {
+        "title": "Obstacle Clearance",
+        "content": "Obstacle clearance ensures aircraft remain safely above terrain. Minimum descent and decision altitudes are based on obstacle clearance requirements."
+      },
+      {
+        "title": "Operating Minima",
+        "content": "Operators define minimum altitudes and visibility requirements based on aircraft performance, crew capability, and environmental conditions."
+      },
+      {
+        "title": "Descent Gradients",
+        "content": "Standard descent is approximately 3 degrees. Steeper descents require special approval and training."
+      },
+      {
+        "title": "Track Reversal Procedures",
+        "content": "When straight-in approaches are not possible, aircraft use procedure turns, base turns, or racetrack patterns to align with the runway."
+      },
+      {
+        "title": "Navigation Accuracy",
+        "content": "Navigation accuracy determines protected airspace. Errors in navigation systems and pilot handling are accounted for in procedure design."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 9 - Circling Approach",
+    "sub_modules": [
+      {
+        "title": "General Introduction",
+        "content": "Visual manoeuvring (circling) describes the visual phase after an instrument approach to position the aircraft for landing on a runway not aligned with the approach. Although any instrument approach may be used, the procedure is treated as non-precision and descent is limited to the circling minimum descent altitude or height."
+      },
+      {
+        "title": "Visual Manoeuvring",
+        "content": "A circling approach is a visual manoeuvre where the pilot must keep the runway environment in sight at all times. The procedure depends on factors such as runway layout, wind, and weather conditions, and cannot be standardized into a single fixed pattern."
+      },
+      {
+        "title": "Circling Area",
+        "content": "Circling is only permitted within a defined manoeuvring area. This area is constructed using arcs based on aircraft category, speed, assumed wind, and bank angle. The aircraft must remain within this protected area to ensure obstacle clearance."
+      },
+      {
+        "title": "Prohibited Sectors",
+        "content": "Certain sectors may be restricted for circling if obstacle clearance cannot be guaranteed. These sectors are published and must not be used during circling manoeuvres."
+      },
+      {
+        "title": "Missed Approach During Circling",
+        "content": "If visual reference is lost during circling, the pilot must execute the published missed approach procedure for the instrument approach. The aircraft should turn towards the runway while climbing and then follow the missed approach track."
+      },
+      {
+        "title": "Obstacle Clearance for Circling",
+        "content": "Obstacle clearance during circling depends on aircraft category. Minimum descent altitude or height and visibility requirements increase with aircraft speed to ensure safe manoeuvring within the protected area."
+      },
+      {
+        "title": "Visibility and Minima",
+        "content": "Each aircraft category has defined minimum visibility and obstacle clearance values. These ensure that the pilot can maintain visual reference and safely manoeuvre for landing."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 10 - Holding Procedures",
+    "sub_modules": [
+      {
+        "title": "General Introduction",
+        "content": "Holding procedures act as airborne waiting patterns that allow aircraft to remain in a designated area while awaiting further clearance. Aircraft cannot stop in flight, so they follow a defined pattern around a navigation fix to delay as required, commonly due to traffic congestion or adverse weather."
+      },
+      {
+        "title": "Holding Concept and Stack",
+        "content": "Aircraft in holding patterns are vertically separated, typically by 1000 feet, forming a stack. As one aircraft leaves the hold to commence approach, others descend sequentially to lower levels."
+      },
+      {
+        "title": "Deviation Warning",
+        "content": "Deviation from prescribed holding procedures may result in the aircraft leaving protected airspace. Standard holding patterns are right-hand turns, while left-hand patterns are mirror images and must be explicitly published."
+      },
+      {
+        "title": "Holding Pattern Structure",
+        "content": "A standard holding pattern consists of an inbound leg, outbound leg, fix, and turns. Turns are made at a rate of 3 degrees per second or 25 degrees bank, whichever is less. The outbound leg timing is one minute at or below 14000 feet and one and a half minutes above 14000 feet."
+      },
+      {
+        "title": "Flying the Holding Pattern",
+        "content": "Pilots must apply wind correction to maintain the intended track and timing. Outbound timing starts when the aircraft is abeam or overhead the fix. If the abeam position cannot be determined, timing begins at the completion of the outbound turn."
+      },
+      {
+        "title": "Holding Speeds",
+        "content": "Maximum holding speeds depend on altitude and conditions. Lower altitudes use lower speeds, while higher altitudes permit higher speeds. Increased speeds may be allowed in turbulence with prior clearance from air traffic control."
+      },
+      {
+        "title": "Entry Procedures Overview",
+        "content": "There are three standard entry procedures into a holding pattern based on the aircraft's approach heading relative to the inbound track. These are parallel entry, offset entry, and direct entry. Each sector includes a small tolerance allowing pilot discretion."
+      },
+      {
+        "title": "Parallel Entry",
+        "content": "In parallel entry, the aircraft flies outbound on a track reciprocal to the inbound track on the non-holding side, then turns back towards the fix and subsequently joins the holding pattern."
+      },
+      {
+        "title": "Offset Entry",
+        "content": "In offset entry, the aircraft flies a track offset by 30 degrees from the reciprocal inbound track, then turns to intercept the inbound leg and join the holding pattern."
+      },
+      {
+        "title": "Direct Entry",
+        "content": "In direct entry, the aircraft directly joins the holding pattern by turning onto the inbound track upon reaching the fix."
+      },
+      {
+        "title": "Air Traffic Control Clearance",
+        "content": "Air traffic control provides clearance for holding, including fix location, level, and expected approach time. Pilots must report when established in the hold and comply with all instructions."
+      },
+      {
+        "title": "Descending in the Hold",
+        "content": "Aircraft descend within the holding pattern when cleared by air traffic control. This process is known as shuttling and involves moving to lower levels in sequence."
+      },
+      {
+        "title": "Leaving the Hold",
+        "content": "Aircraft depart the holding pattern upon clearance to begin the instrument approach. This usually occurs over the holding fix, although radar vectoring may be used to exit from other positions."
+      },
+      {
+        "title": "Timed Departures",
+        "content": "In timed approaches, aircraft are instructed to leave the hold at a specific time. Pilots must adjust leg timing to ensure departure from the fix at the assigned time."
+      },
+      {
+        "title": "Obstacle Clearance",
+        "content": "Minimum obstacle clearance is provided throughout the holding area, typically 300 meters or higher in mountainous terrain. A surrounding buffer zone ensures gradual reduction of obstacle clearance toward the outer limits."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 11 - Altimeter Setting Procedures",
+    "sub_modules": [
+      {
+        "title": "General Introduction",
+        "content": "Correct altimeter setting is essential to ensure terrain clearance and safe separation between aircraft. Incorrect settings have historically caused serious accidents, and the pilot is ultimately responsible for ensuring the altimeter is correctly set."
+      },
+      {
+        "title": "Terrain Clearance Concept",
+        "content": "During departures and arrivals, aircraft altitude must be referenced to mean sea level to ensure obstacle clearance. All procedure altitudes and obstacle heights are based on sea level pressure, requiring the use of local pressure settings."
+      },
+      {
+        "title": "Lowest Usable Flight Level",
+        "content": "The lowest usable flight level is the flight level that is equal to or immediately above the minimum safe altitude."
+      },
+      {
+        "title": "Air Traffic Separation",
+        "content": "Above safe altitudes, the priority shifts from terrain avoidance to aircraft separation. A standard pressure setting is used so that all aircraft reference the same pressure level, ensuring consistent vertical separation."
+      },
+      {
+        "title": "Objectives of Altimeter Setting",
+        "content": "The main objectives are to ensure safe terrain clearance during all phases of flight and to maintain adequate vertical separation between aircraft."
+      },
+      {
+        "title": "Pressure Settings Overview",
+        "content": "There are three main pressure settings used in aviation. Each provides a different reference for altitude measurement depending on the phase of flight."
+      },
+      {
+        "title": "Sea Level Pressure Setting",
+        "content": "This setting adjusts the observed pressure to sea level. When set, the altimeter reads the elevation of the aerodrome when on the ground."
+      },
+      {
+        "title": "Aerodrome Pressure Setting",
+        "content": "This setting uses the actual pressure at the aerodrome. When set, the altimeter reads zero when the aircraft is on the runway."
+      },
+      {
+        "title": "Standard Pressure Setting",
+        "content": "A fixed pressure value is used for flight at higher altitudes to ensure all aircraft use a common reference. This allows consistent vertical separation regardless of local pressure variations."
+      },
+      {
+        "title": "Altimeter Reading with Standard Setting",
+        "content": "When the standard pressure setting is used, the altimeter reading at touchdown reflects the pressure difference from actual conditions and must be calculated. This value is not the actual height above ground."
+      },
+      {
+        "title": "Transition Concept",
+        "content": "Transition procedures define when to change between local pressure settings and the standard pressure setting during climb and descent to ensure safety and consistency."
+      },
+      {
+        "title": "Flight Levels",
+        "content": "Flight levels represent vertical position based on standard pressure. They are spaced at intervals corresponding to 500 feet and provide a standardized reference for aircraft separation."
+      },
+      {
+        "title": "Transition Altitude",
+        "content": "The transition altitude is the altitude at which pilots change from local pressure setting to standard pressure during climb. Above this, altitude is expressed as flight levels."
+      },
+      {
+        "title": "Transition Level",
+        "content": "The transition level is the flight level at which pilots change from standard pressure back to local pressure during descent. It varies depending on atmospheric pressure."
+      },
+      {
+        "title": "Transition Layer",
+        "content": "The transition layer is the airspace between transition altitude and transition level. It provides a buffer to ensure separation between aircraft using different pressure references."
+      },
+      {
+        "title": "Altimeter Use in Flight Phases",
+        "content": "During taxi and initial climb, local pressure is used. Above transition altitude, standard pressure is set. During descent, local pressure is reset at the transition level before landing."
+      },
+      {
+        "title": "Use of Aerodrome Pressure Setting",
+        "content": "This setting may be used during visual circuit operations where altitude reference relative to the runway is sufficient."
+      },
+      {
+        "title": "Pilot and Operator Responsibilities",
+        "content": "Pilots must ensure correct altimeter settings, verify instrument accuracy, and select appropriate flight levels based on terrain clearance, regulations, and air traffic requirements."
+      },
+      {
+        "title": "Altimeter Accuracy",
+        "content": "Altimeters must operate within specified tolerances to ensure safety. Acceptable deviations are limited to defined ranges depending on altitude."
+      },
+      {
+        "title": "Approach and Landing Procedures",
+        "content": "Before descent, the transition level and latest pressure setting must be obtained. During approach, altitude references are based on local pressure to ensure terrain clearance."
+      },
+      {
+        "title": "Minimum Flight Altitudes",
+        "content": "Minimum altitudes are defined by authorities for each route and airspace to ensure obstacle clearance and are published in official aeronautical information documents."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 12 - Parallel or Near-parallel Runway Operation",
+    "sub_modules": [
+      {
+        "title": "General Introduction",
+        "content": "Parallel or near-parallel runway operations are used to increase aerodrome capacity, especially under instrument flight conditions and low visibility. These operations require radar monitoring and are commonly used at major airports with high traffic demand."
+      },
+      {
+        "title": "Need for Parallel Runway Operations",
+        "content": "Increasing traffic demand at major aerodromes requires simultaneous use of multiple runways. Parallel runway configurations allow more aircraft movements and improve efficiency, particularly during instrument conditions."
+      },
+      {
+        "title": "Simultaneous Parallel Approaches Overview",
+        "content": "There are two main types of simultaneous parallel approaches: independent approaches and dependent approaches. Both require radar monitoring and only allow straight-in approaches."
+      },
+      {
+        "title": "Independent Parallel Approaches",
+        "content": "In independent approaches, aircraft operate on parallel runways without applying radar separation between adjacent aircraft. Each approach is monitored by dedicated radar controllers, and aircraft must be established on the localizer before reducing vertical separation."
+      },
+      {
+        "title": "Separation in Independent Approaches",
+        "content": "Aircraft are initially separated vertically by 300 meters. Once both aircraft are established on their approach paths, vertical separation may be reduced, and radar monitoring ensures safety if deviations occur."
+      },
+      {
+        "title": "Dependent Parallel Approaches",
+        "content": "In dependent approaches, radar separation is maintained between aircraft on adjacent runways. Aircraft must intercept and stabilize on the approach path under controlled conditions before continuing descent."
+      },
+      {
+        "title": "Vectoring Requirements",
+        "content": "Aircraft must intercept the approach path at controlled angles and maintain straight and level flight before descent. Minimum radar separation is maintained until the aircraft is properly established on the approach."
+      },
+      {
+        "title": "Simultaneous Departures",
+        "content": "Simultaneous departures from parallel runways are allowed when aircraft tracks diverge immediately after takeoff. Radar identification must be established quickly, and departure paths must separate sufficiently."
+      },
+      {
+        "title": "Segregated Operations",
+        "content": "In segregated operations, one runway is dedicated to arrivals while the other is used exclusively for departures. This simplifies traffic management and is commonly used at busy airports."
+      },
+      {
+        "title": "Semi-mixed Operations",
+        "content": "Semi-mixed operations involve flexible use of runways, where one or both runways may handle both arrivals and departures. These operations combine elements of different modes to optimize efficiency."
+      },
+      {
+        "title": "Aircraft Equipment Requirements",
+        "content": "Aircraft operating on parallel runways must be equipped with appropriate navigation and landing systems to ensure accurate tracking and safe operation."
+      },
+      {
+        "title": "Radar Monitoring",
+        "content": "Radar surveillance is mandatory for all parallel runway operations. If radar is unavailable, operations revert to single runway usage to maintain safety."
+      },
+      {
+        "title": "Approach Safety Concept",
+        "content": "Parallel operations rely on high navigation accuracy and continuous monitoring. Separation standards may be reduced due to improved navigation precision, but safety is ensured through strict procedures and radar control."
+      },
+      {
+        "title": "Normal Operating Zone",
+        "content": "The normal operating zone is the airspace around the approach path where an aircraft is expected to remain during normal operations. It is defined based on navigation accuracy."
+      },
+      {
+        "title": "No Transgression Zone",
+        "content": "The no transgression zone is a protected airspace between parallel approach paths. If an aircraft enters this zone, immediate corrective action is required to prevent conflict with adjacent traffic."
+      },
+      {
+        "title": "Missed Approach in Parallel Operations",
+        "content": "Missed approach procedures must ensure safe separation from adjacent traffic. Flight paths for missed approaches and departures must diverge sufficiently to prevent conflicts."
+      },
+      {
+        "title": "Runway Spacing Requirements",
+        "content": "Minimum spacing between parallel runways depends on the mode of operation. Greater spacing allows more independent operations, while closer spacing requires stricter control and separation procedures."
+      },
+      {
+        "title": "Effect of Runway Staggering",
+        "content": "Staggered runway thresholds can provide additional vertical separation between aircraft, allowing reduced spacing requirements compared to directly aligned runways."
+      },
+      {
+        "title": "Wake Turbulence Considerations",
+        "content": "Wake turbulence from aircraft on adjacent runways can affect safety. If runway spacing is insufficient or flight paths overlap, additional separation must be applied to mitigate this risk."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 13 - SSR and ACAS",
+    "sub_modules": [
+      {
+        "title": "SSR Background",
+        "content": "Secondary surveillance radar enhances primary radar by allowing aircraft identification and data transmission. It evolved from military identification systems and now supports tracking, altitude reporting, and improved air traffic control services."
+      },
+      {
+        "title": "Transponder Usage",
+        "content": "Aircraft are equipped with transponders that respond to radar interrogations. When installed and serviceable, transponders must be used at all times unless instructed otherwise by air traffic control."
+      },
+      {
+        "title": "SSR Operation",
+        "content": "The system operates by ground radar sending signals to aircraft, which respond with coded replies. Codes consist of four digits and are assigned by air traffic control for identification."
+      },
+      {
+        "title": "Mode and Code Selection",
+        "content": "Aircraft transponders operate in different modes, including identification and altitude reporting. Pilots must set the assigned mode and code as instructed by air traffic control."
+      },
+      {
+        "title": "Ident Function",
+        "content": "The identification feature allows controllers to quickly identify an aircraft on radar. It should only be used when requested by air traffic control."
+      },
+      {
+        "title": "Special Transponder Codes",
+        "content": "Certain codes indicate emergencies or specific conditions. These include codes for general emergency, radio failure, and unlawful interference. Additional codes are used for general visibility and standard operations."
+      },
+      {
+        "title": "Altitude Reporting",
+        "content": "Altitude reporting provides aircraft altitude data referenced to standard pressure. This information allows controllers to verify altitude accuracy and maintain safe separation."
+      },
+      {
+        "title": "Transponder Failure",
+        "content": "Failure of a transponder affects air traffic control services. Pilots must notify authorities, follow procedures for exemption if required, and may be restricted in operations."
+      },
+      {
+        "title": "Code Changing Procedures",
+        "content": "When changing transponder codes, pilots should use standby mode before selecting a new code, or use alternate controllers if available, to prevent incorrect transmissions."
+      },
+      {
+        "title": "ACAS Background",
+        "content": "Airborne collision avoidance systems use transponder signals to detect nearby aircraft and assess collision risk. The system enhances situational awareness and safety, particularly in controlled airspace."
+      },
+      {
+        "title": "Purpose of ACAS",
+        "content": "The system provides alerts to pilots about nearby traffic and potential conflicts. It supports collision avoidance but does not replace pilot responsibility for maintaining safe flight."
+      },
+      {
+        "title": "Types of Alerts",
+        "content": "ACAS provides traffic advisories to warn of nearby aircraft and resolution advisories that require immediate pilot action to avoid collision."
+      },
+      {
+        "title": "Response to Advisories",
+        "content": "Pilots must not manoeuvre based on traffic advisories alone. Resolution advisories must be followed immediately unless doing so would compromise safety."
+      },
+      {
+        "title": "Conflict Resolution",
+        "content": "In case of conflicting advisories between aircraft, the system provides coordinated instructions. Pilots must follow these instructions to ensure safe separation."
+      },
+      {
+        "title": "Communication with ATC",
+        "content": "Pilots must inform air traffic control when responding to resolution advisories and when returning to the assigned flight path after resolving the conflict."
+      },
+      {
+        "title": "Disregarding Advisories",
+        "content": "Resolution advisories may only be disregarded if the pilot has clear visual confirmation that no avoidance manoeuvre is required. Air traffic control must still be informed."
+      },
+      {
+        "title": "Level Determination Accuracy",
+        "content": "Altitude reporting systems have defined tolerances. Controllers use these tolerances to determine whether an aircraft is maintaining, reaching, or leaving an assigned level."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 14 - Airspace",
+    "sub_modules": [
+      {
+        "title": "Division of Airspace",
+        "content": "Airspace within a state is divided into flight information regions which provide flight information and alerting services. These regions may align with national borders or follow convenient geographic boundaries. Airspace also includes control areas, control zones, airways, and aerodrome traffic zones."
+      },
+      {
+        "title": "Upper Information Regions",
+        "content": "Upper information regions represent the higher portion of airspace where en route traffic is managed separately from lower level arrival and departure traffic. Different rules and separation standards may apply."
+      },
+      {
+        "title": "Open Flight Information Region",
+        "content": "Airspace not designated as controlled or restricted is known as open flight information region. Only flight information and alerting services are provided in this airspace."
+      },
+      {
+        "title": "Oceanic Control Areas",
+        "content": "Oceanic control areas exist over large ocean regions where navigation and communication are more challenging. Special procedures and stricter rules are applied in these areas."
+      },
+      {
+        "title": "Prohibited Restricted and Danger Areas",
+        "content": "Certain airspace areas are designated to restrict or prohibit flight due to safety or security reasons. These areas are identified with specific codes and their status is updated through official notices."
+      },
+      {
+        "title": "Controlled Airspace",
+        "content": "Controlled airspace includes control areas and control zones where air traffic control services are provided to manage aircraft safely, especially for instrument flight operations."
+      },
+      {
+        "title": "Control Areas",
+        "content": "Control areas are established for en route traffic and provide area control services. They exist above a specified height above ground and may include airways connecting different regions."
+      },
+      {
+        "title": "Control Zones",
+        "content": "Control zones are established around aerodromes to manage arriving and departing traffic. They extend from the ground upward and provide mandatory air traffic control services."
+      },
+      {
+        "title": "Air Traffic Control Units",
+        "content": "Air traffic control services are provided by different units depending on the airspace. Area control centres manage en route traffic, while approach and aerodrome control units manage traffic near airports."
+      },
+      {
+        "title": "Airspace Classification",
+        "content": "Airspace is classified into seven categories based on the level of control, services provided, and rules applicable. These classifications determine how aircraft operate within each type of airspace."
+      },
+      {
+        "title": "Controlled Airspace Classes",
+        "content": "Classes from A to E are controlled airspace where air traffic control services are provided. Instrument flight rules operations are always controlled, while visual flight rules operations may be controlled depending on the class."
+      },
+      {
+        "title": "Advisory Airspace",
+        "content": "Advisory airspace provides advisory services to aircraft that request them. It is typically used temporarily and does not involve full air traffic control separation."
+      },
+      {
+        "title": "Special Visual Flight Rules",
+        "content": "Special visual flight rules allow visual flight operations within controlled airspace under specific conditions, typically within control zones."
+      },
+      {
+        "title": "Non Radio Operations",
+        "content": "Certain classes of airspace permit visual flight without radio communication. However, in some regions, communication is required to ensure safety and coordination."
+      },
+      {
+        "title": "Speed Restrictions",
+        "content": "Aircraft operating below a specified altitude must comply with speed limits to ensure safety and manage traffic effectively."
+      },
+      {
+        "title": "Flight Information Service",
+        "content": "Flight information service provides pilots with relevant information such as traffic and weather. It assists in collision avoidance but does not provide separation."
+      },
+      {
+        "title": "Required Navigation Performance",
+        "content": "Required navigation performance defines the accuracy of navigation required in a given airspace. It ensures that aircraft remain within a specified distance from their intended track for a high percentage of the flight."
+      },
+      {
+        "title": "Navigation Accuracy Concept",
+        "content": "Navigation performance is measured in nautical miles and indicates how accurately an aircraft can maintain its intended position. Different levels of accuracy are required depending on the airspace."
+      },
+      {
+        "title": "Application of Navigation Performance",
+        "content": "Navigation performance determines spacing between aircraft routes and ensures safe separation, especially in oceanic and remote airspace."
+      },
+      {
+        "title": "Airways and Routes",
+        "content": "Airways are structured routes that connect control areas and guide aircraft during en route flight. They are designed based on navigation aids and operational requirements."
+      },
+      {
+        "title": "Route Types",
+        "content": "Routes can be classified based on whether they are regional or non regional and whether they use area navigation or traditional navigation aids."
+      },
+      {
+        "title": "Route Designators",
+        "content": "Routes are assigned specific identifiers that indicate their type and characteristics, including altitude restrictions and navigation requirements."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 15 - Air Traffic Services",
+    "sub_modules": [
+      {
+        "title": "Introduction to Air Traffic Services",
+        "content": "Air traffic services are established by states in accordance with international standards to regulate and manage air traffic safely and efficiently."
+      },
+      {
+        "title": "Air Traffic Management Document",
+        "content": "A detailed reference document provides procedures and guidance for managing air traffic services, including separation, communication and coordination."
+      },
+      {
+        "title": "Objectives of Air Traffic Services",
+        "content": "The objectives are to prevent collisions, maintain orderly traffic flow, provide useful information, and assist in search and rescue operations."
+      },
+      {
+        "title": "Divisions of Air Traffic Services",
+        "content": "Air traffic services are divided into air traffic control service, flight information service and alerting service."
+      },
+      {
+        "title": "Air Traffic Control Services",
+        "content": "Air traffic control services include area control, approach control and aerodrome control, each responsible for different phases of flight."
+      },
+      {
+        "title": "Need for Air Traffic Services",
+        "content": "The establishment of air traffic services depends on traffic density, types of aircraft, weather conditions and geographical factors."
+      },
+      {
+        "title": "Air Traffic Control Applicability",
+        "content": "Air traffic control is provided to controlled flights in controlled airspace and to aerodrome traffic at controlled aerodromes."
+      },
+      {
+        "title": "Air Traffic Service Units",
+        "content": "Air traffic service units include control units and information centres responsible for providing control and information services."
+      },
+      {
+        "title": "Ground Movement Control",
+        "content": "Aircraft and vehicle movement on the ground is managed by aerodrome control or ground controllers to ensure safety."
+      },
+      {
+        "title": "Time Standard in Air Traffic Control",
+        "content": "All air traffic control operations use coordinated universal time based on a 24 hour clock for consistency worldwide."
+      },
+      {
+        "title": "Air Traffic Control Clearance",
+        "content": "A clearance is authorization given to an aircraft to proceed under specified conditions for safe and efficient traffic management."
+      },
+      {
+        "title": "Purpose of Clearances",
+        "content": "Clearances are issued to separate aircraft and ensure smooth traffic flow but do not remove pilot responsibility for safety."
+      },
+      {
+        "title": "Contents of Clearance",
+        "content": "Clearances include aircraft identification, route, level, instructions and relevant operational information."
+      },
+      {
+        "title": "Clearance Coordination",
+        "content": "Air traffic control units coordinate clearances between regions to ensure continuous and safe flight operations."
+      },
+      {
+        "title": "Clearance Readback",
+        "content": "Pilots must read back critical elements of clearances such as routes, levels, runway instructions and altimeter settings."
+      },
+      {
+        "title": "Air Traffic Flow Management",
+        "content": "Traffic flow management predicts and regulates traffic demand to reduce congestion and delays, often by delaying departures."
+      },
+      {
+        "title": "Control of Persons and Vehicles",
+        "content": "Movement of vehicles and personnel on aerodromes is controlled to avoid hazards and ensure safe aircraft operations."
+      },
+      {
+        "title": "Low Visibility Procedures",
+        "content": "Special procedures are applied in low visibility conditions to protect sensitive navigation areas and reduce risk."
+      },
+      {
+        "title": "Emergency Vehicles Priority",
+        "content": "Emergency vehicles responding to incidents are given priority over all other ground traffic."
+      },
+      {
+        "title": "Flight Information Service",
+        "content": "Flight information service provides pilots with essential information such as weather, traffic and operational updates."
+      },
+      {
+        "title": "Flight Information Service Operations",
+        "content": "Information is provided to aircraft receiving control services or otherwise known to air traffic units."
+      },
+      {
+        "title": "Meteorological Information Services",
+        "content": "Meteorological updates include significant weather reports and forecasts that may affect flight safety."
+      },
+      {
+        "title": "Automatic Terminal Information Service",
+        "content": "Automated broadcasts provide continuous updates on aerodrome conditions, weather and operational information."
+      },
+      {
+        "title": "Alerting Service",
+        "content": "Alerting service assists aircraft in distress and coordinates search and rescue operations when required."
+      },
+      {
+        "title": "Emergency Phases",
+        "content": "Emergency situations are classified into uncertainty, alert and distress phases depending on severity and available information."
+      },
+      {
+        "title": "Speed Control by Air Traffic Control",
+        "content": "Controllers may assign speeds to maintain separation between aircraft during flight operations."
+      },
+      {
+        "title": "Automatic Dependent Surveillance",
+        "content": "Aircraft automatically broadcast their position and flight data to enhance situational awareness and surveillance."
+      },
+      {
+        "title": "Air Reports",
+        "content": "Aircraft may transmit operational and meteorological reports during flight to assist air traffic services."
+      },
+      {
+        "title": "Special Air Reports",
+        "content": "Special reports are made when hazardous conditions such as severe turbulence or volcanic ash are encountered."
+      },
+      {
+        "title": "Air Traffic Incident Reports",
+        "content": "Incident reporting systems are used to investigate and improve safety in air traffic operations."
+      },
+      {
+        "title": "Priority in Emergencies",
+        "content": "Aircraft in emergency situations are given priority over all other traffic."
+      },
+      {
+        "title": "Callsign Changes",
+        "content": "Air traffic control may instruct an aircraft to change callsign temporarily to avoid confusion."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 16 - Separation",
+    "sub_modules": [
+      {
+        "title": "Concept of Separation",
+        "content": "Separation ensures safe distances between aircraft using vertical, horizontal or composite methods to prevent collisions."
+      },
+      {
+        "title": "Application of Separation",
+        "content": "Separation is applied between controlled flights depending on airspace class and flight rules to maintain safety."
+      },
+      {
+        "title": "Minimum Separation",
+        "content": "Aircraft are not cleared if separation minima cannot be maintained, and additional spacing is applied when required."
+      },
+      {
+        "title": "Composite Separation",
+        "content": "A reduced combination of vertical and lateral separation used in abnormal situations like emergencies or communication failure."
+      },
+      {
+        "title": "Essential Traffic Information",
+        "content": "Information provided when standard separation cannot be ensured between controlled flights."
+      },
+      {
+        "title": "Vertical Separation",
+        "content": "Vertical separation is achieved by assigning different altitudes or flight levels based on direction of flight."
+      },
+      {
+        "title": "Vertical Separation Minima",
+        "content": "Standard vertical separation is 1000 ft below certain levels and 2000 ft above, depending on airspace and RVSM conditions."
+      },
+      {
+        "title": "RVSM Airspace",
+        "content": "Reduced Vertical Separation Minimum allows 1000 ft separation between FL290 and FL410 to increase airspace capacity."
+      },
+      {
+        "title": "Cruising Level Assignment",
+        "content": "Aircraft are assigned levels to maintain separation and optimize traffic flow, usually one level per aircraft."
+      },
+      {
+        "title": "Level Changes",
+        "content": "Aircraft request changes in flight level and ATC ensures separation during climb or descent."
+      },
+      {
+        "title": "Horizontal Separation",
+        "content": "Separation in the horizontal plane includes longitudinal and lateral methods."
+      },
+      {
+        "title": "Lateral Separation",
+        "content": "Aircraft are separated by different routes or tracks ensuring protected airspaces do not overlap."
+      },
+      {
+        "title": "Track Separation",
+        "content": "Track divergence criteria using navigation aids like VOR, NDB or dead reckoning to maintain separation."
+      },
+      {
+        "title": "RNAV Separation",
+        "content": "Area navigation allows aircraft to follow defined routes with separation based on navigation accuracy."
+      },
+      {
+        "title": "Longitudinal Separation",
+        "content": "Separation along the same track based on time or distance between aircraft positions."
+      },
+      {
+        "title": "Time Based Separation",
+        "content": "Standard separation using time intervals such as 15, 10, 5 or 3 minutes depending on conditions."
+      },
+      {
+        "title": "DME Based Separation",
+        "content": "Distance separation using DME readings, typically 20 NM or reduced under certain conditions."
+      },
+      {
+        "title": "Mach Number Technique",
+        "content": "Separation maintained by controlling aircraft speeds using Mach number differences."
+      },
+      {
+        "title": "RNAV Distance Separation",
+        "content": "Separation using RNAV distance, typically 80 NM or reduced based on RNP requirements."
+      },
+      {
+        "title": "Reduction of Separation Minima",
+        "content": "Separation minima may be reduced when improved navigation, communication or surveillance systems are available."
+      },
+      {
+        "title": "Radar Separation",
+        "content": "Separation using radar position information, typically 5 NM between aircraft."
+      },
+      {
+        "title": "Reduced Radar Separation",
+        "content": "Radar separation can be reduced to 3 NM, 2.5 NM or 2 NM under specific conditions."
+      },
+      {
+        "title": "Wake Turbulence",
+        "content": "Disturbances caused by aircraft wings requiring additional separation for safety."
+      },
+      {
+        "title": "Wake Turbulence Categories",
+        "content": "Aircraft are classified as heavy, medium or light based on maximum takeoff mass."
+      },
+      {
+        "title": "Wake Turbulence Separation",
+        "content": "Time or distance separation applied between aircraft depending on their wake category."
+      },
+      {
+        "title": "Radar Wake Separation",
+        "content": "Distance-based wake turbulence separation such as 4 NM, 5 NM or 6 NM depending on aircraft types."
+      },
+      {
+        "title": "Visual Separation",
+        "content": "Pilots maintain separation visually when conditions permit, reducing ATC workload."
+      },
+      {
+        "title": "Departure Separation",
+        "content": "Separation between departing aircraft based on time, track divergence or speed differences."
+      },
+      {
+        "title": "Arrival Separation",
+        "content": "Separation for arriving aircraft during instrument or visual approaches."
+      },
+      {
+        "title": "Missed Approach Separation",
+        "content": "Missed approach procedures ensure safe divergence from departure paths."
+      },
+      {
+        "title": "Stacking and Holding",
+        "content": "Aircraft are held in stacks at different altitudes awaiting approach clearance."
+      },
+      {
+        "title": "Expected Approach Time",
+        "content": "Time assigned to aircraft indicating when they can expect to begin approach."
+      },
+      {
+        "title": "En Route Holding",
+        "content": "Holding at cruise altitude to reduce fuel consumption and manage delays."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 17 - Control of Aircraft",
+    "sub_modules": [
+      {
+        "title": "Procedural ATC Concept",
+        "content": "Procedural ATC provides separation based on pilot position reports, using time, distance and routing without radar."
+      },
+      {
+        "title": "Flight Strips",
+        "content": "Paper or electronic strips used by ATC to track aircraft progress and manage traffic flow."
+      },
+      {
+        "title": "Procedural Separation",
+        "content": "Separation applied using standard methods without radar, relying on position reports and estimates."
+      },
+      {
+        "title": "Communications",
+        "content": "ATC communication uses VHF or HF radio, with SELCAL for long-range communication."
+      },
+      {
+        "title": "Radar Control Concept",
+        "content": "Radar enhances ATC by providing real-time aircraft position for more accurate separation."
+      },
+      {
+        "title": "Types of Radar",
+        "content": "Primary Surveillance Radar (PSR) and Secondary Surveillance Radar (SSR) provide position and identification data."
+      },
+      {
+        "title": "Radar Services",
+        "content": "Includes radar control, approach control, vectoring, and radar-based approaches like PAR and SRA."
+      },
+      {
+        "title": "Radar Separation",
+        "content": "Standard separation using radar is 5 NM, with reduced minima in specific situations."
+      },
+      {
+        "title": "Radar Identification",
+        "content": "Aircraft must be identified before radar service, typically using SSR codes."
+      },
+      {
+        "title": "Radar Contact",
+        "content": "Controller confirms identification using phrase 'radar contact' and provides position."
+      },
+      {
+        "title": "Radar Vectoring",
+        "content": "ATC provides headings to guide aircraft for navigation, sequencing, or approach."
+      },
+      {
+        "title": "Radar Vectoring Area",
+        "content": "Defined area where radar vectoring is safe considering terrain and obstacles."
+      },
+      {
+        "title": "ILS Vectoring",
+        "content": "Aircraft are vectored at specific angles to intercept the ILS localizer."
+      },
+      {
+        "title": "Radar Approaches",
+        "content": "Includes precision (PAR) and non-precision (SRA) approaches using radar guidance."
+      },
+      {
+        "title": "PAR Approach",
+        "content": "Precision radar approach providing continuous heading and glidepath instructions."
+      },
+      {
+        "title": "SRA Approach",
+        "content": "Non-precision approach with advisory height and heading guidance."
+      },
+      {
+        "title": "Aerodrome Control",
+        "content": "Tower controls runway operations, preventing collisions on ground and near aerodrome."
+      },
+      {
+        "title": "Runway Operations",
+        "content": "Only one aircraft normally occupies runway; clearances regulate take-off and landing."
+      },
+      {
+        "title": "Departing Aircraft Control",
+        "content": "Aircraft are sequenced and cleared for take-off based on safety and separation."
+      },
+      {
+        "title": "Arriving Aircraft Control",
+        "content": "Landing clearance issued when runway is clear; missed approach if not cleared."
+      },
+      {
+        "title": "Land After Procedure",
+        "content": "Allows aircraft to land behind another under visual separation conditions."
+      },
+      {
+        "title": "Flight Information at Aerodrome",
+        "content": "ATC provides weather, runway and operational information to pilots."
+      },
+      {
+        "title": "Approach Control Service",
+        "content": "Controls aircraft during arrival and departure phases, linking en route and aerodrome control."
+      },
+      {
+        "title": "Departure Clearances",
+        "content": "Includes direction, climb profile, level restrictions and routing."
+      },
+      {
+        "title": "Arrival Procedures",
+        "content": "Includes reporting, sequencing and approach clearance."
+      },
+      {
+        "title": "Initial Approach Clearance",
+        "content": "Conditions under which aircraft can descend for approach."
+      },
+      {
+        "title": "Visual Approach",
+        "content": "IFR flight completes approach visually under suitable conditions."
+      },
+      {
+        "title": "Instrument Approach",
+        "content": "Standard approach procedures with ATC supervision and speed control."
+      },
+      {
+        "title": "Holding Procedures",
+        "content": "Aircraft hold in patterns awaiting approach clearance."
+      },
+      {
+        "title": "Stacking",
+        "content": "Aircraft arranged vertically for sequencing arrivals."
+      },
+      {
+        "title": "Timed Approaches",
+        "content": "Aircraft approach based on timing intervals for efficient sequencing."
+      },
+      {
+        "title": "Expected Approach Time",
+        "content": "Time at which aircraft is expected to leave hold and begin approach."
+      },
+      {
+        "title": "Information for Arriving Aircraft",
+        "content": "Includes runway, weather, visibility and hazard information."
+      },
+      {
+        "title": "Transfer of Control",
+        "content": "Aircraft control transferred between ATC units smoothly."
+      },
+      {
+        "title": "Advisory Service",
+        "content": "Provides traffic advice in Class F airspace without full ATC control."
+      },
+      {
+        "title": "Aircraft Emergencies",
+        "content": "ATC assists aircraft in emergency situations using procedures and priority handling."
+      },
+      {
+        "title": "SSR Emergency Codes",
+        "content": "Special codes: 7700 (emergency), 7600 (radio failure), 7500 (hijack)."
+      },
+      {
+        "title": "Emergency Communication",
+        "content": "Emergency frequencies include 121.5 MHz and 123.45 MHz."
+      },
+      {
+        "title": "Emergency Descent",
+        "content": "Rapid descent procedure with ATC alerting nearby aircraft."
+      },
+      {
+        "title": "Fuel Jettison",
+        "content": "Procedure for dumping fuel safely before landing."
+      },
+      {
+        "title": "Strayed and Unidentified Aircraft",
+        "content": "Procedures to assist lost or unidentified aircraft."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 18 - Aeronautical Information Service (AIS)",
+    "sub_modules": [
+      {
+        "title": "Objectives of AIS",
+        "content": "Provide accurate, timely and reliable aeronautical information to ensure safety, regularity and efficiency of air navigation."
+      },
+      {
+        "title": "ICAO Annex 15",
+        "content": "Contains standards and recommended practices governing AIS."
+      },
+      {
+        "title": "Functions of AIS",
+        "content": "States must provide AIS services directly or through agreements, ensuring compliance with ICAO standards."
+      },
+      {
+        "title": "Responsibilities of the State",
+        "content": "States are responsible for accuracy, quality and timeliness of aeronautical information."
+      },
+      {
+        "title": "Availability of AIS",
+        "content": "AIS operates 24 hours or at least during flight operations plus additional buffer time."
+      },
+      {
+        "title": "Sources of Information",
+        "content": "Includes national AIS, other States, and additional aviation sources."
+      },
+      {
+        "title": "Requirements of AIS",
+        "content": "Information must be verified, attributable and suitable for operational use."
+      },
+      {
+        "title": "Publication of Information",
+        "content": "Information is published through the Integrated Aeronautical Information Package (IAIP)."
+      },
+      {
+        "title": "WGS-84",
+        "content": "Global coordinate system used for aviation navigation data."
+      },
+      {
+        "title": "Integrated Aeronautical Information Package",
+        "content": "Includes AIP, Supplements, NOTAM, PIB, AIC and checklists."
+      },
+      {
+        "title": "Aeronautical Information Publication (AIP)",
+        "content": "Primary publication containing permanent and long-term aeronautical information."
+      },
+      {
+        "title": "AIP Structure",
+        "content": "Divided into GEN (General), ENR (En route), and AD (Aerodromes)."
+      },
+      {
+        "title": "AIP Amendments",
+        "content": "Permanent changes published with serial numbers and replacement pages."
+      },
+      {
+        "title": "AIRAC System",
+        "content": "28-day cycle for publishing operationally significant changes."
+      },
+      {
+        "title": "AIP Supplements",
+        "content": "Temporary long-duration changes or large information."
+      },
+      {
+        "title": "NOTAM",
+        "content": "Short-term, urgent operational information distributed via telecommunication."
+      },
+      {
+        "title": "NOTAM Rules",
+        "content": "Issued promptly for operationally significant changes and hazards."
+      },
+      {
+        "title": "NOTAM Distribution",
+        "content": "Distributed via AFTN to relevant users."
+      },
+      {
+        "title": "SNOWTAM",
+        "content": "Reports runway conditions like snow, ice, water."
+      },
+      {
+        "title": "Runway Surface Conditions",
+        "content": "Describes runway as dry, damp, wet, water patches or flooded."
+      },
+      {
+        "title": "ASHTAM",
+        "content": "Provides volcanic ash and eruption information."
+      },
+      {
+        "title": "ASHTAM Colour Codes",
+        "content": "Green, Yellow, Orange, Red indicating volcanic activity severity."
+      },
+      {
+        "title": "Aeronautical Information Circulars (AIC)",
+        "content": "Information of advisory or explanatory nature not suitable for AIP or NOTAM."
+      },
+      {
+        "title": "AIC Colour Coding",
+        "content": "Different colours represent safety, operational, administrative and chart-related topics."
+      },
+      {
+        "title": "Pre-flight Information",
+        "content": "Provides pilots with all necessary data before departure including NOTAM and charts."
+      },
+      {
+        "title": "Aerodrome Information",
+        "content": "Includes runway conditions, hazards, lighting and navigation aid status."
+      },
+      {
+        "title": "Pre-flight Information Bulletins (PIB)",
+        "content": "Summarized NOTAM and urgent information for pilots."
+      },
+      {
+        "title": "Post-flight Information",
+        "content": "Pilots report issues with navigation facilities for safety improvements."
+      }
+    ]
+  },
+  {
+    "book_id": "AL-001",
+    "book_name": "Air Law",
+    "chapter_name": "Chapter 19 - Aerodromes: Physical Characteristics",
+    "sub_modules": [
+      {
+        "title": "Definition of Aerodrome",
+        "content": "Area used for take-off and landing of aircraft including facilities."
+      },
+      {
+        "title": "ICAO Annex 14",
+        "content": "Defines standards and recommended practices for aerodromes."
+      },
+      {
+        "title": "Types of Aerodromes",
+        "content": "Public, private, unlicensed and government aerodromes."
+      },
+      {
+        "title": "International Aerodrome",
+        "content": "Aerodrome with customs, immigration and health facilities."
+      },
+      {
+        "title": "Aerodrome Layout",
+        "content": "Includes movement area, manoeuvring area and apron."
+      },
+      {
+        "title": "Movement Area",
+        "content": "Includes manoeuvring area, aprons and maintenance areas."
+      },
+      {
+        "title": "Manoeuvring Area",
+        "content": "Includes runways and taxiways only."
+      },
+      {
+        "title": "Apron",
+        "content": "Area for loading, unloading, refuelling and parking aircraft."
+      },
+      {
+        "title": "Aerodrome Reference Code",
+        "content": "Two-element code based on aircraft size and performance."
+      },
+      {
+        "title": "Aeroplane Reference Field Length",
+        "content": "Minimum take-off distance at standard conditions."
+      },
+      {
+        "title": "Declared Distances",
+        "content": "Includes TORA, TODA, ASDA and LDA."
+      },
+      {
+        "title": "TORA",
+        "content": "Take-off run available."
+      },
+      {
+        "title": "TODA",
+        "content": "TORA plus clearway."
+      },
+      {
+        "title": "ASDA",
+        "content": "TORA plus stopway."
+      },
+      {
+        "title": "LDA",
+        "content": "Landing distance available."
+      },
+      {
+        "title": "Runway Types",
+        "content": "Visual, non-precision and precision runways."
+      },
+      {
+        "title": "Runway Characteristics",
+        "content": "Length, width, markings and usability."
+      },
+      {
+        "title": "Runway Strip",
+        "content": "Area around runway kept free of obstacles."
+      },
+      {
+        "title": "RESA",
+        "content": "Safety area at runway ends."
+      },
+      {
+        "title": "Clearway",
+        "content": "Area beyond runway for climb after take-off."
+      },
+      {
+        "title": "Stopway",
+        "content": "Area for stopping during rejected take-off."
+      },
+      {
+        "title": "Taxiways",
+        "content": "Paths connecting runway, apron and other areas."
+      },
+      {
+        "title": "Rapid Exit Taxiways",
+        "content": "Allow aircraft to exit runway at higher speeds."
+      },
+      {
+        "title": "Taxiway Dimensions",
+        "content": "Defined by aircraft size and clearance requirements."
+      },
+      {
+        "title": "Holding Points",
+        "content": "Positions where aircraft stop before runway entry."
+      },
+      {
+        "title": "Aprons",
+        "content": "Areas for aircraft parking and servicing."
+      },
+      {
+        "title": "Isolated Parking Position",
+        "content": "Special area for emergency or hijacked aircraft."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-020",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 20 - Visual Aids, Markings and Signs",
+    "sub_modules": [
+      {
+        "title": "Background and Standardization",
+        "content": "Aerodromes vary widely in layout, operations, and geography, making standardization of visual information essential. ICAO Annex 14 defines Standards and Recommended Practices (SARPs) for visual aids, markings, and signage. These ensure pilots can safely taxi, take off, and land. Although SARPs are globally adopted, differences may exist between states."
+      },
+      {
+        "title": "Visual Aids for Navigation",
+        "content": "Aerodromes must provide visual aids for non-radio aircraft. These include wind indicators, landing direction indicators, signalling lamps, and signal areas. These aids allow pilots to determine wind direction, landing direction, and receive visual signals from ATC when radio communication is unavailable."
+      },
+      {
+        "title": "Wind Direction Indicator (Windsock)",
+        "content": "Every aerodrome must have at least one windsock. It is a fabric truncated cone, minimum 3.6 m long and 0.9 m diameter. It shows wind direction clearly and gives a rough indication of wind speed. It must be visible from 300 m altitude. Usually coloured white or orange. The master windsock location is marked by a 15 m diameter white circle. It must be illuminated for night operations."
+      },
+      {
+        "title": "Landing Direction Indicator",
+        "content": "The landing direction indicator is a T-shaped marker placed in a visible location. It indicates the direction of landing for non-radio aircraft. It is coloured white or orange for visibility. At night, it is illuminated or outlined with white lights."
+      },
+      {
+        "title": "Signalling Lamp (Aldis Lamp)",
+        "content": "A signalling lamp is located in the control tower to communicate with aircraft visually. It can emit red, green, and white lights. It can be manually aimed, switch between colours, and transmit Morse code at a minimum speed of four words per minute."
+      },
+      {
+        "title": "Signal Area (Signal Square)",
+        "content": "A signals area indicates that non-radio traffic is permitted. It is a square area (minimum 9 m per side), visible from 300 m altitude at angles above 10°. It has a contrasting surface with a white border. Usually located near the control tower. Displays visual ground signals."
+      },
+      {
+        "title": "Runway Markings Overview",
+        "content": "Runway markings are white and provide guidance for landing and take-off. They indicate runway identification, centreline, threshold, aiming point, and touchdown zone. Markings may be outlined in black for visibility on light surfaces."
+      },
+      {
+        "title": "Runway Designation Marking",
+        "content": "Runway numbers are based on magnetic heading divided by 10 and rounded (e.g., 094° becomes 09). Parallel runways use suffixes L, C, R. Example: 09L, 09R. Numbers may omit leading zero in some countries."
+      },
+      {
+        "title": "Runway Centre Line Marking",
+        "content": "A broken white line running along the centre of the runway. Stripe + gap length ranges from 50 m to 75 m. Each stripe is at least 30 m long."
+      },
+      {
+        "title": "Threshold Marking",
+        "content": "Threshold markings (piano keys) indicate the beginning of the landing area. They start 6 m from the threshold and consist of white longitudinal stripes. Number of stripes depends on runway width (e.g., 12 stripes for 45 m runway)."
+      },
+      {
+        "title": "Displaced Threshold",
+        "content": "If the threshold is moved forward, arrows and a transverse stripe indicate the displaced threshold. Reasons include obstacle clearance, RESA, or glide path requirements."
+      },
+      {
+        "title": "Aiming Point Marking",
+        "content": "Two white rectangular markings indicating where pilots should aim to land. Located typically 300 m from threshold for runways <2400 m, and 400 m for longer runways. Ensures proper glide path clearance."
+      },
+      {
+        "title": "Touchdown Zone Markings",
+        "content": "Pairs of rectangular markings indicating landing area. Spaced every 150 m from threshold. Code 4 runways have 6 pairs. Can be plain (Pattern A) or distance-coded (Pattern B)."
+      },
+      {
+        "title": "Runway Side Stripe Markings",
+        "content": "White lines along runway edges. Used where edge contrast is poor. Recommended for all precision runways."
+      },
+      {
+        "title": "Taxiway Markings Overview",
+        "content": "Taxiway markings are yellow. They guide aircraft movement on ground including taxiing, holding, and parking."
+      },
+      {
+        "title": "Taxiway Centre Line",
+        "content": "A continuous yellow line guiding aircraft from runway to apron or stands. Also used on runways acting as taxi routes."
+      },
+      {
+        "title": "Runway Holding Position Markings",
+        "content": "Markings indicating where aircraft must stop before entering runway. Two patterns: Pattern A (closest to runway) and Pattern B (further away for ILS protection). Always accompanied by mandatory signs."
+      },
+      {
+        "title": "Intermediate Holding Position",
+        "content": "Used at taxiway intersections. Marked by a single broken yellow line."
+      },
+      {
+        "title": "Aircraft Stand Markings",
+        "content": "Used on aprons for parking guidance. Include lead-in lines, alignment bars, stop lines, and stand identifiers. Designed for specific aircraft types."
+      },
+      {
+        "title": "Apron Safety Lines",
+        "content": "Mark safe zones for equipment and vehicles. Ensures obstacle clearance during aircraft movement."
+      },
+      {
+        "title": "Mandatory and Information Markings",
+        "content": "Mandatory markings (red background) indicate stop or restricted areas. Information markings provide directions or location when signs cannot be installed."
+      },
+      {
+        "title": "Signs Overview",
+        "content": "Aerodrome signs provide mandatory instructions and information. Signs are rectangular, frangible, and illuminated when required."
+      },
+      {
+        "title": "Mandatory Instruction Signs",
+        "content": "White text on red background. Includes runway holding points, NO ENTRY, and ILS critical area signs. Clearance required to proceed beyond these signs."
+      },
+      {
+        "title": "Information Signs",
+        "content": "Black text on yellow background. Provide directions, destinations, and runway exits."
+      },
+      {
+        "title": "Location Signs",
+        "content": "Yellow text on black background. Indicate current taxiway or runway position."
+      },
+      {
+        "title": "Combination Signs",
+        "content": "Combine location and direction signs. Location in centre, directions on sides."
+      },
+      {
+        "title": "Taxiway Designators",
+        "content": "Taxiways are named using letters or alphanumeric combinations. Letters I, O, X are avoided to prevent confusion."
+      },
+      {
+        "title": "Markers",
+        "content": "Markers are physical indicators used where lighting or markings are insufficient. They indicate boundaries, edges, or hazards."
+      },
+      {
+        "title": "Taxiway and Runway Edge Markers",
+        "content": "Taxiway edge markers are blue; centre line markers are green. Used when lighting is absent."
+      },
+      {
+        "title": "Boundary Markers",
+        "content": "Used when no defined runway exists. Spaced 90–200 m apart. Colored red/orange or white combinations."
+      },
+      {
+        "title": "Distance-to-Go Markers",
+        "content": "Black boards with white numbers indicating remaining runway length in 1000 ft intervals."
+      },
+      {
+        "title": "Parking Stand Markers",
+        "content": "Identify aircraft stands using white text on blue background."
+      },
+      {
+        "title": "Visual Docking Guidance Systems",
+        "content": "Provide precise alignment and stopping guidance during aircraft parking. Essential for airbridge operations and low visibility conditions."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-021",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 21 - Aerodrome Lighting",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Aerodrome lighting systems are essential for aircraft safety, especially at night and in poor visibility. Although ICAO Annex 14 provides standards, there is no single universal system in practice. The focus is on understanding the purpose and use of lighting systems rather than their design or spacing."
+      },
+      {
+        "title": "Aircraft Safety and Lighting Hazards",
+        "content": "Any non-aeronautical light near an aerodrome that may endanger aircraft must be removed, shielded, or modified to eliminate risk."
+      },
+      {
+        "title": "Elevated Lights",
+        "content": "Elevated runway, taxiway, and stopway lights must be frangible and low enough to avoid collision with aircraft propellers or engines. If not easily visible, they must be clearly marked."
+      },
+      {
+        "title": "Light Intensity and Control",
+        "content": "Lighting must be of sufficient intensity for visibility conditions. Directional lighting is used to improve effectiveness. Intensity should be adjustable to suit conditions and coordinated across systems such as approach lights, runway lights, and taxiway lights to avoid misleading visual cues."
+      },
+      {
+        "title": "Availability and Emergency Lighting",
+        "content": "Lighting systems may be turned off but must be restorable within 1 hour. Backup power is usually provided. If not, emergency lighting must be available for at least the primary runway."
+      },
+      {
+        "title": "Aerodrome Beacons",
+        "content": "Aerodrome beacons help pilots locate aerodromes at night. Land aerodromes use white or white/green flashes, while water aerodromes use white or white/yellow. Required where visibility is poor, visual navigation is used, or the aerodrome is difficult to locate."
+      },
+      {
+        "title": "Identification Beacon",
+        "content": "An identification beacon flashes Morse code to identify the aerodrome. It shows green for civil land aerodromes, red for military aerodromes, and yellow for water aerodromes."
+      },
+      {
+        "title": "Approach Lighting Systems Overview",
+        "content": "Approach lighting systems guide pilots to the runway threshold or aiming point in poor visibility. They are white lights arranged in patterns that may include distance coding and attitude cues. Standard segment length is 300 m."
+      },
+      {
+        "title": "Calvert Lighting System",
+        "content": "Used mainly in the UK, consisting of 5 crossbars and a distance-coded centre line. A NATO variant exists without distance coding."
+      },
+      {
+        "title": "Barrettes",
+        "content": "Groups of 3 or more closely spaced lights forming a bar. Used in ICAO systems instead of single light sources to improve visibility and recognition."
+      },
+      {
+        "title": "Simple Approach Lighting System",
+        "content": "Consists of centre line lights extending at least 420 m from threshold and a crossbar at 300 m. Used for non-instrument and some non-precision runways."
+      },
+      {
+        "title": "Precision Approach CAT I Lighting",
+        "content": "Extends up to 900 m from threshold with multiple crossbars spaced 150 m apart. Divided into inner, middle, and outer segments. Provides guidance to decision height."
+      },
+      {
+        "title": "ICAO CAT I Lighting System",
+        "content": "Uses barrettes for centre line and a single crossbar at 300 m. May include sequenced flashing lights (strobe) to guide aircraft visually toward the runway."
+      },
+      {
+        "title": "CAT II/III Lighting Systems",
+        "content": "More complex systems designed for low visibility operations. Include enhanced inner segment lighting with barrettes and red side bars to improve visibility and attitude awareness."
+      },
+      {
+        "title": "Precision Approach Path Indicator (PAPI)",
+        "content": "A system of 4 lights providing glide path guidance. Each light shows red or white depending on viewing angle. The combination of lights indicates whether the aircraft is above, on, or below the glide path."
+      },
+      {
+        "title": "PAPI Indications",
+        "content": "Four white lights indicate too high, two white and two red indicate correct glide path, and four red indicate too low. Intermediate combinations indicate slight deviations."
+      },
+      {
+        "title": "Minimum Eye Height (MEHT)",
+        "content": "MEHT ensures sufficient clearance between aircraft wheels and runway when following PAPI guidance. It accounts for the pilot's eye position relative to the landing gear."
+      },
+      {
+        "title": "Visual Approach Slope Indicator (VASI)",
+        "content": "Consists of two light bars showing red or white. Correct glide path is indicated by white over red. All white means too high, all red means too low."
+      },
+      {
+        "title": "Runway Edge Lights",
+        "content": "White lights along runway edges. May show yellow in the last 600 m (caution zone) and red in displaced threshold areas. Used for night and low visibility operations."
+      },
+      {
+        "title": "Runway Threshold and Wing Bar Lights",
+        "content": "Green lights marking the runway threshold. Wing bar lights are used for displaced thresholds."
+      },
+      {
+        "title": "Runway Threshold Identification Lights",
+        "content": "Flashing white lights used to improve threshold visibility, especially for non-precision runways."
+      },
+      {
+        "title": "Runway End Lights",
+        "content": "Red lights marking the end of the runway. Positioned perpendicular to runway centre line."
+      },
+      {
+        "title": "Runway Centre Line Lights",
+        "content": "White lights along runway centre line. Alternate red/white in last 900 m and all red in final 300 m."
+      },
+      {
+        "title": "Touchdown Zone Lights",
+        "content": "White lights in touchdown area extending up to 900 m from threshold. Used in CAT II/III runways."
+      },
+      {
+        "title": "Stopway Lights",
+        "content": "Red lights marking stopway areas, indicating they are not part of the runway for landing."
+      },
+      {
+        "title": "Runway Lead-in Lights",
+        "content": "Flashing white lights guiding aircraft along a specific approach path to the runway."
+      },
+      {
+        "title": "Circling Guidance Lights",
+        "content": "White lights used to help pilots identify runway position during circling approaches."
+      },
+      {
+        "title": "Taxiway Lighting Overview",
+        "content": "Taxiway lighting provides guidance during ground movement. Includes centre line lights, edge lights, stop bars, and guard lights."
+      },
+      {
+        "title": "Taxiway Edge Lights",
+        "content": "Blue omni-directional lights marking taxiway edges. Used where centre line lighting is not provided."
+      },
+      {
+        "title": "Taxiway Centre Line Lights",
+        "content": "Green lights guiding aircraft along taxiways. Alternate green/yellow in ILS sensitive areas. Provide continuous guidance from runway to apron."
+      },
+      {
+        "title": "Stop Bars",
+        "content": "Red lights across taxiway indicating mandatory stop. Aircraft must not proceed until cleared by ATC."
+      },
+      {
+        "title": "Intermediate Holding Position Lights",
+        "content": "Three yellow lights indicating holding points at taxiway intersections."
+      },
+      {
+        "title": "Road Holding Position Lights",
+        "content": "Used at road crossings. May be red/green controllable or flashing red lights."
+      },
+      {
+        "title": "Runway Guard Lights",
+        "content": "Flashing yellow lights warning of runway entry. Installed at runway intersections. Two configurations: paired lights or a line of lights."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-022",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 22 - Obstacle Marking and Aerodrome Services",
+    "sub_modules": [
+      {
+        "title": "Introduction to Obstacles",
+        "content": "Obstacle marking and lighting are used to reduce hazards to aircraft by indicating the presence of obstacles. However, they do not remove operational limitations caused by obstacles. Responsibility for marking and lighting is shared between aerodrome authorities and structure owners, with aerodrome licensees responsible for obstacles on the movement area."
+      },
+      {
+        "title": "Obstacle Identification Surface (OIS)",
+        "content": "Obstacles are identified if they penetrate the Obstacle Identification Surface (OIS) within 15 km of the aerodrome. The OIS consists of inner and outer transition planes extending from runway strips up to 150 m in height."
+      },
+      {
+        "title": "Requirement for Obstacle Marking and Lighting",
+        "content": "Fixed obstacles must be marked and, if the aerodrome operates at night, lit. Marking may be omitted if high-intensity lighting is used during the day."
+      },
+      {
+        "title": "Obstacles on Movement Area",
+        "content": "Vehicles and mobile objects on the movement area are considered obstacles and must be marked and lit. Aircraft servicing equipment on aprons may be exempt."
+      },
+      {
+        "title": "Marking of Fixed Objects",
+        "content": "Fixed objects should be coloured using orange or red for visibility. If colouring is impractical, markers or flags should be used. Alternative colours may be used if contrast is insufficient."
+      },
+      {
+        "title": "Vehicles and Mobile Objects Marking",
+        "content": "Vehicles should use conspicuous colours such as yellow or yellow-green for emergency vehicles. They must display flashing yellow lights. Trailers use steady red lights. Objects with limited mobility like aerobridges use steady red lights."
+      },
+      {
+        "title": "Emergency Vehicles",
+        "content": "Emergency vehicles such as fire, ambulance, and police use blue flashing lights in addition to standard markings. External emergency vehicles must be escorted on the aerodrome."
+      },
+      {
+        "title": "Lighting of Obstacles",
+        "content": "Obstacle lighting may be low, medium, or high intensity depending on height and visibility requirements. High intensity lights are suitable for both day and night use."
+      },
+      {
+        "title": "Low Intensity Obstacle Lights",
+        "content": "Low intensity lights are steady red and used for smaller or less critical obstacles. They must provide sufficient visibility against background lighting."
+      },
+      {
+        "title": "Medium Intensity Obstacle Lights",
+        "content": "Medium intensity lights are flashing red (or white when combined with high intensity systems). Used for larger or taller obstacles exceeding 45 m."
+      },
+      {
+        "title": "High Intensity Obstacle Lights",
+        "content": "High intensity lights are flashing white and used for very tall structures exceeding 150 m. On towers, lights flash sequentially from middle to top to bottom."
+      },
+      {
+        "title": "Lighting of Tall Objects",
+        "content": "Tall objects exceeding 45 m require additional intermediate lights spaced at intervals not exceeding 45 m between top and ground."
+      },
+      {
+        "title": "Lighting of Aircraft as Obstacles",
+        "content": "Aircraft parked on manoeuvring areas are considered obstacles and must be lit using navigation or anti-collision lights."
+      },
+      {
+        "title": "En Route Obstacles",
+        "content": "Obstacles beyond 15 km are considered significant if exceeding 150 m. They are typically marked with steady red lights at night and flashing white lights by day."
+      },
+      {
+        "title": "Marking of Overhead Wires",
+        "content": "Overhead wires and cables are marked using coloured spheres to enhance visibility."
+      },
+      {
+        "title": "Closed Runways and Taxiways",
+        "content": "Closed areas are marked with large crosses. White crosses are used for runways and yellow crosses for taxiways. Markings are placed at intervals not exceeding 300 m."
+      },
+      {
+        "title": "Non-load-bearing Surfaces",
+        "content": "Taxiway shoulders and non-load-bearing areas are marked with side stripes to distinguish them from usable surfaces."
+      },
+      {
+        "title": "Pre-threshold Markings",
+        "content": "Chevron markings indicate areas before the threshold that are not suitable for landing or take-off."
+      },
+      {
+        "title": "Rescue and Fire Fighting (RFF) Overview",
+        "content": "The primary objective of RFF services is to save lives by responding rapidly to aircraft accidents and extinguishing fires."
+      },
+      {
+        "title": "RFF Level of Protection",
+        "content": "The level of protection is based on aerodrome category, determined by aircraft size and fuselage width. Reduced levels may be allowed under low traffic conditions."
+      },
+      {
+        "title": "RFF Response Time",
+        "content": "The target response time is within 3 minutes to any part of the movement area, including runway ends, under optimal conditions."
+      },
+      {
+        "title": "Emergency Access Roads",
+        "content": "Emergency access roads facilitate rapid response and should provide direct access to runway areas and approach zones."
+      },
+      {
+        "title": "Fire Stations",
+        "content": "Fire stations should be strategically located for minimal response time. Additional stations may be required if coverage cannot be achieved from one location."
+      },
+      {
+        "title": "Apron Management Service",
+        "content": "Apron management ensures safe aircraft and vehicle movement on aprons. It coordinates with ATC and manages ground operations like pushback and taxi clearance transitions."
+      },
+      {
+        "title": "Priority of Emergency Vehicles",
+        "content": "Emergency vehicles have priority over all other traffic. Other vehicles must give way to aircraft and emergency vehicles."
+      },
+      {
+        "title": "Ground Servicing Safety",
+        "content": "During refuelling and servicing, fire equipment must be available and evacuation paths must remain clear for passenger safety."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-023",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 23 - Facilitation",
+    "sub_modules": [
+      {
+        "title": "Aim and ICAO Articles",
+        "content": "Facilitation standards are based on ICAO Annex 9 and Articles 22, 23, and 37 of the Chicago Convention. These aim to simplify and expedite procedures related to customs, immigration, quarantine, and clearance, ensuring efficient air navigation."
+      },
+      {
+        "title": "Documentation Evolution",
+        "content": "Aircraft documentation has evolved from traditional shipping documents to modern electronic data systems, reducing reliance on paper and improving efficiency."
+      },
+      {
+        "title": "Entry and Departure Procedures",
+        "content": "Procedures for aircraft clearance must be efficient and no less favourable than other transport modes. Security, customs, and narcotics control procedures must not delay aircraft operations unnecessarily."
+      },
+      {
+        "title": "Required Documents",
+        "content": "States must not require documents beyond those specified in Annex 9. Electronic data interchange (EDI) systems should be used to replace paper-based processes."
+      },
+      {
+        "title": "General Declaration",
+        "content": "The General Declaration includes aircraft details, routing, crew, passenger numbers, and health information. It may be signed by the pilot-in-command or an authorized agent and may be replaced by alternative electronic methods."
+      },
+      {
+        "title": "Passenger and Cargo Manifests",
+        "content": "Passenger manifests list passenger details, while cargo manifests include airway bill numbers, number of packages, and nature of goods. These may replace or supplement the General Declaration."
+      },
+      {
+        "title": "Passenger Baggage",
+        "content": "States do not require lists of accompanied baggage. Information may be provided upon request. Unaccompanied baggage is processed using simplified cargo procedures."
+      },
+      {
+        "title": "Stores List",
+        "content": "The stores list includes goods for consumption by passengers and crew, as well as operational supplies such as fuel and lubricants."
+      },
+      {
+        "title": "Unaccompanied Baggage",
+        "content": "Handled under cargo procedures but with simplified clearance processes."
+      },
+      {
+        "title": "Oral Declaration",
+        "content": "Passengers and crew may declare baggage contents verbally. Random inspections are permitted."
+      },
+      {
+        "title": "Completion of Documents",
+        "content": "Documents may be handwritten, typed, or electronic, provided they are legible and in block capitals if written."
+      },
+      {
+        "title": "Document Limits",
+        "content": "States must not require more than three copies of the General Declaration, Cargo Manifest, or Stores List."
+      },
+      {
+        "title": "Advance Notification of Arrival",
+        "content": "For non-scheduled flights, a flight plan submitted at least two hours prior serves as notification. The flight must land at a designated international airport."
+      },
+      {
+        "title": "Crew Member Handling",
+        "content": "Crew inspections must be conducted quickly. Crew Member Certificates (CMC) allow temporary admission without requiring passports or visas under specific conditions."
+      },
+      {
+        "title": "Crew Member Certificates (CMC)",
+        "content": "CMC serves as identification for crew members, enabling efficient international movement without additional documentation."
+      },
+      {
+        "title": "Non-scheduled Flight Crew Privileges",
+        "content": "Crew on non-scheduled flights are granted temporary admission provided they depart on the same aircraft's next flight."
+      },
+      {
+        "title": "Transit Passengers",
+        "content": "Transit passengers may remain in the transit area for up to 2 days."
+      },
+      {
+        "title": "Freedom from Duty",
+        "content": "Aircraft not engaged in scheduled international services may be temporarily admitted without duty, subject to State regulations."
+      },
+      {
+        "title": "Operator Responsibility",
+        "content": "The operator is responsible for passengers and crew until they are admitted into the State, after which responsibility transfers to the authorities."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-024",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 24 - Search and Rescue",
+    "sub_modules": [
+      {
+        "title": "Key Definitions",
+        "content": "Important SAR definitions include Alert Phase (concern for safety), Distress Phase (grave and imminent danger), Emergency Phase (uncertainty, alert or distress), RCC (Rescue Coordination Centre), PIC (Pilot-in-Command), Operator, State of Registry, and Uncertainty Phase."
+      },
+      {
+        "title": "Establishment of SAR Services",
+        "content": "Contracting States must provide 24-hour Search and Rescue (SAR) services within their territories, assisting all aircraft regardless of nationality."
+      },
+      {
+        "title": "SAR Regions",
+        "content": "States define SAR regions that do not overlap and should align with Flight Information Regions (FIRs) where possible."
+      },
+      {
+        "title": "SAR Service Units",
+        "content": "Each SAR region must have a Rescue Coordination Centre (RCC). Sub-centres and alerting posts may be established to improve efficiency and communication."
+      },
+      {
+        "title": "Cooperation Between States",
+        "content": "States must coordinate SAR operations with neighboring countries, allow entry of rescue units, and acknowledge and respond to SAR assistance requests promptly."
+      },
+      {
+        "title": "SAR Agreements",
+        "content": "States should establish agreements to simplify cross-border SAR operations, allowing rapid deployment of aircraft, personnel, and equipment."
+      },
+      {
+        "title": "Providing Assistance to Other States",
+        "content": "States should authorize RCCs to assist other countries with SAR operations, including providing aircraft, vessels, personnel, and equipment."
+      },
+      {
+        "title": "Emergency Information Handling",
+        "content": "Any person or authority must report aircraft emergencies immediately. RCC evaluates the situation and determines the appropriate emergency phase and response."
+      },
+      {
+        "title": "First Aircraft on Scene",
+        "content": "The first aircraft at an accident scene takes command of operations until a dedicated SAR aircraft arrives, ensuring coordination among responding aircraft."
+      },
+      {
+        "title": "Direction of Surface Craft",
+        "content": "Aircraft may guide ships using radio or visual signals. Maritime distress frequencies include 2182 kHz (HF) and VHF Channel 16."
+      },
+      {
+        "title": "Communication with Survivors",
+        "content": "Aircraft may drop communication equipment or written messages to survivors if two-way communication is not available."
+      },
+      {
+        "title": "Aircraft to Surface Signals",
+        "content": "Aircraft direct vessels by circling, crossing ahead, rocking wings, and heading toward the target direction."
+      },
+      {
+        "title": "Termination of Assistance",
+        "content": "Aircraft indicate assistance is no longer required by crossing behind a vessel and signaling with wings or engine changes."
+      },
+      {
+        "title": "SAR Signal Usage",
+        "content": "Standard SAR signals must only be used for their intended meaning to avoid confusion."
+      },
+      {
+        "title": "Ground-Air Signals (Survivors)",
+        "content": "Survivors use symbols like V (require assistance), X (medical help), Y (yes), N (no), and arrows (direction of movement)."
+      },
+      {
+        "title": "Ground-Air Signals (Search Parties)",
+        "content": "Search teams use symbols to indicate mission status, found personnel, inability to continue, direction of search, and no findings."
+      },
+      {
+        "title": "Air-to-Ground Acknowledgement",
+        "content": "Aircraft acknowledge signals by rocking wings (day) or flashing lights (night). No signal indicates lack of understanding."
+      },
+      {
+        "title": "Droppable Supplies Marking",
+        "content": "Supplies dropped to survivors are color-coded: Red (medical), Blue (food/water), Yellow (blankets/clothing), Black (miscellaneous equipment)."
+      },
+      {
+        "title": "Emergency Frequencies",
+        "content": "Key SAR frequencies include VHF 121.5 MHz, UHF 243.0 MHz, HF 2182 kHz, and 406 MHz (SARSAT beacon frequency)."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-025",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 25 - Security",
+    "sub_modules": [
+      {
+        "title": "Key Definitions",
+        "content": "Airside refers to controlled movement areas of an airport. Screening is the detection of weapons or dangerous items. Security is safeguarding aviation from unlawful interference. Security restricted areas are high-risk zones with additional controls. Unidentified baggage is baggage not linked to a passenger."
+      },
+      {
+        "title": "ICAO Annex 17",
+        "content": "Annex 17 contains ICAO Standards and Recommended Practices (SARPs) related to aviation security."
+      },
+      {
+        "title": "Objectives of Aviation Security",
+        "content": "The primary objective is to safeguard civil aviation against unlawful interference, ensuring safety of passengers, crew, ground personnel and the public."
+      },
+      {
+        "title": "State Organization",
+        "content": "States must establish organizations, plans and procedures for aviation security, capable of scaling with threat levels."
+      },
+      {
+        "title": "Facilitation vs Security",
+        "content": "Security measures should minimize delays and interference with aviation operations while maintaining safety."
+      },
+      {
+        "title": "National Civil Aviation Security Programme",
+        "content": "Each State must implement a national security programme including regulations, coordination authority, airport committees, contingency plans and training systems."
+      },
+      {
+        "title": "Airport Design Requirements",
+        "content": "Security requirements must be integrated into airport design, infrastructure and modifications."
+      },
+      {
+        "title": "International Cooperation",
+        "content": "States must cooperate globally, share security programmes, include security clauses in agreements, and collaborate in training and technology development."
+      },
+      {
+        "title": "Prohibited Objects Control",
+        "content": "Measures must prevent unauthorized carriage of weapons, explosives or dangerous items in cabin or checked baggage."
+      },
+      {
+        "title": "Cargo and Mail Security",
+        "content": "Cargo and mail must be secured through screening, approved agents and access control systems."
+      },
+      {
+        "title": "Carriage of Weapons",
+        "content": "Weapons carried by authorized personnel require approval from all relevant States, and the pilot-in-command must be informed."
+      },
+      {
+        "title": "Passenger and Cabin Baggage Screening",
+        "content": "Passengers and baggage must be screened, and mixing with unscreened individuals must be prevented. Re-screening is required if mixing occurs."
+      },
+      {
+        "title": "Deportees and Persons in Custody",
+        "content": "Operators and PIC must be informed of deportees or persons in custody. They are usually boarded first and handled with specific procedures."
+      },
+      {
+        "title": "Checked Baggage Control",
+        "content": "Unaccompanied baggage must not be transported unless subjected to additional security measures and separated from passengers."
+      },
+      {
+        "title": "Access Control",
+        "content": "States must implement identification and access systems to prevent unauthorized entry to airside and critical areas."
+      },
+      {
+        "title": "Handling Unlawful Interference",
+        "content": "States must ensure safety of passengers and crew and support continuation of the journey after unlawful interference incidents."
+      },
+      {
+        "title": "Air Traffic Control Role",
+        "content": "ATS must gather and share information, prioritize affected aircraft, and coordinate with relevant authorities and FIRs."
+      },
+      {
+        "title": "Provision of Assistance",
+        "content": "States must provide navigation aids, ATC services and landing permissions to aircraft under unlawful interference."
+      },
+      {
+        "title": "Detention of Aircraft",
+        "content": "Aircraft subjected to unlawful interference should be detained unless departure is necessary for safety. States must ensure passenger and crew welfare."
+      },
+      {
+        "title": "Operator Security Programme",
+        "content": "Operators must maintain a written security programme aligned with national standards, including code-share compliance."
+      },
+      {
+        "title": "Annex 2 - Rules of the Air (Security)",
+        "content": "Aircraft under unlawful interference should notify ATS, maintain assigned track/level if possible, and use emergency frequencies or transponder codes."
+      },
+      {
+        "title": "Annex 6 - Operations (Security)",
+        "content": "Flight deck doors must be secure. Operators must have bomb search procedures, training programmes and reporting systems for unlawful interference."
+      },
+      {
+        "title": "Annex 9 - Facilitation (Security)",
+        "content": "Transit passengers should avoid unnecessary checks. States handle inadmissible persons, deportees and unruly passengers with defined procedures."
+      },
+      {
+        "title": "DOC 4444 - ATS Procedures",
+        "content": "Emergency SSR codes include 7700 (general emergency) and 7500 (unlawful interference). ATS must prioritize, monitor and support affected aircraft."
+      },
+      {
+        "title": "Isolated Aircraft Parking Position",
+        "content": "Aircraft under unlawful interference must be parked at isolated stands at least 100 m away from other aircraft and infrastructure."
+      },
+      {
+        "title": "Taxiing Considerations for Security",
+        "content": "Aircraft under threat should be routed away from populated areas, other aircraft and installations with clearly defined taxi instructions."
+      }
+    ]
+  },
+  {
+    "book_id": "AIR-026",
+    "book_name": "Aerodromes",
+    "chapter_name": "Chapter 26 - Aircraft Accident and Incident Investigation",
+    "sub_modules": [
+      {
+        "title": "ICAO Annex 13",
+        "content": "Annex 13 contains ICAO Standards and Recommended Practices (SARPs) for aircraft accident and incident investigation."
+      },
+      {
+        "title": "Applicability",
+        "content": "Investigation standards apply globally to accidents and incidents. The State of Operator provisions apply when aircraft are leased, chartered or interchanged."
+      },
+      {
+        "title": "Definition of Accident",
+        "content": "An accident is an occurrence between boarding and disembarkation where a person is fatally/seriously injured, the aircraft sustains major damage affecting performance, or the aircraft is missing or inaccessible."
+      },
+      {
+        "title": "Definition of Incident",
+        "content": "An incident is an occurrence, other than an accident, that affects or could affect the safety of operation."
+      },
+      {
+        "title": "Serious Incident",
+        "content": "A serious incident is one where circumstances indicate that an accident nearly occurred."
+      },
+      {
+        "title": "Serious Injury",
+        "content": "Includes hospitalization over 48 hours, fractures (except minor), severe bleeding, internal injury, major burns, or exposure to hazardous substances."
+      },
+      {
+        "title": "States Involved",
+        "content": "Key states include State of Occurrence, State of Registry, State of Operator, State of Design, and State of Manufacture."
+      },
+      {
+        "title": "Objective of Investigation",
+        "content": "The sole objective is accident prevention, not assigning blame or liability."
+      },
+      {
+        "title": "Responsibility for Investigation",
+        "content": "The State of Occurrence conducts investigations. If unknown, the State of Registry assumes responsibility. Other states may act if required."
+      },
+      {
+        "title": "Participation in Investigation",
+        "content": "States of Registry, Operator, Design and Manufacture may participate. States with affected citizens may appoint experts."
+      },
+      {
+        "title": "Rights of Participating States",
+        "content": "Participating states may access the site, information, assist in victim identification, question survivors and receive the final report."
+      },
+      {
+        "title": "Final Report Distribution",
+        "content": "The final report is sent to all involved states including Registry, Operator, Design, Manufacture, affected states and those providing assistance."
+      },
+      {
+        "title": "ICAO Notification",
+        "content": "ICAO must be notified for aircraft above 2250 kg. Final reports must be sent for aircraft above 5700 kg."
+      },
+      {
+        "title": "Examples of Serious Incidents",
+        "content": "Includes near collisions, CFIT avoided, aborted take-offs, runway incursions, fires, system failures, crew incapacitation, fuel emergencies and major performance failures."
+      },
+      {
+        "title": "EU Directive 94/56",
+        "content": "Focuses on independent investigation bodies, prevention of accidents, and separation of investigation from liability."
+      },
+      {
+        "title": "Investigation Requirements (EU)",
+        "content": "Investigators must have access to crash sites, evidence, flight recorders and medical data. Reports should be published within 12 months."
+      },
+      {
+        "title": "Safety Recommendations",
+        "content": "Recommendations from investigations must be considered and implemented by States."
+      },
+      {
+        "title": "EU Directive 2003/42",
+        "content": "Covers occurrence reporting systems to improve safety through data collection, storage and sharing."
+      },
+      {
+        "title": "Definition of Occurrence",
+        "content": "An occurrence is any operational interruption, defect or irregular situation affecting safety that does not result in an accident or serious incident."
+      },
+      {
+        "title": "Occurrence Reporting System",
+        "content": "States must establish systems to collect, analyze and share safety data across authorities and internationally."
+      }
+    ]
+  }
+]

@@ -1,0 +1,817 @@
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 1 - Air Information Publications",
+  "sub_modules": [
+    {
+      "title": "Introduction to AIP",
+      "content": "Pilots must gather information about ATC procedures, frequencies, navigation aids, weather services, and airspace restrictions before flight."
+    },
+    {
+      "title": "Primary vs Secondary Sources",
+      "content": "Charts like Jeppesen are secondary sources, while AIP issued by national authorities is the primary and official source."
+    },
+    {
+      "title": "AIP Definition",
+      "content": "AIP is an official publication containing essential and lasting aeronautical information issued by a state."
+    },
+    {
+      "title": "AIP Supplements",
+      "content": "Temporary changes to AIP information published separately."
+    },
+    {
+      "title": "NOTAM Definition",
+      "content": "Short-term or urgent information about changes in aeronautical facilities, services, or hazards."
+    },
+    {
+      "title": "AIP Structure",
+      "content": "Divided into GEN (General), ENR (En Route), and AD (Aerodromes)."
+    },
+    {
+      "title": "Location Indicators",
+      "content": "Four-letter ICAO codes identifying airports and centers, where first two letters represent country."
+    },
+    {
+      "title": "NOTAM Types",
+      "content": "NOTAMN (new), NOTAMR (replacement), NOTAMC (cancellation)."
+    },
+    {
+      "title": "AFIS",
+      "content": "Aerodrome Flight Information Service provides essential information for safe operations at aerodromes."
+    },
+    {
+      "title": "ATIS",
+      "content": "Automatic broadcast of routine aerodrome information to reduce radio workload."
+    },
+    {
+      "title": "Meteorological Information",
+      "content": "Includes METAR, TAF, SIGMET, and weather charts for flight safety."
+    },
+    {
+      "title": "VOLMET",
+      "content": "Continuous broadcast of meteorological information via radio."
+    },
+    {
+      "title": "Navigation Aids",
+      "content": "Includes VOR, DME, and NDB with frequencies, identifiers, and operational details."
+    },
+    {
+      "title": "Significant Points",
+      "content": "Waypoints defined by coded names and coordinates, often based on VOR/DME fixes."
+    },
+    {
+      "title": "Navigation Warnings",
+      "content": "Includes restricted, prohibited, danger areas, and military zones."
+    },
+    {
+      "title": "Aerodrome Categories",
+      "content": "Public Use License or Ordinary License determining accessibility of aerodromes."
+    },
+    {
+      "title": "Aerodrome Communication",
+      "content": "Includes tower, approach, ATIS, and AFIS frequencies and services."
+    },
+    {
+      "title": "Landing Aids",
+      "content": "Includes ILS, glide path, localizer, and DME systems for approach and landing."
+    },
+    {
+      "title": "Search and Rescue",
+      "content": "Procedures and services available in case of emergency situations."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 2 - Fuel Policy and Fuel Monitoring",
+  "sub_modules": [
+    {
+      "title": "Universal Fuel Policy",
+      "content": "Fuel planning follows EASA Fuel Policy ensuring sufficient fuel for trip, reserves, and contingencies."
+    },
+    {
+      "title": "Trip Fuel",
+      "content": "Fuel required for the planned flight including climb, cruise, descent, approach, and landing."
+    },
+    {
+      "title": "Realistic Planning",
+      "content": "Trip fuel must consider SIDs, STARs, weather, routing, and aircraft weight."
+    },
+    {
+      "title": "Fuel Breakdown",
+      "content": "Fuel is divided into Taxi, Trip, Reserve (Contingency, Alternate, Final Reserve, Additional), and Extra fuel."
+    },
+    {
+      "title": "Taxi Fuel",
+      "content": "Fuel used before take-off including start-up, taxi, and APU usage."
+    },
+    {
+      "title": "Contingency Fuel",
+      "content": "Extra fuel to cover unexpected deviations such as weather, routing, or performance variations."
+    },
+    {
+      "title": "Alternate Fuel",
+      "content": "Fuel required to fly from missed approach at destination to alternate airfield."
+    },
+    {
+      "title": "Final Reserve Fuel",
+      "content": "Minimum fuel remaining after landing, typically 30 minutes (jets) or 45 minutes (piston) holding."
+    },
+    {
+      "title": "Additional Fuel",
+      "content": "Extra fuel required in special cases like no alternate or long diversion scenarios."
+    },
+    {
+      "title": "Extra Fuel",
+      "content": "Any fuel carried beyond minimum regulatory requirements."
+    },
+    {
+      "title": "Contingency Calculation",
+      "content": "Higher of 5% of trip fuel or 5 minutes holding at 1500 ft."
+    },
+    {
+      "title": "Fuel Monitoring",
+      "content": "In-flight checks compare actual vs planned fuel consumption and predict fuel at destination."
+    },
+    {
+      "title": "Decision Making",
+      "content": "If expected fuel is below alternate + final reserve, pilot must consider diversion."
+    },
+    {
+      "title": "FMS Fuel Prediction",
+      "content": "Modern aircraft systems calculate expected fuel on arrival using real-time data."
+    },
+    {
+      "title": "Howgozit Graph",
+      "content": "Manual method of tracking fuel consumption using fuel vs distance graph."
+    },
+    {
+      "title": "Decision Point Procedure",
+      "content": "Allows continuation or diversion decision at a predefined point based on remaining fuel."
+    },
+    {
+      "title": "Isolated Aerodrome Procedure",
+      "content": "Special fuel planning when no alternate is available, requiring extended reserves."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 3 - Nautical Air Miles",
+  "sub_modules": [
+    {
+      "title": "Definition of NAM",
+      "content": "Nautical Air Miles represent the distance flown through the air based on True Airspeed."
+    },
+    {
+      "title": "Definition of NGM",
+      "content": "Nautical Ground Miles represent the distance covered over the ground."
+    },
+    {
+      "title": "Still Air Condition",
+      "content": "When there is no wind, NAM equals NGM."
+    },
+    {
+      "title": "Headwind Effect",
+      "content": "With headwind, NAM is greater than NGM because aircraft travels more through air but less over ground."
+    },
+    {
+      "title": "Tailwind Effect",
+      "content": "With tailwind, NAM is less than NGM because aircraft travels less through air but more over ground."
+    },
+    {
+      "title": "NAM-NGM Relationship",
+      "content": "NAM/NGM = TAS/GS relationship connects air distance and ground distance."
+    },
+    {
+      "title": "Wind Component Impact",
+      "content": "Wind affects ground distance depending on direction and magnitude."
+    },
+    {
+      "title": "Conversion Formula",
+      "content": "NGM = NAM \u00b1 (Wind Component / 60 \u00d7 time in minutes)."
+    },
+    {
+      "title": "Climb/Descent Cases",
+      "content": "When TAS or GS is unknown, distance conversion is done using time and wind component."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 4 - Single-engine Piston Aeroplane (SEP)",
+  "sub_modules": [
+    {
+      "title": "SEP Overview",
+      "content": "A single-engine piston aircraft with constant speed propeller and adjustable fuel-air mixture."
+    },
+    {
+      "title": "Engine Controls",
+      "content": "Power is controlled using manifold pressure and RPM, with mixture adjusted for efficiency."
+    },
+    {
+      "title": "Full Throttle Height",
+      "content": "Altitude at which maximum manifold pressure can no longer be maintained."
+    },
+    {
+      "title": "Aircraft Limits",
+      "content": "Includes MTOM, MLM, maximum fuel capacity, and fuel density."
+    },
+    {
+      "title": "Climb Performance",
+      "content": "Graphs provide time, fuel, and distance (NAM) required to climb based on altitude, temperature, and mass."
+    },
+    {
+      "title": "Non-Sea Level Departure",
+      "content": "Climb data must be adjusted by subtracting airfield values from total climb values."
+    },
+    {
+      "title": "Wind Effect in Climb",
+      "content": "NAM must be converted to NGM using wind component."
+    },
+    {
+      "title": "Cruise Performance Tables",
+      "content": "Provide TAS, IAS, and fuel flow based on power setting, altitude, and temperature."
+    },
+    {
+      "title": "Interpolation",
+      "content": "Required between altitude and temperature values for accuracy."
+    },
+    {
+      "title": "Range Profiles",
+      "content": "Graphs show maximum still-air range including climb, taxi, and reserve fuel."
+    },
+    {
+      "title": "Wind Adjustment for Range",
+      "content": "Range in NAM must be converted to NGM using TAS and GS."
+    },
+    {
+      "title": "Endurance",
+      "content": "Time aircraft can stay airborne including reserve fuel, independent of wind."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 5 - Multi-engine Piston Aeroplane (MEP)",
+  "sub_modules": [
+    {
+      "title": "MEP Overview",
+      "content": "Twin-engine piston aircraft with constant speed propellers and retractable undercarriage."
+    },
+    {
+      "title": "Aircraft Limits",
+      "content": "Includes MTOM, MZFM, MLM, fuel capacity, and fuel density."
+    },
+    {
+      "title": "Power Settings",
+      "content": "75% High Speed, 65% Economy, 55% Intermediate, 45% Long Range Cruise."
+    },
+    {
+      "title": "Climb Performance",
+      "content": "Graphs provide fuel, time, and distance for climb based on altitude and temperature."
+    },
+    {
+      "title": "Non-Sea Level Adjustment",
+      "content": "Climb values must be corrected by subtracting airfield data."
+    },
+    {
+      "title": "Wind Effect",
+      "content": "Climb and descent distances must be converted from NAM to NGM using wind."
+    },
+    {
+      "title": "Range Graph",
+      "content": "Provides air range with and without reserves, corrected for ISA deviations."
+    },
+    {
+      "title": "Temperature Correction",
+      "content": "Add or subtract range based on deviation from ISA."
+    },
+    {
+      "title": "Cruise Fuel Flow",
+      "content": "Fuel flow depends on power setting and is used to calculate trip fuel."
+    },
+    {
+      "title": "Manifold Pressure Adjustment",
+      "content": "Adjusted based on temperature deviation from ISA."
+    },
+    {
+      "title": "True Airspeed",
+      "content": "Extracted from separate graph based on altitude, temperature, and power."
+    },
+    {
+      "title": "Endurance",
+      "content": "Time aircraft can remain airborne with or without reserve fuel."
+    },
+    {
+      "title": "Descent Performance",
+      "content": "Fuel, time, and distance calculated similarly to climb using subtraction method."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 6 - Medium Range Jet Transport (MRJT)",
+  "sub_modules": [
+    {
+      "title": "MRJT Overview",
+      "content": "Modern jet aircraft using FMS and company flight planning systems for optimized routing and fuel management."
+    },
+    {
+      "title": "Aircraft Mass Limits",
+      "content": "Includes MRM, MTOM, MLM, MZFM, and Dry Operating Mass (DOM)."
+    },
+    {
+      "title": "Traffic Load",
+      "content": "Difference between MZFM and DOM representing passengers, baggage, and cargo."
+    },
+    {
+      "title": "Taxi Fuel",
+      "content": "Calculated from difference between ramp mass and take-off mass or estimated per minute."
+    },
+    {
+      "title": "Optimum Cruise Altitude",
+      "content": "Altitude providing best fuel efficiency based on weight and cruise profile."
+    },
+    {
+      "title": "Fuel Penalty",
+      "content": "Operating above or below optimum altitude increases fuel consumption."
+    },
+    {
+      "title": "Short Distance Cruise",
+      "content": "Determines maximum achievable cruise altitude for short sectors."
+    },
+    {
+      "title": "Simplified Flight Planning Charts",
+      "content": "Used to determine trip fuel and time based on distance, altitude, wind, and weight."
+    },
+    {
+      "title": "Wind Correction",
+      "content": "Adjustments made for headwind or tailwind in fuel and time calculations."
+    },
+    {
+      "title": "Temperature Correction",
+      "content": "ISA deviations affect performance and must be accounted for."
+    },
+    {
+      "title": "Additional Fuel Adjustments",
+      "content": "Includes APU usage, taxi fuel, anti-ice, and air conditioning effects."
+    },
+    {
+      "title": "Descent Adjustments",
+      "content": "Extra fuel required for flaps usage and anti-ice during descent."
+    },
+    {
+      "title": "Holding Fuel",
+      "content": "Fuel required for holding patterns based on altitude and aircraft weight."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 7 - MRJT Detailed Flight Planning",
+  "sub_modules": [
+    {
+      "title": "Detailed Planning Overview",
+      "content": "Advanced flight planning using climb tables, cruise tables, descent tables, and wind corrections."
+    },
+    {
+      "title": "En Route Climb Tables",
+      "content": "Provide time, fuel, distance (NAM), and average TAS based on weight, altitude, and temperature."
+    },
+    {
+      "title": "Climb Adjustments",
+      "content": "Adjustments required for non-sea level departures and wind components."
+    },
+    {
+      "title": "NAM to NGM Conversion",
+      "content": "Distance conversion using average TAS and wind component."
+    },
+    {
+      "title": "Integrated Cruise Tables",
+      "content": "Used to calculate fuel burn based on weight difference and distance."
+    },
+    {
+      "title": "Difference Principle",
+      "content": "Fuel used equals difference between initial and final aircraft weights."
+    },
+    {
+      "title": "Cruise Methods",
+      "content": "Includes Long Range Cruise, Mach 0.74, Mach 0.78, and Low-Level cruise."
+    },
+    {
+      "title": "TAS Determination",
+      "content": "Extracted from tables and corrected for temperature deviations."
+    },
+    {
+      "title": "Wind Corrections",
+      "content": "Ground distance must be converted to air distance before using tables."
+    },
+    {
+      "title": "Temperature Corrections",
+      "content": "Adjustments applied to TAS and fuel flow for ISA deviations."
+    },
+    {
+      "title": "Descent Tables",
+      "content": "Provide fuel, time, and distance for descent phase."
+    },
+    {
+      "title": "Step-by-Step Method",
+      "content": "Systematic approach to solving MRJT detailed planning problems."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 8 - MRJT Additional Procedures",
+  "sub_modules": [
+    {
+      "title": "ETOPS Introduction",
+      "content": "Rules governing twin-engine aircraft operations over remote areas beyond one-hour diversion distance."
+    },
+    {
+      "title": "ETOPS Definitions",
+      "content": "Key terms such as threshold distance, rule time, adequate and suitable airfields."
+    },
+    {
+      "title": "ETOPS Segment",
+      "content": "Portion of flight beyond threshold distance from adequate aerodrome."
+    },
+    {
+      "title": "ETOPS Fuel Policy",
+      "content": "Fuel planning including critical fuel, contingency, alternate, and reserve fuel."
+    },
+    {
+      "title": "Critical Point (CP/ETP)",
+      "content": "Most critical point where diversion time to alternates is equal."
+    },
+    {
+      "title": "Critical Fuel Calculation",
+      "content": "Fuel required from CP to diversion considering worst-case scenarios."
+    },
+    {
+      "title": "Diversion Distance",
+      "content": "Maximum distance allowed from an alternate based on time and speed."
+    },
+    {
+      "title": "In-flight Diversion",
+      "content": "Fuel and time calculations during diversion with one engine inoperative."
+    },
+    {
+      "title": "Non-normal Operations",
+      "content": "Special scenarios like gear-down ferry flights and their performance impact."
+    },
+    {
+      "title": "Fuel Tankering",
+      "content": "Economic analysis of carrying extra fuel based on cost differences."
+    },
+    {
+      "title": "Computer Flight Planning",
+      "content": "Automated flight planning systems and required inputs."
+    },
+    {
+      "title": "Flight Plan Interpretation",
+      "content": "Understanding detailed computer-generated flight plans."
+    },
+    {
+      "title": "Flight Plan Validation",
+      "content": "Checking accuracy of computer-generated flight plans."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 9 - Topographical Chart",
+  "sub_modules": [
+    {
+      "title": "Chart Introduction",
+      "content": "Understanding Jeppesen VFR charts, projection type, scale, and operational limits."
+    },
+    {
+      "title": "WGS84 Coordinates",
+      "content": "Global coordinate system used for navigation points, aerodromes, and navaids."
+    },
+    {
+      "title": "Track and Distance Measurement",
+      "content": "Methods to determine true and magnetic track and measure distance."
+    },
+    {
+      "title": "Magnetic Variation",
+      "content": "Conversion between true and magnetic direction using isogonic lines."
+    },
+    {
+      "title": "Aeronautical Information",
+      "content": "Interpretation of airports, waypoints, navaids, and airspace types."
+    },
+    {
+      "title": "Airspace Types",
+      "content": "Restricted, danger, and prohibited areas and their implications."
+    },
+    {
+      "title": "Terrain and Elevation",
+      "content": "Understanding terrain contours, spot elevations, and obstacle clearance."
+    },
+    {
+      "title": "Grid MORA",
+      "content": "Minimum grid area altitude ensuring terrain clearance."
+    },
+    {
+      "title": "Minimum Flight Altitude",
+      "content": "Factors affecting safe altitude selection including terrain and navigation accuracy."
+    },
+    {
+      "title": "Cruising Levels",
+      "content": "Semi-circular rule for selecting flight levels based on track direction."
+    },
+    {
+      "title": "Altimeter Errors",
+      "content": "Errors caused by pressure and temperature deviations from ISA."
+    },
+    {
+      "title": "Pressure Error",
+      "content": "Altitude errors due to QNH differences from standard pressure."
+    },
+    {
+      "title": "Temperature Error",
+      "content": "Altitude errors due to non-standard temperature conditions."
+    },
+    {
+      "title": "Altitude Corrections",
+      "content": "Use of CRP5 or calculations to determine true altitude."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 10 - Airways",
+  "sub_modules": [
+    {
+      "title": "Airways Introduction",
+      "content": "Understanding structured routes used for IFR navigation using Jeppesen charts."
+    },
+    {
+      "title": "Jeppesen Chart Glossary",
+      "content": "Key ICAO definitions and abbreviations used in aviation charts."
+    },
+    {
+      "title": "Altitudes and Flight Levels",
+      "content": "Definitions of altitude, height, elevation, and flight levels."
+    },
+    {
+      "title": "Pressure Settings",
+      "content": "Understanding QNH, QFE, and QNE in flight operations."
+    },
+    {
+      "title": "Navaid Symbols",
+      "content": "Identification of VOR, NDB, DME, ILS, and other navigation aids."
+    },
+    {
+      "title": "Communication Information",
+      "content": "Understanding frequencies and communication via navaids."
+    },
+    {
+      "title": "Airways and Routes",
+      "content": "Structure of airways, reporting points, and route designators."
+    },
+    {
+      "title": "Airway Altitudes",
+      "content": "MEA, MOCA, MORA, and MAA definitions and usage."
+    },
+    {
+      "title": "Airspace Classification",
+      "content": "Classes A to G and their operational differences."
+    },
+    {
+      "title": "Controlled Airspace",
+      "content": "CTR, CTA, TMA and their significance."
+    },
+    {
+      "title": "ATS Routes",
+      "content": "Lower and Upper ATS routes and their characteristics."
+    },
+    {
+      "title": "Conditional and Advisory Routes",
+      "content": "Understanding CDR and advisory routes in flight planning."
+    },
+    {
+      "title": "SID and STAR Charts",
+      "content": "Standard procedures for departure and arrival."
+    },
+    {
+      "title": "Approach Charts",
+      "content": "Understanding approach procedures and landing minima."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 11 - Airways Miscellaneous Charts (Advanced)",
+  "sub_modules": [
+    {
+      "title": "Polar High Altitude Charts",
+      "content": "Charts used for polar navigation with grid navigation techniques."
+    },
+    {
+      "title": "Plotting Charts",
+      "content": "Charts used to plot routes, positions, and navigation data."
+    },
+    {
+      "title": "Lambert Conformal Projection",
+      "content": "Projection where great circles are straight lines and scale is nearly constant."
+    },
+    {
+      "title": "North Atlantic Plotting Charts",
+      "content": "Charts used for ETOPS and ETP/CP calculations."
+    },
+    {
+      "title": "Equal Time Point (ETP)",
+      "content": "Point where time to two alternates is equal."
+    },
+    {
+      "title": "Critical Point (CP)",
+      "content": "Point where fuel/time constraints are most critical."
+    },
+    {
+      "title": "Range and Time Circles",
+      "content": "Circles representing diversion capability based on time and distance."
+    },
+    {
+      "title": "Atlantic Orientation Charts",
+      "content": "Charts used for transatlantic route planning."
+    },
+    {
+      "title": "NAT Organized Track System",
+      "content": "Structured tracks for transatlantic flights."
+    },
+    {
+      "title": "Communication and Procedures",
+      "content": "Standard communication, reporting, and contingency procedures."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 12 - ATC Flight Plan",
+  "sub_modules": [
+    {
+      "title": "ATC Flight Plan Introduction",
+      "content": "A standardized format used to inform ATC of flight intentions."
+    },
+    {
+      "title": "Types of Flight Plans",
+      "content": "Individual flight plans and repetitive flight plans (RPL)."
+    },
+    {
+      "title": "Flight Plan Definitions",
+      "content": "Key terms like EET, EOBT, ETA, and current flight plan."
+    },
+    {
+      "title": "ICAO Flight Plan Format",
+      "content": "Structure and fields required in ICAO flight plans."
+    },
+    {
+      "title": "Aircraft Identification",
+      "content": "Rules for entering aircraft ID and call signs."
+    },
+    {
+      "title": "Route (Item 15)",
+      "content": "Detailed route including airways, points, and changes."
+    },
+    {
+      "title": "Use of DCT",
+      "content": "Rules for direct routing between points."
+    },
+    {
+      "title": "Speed and Level Changes",
+      "content": "How to indicate changes in speed and altitude."
+    },
+    {
+      "title": "Supplementary Information",
+      "content": "Emergency and survival details (Item 19)."
+    },
+    {
+      "title": "Flight Plan Decoding",
+      "content": "Understanding a filled ATC flight plan."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 12 - ATC Flight Plan Annex (ICAO Rules)",
+  "sub_modules": [
+    {
+      "title": "Flight Plan Submission Rules",
+      "content": "Procedures for submitting flight plans before and during flight."
+    },
+    {
+      "title": "Flight Plan Acceptance",
+      "content": "How ATS validates and accepts flight plans."
+    },
+    {
+      "title": "RNP Requirements",
+      "content": "Navigation accuracy standards for specific airspace."
+    },
+    {
+      "title": "Repetitive Flight Plans (RPL)",
+      "content": "Rules for regularly scheduled IFR flights."
+    },
+    {
+      "title": "Changes to Flight Plans",
+      "content": "Handling delays, cancellations, and modifications."
+    },
+    {
+      "title": "Item 7 to 19 Detailed Instructions",
+      "content": "Exact ICAO format for completing flight plan fields."
+    },
+    {
+      "title": "Equipment Codes",
+      "content": "Standard and advanced navigation and communication equipment codes."
+    },
+    {
+      "title": "Route Encoding Rules",
+      "content": "How to encode routes using ATS routes, DCT, and coordinates."
+    },
+    {
+      "title": "Supplementary Information",
+      "content": "Emergency, survival, and aircraft information."
+    },
+    {
+      "title": "RPL Listing Instructions",
+      "content": "How to manage repetitive flight plan submissions."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 13 - Point of Equal Time (PET)",
+  "sub_modules": [
+    {
+      "title": "Definition of PET",
+      "content": "Point where time to continue or return is equal."
+    },
+    {
+      "title": "Purpose of PET",
+      "content": "Used for decision-making during emergencies."
+    },
+    {
+      "title": "Effect of Wind on PET",
+      "content": "PET shifts depending on wind direction and strength."
+    },
+    {
+      "title": "All-Engine PET Calculation",
+      "content": "PET using normal cruise performance."
+    },
+    {
+      "title": "Engine Failure PET",
+      "content": "PET using reduced performance after engine failure."
+    },
+    {
+      "title": "PET Formula",
+      "content": "Core equation used to calculate PET distance."
+    }
+  ]
+}
+{
+  "book_id": "FP-001",
+  "book_name": "Flight Planning",
+  "chapter_name": "Chapter 14 - Point of Safe Return (PSR)",
+  "sub_modules": [
+    {
+      "title": "Definition of PSR",
+      "content": "Furthest point aircraft can fly and return within safe fuel limits."
+    },
+    {
+      "title": "Safe Endurance vs Total Endurance",
+      "content": "Safe endurance excludes reserve fuel."
+    },
+    {
+      "title": "Purpose of PSR",
+      "content": "Used when destination may become unavailable."
+    },
+    {
+      "title": "PSR Formula",
+      "content": "Core formula to calculate PSR distance."
+    },
+    {
+      "title": "Effect of Wind on PSR",
+      "content": "Wind reduces PSR distance regardless of direction."
+    },
+    {
+      "title": "PSR Calculation Steps",
+      "content": "Step-by-step method to solve PSR problems."
+    }
+  ]
+}

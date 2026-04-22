@@ -1,0 +1,1791 @@
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 1 - Direction, Latitude and Longitude",
+  "sub_modules": [
+    {
+      "title": "Shape of the Earth",
+      "content": "Earth is an oblate spheroid (flattened at poles). Compression is ~0.3%. Slight pear shape. True representation is called a geoid."
+    },
+    {
+      "title": "Geoid Models",
+      "content": "Different models include WGS84, OS36, ED50. ICAO standard is WGS84. Differences can cause position errors."
+    },
+    {
+      "title": "Poles and Axis",
+      "content": "Earth rotates about an axis tilted at 23.5\u00b0. Poles are endpoints of this axis."
+    },
+    {
+      "title": "Basic Directions",
+      "content": "Cardinal directions: N, S, E, W. Quadrantal: NE, SE, SW, NW."
+    },
+    {
+      "title": "Sexagesimal System",
+      "content": "Circle divided into 360\u00b0. Directions measured clockwise from North (True North)."
+    },
+    {
+      "title": "True Direction",
+      "content": "Measured from geographic North. Expressed as 000\u00b0\u2013360\u00b0 using 3 digits."
+    },
+    {
+      "title": "Reciprocal Direction",
+      "content": "Opposite direction = \u00b1180\u00b0."
+    },
+    {
+      "title": "Position Reference System",
+      "content": "Uses Latitude and Longitude instead of Cartesian coordinates."
+    },
+    {
+      "title": "Great Circles",
+      "content": "Largest circles on Earth. Shortest path between two points."
+    },
+    {
+      "title": "Equator",
+      "content": "Great circle dividing Earth into two hemispheres. Reference for latitude."
+    },
+    {
+      "title": "Meridians",
+      "content": "Lines joining poles. Reference for longitude."
+    },
+    {
+      "title": "Prime Meridian",
+      "content": "0\u00b0 longitude passing through Greenwich."
+    },
+    {
+      "title": "Small Circles",
+      "content": "Circles not centered at Earth's center (e.g., parallels of latitude)."
+    },
+    {
+      "title": "Parallels of Latitude",
+      "content": "East-West lines showing position North/South of Equator."
+    },
+    {
+      "title": "Graticule",
+      "content": "Grid formed by latitude and longitude lines."
+    },
+    {
+      "title": "Angular Measurement",
+      "content": "1\u00b0 = 60 minutes, 1 minute = 60 seconds."
+    },
+    {
+      "title": "Latitude",
+      "content": "Angular distance from Equator (0\u00b0\u201390\u00b0 N/S)."
+    },
+    {
+      "title": "Geocentric vs Geodetic Latitude",
+      "content": "Geodetic latitude is used in navigation charts."
+    },
+    {
+      "title": "Special Parallels",
+      "content": "Tropics (23.5\u00b0), Arctic/Antarctic circles (66.5\u00b0)."
+    },
+    {
+      "title": "Longitude",
+      "content": "Angular distance from Prime Meridian (0\u00b0\u2013180\u00b0 E/W)."
+    },
+    {
+      "title": "Difference in Longitude",
+      "content": "Same name \u2192 subtract, different \u2192 add, choose shortest value."
+    },
+    {
+      "title": "Anti-Meridian",
+      "content": "180\u00b0 longitude opposite Greenwich."
+    },
+    {
+      "title": "Latitude vs Longitude Difference",
+      "content": "Latitudes are parallel; longitudes converge at poles."
+    },
+    {
+      "title": "Position Format",
+      "content": "Latitude written first, then longitude (e.g., 51\u00b0N 001\u00b0W)."
+    },
+    {
+      "title": "Distance Conversion",
+      "content": "1 minute of latitude = 1 nautical mile."
+    },
+    {
+      "title": "Accuracy and Resolution",
+      "content": "Decimal minutes and seconds increase positional accuracy."
+    },
+    {
+      "title": "Great Circle Vertices",
+      "content": "Highest and lowest latitude points on a great circle."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 2 - Great Circles, Rhumb Lines & Directions on the Earth",
+  "sub_modules": [
+    {
+      "title": "Great Circle Reminder",
+      "content": "A Great Circle is the shortest path between two points on Earth."
+    },
+    {
+      "title": "Rhumb Line",
+      "content": "A line of constant direction cutting all meridians at the same angle."
+    },
+    {
+      "title": "Great Circle vs Rhumb Line",
+      "content": "Great Circle is shortest but changes direction; Rhumb Line is longer but constant direction."
+    },
+    {
+      "title": "Examples of Rhumb Lines",
+      "content": "Parallels of latitude, meridians, and Equator."
+    },
+    {
+      "title": "Lines that are Both",
+      "content": "Only Equator and meridians are both Great Circles and Rhumb Lines."
+    },
+    {
+      "title": "Great Circle Direction Change",
+      "content": "Direction continuously changes and always bends toward the pole."
+    },
+    {
+      "title": "DIID Rule",
+      "content": "Direction change: Decreasing-Increasing-Increasing-Decreasing."
+    },
+    {
+      "title": "Distance Units",
+      "content": "Includes metre, kilometre, statute mile, nautical mile."
+    },
+    {
+      "title": "Nautical Mile",
+      "content": "1 NM = 1852 m = 1 minute of latitude."
+    },
+    {
+      "title": "Latitude Distance",
+      "content": "1\u00b0 latitude = 60 NM, Equator to Pole = 5400 NM."
+    },
+    {
+      "title": "Longitude Distance",
+      "content": "1 minute longitude = 1 NM only at Equator."
+    },
+    {
+      "title": "Variation of NM Length",
+      "content": "NM varies slightly due to Earth's shape."
+    },
+    {
+      "title": "Great Circle Distance Cases",
+      "content": "Special cases include same meridian, opposite hemispheres, Equator routes."
+    },
+    {
+      "title": "Antipodal Points",
+      "content": "Opposite points on Earth, distance = 10800 NM."
+    },
+    {
+      "title": "Mean Latitude",
+      "content": "Average latitude between two points."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 3 - Earth Magnetism",
+  "sub_modules": [
+    {
+      "title": "True Direction",
+      "content": "Direction measured from geographic North (True North). Used on maps."
+    },
+    {
+      "title": "Magnetic Direction",
+      "content": "Direction measured from Magnetic North using a compass."
+    },
+    {
+      "title": "Magnetic North",
+      "content": "Direction indicated by a freely suspended magnet."
+    },
+    {
+      "title": "Variation",
+      "content": "Angle between True North and Magnetic North."
+    },
+    {
+      "title": "Isogonals",
+      "content": "Lines joining points of equal variation."
+    },
+    {
+      "title": "Agonic Line",
+      "content": "Line of zero variation."
+    },
+    {
+      "title": "Variation Changes",
+      "content": "Changes over time due to Earth's magnetic field movement."
+    },
+    {
+      "title": "Magnetic Dip",
+      "content": "Angle between Earth's magnetic field and horizontal."
+    },
+    {
+      "title": "Horizontal and Vertical Components",
+      "content": "Magnetic field splits into horizontal (H) and vertical (Z) components."
+    },
+    {
+      "title": "Dip Effects",
+      "content": "Causes compass errors and reduces accuracy near poles."
+    },
+    {
+      "title": "Deviation",
+      "content": "Error caused by aircraft magnetism affecting compass."
+    },
+    {
+      "title": "Variation Rule",
+      "content": "West is best, East is least."
+    },
+    {
+      "title": "Deviation Rule",
+      "content": "Deviation East Compass Least, Deviation West Compass Best."
+    },
+    {
+      "title": "Heading Types",
+      "content": "True Heading, Magnetic Heading, Compass Heading."
+    },
+    {
+      "title": "Definitions",
+      "content": "Includes variation, deviation, isogonals, dip, and related terms."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 4 - Navigation Computer (Slide Rule Face)",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The navigation computer is an analogue device used for solving navigation and flight planning problems quickly."
+    },
+    {
+      "title": "Importance in ATPL",
+      "content": "Used in about 25% of exam questions and useful for faster calculations."
+    },
+    {
+      "title": "Navigation Computer Faces",
+      "content": "Consists of a circular slide rule face and a wind face."
+    },
+    {
+      "title": "Slide Rule Theory",
+      "content": "Based on logarithmic scales where multiplication becomes addition and division becomes subtraction."
+    },
+    {
+      "title": "Linear Scale Concept",
+      "content": "Addition and subtraction using linear alignment of rulers."
+    },
+    {
+      "title": "Logarithmic Scale Concept",
+      "content": "Multiplication and division using logarithmic scaling."
+    },
+    {
+      "title": "Circular Slide Rule",
+      "content": "Conversion of linear slide rule into circular form for compact use."
+    },
+    {
+      "title": "Multiplication Method",
+      "content": "Align 1 (10) on inner scale with a number on outer scale and read result."
+    },
+    {
+      "title": "Division Method",
+      "content": "Align divisor on inner scale with dividend on outer scale and read result."
+    },
+    {
+      "title": "Decimal Placement",
+      "content": "User must estimate magnitude mentally as scale shows only 10\u201399.9."
+    },
+    {
+      "title": "Approximation Technique",
+      "content": "Rough mental calculation is essential before using the computer."
+    },
+    {
+      "title": "Rates and Ratios",
+      "content": "Used for solving time, speed, distance, and fuel problems."
+    },
+    {
+      "title": "Proportion Method",
+      "content": "Set up ratios directly on the computer for faster solutions."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 5 - Navigation Computer (Distance, Speed, Time and Conversions)",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Uses ratio method on navigation computer for solving rate-based problems."
+    },
+    {
+      "title": "Base 1 and Base 60",
+      "content": "Red arrow represents 1; black triangle represents 60 for hourly conversions."
+    },
+    {
+      "title": "Distance Speed Time Concept",
+      "content": "Outer scale = distance/speed, inner scale = time."
+    },
+    {
+      "title": "Finding Distance",
+      "content": "Set speed with 60 index, read distance against time."
+    },
+    {
+      "title": "Finding Speed",
+      "content": "Set distance against time, read speed at 60 index."
+    },
+    {
+      "title": "Finding Time",
+      "content": "Set speed with 60 index, read time against distance."
+    },
+    {
+      "title": "Yellow Scale",
+      "content": "Used to convert minutes into hours and minutes."
+    },
+    {
+      "title": "Blue Scale (Ram Rise)",
+      "content": "Used to calculate temperature rise due to air compression."
+    },
+    {
+      "title": "Fuel Consumption",
+      "content": "Solved using same ratio method as distance-speed-time."
+    },
+    {
+      "title": "Distance Conversion",
+      "content": "Convert between km, nautical miles, and statute miles."
+    },
+    {
+      "title": "Length Conversion",
+      "content": "Convert metres to yards and feet."
+    },
+    {
+      "title": "Volume Conversion",
+      "content": "Convert litres, imperial gallons, and US gallons."
+    },
+    {
+      "title": "Volume to Weight Conversion",
+      "content": "Uses specific gravity to convert fuel volume to weight."
+    },
+    {
+      "title": "Specific Gravity Concept",
+      "content": "Density ratio compared to water, used in fuel calculations."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 6 - Navigation Computer (TAS and Altitude Conversions)",
+  "sub_modules": [
+    {
+      "title": "Airspeed Types",
+      "content": "IAS, CAS, EAS, TAS and their corrections."
+    },
+    {
+      "title": "IAS to CAS",
+      "content": "Correct IAS for instrument and position errors."
+    },
+    {
+      "title": "CAS to TAS",
+      "content": "Apply density correction to obtain True Airspeed."
+    },
+    {
+      "title": "Compressibility Correction",
+      "content": "Applied when TAS exceeds 300 knots."
+    },
+    {
+      "title": "TAS from Mach Number",
+      "content": "Calculate TAS using Mach and temperature."
+    },
+    {
+      "title": "True Altitude",
+      "content": "Correct indicated altitude using temperature deviation."
+    },
+    {
+      "title": "Density Altitude",
+      "content": "Altitude equivalent based on air density for performance."
+    },
+    {
+      "title": "Airspeed Correction Sequence",
+      "content": "IAS \u2192 CAS \u2192 TAS \u2192 (Compressibility if needed)."
+    },
+    {
+      "title": "Navigation Computer Windows",
+      "content": "AIRSPEED, COMP CORR, ALTITUDE, DENSITY ALTITUDE."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 7 - Navigation Computer (Triangle of Velocities)",
+  "sub_modules": [
+    {
+      "title": "Wind Face Introduction",
+      "content": "Used to solve wind problems using triangle of velocities."
+    },
+    {
+      "title": "Heading",
+      "content": "Direction aircraft nose is pointing."
+    },
+    {
+      "title": "Track",
+      "content": "Actual path over ground."
+    },
+    {
+      "title": "Drift",
+      "content": "Difference between heading and track."
+    },
+    {
+      "title": "Wind Correction Angle (WCA)",
+      "content": "Angle applied to heading to maintain track."
+    },
+    {
+      "title": "Wind Effect",
+      "content": "Wind causes aircraft to drift off intended path."
+    },
+    {
+      "title": "Air Vector",
+      "content": "Heading and TAS (one arrow)."
+    },
+    {
+      "title": "Wind Vector",
+      "content": "Wind direction and speed (three arrows)."
+    },
+    {
+      "title": "Ground Vector",
+      "content": "Track and ground speed (two arrows)."
+    },
+    {
+      "title": "Triangle of Velocities",
+      "content": "Vector triangle combining air, wind, and ground vectors."
+    },
+    {
+      "title": "Wind Face Solution",
+      "content": "Navigation computer solves triangle without drawing."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 8 - Navigation Computer (Heading and Wind Finding)",
+  "sub_modules": [
+    {
+      "title": "Wind Face Uses",
+      "content": "Used to calculate track, heading, ground speed, and wind."
+    },
+    {
+      "title": "Find Track and Ground Speed",
+      "content": "Given heading, TAS, and wind."
+    },
+    {
+      "title": "Find Heading and Ground Speed",
+      "content": "Given track, TAS, and wind."
+    },
+    {
+      "title": "Wind Finding",
+      "content": "Given heading, track, TAS, and ground speed."
+    },
+    {
+      "title": "Dead Reckoning (DR)",
+      "content": "Estimating position using heading, speed, and time."
+    },
+    {
+      "title": "Mandatory Heading Use Case",
+      "content": "Used when ATC assigns heading temporarily."
+    },
+    {
+      "title": "Heading Calculation",
+      "content": "Adjust heading to counter drift and maintain track."
+    },
+    {
+      "title": "Drift Adjustment",
+      "content": "Iterative correction of heading to match desired track."
+    },
+    {
+      "title": "Balancing the Drift",
+      "content": "Refining heading until drift equals required correction."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 9 - Multi-drift Winds and Wind Components",
+  "sub_modules": [
+    {
+      "title": "Multi-drift Wind Method",
+      "content": "Determining wind using drift observations on multiple headings."
+    },
+    {
+      "title": "Three-drift Wind Technique",
+      "content": "Using three headings (ideally 60\u00b0 apart) for accurate wind calculation."
+    },
+    {
+      "title": "Two-drift Wind Technique",
+      "content": "Using two headings (at least 70\u00b0 apart) for approximate wind calculation."
+    },
+    {
+      "title": "Cocked Hat Concept",
+      "content": "Triangle formed when drift lines do not intersect perfectly, indicating error."
+    },
+    {
+      "title": "Wind Components",
+      "content": "Resolving wind into head/tailwind and crosswind components."
+    },
+    {
+      "title": "Runway Wind Analysis",
+      "content": "Using wind components for safe takeoff and landing decisions."
+    },
+    {
+      "title": "Crosswind Limits",
+      "content": "Maximum allowable crosswind based on aircraft limitations."
+    },
+    {
+      "title": "Headwind Requirements",
+      "content": "Minimum headwind required for safe landing performance."
+    },
+    {
+      "title": "Tailwind Calculations",
+      "content": "Determining allowable tailwind limits and effects."
+    },
+    {
+      "title": "Maximum Allowable Wind Strength",
+      "content": "Finding max wind speed for a given crosswind limit."
+    },
+    {
+      "title": "Allowable Wind Direction Range",
+      "content": "Determining wind direction limits for safe operations."
+    },
+    {
+      "title": "True vs Magnetic Wind",
+      "content": "Understanding difference between forecast and ATC wind directions."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 10 - The 1 in 60 Rule",
+  "sub_modules": [
+    {
+      "title": "1 in 60 Rule Concept",
+      "content": "1 NM deviation after 60 NM equals 1\u00b0 track error."
+    },
+    {
+      "title": "Basic Geometry",
+      "content": "Angle approximately equals opposite/adjacent when adjacent is 60."
+    },
+    {
+      "title": "Track Error Calculation",
+      "content": "Track error equals (distance off track / distance flown) \u00d7 60."
+    },
+    {
+      "title": "Track Made Good (TMG)",
+      "content": "Actual track flown after deviation from planned track."
+    },
+    {
+      "title": "Scaling the Rule",
+      "content": "Works for any distance using proportional scaling."
+    },
+    {
+      "title": "Approximation Accuracy",
+      "content": "Based on 1 in 57.3 but approximated to 60 for simplicity."
+    },
+    {
+      "title": "Limitations",
+      "content": "Accurate up to about 20\u00b0, best below 10\u00b0."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 11 - Navigation Using the 1 in 60 Rule",
+  "sub_modules": [
+    {
+      "title": "Track Error vs Drift",
+      "content": "Track error is the difference between planned track and track made good, not drift."
+    },
+    {
+      "title": "Double Track Error Method",
+      "content": "Turn double the track error angle to return to track."
+    },
+    {
+      "title": "Track Error and Closing Angle",
+      "content": "Turn equals track error angle plus closing angle."
+    },
+    {
+      "title": "Closing Angle Calculation",
+      "content": "Closing angle = (distance off / distance remaining) \u00d7 60."
+    },
+    {
+      "title": "Single Calculation Method",
+      "content": "Turn = closing angle \u00d7 (total distance / distance flown)."
+    },
+    {
+      "title": "New Track Reference",
+      "content": "Preferred method using proportional correction based on progress."
+    },
+    {
+      "title": "Practical Map Techniques",
+      "content": "Using 10\u00b0 guidelines and distance-to-go markers."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 12 - Other Applications of the 1 in 60 Rule",
+  "sub_modules": [
+    {
+      "title": "Height on a Glide Slope",
+      "content": "Height = Glide slope angle \u00d7 100 \u00d7 distance (NM)."
+    },
+    {
+      "title": "Rate of Descent (ROD)",
+      "content": "ROD = 5 \u00d7 ground speed (for 3\u00b0 glide slope). Adjust proportionally for other angles."
+    },
+    {
+      "title": "Change of Speed Effect",
+      "content": "Change in ROD = 5 \u00d7 change in speed (for 3\u00b0 glide slope). Adjust for other glide slopes."
+    },
+    {
+      "title": "VOR/DME Crosstrack Error",
+      "content": "Distance off = (Track error \u00d7 distance) / 60."
+    },
+    {
+      "title": "Range from VOR Bearing Change",
+      "content": "Range = (distance travelled \u00d7 60) / change in bearing."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 13 - Topographical Maps and Map Reading",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Visual navigation using map, compass, and pilot observation is essential when modern systems fail."
+    },
+    {
+      "title": "Relief Representation",
+      "content": "Terrain is shown using contours, layer tinting, spot elevations, and MEF/MSA."
+    },
+    {
+      "title": "Maximum Elevation Figure (MEF) and Minimum Safe Altitude (MSA)",
+      "content": "MEF shows highest obstacle with safety margin; MSA includes additional safety clearance."
+    },
+    {
+      "title": "Map Features",
+      "content": "Water (blue), woods (green), roads (red), railways (black)."
+    },
+    {
+      "title": "Scale",
+      "content": "Scale can be expressed as words, representative fraction, or graduated scale line."
+    },
+    {
+      "title": "Map Reading Techniques",
+      "content": "Includes map-to-ground and ground-to-map interpretation."
+    },
+    {
+      "title": "Visual Checkpoints",
+      "content": "Features used for navigation at regular intervals (5\u201310 minutes)."
+    },
+    {
+      "title": "Selecting Checkpoints",
+      "content": "Checkpoints should be large, unique, visible, and contrasting."
+    },
+    {
+      "title": "Types of Visual Features",
+      "content": "Includes coastlines, rivers, mountains, towns, roads, railways, woods, and man-made structures."
+    },
+    {
+      "title": "Visual Navigation Hazards",
+      "content": "Includes poor contrast, white-out, featureless terrain, and night disorientation."
+    },
+    {
+      "title": "Navigation Discipline",
+      "content": "Maintain heading, altitude, timing, and situational awareness."
+    },
+    {
+      "title": "Lost Procedure",
+      "content": "Climb, fix position, use DR, draw uncertainty circle, and navigate to a known feature."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 14 - Convergency and Conversion Angle",
+  "sub_modules": [
+    {
+      "title": "Meridians and Convergence",
+      "content": "Meridians converge towards the poles and are parallel at the equator."
+    },
+    {
+      "title": "Definition of Convergency",
+      "content": "Convergency is the angle between two meridians at a given latitude."
+    },
+    {
+      "title": "Convergency Formula",
+      "content": "Convergency = Change in Longitude \u00d7 sin(mean latitude)."
+    },
+    {
+      "title": "Great Circle Track Change",
+      "content": "Great circle track changes direction due to converging meridians."
+    },
+    {
+      "title": "Mid Latitude Approximation",
+      "content": "Mid latitude is used instead of mean latitude for simplicity."
+    },
+    {
+      "title": "Conversion Angle",
+      "content": "Conversion angle is the difference between great circle and rhumb line direction."
+    },
+    {
+      "title": "Conversion Angle Formula",
+      "content": "Conversion angle = \u00bd \u00d7 Change in Longitude \u00d7 sin(mean latitude)."
+    },
+    {
+      "title": "Relationship Between Convergency and Conversion Angle",
+      "content": "Conversion angle is always half of convergency."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 15 - Departure",
+  "sub_modules": [
+    {
+      "title": "Definition of Departure",
+      "content": "Departure is the east-west distance between two meridians measured along a parallel of latitude."
+    },
+    {
+      "title": "Effect of Latitude",
+      "content": "Departure is maximum at the equator and zero at the poles due to convergence of meridians."
+    },
+    {
+      "title": "Departure Formula",
+      "content": "Departure (NM) = Change in Longitude (minutes) \u00d7 cos(latitude)."
+    },
+    {
+      "title": "Basic Departure Calculations",
+      "content": "Used to find change in longitude or distance when moving east or west."
+    },
+    {
+      "title": "Latitude-Based Departure Conversion",
+      "content": "Departure varies with cosine of latitude and can be converted between latitudes."
+    },
+    {
+      "title": "Shortcut Formula",
+      "content": "Departure A / cos A = Departure B / cos B."
+    },
+    {
+      "title": "Problem Solving Techniques",
+      "content": "Use elimination and logical reasoning for faster answers in exams."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 16 - Scale",
+  "sub_modules": [
+    {
+      "title": "Definition of Scale",
+      "content": "Scale is the relationship between chart distance and actual Earth distance."
+    },
+    {
+      "title": "Statement of Scale",
+      "content": "Expressed in words such as '1 inch to 10 nautical miles'."
+    },
+    {
+      "title": "Graduated Scale Line",
+      "content": "Graphical scale shown on charts using distance markings."
+    },
+    {
+      "title": "Representative Fraction (RF)",
+      "content": "Scale expressed as a ratio: Chart Length / Earth Distance."
+    },
+    {
+      "title": "Conversion to RF",
+      "content": "Convert both chart length and Earth distance into same units before forming ratio."
+    },
+    {
+      "title": "Scale Calculations",
+      "content": "Use RF = Chart Length / Earth Distance for solving problems."
+    },
+    {
+      "title": "Unit Conversions",
+      "content": "Important conversions include NM to meters/feet and inches to cm."
+    },
+    {
+      "title": "Types of Scale Problems",
+      "content": "Includes finding RF, chart distance, or Earth distance."
+    },
+    {
+      "title": "Large vs Small Scale",
+      "content": "Large scale = more detail, small area; Small scale = less detail, larger area."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 17 - General Chart Properties",
+  "sub_modules": [
+    {
+      "title": "Chart Projections",
+      "content": "Projection is the method of transferring Earth's curved surface onto a flat chart."
+    },
+    {
+      "title": "Perspective vs Non-Perspective",
+      "content": "Perspective charts are geometric projections; non-perspective charts are mathematically derived."
+    },
+    {
+      "title": "Reduced Earth",
+      "content": "A scale model of Earth used as the basis for chart projection."
+    },
+    {
+      "title": "Types of Projections",
+      "content": "Three main types: Azimuthal (Plane), Cylindrical, and Conical projections."
+    },
+    {
+      "title": "Azimuthal Projection",
+      "content": "Flat plane projection used mainly for polar regions."
+    },
+    {
+      "title": "Cylindrical Projection",
+      "content": "Projection onto a cylinder, commonly used for Mercator charts."
+    },
+    {
+      "title": "Conical Projection",
+      "content": "Projection onto a cone, used for mid-latitude charts like Lambert Conformal."
+    },
+    {
+      "title": "Ideal Chart Properties",
+      "content": "Includes correct angles, scale, shape, straight rhumb/great circles, and global coverage."
+    },
+    {
+      "title": "Limitations of Charts",
+      "content": "Perfect scale and shape cannot be achieved on flat charts."
+    },
+    {
+      "title": "Orthomorphism (Conformality)",
+      "content": "Property where angles are preserved, essential for navigation."
+    },
+    {
+      "title": "Conditions for Conformality",
+      "content": "Meridians and parallels intersect at 90\u00b0 and scale is equal in all directions at a point."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 18 - Mercator Charts - Properties",
+  "sub_modules": [
+    {
+      "title": "Mercator Projection",
+      "content": "A cylindrical projection modified mathematically to achieve conformality."
+    },
+    {
+      "title": "Historical Background",
+      "content": "Developed by Gerardus Mercator in 1569 to correct distortions in simple cylindrical projections."
+    },
+    {
+      "title": "Orthomorphism",
+      "content": "Mercator charts are conformal, preserving angles for accurate navigation."
+    },
+    {
+      "title": "Scale Variation",
+      "content": "Scale increases with latitude as secant of latitude and is correct at the equator."
+    },
+    {
+      "title": "Graticule",
+      "content": "Meridians are parallel and equally spaced; parallels are parallel but spaced increasingly with latitude."
+    },
+    {
+      "title": "Shape Distortion",
+      "content": "Shapes and areas become distorted at higher latitudes."
+    },
+    {
+      "title": "Chart Convergence",
+      "content": "Zero everywhere due to parallel meridians."
+    },
+    {
+      "title": "Rhumb Lines",
+      "content": "Straight lines on Mercator charts representing constant direction."
+    },
+    {
+      "title": "Great Circles",
+      "content": "Appear as curved lines (except equator and meridians)."
+    },
+    {
+      "title": "Conversion Angle",
+      "content": "Half of Earth convergency; used to convert rhumb line to great circle direction."
+    },
+    {
+      "title": "Practical Navigation Use",
+      "content": "Useful for constant heading navigation but not shortest distance routes."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 19 - Mercator Charts - Scale",
+  "sub_modules": [
+    {
+      "title": "Mercator Scale Principle",
+      "content": "Scale increases with latitude as the secant of latitude."
+    },
+    {
+      "title": "Scale Formula",
+      "content": "Scale at latitude = Scale at Equator \u00d7 sec(latitude)."
+    },
+    {
+      "title": "Types of Scale Problems",
+      "content": "Includes conversions between equator and latitude, between latitudes, and distance calculations."
+    },
+    {
+      "title": "Scale Expansion",
+      "content": "Scale expands away from the equator, meaning denominator decreases."
+    },
+    {
+      "title": "Scale Conversion Between Latitudes",
+      "content": "Uses cosine ratio of latitudes to compare scale denominators."
+    },
+    {
+      "title": "Distance Between Meridians",
+      "content": "Chart distance between meridians is constant on Mercator charts."
+    },
+    {
+      "title": "Area of Constant Scale",
+      "content": "Scale is approximately constant within 8\u00b0 latitude from the equator."
+    },
+    {
+      "title": "Exam Techniques",
+      "content": "Use logic and elimination based on scale expansion or contraction."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 21 - Lambert\u2019s Conformal Chart - 1",
+  "sub_modules": [
+    {
+      "title": "Need for Conical Charts",
+      "content": "Mercator limitations led to development of conical projections for better great circle representation and near-constant scale."
+    },
+    {
+      "title": "Simple Conical Projection",
+      "content": "Projection using a cone touching Earth at a standard parallel where scale is correct."
+    },
+    {
+      "title": "Standard Parallel",
+      "content": "Latitude where the cone touches the Earth and scale is correct."
+    },
+    {
+      "title": "Chart Convergence (Simple Conic)",
+      "content": "Chart convergence = change in longitude \u00d7 sine of parallel of origin."
+    },
+    {
+      "title": "Lambert Modification",
+      "content": "Cone is adjusted inside the Earth creating two standard parallels for better scale distribution."
+    },
+    {
+      "title": "Standard Parallels",
+      "content": "Two latitudes where scale is correct, improving accuracy."
+    },
+    {
+      "title": "Parallel of Origin",
+      "content": "Midpoint between standard parallels; defines chart convergence."
+    },
+    {
+      "title": "Scale Behavior",
+      "content": "Scale is correct at standard parallels, contracted between them, expanded outside."
+    },
+    {
+      "title": "Orthomorphism",
+      "content": "Lambert chart is conformal, preserving angles."
+    },
+    {
+      "title": "Graticule",
+      "content": "Meridians are straight lines; parallels are arcs centered on the pole."
+    },
+    {
+      "title": "Chart Convergence",
+      "content": "Constant across chart and depends on sine of parallel of origin."
+    },
+    {
+      "title": "Rhumb Lines",
+      "content": "Straight only along meridians; otherwise curves concave to pole."
+    },
+    {
+      "title": "Great Circles",
+      "content": "Nearly straight lines, especially near parallel of origin."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 22 - Lambert\u2019s Conformal Chart - 2",
+  "sub_modules": [
+    {
+      "title": "Constant Scale Concept",
+      "content": "Lambert charts are nearly constant scale if distortion is within 1%, allowing ruler measurements."
+    },
+    {
+      "title": "Effect of Standard Parallel Separation",
+      "content": "Scale error increases as separation between standard parallels increases."
+    },
+    {
+      "title": "Earth vs Chart Convergence",
+      "content": "Earth convergence varies with latitude, while chart convergence is constant on Lambert charts."
+    },
+    {
+      "title": "Conversion Angle",
+      "content": "Conversion angle = half earth convergence, used to relate rhumb line and great circle."
+    },
+    {
+      "title": "Chart Convergence Effect",
+      "content": "Difference between straight line and rhumb line equals half chart convergence."
+    },
+    {
+      "title": "Great Circle Curvature",
+      "content": "Great circles appear straight at parallel of origin and curve concave towards it elsewhere."
+    },
+    {
+      "title": "Mid-Meridian Property",
+      "content": "Rhumb line, great circle, and straight line are parallel at mid-meridian."
+    },
+    {
+      "title": "Advantages of Lambert Chart",
+      "content": "Great circles nearly straight, good for aviation, near constant scale."
+    },
+    {
+      "title": "Disadvantages of Lambert Chart",
+      "content": "Complex plotting, non-rectangular grid, requires convergence handling."
+    },
+    {
+      "title": "Plotting Bearings",
+      "content": "Different methods based on whether bearing is measured at ground station or aircraft."
+    },
+    {
+      "title": "Meridian Transfer",
+      "content": "Used for ADF plotting to account for convergence differences."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 23 - Polar Stereographic Chart",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "A true perspective projection using a plane touching the pole with light source from opposite pole."
+    },
+    {
+      "title": "Graticule",
+      "content": "Meridians are straight lines radiating from the pole; parallels are concentric circles."
+    },
+    {
+      "title": "Co-Latitude Concept",
+      "content": "Co-latitude = 90\u00b0 \u2212 latitude, used in scale calculations."
+    },
+    {
+      "title": "Scale Expansion",
+      "content": "Scale expands away from the pole as sec\u00b2(\u00bd co-latitude)."
+    },
+    {
+      "title": "Constant Scale Zones",
+      "content": "Scale within 1% between 90\u00b0\u201378\u00b0, and within 3% between 78\u00b0\u201370\u00b0."
+    },
+    {
+      "title": "Orthomorphism",
+      "content": "Chart is conformal; angles are preserved."
+    },
+    {
+      "title": "Shape Distortion",
+      "content": "Distortion increases away from the pole."
+    },
+    {
+      "title": "Chart Convergence",
+      "content": "Equal to change in longitude; constant across chart; n = 1."
+    },
+    {
+      "title": "Rhumb Lines",
+      "content": "Curved lines concave to the pole."
+    },
+    {
+      "title": "Great Circles",
+      "content": "Curved but less than rhumb lines; nearly straight at high latitudes."
+    },
+    {
+      "title": "Straight Line Approximation",
+      "content": "At latitudes above 70\u00b0, straight lines approximate great circles."
+    },
+    {
+      "title": "Applications",
+      "content": "Used for polar navigation, long-range flights, and meteorology."
+    },
+    {
+      "title": "Straight-Line Track Problems",
+      "content": "Solved using geometry and convergence properties."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 24 - Time (1)",
+  "sub_modules": [
+    {
+      "title": "Purpose of Time in Aviation",
+      "content": "Used to determine standard time zones and daylight/night conditions for flight operations."
+    },
+    {
+      "title": "Solar System Basics",
+      "content": "Earth rotates on its axis and orbits the Sun, forming basis of time measurement."
+    },
+    {
+      "title": "Kepler\u2019s Laws",
+      "content": "Planetary motion follows elliptical orbits, equal areas in equal times, and period-distance relationship."
+    },
+    {
+      "title": "Earth\u2019s Orbit",
+      "content": "Earth orbits the Sun in an ellipse, moving faster at perihelion and slower at aphelion."
+    },
+    {
+      "title": "Seasons",
+      "content": "Caused by Earth\u2019s axial tilt (23.5\u00b0), not distance from Sun."
+    },
+    {
+      "title": "Solstices and Equinoxes",
+      "content": "Key dates defining seasonal changes and Sun\u2019s position relative to Earth."
+    },
+    {
+      "title": "Declination",
+      "content": "Angular position of Sun relative to Equator, varies annually between 23.5\u00b0N and 23.5\u00b0S."
+    },
+    {
+      "title": "Types of Days",
+      "content": "Sidereal, apparent solar, and mean solar days differ in measurement basis."
+    },
+    {
+      "title": "Sidereal Day",
+      "content": "Measured against stars; shorter than solar day."
+    },
+    {
+      "title": "Apparent Solar Day",
+      "content": "Measured using real Sun; varies in length."
+    },
+    {
+      "title": "Mean Solar Day",
+      "content": "Average solar day; constant and used for civil time."
+    },
+    {
+      "title": "Equation of Time",
+      "content": "Difference between apparent and mean solar time."
+    },
+    {
+      "title": "Types of Year",
+      "content": "Sidereal year, tropical year, and calendar year differences."
+    },
+    {
+      "title": "Hour Angle",
+      "content": "Angular distance of celestial body westward from a reference meridian."
+    },
+    {
+      "title": "Greenwich Hour Angle",
+      "content": "Hour angle measured from Greenwich meridian, analogous to longitude."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 25 - Time (2)",
+  "sub_modules": [
+    {
+      "title": "Arc to Time Conversion",
+      "content": "Earth rotates 360\u00b0 in 24 hours; 15\u00b0 equals 1 hour and 1\u00b0 equals 4 minutes."
+    },
+    {
+      "title": "Conversion Methods",
+      "content": "Arc can be converted using tables or by dividing degrees by 15 and converting decimals."
+    },
+    {
+      "title": "Local Mean Time (LMT)",
+      "content": "Time based on the position of the mean Sun relative to a local meridian."
+    },
+    {
+      "title": "LMT Properties",
+      "content": "Sun crossing a meridian gives 1200 LMT; anti-meridian gives midnight."
+    },
+    {
+      "title": "UTC (Coordinated Universal Time)",
+      "content": "Global time standard equivalent to GMT used in aviation."
+    },
+    {
+      "title": "LMT and UTC Conversion",
+      "content": "Longitude east \u2192 UTC least; longitude west \u2192 UTC best."
+    },
+    {
+      "title": "LMT Problem Solving",
+      "content": "Always convert through UTC to avoid errors, especially with date changes."
+    },
+    {
+      "title": "Zone Time (ZT)",
+      "content": "World divided into 15\u00b0 longitude zones, each representing 1 hour difference."
+    },
+    {
+      "title": "Zone Number",
+      "content": "Longitude divided by 15 gives zone number; east negative, west positive."
+    },
+    {
+      "title": "Zone Time Formula",
+      "content": "UTC = Zone Time + Zone Number."
+    },
+    {
+      "title": "Standard Time (ST)",
+      "content": "Country-specific time adjusted from UTC for convenience."
+    },
+    {
+      "title": "Standard Time Lists",
+      "content": "Countries grouped based on east or west of Greenwich with time corrections."
+    },
+    {
+      "title": "Daylight Saving Time",
+      "content": "Seasonal adjustment of +1 hour to standard time."
+    },
+    {
+      "title": "International Date Line",
+      "content": "Date changes when crossing 180\u00b0 longitude, adjusted for political reasons."
+    },
+    {
+      "title": "Time Conversion Strategy",
+      "content": "Best approach is LMT \u2192 UTC \u2192 ST or reverse to avoid mistakes."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 26 - Time (3)",
+  "sub_modules": [
+    {
+      "title": "Sunrise and Sunset Basics",
+      "content": "Sunrise and sunset occur at same LMT along same latitude; affected by declination and latitude."
+    },
+    {
+      "title": "Effect of Earth\u2019s Tilt",
+      "content": "Tilt causes seasonal variation in sunrise, sunset, and day length."
+    },
+    {
+      "title": "Equinox Condition",
+      "content": "Day and night are approximately equal worldwide; sunrise ~0600 and sunset ~1800 LMT."
+    },
+    {
+      "title": "Polar Day and Night",
+      "content": "Above Arctic/Antarctic circles, continuous daylight or darkness occurs depending on season."
+    },
+    {
+      "title": "Sunrise/Sunset Tables",
+      "content": "Air Almanac provides LMT values; interpolation may be required."
+    },
+    {
+      "title": "Sunrise/Sunset Calculations",
+      "content": "Convert LMT values into UTC or Standard Time using arc-time methods."
+    },
+    {
+      "title": "Definition of Night",
+      "content": "Night defined as period after sunset or between twilight limits depending on authority."
+    },
+    {
+      "title": "Twilight",
+      "content": "Period of illumination before sunrise and after sunset due to atmospheric refraction."
+    },
+    {
+      "title": "Civil Twilight",
+      "content": "Sun between 0\u00b050\u2019 and 6\u00b0 below horizon; sufficient light for normal activities."
+    },
+    {
+      "title": "Nautical Twilight",
+      "content": "Sun between 6\u00b0 and 12\u00b0 below horizon; general outlines visible."
+    },
+    {
+      "title": "Astronomical Twilight",
+      "content": "Sun between 12\u00b0 and 18\u00b0 below horizon; near complete darkness."
+    },
+    {
+      "title": "Twilight Duration",
+      "content": "Calculated from difference between sunset/sunrise and twilight times."
+    },
+    {
+      "title": "Extreme Twilight Cases",
+      "content": "At high latitudes, twilight may last all night or Sun may not set/rise."
+    },
+    {
+      "title": "Equatorial Twilight",
+      "content": "Shortest twilight (~21 minutes) due to vertical Sun path."
+    },
+    {
+      "title": "High Latitude Twilight",
+      "content": "Twilight duration increases with latitude; may last entire night."
+    },
+    {
+      "title": "Effect of Altitude",
+      "content": "Higher altitude causes earlier sunrise, later sunset, and shorter twilight duration."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 27 - Gridded Charts",
+  "sub_modules": [
+    {
+      "title": "Purpose of Grid Navigation",
+      "content": "Used at high latitudes where meridian convergence becomes large and True North changes significantly."
+    },
+    {
+      "title": "Problem with True Navigation",
+      "content": "True North direction changes continuously when moving across longitudes."
+    },
+    {
+      "title": "Grid Concept",
+      "content": "A fixed reference direction (Grid North) is created using a chosen datum meridian."
+    },
+    {
+      "title": "Grid North",
+      "content": "Direction parallel to the datum meridian used as a constant reference."
+    },
+    {
+      "title": "Grid Track",
+      "content": "Track measured relative to Grid North; remains constant across longitudes."
+    },
+    {
+      "title": "Convergence",
+      "content": "Difference between True North and Grid North at a point."
+    },
+    {
+      "title": "Convergence Rules",
+      "content": "East convergence \u2192 True least; West convergence \u2192 True best."
+    },
+    {
+      "title": "Grivation",
+      "content": "Combined effect of convergence and magnetic variation."
+    },
+    {
+      "title": "Grid to Magnetic Conversion",
+      "content": "Grid \u00b1 Grivation = Magnetic direction."
+    },
+    {
+      "title": "Isogrivs",
+      "content": "Lines joining points of equal grivation."
+    },
+    {
+      "title": "Determining Convergence Direction",
+      "content": "Depends on hemisphere and position relative to datum meridian."
+    },
+    {
+      "title": "Steering by Compass",
+      "content": "Uses grivation similar to variation correction in navigation."
+    },
+    {
+      "title": "Steering by Gyro",
+      "content": "Preferred at high latitudes; avoids magnetic issues."
+    },
+    {
+      "title": "Gyro Errors",
+      "content": "Includes real drift, earth rate, and transport wander."
+    },
+    {
+      "title": "Transport Wander",
+      "content": "Effect of meridian convergence on gyro; not corrected in grid navigation."
+    },
+    {
+      "title": "Polar Grids",
+      "content": "Standard grids used in polar regions with datum meridian (usually Greenwich)."
+    },
+    {
+      "title": "Grid/True Conversion",
+      "content": "Conversion depends on convergence magnitude and direction."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 28 - Plotting",
+  "sub_modules": [
+    {
+      "title": "Introduction to Plotting",
+      "content": "Used in intermediate aircraft with radio aids like VOR, DME, ADF, and gyro systems."
+    },
+    {
+      "title": "Charts Used",
+      "content": "Lambert Conformal and Polar Stereographic charts are primarily used."
+    },
+    {
+      "title": "Plotting Equipment",
+      "content": "Includes navigation computer, protractor, straight edge, dividers, and pencils."
+    },
+    {
+      "title": "True vs Magnetic",
+      "content": "Plotting is usually done using True North as reference."
+    },
+    {
+      "title": "Heading",
+      "content": "Direction aircraft nose points; may be True, Magnetic, or Compass."
+    },
+    {
+      "title": "Fix",
+      "content": "Aircraft position determined using position lines or navigation aids."
+    },
+    {
+      "title": "Position Line",
+      "content": "Line along which aircraft is known to be at a given time."
+    },
+    {
+      "title": "Track Made Good (TMG)",
+      "content": "Straight line between two fixes when one heading is maintained."
+    },
+    {
+      "title": "Ground Speed Calculation",
+      "content": "Distance over time between fixes gives actual ground speed."
+    },
+    {
+      "title": "Radio Bearings",
+      "content": "Includes QTE, QDM, QDR and VOR radials."
+    },
+    {
+      "title": "Q Codes",
+      "content": "QTE: True bearing from station; QDM: Magnetic track to station; QDR: Magnetic bearing from station."
+    },
+    {
+      "title": "VOR Bearings",
+      "content": "Measured at ground station and given in magnetic."
+    },
+    {
+      "title": "ADF Bearings",
+      "content": "Measured at aircraft as relative bearing."
+    },
+    {
+      "title": "Relative Bearing Conversion",
+      "content": "True bearing = True heading + Relative bearing."
+    },
+    {
+      "title": "Reciprocal for Plotting",
+      "content": "Convert TO bearing into FROM bearing for plotting."
+    },
+    {
+      "title": "DME Fix",
+      "content": "Distance combined with bearing gives position fix."
+    },
+    {
+      "title": "Two DME Fix",
+      "content": "Intersection of two arcs gives two possible positions."
+    },
+    {
+      "title": "Cocked Hat",
+      "content": "Triangle formed by three position lines; center is estimated fix."
+    },
+    {
+      "title": "Climb and Descent",
+      "content": "Time in vertical equals time in horizontal."
+    },
+    {
+      "title": "Lambert Chart Properties",
+      "content": "Great circles appear as straight lines."
+    },
+    {
+      "title": "Measuring Tracks",
+      "content": "Measured using mid-meridian."
+    },
+    {
+      "title": "Plotting Bearings",
+      "content": "Use nearest meridian or parallel meridian for accuracy."
+    },
+    {
+      "title": "Chart Convergence Effect",
+      "content": "Affects ADF plotting due to different meridians."
+    },
+    {
+      "title": "ADF Plotting Correction",
+      "content": "Plot from a line parallel to aircraft meridian."
+    },
+    {
+      "title": "Variation Usage",
+      "content": "Ground station bearings use station variation; aircraft bearings use aircraft variation."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 29 - The Direct Indicating Compass",
+  "sub_modules": [
+    {
+      "title": "Magnetic Compass Basics",
+      "content": "Uses Earth's magnetic field to indicate direction relative to magnetic north."
+    },
+    {
+      "title": "Variation",
+      "content": "Angle between true north and magnetic north."
+    },
+    {
+      "title": "Deviation",
+      "content": "Error caused by aircraft magnetic influences."
+    },
+    {
+      "title": "Purpose of Compass",
+      "content": "Indicates aircraft heading."
+    },
+    {
+      "title": "Types of Direct Reading Compass",
+      "content": "Vertical card compass and grid ring compass."
+    },
+    {
+      "title": "Vertical Card Compass",
+      "content": "Most commonly used; compass card attached to magnet assembly."
+    },
+    {
+      "title": "Grid Ring Compass",
+      "content": "More accurate but bulky; used in older aircraft."
+    },
+    {
+      "title": "Compass Construction",
+      "content": "Magnet assembly suspended in liquid with a lubber line for reading."
+    },
+    {
+      "title": "Compass Requirements",
+      "content": "Must be horizontal, sensitive, and aperiodic."
+    },
+    {
+      "title": "Horizontality",
+      "content": "Achieved by pendulous suspension to counter vertical magnetic forces."
+    },
+    {
+      "title": "Sensitivity",
+      "content": "Ability to align with Earth's horizontal magnetic field."
+    },
+    {
+      "title": "Friction Reduction",
+      "content": "Achieved using jewel pivot, liquid damping, and buoyancy."
+    },
+    {
+      "title": "Aperiodicity",
+      "content": "Quick settling without oscillation."
+    },
+    {
+      "title": "Damping",
+      "content": "Provided by liquid and design of magnet assembly."
+    },
+    {
+      "title": "Serviceability Checks",
+      "content": "Check for damage, fluid clarity, and absence of bubbles."
+    },
+    {
+      "title": "Accuracy Limits",
+      "content": "Acceptable error is \u00b110\u00b0."
+    },
+    {
+      "title": "Compass Swing",
+      "content": "Procedure to measure and correct deviation."
+    },
+    {
+      "title": "Deviation Card",
+      "content": "Displays residual deviation for different headings."
+    },
+    {
+      "title": "Magnetic Interference",
+      "content": "Ferromagnetic objects and electrical systems affect compass accuracy."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 30 - Aircraft Magnetism",
+  "sub_modules": [
+    {
+      "title": "Deviation",
+      "content": "Difference between compass reading and magnetic meridian due to aircraft magnetism."
+    },
+    {
+      "title": "Deviation Naming",
+      "content": "East if compass points east of magnetic north, West if it points west."
+    },
+    {
+      "title": "Deviation Rule",
+      "content": "Deviation West \u2192 Compass Best; Deviation East \u2192 Compass Least."
+    },
+    {
+      "title": "Compass Swing",
+      "content": "Procedure to measure and correct deviation across headings."
+    },
+    {
+      "title": "Purpose of Compass Swing",
+      "content": "Determine, reduce, and record deviation."
+    },
+    {
+      "title": "Hard Iron Magnetism",
+      "content": "Permanent magnetism from aircraft materials; fixed with respect to aircraft."
+    },
+    {
+      "title": "Soft Iron Magnetism",
+      "content": "Induced magnetism from Earth's field; varies with latitude."
+    },
+    {
+      "title": "Vertical Soft Iron (VSI)",
+      "content": "Magnetism induced by vertical component of Earth\u2019s field."
+    },
+    {
+      "title": "Coefficient A",
+      "content": "Mechanical error due to misalignment of compass."
+    },
+    {
+      "title": "Coefficient B",
+      "content": "Deviation caused by fore-aft magnetism; follows sine curve."
+    },
+    {
+      "title": "Coefficient C",
+      "content": "Deviation caused by lateral magnetism; follows cosine curve."
+    },
+    {
+      "title": "Correction of Coefficients",
+      "content": "Adjust compass to minimize A, B, and C errors."
+    },
+    {
+      "title": "Residual Deviation",
+      "content": "Remaining deviation recorded on deviation card."
+    },
+    {
+      "title": "Accuracy Limits",
+      "content": "Deviation must be within \u00b110\u00b0."
+    },
+    {
+      "title": "Effect of Latitude",
+      "content": "Deviation increases towards poles due to weaker horizontal magnetic field."
+    },
+    {
+      "title": "Hard Iron Latitude Effect",
+      "content": "Deviation increases as horizontal component decreases."
+    },
+    {
+      "title": "Soft Iron Latitude Effect",
+      "content": "Deviation increases with vertical component (Z)."
+    },
+    {
+      "title": "Dip Relationship",
+      "content": "Deviation varies with tan(dip) = Z/H."
+    },
+    {
+      "title": "Compass Swing Situations",
+      "content": "Required after maintenance, modifications, shocks, lightning, or relocation."
+    }
+  ]
+}
+
+{
+  "book_id": "GEN-NAV",
+  "book_name": "General Navigation",
+  "chapter_name": "Chapter 31 - General Navigation Problems",
+  "sub_modules": [
+    {
+      "title": "Types of Problems",
+      "content": "Includes triangle problems, geometry of velocities, rhumb line calculations, and timing problems."
+    },
+    {
+      "title": "Triangular Problems",
+      "content": "Uses geometry and relative bearings to determine distance and track."
+    },
+    {
+      "title": "Isosceles Triangle Concept",
+      "content": "Equal angles lead to equal sides; used in CPA problems."
+    },
+    {
+      "title": "Closest Point of Approach (CPA)",
+      "content": "Minimum distance between aircraft and beacon."
+    },
+    {
+      "title": "Track and Ground Speed Problems",
+      "content": "Derived using geometry and Pythagoras."
+    },
+    {
+      "title": "Triangle of Velocities",
+      "content": "Relationship between TAS, wind, and ground speed."
+    },
+    {
+      "title": "Wind Geometry Insight",
+      "content": "Wind at 90\u00b0 does not always give zero head/tail component."
+    },
+    {
+      "title": "Mirror Effect",
+      "content": "Reversing track produces same headwind effect."
+    },
+    {
+      "title": "Rhumb Line Calculation",
+      "content": "Uses change in latitude and departure to find track."
+    },
+    {
+      "title": "Departure Formula",
+      "content": "Departure = \u0394Long \u00d7 cos(latitude)."
+    },
+    {
+      "title": "Track Angle Calculation",
+      "content": "tan \u03b8 = opposite / adjacent."
+    },
+    {
+      "title": "Timing Problems",
+      "content": "Based on distance, ground speed, and required arrival time."
+    },
+    {
+      "title": "Ground Speed Calculation",
+      "content": "Distance divided by time."
+    },
+    {
+      "title": "Mach Number Adjustment",
+      "content": "Adjusted using TAS and wind component."
+    },
+    {
+      "title": "Wind Component Reversal",
+      "content": "Wind effect reverses sign when changing direction."
+    }
+  ]
+}

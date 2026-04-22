@@ -1,0 +1,89 @@
+<h2>What kind of 3D scroll experience?</h2>
+<p class="subtitle">Each has a distinct feel. Pick the one closest to your vision for Maverick.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0a0a1a;padding:20px;min-height:180px;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;overflow:hidden;">
+      <!-- Stars -->
+      <div style="position:absolute;inset:0;">
+        <div style="position:absolute;width:2px;height:2px;background:white;border-radius:50%;top:10%;left:20%;opacity:0.8;"></div>
+        <div style="position:absolute;width:1px;height:1px;background:white;border-radius:50%;top:30%;left:70%;opacity:0.6;"></div>
+        <div style="position:absolute;width:2px;height:2px;background:white;border-radius:50%;top:60%;left:45%;opacity:0.9;"></div>
+        <div style="position:absolute;width:1px;height:1px;background:white;border-radius:50%;top:80%;left:15%;opacity:0.5;"></div>
+        <div style="position:absolute;width:2px;height:2px;background:white;border-radius:50%;top:20%;left:85%;opacity:0.7;"></div>
+        <div style="position:absolute;width:1px;height:1px;background:white;border-radius:50%;top:75%;left:60%;opacity:0.8;"></div>
+      </div>
+      <!-- 3D plane silhouette -->
+      <div style="position:relative;transform:perspective(300px) rotateX(10deg) rotateY(-15deg);z-index:2;">
+        <svg width="120" height="60" viewBox="0 0 120 60">
+          <path d="M60 30 L10 50 L30 30 L10 10 Z" fill="#4488ff" opacity="0.9"/>
+          <path d="M60 30 L110 20 L90 30 L110 40 Z" fill="#2266dd" opacity="0.9"/>
+          <path d="M60 30 L50 55 L60 45 L70 55 Z" fill="#3377ee" opacity="0.9"/>
+          <ellipse cx="60" cy="30" r="6" fill="#88bbff"/>
+        </svg>
+      </div>
+      <div style="position:absolute;bottom:10px;left:0;right:0;text-align:center;">
+        <div style="display:inline-block;width:60px;height:1px;background:linear-gradient(90deg,transparent,#4488ff,transparent);"></div>
+        <p style="color:#4488ff;font-size:10px;margin:4px 0 0;letter-spacing:2px;font-family:monospace;">ALTITUDE: 35,000 FT</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Full 3D Scene (Three.js / R3F)</h3>
+      <p>A real-time 3D environment: aircraft model flying through clouds/space, camera moves as you scroll. Think Apple Vision Pro intro or Stripe's homepage.</p>
+      <p style="margin-top:8px;font-size:12px;opacity:0.6;">Stack: React Three Fiber + Next.js · Most immersive · Highest effort</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#080d18;padding:20px;min-height:180px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;">
+      <!-- Layered depth parallax mockup -->
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0d1b3e 0%,#080d18 100%);"></div>
+      <!-- Back layer -->
+      <div style="position:absolute;top:15px;left:0;right:0;text-align:center;opacity:0.3;transform:translateZ(0);">
+        <div style="display:inline-block;width:80px;height:2px;background:#1a3a6e;border-radius:2px;margin-bottom:4px;"></div>
+        <div style="display:inline-block;width:120px;height:2px;background:#1a3a6e;border-radius:2px;margin-bottom:4px;"></div>
+        <div style="display:inline-block;width:60px;height:2px;background:#1a3a6e;border-radius:2px;"></div>
+      </div>
+      <!-- Mid layer -->
+      <div style="position:absolute;top:40%;left:50%;transform:translate(-50%,-50%) perspective(200px) rotateX(5deg);width:90%;background:rgba(20,50,120,0.3);border:1px solid rgba(68,136,255,0.3);border-radius:8px;padding:12px;text-align:center;">
+        <p style="color:#aaccff;font-size:11px;margin:0;font-family:monospace;letter-spacing:1px;">MAVERICK AI CO-PILOT</p>
+        <div style="width:40px;height:1px;background:#4488ff;margin:6px auto;"></div>
+        <p style="color:#4488ff;font-size:9px;margin:0;opacity:0.7;">SCROLL TO ENGAGE</p>
+      </div>
+      <!-- Front layer -->
+      <div style="position:absolute;bottom:10px;left:10px;right:10px;display:flex;justify-content:space-between;">
+        <div style="width:30%;height:30px;background:rgba(68,136,255,0.15);border:1px solid rgba(68,136,255,0.4);border-radius:4px;transform:perspective(100px) rotateY(10deg);"></div>
+        <div style="width:30%;height:30px;background:rgba(68,136,255,0.15);border:1px solid rgba(68,136,255,0.4);border-radius:4px;"></div>
+        <div style="width:30%;height:30px;background:rgba(68,136,255,0.15);border:1px solid rgba(68,136,255,0.4);border-radius:4px;transform:perspective(100px) rotateY(-10deg);"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Scroll-Driven 3D Layers (GSAP + CSS)</h3>
+      <p>Elements move in 3D depth as you scroll — parallax layers, rotating cards, 3D text reveals. No heavy engine. Like Linear.app or Framer sites.</p>
+      <p style="margin-top:8px;font-size:12px;opacity:0.6;">Stack: Next.js + GSAP ScrollTrigger · Smooth & fast · Medium effort</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#06101f;padding:20px;min-height:180px;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;overflow:hidden;">
+      <!-- Spline-style embedded 3D blob/object -->
+      <div style="position:relative;display:flex;justify-content:center;align-items:center;width:100%;height:140px;">
+        <!-- Animated gradient blob simulating Spline -->
+        <div style="position:absolute;width:100px;height:100px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#6644ff,#2233cc 40%,#001166 80%);box-shadow:0 0 40px rgba(100,68,255,0.6),0 0 80px rgba(50,50,200,0.3);transform:perspective(200px) rotateX(10deg) rotateY(-20deg);"></div>
+        <div style="position:absolute;width:140px;height:140px;border-radius:50%;border:1px solid rgba(100,68,255,0.2);animation:none;"></div>
+        <div style="position:absolute;width:160px;height:160px;border-radius:50%;border:1px solid rgba(100,68,255,0.1);"></div>
+        <!-- UI overlay -->
+        <div style="position:absolute;bottom:0;right:10px;background:rgba(10,5,30,0.8);border:1px solid rgba(100,68,255,0.4);border-radius:6px;padding:6px 10px;">
+          <p style="color:#9977ff;font-size:9px;margin:0;font-family:monospace;">DRAG TO ROTATE</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Embedded Spline 3D (Interactive Object)</h3>
+      <p>A beautiful interactive 3D object (aircraft, globe, AI sphere) embedded in the hero — user can drag to rotate. Rest of site is standard scroll. Like Resend or Luma.</p>
+      <p style="margin-top:8px;font-size:12px;opacity:0.6;">Stack: Next.js + Spline · Easiest 3D · Low-medium effort</p>
+    </div>
+  </div>
+
+</div>

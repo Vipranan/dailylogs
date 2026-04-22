@@ -1,0 +1,104 @@
+Preface....................................................................iii Maximum Weights	2-6
+Number of Seats	2-6
+Introduction .............................................................v Maximum Baggage	2-6
+Fuel Capacity	2-6
+Acknowledgments ................................................vii Oil Capacity (Wet Sump)	2-6
+Data Pertinent to all Models	2-10
+Weight and Balance Control	1-1
+Introduction	1-1
+Responsibility for Weight and Balance Control	1-2
+Terminology	1-2
+Weight Control	1-2
+Effects of Weight	1-3
+Weight Changes	1-3
+Stability and Balance Control	1-4
+Weight Control for Aircraft Other Than Fixed and Equipment List	3-4
+Rotor-wing	1-5
+Weight-Shift Control Aircraft	1-5
+Powered Parachutes	1-6
+Balloons	1-6
+Underestimating the Importance of Weight and Other Fluids	3-4
+Balance	1-6
+Jacking the Aircraft	3-5
+Chapter 2 Leveling the Aircraft	3-5
+Weight and Balance Theory	2-1
+Introduction	2-1
+Weight and Balance Theory	2-2
+Arm	2-2
+Moment	2-2
+The Law of the Lever	2-2
+Shifting the Balance Point or CG	2-4
+Solution by Chart	2-4
+Basic Weight and Balance Equation	2-4
+Solution by Formula	2-5
+Mean Aerodynamic Chord	2-5
+FAA-Furnished Weight and Balance Information	2-6
+CG Range	2-6
+Empty Weight CG Range (EWCG)	2-6
+Center of Gravity (CG)	3-8
+Mean Aerodynamic Chord (MAC)	3-8
+Temporary Ballast Formula	7-8
+Chapter 4 Permanent Ballast	7-8
+Control	4-1
+Introduction	4-1
+LSA Definition of Term	4-2
+Weight and Balance	4-3
+WSC Aircraft	4-3
+Powered Parachutes	4-4
+Aircraft)	4-4
+Category and Large Aircraft	9-1
+Chapter 5 Introduction	9-1
+Single-Engine Aircraft Weight and Balance Establishing the Initial Weight of an Aircraft	9-2
+Computations	5-1
+Introduction	5-1
+Determining the Loaded Weight and CG	5-2
+Manual Computational Method	5-2
+Loading Graph Method	5-4
+Moment Indexes	5-4
+Loading Graph	5-4
+Compute Weight and Balance Using the Reestablishing the OEW	9-5
+Loading Graph	5-4
+Onboard Aircraft Weighing System	9-5
+Determining the Correct Stabilizer Trim Setting	9-6
+Computations	6-1
+Introduction	6-1
+Determine the Loaded CG	6-2
+Chart Method Using Weight, Arm, and Moments	6-2
+Aerodynamic Chord (MAC)	6-3
+Moment Indexes	6-3
+Determining the Landing Weight	9-10
+Chapter 7 Determining Fuel Dump Time in Minutes	9-12
+Repair or Alteration	7-1
+Introduction	7-1
+Equipment List	7-2
+Major Alteration and Repair	7-3
+Weight and Balance Revision Record	7-3
+Weight Changes Caused by a Repair or Alteration	7-5
+Computations Using Weight, Arm, and Moment	7-5
+Computations Using Weight and Moment Indexes	7-5
+Determining the CG in Percentage of Mean From One Section to Another	9-18
+Aerodynamic Chord (Percent MAC)	7-6
+Empty Weight CG (EWCG) Range	7-6
+Adverse-Load CG Checks	7-6
+Forward Adverse-Load CG Check	7-7
+Aft Adverse-Load CG Check	7-7
+Computations	10-1
+Introduction	10-1
+Electronic Calculator	10-2
+E6-B Flight Computer	10-2
+Dedicated Electronic Flight Computer	10-3
+Typical Weight and Balance Problems	10-4
+Determining CG in Inches From the Datum	10-4
+Main Wheels	10-4
+Main Wheels	10-4
+Main Wheels	10-4
+Main Wheels	10-4
+Determining CG, Given Weights, and Arms	10-5
+Indexes	10-5
+Chord (MAC)	10-5
+Determining Lateral CG of a Helicopter	10-5
+Determining ΔCG Caused by Shifting Weights	10-6
+ΔCG	10-6
+CG a Specific Distanc	10-6
+Specified ΔCG When Cargo Is Move	10-7
+CG to a Desired Location	10-7

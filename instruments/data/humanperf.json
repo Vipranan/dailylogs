@@ -1,0 +1,1812 @@
+[
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 1 - Basic Concepts",
+    "sub_modules": [
+      {
+        "title": "History of Human Performance",
+        "content": "Aviation began with early balloon flights such as the Montgolfier balloon in 1783, which were non-steerable. The development of powered flight led to airships (Henri Giffard, 1852) and eventually heavier-than-air machines. The Wright brothers achieved the first powered flight in 1903. Initially, most aviation accidents were caused by mechanical failures, but with technological advancements, human factors became the dominant cause of accidents. Despite improvements in aircraft systems, navigation, and meteorology, accident rates did not decrease proportionally because human limitations remained constant. Human error can occur at all stages including design, maintenance, and operations, but pilot-related factors are most critical."
+      },
+      {
+        "title": "Human Limitations in Aviation",
+        "content": "The human body is designed for stable conditions at sea level but aviation exposes it to altitude, pressure changes, G-forces, radiation, and oxygen deficiency. Pilots must understand physiological effects such as hypoxia, temperature extremes, and fatigue. Psychological aspects include perception, decision-making, stress, and information processing. Effective performance requires managing both physical and mental limitations."
+      },
+      {
+        "title": "Relevance of Human Performance",
+        "content": "Human Performance is essential in all aviation activities. It promotes safety, efficiency, health, decision-making, leadership, communication, and crew coordination. It also influences aircraft and cockpit design, procedures, training, and working environments. The overall goal is to ensure operational safety and individual well-being."
+      },
+      {
+        "title": "ICAO Requirement",
+        "content": "Human Factors became a mandatory subject for pilot licensing following ICAO Annex 1 Amendment 159 (effective 16 November 1989)."
+      },
+      {
+        "title": "The Competent Pilot",
+        "content": "A competent pilot demonstrates responsibility, skill, motivation, communication ability, flexibility, fitness, reliability, and teamwork. Additional qualities include calmness under stress, attention to detail, and effective risk assessment and crew management skills."
+      },
+      {
+        "title": "Pilot Training",
+        "content": "Training methods include simulators, CRM, LOFT, leadership training, and safety programs. Effective training must be relevant, regular, concise, participative, and supported by revision materials. Continuous self-training is essential, including self-debriefing and independent learning."
+      },
+      {
+        "title": "Accident Statistics",
+        "content": "Aviation is one of the safest modes of transport, with approximately one fatal accident per 1.2 million flights. However, about 73% of accidents are caused by human factors, a figure consistent since the 1950s. Controlled Flight Into Terrain (CFIT) is a common accident type. Most accidents occur during approach, landing, take-off, and descent."
+      },
+      {
+        "title": "Common Causes of Pilot-Induced Accidents",
+        "content": "The most common causes include loss of directional control, poor judgment, failure to maintain airspeed, poor preflight planning, and failure to maintain ground clearance."
+      },
+      {
+        "title": "Flight Safety Participants",
+        "content": "Flight safety involves multiple stakeholders including regulatory authorities, commercial organizations, management, training staff, and operational personnel. Each group can influence safety positively or negatively depending on decisions, financial pressures, and communication."
+      },
+      {
+        "title": "Safety Culture",
+        "content": "Safety culture refers to the shared values and behaviors that prioritize safety within an organization. It includes open communication, learning from mistakes, and commitment to safety at all levels. Types include open culture, closed culture, and national culture."
+      },
+      {
+        "title": "Swiss Cheese Model",
+        "content": "Proposed by James Reason, this model explains that accidents occur when multiple layers of defense fail simultaneously due to aligned weaknesses (holes). Each layer represents a safety barrier, and failure occurs when hazards pass through all layers."
+      },
+      {
+        "title": "Elements of Safety Culture",
+        "content": "The five elements are: informed culture, reporting culture, learning culture, just culture, and flexible culture. A just culture encourages reporting of errors without punishment unless there is reckless behavior."
+      },
+      {
+        "title": "Threat and Error Management (TEM)",
+        "content": "TEM consists of threats, errors, and undesired aircraft states. Threats may be latent, environmental, or organizational. Errors include handling, procedural, and communication errors. Undesired states involve unsafe aircraft conditions. Countermeasures include avoidance, trapping errors, and mitigation."
+      },
+      {
+        "title": "Flight Crew Duties",
+        "content": "Flight crew responsibilities include adherence to regulations, ensuring aircraft safety, supervising operations, managing emergencies, maintaining communication, and ensuring passenger safety. The commander has ultimate authority, while the first officer assists and assumes command if required."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 2 - The Circulation System",
+    "sub_modules": [
+      {
+        "title": "Overview of Circulatory System",
+        "content": "The circulatory system consists of two parts: the pulmonary system and the systemic system. The pulmonary system carries deoxygenated blood from the heart to the lungs for gas exchange and returns oxygenated blood to the heart. The systemic system delivers oxygen-rich blood to body tissues and returns deoxygenated blood back to the heart."
+      },
+      {
+        "title": "Functions of Blood",
+        "content": "Blood transports oxygen to tissues and removes carbon dioxide. It carries nutrients, removes waste products, distributes hormones, fights infection through immune cells, and regulates body temperature through vasoconstriction and vasodilation."
+      },
+      {
+        "title": "Composition of Blood",
+        "content": "Blood consists of plasma and cells. Plasma carries nutrients, hormones, and proteins. Red blood cells contain haemoglobin and transport oxygen. White blood cells defend against disease. Platelets assist in blood clotting."
+      },
+      {
+        "title": "The Heart",
+        "content": "The heart is a four-chambered muscular pump consisting of two atria and two ventricles. The right ventricle pumps deoxygenated blood to the lungs, while the left ventricle pumps oxygenated blood to the body. Arteries carry blood away from the heart under high pressure, while veins return blood under low pressure. Coronary arteries supply the heart muscle itself."
+      },
+      {
+        "title": "Oxygen Transport",
+        "content": "Oxygen is primarily carried by haemoglobin in red blood cells as oxyhaemoglobin. Red blood cells have a lifespan of about 108 days and are produced in bone marrow. Oxygenated blood appears bright red, while deoxygenated blood is darker."
+      },
+      {
+        "title": "Carbon Dioxide Transport",
+        "content": "Carbon dioxide is mainly transported in the blood as carbonic acid (CO2 + H2O → H2CO3). Blood acidity facilitates oxygen release to tissues. Reduced CO2 levels, such as during hyperventilation, impair oxygen delivery."
+      },
+      {
+        "title": "Internal Respiration",
+        "content": "Cells use oxygen to release energy from food through oxidation: carbohydrates + oxygen produce energy, carbon dioxide, and water. This process occurs at the cellular level and is called internal respiration."
+      },
+      {
+        "title": "Circulatory Pathway",
+        "content": "Oxygenated blood flows from the left ventricle through the aorta to arteries and capillaries where gas exchange occurs by diffusion. Deoxygenated blood returns via veins to the right atrium, moves to the right ventricle, and is pumped to the lungs. After oxygenation, blood returns to the left atrium and ventricle."
+      },
+      {
+        "title": "Cardiac Output",
+        "content": "Cardiac output is the volume of blood pumped by the heart per minute and equals stroke volume multiplied by heart rate. Normal cardiac output is about 5 to 5.5 litres per minute. Heart rate increases cardiac output up to about 180 bpm, beyond which efficiency decreases."
+      },
+      {
+        "title": "Factors Affecting Pulse Rate",
+        "content": "Pulse rate varies with exercise, altitude, temperature, emotional stress, shock, and the sympathetic nervous system (fight or flight response)."
+      },
+      {
+        "title": "System Failures",
+        "content": "Heart rhythm disturbances can occur due to faulty electrical impulses. Coronary artery blockage can reduce oxygen supply to the heart, causing angina or myocardial infarction (heart attack). Severe cases can lead to cardiac arrest or ventricular fibrillation."
+      },
+      {
+        "title": "Risk Factors for Heart Disease",
+        "content": "Major risk factors include heredity, age, hypertension, smoking, high cholesterol, lack of exercise, and diabetes. Stress and obesity also contribute."
+      },
+      {
+        "title": "Incapacitation in Flight",
+        "content": "Sudden incapacitation is rare due to strict medical screening. Regular tests such as ECG and EEG help detect risks. Medical checks increase with age."
+      },
+      {
+        "title": "Oxygen Deficiency Causes",
+        "content": "Oxygen deficiency may result from anaemia, low oxygen pressure at altitude, or lack of iron. High altitude reduces oxygen availability, requiring physiological adaptation or supplemental oxygen."
+      },
+      {
+        "title": "Carbon Monoxide Poisoning",
+        "content": "Carbon monoxide binds to haemoglobin more strongly than oxygen, forming carboxyhaemoglobin and reducing oxygen transport. It is odorless and highly dangerous. Symptoms include headache, dizziness, impaired judgment, and eventually death."
+      },
+      {
+        "title": "Treatment of Carbon Monoxide Poisoning",
+        "content": "Treatment includes turning off cabin heat, increasing fresh air, administering oxygen if available, and landing as soon as possible."
+      },
+      {
+        "title": "Effects of Smoking",
+        "content": "Smoking increases carbon monoxide levels, reduces oxygen carrying capacity, and increases risks of heart disease, lung cancer, and reduced night vision. It also reduces tolerance to G-forces."
+      },
+      {
+        "title": "Blood Pressure",
+        "content": "Blood pressure is measured as systolic over diastolic (e.g., 120/80 mmHg). Hypertension increases risk of stroke and heart disease. Hypotension may cause fainting and reduced G tolerance. Normal blood pressure is approximately 120/80."
+      },
+      {
+        "title": "Pressoreceptors",
+        "content": "Pressoreceptors in the carotid sinus regulate blood pressure by adjusting heart rate and vessel constriction. They maintain homeostasis and protect brain blood supply."
+      },
+      {
+        "title": "Effects of G-forces",
+        "content": "Positive G reduces blood flow to the brain causing grey-out or blackout. Negative G increases pressure in the head causing red-out. Pressoreceptors attempt to compensate but have limits."
+      },
+      {
+        "title": "Blood Donation and Flying",
+        "content": "After donating blood, pilots should rest and avoid flying for at least 24 hours to prevent fainting."
+      },
+      {
+        "title": "Pulmonary Embolism",
+        "content": "A pulmonary embolism occurs when a blood clot blocks the pulmonary artery, preventing oxygenation. Long periods of immobility increase risk, and movement helps prevention."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 3 - Oxygen and Respiration",
+    "sub_modules": [
+      {
+        "title": "Importance of Oxygen",
+        "content": "Oxygen is essential for all body cells, especially brain cells which can die within two minutes without oxygen. Although the brain is only 2% of body weight, it consumes about 20% of the body's oxygen supply."
+      },
+      {
+        "title": "Control of Breathing",
+        "content": "Breathing is controlled primarily by carbon dioxide levels in the blood. Increased CO2 stimulates breathing, while reduced CO2 decreases it. Oxygen deficiency can also stimulate respiration."
+      },
+      {
+        "title": "Mechanics of Breathing",
+        "content": "Inspiration occurs when the diaphragm and intercostal muscles expand the chest cavity, reducing pressure and drawing air in. Expiration is normally passive. Normal breathing rate is 12–20 breaths per minute."
+      },
+      {
+        "title": "Respiratory System Structure",
+        "content": "Air passes through the nose and mouth to the trachea, bronchi, and into the lungs where it reaches the alveoli. Gas exchange occurs in the alveoli through diffusion between air and capillary blood."
+      },
+      {
+        "title": "Pulmonary Volumes",
+        "content": "Tidal volume is about 500 ml. Inspiratory reserve volume is about 3000 ml. Expiratory reserve volume is about 1100 ml. Residual volume is about 1200 ml. Female values are 20–25% lower."
+      },
+      {
+        "title": "Standard Atmosphere",
+        "content": "ICAO standard atmosphere: temperature +15°C, pressure 1013.25 hPa, density 1.225 kg/m³. Temperature decreases with altitude up to 11 km, then remains constant."
+      },
+      {
+        "title": "Atmospheric Composition",
+        "content": "Air consists of approximately 21% oxygen, 78% nitrogen, and small amounts of other gases. These proportions remain constant with altitude, but total pressure decreases."
+      },
+      {
+        "title": "Gas Laws",
+        "content": "Boyle’s Law: volume inversely proportional to pressure. Dalton’s Law: total pressure equals sum of partial pressures. Henry’s Law: gas dissolved proportional to pressure. Fick’s Law: diffusion depends on pressure difference, area, and thickness. Charles’ Law: volume proportional to temperature."
+      },
+      {
+        "title": "Partial Pressure of Oxygen",
+        "content": "At sea level, oxygen partial pressure is about 160 mmHg but reduces with altitude. In alveoli, oxygen pressure is lower due to CO2 and water vapor. Adequate oxygenation requires a minimum alveolar pressure of 55 mmHg."
+      },
+      {
+        "title": "Oxygen Requirements with Altitude",
+        "content": "Up to 10000 ft: air sufficient. 10000–33700 ft: oxygen-air mix required. 33700–40000 ft: 100% oxygen required. Above 40000 ft: oxygen must be supplied under pressure."
+      },
+      {
+        "title": "Hypoxic Hypoxia",
+        "content": "Hypoxic hypoxia is caused by reduced oxygen availability, commonly due to altitude. Oxygen saturation decreases significantly with increasing altitude, impairing bodily functions."
+      },
+      {
+        "title": "Symptoms of Hypoxia",
+        "content": "Symptoms include euphoria, impaired judgement, headache, tingling, visual impairment, memory loss, poor coordination, cyanosis, unconsciousness, and death."
+      },
+      {
+        "title": "Stages of Hypoxia",
+        "content": "Indifferent (0–10000 ft): minor effects. Compensatory (10000–15000 ft): increased breathing and heart rate. Disturbance (15000–20000 ft): severe impairment. Critical (20000+ ft): rapid incapacitation."
+      },
+      {
+        "title": "Factors Affecting Hypoxia",
+        "content": "Severity depends on altitude, exposure time, workload, temperature, illness, fatigue, alcohol, and drugs."
+      },
+      {
+        "title": "Anaemic Hypoxia",
+        "content": "Caused by reduced oxygen-carrying capacity of blood due to anaemia or carbon monoxide poisoning."
+      },
+      {
+        "title": "Treatment and Prevention of Hypoxia",
+        "content": "Immediate treatment involves oxygen supply and descent. Prevention includes fitness, oxygen availability, avoiding smoking, and proper briefing."
+      },
+      {
+        "title": "Time of Useful Consciousness (TUC)",
+        "content": "TUC is the time available to take corrective action before impairment. At 20000 ft it may be 30 minutes at rest but only seconds at 40000 ft."
+      },
+      {
+        "title": "Effective Performance Time (EPT)",
+        "content": "EPT is shorter than TUC and represents the time during which effective actions can be taken."
+      },
+      {
+        "title": "Hyperventilation",
+        "content": "Hyperventilation is excessive breathing causing reduced CO2 levels, disrupting oxygen release to tissues."
+      },
+      {
+        "title": "Symptoms of Hyperventilation",
+        "content": "Symptoms include dizziness, tingling, visual disturbances, anxiety, muscle spasms, and unconsciousness."
+      },
+      {
+        "title": "Treatment of Hyperventilation",
+        "content": "Treatment involves calming the individual and restoring CO2 levels, often by controlled breathing or breathing into a bag."
+      },
+      {
+        "title": "Hypoxia vs Hyperventilation",
+        "content": "Symptoms may be similar, but hypoxia is life-threatening. Pilots must always assume hypoxia if altitude permits and apply oxygen immediately."
+      },
+      {
+        "title": "Cabin Pressurization",
+        "content": "Cabin pressure is maintained equivalent to 6000–8000 ft to ensure safety. Pressure changes are controlled to minimize discomfort."
+      },
+      {
+        "title": "Cabin Decompression",
+        "content": "Loss of pressurization exposes occupants to hypoxia and cold. Immediate oxygen use and descent to 10000 ft or MSA is required."
+      },
+      {
+        "title": "Decompression Sickness (DCS)",
+        "content": "DCS occurs when nitrogen comes out of solution forming bubbles in the body due to pressure reduction. It causes joint pain, skin sensations, breathing issues, and neurological symptoms."
+      },
+      {
+        "title": "Treatment of DCS",
+        "content": "Immediate descent, oxygen administration, rest, warmth, and urgent medical care are required."
+      },
+      {
+        "title": "Flying After Diving",
+        "content": "Do not fly within 12 hours after diving, or 24 hours if depth exceeded 30 ft, due to increased risk of decompression sickness."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 4 - Nervous System, Ear, Hearing and Balance",
+    "sub_modules": [
+      {
+        "title": "Overview of the Nervous System",
+        "content": "The nervous system controls and coordinates body functions by transmitting electrochemical signals. It processes sensory input and generates responses through neurons and synapses."
+      },
+      {
+        "title": "Central Nervous System (CNS)",
+        "content": "The CNS consists of the brain and spinal cord. It processes sensory information and generates responses. The brain makes up about 97% of the nervous system."
+      },
+      {
+        "title": "Peripheral Nervous System (PNS)",
+        "content": "The PNS transmits signals between the CNS and the body via sensory and motor nerves. It enables reflex actions without brain involvement."
+      },
+      {
+        "title": "Autonomic Nervous System (ANS)",
+        "content": "The ANS controls involuntary functions such as breathing, heart rate, digestion, and temperature. It includes sympathetic (fight or flight) and parasympathetic systems."
+      },
+      {
+        "title": "Sense Organs in Aviation",
+        "content": "Sight and hearing are the most important senses in aviation. Other senses include touch, temperature, pain, and proprioception."
+      },
+      {
+        "title": "Structure of the Ear",
+        "content": "The ear has three parts: outer ear (collects sound), middle ear (transmits vibrations via ossicles), and inner ear (converts vibrations into nerve signals and detects balance)."
+      },
+      {
+        "title": "Outer and Middle Ear Functions",
+        "content": "The outer ear directs sound to the eardrum. The middle ear transmits vibrations via ossicles and equalizes pressure through the eustachian tube."
+      },
+      {
+        "title": "Inner Ear and Cochlea",
+        "content": "The cochlea converts vibrations into electrical signals using hair cells, which are transmitted to the brain via the auditory nerve."
+      },
+      {
+        "title": "Hearing Range and Sound Measurement",
+        "content": "Human hearing ranges from 20 Hz to 20000 Hz. Sound intensity is measured in decibels (dB), with prolonged exposure above 90 dB causing damage."
+      },
+      {
+        "title": "Hearing Impairment",
+        "content": "Types include conductive deafness (mechanical issues), noise-induced hearing loss (damage to cochlea), and presbycusis (age-related loss)."
+      },
+      {
+        "title": "Vestibular System",
+        "content": "The vestibular system in the inner ear maintains balance and spatial orientation using semicircular canals and otolith organs."
+      },
+      {
+        "title": "Semicircular Canals",
+        "content": "Three canals detect angular acceleration. Fluid movement bends hair cells, sending signals to the brain about rotation."
+      },
+      {
+        "title": "Otolith Organs",
+        "content": "Otoliths detect linear acceleration and head tilt using small calcium crystals that move with acceleration."
+      },
+      {
+        "title": "Somatogravic Illusion",
+        "content": "Linear acceleration causes false sensations of pitch. Acceleration feels like climb; deceleration feels like descent."
+      },
+      {
+        "title": "Somatogyral Illusion",
+        "content": "Occurs during prolonged turns when the vestibular system fails to detect motion, causing false sensations of turning in the opposite direction."
+      },
+      {
+        "title": "The Leans",
+        "content": "A common spatial disorientation where the pilot feels tilted despite being level due to vestibular misinterpretation."
+      },
+      {
+        "title": "Coriolis Effect",
+        "content": "Head movement during a turn causes conflicting signals from semicircular canals, leading to severe disorientation."
+      },
+      {
+        "title": "Vertigo",
+        "content": "A sensation of spinning or movement caused by vestibular disturbance, pressure changes, or alcohol."
+      },
+      {
+        "title": "Spatial Disorientation",
+        "content": "A mismatch between visual and vestibular inputs leading to incorrect perception of orientation. Highly dangerous in aviation."
+      },
+      {
+        "title": "Motion Sickness",
+        "content": "Caused by mismatch between visual and vestibular signals. Symptoms include nausea, sweating, vomiting, and dizziness."
+      },
+      {
+        "title": "Coping with Motion Sickness",
+        "content": "Strategies include minimizing head movement, focusing visually, gradual exposure, ventilation, and medication under medical advice."
+      },
+      {
+        "title": "Effects of Alcohol",
+        "content": "Alcohol alters fluid density in the inner ear, causing disorientation and vertigo even after it leaves the bloodstream."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 5 - The Eye and Vision",
+    "sub_modules": [
+      {
+        "title": "Function of the Eye",
+        "content": "The eye receives electromagnetic waves within the visible spectrum and converts them into electrical signals for interpretation by the brain."
+      },
+      {
+        "title": "Basic Structure",
+        "content": "The eye functions like a camera with a cornea, pupil (aperture), lens, and retina acting as a light-sensitive screen."
+      },
+      {
+        "title": "Cornea",
+        "content": "The cornea provides 70–80% of the eye’s focusing power by bending incoming light."
+      },
+      {
+        "title": "Iris and Pupil",
+        "content": "The iris controls the size of the pupil to regulate light entering the eye. The pupil adjusts rapidly based on light conditions and object distance."
+      },
+      {
+        "title": "Lens and Accommodation",
+        "content": "The lens changes shape via ciliary muscles to focus light on the retina. Thickens for near objects and flattens for distant objects."
+      },
+      {
+        "title": "Retina",
+        "content": "The retina contains light-sensitive cells (rods and cones) that convert light into electrical signals sent to the brain."
+      },
+      {
+        "title": "Rods",
+        "content": "Rods are sensitive to low light and detect motion but only in black and white. They dominate peripheral vision."
+      },
+      {
+        "title": "Cones",
+        "content": "Cones provide color vision and high visual acuity in bright light. They are concentrated in the fovea."
+      },
+      {
+        "title": "Fovea and Visual Acuity",
+        "content": "The fovea provides sharp central vision (6/6 or 20/20). Acuity decreases rapidly away from the fovea."
+      },
+      {
+        "title": "Visual Acuity",
+        "content": "A measure of the eye’s ability to resolve detail. Affected by lighting, contrast, motion, distance, fatigue, and physiological factors."
+      },
+      {
+        "title": "Light and Dark Adaptation",
+        "content": "Light adaptation occurs quickly (~10 seconds). Dark adaptation takes up to 30 minutes for full sensitivity."
+      },
+      {
+        "title": "Night Vision",
+        "content": "Relies on rods. Objects are better seen using off-centre viewing (10–15° away). Night vision is impaired by hypoxia, smoking, and fatigue."
+      },
+      {
+        "title": "Blind Spot",
+        "content": "The optic nerve entry point has no receptors, creating a blind spot. Objects on constant bearing may go undetected."
+      },
+      {
+        "title": "Stereopsis",
+        "content": "Binocular vision provides depth perception but is ineffective beyond ~200 ft."
+      },
+      {
+        "title": "Empty Field Myopia",
+        "content": "In the absence of visual cues, the eye focuses at 1–1.5 m, reducing ability to detect distant objects."
+      },
+      {
+        "title": "High Light Levels",
+        "content": "High altitude exposure increases risk of retinal and lens damage due to UV and blue light."
+      },
+      {
+        "title": "Sunglasses",
+        "content": "Proper sunglasses must be impact resistant, optically clear, and non-polarized. Polarized lenses are discouraged in aviation."
+      },
+      {
+        "title": "Visual Defects",
+        "content": "Includes myopia (short-sightedness), hypermetropia (long-sightedness), presbyopia (age-related), and astigmatism."
+      },
+      {
+        "title": "Cataracts",
+        "content": "Clouding of the lens leading to reduced vision. Can be treated surgically."
+      },
+      {
+        "title": "Glaucoma",
+        "content": "Increased intraocular pressure damaging the optic nerve, potentially causing blindness."
+      },
+      {
+        "title": "Contact Lenses",
+        "content": "Provide better peripheral vision but risk dryness, hypoxia, and displacement. Backup glasses are required."
+      },
+      {
+        "title": "Colour Vision",
+        "content": "Essential for aviation. Colour blindness (especially red-green) may restrict licensing."
+      },
+      {
+        "title": "Vision and Speed",
+        "content": "At high speeds, reaction time and visual perception delay become critical for safety."
+      },
+      {
+        "title": "Monocular Vision",
+        "content": "Single-eye vision reduces depth perception but may still allow limited flying privileges."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 6 - Flying and Health",
+    "sub_modules": [
+      {
+        "title": "Acceleration and G-forces",
+        "content": "Acceleration affects the body as linear, radial, or angular forces. G-forces are measured relative to Earth’s gravity and primarily affect cardiovascular and visual systems."
+      },
+      {
+        "title": "Positive G Effects",
+        "content": "Positive G causes blood pooling in lower body, reduced brain oxygen, grey-out, tunnel vision, and G-LOC at high levels."
+      },
+      {
+        "title": "Negative G Effects",
+        "content": "Negative G forces blood to the head causing red-out, facial pressure, and possible blood vessel rupture."
+      },
+      {
+        "title": "G Tolerance Factors",
+        "content": "Tolerance is reduced by fatigue, hypoxia, stress, alcohol, and obesity. Improved by body positioning, anti-G straining, and G-suits."
+      },
+      {
+        "title": "Barotrauma",
+        "content": "Pain caused by trapped gas expansion/contraction in body cavities due to pressure changes."
+      },
+      {
+        "title": "Otic Barotrauma",
+        "content": "Middle ear pressure imbalance causing pain, deafness, vertigo, and possible eardrum rupture, especially during descent."
+      },
+      {
+        "title": "Sinus Barotrauma",
+        "content": "Blocked sinuses cause severe pain during pressure changes, especially during descent."
+      },
+      {
+        "title": "Dental Barotrauma",
+        "content": "Gas expansion in teeth causing pain during ascent."
+      },
+      {
+        "title": "Gastrointestinal Barotrauma",
+        "content": "Gas expansion in intestines causing discomfort or pain. Prevented by diet control."
+      },
+      {
+        "title": "Toxic Hazards",
+        "content": "Exposure to fumes (fuel, anti-icing fluid, fire extinguishers, carbon monoxide) can impair performance or cause serious harm."
+      },
+      {
+        "title": "BMI and Obesity",
+        "content": "BMI measures body weight relative to height. Obesity increases risk of hypoxia, G intolerance, and cardiovascular disease."
+      },
+      {
+        "title": "Nutrition and Diet",
+        "content": "Balanced diet is essential. Hypoglycaemia causes fatigue, poor concentration, and fainting."
+      },
+      {
+        "title": "Food Poisoning",
+        "content": "Major cause of in-flight incapacitation. Symptoms include vomiting, diarrhoea, and dehydration."
+      },
+      {
+        "title": "Alcohol",
+        "content": "Alcohol is a CNS depressant impairing judgement, coordination, and vision. Elimination rate is ~1 unit/hour."
+      },
+      {
+        "title": "Alcohol and Flying",
+        "content": "Strict limits apply. Avoid alcohol at least 8–24 hours before flying."
+      },
+      {
+        "title": "Drugs and Medication",
+        "content": "Both recreational and medicinal drugs impair performance. Self-medication is dangerous."
+      },
+      {
+        "title": "Caffeine",
+        "content": "A stimulant that can improve alertness but in excess causes anxiety, dehydration, and reduced performance."
+      },
+      {
+        "title": "Medical Conditions",
+        "content": "Conditions like epilepsy, diabetes, and psychiatric disorders can affect flying eligibility."
+      },
+      {
+        "title": "Radiation",
+        "content": "Exposure increases with altitude and latitude. Includes galactic and solar radiation."
+      },
+      {
+        "title": "Tropical Diseases",
+        "content": "Includes malaria, hepatitis, cholera, and others. Prevention through hygiene and vaccination."
+      },
+      {
+        "title": "Personal Hygiene",
+        "content": "Essential for preventing infections and maintaining health."
+      },
+      {
+        "title": "Stroboscopic Effect",
+        "content": "Rotor blade flicker can cause nausea, dizziness, or seizures."
+      },
+      {
+        "title": "Fitness to Fly",
+        "content": "Pilots must not fly if unwell or under medication. Even minor illnesses can impair performance."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 7 - Stress",
+    "sub_modules": [
+      {
+        "title": "Introduction to Stress",
+        "content": "Stress is the body’s response to demands. A certain level is necessary for performance, but excessive stress degrades both mental and physical efficiency."
+      },
+      {
+        "title": "Stress Model",
+        "content": "Stress depends on perceived demand vs perceived ability to cope. It is subjective and influenced by experience and feedback."
+      },
+      {
+        "title": "Arousal and Performance",
+        "content": "Performance follows an inverted U curve. Too little or too much arousal reduces performance, with an optimal level in between."
+      },
+      {
+        "title": "General Adaptation Syndrome (GAS)",
+        "content": "The body’s response to stress through three stages: alarm, resistance, and exhaustion, controlled by the autonomic nervous system."
+      },
+      {
+        "title": "Sympathetic and Parasympathetic Systems",
+        "content": "Sympathetic system triggers fight-or-flight response. Parasympathetic system restores balance and prolongs response."
+      },
+      {
+        "title": "Stress Factors (Stressors)",
+        "content": "Stressors include physiological, cognitive, non-professional, imaginary, and organizational factors."
+      },
+      {
+        "title": "Physiological Stressors",
+        "content": "Include environmental factors (heat, noise, vibration, humidity) and internal factors (fatigue, hunger, thirst)."
+      },
+      {
+        "title": "Cognitive Stressors",
+        "content": "Arise from unexpected situations, lack of time, or inability to solve problems."
+      },
+      {
+        "title": "Non-professional Stressors",
+        "content": "Life events such as bereavement, domestic issues, or financial stress."
+      },
+      {
+        "title": "Imaginary Stress",
+        "content": "Stress caused by anticipation or anxiety without real threat."
+      },
+      {
+        "title": "Organizational Stress",
+        "content": "Stress caused by company pressure, workload, poor management, or scheduling."
+      },
+      {
+        "title": "Stress Effects",
+        "content": "Stress affects performance, health, behaviour, and cognition, leading to errors and reduced situational awareness."
+      },
+      {
+        "title": "Coping Strategies",
+        "content": "Stress can be managed through action coping, cognitive coping, and symptom-directed coping."
+      },
+      {
+        "title": "Stress Management",
+        "content": "Includes fitness, relaxation, counselling, and lifestyle changes to reduce long-term stress."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 8 - Information Processing, Human Error and Learning",
+    "sub_modules": [
+      {
+        "title": "Information Processing Model",
+        "content": "Information flows through detection, perception, decision-making, action, and feedback."
+      },
+      {
+        "title": "Bottom-up and Top-down Processing",
+        "content": "Perception is influenced by both sensory input and prior knowledge stored in memory."
+      },
+      {
+        "title": "Sensory Memory",
+        "content": "Includes echoic (sound) and iconic (visual) memory with very short duration."
+      },
+      {
+        "title": "Attention",
+        "content": "Limited resource that selects relevant stimuli for processing."
+      },
+      {
+        "title": "Perception",
+        "content": "Interpretation of sensory data influenced by mental models and expectations."
+      },
+      {
+        "title": "Short-term Memory",
+        "content": "Limited capacity (7±2 items), lasts 10–20 seconds unless rehearsed."
+      },
+      {
+        "title": "Long-term Memory",
+        "content": "Stores semantic, episodic, and procedural knowledge."
+      },
+      {
+        "title": "Motor Programmes (Skills)",
+        "content": "Automated actions learned through practice, reducing workload on the brain."
+      },
+      {
+        "title": "Decision Making and Response",
+        "content": "Central processor selects responses based on input and memory."
+      },
+      {
+        "title": "Human Error",
+        "content": "Errors arise from failures in perception, memory, or action."
+      },
+      {
+        "title": "Types of Errors",
+        "content": "Includes slips, omissions, faults, and violations."
+      },
+      {
+        "title": "Learning Process",
+        "content": "Learning occurs through conditioning, insight, observation, and experience."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 9 - Behaviour and Motivation",
+    "sub_modules": [
+      {
+        "title": "SRK Model",
+        "content": "Three levels of behaviour: Skill-based, Rule-based, Knowledge-based."
+      },
+      {
+        "title": "Skill-based Behaviour",
+        "content": "Automatic actions performed without conscious thought using motor programmes."
+      },
+      {
+        "title": "Rule-based Behaviour",
+        "content": "Actions guided by learned procedures and checklists."
+      },
+      {
+        "title": "Knowledge-based Behaviour",
+        "content": "Used when no rules exist; relies on reasoning and experience."
+      },
+      {
+        "title": "Situational Awareness",
+        "content": "Accurate perception and understanding of the environment and one's own state."
+      },
+      {
+        "title": "Motivation",
+        "content": "Internal drive influencing behaviour and performance."
+      },
+      {
+        "title": "Maslow’s Hierarchy",
+        "content": "Human needs arranged from physiological to self-actualization."
+      },
+      {
+        "title": "Job Satisfaction",
+        "content": "Influenced by rewards, environment, and involvement in decision-making."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 10 - Cognition in Aviation",
+    "sub_modules": [
+      {
+        "title": "Introduction to Illusions",
+        "content": "Mismatch between perception and reality due to faulty mental models."
+      },
+      {
+        "title": "Visual Illusions",
+        "content": "Errors in perception caused by misleading visual cues."
+      },
+      {
+        "title": "Vestibular and Proprioceptive Illusions",
+        "content": "Balance and body sensors giving false motion/orientation signals."
+      },
+      {
+        "title": "Illusions during Flight Phases",
+        "content": "Take-off, cruise, approach and landing illusions."
+      },
+      {
+        "title": "Black Hole Effect",
+        "content": "Night approach illusion leading to undershoot."
+      },
+      {
+        "title": "Somatogravic and Somatogyral Illusions",
+        "content": "False pitch/turn sensations due to acceleration."
+      },
+      {
+        "title": "Collision and Visual Limitations",
+        "content": "Retinal size and constant bearing collision risk."
+      },
+      {
+        "title": "Scanning Techniques",
+        "content": "Proper visual scanning to detect traffic."
+      },
+      {
+        "title": "Protective Measures",
+        "content": "Training, instrument reliance, and awareness to counter illusions."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 11 - Sleep and Fatigue",
+    "sub_modules": [
+      {
+        "title": "Importance of Sleep",
+        "content": "Sleep restores body and organizes mental processes."
+      },
+      {
+        "title": "Circadian Rhythms",
+        "content": "24-hour biological cycles affecting performance and alertness."
+      },
+      {
+        "title": "Sleep Stages and Cycles",
+        "content": "Stages 1–4 and REM sleep in 90-minute cycles."
+      },
+      {
+        "title": "Sleep Credit/Debit System",
+        "content": "Balance between sleep gained and wakefulness."
+      },
+      {
+        "title": "Jet Lag and Time Zone Effects",
+        "content": "Disruption of circadian rhythm due to travel."
+      },
+      {
+        "title": "Naps and Microsleeps",
+        "content": "Short sleep episodes and their effects."
+      },
+      {
+        "title": "Sleep Disorders",
+        "content": "Conditions like insomnia, narcolepsy, and sleep apnea."
+      },
+      {
+        "title": "Fatigue",
+        "content": "Physical and mental exhaustion affecting performance."
+      },
+      {
+        "title": "Hypovigilance",
+        "content": "Reduced alertness during low workload conditions."
+      },
+      {
+        "title": "Fatigue Management",
+        "content": "Strategies to prevent and reduce fatigue."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 11 - Sleep and Fatigue",
+    "sub_modules": [
+      {
+        "title": "Importance of Sleep",
+        "content": "Sleep restores body and organizes mental processes."
+      },
+      {
+        "title": "Circadian Rhythms",
+        "content": "24-hour biological cycles affecting performance and alertness."
+      },
+      {
+        "title": "Sleep Stages and Cycles",
+        "content": "Stages 1–4 and REM sleep in 90-minute cycles."
+      },
+      {
+        "title": "Sleep Credit/Debit System",
+        "content": "Balance between sleep gained and wakefulness."
+      },
+      {
+        "title": "Jet Lag and Time Zone Effects",
+        "content": "Disruption of circadian rhythm due to travel."
+      },
+      {
+        "title": "Naps and Microsleeps",
+        "content": "Short sleep episodes and their effects."
+      },
+      {
+        "title": "Sleep Disorders",
+        "content": "Conditions like insomnia, narcolepsy, and sleep apnea."
+      },
+      {
+        "title": "Fatigue",
+        "content": "Physical and mental exhaustion affecting performance."
+      },
+      {
+        "title": "Hypovigilance",
+        "content": "Reduced alertness during low workload conditions."
+      },
+      {
+        "title": "Fatigue Management",
+        "content": "Strategies to prevent and reduce fatigue."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 12 - Individual Differences and Interpersonal Relationships",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Individual differences, communication and teamwork together influence crew cooperation."
+      },
+      {
+        "title": "Personality",
+        "content": "Innate and learned traits influencing behaviour, shaped by nature and nurture."
+      },
+      {
+        "title": "Self Concept",
+        "content": "Self-awareness develops through social interaction and others’ evaluations."
+      },
+      {
+        "title": "Defining Personality",
+        "content": "Combination of motives, attitudes, beliefs and behaviours forming an individual."
+      },
+      {
+        "title": "Personality, Attitude and Behaviour",
+        "content": "Personality is stable, attitude is learned, behaviour is their outward expression."
+      },
+      {
+        "title": "Assessing Personality",
+        "content": "Often judged inaccurately by appearance; questionnaires are most reliable."
+      },
+      {
+        "title": "Personality Types (Body Types Bias)",
+        "content": "Endomorph, mesomorph and ectomorph stereotypes influence perception but are unreliable."
+      },
+      {
+        "title": "Dimensions of Personality",
+        "content": "Includes extroversion, anxiety and traits like sociability, dominance and stability."
+      },
+      {
+        "title": "Extroversion and Anxiety",
+        "content": "Extroversion relates to sociability; anxiety relates to emotional instability."
+      },
+      {
+        "title": "Personality and Aircraft Accidents",
+        "content": "Risk-taking and stress responses linked to personality can affect flight safety."
+      },
+      {
+        "title": "Preferred Pilot Personality",
+        "content": "Stable, self-disciplined and moderately extroverted personalities are desirable."
+      },
+      {
+        "title": "Eysenck PEN Model",
+        "content": "Personality includes psychoticism, extroversion and neuroticism."
+      },
+      {
+        "title": "Interactive Style",
+        "content": "Behaviour in teams based on leadership style such as authoritarian or democratic."
+      },
+      {
+        "title": "Goal and Person Directed Styles",
+        "content": "G (task focus) and P (people focus); ideal pilot is high in both (P+G+)."
+      },
+      {
+        "title": "Group and Team Behaviour",
+        "content": "Effective teamwork requires flexibility, communication and awareness of group dynamics."
+      },
+      {
+        "title": "Ability",
+        "content": "Competence influences trust, acceptance and effectiveness within a team."
+      },
+      {
+        "title": "Status",
+        "content": "Hierarchy affects communication, questioning and decision making."
+      },
+      {
+        "title": "Role",
+        "content": "Behaviour changes depending on assigned duties such as handling or monitoring pilot."
+      },
+      {
+        "title": "Cohesion",
+        "content": "Team bonding improves performance but excessive cohesion may lead to groupthink."
+      },
+      {
+        "title": "Group Decision Making",
+        "content": "Group decisions are generally better but depend on team interaction."
+      },
+      {
+        "title": "Conformity",
+        "content": "Tendency to align with group opinions to reduce conflict or stress."
+      },
+      {
+        "title": "Compliance",
+        "content": "Likelihood of agreeing to requests influenced by prior interactions."
+      },
+      {
+        "title": "Status and Obedience",
+        "content": "Higher status individuals have greater influence on decisions."
+      },
+      {
+        "title": "Persuasion",
+        "content": "Influencing others should be limited; logical discussion is preferred."
+      },
+      {
+        "title": "Risky Shift",
+        "content": "Groups tend to take riskier decisions due to shared responsibility."
+      },
+      {
+        "title": "Group Duration",
+        "content": "Long-term teams improve coordination but may develop unsafe habits."
+      },
+      {
+        "title": "Role and Norm",
+        "content": "Behaviour changes according to expected roles within the group."
+      },
+      {
+        "title": "Coordination and Cooperation",
+        "content": "Effective communication and teamwork reduce workload and improve safety."
+      },
+      {
+        "title": "Improving Group Decision Making",
+        "content": "Encourage logic, avoid conflict suppression and value differing opinions."
+      },
+      {
+        "title": "CRM and LOFT",
+        "content": "Training improves teamwork, communication and decision-making through simulation."
+      },
+      {
+        "title": "Leadership",
+        "content": "Ability to achieve goals through others while maintaining trust and cooperation."
+      },
+      {
+        "title": "Leadership Principles",
+        "content": "Encourage input, avoid bias and clearly explain decisions."
+      },
+      {
+        "title": "Leader and Follower Behaviour",
+        "content": "Open communication, assertiveness and professionalism are essential."
+      },
+      {
+        "title": "Blake and Mouton Grid",
+        "content": "Leadership styles based on concern for people and task (1.1 to 9.9)."
+      },
+      {
+        "title": "Authority Gradient",
+        "content": "Balance between authority and communication is critical for safety."
+      },
+      {
+        "title": "Autocratic Cockpit",
+        "content": "High authority, low communication leading to stress and poor teamwork."
+      },
+      {
+        "title": "Laissez-faire Cockpit",
+        "content": "Low leadership leading to lack of coordination and unsafe situations."
+      },
+      {
+        "title": "Synergistic Cockpit",
+        "content": "Balanced leadership with teamwork, communication and shared decision-making."
+      },
+      {
+        "title": "Interacting with Other Agencies",
+        "content": "Pilots coordinate with crew, airline staff and ATC for safe operations."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 13 - Communication and Cooperation",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Communication is the effective transmission of a message and is critical for flight safety."
+      },
+      {
+        "title": "Simple Communication Model",
+        "content": "Communication involves transmitter, message and receiver, influenced by context."
+      },
+      {
+        "title": "Basic Requirements of Communication",
+        "content": "Shared language, clarity, consistency and minimal noise are essential."
+      },
+      {
+        "title": "Context in Communication",
+        "content": "Meaning of messages depends on tone, situation and interpretation."
+      },
+      {
+        "title": "Berlo Communication Model",
+        "content": "Six components: source, message, encoder, channel, receiver and decoder."
+      },
+      {
+        "title": "Types of Questions",
+        "content": "Questions can be leading, implicit (open) or explicit (closed)."
+      },
+      {
+        "title": "Leading Questions",
+        "content": "Suggest or influence the expected answer and may indicate poor awareness."
+      },
+      {
+        "title": "Implicit Questions",
+        "content": "Open-ended, promote discussion and better decision making but may cause delay."
+      },
+      {
+        "title": "Explicit Questions",
+        "content": "Direct, clear and quick but may overlook important factors."
+      },
+      {
+        "title": "Communication Concepts",
+        "content": "Information transfer reduces uncertainty and is measured in bits."
+      },
+      {
+        "title": "Communication Channels",
+        "content": "Modes such as speech, gestures and writing used to transmit messages."
+      },
+      {
+        "title": "Dialogue",
+        "content": "Ongoing exchange of communication to reach a common goal."
+      },
+      {
+        "title": "Hypertext",
+        "content": "Implicit meaning behind messages based on situation and context."
+      },
+      {
+        "title": "Confirmation of Information",
+        "content": "Feedback and confirmation improve situational awareness and reduce errors."
+      },
+      {
+        "title": "Perceived Ability of Receiver",
+        "content": "Communication style changes based on perceived competence of receiver."
+      },
+      {
+        "title": "Verbal Communication",
+        "content": "Speech patterns, tone and clarity affect understanding."
+      },
+      {
+        "title": "Non-Verbal Communication",
+        "content": "Body language, gestures and expressions convey significant information."
+      },
+      {
+        "title": "Culture and Body Language",
+        "content": "Gestures and expressions vary across cultures and may cause misunderstandings."
+      },
+      {
+        "title": "Personal Space",
+        "content": "Physical distance affects comfort and communication effectiveness."
+      },
+      {
+        "title": "Cockpit Communication",
+        "content": "Essential for coordination, especially with reduced crew and automation."
+      },
+      {
+        "title": "Workload and Communication",
+        "content": "High workload reduces communication quality and increases errors."
+      },
+      {
+        "title": "Expectation in Communication",
+        "content": "Assumptions can lead to misinterpretation and accidents."
+      },
+      {
+        "title": "Interpersonal Differences",
+        "content": "Personality and attitudes influence communication effectiveness."
+      },
+      {
+        "title": "Intrapersonal Conflict",
+        "content": "Internal conflict may affect decision making and communication."
+      },
+      {
+        "title": "Conflict in Communication",
+        "content": "Mismatch between verbal and non-verbal cues or escalation can disrupt teamwork."
+      },
+      {
+        "title": "Conflict Resolution Techniques",
+        "content": "Includes inquiry, active listening, feedback, advocacy, negotiation and arbitration."
+      },
+      {
+        "title": "Importance of Verbal Communication in Cockpit",
+        "content": "Clear, concise and confirmed speech compensates for limited body language."
+      },
+      {
+        "title": "Cockpit Miscommunication Examples",
+        "content": "Ambiguous phrases can lead to dangerous misunderstandings."
+      },
+      {
+        "title": "Professional Language",
+        "content": "Standardized vocabulary and grammar reduce ambiguity."
+      },
+      {
+        "title": "Metacommunication",
+        "content": "Tone, gestures and expressions enhance message meaning."
+      },
+      {
+        "title": "Briefings",
+        "content": "Effective briefings are short, clear and understood by all crew members."
+      },
+      {
+        "title": "Types of Coordination",
+        "content": "Includes redundant actions, coaction and general cooperation."
+      },
+      {
+        "title": "Synchronization",
+        "content": "Cognitive and temporal synchronization align crew actions."
+      },
+      {
+        "title": "Synergy",
+        "content": "Team performance exceeding individual contributions."
+      },
+      {
+        "title": "Barriers to Teamwork",
+        "content": "Hazardous attitudes like anti-authority, impulsive, invulnerable, macho and resigned."
+      },
+      {
+        "title": "Good Teamwork",
+        "content": "Requires trust, communication, shared goals and cooperation."
+      },
+      {
+        "title": "Improving Cooperation",
+        "content": "Use professional language, maintain dialogue and follow procedures."
+      },
+      {
+        "title": "Miscommunication Example",
+        "content": "Failure in communication and checklist completion can lead to serious accidents."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 14 - Man and Machine",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Human survival in aviation depends on effective interaction between humans and aircraft systems."
+      },
+      {
+        "title": "SHELL Model",
+        "content": "Model representing interaction between Liveware, Software, Hardware and Environment."
+      },
+      {
+        "title": "Liveware",
+        "content": "Human component at the center, including interaction with other humans."
+      },
+      {
+        "title": "Software",
+        "content": "Includes procedures, manuals, checklists, symbols and computer programs."
+      },
+      {
+        "title": "Hardware",
+        "content": "Physical aircraft structure, cockpit design, instruments and controls."
+      },
+      {
+        "title": "Environment",
+        "content": "External and internal conditions affecting pilot performance."
+      },
+      {
+        "title": "Liveware-Environment Interaction",
+        "content": "Adaptation through systems like pressurization, temperature and noise control."
+      },
+      {
+        "title": "Flight Deck Design",
+        "content": "Cockpit must allow optimal visibility, accessibility and minimal pilot strain."
+      },
+      {
+        "title": "Eye Datum",
+        "content": "Reference eye position ensuring proper visibility of instruments and outside view."
+      },
+      {
+        "title": "Aircraft Windows",
+        "content": "Design balances visibility with aerodynamic and structural constraints."
+      },
+      {
+        "title": "Cockpit Seats",
+        "content": "Must provide comfort, lumbar support, adjustability and protection from G-forces."
+      },
+      {
+        "title": "Display Types",
+        "content": "Digital displays for precise data, analogue displays for trend and comparison."
+      },
+      {
+        "title": "Standardization",
+        "content": "Consistent design across aircraft reduces training time and errors."
+      },
+      {
+        "title": "Standard T Layout",
+        "content": "Primary flight instruments arranged around attitude indicator."
+      },
+      {
+        "title": "Glass Cockpit",
+        "content": "Computer-based displays integrating multiple data sources."
+      },
+      {
+        "title": "Head-Up Display (HUD)",
+        "content": "Projects flight data onto screen allowing simultaneous external view."
+      },
+      {
+        "title": "Engine Instruments",
+        "content": "Grouped logically to allow quick identification of engine issues."
+      },
+      {
+        "title": "Cockpit Lighting",
+        "content": "Adjustable lighting ensures readability and reduces fatigue."
+      },
+      {
+        "title": "Control Design Principles",
+        "content": "Controls must be standardized, accessible, distinguishable and logically arranged."
+      },
+      {
+        "title": "Warnings",
+        "content": "Warnings must attract attention, inform clearly and avoid false alarms."
+      },
+      {
+        "title": "Checklists and Manuals",
+        "content": "Must be clear, concise, accessible and easy to use under workload."
+      },
+      {
+        "title": "Checklist Errors",
+        "content": "Errors arise from automation, interruptions and improper usage."
+      },
+      {
+        "title": "Automation",
+        "content": "Systems designed to assist pilots by executing tasks automatically."
+      },
+      {
+        "title": "Types of Automation",
+        "content": "Includes automation, protection automation and support systems."
+      },
+      {
+        "title": "Glass Cockpit Concept",
+        "content": "Use of digital displays like PFD and ND for integrated information."
+      },
+      {
+        "title": "Advantages of Automation",
+        "content": "Reduces workload, increases accuracy, improves safety and efficiency."
+      },
+      {
+        "title": "Disadvantages of Automation",
+        "content": "Includes boredom, complacency, confusion, skill loss and mode errors."
+      },
+      {
+        "title": "Automation Complacency",
+        "content": "Over-reliance on automation leading to passive monitoring."
+      },
+      {
+        "title": "Mode Error",
+        "content": "Mismatch between expected and actual system mode causing errors."
+      },
+      {
+        "title": "Manual Control Issues",
+        "content": "Pilots may struggle to take control when automation fails."
+      },
+      {
+        "title": "Irony of Automation",
+        "content": "Pilots monitor systems poorly and handle rare failures less effectively."
+      },
+      {
+        "title": "Adapting to Automation",
+        "content": "Maintain awareness, monitor systems and prioritize flying the aircraft."
+      },
+      {
+        "title": "Intelligent Flight Decks",
+        "content": "Advanced systems acting as decision-support or electronic crew members."
+      },
+      {
+        "title": "Trust in Automation",
+        "content": "Balance required between over-trust and under-trust."
+      },
+      {
+        "title": "Colour Displays",
+        "content": "Colour changes must be supported by additional cues for clarity."
+      },
+      {
+        "title": "Active Errors",
+        "content": "Immediate errors occurring at the human-system interface."
+      },
+      {
+        "title": "Latent Errors",
+        "content": "Hidden system flaws caused by design or management decisions."
+      },
+      {
+        "title": "System Tolerance",
+        "content": "Systems must handle errors without compromising safety."
+      },
+      {
+        "title": "Protected vs Vulnerable Systems",
+        "content": "Protected systems resist failure, vulnerable systems collapse with single error."
+      },
+      {
+        "title": "Design-Induced Errors",
+        "content": "Errors caused by poor system or interface design."
+      },
+      {
+        "title": "Error Management Principles",
+        "content": "Systems should detect, tolerate and recover from errors."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 15 - Decision Making and Risk",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Decision making is committing to a course of action and is critical for flight safety."
+      },
+      {
+        "title": "Decision Making vs Deciding",
+        "content": "Decision making is a structured process, while deciding may be emotional or arbitrary."
+      },
+      {
+        "title": "Factors Influencing Decisions",
+        "content": "Includes personality, stress, experience, training, motivation and commercial pressure."
+      },
+      {
+        "title": "Human Strengths in Decision Making",
+        "content": "Humans can act quickly, think creatively and handle novel situations effectively."
+      },
+      {
+        "title": "Responsibility of Commander",
+        "content": "The commander is ultimately responsible for all decisions made during flight."
+      },
+      {
+        "title": "Decision Making Process (DODAR Expanded)",
+        "content": "Structured process including diagnose, collect data, assess risk, develop options, decide and review."
+      },
+      {
+        "title": "Diagnose and Define Objective",
+        "content": "Identify the problem, confirm diagnosis and define clear objectives."
+      },
+      {
+        "title": "Time Assessment",
+        "content": "Evaluate available time; in most cases time can be created through holds, diversions or speed reduction."
+      },
+      {
+        "title": "Collect Information",
+        "content": "Gather data from all sources including crew, instruments and external inputs."
+      },
+      {
+        "title": "Risk Assessment",
+        "content": "Evaluate both probability and severity of risks before taking action."
+      },
+      {
+        "title": "External Risk",
+        "content": "Objective risk from the current situation if no changes are made."
+      },
+      {
+        "title": "Internal Risk",
+        "content": "Risk related to crew capability, knowledge or time limitations."
+      },
+      {
+        "title": "Risk Factors",
+        "content": "Any condition that increases the likelihood of an accident."
+      },
+      {
+        "title": "Develop Options",
+        "content": "Generate possible courses of action such as diverting, holding or continuing."
+      },
+      {
+        "title": "Evaluate Options",
+        "content": "Compare outcomes, risks and benefits of each option."
+      },
+      {
+        "title": "Decision Selection",
+        "content": "Choose the option with the best outcome and lowest acceptable risk."
+      },
+      {
+        "title": "Decision Bias (Framing Effect)",
+        "content": "People prefer risky choices in loss scenarios and safe choices in gain scenarios."
+      },
+      {
+        "title": "Press-on-itis",
+        "content": "Tendency to continue despite risks due to bias toward avoiding loss."
+      },
+      {
+        "title": "Assign Tasks",
+        "content": "Distribute workload among crew and external agencies."
+      },
+      {
+        "title": "Implement Decision",
+        "content": "Execute the decision while monitoring progress."
+      },
+      {
+        "title": "Monitor Consequences",
+        "content": "Check whether the decision achieves the intended objective."
+      },
+      {
+        "title": "Review and Feedback",
+        "content": "Continuously reassess the situation and restart the process if needed."
+      },
+      {
+        "title": "Standard Operating Procedures (SOPs)",
+        "content": "Predefined procedures reduce decision load and improve consistency."
+      },
+      {
+        "title": "SOP Limitations",
+        "content": "Cannot cover every scenario and may lead to habit-based errors."
+      },
+      {
+        "title": "Confirmation Bias",
+        "content": "Tendency to seek information that supports existing beliefs."
+      },
+      {
+        "title": "Probability Bias",
+        "content": "Tendency to assume the most likely explanation without full analysis."
+      },
+      {
+        "title": "Saliency",
+        "content": "Focusing on obvious cues while ignoring less noticeable but important information."
+      },
+      {
+        "title": "Overconfidence",
+        "content": "Excess confidence reduces caution and leads to poor decisions."
+      },
+      {
+        "title": "Fatigue and Overload",
+        "content": "Reduce cognitive ability and impair decision making."
+      },
+      {
+        "title": "Denial",
+        "content": "Refusal to accept reality, leading to delayed or poor decisions."
+      },
+      {
+        "title": "Forms of Denial",
+        "content": "Includes procrastination, rationalization, hope, refusal and status protection."
+      },
+      {
+        "title": "Attention Limitations",
+        "content": "Limited attention reduces information processing capability."
+      },
+      {
+        "title": "Stress Effects",
+        "content": "Stress negatively impacts judgement and decision quality."
+      },
+      {
+        "title": "Lack of Experience",
+        "content": "Slows diagnosis and reduces ability to interpret complex situations."
+      },
+      {
+        "title": "Personality and Decision Making",
+        "content": "Stable personalities contribute to better crew decision making."
+      },
+      {
+        "title": "Judgement Concept",
+        "content": "Decisions depend on pilot, aircraft, environment and time available."
+      },
+      {
+        "title": "Commitment",
+        "content": "Represents the point of no return in a decision."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 16 - Human Factors Incident Reporting",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Over 70% of aircraft accidents are caused by human error, highlighting the importance of human factors."
+      },
+      {
+        "title": "Purpose of Incident Reporting",
+        "content": "To collect data on human errors without fear of punishment and improve aviation safety."
+      },
+      {
+        "title": "NASA ASRS",
+        "content": "Confidential Aviation Safety Reporting System established in 1976 to gather anonymous reports."
+      },
+      {
+        "title": "CHIRP Programme",
+        "content": "UK-based confidential reporting system providing insights into human factor incidents."
+      },
+      {
+        "title": "Benefits of Reporting Systems",
+        "content": "Encourages transparency, builds large safety databases and helps prevent future accidents."
+      },
+      {
+        "title": "Cockpit Design Issues",
+        "content": "Poor ergonomics and control placement can lead to critical operational errors."
+      },
+      {
+        "title": "Status and Authority Gradient",
+        "content": "Hierarchical differences can prevent junior crew from challenging unsafe situations."
+      },
+      {
+        "title": "Risky Behaviour",
+        "content": "Desire to achieve goals (e.g., visual contact) can lead to dangerous decisions."
+      },
+      {
+        "title": "Fatigue and Sleep",
+        "content": "Fatigue can lead to loss of awareness, errors and even falling asleep during flight."
+      },
+      {
+        "title": "Divided Attention",
+        "content": "Focusing on minor issues can distract from critical flight tasks."
+      },
+      {
+        "title": "Expectation Error",
+        "content": "Seeing what is expected instead of actual data can lead to serious mistakes."
+      },
+      {
+        "title": "Automation Dependence",
+        "content": "Over-reliance on automated systems can lead to loss of monitoring and awareness."
+      },
+      {
+        "title": "Health and Incapacitation",
+        "content": "Physical conditions like illness or fatigue can severely degrade pilot performance."
+      },
+      {
+        "title": "Environmental Effects",
+        "content": "Factors like smoke or cockpit conditions can impair performance and judgement."
+      },
+      {
+        "title": "Personality and Behaviour",
+        "content": "Strong personalities or ego can lead to unsafe decisions and poor crew coordination."
+      },
+      {
+        "title": "Visual Illusions",
+        "content": "Misinterpretation of visual cues can lead to incorrect altitude or position awareness."
+      },
+      {
+        "title": "Aeronautical Information Circulars (AICs)",
+        "content": "Official publications that update pilots on regulatory or operational changes."
+      },
+      {
+        "title": "Case Study: Staines Trident Accident",
+        "content": "A major accident demonstrating multiple human factor failures including design, stress, communication and training."
+      },
+      {
+        "title": "Organizational Factors",
+        "content": "Industrial disputes, staffing issues and operational pressure contributed to unsafe conditions."
+      },
+      {
+        "title": "Crew Factors",
+        "content": "Inexperience, personality conflict and poor communication affected crew performance."
+      },
+      {
+        "title": "Aircraft Design Issues",
+        "content": "Trident aircraft had deep stall characteristics and poor warning system design."
+      },
+      {
+        "title": "System Failures",
+        "content": "Faulty stick pusher system and unclear warning indications contributed to confusion."
+      },
+      {
+        "title": "Sequence of Events",
+        "content": "Incorrect speed, droop retraction, stall warnings and incorrect pilot responses led to a deep stall."
+      },
+      {
+        "title": "Deep Stall",
+        "content": "Irrecoverable condition where airflow disruption causes total loss of control."
+      },
+      {
+        "title": "Human Factors in Accident",
+        "content": "Stress, distraction, poor communication, health issues and design flaws combined to cause the accident."
+      },
+      {
+        "title": "Causative vs Contributory Factors",
+        "content": "Causative factors directly lead to accidents, while contributory factors increase likelihood."
+      },
+      {
+        "title": "System Design Philosophy",
+        "content": "Systems should minimize risk, provide clear warnings and prevent human error."
+      },
+      {
+        "title": "Importance of Training and Procedures",
+        "content": "Proper training, SOPs and crew coordination are essential for safe operations."
+      },
+      {
+        "title": "Key Lesson",
+        "content": "Human error can affect anyone; awareness, discipline and reporting are critical for safety."
+      }
+    ]
+  },
+  {
+    "book_id": "HUM-001",
+    "book_name": "Human Performance",
+    "chapter_name": "Chapter 17 - Introduction to Crew Resource Management",
+    "sub_modules": [
+      {
+        "title": "Introduction to CRM",
+        "content": "CRM improves teamwork, communication and safety; it is a fundamental life skill applicable beyond aviation."
+      },
+      {
+        "title": "Origin of CRM",
+        "content": "Developed after accidents like the 1978 United Airlines fuel exhaustion crash highlighted human factor failures."
+      },
+      {
+        "title": "Core Areas of CRM",
+        "content": "Communication, situational awareness, decision making and personality/behaviour form the foundation of CRM."
+      },
+      {
+        "title": "Effective Communication",
+        "content": "Communication must be two-way, concise and adapted to the receiver to ensure clarity and understanding."
+      },
+      {
+        "title": "Two-Way Communication",
+        "content": "Allows questioning, clarification and confirmation, improving accuracy and safety."
+      },
+      {
+        "title": "Hearing vs Listening",
+        "content": "Hearing is passive; listening is active and requires concentration and understanding."
+      },
+      {
+        "title": "Improving Listening",
+        "content": "Use short messages, avoid distractions and confirm understanding through feedback."
+      },
+      {
+        "title": "Question Types",
+        "content": "Closed, open and leading questions influence the type and quality of responses."
+      },
+      {
+        "title": "Closed Questions",
+        "content": "Quick, specific answers; useful in high workload but limit discussion."
+      },
+      {
+        "title": "Open Questions",
+        "content": "Encourage discussion, teamwork and deeper understanding."
+      },
+      {
+        "title": "Leading Questions",
+        "content": "Contain the answer and may indicate loss of situational awareness."
+      },
+      {
+        "title": "Communication in Cockpit",
+        "content": "Reduced body language requires clear, concise and assertive verbal communication."
+      },
+      {
+        "title": "Communication Styles",
+        "content": "Supportive and assertive styles are positive; aggressive and submissive styles are negative."
+      },
+      {
+        "title": "Assertive Communication",
+        "content": "Clearly states needs while respecting others; essential for safety."
+      },
+      {
+        "title": "Overload",
+        "content": "Occurs when workload exceeds capacity, leading to errors and reduced performance."
+      },
+      {
+        "title": "Managing Overload",
+        "content": "Reduce workload, communicate, and seek help to restore effective performance."
+      },
+      {
+        "title": "Situational Awareness",
+        "content": "Accurate mental model of reality formed by integrating multiple information sources."
+      },
+      {
+        "title": "Loss of Situational Awareness",
+        "content": "Occurs due to incorrect mental models, leading to potential errors."
+      },
+      {
+        "title": "Maintaining Situational Awareness",
+        "content": "Stay ahead, cross-check information and share mental models with crew."
+      },
+      {
+        "title": "Decision Making in CRM",
+        "content": "Uses SOPs for routine problems and structured methods like DODAR for complex situations."
+      },
+      {
+        "title": "DODAR Model",
+        "content": "Diagnose, Options, Decide, Assign, Review - a structured decision-making loop."
+      },
+      {
+        "title": "Importance of SOPs",
+        "content": "Provide standardized solutions to predictable problems, reducing workload and error."
+      },
+      {
+        "title": "Personality in CRM",
+        "content": "Different personality types influence communication, decision making and teamwork."
+      },
+      {
+        "title": "Extraversion vs Introversion",
+        "content": "Extraverts communicate openly; introverts reflect deeply before acting."
+      },
+      {
+        "title": "Sensing vs Intuition",
+        "content": "Sensing focuses on facts; intuition focuses on patterns and big picture."
+      },
+      {
+        "title": "Thinking vs Feeling",
+        "content": "Thinking is logical; feeling is people-oriented and values harmony."
+      },
+      {
+        "title": "Judging vs Perceiving",
+        "content": "Judging prefers structure; perceiving prefers flexibility and adaptability."
+      },
+      {
+        "title": "Behaviour in CRM",
+        "content": "Behaviour determines perception; pilots must consciously choose appropriate actions."
+      },
+      {
+        "title": "Adult Mode Behaviour",
+        "content": "Maintains professionalism, avoids emotional reactions and focuses on outcomes."
+      },
+      {
+        "title": "Feedback in CRM",
+        "content": "Provides information for improvement; must be constructive, timely and respectful."
+      },
+      {
+        "title": "Giving Feedback",
+        "content": "Focus on behaviour, not person; aim to improve performance."
+      },
+      {
+        "title": "Receiving Feedback",
+        "content": "Listen openly, avoid defensiveness and use it as a learning opportunity."
+      },
+      {
+        "title": "Teamwork in CRM",
+        "content": "Effective teamwork improves safety through communication, trust and shared goals."
+      },
+      {
+        "title": "Briefing",
+        "content": "Sets expectations, roles, procedures and promotes open communication."
+      },
+      {
+        "title": "Assertiveness in Teamwork",
+        "content": "Encourages speaking up and resolving issues proactively."
+      },
+      {
+        "title": "Crew Feedback",
+        "content": "Allows self-correction and continuous improvement."
+      },
+      {
+        "title": "Decision Sharing",
+        "content": "Encourages participation and ensures all crew understand decisions."
+      },
+      {
+        "title": "Leadership and Followership",
+        "content": "Balance authority and teamwork for effective operations."
+      },
+      {
+        "title": "Interpersonal Climate",
+        "content": "Supportive environment improves performance and reduces conflict."
+      },
+      {
+        "title": "Planning and Vigilance",
+        "content": "Stay ahead of aircraft and anticipate future actions."
+      },
+      {
+        "title": "Workload Management",
+        "content": "Distribute tasks effectively and prioritize flight safety over secondary tasks."
+      },
+      {
+        "title": "Key CRM Principle",
+        "content": "Good communication, teamwork and awareness are essential for safe flight operations."
+      }
+    ]
+  }
+]

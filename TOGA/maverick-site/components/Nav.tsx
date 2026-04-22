@@ -38,7 +38,7 @@ export default function Nav() {
             className="text-sm uppercase tracking-widest text-white"
             style={{ fontFamily: "var(--font-geist-mono)" }}
           >
-            MAVERICK
+            TOGA
           </span>
         </div>
 

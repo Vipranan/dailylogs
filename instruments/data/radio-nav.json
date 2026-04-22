@@ -1,0 +1,2905 @@
+[
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 1 - Properties of Radio Waves",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Radio and radar systems are essential for modern aviation navigation and control."
+      },
+      {
+        "title": "Evolution of Navigation",
+        "content": "Navigation evolved from visual and astro-navigation to radio and satellite systems."
+      },
+      {
+        "title": "Modern Navigation Systems",
+        "content": "GNSS and radar enable global navigation and air traffic control."
+      },
+      {
+        "title": "Radio Navigation Syllabus",
+        "content": "Covers radio wave behavior, transmission, reception and signal processing."
+      },
+      {
+        "title": "Electromagnetic Radiation",
+        "content": "Alternating current produces electromagnetic waves consisting of electric and magnetic fields."
+      },
+      {
+        "title": "EM Wave Components",
+        "content": "Electric field is parallel and magnetic field is perpendicular to the conductor."
+      },
+      {
+        "title": "Polarization",
+        "content": "Defined by the orientation of the electric field relative to the antenna."
+      },
+      {
+        "title": "Vertical Polarization",
+        "content": "Produced by vertical antennas with electric field in vertical plane."
+      },
+      {
+        "title": "Horizontal Polarization",
+        "content": "Produced by horizontal antennas with electric field in horizontal plane."
+      },
+      {
+        "title": "Circular Polarization",
+        "content": "Electric field rotates, useful in radar and satellite systems."
+      },
+      {
+        "title": "Polarization Matching",
+        "content": "Receiver antenna must align with wave polarization for maximum signal strength."
+      },
+      {
+        "title": "Radio Wave Period",
+        "content": "Time for one cycle of a wave, measured in microseconds."
+      },
+      {
+        "title": "Frequency",
+        "content": "Number of cycles per second measured in Hertz."
+      },
+      {
+        "title": "Frequency Units",
+        "content": "Includes kHz, MHz and GHz for practical measurement."
+      },
+      {
+        "title": "Wavelength",
+        "content": "Distance travelled in one cycle of a wave."
+      },
+      {
+        "title": "Speed of Radio Waves",
+        "content": "Radio waves travel at the speed of light (3 \u00d7 10^8 m/s)."
+      },
+      {
+        "title": "Frequency-Wavelength Relationship",
+        "content": "Frequency and wavelength are inversely proportional."
+      },
+      {
+        "title": "Calculation Formula",
+        "content": "\u03bb = c / f and f = c / \u03bb."
+      },
+      {
+        "title": "Frequency Bands",
+        "content": "Radio spectrum divided into bands from VLF to EHF."
+      },
+      {
+        "title": "VLF Band",
+        "content": "3\u201330 kHz, very long wavelengths, limited aviation use."
+      },
+      {
+        "title": "LF Band",
+        "content": "30\u2013300 kHz, used for NDB/ADF navigation."
+      },
+      {
+        "title": "MF Band",
+        "content": "300\u20133000 kHz, used for NDB and communications."
+      },
+      {
+        "title": "HF Band",
+        "content": "3\u201330 MHz, used for long-range communication."
+      },
+      {
+        "title": "VHF Band",
+        "content": "30\u2013300 MHz, used for VOR, ILS and communication."
+      },
+      {
+        "title": "UHF Band",
+        "content": "300\u20133000 MHz, used for DME, radar and GNSS."
+      },
+      {
+        "title": "SHF Band",
+        "content": "3\u201330 GHz, used for radar and radio altimeter."
+      },
+      {
+        "title": "EHF Band",
+        "content": "30\u2013300 GHz, minimal aviation use."
+      },
+      {
+        "title": "Phase Comparison",
+        "content": "Used in navigation systems to compare two signals."
+      },
+      {
+        "title": "Reference and Variable Signals",
+        "content": "One signal is reference and the other is compared."
+      },
+      {
+        "title": "Phase Difference",
+        "content": "Measured in degrees and must always be positive."
+      },
+      {
+        "title": "Phase Calculation",
+        "content": "If negative, add 360 degrees to obtain correct value."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 2 - Radio Propagation Theory",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Radio propagation describes how radio waves travel through the atmosphere."
+      },
+      {
+        "title": "Propagation Importance",
+        "content": "Different frequencies follow different paths affecting communication and navigation."
+      },
+      {
+        "title": "Attenuation",
+        "content": "Loss of signal strength as radio waves travel away from transmitter."
+      },
+      {
+        "title": "Absorption",
+        "content": "Energy loss due to interaction with air, water vapor, terrain and particles."
+      },
+      {
+        "title": "Inverse Square Law",
+        "content": "Signal strength decreases proportional to the square of distance."
+      },
+      {
+        "title": "Range vs Power",
+        "content": "Doubling range requires four times the transmitter power."
+      },
+      {
+        "title": "Static Interference",
+        "content": "Electrical noise reduces signal clarity, especially at low frequencies."
+      },
+      {
+        "title": "Signal to Noise Ratio",
+        "content": "Quality depends on strength of signal relative to noise."
+      },
+      {
+        "title": "Fading",
+        "content": "Signal variation caused by multiple paths and phase differences."
+      },
+      {
+        "title": "Power Influence",
+        "content": "Higher transmitter power increases signal range."
+      },
+      {
+        "title": "Receiver Sensitivity",
+        "content": "Better receivers detect weaker signals, improving range."
+      },
+      {
+        "title": "Directivity",
+        "content": "Focused transmission increases range in a specific direction."
+      },
+      {
+        "title": "Propagation Paths",
+        "content": "Includes surface wave, space wave, sky wave and satellite propagation."
+      },
+      {
+        "title": "Non-Ionospheric Propagation",
+        "content": "Includes surface wave and space wave paths."
+      },
+      {
+        "title": "Surface Wave",
+        "content": "Travels along earth surface using diffraction."
+      },
+      {
+        "title": "Surface Wave Range Factors",
+        "content": "Depends on frequency, surface type and polarization."
+      },
+      {
+        "title": "Sea vs Land Propagation",
+        "content": "Better propagation over sea due to higher conductivity."
+      },
+      {
+        "title": "Surface Wave Usage",
+        "content": "Used in LF and MF bands such as NDB/ADF."
+      },
+      {
+        "title": "Space Wave",
+        "content": "Line-of-sight propagation including direct and reflected waves."
+      },
+      {
+        "title": "Radio Horizon",
+        "content": "Maximum range determined by line-of-sight limits."
+      },
+      {
+        "title": "Range Formula",
+        "content": "Range = 1.23 \u00d7 (\u221ahTX + \u221ahRX) in nautical miles."
+      },
+      {
+        "title": "Line of Sight Limitation",
+        "content": "Signal cannot be received beyond horizon regardless of power."
+      },
+      {
+        "title": "Ionospheric Propagation",
+        "content": "Propagation affected by ionized upper atmosphere layers."
+      },
+      {
+        "title": "Ionosphere",
+        "content": "Region from 60 km to 1500 km containing ionized particles."
+      },
+      {
+        "title": "Ionization Process",
+        "content": "Solar radiation creates ions and free electrons."
+      },
+      {
+        "title": "Ionospheric Layers",
+        "content": "D, E and F layers with varying properties."
+      },
+      {
+        "title": "D Layer",
+        "content": "Lowest layer, absorbs signals and disappears at night."
+      },
+      {
+        "title": "E Layer",
+        "content": "Middle layer responsible for some signal refraction."
+      },
+      {
+        "title": "F Layer",
+        "content": "Highest layer, splits into F1 and F2, major role in HF propagation."
+      },
+      {
+        "title": "Sky Wave",
+        "content": "Radio waves refracted back to earth by ionosphere."
+      },
+      {
+        "title": "Critical Angle",
+        "content": "Angle at which total internal refraction occurs."
+      },
+      {
+        "title": "Skip Distance",
+        "content": "Distance from transmitter to first returned sky wave."
+      },
+      {
+        "title": "Dead Space",
+        "content": "Area with no signal between surface wave and sky wave."
+      },
+      {
+        "title": "Frequency Effect",
+        "content": "Higher frequency increases skip distance and reduces refraction."
+      },
+      {
+        "title": "Ionization Effect",
+        "content": "Higher ionization reduces skip distance."
+      },
+      {
+        "title": "Layer Height Effect",
+        "content": "Higher layers increase propagation range."
+      },
+      {
+        "title": "LF/MF Sky Wave",
+        "content": "Occurs at night when D-layer disappears."
+      },
+      {
+        "title": "Multi-hop Propagation",
+        "content": "Signal reflects multiple times between earth and ionosphere."
+      },
+      {
+        "title": "HF Communication",
+        "content": "Uses sky wave for long-range communication."
+      },
+      {
+        "title": "Maximum Usable Frequency",
+        "content": "Highest frequency that returns to earth for given conditions."
+      },
+      {
+        "title": "Optimum Working Frequency",
+        "content": "Typically 85% of MUF for reliable communication."
+      },
+      {
+        "title": "Day vs Night Frequencies",
+        "content": "Lower frequencies used at night due to reduced ionization."
+      },
+      {
+        "title": "Propagation Summary",
+        "content": "Different frequency bands use specific propagation paths."
+      },
+      {
+        "title": "Super-refraction",
+        "content": "Increased bending of waves extending range beyond normal."
+      },
+      {
+        "title": "Duct Propagation",
+        "content": "Traps waves allowing very long distance transmission."
+      },
+      {
+        "title": "Sub-refraction",
+        "content": "Reduced bending causing decreased radio range."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 3 - Modulation",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Modulation is the process of adding information to a radio wave."
+      },
+      {
+        "title": "Purpose of Modulation",
+        "content": "Used for transmitting audio, data and navigation information."
+      },
+      {
+        "title": "Types of Modulation",
+        "content": "Includes keyed, AM, FM, phase and pulse modulation."
+      },
+      {
+        "title": "Audio Signal Conversion",
+        "content": "Microphones convert sound waves into electrical signals."
+      },
+      {
+        "title": "Keyed Modulation",
+        "content": "Carrier wave is switched on and off to transmit information."
+      },
+      {
+        "title": "Morse Code",
+        "content": "Uses short and long signals for communication."
+      },
+      {
+        "title": "NDB Identification",
+        "content": "Keyed modulation is used for beacon identification."
+      },
+      {
+        "title": "Amplitude Modulation (AM)",
+        "content": "Audio signal changes the amplitude of the carrier wave."
+      },
+      {
+        "title": "AM Principle",
+        "content": "Positive audio increases amplitude, negative decreases amplitude."
+      },
+      {
+        "title": "Heterodyning",
+        "content": "Combining RF and AF produces sum and difference frequencies."
+      },
+      {
+        "title": "Sidebands",
+        "content": "Upper and lower sidebands carry the transmitted information."
+      },
+      {
+        "title": "Bandwidth in AM",
+        "content": "Bandwidth equals twice the audio frequency."
+      },
+      {
+        "title": "Power Distribution",
+        "content": "Only one third of AM signal carries useful information."
+      },
+      {
+        "title": "Single Sideband (SSB)",
+        "content": "Removes carrier and one sideband to improve efficiency."
+      },
+      {
+        "title": "SSB Advantages",
+        "content": "Improves signal quality, reduces power and increases channel capacity."
+      },
+      {
+        "title": "SSB in Aviation",
+        "content": "Used in HF communications for long-range transmission."
+      },
+      {
+        "title": "Frequency Modulation (FM)",
+        "content": "Audio signal changes the frequency of the carrier wave."
+      },
+      {
+        "title": "FM Characteristics",
+        "content": "Amplitude remains constant while frequency varies."
+      },
+      {
+        "title": "Frequency Deviation",
+        "content": "Greater audio amplitude produces greater frequency change."
+      },
+      {
+        "title": "FM Bandwidth",
+        "content": "Requires larger bandwidth compared to AM."
+      },
+      {
+        "title": "Narrow Band FM",
+        "content": "Reduced bandwidth FM not widely used in aviation."
+      },
+      {
+        "title": "Phase Modulation",
+        "content": "Phase of carrier wave is varied according to input signal."
+      },
+      {
+        "title": "Analogue Phase Modulation",
+        "content": "Phase varies based on amplitude of input signal."
+      },
+      {
+        "title": "Digital Phase Modulation",
+        "content": "Phase shift keying represents binary data."
+      },
+      {
+        "title": "Phase Modulation in Navigation",
+        "content": "Used in systems like GPS and MLS."
+      },
+      {
+        "title": "Pulse Modulation",
+        "content": "Information transmitted using pulses of radio waves."
+      },
+      {
+        "title": "Radar Applications",
+        "content": "Pulse modulation widely used in radar systems."
+      },
+      {
+        "title": "Emission Designators",
+        "content": "Standard codes used to describe signal characteristics."
+      },
+      {
+        "title": "Designator Structure",
+        "content": "Three symbols define modulation type, signal type and information."
+      },
+      {
+        "title": "Example A3E",
+        "content": "AM double sideband used for voice communication."
+      },
+      {
+        "title": "Example J3E",
+        "content": "SSB suppressed carrier used in HF communication."
+      },
+      {
+        "title": "Navigation Designators",
+        "content": "Different systems like VOR, ILS and DME use specific designations."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 4 - Antennae",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Antennae radiate and receive radio energy for communication and navigation systems."
+      },
+      {
+        "title": "Antenna Function",
+        "content": "Type of antenna depends on system requirements and frequency."
+      },
+      {
+        "title": "Basic Antenna Types",
+        "content": "Includes half-wave dipole and quarter-wave Marconi antennas."
+      },
+      {
+        "title": "Half-Wave Dipole",
+        "content": "Radiates energy perpendicular to the antenna with feed at the center."
+      },
+      {
+        "title": "Marconi Antenna",
+        "content": "Quarter-wave antenna using aircraft body as ground plane."
+      },
+      {
+        "title": "Aircraft Antennas",
+        "content": "Marconi antennas preferred due to aerodynamic advantages."
+      },
+      {
+        "title": "Antenna Length",
+        "content": "Must match wavelength (half or quarter wavelength) for efficiency."
+      },
+      {
+        "title": "Medium Effect",
+        "content": "Wave speed changes in different media affecting antenna length."
+      },
+      {
+        "title": "Wavelength Formula",
+        "content": "\u03bb = 300 / f (MHz) used for antenna calculations."
+      },
+      {
+        "title": "Aerial Feeders",
+        "content": "Transmit energy between antenna and equipment."
+      },
+      {
+        "title": "Low Frequency Feeders",
+        "content": "Simple wires used for LF and MF with minimal losses."
+      },
+      {
+        "title": "HF and VHF Feeders",
+        "content": "Twin wire feeders used to reduce losses."
+      },
+      {
+        "title": "UHF Feeders",
+        "content": "Coaxial cables required due to higher losses."
+      },
+      {
+        "title": "Waveguides",
+        "content": "Used at very high frequencies to carry energy efficiently."
+      },
+      {
+        "title": "Polar Diagrams",
+        "content": "Graphical representation of radiation pattern."
+      },
+      {
+        "title": "Omnidirectional Pattern",
+        "content": "Dipole radiates equally in all directions perpendicular to antenna."
+      },
+      {
+        "title": "3D Radiation Pattern",
+        "content": "Radiation forms a torus shape around antenna."
+      },
+      {
+        "title": "Directivity",
+        "content": "Ability to focus energy in a specific direction."
+      },
+      {
+        "title": "Reflector Element",
+        "content": "Parasitic element reflects energy to increase forward signal."
+      },
+      {
+        "title": "Directors",
+        "content": "Additional elements focus and strengthen signal."
+      },
+      {
+        "title": "Yagi Antenna",
+        "content": "Combination of reflector and directors for directional gain."
+      },
+      {
+        "title": "Side Lobes",
+        "content": "Unwanted radiation causing interference and signal distortion."
+      },
+      {
+        "title": "ILS Antenna",
+        "content": "Array antennas produce narrow beams for runway alignment."
+      },
+      {
+        "title": "Loop Antenna",
+        "content": "Used in ADF for direction finding."
+      },
+      {
+        "title": "Loop Polar Pattern",
+        "content": "Figure-of-eight pattern with nulls for direction detection."
+      },
+      {
+        "title": "ADF Principle",
+        "content": "Signal nulls used to determine bearing."
+      },
+      {
+        "title": "Radar Antenna",
+        "content": "Uses parabolic reflector to produce narrow beam."
+      },
+      {
+        "title": "Parabolic Reflector",
+        "content": "Converts point source into parallel wavefront."
+      },
+      {
+        "title": "Radar Beam",
+        "content": "Produces focused directional signal with some divergence."
+      },
+      {
+        "title": "Radar Side Lobes",
+        "content": "Unwanted energy causing false targets."
+      },
+      {
+        "title": "Flat Plate Antenna",
+        "content": "Modern radar antenna with multiple slots."
+      },
+      {
+        "title": "Phased Array",
+        "content": "Combines multiple signals to form precise beam."
+      },
+      {
+        "title": "Phased Array Advantages",
+        "content": "Narrow beam, reduced side lobes and improved efficiency."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 5 - Doppler Radar Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Doppler systems measure aircraft ground speed and drift using frequency shift."
+      },
+      {
+        "title": "Doppler Applications",
+        "content": "Used in navigation, radar, VOR and speed measurement systems."
+      },
+      {
+        "title": "Modern Systems",
+        "content": "Combined with IRS, GPS and VOR/DME for improved accuracy."
+      },
+      {
+        "title": "Doppler Principle",
+        "content": "Frequency changes due to relative motion between transmitter and receiver."
+      },
+      {
+        "title": "No Relative Motion",
+        "content": "Received frequency equals transmitted frequency."
+      },
+      {
+        "title": "Approaching Motion",
+        "content": "Frequency increases when moving towards the source."
+      },
+      {
+        "title": "Receding Motion",
+        "content": "Frequency decreases when moving away from the source."
+      },
+      {
+        "title": "Doppler Shift",
+        "content": "Difference between transmitted and received frequency."
+      },
+      {
+        "title": "Doppler Proportionality",
+        "content": "Frequency shift is proportional to relative speed."
+      },
+      {
+        "title": "Airborne Doppler System",
+        "content": "Uses radar beams directed towards the ground."
+      },
+      {
+        "title": "Shared Antenna",
+        "content": "Single antenna used for both transmission and reception."
+      },
+      {
+        "title": "Janus Array",
+        "content": "Multi-beam configuration with forward and aft beams."
+      },
+      {
+        "title": "Four Beam System",
+        "content": "Two beams forward and two aft for accurate measurements."
+      },
+      {
+        "title": "Beam Configuration",
+        "content": "Different beam arrangements used for navigation accuracy."
+      },
+      {
+        "title": "Ground Speed Measurement",
+        "content": "Based on frequency shift magnitude from forward and aft beams."
+      },
+      {
+        "title": "Zero Drift Condition",
+        "content": "Forward and aft frequency shifts are equal and opposite."
+      },
+      {
+        "title": "Drift Detection",
+        "content": "Difference between left and right beam frequencies indicates drift."
+      },
+      {
+        "title": "Drift Direction",
+        "content": "Frequency imbalance shows left or right drift."
+      },
+      {
+        "title": "Electronic Processing",
+        "content": "Modern systems calculate drift and speed automatically."
+      },
+      {
+        "title": "Mechanical Systems",
+        "content": "Older systems used rotating antennas to align with track."
+      },
+      {
+        "title": "Track Alignment",
+        "content": "Antenna adjusts until port and starboard signals equalize."
+      },
+      {
+        "title": "Heading vs Track",
+        "content": "Difference between aircraft heading and track gives drift."
+      },
+      {
+        "title": "Navigation Integration",
+        "content": "Doppler data combined with heading for position calculation."
+      },
+      {
+        "title": "Position Calculation",
+        "content": "Uses ground speed, drift and heading to determine location."
+      },
+      {
+        "title": "Navigation Output",
+        "content": "Displays position as latitude/longitude or track distances."
+      },
+      {
+        "title": "Advantages",
+        "content": "Provides continuous speed and drift information."
+      },
+      {
+        "title": "Limitations",
+        "content": "Accuracy affected over water and without reference inputs."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 6 - VHF Direction Finder (VDF)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "VDF provides pilots with bearing information to a ground station."
+      },
+      {
+        "title": "Purpose of VDF",
+        "content": "Used for homing or fixing position using bearings."
+      },
+      {
+        "title": "Usage",
+        "content": "Rarely used due to more advanced navigation systems."
+      },
+      {
+        "title": "Frequency Range",
+        "content": "Operates on VHF communication frequencies 118.0 to 137 MHz."
+      },
+      {
+        "title": "Distress Frequency",
+        "content": "Auto-triangulation available on 121.5 MHz."
+      },
+      {
+        "title": "Military Use",
+        "content": "UHF direction finding mainly used by military."
+      },
+      {
+        "title": "Availability",
+        "content": "VDF stations listed in AIP and may have usage limitations."
+      },
+      {
+        "title": "Service Conditions",
+        "content": "Bearings provided only when conditions are satisfactory."
+      },
+      {
+        "title": "Pilot Request",
+        "content": "Pilot requests bearing using Q-codes like QDM."
+      },
+      {
+        "title": "QDR",
+        "content": "Magnetic bearing from station (radial)."
+      },
+      {
+        "title": "QDM",
+        "content": "Magnetic heading to fly to reach station."
+      },
+      {
+        "title": "QTE",
+        "content": "True bearing from the station."
+      },
+      {
+        "title": "QUJ",
+        "content": "True track to the station."
+      },
+      {
+        "title": "Reciprocal Bearings",
+        "content": "QDM is reciprocal of QDR, QUJ is reciprocal of QTE."
+      },
+      {
+        "title": "Response Format",
+        "content": "Includes bearing, class of accuracy and time if required."
+      },
+      {
+        "title": "Accuracy Classes",
+        "content": "Class A \u00b12\u00b0, Class B \u00b15\u00b0, Class C \u00b110\u00b0, Class D less accurate."
+      },
+      {
+        "title": "Typical Accuracy",
+        "content": "Most bearings are Class B accuracy."
+      },
+      {
+        "title": "Doppler VDF",
+        "content": "Modern systems achieve accuracy up to \u00b10.5\u00b0."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "Uses VHF transmission received by ground antenna array."
+      },
+      {
+        "title": "Polarization",
+        "content": "Uses vertically polarized signals."
+      },
+      {
+        "title": "Antenna Array",
+        "content": "Circular array of vertical antennas determines direction."
+      },
+      {
+        "title": "Bearing Calculation",
+        "content": "System processes signals from multiple elements to determine bearing."
+      },
+      {
+        "title": "Display",
+        "content": "Bearing shown relative to true or magnetic north."
+      },
+      {
+        "title": "Range",
+        "content": "Limited to line-of-sight propagation."
+      },
+      {
+        "title": "Range Factors",
+        "content": "Affected by altitude, terrain and transmitter power."
+      },
+      {
+        "title": "Extended Range",
+        "content": "Atmospheric conditions may increase range beyond line of sight."
+      },
+      {
+        "title": "Propagation Error",
+        "content": "Reflections from terrain and buildings cause inaccuracies."
+      },
+      {
+        "title": "Aircraft Attitude",
+        "content": "Best accuracy when aircraft is level due to polarization."
+      },
+      {
+        "title": "Overhead Error",
+        "content": "Accuracy reduces when aircraft is directly above station."
+      },
+      {
+        "title": "Multipath Effect",
+        "content": "Signal reflections cause fading and bearing errors."
+      },
+      {
+        "title": "Interference",
+        "content": "Simultaneous transmissions can cause errors."
+      },
+      {
+        "title": "Position Fixing",
+        "content": "Multiple bearings used to determine aircraft position."
+      },
+      {
+        "title": "Auto-Triangulation",
+        "content": "System automatically calculates position using multiple stations."
+      },
+      {
+        "title": "Limitations",
+        "content": "Availability and accuracy depend on station coverage and conditions."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 7 - Automatic Direction Finder (ADF)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "ADF works with NDB to provide bearing information for navigation and approaches."
+      },
+      {
+        "title": "ADF Usage",
+        "content": "Used for homing, en-route navigation and non-precision approaches."
+      },
+      {
+        "title": "Non-Directional Beacon (NDB)",
+        "content": "Ground transmitter radiating signals in all directions in LF/MF bands."
+      },
+      {
+        "title": "ADF Function",
+        "content": "Indicates direction of NDB relative to aircraft."
+      },
+      {
+        "title": "Cone of Silence",
+        "content": "No signal received when directly overhead the NDB."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "Uses loop antenna to detect signal direction based on phase difference."
+      },
+      {
+        "title": "Loop Antenna",
+        "content": "Produces figure-of-eight pattern with two null points."
+      },
+      {
+        "title": "Ambiguity Problem",
+        "content": "Two nulls create uncertainty in direction."
+      },
+      {
+        "title": "Sense Antenna",
+        "content": "Omnidirectional antenna removes ambiguity."
+      },
+      {
+        "title": "Cardioid Pattern",
+        "content": "Combination of loop and sense antenna produces single null."
+      },
+      {
+        "title": "Switched Cardioid",
+        "content": "Rapid switching improves bearing accuracy."
+      },
+      {
+        "title": "Goniometer",
+        "content": "Simulates rotating loop electrically in modern systems."
+      },
+      {
+        "title": "ADF Frequencies",
+        "content": "Operates between 190 and 1750 kHz (LF/MF bands)."
+      },
+      {
+        "title": "Types of NDB",
+        "content": "Locator (short range) and en-route (long range) beacons."
+      },
+      {
+        "title": "Aircraft Equipment",
+        "content": "Includes loop antenna, sense antenna, receiver, control unit and display."
+      },
+      {
+        "title": "Emission Types",
+        "content": "N0NA1A and N0NA2A transmissions."
+      },
+      {
+        "title": "BFO",
+        "content": "Used to detect unmodulated signals for identification."
+      },
+      {
+        "title": "ADF Displays",
+        "content": "Information shown on RBI or RMI."
+      },
+      {
+        "title": "Relative Bearing",
+        "content": "Angle between aircraft heading and beacon direction."
+      },
+      {
+        "title": "RBI",
+        "content": "Fixed compass card showing relative bearing only."
+      },
+      {
+        "title": "RMI",
+        "content": "Rotating compass card showing magnetic bearing."
+      },
+      {
+        "title": "QDM and QDR",
+        "content": "Needle head gives QDM, tail gives QDR."
+      },
+      {
+        "title": "Uses of ADF",
+        "content": "Includes homing, tracking, holding and instrument approaches."
+      },
+      {
+        "title": "Homing",
+        "content": "Aircraft follows needle directly to beacon."
+      },
+      {
+        "title": "Tracking",
+        "content": "Maintains desired track with drift correction."
+      },
+      {
+        "title": "Inbound Tracking",
+        "content": "Heading adjusted to maintain constant track to beacon."
+      },
+      {
+        "title": "Outbound Tracking",
+        "content": "Heading adjusted to maintain track away from beacon."
+      },
+      {
+        "title": "Drift Correction",
+        "content": "Wind effect compensated by adjusting heading."
+      },
+      {
+        "title": "Holding",
+        "content": "Aircraft flies racetrack pattern over beacon."
+      },
+      {
+        "title": "Instrument Approaches",
+        "content": "Used for non-precision runway approaches."
+      },
+      {
+        "title": "ADF Accuracy",
+        "content": "\u00b15\u00b0 during daytime within coverage area."
+      },
+      {
+        "title": "Static Interference",
+        "content": "Caused by precipitation and thunderstorms."
+      },
+      {
+        "title": "Night Effect",
+        "content": "Sky wave interference affects accuracy at night."
+      },
+      {
+        "title": "Station Interference",
+        "content": "Signals from other stations cause errors."
+      },
+      {
+        "title": "Mountain Effect",
+        "content": "Terrain reflections distort signals."
+      },
+      {
+        "title": "Coastal Refraction",
+        "content": "Signal bends when crossing land-sea boundary."
+      },
+      {
+        "title": "Quadrantal Error",
+        "content": "Aircraft structure distorts signal reception."
+      },
+      {
+        "title": "Dip Error",
+        "content": "Bank angle causes bearing inaccuracies."
+      },
+      {
+        "title": "Failure Limitations",
+        "content": "Lack of warning system requires constant monitoring."
+      },
+      {
+        "title": "Range Factors",
+        "content": "Depends on power, frequency, terrain and weather."
+      },
+      {
+        "title": "ADF Summary",
+        "content": "Provides bearing using NDB but affected by multiple errors."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 8 - VHF Omni-directional Range (VOR)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "VOR is a short-range navigation aid that provides magnetic bearing (radial) from the station."
+      },
+      {
+        "title": "Frequency Range",
+        "content": "Operates in the VHF band between 108.0 and 117.95 MHz."
+      },
+      {
+        "title": "Uses of VOR",
+        "content": "Used for airway navigation, holding, approaches, and position fixing."
+      },
+      {
+        "title": "Rho-Theta Navigation",
+        "content": "When combined with DME, VOR provides both bearing (theta) and distance (rho)."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "Based on phase comparison between two 30 Hz signals."
+      },
+      {
+        "title": "Reference Signal",
+        "content": "Omni-directional FM signal with constant phase."
+      },
+      {
+        "title": "Variable Signal",
+        "content": "Directional AM signal with rotating phase (lima\u00e7on pattern)."
+      },
+      {
+        "title": "Phase Difference",
+        "content": "Measured phase difference corresponds to magnetic bearing from the station."
+      },
+      {
+        "title": "Radial",
+        "content": "A radial is the magnetic bearing FROM the VOR (QDR)."
+      },
+      {
+        "title": "Transmission Characteristics",
+        "content": "Composite AM signal (A9W) including navigation and voice/ATIS."
+      },
+      {
+        "title": "Identification",
+        "content": "3-letter Morse code or voice ident transmitted regularly."
+      },
+      {
+        "title": "Monitoring",
+        "content": "Automatic monitoring ensures accuracy within \u00b11\u00b0 and removes faulty signals."
+      },
+      {
+        "title": "Types of VOR",
+        "content": "Includes CVOR, DVOR, TVOR, BVOR, VOT and VORTAC."
+      },
+      {
+        "title": "Doppler VOR (DVOR)",
+        "content": "Improves accuracy by reducing site error using Doppler principle."
+      },
+      {
+        "title": "Operational Range",
+        "content": "Depends on transmitter power and line-of-sight propagation."
+      },
+      {
+        "title": "Range Formula",
+        "content": "Maximum range = 1.23 \u00d7 (\u221ah1 + \u221ah2) where heights are in feet."
+      },
+      {
+        "title": "Designated Operational Coverage (DOC)",
+        "content": "Defines protected range and altitude to avoid interference."
+      },
+      {
+        "title": "Accuracy",
+        "content": "Total system accuracy is approximately \u00b15\u00b0."
+      },
+      {
+        "title": "Errors",
+        "content": "Includes site error, propagation error (scalloping), and airborne equipment error."
+      },
+      {
+        "title": "Cone of Confusion",
+        "content": "Unstable indications when directly overhead the VOR."
+      },
+      {
+        "title": "Airborne Equipment",
+        "content": "Consists of antenna, receiver and display system."
+      },
+      {
+        "title": "CDI (Course Deviation Indicator)",
+        "content": "Displays deviation from selected radial using deviation bar."
+      },
+      {
+        "title": "OBS (Omni Bearing Selector)",
+        "content": "Used to select desired course or radial."
+      },
+      {
+        "title": "Deviation Indication",
+        "content": "1 dot equals 2\u00b0 deviation; full scale deflection equals 10\u00b0."
+      },
+      {
+        "title": "TO/FROM Indicator",
+        "content": "Indicates whether selected course leads to or from the station."
+      },
+      {
+        "title": "CDI Rule",
+        "content": "Select inbound course with TO indication and outbound course with FROM indication."
+      },
+      {
+        "title": "RMI (Radio Magnetic Indicator)",
+        "content": "Displays bearing directly to station."
+      },
+      {
+        "title": "RMI Indications",
+        "content": "Arrowhead shows QDM (to station), tail shows QDR (radial)."
+      },
+      {
+        "title": "HSI (Horizontal Situation Indicator)",
+        "content": "Combines heading and CDI for intuitive navigation display."
+      },
+      {
+        "title": "Radial Interception",
+        "content": "Achieved by intercept angle and drift correction."
+      },
+      {
+        "title": "Track Keeping",
+        "content": "Maintaining selected radial using CDI corrections."
+      },
+      {
+        "title": "Station Passage",
+        "content": "Needle fluctuations and TO/FROM reversal occur overhead."
+      },
+      {
+        "title": "Outbound Tracking",
+        "content": "Maintaining radial away from station."
+      },
+      {
+        "title": "Approach Procedures",
+        "content": "Used in VOR and VOR/DME instrument approaches."
+      },
+      {
+        "title": "Summary",
+        "content": "VOR provides reliable magnetic bearing information, largely unaffected by weather."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 9 - Instrument Landing System (ILS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "ILS is a precision approach system providing both lateral and vertical guidance for landing."
+      },
+      {
+        "title": "Purpose of ILS",
+        "content": "Guides aircraft along runway centreline and glide path to decision height."
+      },
+      {
+        "title": "Main Components",
+        "content": "Localizer, glide path and marker beacons form the ground system."
+      },
+      {
+        "title": "Localizer (LLZ)",
+        "content": "Provides lateral guidance along runway centreline using VHF signals."
+      },
+      {
+        "title": "Glide Path (GP)",
+        "content": "Provides vertical guidance along a fixed descent angle using UHF signals."
+      },
+      {
+        "title": "Marker Beacons",
+        "content": "Provide distance checkpoints using 75 MHz signals (OM, MM, IM)."
+      },
+      {
+        "title": "Back Course",
+        "content": "Reverse localizer signal used for non-precision approaches in some regions."
+      },
+      {
+        "title": "Locator and DME",
+        "content": "Locator NDB or DME may supplement or replace marker beacons."
+      },
+      {
+        "title": "Localizer Frequency",
+        "content": "Operates between 108 and 111.975 MHz."
+      },
+      {
+        "title": "Glide Path Frequency",
+        "content": "Operates between 329.15 and 335 MHz."
+      },
+      {
+        "title": "Frequency Pairing",
+        "content": "Localizer and glide path frequencies are paired for automatic selection."
+      },
+      {
+        "title": "ILS Identification",
+        "content": "2 or 3 letter Morse code, usually starting with 'I'."
+      },
+      {
+        "title": "Marker Beacon Identification",
+        "content": "OM (blue), MM (amber), IM (white) with distinct tones and patterns."
+      },
+      {
+        "title": "Ground Monitoring",
+        "content": "System automatically monitors signal accuracy and shuts down if limits exceeded."
+      },
+      {
+        "title": "Localizer Coverage",
+        "content": "Up to 25 NM within \u00b110\u00b0 and reduced coverage beyond."
+      },
+      {
+        "title": "Glide Path Coverage",
+        "content": "Up to 10 NM with vertical coverage between 0.45\u03b8 and 1.75\u03b8."
+      },
+      {
+        "title": "Localizer Principle",
+        "content": "Uses 90 Hz and 150 Hz modulated overlapping lobes for lateral guidance."
+      },
+      {
+        "title": "DDM (Difference in Depth of Modulation)",
+        "content": "Difference between 90 Hz and 150 Hz signals determines deviation."
+      },
+      {
+        "title": "Localizer Indication",
+        "content": "Balanced signals indicate centreline; imbalance gives left/right correction."
+      },
+      {
+        "title": "Glide Path Principle",
+        "content": "Uses vertical lobes with 90 Hz (above) and 150 Hz (below)."
+      },
+      {
+        "title": "Glide Path Indication",
+        "content": "Balanced signals indicate correct descent path."
+      },
+      {
+        "title": "False Glide Slope",
+        "content": "False signals occur above true glide path due to reflections."
+      },
+      {
+        "title": "Cone of Confusion",
+        "content": "Unstable signals near runway threshold or overhead transmitters."
+      },
+      {
+        "title": "ILS Reference Datum",
+        "content": "Point where glide path crosses runway threshold (~50 ft height)."
+      },
+      {
+        "title": "Visual Glide Aids",
+        "content": "PAPI/VASI provide visual confirmation of glide path."
+      },
+      {
+        "title": "ILS Displays",
+        "content": "Displayed on CDI or HSI with lateral and vertical needles."
+      },
+      {
+        "title": "Localizer Sensitivity",
+        "content": "0.5\u00b0 per dot, full scale 2.5\u00b0."
+      },
+      {
+        "title": "Glide Path Sensitivity",
+        "content": "0.14\u00b0 per dot, full scale 0.7\u00b0."
+      },
+      {
+        "title": "Approach Limits",
+        "content": "Exceeding half-scale deflection requires go-around."
+      },
+      {
+        "title": "ILS Categories",
+        "content": "Cat I, II, III define landing capability based on DH and RVR."
+      },
+      {
+        "title": "Category I",
+        "content": "DH \u2265 200 ft, RVR \u2265 550 m."
+      },
+      {
+        "title": "Category II",
+        "content": "DH \u2265 100 ft, RVR \u2265 300 m."
+      },
+      {
+        "title": "Category III",
+        "content": "Very low or zero DH with reduced RVR requirements."
+      },
+      {
+        "title": "Errors",
+        "content": "Includes beam bends, scalloping and signal noise."
+      },
+      {
+        "title": "Multipath Interference",
+        "content": "Reflections from terrain or objects distort signals."
+      },
+      {
+        "title": "Critical Area",
+        "content": "Protected area near antennas to avoid interference."
+      },
+      {
+        "title": "Sensitive Area",
+        "content": "Extended protection area during low visibility operations."
+      },
+      {
+        "title": "Weather Effects",
+        "content": "Rain and snow reduce signal strength and accuracy."
+      },
+      {
+        "title": "FM Interference",
+        "content": "Nearby FM transmissions may affect ILS signals."
+      },
+      {
+        "title": "Approach Segments",
+        "content": "Initial, intermediate and final approach phases."
+      },
+      {
+        "title": "Decision Height (DH)",
+        "content": "Altitude where pilot decides to land or go around."
+      },
+      {
+        "title": "ILS Calculations",
+        "content": "1:60 rule used for height and rate of descent estimation."
+      },
+      {
+        "title": "Rate of Descent Rule",
+        "content": "For 3\u00b0 glide path, ROD \u2248 5 \u00d7 ground speed."
+      },
+      {
+        "title": "Summary",
+        "content": "ILS provides precise and reliable landing guidance using radio signals."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 10 - Microwave Landing System (MLS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "MLS is an advanced precision approach system designed to replace ILS with improved flexibility and performance."
+      },
+      {
+        "title": "Purpose of MLS",
+        "content": "Provides azimuth, elevation and range information for precise aircraft positioning during approach and landing."
+      },
+      {
+        "title": "ILS Limitations",
+        "content": "Limited channels, fixed beams, terrain restrictions and susceptibility to interference."
+      },
+      {
+        "title": "MLS Channel Capacity",
+        "content": "Provides around 200 channels compared to ILS limitations."
+      },
+      {
+        "title": "Coverage",
+        "content": "Azimuth coverage \u00b140\u00b0 and range up to 20\u201330 NM."
+      },
+      {
+        "title": "Glide Slope Flexibility",
+        "content": "Selectable glide slopes from 0.9\u00b0 to 20\u00b0."
+      },
+      {
+        "title": "Back Azimuth",
+        "content": "Provides guidance for go-around and departure."
+      },
+      {
+        "title": "Operating Frequency",
+        "content": "Operates in SHF band between 5031 and 5090.7 MHz."
+      },
+      {
+        "title": "Terrain Advantage",
+        "content": "Can be installed in hilly terrain without performance degradation."
+      },
+      {
+        "title": "Interference Resistance",
+        "content": "Less affected by reflections from buildings, vehicles and terrain."
+      },
+      {
+        "title": "Flexible Approaches",
+        "content": "Allows curved and segmented approaches improving traffic flow."
+      },
+      {
+        "title": "Built-in DME",
+        "content": "Provides range information without separate marker beacons."
+      },
+      {
+        "title": "Compatibility",
+        "content": "Works with existing ILS displays, autopilot and EFIS systems."
+      },
+      {
+        "title": "Automatic Landing Capability",
+        "content": "Supports CAT III automatic landing operations."
+      },
+      {
+        "title": "Identification",
+        "content": "Uses prefix 'M' followed by two letters."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "Based on Time Division Multiplexing (TDM) using scanning beams."
+      },
+      {
+        "title": "Azimuth Measurement",
+        "content": "Determined by time difference between 'to' and 'fro' scanning beams."
+      },
+      {
+        "title": "Elevation Measurement",
+        "content": "Determined by time difference between upward and downward scans."
+      },
+      {
+        "title": "Time Referenced Scanning Beam (TRSB)",
+        "content": "Scanning beams used to calculate angular position of aircraft."
+      },
+      {
+        "title": "Range Measurement",
+        "content": "Provided using integrated DME or precision DME (DME/P)."
+      },
+      {
+        "title": "Auxiliary Data",
+        "content": "Includes station identification, system status, weather and runway conditions."
+      },
+      {
+        "title": "Flare Guidance",
+        "content": "Provision exists but not widely implemented."
+      },
+      {
+        "title": "Back Azimuth Guidance",
+        "content": "Provides departure and missed approach guidance."
+      },
+      {
+        "title": "Display",
+        "content": "Uses cross-pointer display similar to ILS but relative to selected path."
+      },
+      {
+        "title": "Curved Approaches",
+        "content": "Supports non-linear approach paths unlike ILS."
+      },
+      {
+        "title": "Control Unit",
+        "content": "Multi-mode control unit allows selection of MLS, ILS or GPS."
+      },
+      {
+        "title": "Precision DME (DME/P)",
+        "content": "Required for high-accuracy CAT II/III approaches."
+      },
+      {
+        "title": "Advantages of MLS",
+        "content": "Greater flexibility, wider coverage, reduced interference and higher efficiency."
+      },
+      {
+        "title": "Limitations",
+        "content": "Limited global adoption and coexistence with ILS."
+      },
+      {
+        "title": "Summary",
+        "content": "MLS is a modern precision landing system offering flexible and accurate approach guidance."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 11 - Radar Principles",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Radar (Radio Detection And Ranging) detects objects and measures their distance using radio waves."
+      },
+      {
+        "title": "Basic Principle",
+        "content": "Radar transmits electromagnetic energy and detects the reflected signal (echo)."
+      },
+      {
+        "title": "Continuous Wave Radar",
+        "content": "Uses continuous signals and has no minimum range limitation."
+      },
+      {
+        "title": "Pulsed Radar",
+        "content": "Uses short bursts of radio energy to measure distance."
+      },
+      {
+        "title": "Primary Radar",
+        "content": "Detects targets using reflected radio waves on the same frequency."
+      },
+      {
+        "title": "Secondary Radar",
+        "content": "Uses interrogation and transponder system with different transmit and receive frequencies."
+      },
+      {
+        "title": "Radar Applications",
+        "content": "Used in ATC, navigation, weather detection and aircraft tracking."
+      },
+      {
+        "title": "Air Traffic Control Use",
+        "content": "Monitoring aircraft, separation, vectoring and approach guidance."
+      },
+      {
+        "title": "Weather Radar",
+        "content": "Detects precipitation, turbulence and cloud structures."
+      },
+      {
+        "title": "Radar Frequencies",
+        "content": "Operates in VHF and above for better resolution and reduced interference."
+      },
+      {
+        "title": "Pulse Technique",
+        "content": "Radar transmits pulses separated by time intervals."
+      },
+      {
+        "title": "Pulse Width",
+        "content": "Duration of a pulse determining minimum range and resolution."
+      },
+      {
+        "title": "Pulse Recurrence Interval (PRI)",
+        "content": "Time between successive pulses."
+      },
+      {
+        "title": "Pulse Recurrence Frequency (PRF)",
+        "content": "Number of pulses transmitted per second."
+      },
+      {
+        "title": "Range Measurement",
+        "content": "Distance calculated using time taken for echo to return."
+      },
+      {
+        "title": "Radar Mile",
+        "content": "One nautical mile corresponds to 12.36 microseconds round-trip time."
+      },
+      {
+        "title": "Maximum Range",
+        "content": "Determined by PRF; lower PRF allows longer range."
+      },
+      {
+        "title": "Practical Range",
+        "content": "Reduced by dead time (fly-back period)."
+      },
+      {
+        "title": "Minimum Range",
+        "content": "Determined by pulse width and receiver recovery time."
+      },
+      {
+        "title": "Echo Principle",
+        "content": "Radar measures distance by timing transmitted and received signals."
+      },
+      {
+        "title": "Line of Sight",
+        "content": "Radar range depends on transmitter and target height."
+      },
+      {
+        "title": "Range Formula",
+        "content": "Range = 1.23 \u00d7 (\u221aHTX + \u221aHRX)."
+      },
+      {
+        "title": "Factors Affecting Range",
+        "content": "Includes power, target characteristics, height and atmospheric conditions."
+      },
+      {
+        "title": "Atmospheric Effects",
+        "content": "Super-refraction increases range; sub-refraction reduces range."
+      },
+      {
+        "title": "Rain Attenuation",
+        "content": "Shorter wavelengths are more affected by rain."
+      },
+      {
+        "title": "Primary Radar Operation",
+        "content": "Uses single antenna for transmission and reception."
+      },
+      {
+        "title": "PPI Display",
+        "content": "Plan Position Indicator shows radar returns in polar format."
+      },
+      {
+        "title": "Bearing Measurement",
+        "content": "Determined by direction of rotating radar beam."
+      },
+      {
+        "title": "Harmonization",
+        "content": "Synchronization of radar parameters for accurate operation."
+      },
+      {
+        "title": "Radar Resolution",
+        "content": "Ability to distinguish between two close targets."
+      },
+      {
+        "title": "Radial Resolution",
+        "content": "Depends on pulse length."
+      },
+      {
+        "title": "Azimuth Resolution",
+        "content": "Depends on beamwidth."
+      },
+      {
+        "title": "Moving Target Indication (MTI)",
+        "content": "Filters out stationary objects to show moving targets."
+      },
+      {
+        "title": "Second Trace Returns",
+        "content": "False echoes caused by previous pulses."
+      },
+      {
+        "title": "PRF Jittering",
+        "content": "Technique to eliminate false returns."
+      },
+      {
+        "title": "Radar Antennas",
+        "content": "Includes parabolic reflector, horn and planar array."
+      },
+      {
+        "title": "Beamwidth",
+        "content": "Narrow beams improve accuracy and resolution."
+      },
+      {
+        "title": "Side Lobes",
+        "content": "Unwanted radiation reduced using suppression techniques."
+      },
+      {
+        "title": "Summary",
+        "content": "Radar determines range and bearing using reflected radio waves."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 12 - Ground Radar",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Ground radar is used by ATC for aircraft detection, monitoring and control using primary and secondary radar."
+      },
+      {
+        "title": "Types of Services",
+        "content": "ATC radar provides information, surveillance and guidance services."
+      },
+      {
+        "title": "Primary Radar Use",
+        "content": "Detects aircraft without transponders using reflected signals."
+      },
+      {
+        "title": "Secondary Radar Use",
+        "content": "Provides additional aircraft information using transponders."
+      },
+      {
+        "title": "Ground Radar Types",
+        "content": "Includes ASR, TAR, Aerodrome Radar, PAR and ASMR."
+      },
+      {
+        "title": "Area Surveillance Radar (ASR)",
+        "content": "Long-range radar used for en-route airway surveillance."
+      },
+      {
+        "title": "ASR Range",
+        "content": "Typically covers 200 to 300 nautical miles."
+      },
+      {
+        "title": "ASR Characteristics",
+        "content": "Uses long wavelengths and pulse widths for better long-range detection."
+      },
+      {
+        "title": "ASR PRF and Scan Rate",
+        "content": "Low PRF (300\u2013400 pps) and slow antenna rotation (5\u20136 rpm)."
+      },
+      {
+        "title": "Terminal Area Radar (TAR)",
+        "content": "Medium-range radar used for traffic control in terminal areas."
+      },
+      {
+        "title": "TAR Range",
+        "content": "Typically up to 75 nautical miles."
+      },
+      {
+        "title": "TAR Characteristics",
+        "content": "Uses moderate wavelengths and pulse widths."
+      },
+      {
+        "title": "Aerodrome Surveillance Radar",
+        "content": "Short-range radar used near airports."
+      },
+      {
+        "title": "Aerodrome Radar Range",
+        "content": "Typically up to 25 nautical miles."
+      },
+      {
+        "title": "Approach Radar Functions",
+        "content": "Provides vectoring, positional information and surveillance approaches."
+      },
+      {
+        "title": "Precision Approach Radar (PAR)",
+        "content": "Provides highly accurate guidance for landing."
+      },
+      {
+        "title": "Airport Surface Movement Radar (ASMR)",
+        "content": "Used for monitoring aircraft and vehicles on the ground."
+      },
+      {
+        "title": "ASMR Purpose",
+        "content": "Ensures safe movement on runways and taxiways in low visibility."
+      },
+      {
+        "title": "ASMR Range",
+        "content": "Typically 2.5 to 6 nautical miles."
+      },
+      {
+        "title": "ASMR Beamwidth",
+        "content": "Very narrow beam (0.2\u00b0 to 1\u00b0) for high resolution."
+      },
+      {
+        "title": "ASMR Rotation Rate",
+        "content": "High rotation speed around 60 rpm."
+      },
+      {
+        "title": "ASMR PRF",
+        "content": "High PRF (4000 to 20000 pps) for detailed display."
+      },
+      {
+        "title": "ASMR Pulse Width",
+        "content": "Very short pulse width (~0.03 \u00b5s) for high resolution."
+      },
+      {
+        "title": "ASMR Frequency",
+        "content": "Operates in SHF band (15\u201317 GHz)."
+      },
+      {
+        "title": "Weather Effects",
+        "content": "High frequency signals are affected by precipitation."
+      },
+      {
+        "title": "Radar Resolution Requirement",
+        "content": "High resolution needed to distinguish aircraft and vehicles on ground."
+      },
+      {
+        "title": "Radar Processing",
+        "content": "Removes fixed objects to highlight moving targets."
+      },
+      {
+        "title": "Summary",
+        "content": "Ground radar systems provide surveillance and guidance at different ranges for safe ATC operations."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 13 - Airborne Weather Radar (AWR)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "AWR provides pilots with weather and terrain information ahead of the aircraft."
+      },
+      {
+        "title": "Purpose",
+        "content": "Used for weather avoidance, turbulence detection and navigation."
+      },
+      {
+        "title": "Display",
+        "content": "Shows range and bearing of targets relative to aircraft heading."
+      },
+      {
+        "title": "Colour Coding",
+        "content": "Green (light), yellow (moderate), red (heavy), magenta (turbulence)."
+      },
+      {
+        "title": "Components",
+        "content": "Includes transmitter/receiver, antenna, indicator and control unit."
+      },
+      {
+        "title": "Antenna Stabilization",
+        "content": "Antenna is stabilized in pitch and roll for accurate display."
+      },
+      {
+        "title": "Main Functions",
+        "content": "Detect turbulence, measure cloud height, map terrain and provide navigation fixes."
+      },
+      {
+        "title": "Radar Type",
+        "content": "AWR is a primary radar using the echo principle."
+      },
+      {
+        "title": "Echo Principle",
+        "content": "Measures distance using reflected signals."
+      },
+      {
+        "title": "Searchlight Principle",
+        "content": "Determines bearing using directional beam scanning."
+      },
+      {
+        "title": "Slant Range",
+        "content": "Displayed range is slant distance, not ground distance."
+      },
+      {
+        "title": "Antenna Location",
+        "content": "Mounted in aircraft nose for forward scanning."
+      },
+      {
+        "title": "Beam Types",
+        "content": "Pencil beam for weather, fan beam for mapping."
+      },
+      {
+        "title": "Beamwidth",
+        "content": "Typically 3\u00b0 to 5\u00b0 for weather detection."
+      },
+      {
+        "title": "Beam Tilt",
+        "content": "Adjustable to scan above or below horizon."
+      },
+      {
+        "title": "Radar Frequency",
+        "content": "Operates around 9375 MHz (\u22483 cm wavelength)."
+      },
+      {
+        "title": "Frequency Selection",
+        "content": "Chosen to detect large water droplets associated with turbulence."
+      },
+      {
+        "title": "Radome Effects",
+        "content": "Water or ice reduces radar performance."
+      },
+      {
+        "title": "Weather Detection",
+        "content": "Detects precipitation intensity indicating turbulence."
+      },
+      {
+        "title": "Rainfall Gradient",
+        "content": "Steeper gradient indicates higher turbulence risk."
+      },
+      {
+        "title": "Turbulence Indicators",
+        "content": "Includes U-shapes, hooks, fingers and scalloped edges."
+      },
+      {
+        "title": "Control Unit",
+        "content": "Allows adjustment of power, range, tilt and mode."
+      },
+      {
+        "title": "Range Selection",
+        "content": "Typical ranges include 20, 50 and 150 NM."
+      },
+      {
+        "title": "Tilt Control",
+        "content": "Adjusts vertical angle of radar beam."
+      },
+      {
+        "title": "Modes",
+        "content": "Includes MAP, MANUAL, WEATHER and CONTOUR."
+      },
+      {
+        "title": "MAP Mode",
+        "content": "Used for terrain mapping with fan-shaped beam."
+      },
+      {
+        "title": "MAN Mode",
+        "content": "Manual gain control for mapping and weather."
+      },
+      {
+        "title": "WEA Mode",
+        "content": "Automatic gain control for weather detection."
+      },
+      {
+        "title": "CONT Mode",
+        "content": "Highlights intense precipitation and turbulence."
+      },
+      {
+        "title": "Automatic Gain Control",
+        "content": "Maintains consistent display intensity regardless of range."
+      },
+      {
+        "title": "Mapping Operation",
+        "content": "Uses downward tilt and fan beam for terrain depiction."
+      },
+      {
+        "title": "Ground Returns",
+        "content": "Strong returns from cities, weak from water and sand."
+      },
+      {
+        "title": "Radar Shadow",
+        "content": "Areas behind obstacles where radar cannot detect returns."
+      },
+      {
+        "title": "Pre-flight Safety",
+        "content": "Radar should not be used near personnel due to radiation hazard."
+      },
+      {
+        "title": "Weather Operation",
+        "content": "Used to avoid thunderstorms and severe turbulence."
+      },
+      {
+        "title": "Shadow Area Risk",
+        "content": "Hidden weather may exist behind heavy rain."
+      },
+      {
+        "title": "Cloud Height Measurement",
+        "content": "Estimated by adjusting tilt and using 1:60 rule."
+      },
+      {
+        "title": "Height Ring",
+        "content": "Indicates aircraft height when no weather present."
+      },
+      {
+        "title": "Colour Radar Controls",
+        "content": "Includes WX, WX+T, WX VAR and alert features."
+      },
+      {
+        "title": "Test Mode",
+        "content": "Displays test pattern for system check."
+      },
+      {
+        "title": "Hold Function",
+        "content": "Freezes display to track storm movement."
+      },
+      {
+        "title": "Target Alert",
+        "content": "Warns of significant weather returns."
+      },
+      {
+        "title": "Fault Indication",
+        "content": "Displays system failures."
+      },
+      {
+        "title": "Summary",
+        "content": "AWR helps pilots detect and avoid hazardous weather conditions."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 14 - Secondary Surveillance Radar (SSR)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "SSR is a radar system that uses aircraft transponder replies instead of reflected signals."
+      },
+      {
+        "title": "Primary vs Secondary Radar",
+        "content": "Primary uses reflected echoes, SSR uses transmitted replies from aircraft."
+      },
+      {
+        "title": "Purpose",
+        "content": "Provides identification, altitude and additional aircraft data to ATC."
+      },
+      {
+        "title": "Transponder",
+        "content": "Aircraft equipment that responds to radar interrogation signals."
+      },
+      {
+        "title": "Code Setting",
+        "content": "Pilot selects a 4-digit code assigned by ATC."
+      },
+      {
+        "title": "Transmission Type",
+        "content": "Interrogation from ground, reply from aircraft."
+      },
+      {
+        "title": "Advantages of SSR",
+        "content": "Lower power, clear display, aircraft identification, altitude and speed data."
+      },
+      {
+        "title": "SSR Range",
+        "content": "Typically 200 to 250 NM."
+      },
+      {
+        "title": "SSR Display",
+        "content": "Shows aircraft identity, altitude, speed, track and destination."
+      },
+      {
+        "title": "Operating Frequencies",
+        "content": "Interrogation at 1030 MHz and reply at 1090 MHz."
+      },
+      {
+        "title": "Transmission Delay",
+        "content": "Aircraft replies after 50 microseconds."
+      },
+      {
+        "title": "Radiation Pattern",
+        "content": "Ground radar uses directional beam, aircraft transmits omni-directionally."
+      },
+      {
+        "title": "Modes",
+        "content": "Mode A (identity) and Mode C (altitude)."
+      },
+      {
+        "title": "Mode A",
+        "content": "Provides aircraft identification code."
+      },
+      {
+        "title": "Mode C",
+        "content": "Provides automatic altitude reporting referenced to 1013 hPa."
+      },
+      {
+        "title": "Pulse System",
+        "content": "Uses P1, P2 and P3 pulses to determine interrogation mode."
+      },
+      {
+        "title": "Pulse Spacing",
+        "content": "Mode A uses 8 \u00b5s spacing, Mode C uses 21 \u00b5s spacing."
+      },
+      {
+        "title": "Reply Structure",
+        "content": "Contains framing pulses and 12 information pulses."
+      },
+      {
+        "title": "Code Capacity",
+        "content": "4096 possible codes (0000 to 7777)."
+      },
+      {
+        "title": "SPI (Ident)",
+        "content": "Special pulse to highlight aircraft on radar display."
+      },
+      {
+        "title": "Altitude Encoding",
+        "content": "Altitude derived from encoder linked to altimeter."
+      },
+      {
+        "title": "Altitude Resolution",
+        "content": "Reported in 100 ft steps (internally 50 ft increments)."
+      },
+      {
+        "title": "SSR Procedures",
+        "content": "Pilots follow ATC instructions for code selection and Mode C usage."
+      },
+      {
+        "title": "Special Codes",
+        "content": "Emergency, radio failure and hijack codes."
+      },
+      {
+        "title": "7700",
+        "content": "General emergency."
+      },
+      {
+        "title": "7600",
+        "content": "Radio failure."
+      },
+      {
+        "title": "7500",
+        "content": "Hijack/unlawful interference."
+      },
+      {
+        "title": "Conspicuity Code",
+        "content": "7000 in Europe (1200 in USA) for VFR flights."
+      },
+      {
+        "title": "Garbling",
+        "content": "Overlapping replies from multiple aircraft."
+      },
+      {
+        "title": "Fruiting",
+        "content": "Interference from replies triggered by another radar."
+      },
+      {
+        "title": "Code Limitation",
+        "content": "Limited number of available codes (4096)."
+      },
+      {
+        "title": "Mode S",
+        "content": "Advanced SSR with selective addressing and data link."
+      },
+      {
+        "title": "Mode S Address",
+        "content": "Unique 24-bit aircraft address (~16 million codes)."
+      },
+      {
+        "title": "Data Link",
+        "content": "Allows air-ground and air-air communication."
+      },
+      {
+        "title": "Reduced Voice Communication",
+        "content": "Data link reduces radio communication workload."
+      },
+      {
+        "title": "Improved Accuracy",
+        "content": "Provides altitude in 25 ft increments."
+      },
+      {
+        "title": "Mode S Interrogations",
+        "content": "Includes All Call, Broadcast and Selective interrogation."
+      },
+      {
+        "title": "Selective Addressing",
+        "content": "Only targeted aircraft responds to interrogation."
+      },
+      {
+        "title": "Mode S Benefits",
+        "content": "Improved tracking, reduced garbling, better identification."
+      },
+      {
+        "title": "Communication Protocols",
+        "content": "Comm-A, Comm-B, Comm-C and Comm-D data exchanges."
+      },
+      {
+        "title": "Transponder Levels",
+        "content": "Four levels defining capability from basic to full data link."
+      },
+      {
+        "title": "Level 1",
+        "content": "Basic surveillance without data link."
+      },
+      {
+        "title": "Level 2",
+        "content": "Standard data link, minimum for international use."
+      },
+      {
+        "title": "Level 3",
+        "content": "Extended uplink communication."
+      },
+      {
+        "title": "Level 4",
+        "content": "Full extended uplink and downlink capability."
+      },
+      {
+        "title": "DAPS",
+        "content": "Downlink Aircraft Parameters such as speed, heading and vertical rate."
+      },
+      {
+        "title": "Future Capability",
+        "content": "Includes transmission of aircraft intentions and selected flight parameters."
+      },
+      {
+        "title": "Summary",
+        "content": "SSR enhances radar by providing identification, altitude and data through transponder replies."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 15 - Distance Measuring Equipment (DME)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "DME is a secondary radar system that provides slant range distance from a ground station."
+      },
+      {
+        "title": "Rho-Theta Navigation",
+        "content": "Combined with VOR provides range (rho) and bearing (theta)."
+      },
+      {
+        "title": "Frequency Band",
+        "content": "Operates in UHF band between 960 and 1215 MHz."
+      },
+      {
+        "title": "Channel System",
+        "content": "252 channels with 1 MHz spacing (X and Y channels)."
+      },
+      {
+        "title": "Frequency Separation",
+        "content": "63 MHz difference between interrogation and reply frequencies."
+      },
+      {
+        "title": "VOR/DME Pairing",
+        "content": "DME automatically selected when tuning VOR frequency."
+      },
+      {
+        "title": "ILS/DME Pairing",
+        "content": "Provides distance to runway threshold."
+      },
+      {
+        "title": "Uses",
+        "content": "Provides slant range, position fixing, groundspeed and approach guidance."
+      },
+      {
+        "title": "Slant Range",
+        "content": "Measures direct distance between aircraft and station."
+      },
+      {
+        "title": "Position Fix",
+        "content": "Two DMEs or VOR/DME provide position fix."
+      },
+      {
+        "title": "Groundspeed Calculation",
+        "content": "Derived from rate of change of distance."
+      },
+      {
+        "title": "Pulse Technique",
+        "content": "Uses pulse pairs for interrogation and reply."
+      },
+      {
+        "title": "Interrogation",
+        "content": "Aircraft transmits pulses to ground station."
+      },
+      {
+        "title": "Reply",
+        "content": "Ground station replies after 50 microseconds delay."
+      },
+      {
+        "title": "Range Measurement",
+        "content": "Based on time delay of signal travel."
+      },
+      {
+        "title": "Pulse Pair Spacing",
+        "content": "12 \u00b5s for X channel and 36 \u00b5s for Y channel."
+      },
+      {
+        "title": "Random PRF",
+        "content": "Aircraft transmits pulses at random intervals."
+      },
+      {
+        "title": "Lock-On",
+        "content": "Receiver matches its own pulse pattern to track distance."
+      },
+      {
+        "title": "Tracking Mode",
+        "content": "Continuously updates range after lock-on."
+      },
+      {
+        "title": "Range Search",
+        "content": "Initial high-rate transmission to acquire signal."
+      },
+      {
+        "title": "Twin Pulses",
+        "content": "Used to avoid interference and false signals."
+      },
+      {
+        "title": "Beacon Saturation",
+        "content": "Occurs when too many aircraft use DME simultaneously."
+      },
+      {
+        "title": "Station Identification",
+        "content": "3-letter Morse code transmitted every 30 seconds."
+      },
+      {
+        "title": "Memory Circuit",
+        "content": "Maintains display during signal interruption."
+      },
+      {
+        "title": "Line of Sight",
+        "content": "Range depends on altitude and terrain."
+      },
+      {
+        "title": "Coverage",
+        "content": "Limited by Designated Operational Coverage (DOC)."
+      },
+      {
+        "title": "Echo Protection",
+        "content": "Prevents errors from reflected signals."
+      },
+      {
+        "title": "System Accuracy",
+        "content": "Approximately \u00b10.25 NM \u00b11.25% of range."
+      },
+      {
+        "title": "Precision DME",
+        "content": "DME/P accuracy within \u00b1100 ft."
+      },
+      {
+        "title": "Slant Range Error",
+        "content": "Difference between slant and ground distance."
+      },
+      {
+        "title": "Cone of Confusion",
+        "content": "Occurs when directly over station."
+      },
+      {
+        "title": "Height Indication",
+        "content": "At zero range, DME indicates aircraft height."
+      },
+      {
+        "title": "Groundspeed Limitation",
+        "content": "Accurate only when flying directly to or from station."
+      },
+      {
+        "title": "Circular Track Effect",
+        "content": "Groundspeed shows zero when circling station."
+      },
+      {
+        "title": "Summary",
+        "content": "DME provides accurate slant range using pulse timing and is essential for navigation."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 16 - Area Navigation Systems (RNAV)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "RNAV allows aircraft to fly any desired path without flying directly over ground stations."
+      },
+      {
+        "title": "Definition",
+        "content": "Navigation within coverage of navigation aids or self-contained systems."
+      },
+      {
+        "title": "Inputs",
+        "content": "Uses VOR/DME, ILS/MLS, GNSS, INS/IRS, ADC and time."
+      },
+      {
+        "title": "System Processing",
+        "content": "Combines inputs to compute accurate aircraft position."
+      },
+      {
+        "title": "Outputs",
+        "content": "Provides course guidance, ETA and navigation information."
+      },
+      {
+        "title": "Benefits",
+        "content": "Enables direct routing, reduces fuel, time and congestion."
+      },
+      {
+        "title": "Efficiency",
+        "content": "Improves airspace utilization and route flexibility."
+      },
+      {
+        "title": "Separation Reduction",
+        "content": "Allows reduced separation due to higher accuracy."
+      },
+      {
+        "title": "Types of RNAV",
+        "content": "Includes Basic RNAV (B-RNAV) and Precision RNAV (P-RNAV)."
+      },
+      {
+        "title": "B-RNAV",
+        "content": "Accuracy within 5 NM for 95% of time."
+      },
+      {
+        "title": "P-RNAV",
+        "content": "Accuracy within 1 NM for 95% of time."
+      },
+      {
+        "title": "Levels of RNAV",
+        "content": "Includes 2D, 3D and 4D RNAV capabilities."
+      },
+      {
+        "title": "2D RNAV",
+        "content": "Horizontal navigation only."
+      },
+      {
+        "title": "3D RNAV",
+        "content": "Includes vertical navigation."
+      },
+      {
+        "title": "4D RNAV",
+        "content": "Includes time control along with position."
+      },
+      {
+        "title": "Simple RNAV Components",
+        "content": "Includes navigation computer, CDU and CDI/HSI."
+      },
+      {
+        "title": "Waypoints",
+        "content": "Defined positions used for navigation."
+      },
+      {
+        "title": "Phantom Stations",
+        "content": "Waypoints treated like virtual navigation aids."
+      },
+      {
+        "title": "Rho-Theta Principle",
+        "content": "Uses range and bearing from VOR/DME."
+      },
+      {
+        "title": "Cross Track Error",
+        "content": "Difference between desired and actual track."
+      },
+      {
+        "title": "Distance to Go",
+        "content": "Remaining distance to waypoint."
+      },
+      {
+        "title": "Waypoint Sequencing",
+        "content": "Automatic switching between waypoints."
+      },
+      {
+        "title": "Limitations",
+        "content": "Dependent on correct pilot input and beacon coverage."
+      },
+      {
+        "title": "DOC Requirement",
+        "content": "Must remain within coverage of navigation aids."
+      },
+      {
+        "title": "Slant Range Error",
+        "content": "DME error must be considered."
+      },
+      {
+        "title": "Accuracy Factors",
+        "content": "Depends on geometry and position of navigation aids."
+      },
+      {
+        "title": "Modern RNAV",
+        "content": "Implemented using Flight Management System (FMS)."
+      },
+      {
+        "title": "FMS Components",
+        "content": "Includes FMC, IRS, autopilot and displays."
+      },
+      {
+        "title": "FMC",
+        "content": "Performs navigation and performance calculations."
+      },
+      {
+        "title": "CDU",
+        "content": "Interface for pilot input and monitoring."
+      },
+      {
+        "title": "LNAV",
+        "content": "Lateral navigation control."
+      },
+      {
+        "title": "VNAV",
+        "content": "Vertical navigation control."
+      },
+      {
+        "title": "Flight Plan",
+        "content": "Sequence of waypoints defining route."
+      },
+      {
+        "title": "Navigation Database",
+        "content": "Contains routes, airports and navigation aids."
+      },
+      {
+        "title": "Performance Database",
+        "content": "Contains aircraft performance data."
+      },
+      {
+        "title": "IRS Input",
+        "content": "Provides position and heading information."
+      },
+      {
+        "title": "External Inputs",
+        "content": "Includes DME/DME, VOR/DME and GNSS."
+      },
+      {
+        "title": "Kalman Filtering",
+        "content": "Combines IRS and external data for accuracy."
+      },
+      {
+        "title": "IRS Accuracy",
+        "content": "Accurate short-term but drifts over time."
+      },
+      {
+        "title": "DME Accuracy",
+        "content": "Stable long-term accuracy."
+      },
+      {
+        "title": "Error Correction",
+        "content": "FMS balances IRS drift with external references."
+      },
+      {
+        "title": "Automation Levels",
+        "content": "Ranges from manual guidance to full autopilot control."
+      },
+      {
+        "title": "Route Programming",
+        "content": "Waypoints entered via CDU."
+      },
+      {
+        "title": "Pre-flight Initialization",
+        "content": "Includes position, route and database verification."
+      },
+      {
+        "title": "Climb, Cruise, Descent",
+        "content": "FMS manages all flight phases."
+      },
+      {
+        "title": "Direct-To Function",
+        "content": "Allows direct navigation to a waypoint."
+      },
+      {
+        "title": "Offset Tracks",
+        "content": "Allows parallel routing."
+      },
+      {
+        "title": "Holding Patterns",
+        "content": "RNAV can compute holding procedures."
+      },
+      {
+        "title": "Failure Indication",
+        "content": "System alerts for navigation failures."
+      },
+      {
+        "title": "Summary",
+        "content": "RNAV enables efficient, flexible and accurate navigation using multiple inputs."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 17 - Electronic Flight Information System (EFIS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "EFIS provides electronic display of flight and navigation information."
+      },
+      {
+        "title": "EASA Standards",
+        "content": "Defines colour coding and reliability requirements."
+      },
+      {
+        "title": "EHSI",
+        "content": "Displays navigation, radar and TCAS information."
+      },
+      {
+        "title": "Inputs",
+        "content": "Receives data from IRS, FMC, VOR, DME, ILS, ADF, TCAS and weather radar."
+      },
+      {
+        "title": "Symbol Generator",
+        "content": "Processes inputs and generates display symbols."
+      },
+      {
+        "title": "EHSI Controller",
+        "content": "Controls display modes, range and data selection."
+      },
+      {
+        "title": "Display Modes",
+        "content": "Includes VOR, ILS, MAP and PLAN modes."
+      },
+      {
+        "title": "Full VOR Mode",
+        "content": "Displays complete compass rose with VOR data."
+      },
+      {
+        "title": "Expanded VOR Mode",
+        "content": "Shows enlarged forward view of VOR navigation."
+      },
+      {
+        "title": "Full ILS Mode",
+        "content": "Displays ILS with full compass rose."
+      },
+      {
+        "title": "Expanded ILS Mode",
+        "content": "Shows detailed ILS guidance."
+      },
+      {
+        "title": "MAP Mode",
+        "content": "Displays route, waypoints and navigation data."
+      },
+      {
+        "title": "PLAN Mode",
+        "content": "Displays route in true north orientation."
+      },
+      {
+        "title": "Orientation",
+        "content": "Most modes are heading-based except PLAN mode."
+      },
+      {
+        "title": "Range Selection",
+        "content": "Controls display distance scale."
+      },
+      {
+        "title": "Displayed Data",
+        "content": "Includes nav aids, airports, routes, waypoints and weather."
+      },
+      {
+        "title": "TCAS Display",
+        "content": "Shows traffic information when selected."
+      },
+      {
+        "title": "Weather Radar",
+        "content": "Displays precipitation and turbulence."
+      },
+      {
+        "title": "Colour Coding",
+        "content": "Standard ICAO/EASA colours used for clarity."
+      },
+      {
+        "title": "Warnings",
+        "content": "Red indicates critical alerts."
+      },
+      {
+        "title": "Cautions",
+        "content": "Amber indicates abnormal conditions."
+      },
+      {
+        "title": "Active Modes",
+        "content": "Green indicates active systems."
+      },
+      {
+        "title": "Flight Guidance",
+        "content": "Magenta indicates fly-to information."
+      },
+      {
+        "title": "Sky and Ground",
+        "content": "Blue for sky and brown for earth."
+      },
+      {
+        "title": "Weather Colours",
+        "content": "Green, amber, red and magenta indicate intensity."
+      },
+      {
+        "title": "Symbology",
+        "content": "Standard symbols represent aircraft, route and navigation data."
+      },
+      {
+        "title": "Aircraft Symbol",
+        "content": "Represents aircraft position on display."
+      },
+      {
+        "title": "Waypoint Symbol",
+        "content": "Shows navigation points."
+      },
+      {
+        "title": "Active Route",
+        "content": "Displayed in magenta."
+      },
+      {
+        "title": "Inactive Route",
+        "content": "Displayed in cyan."
+      },
+      {
+        "title": "Heading Information",
+        "content": "Displays aircraft heading and selected heading."
+      },
+      {
+        "title": "Track Line",
+        "content": "Shows actual ground track."
+      },
+      {
+        "title": "Wind Information",
+        "content": "Displays wind speed and direction."
+      },
+      {
+        "title": "Trend Vector",
+        "content": "Predicts aircraft future position."
+      },
+      {
+        "title": "Altitude Arc",
+        "content": "Shows predicted altitude capture point."
+      },
+      {
+        "title": "Vertical Deviation",
+        "content": "Indicates deviation from vertical path."
+      },
+      {
+        "title": "Glide Slope Indicator",
+        "content": "Shows ILS glide slope deviation."
+      },
+      {
+        "title": "Lateral Deviation",
+        "content": "Indicates course deviation."
+      },
+      {
+        "title": "Range Arcs",
+        "content": "Shows distance intervals."
+      },
+      {
+        "title": "Navigation Aids",
+        "content": "Displays VOR, DME, TACAN and ADF."
+      },
+      {
+        "title": "Airport Display",
+        "content": "Shows airports and runways."
+      },
+      {
+        "title": "Fix Information",
+        "content": "Displays selected reference points."
+      },
+      {
+        "title": "Holding Patterns",
+        "content": "Displays holding procedures."
+      },
+      {
+        "title": "System Accuracy",
+        "content": "Designed to avoid confusion and ensure reliability."
+      },
+      {
+        "title": "Summary",
+        "content": "EFIS integrates navigation data into a clear visual display for pilots."
+      }
+    ]
+  },
+  {
+    "book_id": "NAV-001",
+    "book_name": "Navigation",
+    "chapter_name": "Chapter 18 - Global Navigation Satellite Systems (GNSS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "GNSS provides global satellite-based navigation with high accuracy."
+      },
+      {
+        "title": "Evolution",
+        "content": "Developed from early satellite navigation systems to modern GNSS."
+      },
+      {
+        "title": "Systems",
+        "content": "Includes GPS, GLONASS, Galileo and BeiDou."
+      },
+      {
+        "title": "Accuracy",
+        "content": "Provides positioning accuracy in meters or better."
+      },
+      {
+        "title": "Differential Systems",
+        "content": "Improve accuracy and integrity of GNSS."
+      },
+      {
+        "title": "Satellite Orbits",
+        "content": "Satellites follow predictable Keplerian orbits."
+      },
+      {
+        "title": "Ephemeris",
+        "content": "Satellite orbital position data."
+      },
+      {
+        "title": "Reference System",
+        "content": "Uses Earth-centered Cartesian coordinates."
+      },
+      {
+        "title": "WGS84",
+        "content": "Standard earth model used for GPS."
+      },
+      {
+        "title": "Segments",
+        "content": "GNSS consists of space, control and user segments."
+      },
+      {
+        "title": "Space Segment",
+        "content": "Satellites transmitting navigation signals."
+      },
+      {
+        "title": "Satellite Constellation",
+        "content": "Multiple satellites ensure global coverage."
+      },
+      {
+        "title": "Satellite Clocks",
+        "content": "Atomic clocks provide precise timing."
+      },
+      {
+        "title": "Frequencies",
+        "content": "Signals transmitted on L1, L2 and other frequencies."
+      },
+      {
+        "title": "PRN Codes",
+        "content": "Unique codes identify satellites and measure time."
+      },
+      {
+        "title": "Navigation Message",
+        "content": "Contains satellite position, clock and system data."
+      },
+      {
+        "title": "Services",
+        "content": "Includes standard positioning service (SPS) and precise positioning service (PPS)."
+      },
+      {
+        "title": "Control Segment",
+        "content": "Ground stations monitor and update satellites."
+      },
+      {
+        "title": "Monitoring Stations",
+        "content": "Track satellite position and clock errors."
+      },
+      {
+        "title": "User Segment",
+        "content": "Receivers determine position using satellite signals."
+      },
+      {
+        "title": "Receiver Types",
+        "content": "Sequential, multiplex and multi-channel receivers."
+      },
+      {
+        "title": "Position Fixing",
+        "content": "Uses pseudo-range measurements from satellites."
+      },
+      {
+        "title": "Pseudo-range",
+        "content": "Initial range measurement with clock error."
+      },
+      {
+        "title": "Trilateration",
+        "content": "Position determined by intersecting spheres."
+      },
+      {
+        "title": "Four Satellites",
+        "content": "Required for 3D position and time correction."
+      },
+      {
+        "title": "Clock Error Correction",
+        "content": "Receiver solves for position and time simultaneously."
+      },
+      {
+        "title": "4D Fix",
+        "content": "Provides position and accurate time."
+      },
+      {
+        "title": "Errors",
+        "content": "Various factors affect GNSS accuracy."
+      },
+      {
+        "title": "Ephemeris Error",
+        "content": "Satellite position inaccuracies."
+      },
+      {
+        "title": "Clock Error",
+        "content": "Satellite clock inaccuracies."
+      },
+      {
+        "title": "Ionospheric Error",
+        "content": "Signal delay in ionosphere."
+      },
+      {
+        "title": "Tropospheric Error",
+        "content": "Signal delay due to atmospheric conditions."
+      },
+      {
+        "title": "Receiver Noise",
+        "content": "Internal receiver errors."
+      },
+      {
+        "title": "Multipath",
+        "content": "Signal reflections causing errors."
+      },
+      {
+        "title": "DOP",
+        "content": "Dilution of precision due to satellite geometry."
+      },
+      {
+        "title": "HDOP",
+        "content": "Horizontal accuracy degradation."
+      },
+      {
+        "title": "VDOP",
+        "content": "Vertical accuracy degradation."
+      },
+      {
+        "title": "PDOP",
+        "content": "Overall position accuracy."
+      },
+      {
+        "title": "TDOP",
+        "content": "Time accuracy degradation."
+      },
+      {
+        "title": "Selective Availability",
+        "content": "Intentional degradation removed in 2000."
+      },
+      {
+        "title": "System Accuracy",
+        "content": "Typical accuracy is within meters."
+      },
+      {
+        "title": "Integrity",
+        "content": "System must detect and warn errors quickly."
+      },
+      {
+        "title": "DGPS",
+        "content": "Differential GPS improves accuracy."
+      },
+      {
+        "title": "ABAS",
+        "content": "Aircraft-based integrity monitoring."
+      },
+      {
+        "title": "RAIM",
+        "content": "Receiver autonomous integrity monitoring."
+      },
+      {
+        "title": "GBAS",
+        "content": "Ground-based augmentation for precision approaches."
+      },
+      {
+        "title": "SBAS",
+        "content": "Satellite-based augmentation systems."
+      },
+      {
+        "title": "EGNOS",
+        "content": "European SBAS system."
+      },
+      {
+        "title": "WAAS",
+        "content": "US SBAS system."
+      },
+      {
+        "title": "Geostationary Satellites",
+        "content": "Used for augmentation signals."
+      },
+      {
+        "title": "Future Systems",
+        "content": "Integration of multiple GNSS systems."
+      },
+      {
+        "title": "Summary",
+        "content": "GNSS provides accurate global navigation using satellite signals."
+      }
+    ]
+  }
+]
+

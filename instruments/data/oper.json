@@ -1,0 +1,747 @@
+[
+  {
+    "book_id": "OP-001",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 1 - ICAO Annex 6",
+    "sub_modules": [
+      {
+        "title": "Introduction to ICAO Annex 6",
+        "content": "ICAO Annex 6 sets international standards for the operation of aircraft to ensure safe, regular, and efficient air transport. It is divided into three parts: Part I covers international commercial air transport for aeroplanes, Part II covers international general aviation for aeroplanes, and Part III covers international operations of helicopters. The standards are adopted by contracting states and form the foundation of national aviation regulations."
+      },
+      {
+        "title": "Compliance with the Law",
+        "content": "An aircraft must comply with the rules and regulations of the state in which it is operating, not just its state of registry. The operator must ensure the aircraft is operated in accordance with the laws of the states being flown over. The Pilot in Command (PIC) is responsible for the safe conduct of the flight and must comply with all applicable regulations."
+      },
+      {
+        "title": "EU-OPS Regulations",
+        "content": "EU-OPS regulations apply to JAA state operators flying civil commercial air transport aeroplanes. Part 1 of EU-OPS covers commercial air transport by aeroplanes and is based on ICAO Annex 6 provisions. These regulations are enacted into national law by each JAA member state and set binding operational standards for all commercial operators."
+      },
+      {
+        "title": "Air Operator Certificate (AOC)",
+        "content": "An operator must hold a valid Air Operator Certificate (AOC) to conduct commercial air transport operations. The AOC is issued by the competent authority of the state and specifies the types of operations permitted. To obtain an AOC, the operator must demonstrate adequate organisation, management, personnel, aircraft, and maintenance facilities."
+      },
+      {
+        "title": "Minimum Equipment List (MEL)",
+        "content": "The Minimum Equipment List (MEL) defines the equipment that may be inoperative while still allowing the aircraft to be dispatched for flight under specified conditions. The MEL is prepared by the operator based on the Master Minimum Equipment List (MMEL) produced by the manufacturer and approved by the state of design. The MEL may be more restrictive than the MMEL but never less restrictive, and it must be approved by the operator's competent authority."
+      },
+      {
+        "title": "Documents to be Carried",
+        "content": "An aircraft engaged in international air navigation must carry the Certificate of Airworthiness, Certificate of Registration, crew licences, operations manual (relevant parts), journey logbook, radio station licence, passenger manifest, and cargo documentation. Copies of specific documents must be left on the ground with the operator for each flight. The operator must ensure all required documentation is current and accessible during flight."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ICAO", "meaning": "International Civil Aviation Organisation"},
+      {"abbr": "AOC", "meaning": "Air Operator Certificate"},
+      {"abbr": "MEL", "meaning": "Minimum Equipment List"},
+      {"abbr": "MMEL", "meaning": "Master Minimum Equipment List"},
+      {"abbr": "EU-OPS", "meaning": "European Union Operations regulations"},
+      {"abbr": "JAA", "meaning": "Joint Aviation Authorities"},
+      {"abbr": "PIC", "meaning": "Pilot in Command"},
+      {"abbr": "AFM", "meaning": "Aeroplane Flight Manual"},
+      {"abbr": "OM", "meaning": "Operations Manual"}
+    ]
+  },
+  {
+    "book_id": "OP-002",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 2 - Operations Manual",
+    "sub_modules": [
+      {
+        "title": "Purpose and Structure of the Operations Manual",
+        "content": "The Operations Manual (OM) is a comprehensive document that provides flight crews and operations staff with the information and procedures required to operate safely. It is divided into four parts: Part A (General/Basic), Part B (Aircraft Operating Matters), Part C (Route and Aerodrome Instructions), and Part D (Training). The operator is responsible for producing, distributing, and keeping the OM current."
+      },
+      {
+        "title": "Part A - General and Basic Information",
+        "content": "Part A of the OM covers general policies, procedures, and administrative information applicable to all operations. It includes the operator's general policies on safety, security, quality assurance, and crew responsibilities. Subjects covered include flight preparation, fuel policy, weather minima, ground handling, and emergency procedures."
+      },
+      {
+        "title": "Part B - Aircraft Operating Matters",
+        "content": "Part B contains type-specific information for each aircraft type operated by the company. It includes normal, abnormal, and emergency procedures, aircraft limitations, and performance data. The MEL and other aircraft-specific operational information is also contained in Part B."
+      },
+      {
+        "title": "Part C - Route and Aerodrome Instructions",
+        "content": "Part C provides information on specific routes, aerodromes, and operating areas relevant to the operator's network. It includes aerodrome operating minima, special procedures for specific airports, and route briefing materials. Operators must ensure this information is kept up to date for all aerodromes in their network."
+      },
+      {
+        "title": "Part D - Training",
+        "content": "Part D covers all training requirements and syllabi for flight crew and cabin crew. It details type rating training, recurrent training, emergency and safety equipment training, and proficiency check requirements. Line Oriented Flight Training (LOFT) and simulator training programmes are also included."
+      },
+      {
+        "title": "Flight Preparation Requirements",
+        "content": "Before every flight, the commander must ensure the aircraft is airworthy, properly loaded, and that the planned flight can be conducted safely. The operator must provide a pre-flight information file containing the operational flight plan, weather forecasts, NOTAMs, mass and balance data, and special loads notification. A copy of this file must be retained on the ground for the duration of the flight."
+      },
+      {
+        "title": "Fuel Policy",
+        "content": "The operator must establish a fuel policy to ensure that sufficient fuel is carried for safe completion of the planned flight. The fuel calculation must include taxi fuel, trip fuel, contingency fuel (5% of trip fuel), alternate fuel, final reserve fuel (30 minutes for turbojets at 1500 ft), and additional fuel if required. The commander must not commence a flight unless the fuel on board is sufficient according to the applicable rules."
+      },
+      {
+        "title": "Mass and Balance",
+        "content": "The commander is responsible for ensuring the aircraft is loaded within approved mass and balance limits. Mass and balance documentation must be prepared before each flight and a copy retained on the ground. The operator must establish procedures for cargo handling and securing to prevent dangerous shifting of loads in flight."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "OM", "meaning": "Operations Manual"},
+      {"abbr": "LOFT", "meaning": "Line Oriented Flight Training"},
+      {"abbr": "NOTAM", "meaning": "Notice to Airmen"},
+      {"abbr": "OFP", "meaning": "Operational Flight Plan"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"}
+    ]
+  },
+  {
+    "book_id": "OP-003",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 3 - ETOPS",
+    "sub_modules": [
+      {
+        "title": "Introduction to ETOPS",
+        "content": "Extended Range Twin Engine Operations (ETOPS) allows twin-engine aircraft to fly routes that take them more than 60 minutes flying time from a diversion airport at single-engine cruise speed. ETOPS was developed to allow efficient long-range operations by twin-engine jets on transoceanic and remote routes. Specific approval from the regulatory authority is required before an operator can conduct ETOPS operations."
+      },
+      {
+        "title": "ETOPS Approval Requirements",
+        "content": "To gain ETOPS approval, the operator must demonstrate that the aircraft type and engine combination has achieved a high level of reliability. The operator must have appropriate maintenance programmes, flight crew training, and route planning procedures in place. The approval specifies the maximum diversion time permitted, typically 120 or 180 minutes."
+      },
+      {
+        "title": "ETOPS Route Planning",
+        "content": "ETOPS route planning requires the identification of suitable diversion airports within the approved diversion time along the planned route. The weather at all potential diversion airports must be forecast to be at or above company minima at the estimated time of diversion. Fuel planning for ETOPS must account for the possibility of an engine failure or loss of pressurisation requiring a diversion."
+      },
+      {
+        "title": "ETOPS Critical Fuel Scenario",
+        "content": "The critical fuel scenario for ETOPS planning considers the worst-case diversion from the Equal Time Point (ETP) with one engine inoperative and possible pressurisation failure requiring descent to 10,000 ft. Fuel must be sufficient to reach the ETOPS alternate, complete an approach, and hold for the required time. Anti-icing requirements and increased fuel burn at lower altitudes must also be factored into calculations."
+      },
+      {
+        "title": "ETOPS Maintenance Requirements",
+        "content": "ETOPS maintenance requires additional checks and signoffs before ETOPS flights to ensure the aircraft is in full ETOPS configuration. Critical systems such as engines, APU, hydraulics, electrics, and pressurisation must be verified as fully serviceable. The maintenance release for ETOPS operations must be signed off by personnel specifically authorised for ETOPS."
+      },
+      {
+        "title": "ETOPS Crew Training",
+        "content": "Flight crew operating ETOPS routes must receive specific training on ETOPS procedures, diversion planning, and decision-making at the ETP. Training must include scenarios involving single-engine operations, pressurisation failures, and combined failures. Recurrent ETOPS training and checking is required to maintain the approval currency for individual crew members."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ETOPS", "meaning": "Extended Range Twin Engine Operations"},
+      {"abbr": "ETP", "meaning": "Equal Time Point"},
+      {"abbr": "APU", "meaning": "Auxiliary Power Unit"},
+      {"abbr": "OEI", "meaning": "One Engine Inoperative"}
+    ]
+  },
+  {
+    "book_id": "OP-004",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 4 - Low Visibility Operations",
+    "sub_modules": [
+      {
+        "title": "Introduction to Low Visibility Operations",
+        "content": "Low Visibility Operations (LVO) refer to approach and landing operations in conditions where the Runway Visual Range (RVR) is less than 550 m, or take-off operations with RVR below 400 m. LVO requires specific aircraft equipment, crew training, and aerodrome facilities to be available. Both the operator and the aerodrome must hold LVO approval before these operations can be conducted."
+      },
+      {
+        "title": "CAT I, II, and III Approach Categories",
+        "content": "Category I (CAT I) approaches have a Decision Height (DH) of not less than 200 ft and RVR of at least 550 m. Category II (CAT II) approaches have a DH between 100 ft and 200 ft and an RVR of at least 300 m. Category IIIA operations have a DH below 100 ft and RVR at least 200 m; CAT IIIB operations have a DH below 50 ft with RVR 75-200 m; CAT IIIC has no DH or RVR limits."
+      },
+      {
+        "title": "Aerodrome Operating Minima",
+        "content": "Aerodrome Operating Minima (AOM) define the minimum weather conditions for an aircraft to take off or land at a specific airport. For precision approaches, minima are expressed as DH/RVR; for non-precision approaches, as MDH (Minimum Descent Height) and visibility. Circling approach minima use MDH and horizontal visibility, with Category A aircraft requiring at least 1600 m visibility."
+      },
+      {
+        "title": "Low Visibility Take-off Procedures",
+        "content": "Low visibility take-off (LVTO) procedures apply when RVR is below 400 m and require specific equipment serviceability and crew training. The aircraft must be capable of automatic or manual guidance along the runway centreline. A minimum RVR of 75 m is the lowest permitted for LVTO provided specific conditions are met including centreline lighting and RVR assessments for multiple sections of the runway."
+      },
+      {
+        "title": "Equipment and Training Requirements for LVO",
+        "content": "Aircraft used for CAT II/III operations must be equipped with certificated autopilot, autothrottle, and autoland systems as appropriate. Flight crew must complete special training and checking for LVO, including simulator training and line checks. The OM must contain specific LVO procedures including actions on system failures during the approach."
+      },
+      {
+        "title": "Stabilised Approach and CDFA",
+        "content": "A Continuous Descent Final Approach (CDFA) technique is required for non-precision approaches and keeps the aircraft on a continuous descent path to the runway threshold. The stabilised approach concept requires the aircraft to be established in a stable configuration, on the correct flight path, with stable speed and power by 1000 ft AAL in IMC (500 ft in VMC). If not stabilised by these gates, a go-around must be executed."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "LVO", "meaning": "Low Visibility Operations"},
+      {"abbr": "RVR", "meaning": "Runway Visual Range"},
+      {"abbr": "DH", "meaning": "Decision Height"},
+      {"abbr": "MDH", "meaning": "Minimum Descent Height"},
+      {"abbr": "AOM", "meaning": "Aerodrome Operating Minima"},
+      {"abbr": "CDFA", "meaning": "Continuous Descent Final Approach"},
+      {"abbr": "CAT", "meaning": "Category (I, II, III for precision approaches)"},
+      {"abbr": "ILS", "meaning": "Instrument Landing System"},
+      {"abbr": "AAL", "meaning": "Above Aerodrome Level"}
+    ]
+  },
+  {
+    "book_id": "OP-005",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 5 - RVSM",
+    "sub_modules": [
+      {
+        "title": "Introduction to RVSM",
+        "content": "Reduced Vertical Separation Minimum (RVSM) is the reduction of vertical separation between flight levels from 2000 ft to 1000 ft for aircraft operating between FL290 and FL410. RVSM was introduced to increase airspace capacity and allow more efficient use of fuel-optimal cruise altitudes. Both aircraft and operators must be specifically approved for RVSM operations before flying in RVSM airspace."
+      },
+      {
+        "title": "RVSM Airspace and Flight Levels",
+        "content": "RVSM airspace applies between FL290 and FL410 inclusive in most major oceanic and continental airspace regions. Within RVSM airspace, 1000 ft vertical separation is applied between all RVSM-approved aircraft. Non-RVSM approved aircraft must receive 2000 ft separation from all other aircraft."
+      },
+      {
+        "title": "RVSM Equipment Requirements",
+        "content": "Aircraft approved for RVSM must meet specific equipment standards including two independent altitude measurement systems, an altitude alert system, an automatic altitude control system, and a transponder with altitude reporting capability. The altimetry system must maintain altitude within tight tolerances to ensure adequate separation. Regular height monitoring checks are required to confirm continued RVSM performance."
+      },
+      {
+        "title": "RVSM Pilot Procedures",
+        "content": "Pilots must check altimeter tolerances before entering RVSM airspace and report any equipment failures to ATC immediately. Both primary altimeters must agree within 200 ft before RVSM entry. If an altimetry failure occurs in RVSM airspace, the pilot must notify ATC, and ATC will apply 2000 ft separation to that aircraft."
+      },
+      {
+        "title": "RVSM Contingency Procedures",
+        "content": "If an aircraft loses RVSM approval in RVSM airspace due to equipment failure, the pilot must inform ATC, request a clearance outside RVSM airspace if possible, and maintain any assigned level until a new clearance is received. The operator must report any RVSM altitude-keeping deviations of more than 300 ft to the monitoring agency. Met turbulence encounters that cause deviations should also be reported."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "RVSM", "meaning": "Reduced Vertical Separation Minimum"},
+      {"abbr": "FL", "meaning": "Flight Level"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"},
+      {"abbr": "VSM", "meaning": "Vertical Separation Minimum"}
+    ]
+  },
+  {
+    "book_id": "OP-006",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 6 - Emergency Locator Transmitter (ELT)",
+    "sub_modules": [
+      {
+        "title": "Introduction to ELT",
+        "content": "An Emergency Locator Transmitter (ELT) is a device that automatically activates upon impact and transmits a distress signal to aid search and rescue operations. ELTs operate on 121.5 MHz (VHF), 243 MHz (UHF military), and 406 MHz (satellite-monitored digital). The 406 MHz ELT is the modern standard as it enables precise location identification through the COSPAS-SARSAT satellite system."
+      },
+      {
+        "title": "Types of ELT",
+        "content": "There are several types of ELT: Automatic Fixed (AF) attached to the aircraft structure and activated by impact; Automatic Portable (AP) which can be removed and used as a survival aid; Automatic Deployable (AD) which ejects and self-activates on impact or immersion; and Survival (S) type which is manually activated. EU-OPS requires aircraft to carry at least one automatic ELT and one additional ELT for extended overwater operations."
+      },
+      {
+        "title": "ELT Carriage Requirements",
+        "content": "All commercial aircraft must carry at least one ELT capable of transmitting on 121.5 MHz. Aircraft flying long-range over water or remote areas must carry additional survival ELTs accessible to survivors in life rafts. ELTs must be registered with the national authority and the 406 MHz ELT must be programmed with the aircraft's registration details to enable rapid identification."
+      },
+      {
+        "title": "ELT Testing and Maintenance",
+        "content": "ELTs must be tested at regular intervals to confirm they are functional, using only approved test procedures that do not cause false alarms. Self-tests should be conducted only in the first 5 minutes of each UTC hour and for no more than 3 audible sweeps. Battery expiry dates must be recorded and batteries replaced as required; the replacement date must be marked on the outside of the ELT."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ELT", "meaning": "Emergency Locator Transmitter"},
+      {"abbr": "SAR", "meaning": "Search and Rescue"},
+      {"abbr": "VHF", "meaning": "Very High Frequency"},
+      {"abbr": "UHF", "meaning": "Ultra High Frequency"},
+      {"abbr": "COSPAS-SARSAT", "meaning": "Satellite system for detecting ELT signals"}
+    ]
+  },
+  {
+    "book_id": "OP-007",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 7 - Crew, Logs and Records",
+    "sub_modules": [
+      {
+        "title": "Crew Composition Requirements",
+        "content": "The minimum crew composition for commercial flights is specified in the aircraft Flight Manual and the Operations Manual. All crew members must hold valid licences and ratings appropriate for their role. The commander must have a current instrument rating, and co-pilots must have completed 3 take-offs and landings in the preceding 90 days on the relevant type."
+      },
+      {
+        "title": "Recent Experience Requirements",
+        "content": "Commanders must have conducted at least 3 take-offs and 3 landings as PIC on the aircraft type within the preceding 90 days. Co-pilots acting as handling pilot for take-off or landing must have conducted 3 take-offs and landings within the preceding 30 days. Recency requirements must be maintained through actual line operations or approved simulator training."
+      },
+      {
+        "title": "Flight Time Limitations",
+        "content": "Flight crew flight time, duty time, and rest requirements are governed by Flight Time Limitation (FTL) regulations to prevent fatigue. The maximum annual flight time is 900 hours, with no more than 100 hours in any 28-day period. Minimum rest periods must be provided between duty periods, and the operator must maintain detailed records of all crew duty and flight times."
+      },
+      {
+        "title": "Crew Licences and Ratings",
+        "content": "All flight crew must hold licences issued or validated by the State of the Operator. Licences must include current medical certificates, type ratings for the aircraft being operated, and an instrument rating. Proficiency checks (OPC) must be conducted at intervals not exceeding 6 months, with two checks per year separated by not more than 8 months."
+      },
+      {
+        "title": "Journey Logbook",
+        "content": "A journey logbook must be maintained for each aircraft, recording details of every flight including departure and arrival points, times, crew names, and any significant occurrences or technical defects. The journey logbook must be retained for at least 3 months after the last entry. Defects noted in the journey logbook must be signed off by qualified maintenance personnel before the aircraft is dispatched for flight."
+      },
+      {
+        "title": "Technical Log and Aircraft Records",
+        "content": "The technical log records the airworthiness status of the aircraft including outstanding maintenance tasks and defect rectifications. Crew must record any technical defect or abnormality observed during flight in the technical log at journey end. The operator must maintain records of all maintenance, modifications, and airworthiness directives complied with."
+      },
+      {
+        "title": "Flight Data Recorder and CVR Requirements",
+        "content": "Aircraft above 5700 kg MTOM certificated after 1 January 1990 must be equipped with a Flight Data Recorder (FDR) capable of retaining data from the last 25 hours of operation. A Cockpit Voice Recorder (CVR) must retain the last 30 minutes of flight deck audio, or 2 hours for aircraft registered after a specific date. After an accident or incident, both recorders must be preserved and recordings retained for at least 60 days."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "PIC", "meaning": "Pilot in Command"},
+      {"abbr": "OPC", "meaning": "Operator Proficiency Check"},
+      {"abbr": "FTL", "meaning": "Flight Time Limitations"},
+      {"abbr": "FDR", "meaning": "Flight Data Recorder"},
+      {"abbr": "CVR", "meaning": "Cockpit Voice Recorder"},
+      {"abbr": "MTOM", "meaning": "Maximum Take-Off Mass"}
+    ]
+  },
+  {
+    "book_id": "OP-008",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 8 - Long Range Flight and Polar Navigation",
+    "sub_modules": [
+      {
+        "title": "Long Range Navigation Requirements",
+        "content": "Long range flights over oceanic and remote areas require specific navigation equipment, procedures, and crew training. Aircraft conducting long range operations must be equipped with at least two independent long range navigation systems such as INS, IRS, or GPS with appropriate redundancy. Navigation accuracy must meet the required navigation performance (RNP) standards for the airspace being transited."
+      },
+      {
+        "title": "Oceanic Clearances and Track Systems",
+        "content": "Oceanic airspace requires pre-departure oceanic clearances from the appropriate Oceanic Control Centre. On the North Atlantic, organised track structures (OTS) are published daily for eastbound and westbound traffic to optimise use of favourable winds. Pilots must fly the cleared track and altitude precisely and report position at waypoints using HF radio."
+      },
+      {
+        "title": "HF Radio Communications",
+        "content": "High Frequency (HF) radio is the primary means of communication over oceanic areas where VHF does not reach. HF radio is subject to propagation effects and interference, so a specific set of procedures applies. SELCAL (Selective Calling System) is used to alert crew when ATC is calling, allowing crew to monitor HF without continuous audio."
+      },
+      {
+        "title": "Polar Navigation",
+        "content": "Polar flights present unique navigation challenges because compass systems become unreliable near magnetic poles. Inertial Navigation Systems (INS) and GPS must be used as primary navigation references in polar regions. Grid navigation using a fixed reference meridian is also employed, with all flight crew trained in polar operational procedures."
+      },
+      {
+        "title": "Navigation Accuracy and Cross-Check Procedures",
+        "content": "Crews operating long range flights must regularly cross-check navigation system accuracy using available position fixes including VORs, DMEs, and GPS. Any discrepancy between navigation systems must be investigated and reported. Position cross-checking must be performed at each waypoint and the results recorded in the navigation log."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "INS", "meaning": "Inertial Navigation System"},
+      {"abbr": "IRS", "meaning": "Inertial Reference System"},
+      {"abbr": "GPS", "meaning": "Global Positioning System"},
+      {"abbr": "RNP", "meaning": "Required Navigation Performance"},
+      {"abbr": "OTS", "meaning": "Organised Track Structure"},
+      {"abbr": "HF", "meaning": "High Frequency"},
+      {"abbr": "SELCAL", "meaning": "Selective Calling System"},
+      {"abbr": "VOR", "meaning": "VHF Omnidirectional Range"},
+      {"abbr": "DME", "meaning": "Distance Measuring Equipment"}
+    ]
+  },
+  {
+    "book_id": "OP-009",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 9 - MNPSA / NAT Operations",
+    "sub_modules": [
+      {
+        "title": "Introduction to MNPSA",
+        "content": "The Minimum Navigation Performance Specification Airspace (MNPSA) is designated airspace where specific navigation accuracy standards must be met. The North Atlantic (NAT) is the primary MNPSA, encompassing the airspace between FL285 and FL420 over the North Atlantic Ocean. To operate in MNPSA, aircraft must be equipped with two independent long range navigation systems and operators must hold MNPSA approval."
+      },
+      {
+        "title": "NAT HLA and Track Structure",
+        "content": "The North Atlantic High Level Airspace (NAT HLA) uses a system of organised tracks (OTS) that are published twice daily by Shannon and Gander Oceanic control centres. Eastbound tracks are optimised for morning departures from North America and westbound tracks for afternoon departures from Europe. Pilots must file for and receive an oceanic clearance before entering NAT airspace."
+      },
+      {
+        "title": "Strategic Lateral Offset Procedure (SLOP)",
+        "content": "The Strategic Lateral Offset Procedure (SLOP) allows aircraft to fly up to 2 NM right of centreline to reduce the risk of collision in the event of a vertical navigation error. SLOP is mandatory in NAT HLA and optional offsets are: on centreline, 1 NM right, or 2 NM right. Aircraft must not offset to the left of centreline, and the offset must be flown precisely using the autopilot."
+      },
+      {
+        "title": "Pre-departure Procedures for NAT",
+        "content": "Before entering NAT airspace, crews must obtain the current NAT OTS, review relevant NOTAMs and SIGMETs, and obtain an oceanic clearance. The clearance specifies the track, entry fix, Mach number, and flight levels. Crews must verify that the navigation systems are in agreement and loaded with the correct waypoints before oceanic entry."
+      },
+      {
+        "title": "In-Flight Procedures in NAT",
+        "content": "During NAT transit, position reports must be made at each significant waypoint using HF radio. Reports include aircraft callsign, position, time, flight level, Mach number, next waypoint, and ETA. If an HF radio failure occurs, VHF relay through other aircraft or ACARS must be used. SELCAL checks should be established at the oceanic entry point."
+      },
+      {
+        "title": "Contingency Procedures in NAT",
+        "content": "If unable to maintain flight level, speed, or track in NAT airspace, the crew must advise ATC immediately and follow the NAT contingency procedures. If radio communication with ATC is lost, pilots must maintain the last assigned route and level, attempt to establish contact, and squawk 7600. In the event of a total navigation failure, the crew should revert to dead reckoning using last known position and published track."
+      },
+      {
+        "title": "NAT Documentation and Approval",
+        "content": "Operators must hold specific NAT/MNPSA approval issued by their competent authority. Approval requires demonstration of aircraft equipment standards, crew training, and operational procedures. The approval must be current and the Operations Manual must contain NAT-specific procedures including contingency actions."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "MNPSA", "meaning": "Minimum Navigation Performance Specification Airspace"},
+      {"abbr": "NAT", "meaning": "North Atlantic"},
+      {"abbr": "OTS", "meaning": "Organised Track Structure"},
+      {"abbr": "SLOP", "meaning": "Strategic Lateral Offset Procedure"},
+      {"abbr": "HLA", "meaning": "High Level Airspace"},
+      {"abbr": "ACARS", "meaning": "Aircraft Communications Addressing and Reporting System"},
+      {"abbr": "SIGMET", "meaning": "Significant Meteorological Information"}
+    ]
+  },
+  {
+    "book_id": "OP-010",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 10 - Special Operational Procedures and Hazards",
+    "sub_modules": [
+      {
+        "title": "Bird Strike Hazards",
+        "content": "Bird strikes represent a significant hazard to aircraft particularly during take-off, approach, and at low altitudes. Pilots must report bird strikes to ATC and complete a bird strike report form after landing. Operators and aerodromes work together on bird hazard management programmes including habitat control and dispersal techniques."
+      },
+      {
+        "title": "Volcanic Ash Avoidance",
+        "content": "Volcanic ash poses a severe hazard to aircraft as it can cause engine flameout, damage to airframe and engines, and loss of cockpit visibility. SIGMETs warn of volcanic ash and pilots should not fly through ash clouds. In the event of inadvertent ash encounter, the crew should apply full power, climb if possible, and exit the ash area."
+      },
+      {
+        "title": "De-icing and Anti-icing Operations",
+        "content": "De-icing removes existing ice, snow, and frost from aircraft surfaces; anti-icing prevents accumulation of contamination for a defined period called the hold-over time. The clean aircraft concept requires that no take-off be made with ice, snow, slush, or frost on critical surfaces. Type I fluid (orange) is used for de-icing, while Type II, III, and IV fluids (yellow/green) provide both de/anti-icing protection."
+      },
+      {
+        "title": "Noise Abatement Departure Procedures",
+        "content": "Noise Abatement Departure Procedures (NADP) are designed to reduce aircraft noise impact on communities around airports. NADP 1 reduces noise close to the airport by maintaining full power to a higher altitude before thrust reduction. NADP 2 reduces noise at a greater distance from the airport by reducing thrust earlier at a lower altitude. The applicable procedure is specified in the operator's OM and depends on the aerodrome requirements."
+      },
+      {
+        "title": "Refuelling with Passengers on Board",
+        "content": "Refuelling while passengers are embarking, on board, or disembarking is permitted provided specific precautions are taken. A responsible person must be in charge of the refuelling operation, communications must be established between ground and flight deck, seat belt signs must be off, No Smoking signs on, and exits must be unobstructed. Passengers must be advised of the refuelling procedure."
+      },
+      {
+        "title": "Passenger Safety Briefing Requirements",
+        "content": "Before each flight, passengers must receive a safety briefing covering seat belt use, emergency exit locations, oxygen mask use, life jacket use, and the prohibition on smoking. The briefing may be given verbally by cabin crew or by audio-visual means. Safety briefing cards must be available at each passenger seat."
+      },
+      {
+        "title": "Portable Electronic Devices",
+        "content": "The commander has authority to prohibit or restrict the use of portable electronic devices (PEDs) that may interfere with aircraft systems. Devices emitting radio frequency signals must not be used during flight unless specifically approved by the operator. The operator must publish clear policies on PED use for both passengers and crew."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "NADP", "meaning": "Noise Abatement Departure Procedure"},
+      {"abbr": "SIGMET", "meaning": "Significant Meteorological Information"},
+      {"abbr": "PED", "meaning": "Portable Electronic Device"},
+      {"abbr": "HOT", "meaning": "Hold Over Time (for anti-icing fluids)"}
+    ]
+  },
+  {
+    "book_id": "OP-011",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 11 - Fire and Smoke",
+    "sub_modules": [
+      {
+        "title": "Classes of Fire",
+        "content": "Fires are classified by the type of material burning: Class A fires involve solid materials such as wood, paper, and textiles; Class B fires involve flammable liquids such as fuel, oil, and hydraulic fluid; Class C fires involve electrical equipment; and Class D fires involve combustible metals. The correct type of fire extinguisher must be used for each class to avoid making the fire worse."
+      },
+      {
+        "title": "Fire Extinguisher Types",
+        "content": "Water extinguishers are effective on Class A fires but must never be used on electrical fires. CO2 (carbon dioxide) extinguishers are suitable for Class B and C fires and leave no residue. BCF (Bromochlorodifluoromethane or Halon) extinguishers are effective on Class A, B, and C fires and are commonly used in aircraft. Dry powder extinguishers can be used on Class A, B, C, and D fires but cause damage to electronics and obscure visibility."
+      },
+      {
+        "title": "Protective Breathing Equipment (PBE)",
+        "content": "Protective Breathing Equipment (PBE) must be available for flight crew to use when fighting fires in the cockpit or when smoke is present. PBE provides a minimum of 15 minutes of breathable air or oxygen. At least two PBE units must be carried in the cockpit; cabin crew must also have access to PBE units for fire-fighting duties."
+      },
+      {
+        "title": "Fire Detection Systems",
+        "content": "Aircraft are equipped with fire detection systems in the engines, APU, cargo holds, and lavatories. Engine fire warning systems use detector loops sensitive to heat or optical sensors. Cargo hold smoke detectors alert the crew to fire or smoke in holds, enabling use of built-in extinguishing systems. Lavatory smoke detectors and automatic extinguishers in waste bins are required."
+      },
+      {
+        "title": "In-flight Fire Fighting Procedures",
+        "content": "In the event of a confirmed fire, the crew must follow the emergency checklist, which includes identifying the source, using the appropriate extinguisher, and considering diversion to the nearest suitable airport. Hidden fires behind panels are particularly dangerous; if the smoke source cannot be identified, the crew should treat the situation as maximum urgency and prepare for emergency landing. The crew must don PBE and oxygen masks as soon as smoke is detected."
+      },
+      {
+        "title": "Cargo Fire and Smoke Procedures",
+        "content": "Smoke or fire in a cargo hold requires immediate activation of the cargo fire suppression system and diversion to land as soon as practicable. Built-in halon or other suppression agents may extinguish or contain the fire, but crews must be aware that the agent has limited duration. A rapid descent to a lower altitude may be required to deprive the fire of oxygen."
+      },
+      {
+        "title": "Lavatory Fire Procedures",
+        "content": "Lavatories must be equipped with smoke detectors and automatic fire extinguishers in waste paper bins to detect and suppress small fires before they spread. Cabin crew must investigate any lavatory smoke detector activation immediately. If a fire is confirmed, they should use a portable extinguisher and assess whether emergency procedures are required."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "PBE", "meaning": "Protective Breathing Equipment"},
+      {"abbr": "BCF", "meaning": "Bromochlorodifluoromethane (Halon)"},
+      {"abbr": "APU", "meaning": "Auxiliary Power Unit"},
+      {"abbr": "CO2", "meaning": "Carbon Dioxide"}
+    ]
+  },
+  {
+    "book_id": "OP-012",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 12 - Pressurisation Failure",
+    "sub_modules": [
+      {
+        "title": "Types of Pressurisation Failure",
+        "content": "Pressurisation failures are classified as slow (gradual), rapid, or explosive depending on the rate of pressure loss. Slow depressurisation may go unnoticed by crew unless monitored carefully and requires descent to a safe altitude within a time limit determined by oxygen supply. Rapid depressurisation gives crew time to don oxygen masks before becoming incapacitated. Explosive decompression is near instantaneous and can cause structural damage, fog, and sudden violent wind."
+      },
+      {
+        "title": "Time of Useful Consciousness (TUC)",
+        "content": "The Time of Useful Consciousness (TUC) is the period after loss of pressurisation during which a person can take meaningful action before hypoxia causes incapacitation. At FL250, TUC is approximately 3-5 minutes; at FL350, it is 30-60 seconds; at FL400 and above, TUC may be as little as 15-20 seconds. Crew must don oxygen masks within seconds of a pressurisation failure to maintain effectiveness."
+      },
+      {
+        "title": "Supplemental Oxygen Requirements",
+        "content": "Pressurised aircraft must carry sufficient supplemental oxygen for all crew and a percentage of passengers in the event of a pressurisation failure. For flights at cabin altitudes above 10,000 ft, flight crew must use supplemental oxygen. Passenger oxygen must be available for all passengers when cabin altitude exceeds 14,000 ft; at 15,000 ft, 10% of passengers must be provided oxygen; above 15,000 ft all passengers must receive oxygen."
+      },
+      {
+        "title": "Emergency Descent Procedures",
+        "content": "On confirmation of a pressurisation failure requiring emergency descent, the crew must don oxygen masks, select emergency oxygen, declare emergency with ATC, and initiate an immediate descent to 10,000 ft or Minimum Safe Altitude (MSA), whichever is higher. The descent is typically performed at maximum operating speed (VMO/MMO) with engines at flight idle and speed brakes deployed. Passengers must be notified and oxygen masks will automatically deploy."
+      },
+      {
+        "title": "Passenger Oxygen System",
+        "content": "Passenger oxygen is supplied by either continuous flow chemical generators or a gaseous/liquid oxygen system. Chemical oxygen generators are activated by pulling the mask lanyard and provide approximately 12-15 minutes of oxygen, which is sufficient time to descend to a breathable altitude. Oxygen masks drop automatically from overhead bins when cabin altitude reaches 14,000 ft."
+      },
+      {
+        "title": "Structural Integrity After Explosive Decompression",
+        "content": "Explosive decompression may cause structural damage including loss of windows, doors, or fuselage sections. Crew must assess controllability and structural integrity before attempting further flight. The aircraft should be landed as soon as possible after explosive decompression, and the investigation will examine why the structural failure occurred."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "TUC", "meaning": "Time of Useful Consciousness"},
+      {"abbr": "MSA", "meaning": "Minimum Safe Altitude"},
+      {"abbr": "VMO", "meaning": "Maximum Operating Speed (indicated)"},
+      {"abbr": "MMO", "meaning": "Maximum Operating Speed (Mach)"},
+      {"abbr": "FL", "meaning": "Flight Level"}
+    ]
+  },
+  {
+    "book_id": "OP-013",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 13 - Windshear and Microburst",
+    "sub_modules": [
+      {
+        "title": "Definition of Windshear",
+        "content": "Windshear is a rapid change in wind speed and/or direction over a short distance in the atmosphere, which can cause sudden changes in aircraft lift and airspeed. It can be horizontal (change in wind with horizontal distance) or vertical (change in wind with altitude). Low level windshear is particularly hazardous during take-off and landing when the aircraft has little speed margin."
+      },
+      {
+        "title": "Microburst Characteristics",
+        "content": "A microburst is a concentrated downdraft associated with a convective storm cell that spreads out on impact with the ground. An aircraft flying through a microburst first encounters a headwind (increased lift) then a downdraft (loss of lift) and then a tailwind (reduced lift), resulting in a net energy loss that can be catastrophic at low altitude. Microbursts can produce windshear in excess of 100 knots and downdrafts of up to 6000 ft/min."
+      },
+      {
+        "title": "Windshear Warning Systems",
+        "content": "Modern aircraft are equipped with predictive and reactive windshear warning systems. Predictive windshear systems use forward-looking weather radar to detect windshear ahead of the aircraft; reactive systems detect windshear as the aircraft encounters it using inertial and air data. The GPWS/EGPWS provides windshear alerts and escape guidance. PIREPs from other aircraft are also an important source of windshear information."
+      },
+      {
+        "title": "Windshear Avoidance",
+        "content": "The best protection against windshear is avoidance. If windshear is reported or suspected on the approach or departure path, the approach should be delayed or a different runway used. The crew should monitor speed, pitch attitude, and vertical speed closely for indications of windshear. Reports of windshear from preceding aircraft should be treated seriously and a go-around initiated if in doubt."
+      },
+      {
+        "title": "Windshear Recovery Procedures",
+        "content": "On encountering windshear, the crew should apply full thrust immediately, rotate to a windshear recovery pitch attitude (typically 15-20 degrees nose up), and arrest any descent. The priority is to prevent ground contact; do not reduce thrust or push the nose down even if airspeed is high. Continue to maximum climb attitude until clear of the hazard and airspeed is acceptable."
+      },
+      {
+        "title": "Crew Coordination During Windshear",
+        "content": "Windshear recovery requires rapid and coordinated crew response. The PF (Pilot Flying) applies the recovery manoeuvre while the PM (Pilot Monitoring) calls out airspeed and altitude. Go-around must be executed immediately if the GPWS windshear alert sounds during approach. Post-event, a complete debrief and PIREPs must be filed to warn other aircraft."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "GPWS", "meaning": "Ground Proximity Warning System"},
+      {"abbr": "EGPWS", "meaning": "Enhanced Ground Proximity Warning System"},
+      {"abbr": "PIREP", "meaning": "Pilot Report"},
+      {"abbr": "PF", "meaning": "Pilot Flying"},
+      {"abbr": "PM", "meaning": "Pilot Monitoring"}
+    ]
+  },
+  {
+    "book_id": "OP-014",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 14 - Wake Turbulence",
+    "sub_modules": [
+      {
+        "title": "Wake Turbulence Generation",
+        "content": "Wake turbulence is generated by any aircraft in flight as a consequence of lift production; it consists of a pair of counter-rotating vortices trailing behind the aircraft wingtips. The strength of the wake vortex depends on the weight, speed, and configuration of the generating aircraft; heavier, slower, and cleaner aircraft generate the strongest vortices. Wake turbulence can cause loss of control in a following aircraft if encountered too close."
+      },
+      {
+        "title": "ICAO Wake Turbulence Categories",
+        "content": "ICAO classifies aircraft into wake turbulence categories based on maximum certificated take-off mass: Heavy (H) at 136,000 kg or more; Medium (M) between 7,000 kg and 136,000 kg; and Light (L) at 7,000 kg or less. All Heavy aircraft must have the word HEAVY added to their callsign when operating near other aircraft. A Super (J) category exists for the A380."
+      },
+      {
+        "title": "Wake Turbulence Separation Standards",
+        "content": "ATC applies wake turbulence separation standards based on the categories of both the leading and following aircraft. For IFR approaches, a Heavy followed by a Medium requires at least 5 NM separation; a Heavy followed by a Light requires 6 NM. The greatest separation is required when a Small or Light aircraft follows a Heavy or Super. Separation is reduced at aerodromes with parallel runways under specific conditions."
+      },
+      {
+        "title": "Wake Turbulence Behaviour",
+        "content": "Wake vortices descend at approximately 300-500 ft per minute and level off 800-900 ft below the flight path of the generating aircraft. In calm conditions, vortices may persist for several minutes and can drift with the wind up to 1000 ft laterally. On landing, vortices remain near the touchdown zone and can drift across the runway in crosswind conditions."
+      },
+      {
+        "title": "Pilot Procedures for Wake Turbulence Avoidance",
+        "content": "Pilots should maintain awareness of heavy aircraft in the vicinity and avoid flying below and behind them. On approach, fly on or above the preceding aircraft's glidepath to stay above the vortex trail. On take-off, rotate at or before the preceding aircraft's rotation point and climb above or to the upwind side of the preceding aircraft's flight path. Request increased spacing if following a Heavy or Super."
+      },
+      {
+        "title": "Wake Turbulence in Cruise",
+        "content": "Wake turbulence in cruise can be encountered from aircraft at the same level or above. Reducing vertical separation to 1000 ft in RVSM airspace means that vortices from a level aircraft at the same altitude can still be encountered from aircraft 1000 ft above. If wake turbulence is suspected during cruise, request a level change to avoid the affected area."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ICAO", "meaning": "International Civil Aviation Organisation"},
+      {"abbr": "NM", "meaning": "Nautical Miles"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"},
+      {"abbr": "RVSM", "meaning": "Reduced Vertical Separation Minimum"}
+    ]
+  },
+  {
+    "book_id": "OP-015",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 15 - Security",
+    "sub_modules": [
+      {
+        "title": "Flight Deck Security",
+        "content": "Following the events of September 2001, reinforced flight deck doors became mandatory for commercial transport aircraft. The flight deck door must be capable of resisting forcible intrusion and must be locked at all times during flight unless required for entry or exit. A procedure must be in place to prevent unauthorised access to the flight deck when the door is opened for legitimate crew movements."
+      },
+      {
+        "title": "Transponder Codes for Emergencies and Hijack",
+        "content": "Specific transponder codes are used to communicate distress situations: Code 7700 is the general emergency code; Code 7600 is used for radio failure; Code 7500 is used to indicate unlawful interference (hijack). If squawking 7500, the crew must not confirm it verbally unless pressured by ATC, as doing so could endanger the aircraft. ATC will assume hijack and initiate appropriate procedures."
+      },
+      {
+        "title": "Hijack Procedures",
+        "content": "In the event of unlawful seizure of the aircraft, the crew should comply with hijacker demands to the extent that safety of the aircraft and its occupants is not jeopardised. Squawk 7500, attempt to land at the first suitable opportunity, and advise ATC discreetly. The crew should not take aggressive action that could result in violence and should attempt to de-escalate the situation."
+      },
+      {
+        "title": "Security Screening Requirements",
+        "content": "All passengers, cabin baggage, and checked baggage must undergo security screening before boarding. Prohibited items including weapons, explosives, and sharp objects must not be carried in the cabin. Only screened and identified baggage may be carried, and unaccompanied baggage must not be loaded."
+      },
+      {
+        "title": "Crew Security Responsibilities",
+        "content": "The commander has ultimate authority for security on board the aircraft. Crew must report any suspicious behaviour, unattended baggage, or security concerns. Crew must be vigilant during boarding and secure their crew rest areas and personal items. Security awareness training must be completed by all crew as part of their recurrent training."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ATC", "meaning": "Air Traffic Control"},
+      {"abbr": "ICAO", "meaning": "International Civil Aviation Organisation"}
+    ]
+  },
+  {
+    "book_id": "OP-016",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 16 - Emergency and Precautionary Landings",
+    "sub_modules": [
+      {
+        "title": "Emergency vs Precautionary Landing",
+        "content": "An emergency landing is made when the aircraft or its occupants are in immediate danger and the landing must be made immediately. A precautionary landing is made when continued flight is possible but inadvisable due to deteriorating conditions such as worsening weather, fuel shortage, or a developing mechanical issue. Both types may require diversion from the planned route and must be declared to ATC."
+      },
+      {
+        "title": "Ditching Procedures",
+        "content": "Ditching is the deliberate emergency landing of an aircraft on water. If ditching becomes necessary, the crew must select the best sea state and direction, configure the aircraft for minimum impact speed, and brief passengers on brace position and life jacket use. Upon impact, crew must initiate rapid evacuation, launch life rafts, and activate ELTs. Life jackets must not be inflated until outside the aircraft."
+      },
+      {
+        "title": "Emergency Evacuation",
+        "content": "In the event of an on-ground emergency requiring evacuation, the commander orders evacuation and cabin crew initiate the 90-second evacuation procedure. All exits must be evaluated before use; exits with external hazards such as fire must not be opened. Cabin crew position themselves at exits to direct passengers out and ensure rapid evacuation. Only 50% of available exits need be usable to meet the 90-second certification requirement."
+      },
+      {
+        "title": "Megaphone Requirements",
+        "content": "Commercial aircraft must carry battery-powered megaphones to assist cabin crew in directing passengers during emergency evacuations when the PA system may be inoperative. The number of megaphones required depends on the aircraft passenger capacity. Megaphones must be stowed in accessible locations and checked as part of pre-flight cabin safety checks."
+      },
+      {
+        "title": "Survival Equipment for Overwater Flights",
+        "content": "Aircraft operating over water beyond 50 NM from land must carry life jackets for each person on board. Beyond 30 minutes flying time at normal cruise speed from shore, or 100 NM, life rafts must also be carried with sufficient capacity for all on board. Survival equipment must include signalling devices, first aid, water, and rations appropriate for the expected conditions."
+      },
+      {
+        "title": "Coordination with ATC During Emergency",
+        "content": "When declaring an emergency, the crew should transmit a MAYDAY call on the frequency in use and, if time permits, on 121.5 MHz. The MAYDAY call includes the aircraft callsign, nature of emergency, intentions, position, and number of persons on board. ATC will provide all assistance possible including clearing airspace, alerting rescue services, and providing vectors to the nearest suitable airport."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ELT", "meaning": "Emergency Locator Transmitter"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"},
+      {"abbr": "NM", "meaning": "Nautical Miles"},
+      {"abbr": "PA", "meaning": "Passenger Address system"}
+    ]
+  },
+  {
+    "book_id": "OP-017",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 17 - Fuel Jettison",
+    "sub_modules": [
+      {
+        "title": "Purpose of Fuel Jettison Systems",
+        "content": "A fuel jettison (fuel dump) system allows the crew to rapidly reduce aircraft weight to below the Maximum Landing Weight (MLW) in an emergency requiring immediate landing. Not all aircraft are equipped with jettison systems; heavy wide-body aircraft that cannot land safely at near maximum take-off weight typically require them. Jettisoning fuel reduces structural stress and improves approach performance."
+      },
+      {
+        "title": "Fuel Jettison System Operation",
+        "content": "Fuel jettison systems are designed to dump fuel overboard from dump valves in the wing trailing edges or wingtips. Crew can control the rate and amount of fuel jettisoned to reach a target landing weight. The system typically has an automatic shut-off to prevent dumping below minimum fuel levels. Fuel dump must be coordinated with ATC to ensure other aircraft and populated areas are avoided."
+      },
+      {
+        "title": "ATC Coordination for Fuel Jettison",
+        "content": "Before commencing fuel jettison, the crew must advise ATC of their intentions, current weight, target weight, and expected jettison duration. ATC will provide a suitable area, altitude, and heading for the jettison, typically away from populated areas. A holding pattern may be assigned to allow fuel burn down to MLW on aircraft without jettison systems."
+      },
+      {
+        "title": "Environmental Considerations",
+        "content": "Fuel jettison must be conducted at sufficient altitude to allow atomised fuel to evaporate before reaching the ground. ATC will direct aircraft to perform jettison over unpopulated areas or at sea where possible. Aircraft without fuel jettison systems may need to perform an overweight landing, which requires a subsequent structural inspection before the aircraft is returned to service."
+      },
+      {
+        "title": "Overweight Landing Procedures",
+        "content": "If an aircraft must land overweight due to an emergency, the crew should advise ATC, follow the overweight landing checklist, and make a normal approach and landing. The landing should be as smooth as possible but safety takes priority. After landing, the aircraft must be inspected in accordance with the applicable maintenance procedures before further flight."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "MLW", "meaning": "Maximum Landing Weight"},
+      {"abbr": "MTOW", "meaning": "Maximum Take-Off Weight"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"}
+    ]
+  },
+  {
+    "book_id": "OP-018",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 18 - Transport of Dangerous Goods by Air",
+    "sub_modules": [
+      {
+        "title": "Introduction and Regulatory Framework",
+        "content": "The transport of dangerous goods by air is governed by ICAO Annex 18 and the ICAO Technical Instructions for the Safe Transport of Dangerous Goods by Air. These Technical Instructions are adopted by IATA as the IATA Dangerous Goods Regulations (DGR) which are used operationally. National variations may be more restrictive than the ICAO standards and must be observed."
+      },
+      {
+        "title": "Classification of Dangerous Goods",
+        "content": "Dangerous goods are classified into nine hazard classes: Class 1 - Explosives; Class 2 - Gases (flammable, non-flammable, toxic); Class 3 - Flammable Liquids; Class 4 - Flammable Solids, Spontaneously Combustible, Dangerous When Wet; Class 5 - Oxidising Substances and Organic Peroxides; Class 6 - Toxic and Infectious Substances; Class 7 - Radioactive Material; Class 8 - Corrosives; Class 9 - Miscellaneous Dangerous Goods."
+      },
+      {
+        "title": "Labelling and Packaging Requirements",
+        "content": "Packages containing dangerous goods must be properly packaged to withstand normal transport conditions and labelled with the correct hazard labels for the class of goods. Each package must display the UN number, proper shipping name, and class label. Inner and outer packaging must meet UN specification standards, and packages must be marked with the shipper and consignee details."
+      },
+      {
+        "title": "Loading Restrictions",
+        "content": "Certain dangerous goods must be kept separated during loading to prevent dangerous reactions in case of leakage. Radioactive materials must be separated from passengers, crew, and undeveloped film by specified distances. Oxidising substances must not be stored adjacent to flammable materials. The loading master must follow compatibility and segregation tables in the DGR."
+      },
+      {
+        "title": "Operator Acceptance Procedures",
+        "content": "Before accepting dangerous goods shipments, the operator must verify that the goods are correctly declared, classified, packaged, marked, and labelled. Acceptance checks must be performed using the current DGR acceptance checklist. The aircraft commander must be informed of all dangerous goods on board before departure via a NOTOC (Notification to Captain)."
+      },
+      {
+        "title": "NOTOC - Notification to Captain",
+        "content": "The Notification to Captain (NOTOC) is a document provided to the commander before departure listing all dangerous goods on board. The NOTOC includes the class, UN number, quantity, and location of each dangerous goods shipment in the aircraft. The commander must acknowledge receipt of the NOTOC and retain it for the flight. A copy must be kept on the ground."
+      },
+      {
+        "title": "Inspection for Damage and Leakage",
+        "content": "Dangerous goods packages must be inspected for damage or leakage before loading and a further inspection made on arrival. Damaged or leaking packages must not be loaded; if discovered in flight, the commander must be notified and appropriate precautions taken. On arrival, contaminated areas of the aircraft must be decontaminated before the next flight."
+      },
+      {
+        "title": "Dangerous Goods in Emergency Situations",
+        "content": "If a dangerous goods emergency occurs in flight, the crew must follow the Emergency Response Guidance for Aircraft Incidents involving Dangerous Goods (Doc 9481). The nature and location of the dangerous goods, combined with the class, determines the appropriate emergency response. The commander must notify ATC of the dangerous goods nature and request medical or fire service assistance as appropriate."
+      },
+      {
+        "title": "Dangerous Goods Training Requirements",
+        "content": "All persons involved in accepting, handling, loading, or carrying dangerous goods by air must receive appropriate initial and recurrent training. Flight crew and cabin crew must receive awareness training to recognise undeclared dangerous goods and respond to in-flight emergencies. Dangerous goods training must be completed every 2 years."
+      },
+      {
+        "title": "Passenger Provisions for Dangerous Goods",
+        "content": "Passengers are not permitted to carry many types of dangerous goods in either checked or cabin baggage. However, certain items for personal use are permitted in limited quantities, such as small quantities of toiletries, medicines, and small lithium batteries in personal electronics. Security screening is relied upon to detect prohibited items, and passengers must be informed of restrictions."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "ICAO", "meaning": "International Civil Aviation Organisation"},
+      {"abbr": "IATA", "meaning": "International Air Transport Association"},
+      {"abbr": "DGR", "meaning": "Dangerous Goods Regulations"},
+      {"abbr": "NOTOC", "meaning": "Notification to Captain"},
+      {"abbr": "UN", "meaning": "United Nations (number system for dangerous goods)"}
+    ]
+  },
+  {
+    "book_id": "OP-019",
+    "book_name": "Operational Procedures",
+    "chapter_name": "Chapter 19 - Contaminated Runways",
+    "sub_modules": [
+      {
+        "title": "Runway Surface Conditions",
+        "content": "Runways are classified as dry, damp, wet, or contaminated depending on the nature and extent of surface covering. A runway is contaminated when more than 25% of the surface area within the required length and width is covered by surface water more than 3 mm deep, slush, loose snow, compacted snow, ice, or wet ice. Damp runways have surface moisture that does not give a shiny appearance and are not classified as wet."
+      },
+      {
+        "title": "Definitions of Runway States",
+        "content": "A wet runway has a reflective or shiny appearance due to moisture but is not contaminated. A runway covered by water less than 3 mm deep is also considered wet. Compacted snow and ice reduce braking effectiveness significantly. Slush, being semi-liquid, can spray onto engines and other surfaces; the critical depth of slush for operations is 3 mm for most jet aircraft."
+      },
+      {
+        "title": "Depth Limits for Contaminants",
+        "content": "Operational limits for runway contamination are based on contaminant depth: dry snow up to 60 mm depth is generally permitted; wet snow and slush limits are around 15 mm; water limits are 3 mm. Compacted snow and ice present braking challenges regardless of depth. Contamination exceeding these limits may preclude operations on that runway."
+      },
+      {
+        "title": "Aquaplaning (Hydroplaning)",
+        "content": "Aquaplaning occurs when a layer of water builds up between the aircraft tyre and the runway surface, lifting the tyre and reducing friction to near zero. The aquaplaning speed for a given tyre pressure is calculated using the formula V = 9 x sqrt(P) where V is the aquaplaning speed in knots and P is the tyre pressure in lb/sq in. Once aquaplaning occurs, braking and directional control are severely degraded."
+      },
+      {
+        "title": "Braking Action",
+        "content": "Braking action describes the effectiveness of wheel brakes on a given runway surface and is expressed either descriptively (good, medium, poor, nil) or as a numerical coefficient of friction. The braking action coefficient ranges from 0.40 and above for good, 0.25-0.39 for medium, 0.15-0.24 for poor, and below 0.15 for nil. ATC and airport authorities report braking action to pilots based on measurements from friction measuring vehicles."
+      },
+      {
+        "title": "Performance Considerations",
+        "content": "Part B of the Operations Manual contains type-specific information on procedures associated with take-off and landing on contaminated runways, together with performance data and any wind limitations including crosswind, tailwind, and headwind gust limits. Performance calculations for contaminated runways must use approved data that accounts for the specific contaminant type and depth."
+      },
+      {
+        "title": "SNOWTAMs",
+        "content": "SNOWTAMs are issued by aerodromes where runway contamination is a common occurrence to inform crews of surface conditions. A SNOWTAM contains coded information including: item F (type of contaminant), item G (depth of contaminant in mm over each third of the runway), and item H (braking action for each third expressed as measured coefficient multiplied by 100 or a one-figure braking action code). The validity of a SNOWTAM is up to 24 hours. SNOWTAM contaminant codes range from NIL (clear and dry) through codes 1-9 representing damp, wet, rime/frost covered, dry snow, wet snow, slush, ice, compacted or rolled snow, and frozen ruts or ridges respectively."
+      }
+    ],
+    "abbreviations": [
+      {"abbr": "SNOWTAM", "meaning": "Snow Notice to Airmen (special NOTAM for runway contamination)"},
+      {"abbr": "NOTAM", "meaning": "Notice to Airmen"},
+      {"abbr": "RVR", "meaning": "Runway Visual Range"},
+      {"abbr": "ATC", "meaning": "Air Traffic Control"}
+    ]
+  }
+]

@@ -1,0 +1,5084 @@
+[
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 1 - Characteristics and General Definitions",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Pilots rely on instruments to understand aircraft state such as speed, altitude, position, and attitude. These range from simple analogue dials to advanced electronic glass cockpit displays."
+      },
+      {
+        "title": "General Characteristics of Instruments",
+        "content": "All instruments must balance range, accuracy, resolution, and reliability regardless of their design or complexity."
+      },
+      {
+        "title": "Measuring Range vs Accuracy",
+        "content": "Instruments must display a wide range while maintaining precision. Higher range often reduces readability of small changes, making accurate interpretation difficult."
+      },
+      {
+        "title": "Linear Circular Scale",
+        "content": "A linear scale displays values evenly across the dial, where each unit is equally spaced, making interpretation straightforward."
+      },
+      {
+        "title": "Non-linear Circular Scale",
+        "content": "A non-linear (logarithmic) scale provides better accuracy in critical ranges, such as low rates of climb, by expanding those regions on the dial."
+      },
+      {
+        "title": "High Range Displays",
+        "content": "When large ranges must be displayed, instruments may use multiple pointer revolutions or multiple scales to improve readability."
+      },
+      {
+        "title": "Multiple Pointer Displays",
+        "content": "Some instruments use multiple pointers (like a clock) to represent different units such as thousands, tens of thousands, and hundreds of thousands."
+      },
+      {
+        "title": "Ergonomics",
+        "content": "Ergonomics ensures instruments and controls are designed for easy use, minimizing pilot error and improving interaction between pilot and machine."
+      },
+      {
+        "title": "Instrument Layout",
+        "content": "Standard layouts like the 'basic six' and 'basic T' organize key flight instruments for efficient scanning and quick interpretation."
+      },
+      {
+        "title": "Analogue vs Digital Displays",
+        "content": "Analogue displays use pointers and are useful for detecting trends, while digital displays provide precise numerical values for easier reading."
+      },
+      {
+        "title": "Electronic Displays",
+        "content": "Modern aircraft use glass cockpits with electronic displays. Processing units are often located remotely in avionics bays."
+      },
+      {
+        "title": "Readability and Parallax",
+        "content": "Instruments must be viewed from the correct angle to avoid parallax error, ensuring accurate reading of values."
+      },
+      {
+        "title": "Colour Coding (Analogue Instruments)",
+        "content": "Green indicates normal operation, yellow/amber indicates caution, and red indicates danger or limits exceeded."
+      },
+      {
+        "title": "Colour Coding (Electronic Displays)",
+        "content": "White indicates current status, blue temporary states, green normal, yellow caution, and red warnings in electronic systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 2 - Pitot and Static Sources",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Aircraft instruments use static and dynamic pressures to determine flight parameters like speed and altitude. Static pressure is ambient atmospheric pressure, while dynamic pressure is caused by aircraft motion through air."
+      },
+      {
+        "title": "Types of Pressure",
+        "content": "Total (pitot) pressure is the sum of static and dynamic pressure. Dynamic pressure is obtained by subtracting static pressure from pitot pressure."
+      },
+      {
+        "title": "Pressure Relationship",
+        "content": "Pitot pressure equals static plus dynamic pressure. Dynamic pressure is calculated as pitot minus static pressure."
+      },
+      {
+        "title": "Instruments Using Pitot and Static",
+        "content": "Altimeter and VSI use static pressure only. Airspeed Indicator and Machmeter use both pitot and static pressures."
+      },
+      {
+        "title": "Pitot Tube",
+        "content": "A pitot tube faces the airflow and measures total pressure by bringing moving air to rest inside the tube."
+      },
+      {
+        "title": "Static Source",
+        "content": "Static pressure is measured through vents or ports positioned perpendicular to airflow to avoid dynamic pressure influence."
+      },
+      {
+        "title": "Combined Pitot-Static Probe",
+        "content": "Some systems combine pitot and static sensors in a single probe with separate channels for each pressure."
+      },
+      {
+        "title": "Pitot Tube Requirements",
+        "content": "Pitot tubes must be positioned outside boundary layers, aligned with airflow, and equipped with heating to prevent icing."
+      },
+      {
+        "title": "Static Source Requirements",
+        "content": "Static ports must be positioned to minimize airflow disturbance and accurately measure ambient pressure."
+      },
+      {
+        "title": "Position Error",
+        "content": "Errors occur due to airflow disturbance around sensors. These depend on aircraft speed, attitude, and probe location."
+      },
+      {
+        "title": "Static Vent System",
+        "content": "Static vents are placed on fuselage sides where airflow is stable. Dual vents reduce errors caused by yaw or sideslip."
+      },
+      {
+        "title": "Advantages of Static Vents",
+        "content": "Provide more accurate pressure readings, reduce turbulence effects, and minimize yaw and sideslip errors."
+      },
+      {
+        "title": "High-Speed Probes",
+        "content": "High-speed aircraft use advanced probes to reduce errors caused by shock waves at high Mach numbers."
+      },
+      {
+        "title": "Manoeuvre-Induced Errors",
+        "content": "Rapid changes in aircraft attitude cause temporary pressure fluctuations, leading to lag or incorrect instrument readings."
+      },
+      {
+        "title": "Full Pitot-Static System",
+        "content": "Modern systems use sensors, pipelines or electrical signals, and air data computers to process pressure data."
+      },
+      {
+        "title": "System Configuration",
+        "content": "Pitot systems are not cross-linked, but static systems are cross-coupled to reduce errors from yaw and sideslip."
+      },
+      {
+        "title": "Alternate Static Source",
+        "content": "Backup static sources are provided in case of blockage, though they may introduce small errors."
+      },
+      {
+        "title": "Pitot Covers and Static Plugs",
+        "content": "Protect sensors from dirt and insects when aircraft is parked. Must be removed before flight."
+      },
+      {
+        "title": "Pitot and Static Heaters",
+        "content": "Heating systems prevent ice formation. Must be checked before flight and used during flight."
+      },
+      {
+        "title": "Preflight Checks",
+        "content": "Ensure covers are removed, openings are clear, and pitot heater is functioning correctly."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 3 - Air Temperature Measurement",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Air temperature is essential for flight safety, performance calculations, and accurate measurement of speed and altitude."
+      },
+      {
+        "title": "Importance of Temperature",
+        "content": "Temperature affects icing risk, engine performance, air density, airspeed calculation, and altitude accuracy."
+      },
+      {
+        "title": "Icing Hazards",
+        "content": "Icing can reduce lift, increase drag and weight, freeze controls, reduce engine power, and cause structural damage. Pilots avoid icing by changing altitude or avoiding clouds."
+      },
+      {
+        "title": "Effect on Engine Performance",
+        "content": "Air temperature affects air density. Dense air allows more fuel combustion and higher power, while less dense air reduces engine performance."
+      },
+      {
+        "title": "Effect on Airspeed Measurement",
+        "content": "Airspeed depends on air density, which is affected by temperature. Therefore, temperature influences speed calculations."
+      },
+      {
+        "title": "Effect on Altitude Measurement",
+        "content": "Temperature affects pressure variation with altitude. Incorrect temperature assumptions can lead to altitude errors."
+      },
+      {
+        "title": "Types of Thermometers",
+        "content": "Air temperature is measured using direct reading (mechanical) or remote reading (electronic) thermometers."
+      },
+      {
+        "title": "Direct Reading Thermometers",
+        "content": "Use bimetallic strips that bend with temperature changes. Suitable for simple aircraft but not for high-speed aircraft."
+      },
+      {
+        "title": "Remote Reading Systems",
+        "content": "Use electrical sensors and are suitable for modern aircraft, allowing integration with other systems."
+      },
+      {
+        "title": "Total Air Temperature (TAT) Probe",
+        "content": "A TAT probe measures air temperature using a platinum resistance sensor. It is positioned outside the boundary layer and includes anti-icing heating."
+      },
+      {
+        "title": "Aspirated Probe (Ground Measurement)",
+        "content": "Uses bleed air to draw outside air through the sensor when aircraft is stationary, ensuring accurate readings."
+      },
+      {
+        "title": "Sources of Error",
+        "content": "Errors include instrument imperfections, environmental effects like solar heating and ice, and heating errors caused by airflow."
+      },
+      {
+        "title": "Heating Errors",
+        "content": "At high speeds, air temperature increases due to kinetic (friction) and adiabatic (compression) heating."
+      },
+      {
+        "title": "Temperature Definitions",
+        "content": "Static Air Temperature (SAT) is undisturbed air temperature. Total Air Temperature (TAT) includes full heating. Ram Air Temperature (RAT) is the measured value."
+      },
+      {
+        "title": "Ram Rise",
+        "content": "Ram rise is the increase in temperature due to aircraft speed. It is the difference between SAT and TAT or RAT."
+      },
+      {
+        "title": "Recovery Factor",
+        "content": "Recovery factor indicates how much of the ram rise is measured by the probe. It is usually less than 1."
+      },
+      {
+        "title": "Temperature Relationships",
+        "content": "TAT equals SAT plus ram rise. RAT is the measured temperature and is usually less than TAT due to inefficiencies."
+      },
+      {
+        "title": "Conversion of RAT/TAT to SAT",
+        "content": "SAT can be calculated using formulas, navigation computers, tables, or air data computers."
+      },
+      {
+        "title": "Kelvin Temperature Scale",
+        "content": "Absolute temperature is measured in Kelvin, starting at absolute zero (-273°C). It is used in accurate calculations."
+      },
+      {
+        "title": "International Standard Atmosphere (ISA)",
+        "content": "ISA provides standard reference values for pressure, temperature, and density used for calibration and performance calculations."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 4 - Airspeed Indicator (ASI)",
+    "sub_modules": [
+      {
+        "title": "Principle of Operation",
+        "content": "The ASI measures dynamic pressure, which is the difference between pitot (total) pressure and static pressure. Dynamic pressure is proportional to airspeed."
+      },
+      {
+        "title": "Pressure Relationship",
+        "content": "Pitot pressure equals static plus dynamic pressure. The ASI subtracts static pressure from pitot pressure to determine dynamic pressure."
+      },
+      {
+        "title": "Dynamic Pressure Formula",
+        "content": "Dynamic pressure is proportional to air density and the square of true airspeed. This relationship allows airspeed to be calculated."
+      },
+      {
+        "title": "Construction of ASI",
+        "content": "Static pressure fills the instrument case while pitot pressure enters a capsule. Expansion of the capsule due to pressure difference drives the pointer."
+      },
+      {
+        "title": "Calibration",
+        "content": "The ASI is calibrated for standard sea level conditions (ISA). Changes in air density with altitude introduce errors."
+      },
+      {
+        "title": "Instrument Error",
+        "content": "Errors caused by manufacturing imperfections and wear. These are corrected using calibration data."
+      },
+      {
+        "title": "Position Error",
+        "content": "Errors caused by incorrect sensing of static pressure due to airflow disturbances around the aircraft."
+      },
+      {
+        "title": "Manoeuvre-induced Errors",
+        "content": "Rapid changes in aircraft attitude cause temporary lag and inaccurate airspeed readings."
+      },
+      {
+        "title": "Indicated Airspeed (IAS)",
+        "content": "The speed shown directly on the ASI without any corrections."
+      },
+      {
+        "title": "Calibrated Airspeed (CAS)",
+        "content": "IAS corrected for instrument and position errors. CAS represents true dynamic pressure."
+      },
+      {
+        "title": "Equivalent Airspeed (EAS)",
+        "content": "CAS corrected for compressibility error. It is the most accurate representation of dynamic pressure."
+      },
+      {
+        "title": "True Airspeed (TAS)",
+        "content": "EAS corrected for density error. TAS represents the aircraft’s actual speed through the air."
+      },
+      {
+        "title": "Density Error",
+        "content": "At higher altitude, lower air density causes the ASI to under-read true airspeed."
+      },
+      {
+        "title": "Compressibility Error",
+        "content": "At high speeds, air compression causes the ASI to over-read. This becomes significant above 300 knots."
+      },
+      {
+        "title": "Error Correction Sequence",
+        "content": "IAS is corrected for instrument and position error to get CAS, then for compressibility to get EAS, and finally for density to get TAS."
+      },
+      {
+        "title": "Limiting Speeds",
+        "content": "Important speeds include VNE (never exceed), VNO (normal limit), VFE (flap limit), VS (stall speed), and others related to aircraft performance."
+      },
+      {
+        "title": "ASI Colour Coding",
+        "content": "White arc: flap range, green arc: normal range, yellow arc: caution range, red line: maximum limit speed."
+      },
+      {
+        "title": "Pitot Blockage Effects",
+        "content": "Blocked pitot causes incorrect readings. During descent, ASI under-reads; during climb, it over-reads."
+      },
+      {
+        "title": "Static Blockage Effects",
+        "content": "Blocked static source causes ASI to over-read in descent and under-read in climb."
+      },
+      {
+        "title": "Mnemonic for Errors",
+        "content": "PUDSOD: Pitot Under-reads in Descent, Static Over-reads in Descent."
+      },
+      {
+        "title": "Pitot and Static Leaks",
+        "content": "Pitot leaks cause under-reading; static leaks may cause over-reading or unreliable indications."
+      },
+      {
+        "title": "Serviceability Checks",
+        "content": "Ensure pitot covers removed, sensors clear, heater working, and ASI responds correctly during take-off."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 5 - The Pressure Altimeter",
+    "sub_modules": [
+      {
+        "title": "Principle of Operation",
+        "content": "The altimeter measures atmospheric pressure. As altitude increases, pressure decreases. By measuring pressure, altitude is determined."
+      },
+      {
+        "title": "Pressure vs Height Relationship",
+        "content": "Pressure decreases with altitude, but not linearly. Calibration is required to convert pressure into height."
+      },
+      {
+        "title": "Definitions",
+        "content": "Height: vertical distance from a reference point. Elevation: height of a fixed point above MSL. Altitude: height of an aircraft above MSL. Pressure Altitude: altitude referenced to 1013.25 hPa."
+      },
+      {
+        "title": "True Altitude",
+        "content": "The actual vertical distance between the aircraft and the surface directly below."
+      },
+      {
+        "title": "Calibration (ISA)",
+        "content": "Altimeters are calibrated using International Standard Atmosphere (ISA) conditions for consistent readings."
+      },
+      {
+        "title": "Simple Altimeter",
+        "content": "Uses a single capsule that expands as pressure decreases. Movement is converted into pointer rotation."
+      },
+      {
+        "title": "Sensitive Altimeter",
+        "content": "Uses multiple capsules and three pointers (1000s, 10000s, 100000s feet) for better accuracy."
+      },
+      {
+        "title": "Three Pointer System",
+        "content": "Displays altitude using three needles but can be confusing and prone to misreading."
+      },
+      {
+        "title": "Counter Pointer Altimeter",
+        "content": "Combines digital counters with a pointer for clearer altitude reading and rate indication."
+      },
+      {
+        "title": "Servo-assisted Altimeter",
+        "content": "Uses electrical signals and motors to improve accuracy and reduce mechanical errors, especially at high altitude."
+      },
+      {
+        "title": "Variable Datum (Subscale)",
+        "content": "Pilot sets pressure value (e.g., QNH) using a knob. The altimeter then shows altitude relative to that pressure."
+      },
+      {
+        "title": "Position Error",
+        "content": "Occurs due to incorrect sensing of static pressure outside the aircraft."
+      },
+      {
+        "title": "Instrument Error",
+        "content": "Caused by manufacturing imperfections and mechanical friction."
+      },
+      {
+        "title": "Manoeuvre-induced Error",
+        "content": "Temporary errors due to rapid changes in aircraft attitude affecting pressure sensing."
+      },
+      {
+        "title": "Barometric Error",
+        "content": "Occurs when incorrect pressure setting is used. Approximately 30 ft error per 1 hPa."
+      },
+      {
+        "title": "Time Lag Error",
+        "content": "Altimeter response is delayed during rapid climbs or descents, causing under-reading in climb and over-reading in descent."
+      },
+      {
+        "title": "Temperature Error",
+        "content": "In cold air, altimeter over-reads (true altitude is lower). In warm air, it under-reads."
+      },
+      {
+        "title": "High to Low Rule",
+        "content": "Flying from high pressure to low pressure or high temperature to low temperature causes the altimeter to over-read."
+      },
+      {
+        "title": "Standard Pressure Setting",
+        "content": "1013.25 hPa is used to measure pressure altitude and flight levels."
+      },
+      {
+        "title": "Flight Levels",
+        "content": "Altitude referenced to 1013.25 hPa, expressed in hundreds of feet (e.g., FL350 = 35000 ft)."
+      },
+      {
+        "title": "QFE",
+        "content": "Pressure setting where altimeter reads zero on the ground. Indicates height above aerodrome."
+      },
+      {
+        "title": "QNH",
+        "content": "Pressure setting where altimeter reads aerodrome elevation on ground. Indicates altitude above MSL."
+      },
+      {
+        "title": "Regional QNH",
+        "content": "Lowest forecast pressure in an area, ensuring safe terrain clearance by under-reading altitude."
+      },
+      {
+        "title": "Static Blockage Effects",
+        "content": "Blocked static source freezes altimeter reading. In climb it under-reads, in descent it over-reads."
+      },
+      {
+        "title": "Static Leak Effects",
+        "content": "Leaks can cause incorrect altitude readings depending on cabin pressure conditions."
+      },
+      {
+        "title": "Density Altitude",
+        "content": "Altitude in standard atmosphere corresponding to current air density. Important for aircraft performance."
+      },
+      {
+        "title": "Preflight Checks",
+        "content": "Altimeter must be checked on ground using known elevation and pressure settings to ensure accuracy."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 6 - The Vertical Speed Indicator (VSI)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The VSI indicates the rate of climb or descent in feet per minute by measuring changes in static pressure over time."
+      },
+      {
+        "title": "Purpose of VSI",
+        "content": "Provides accurate vertical speed information, useful for controlled climbs, descents, and instrument approaches."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The VSI compares current static pressure with pressure from a few seconds earlier to determine rate of climb or descent."
+      },
+      {
+        "title": "Basic Concept",
+        "content": "In level flight, pressures are equal. During climb or descent, pressure changes occur at different rates due to a restriction, creating a measurable difference."
+      },
+      {
+        "title": "Construction",
+        "content": "A capsule is connected directly to static pressure, while the case receives static pressure through a restricted choke, creating a time delay."
+      },
+      {
+        "title": "Working in Climb",
+        "content": "During climb, pressure inside the capsule decreases faster than in the case, causing capsule movement and indicating climb."
+      },
+      {
+        "title": "Working in Descent",
+        "content": "During descent, pressure increases faster inside the capsule than in the case, causing expansion and indicating descent."
+      },
+      {
+        "title": "Metering Unit (Choke)",
+        "content": "A calibrated restriction using capillary and orifice ensures accurate rate indication in feet per minute at all altitudes."
+      },
+      {
+        "title": "Display",
+        "content": "Shows rate of climb or descent, typically in feet per minute, centered at zero for level flight."
+      },
+      {
+        "title": "Instrument Error",
+        "content": "Caused by manufacturing imperfections affecting accuracy."
+      },
+      {
+        "title": "Position Error",
+        "content": "Incorrect static pressure sensing can cause false climb or descent indications, especially during acceleration."
+      },
+      {
+        "title": "Manoeuvre-induced Error",
+        "content": "Rapid attitude changes cause temporary false readings due to pressure fluctuations."
+      },
+      {
+        "title": "Time Lag",
+        "content": "There is a delay of several seconds before the VSI shows correct vertical speed due to gradual pressure equalization."
+      },
+      {
+        "title": "Static Blockage Effect",
+        "content": "If static source is blocked, VSI will read zero regardless of actual climb or descent."
+      },
+      {
+        "title": "Instantaneous VSI (IVSI)",
+        "content": "An improved VSI that uses an accelerometer (dashpot) to provide immediate response to vertical movement."
+      },
+      {
+        "title": "IVSI Working",
+        "content": "The accelerometer detects initial vertical acceleration and provides instant indication before normal pressure difference builds."
+      },
+      {
+        "title": "IVSI Errors",
+        "content": "Sensitive to turbulence and may give false readings during turns or unstable flight conditions."
+      },
+      {
+        "title": "Display Types",
+        "content": "Linear scale shows uniform spacing, while logarithmic scale gives better readability at low climb/descent rates."
+      },
+      {
+        "title": "Serviceability Checks (Ground)",
+        "content": "Instrument should read zero within allowable limits and show no physical damage."
+      },
+      {
+        "title": "Serviceability Checks (Air)",
+        "content": "VSI should read zero in level flight and match calculated rate using altimeter and time."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 7 - The Machmeter",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Machmeter displays the Mach number, which is the ratio of true airspeed to the local speed of sound."
+      },
+      {
+        "title": "Importance in High Speed Flight",
+        "content": "At high speeds, shock waves can form causing drag, loss of lift, buffeting, and Mach tuck. Mach limits (MMO) must not be exceeded."
+      },
+      {
+        "title": "Mach Number Definition",
+        "content": "Mach number is the ratio of true airspeed (TAS) to local speed of sound (LSS)."
+      },
+      {
+        "title": "Speed of Sound",
+        "content": "The speed of sound depends on temperature and decreases with altitude as temperature decreases."
+      },
+      {
+        "title": "Speed of Sound Formula",
+        "content": "Local speed of sound = 38.95 × square root of absolute temperature (Kelvin)."
+      },
+      {
+        "title": "Machmeter Principle",
+        "content": "The Machmeter compares dynamic pressure and static pressure to determine Mach number."
+      },
+      {
+        "title": "Capsule System",
+        "content": "Uses two capsules: an airspeed capsule (responds to dynamic pressure) and an altitude capsule (responds to static pressure)."
+      },
+      {
+        "title": "Working Mechanism",
+        "content": "Movement of both capsules is combined using linkages to produce a Mach number indication."
+      },
+      {
+        "title": "Ratio Relationship",
+        "content": "Mach number is proportional to the ratio of dynamic pressure to static pressure."
+      },
+      {
+        "title": "Machmeter Construction",
+        "content": "Includes airspeed capsule, altitude capsule, ratio arm, ranging arm, and pointer mechanism."
+      },
+      {
+        "title": "Mach Limit (MMO)",
+        "content": "Maximum Mach number allowed for an aircraft to avoid dangerous aerodynamic effects."
+      },
+      {
+        "title": "Instrument Error",
+        "content": "Caused by mechanical imperfections in the instrument."
+      },
+      {
+        "title": "Position Error",
+        "content": "Due to incorrect sensing of pitot and static pressures, especially at high Mach numbers."
+      },
+      {
+        "title": "Manoeuvre-induced Error",
+        "content": "Occurs due to airflow disturbances during aircraft manoeuvres."
+      },
+      {
+        "title": "No Temperature or Density Error",
+        "content": "Temperature and density effects cancel out in Mach calculations, so these errors do not affect Machmeter readings."
+      },
+      {
+        "title": "Static Blockage Effects",
+        "content": "Blocked static source causes Machmeter to under-read in climb and over-read in descent."
+      },
+      {
+        "title": "Pitot Blockage Effects",
+        "content": "Blocked pitot source causes Machmeter to over-read in climb and under-read in descent."
+      },
+      {
+        "title": "Mach vs CAS vs TAS",
+        "content": "Mach relates TAS to speed of sound. CAS and TAS vary differently with altitude compared to Mach."
+      },
+      {
+        "title": "Climb at Constant CAS",
+        "content": "TAS increases and Mach number increases significantly as altitude increases."
+      },
+      {
+        "title": "Climb at Constant Mach",
+        "content": "TAS decreases and CAS decreases as altitude increases."
+      },
+      {
+        "title": "Descent at Constant Mach",
+        "content": "TAS increases and CAS increases significantly as altitude decreases."
+      },
+      {
+        "title": "Isothermal Layer",
+        "content": "In constant temperature layers, speed of sound remains constant, so TAS remains constant at constant Mach."
+      },
+      {
+        "title": "Temperature Inversion",
+        "content": "In increasing temperature with altitude, speed of sound increases affecting TAS and Mach relationships."
+      },
+      {
+        "title": "Combined Mach/Airspeed Indicator",
+        "content": "Modern aircraft combine Machmeter and ASI into one instrument, often connected to an Air Data Computer."
+      },
+      {
+        "title": "Air Data Computer (ADC)",
+        "content": "Processes pitot, static, and temperature data to provide accurate Mach and airspeed readings."
+      },
+      {
+        "title": "Abbreviations",
+        "content": "MMR: Machmeter reading, IMN: Indicated Mach number, TMN: True Mach number, MMO: Maximum Mach limit."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 8 - Air Data Computer (ADC)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Air Data Computer (ADC) replaces conventional instruments by computing altitude, airspeed, Mach number, and vertical speed from pressure and temperature inputs."
+      },
+      {
+        "title": "Air Data System (ADS)",
+        "content": "The ADC, sensors, displays, and power supply together form the Air Data System, providing essential flight data."
+      },
+      {
+        "title": "Inputs to ADC",
+        "content": "The ADC receives pitot pressure, static pressure, and air temperature, and sometimes angle of attack (AOA)."
+      },
+      {
+        "title": "Outputs from ADC",
+        "content": "Outputs include altitude, vertical speed, airspeed, Mach number, total air temperature, static air temperature, and true airspeed."
+      },
+      {
+        "title": "Integration with Aircraft Systems",
+        "content": "ADC outputs are used by systems such as AFCS, transponder, flight data recorder, and navigation systems."
+      },
+      {
+        "title": "Configuration Module",
+        "content": "Allows calibration of the ADC for specific aircraft characteristics and sensor positioning differences."
+      },
+      {
+        "title": "Analogue ADC",
+        "content": "Uses continuous signals like pressure and voltage. Mechanical linkages and transducers convert pressure into usable outputs."
+      },
+      {
+        "title": "Digital ADC",
+        "content": "Uses digital (binary) data. Analogue inputs are converted into digital signals for processing and transmission."
+      },
+      {
+        "title": "Analogue to Digital Conversion",
+        "content": "Sensors measure physical quantities and convert them into digital signals for processing in the ADC."
+      },
+      {
+        "title": "Computation",
+        "content": "The ADC continuously solves mathematical relationships between pressure, temperature, and speed to generate outputs."
+      },
+      {
+        "title": "Redundancy",
+        "content": "Multiple ADCs and independent pitot-static systems ensure reliability and backup in case of failure."
+      },
+      {
+        "title": "Cross-connection",
+        "content": "ADC systems can be cross-connected so one ADC can supply data to both pilot and co-pilot instruments."
+      },
+      {
+        "title": "Standby Instruments",
+        "content": "Independent mechanical instruments are provided in case of total ADC failure."
+      },
+      {
+        "title": "Failure Warning",
+        "content": "Comparison systems monitor ADC outputs and provide warnings through flags or lights if discrepancies occur."
+      },
+      {
+        "title": "Built-in Test Equipment (BITE)",
+        "content": "Automatic testing system that checks ADC functionality and detects faults."
+      },
+      {
+        "title": "Power-Up BITE",
+        "content": "Runs checks during system startup, including processor, memory, and sensors."
+      },
+      {
+        "title": "Continuous BITE",
+        "content": "Performs continuous system checks during operation, typically every second."
+      },
+      {
+        "title": "Maintenance BITE",
+        "content": "Allows ground crew to diagnose faults using test and history functions."
+      },
+      {
+        "title": "Improved Displays",
+        "content": "Allows advanced displays such as digital readouts, moving tapes, and integrated instrument panels."
+      },
+      {
+        "title": "Reduced Errors",
+        "content": "Eliminates mechanical friction and reduces lag errors using electronic processing and servos."
+      },
+      {
+        "title": "Error Correction",
+        "content": "ADC can automatically correct errors such as position error using programmed calibration data."
+      },
+      {
+        "title": "Centralized Data Source",
+        "content": "Provides consistent and accurate air data to multiple aircraft systems simultaneously."
+      },
+      {
+        "title": "Clean System Design",
+        "content": "Reduces pneumatic piping, improving reliability, maintenance, and reducing pressure transmission errors."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 9 - Terrestrial Magnetism",
+    "sub_modules": [
+      {
+        "title": "The Magnet",
+        "content": "Magnetism is a property of materials like magnetite that allows them to attract iron and align north-south."
+      },
+      {
+        "title": "Magnetic Field",
+        "content": "The region around a magnet where its influence is felt is called the magnetic field."
+      },
+      {
+        "title": "Poles of a Magnet",
+        "content": "Magnets have two poles where magnetic force is strongest. Cutting a magnet always results in two poles in each piece."
+      },
+      {
+        "title": "Red and Blue Poles",
+        "content": "The north-seeking pole is called the red pole and the south-seeking pole is the blue pole."
+      },
+      {
+        "title": "Magnetic Lines of Force",
+        "content": "Magnetic lines of force flow from the red pole to the blue pole."
+      },
+      {
+        "title": "Attraction and Repulsion",
+        "content": "Like poles repel each other, while unlike poles attract each other."
+      },
+      {
+        "title": "Magnetization by Stroking",
+        "content": "Iron can be magnetized by stroking it repeatedly with a magnet in one direction."
+      },
+      {
+        "title": "Magnetization by Alignment and Vibration",
+        "content": "Aligning iron in a magnetic field and applying vibration or hammering induces magnetism."
+      },
+      {
+        "title": "Magnetization by Magnetic Field",
+        "content": "Simply placing iron in a magnetic field can induce magnetism."
+      },
+      {
+        "title": "Magnetization by Solenoid",
+        "content": "Passing electric current through a coil (solenoid) produces a strong magnetic field that magnetizes the material."
+      },
+      {
+        "title": "Demagnetization by Shock",
+        "content": "Hammering a magnetized object at right angles to the earth’s magnetic field removes magnetism."
+      },
+      {
+        "title": "Demagnetization by Heat",
+        "content": "Heating a material to high temperatures removes its magnetism."
+      },
+      {
+        "title": "Demagnetization by Alternating Current",
+        "content": "Applying alternating current in a solenoid reduces magnetism gradually to zero."
+      },
+      {
+        "title": "Magnetic Materials",
+        "content": "Ferrous materials like iron and steel can be magnetized and affect compasses."
+      },
+      {
+        "title": "Non-Magnetic Materials",
+        "content": "Materials like aluminium, copper, and plastic do not affect magnetic fields."
+      },
+      {
+        "title": "Hard Iron",
+        "content": "Hard iron retains magnetism for long periods and is used for permanent magnets."
+      },
+      {
+        "title": "Soft Iron",
+        "content": "Soft iron is easily magnetized but does not retain magnetism once the field is removed."
+      },
+      {
+        "title": "Earth as a Magnet",
+        "content": "The Earth behaves like a large magnet with magnetic poles near its center."
+      },
+      {
+        "title": "Magnetic Variation",
+        "content": "The angle between true north and magnetic north is called magnetic variation."
+      },
+      {
+        "title": "East and West Variation",
+        "content": "Variation is east or west depending on whether magnetic north lies east or west of true north."
+      },
+      {
+        "title": "Magnetic Dip",
+        "content": "The angle between the magnetic field and the horizontal plane is called magnetic dip."
+      },
+      {
+        "title": "Magnetic Equator",
+        "content": "The magnetic equator is where the dip angle is zero."
+      },
+      {
+        "title": "Field Strength",
+        "content": "The Earth's magnetic force can be resolved into horizontal (H) and vertical (Z) components."
+      },
+      {
+        "title": "Directive Force",
+        "content": "The horizontal component of the Earth's magnetic field aligns the compass and is called directive force."
+      },
+      {
+        "title": "Effect of Latitude",
+        "content": "Directive force decreases with increasing latitude and becomes zero at the poles."
+      },
+      {
+        "title": "Secular Change",
+        "content": "Slow movement of magnetic poles over time causes gradual changes in magnetic variation."
+      },
+      {
+        "title": "Periodic Changes",
+        "content": "Earth’s magnetism changes daily, annually, and in cycles related to sunspot activity."
+      },
+      {
+        "title": "Magnetic Storms",
+        "content": "Irregular disturbances caused by solar activity temporarily affect magnetic variation and compass accuracy."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 10 - Direct Indicating Compass",
+    "sub_modules": [
+      {
+        "title": "Magnetic Compass",
+        "content": "A magnetic compass indicates direction using the horizontal component of the Earth's magnetic field."
+      },
+      {
+        "title": "Purpose",
+        "content": "The compass indicates aircraft heading relative to magnetic north."
+      },
+      {
+        "title": "Magnetic Variation",
+        "content": "The angle between true north and magnetic north is called variation."
+      },
+      {
+        "title": "Compass Deviation",
+        "content": "Deviation is caused by magnetic interference from aircraft components and varies with heading."
+      },
+      {
+        "title": "Direct Indicating Compass",
+        "content": "A compass where the pilot directly reads heading from the magnet assembly."
+      },
+      {
+        "title": "Vertical Card Compass",
+        "content": "A compass with a rotating card attached to magnets, read against a fixed lubber line."
+      },
+      {
+        "title": "Compass Requirements",
+        "content": "The magnet system must be horizontal, sensitive, and aperiodic."
+      },
+      {
+        "title": "Horizontality",
+        "content": "Magnets must remain horizontal; achieved using pendulous suspension to counter magnetic dip."
+      },
+      {
+        "title": "Sensitivity",
+        "content": "Ability of the compass to align with Earth's magnetic field; improved by stronger magnets and reduced friction."
+      },
+      {
+        "title": "Reducing Friction",
+        "content": "Achieved using jeweled pivots, liquid lubrication, and buoyancy effects."
+      },
+      {
+        "title": "Aperiodicity",
+        "content": "The compass should settle quickly without oscillation; achieved using damping and low inertia design."
+      },
+      {
+        "title": "Compass Liquid",
+        "content": "Liquid reduces friction and provides damping; must have low viscosity and stable properties."
+      },
+      {
+        "title": "Liquid Properties",
+        "content": "Must have low expansion, low viscosity, transparency, low freezing point, and non-corrosiveness."
+      },
+      {
+        "title": "Liquid Swirl",
+        "content": "During turns, liquid movement can cause additional compass errors."
+      },
+      {
+        "title": "Deviation Measurement",
+        "content": "Deviation is measured using a compass swing and recorded on a deviation card."
+      },
+      {
+        "title": "Accuracy",
+        "content": "Compass accuracy tolerance is ±10 degrees."
+      },
+      {
+        "title": "Acceleration Errors",
+        "content": "Errors caused by inertia acting on the magnet assembly during acceleration or deceleration."
+      },
+      {
+        "title": "Acceleration Error Behavior",
+        "content": "Maximum on East/West headings, zero on North/South headings."
+      },
+      {
+        "title": "Acceleration Rule",
+        "content": "Acceleration causes apparent turn toward the nearer pole; deceleration toward the further pole."
+      },
+      {
+        "title": "Turning Errors",
+        "content": "Errors caused during turns due to displacement of magnet assembly from vertical component of Earth's field."
+      },
+      {
+        "title": "Turning Error Behavior",
+        "content": "Maximum on North/South, zero on East/West."
+      },
+      {
+        "title": "Turning Through North (NH)",
+        "content": "Compass is sluggish and under-rotates; pilot must undershoot."
+      },
+      {
+        "title": "Turning Through South (NH)",
+        "content": "Compass is lively and over-rotates; pilot must overshoot."
+      },
+      {
+        "title": "Sluggish Compass",
+        "content": "Compass lags behind actual heading change."
+      },
+      {
+        "title": "Lively Compass",
+        "content": "Compass moves faster than actual heading change."
+      },
+      {
+        "title": "Undershoot",
+        "content": "Stopping turn early to allow compass to catch up."
+      },
+      {
+        "title": "Overshoot",
+        "content": "Stopping turn late to compensate for compass over-reading."
+      },
+      {
+        "title": "Effect of Latitude",
+        "content": "Errors increase with latitude due to stronger vertical magnetic component."
+      },
+      {
+        "title": "Magnetic Equator",
+        "content": "No dip, so no acceleration or turning errors except minor liquid swirl."
+      },
+      {
+        "title": "Clockwise vs Anticlockwise Rotation",
+        "content": "Clockwise displacement causes under-reading; anticlockwise causes over-reading."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 11 - Gyroscopes",
+    "sub_modules": [
+      {
+        "title": "Gyroscope Definition",
+        "content": "A gyroscope is a rapidly spinning rotor that exhibits properties of rigidity and precession."
+      },
+      {
+        "title": "Gyro Components",
+        "content": "A gyro consists of a rotor and a spin axis, which defines its orientation."
+      },
+      {
+        "title": "Rotor Speed",
+        "content": "Aircraft gyros typically spin between 4000 and 55000 rpm."
+      },
+      {
+        "title": "Rigidity",
+        "content": "Rigidity is the property of maintaining a fixed direction in space unless acted upon by an external force."
+      },
+      {
+        "title": "Gimbals",
+        "content": "Gimbals allow the gyro to remain fixed in space while the aircraft moves."
+      },
+      {
+        "title": "Degrees of Freedom",
+        "content": "One gimbal gives limited movement; two gimbals allow full freedom in pitch, roll, and yaw."
+      },
+      {
+        "title": "Precession",
+        "content": "Precession is the movement of the gyro 90 degrees in the direction of rotation when a force is applied."
+      },
+      {
+        "title": "Precession Behavior",
+        "content": "The gyro reacts to applied torque at a point 90 degrees ahead in the direction of rotation."
+      },
+      {
+        "title": "Rigidity Factors",
+        "content": "Rigidity depends on moment of inertia and rotor speed."
+      },
+      {
+        "title": "Moment of Inertia",
+        "content": "Depends on mass and distribution of mass; higher inertia increases rigidity."
+      },
+      {
+        "title": "Rotor Speed Effect",
+        "content": "Higher rpm increases rigidity and reduces precession."
+      },
+      {
+        "title": "Rigidity vs Precession",
+        "content": "Greater rigidity results in less precession; they are inversely related."
+      },
+      {
+        "title": "Gyro Wander",
+        "content": "Wander is the deviation of the gyro axis from its original position."
+      },
+      {
+        "title": "Drift",
+        "content": "Horizontal movement of gyro axis."
+      },
+      {
+        "title": "Topple",
+        "content": "Vertical movement of gyro axis."
+      },
+      {
+        "title": "Real Wander",
+        "content": "Caused by mechanical imperfections like friction and imbalance."
+      },
+      {
+        "title": "Apparent Wander",
+        "content": "Caused by Earth's rotation and aircraft movement."
+      },
+      {
+        "title": "Earth Rate",
+        "content": "Apparent drift due to Earth's rotation, calculated as 15 × sin(latitude) degrees per hour."
+      },
+      {
+        "title": "Earth Rate Direction",
+        "content": "Negative in Northern Hemisphere and positive in Southern Hemisphere."
+      },
+      {
+        "title": "Transport Wander",
+        "content": "Apparent drift caused by aircraft movement over Earth's curved surface."
+      },
+      {
+        "title": "Displacement Gyros",
+        "content": "Measure angular displacement; used in attitude and heading indicators."
+      },
+      {
+        "title": "Rate Gyros",
+        "content": "Measure rate of rotation; used in turn indicators and yaw dampers."
+      },
+      {
+        "title": "Space Gyros",
+        "content": "Maintain orientation in space with minimal drift; used in inertial systems."
+      },
+      {
+        "title": "Tied Gyros",
+        "content": "Corrected continuously to maintain a reference such as magnetic north or vertical."
+      },
+      {
+        "title": "Earth Gyros",
+        "content": "A type of tied gyro that aligns with local gravity."
+      },
+      {
+        "title": "Tuned Rotor Gyros",
+        "content": "Traditional spinning disc gyros used in basic aircraft instruments."
+      },
+      {
+        "title": "Ring Laser Gyros",
+        "content": "Use light beams instead of spinning mass; highly accurate and reliable."
+      },
+      {
+        "title": "Fibre Optic Gyros",
+        "content": "Advanced gyros using fiber optics; used in modern aircraft."
+      },
+      {
+        "title": "Suction Gyros",
+        "content": "Powered by vacuum systems; simple but affected by airflow conditions."
+      },
+      {
+        "title": "Electric Gyros",
+        "content": "Powered by electricity; more accurate and stable."
+      },
+      {
+        "title": "Power Failure Indication",
+        "content": "Gyros include indicators to show loss of power supply."
+      },
+      {
+        "title": "Gimbal Lock",
+        "content": "Occurs when gimbals align, causing loss of a degree of freedom and gyro instability."
+      },
+      {
+        "title": "Gimbal Lock Solution",
+        "content": "Avoided using additional gimbals or gimbal flip mechanisms."
+      },
+      {
+        "title": "Gyros vs Magnetic Compass",
+        "content": "Gyros provide a stable reference unaffected by acceleration and turning errors."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 12 - Directional Gyro Indicator (DGI)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Directional Gyro Indicator (DGI) provides a stable directional reference for accurate heading and turns."
+      },
+      {
+        "title": "Non-Magnetic Nature",
+        "content": "The DGI has no magnetic element and must be synchronized with the magnetic compass."
+      },
+      {
+        "title": "Purpose",
+        "content": "Provides stable and smooth heading indication without acceleration and turning errors."
+      },
+      {
+        "title": "Complementary Role",
+        "content": "Works with the compass: DGI gives stability, compass gives true north reference."
+      },
+      {
+        "title": "Basic Principle",
+        "content": "Uses a horizontal axis gyro that maintains direction in space due to rigidity."
+      },
+      {
+        "title": "Tied Gyro",
+        "content": "The gyro is maintained in the yawing plane of the aircraft."
+      },
+      {
+        "title": "Gimbal System",
+        "content": "Inner and outer gimbals allow freedom of movement while maintaining orientation."
+      },
+      {
+        "title": "Axis Orientation",
+        "content": "Rotor axis, inner gimbal axis, and outer gimbal axis are mutually perpendicular."
+      },
+      {
+        "title": "Working Principle",
+        "content": "During a turn, the aircraft rotates but the gyro remains fixed, so heading change is indicated."
+      },
+      {
+        "title": "Lubber Line",
+        "content": "Heading is read using a fixed reference line against the rotating scale."
+      },
+      {
+        "title": "Air Driven System",
+        "content": "Rotor is spun using air jets powered by suction."
+      },
+      {
+        "title": "Jet Function",
+        "content": "Jets spin the rotor and help maintain alignment in the yawing plane."
+      },
+      {
+        "title": "Precession Correction",
+        "content": "If displaced, jet forces create precession to restore correct orientation."
+      },
+      {
+        "title": "Wedge Plate System",
+        "content": "Fine adjustment system using airflow imbalance to re-erect the gyro."
+      },
+      {
+        "title": "Caging Mechanism",
+        "content": "Locks the gyro and allows manual alignment with the compass."
+      },
+      {
+        "title": "Caging Purpose",
+        "content": "Used for synchronization, preventing damage, and re-erecting the gyro."
+      },
+      {
+        "title": "Toppling",
+        "content": "Occurs when pitch or roll exceeds limits, causing loss of gyro stability."
+      },
+      {
+        "title": "Topple Limits",
+        "content": "Typically occurs beyond 85° pitch/roll (55° for air-driven gyros)."
+      },
+      {
+        "title": "Gimbal Exceptions",
+        "content": "Certain orientations allow full rotation without toppling."
+      },
+      {
+        "title": "DGI Errors",
+        "content": "Errors arise due to mechanical, earth-related, and operational factors."
+      },
+      {
+        "title": "Gimballing Error",
+        "content": "Occurs during bank due to geometry of gimbal system."
+      },
+      {
+        "title": "Random Wander",
+        "content": "Drift due to mechanical imperfections in the gyro."
+      },
+      {
+        "title": "Apparent Wander",
+        "content": "Drift due to Earth's rotation and aircraft movement."
+      },
+      {
+        "title": "Earth Rate Drift",
+        "content": "Drift caused by Earth's rotation, dependent on latitude."
+      },
+      {
+        "title": "Earth Rate Formula",
+        "content": "Apparent drift = 15 × sin(latitude) degrees per hour."
+      },
+      {
+        "title": "Drift Direction",
+        "content": "Decreasing in Northern Hemisphere, increasing in Southern Hemisphere."
+      },
+      {
+        "title": "Latitude Nut",
+        "content": "Used to compensate for Earth rate drift."
+      },
+      {
+        "title": "Latitude Compensation",
+        "content": "Applies opposite drift to cancel Earth rotation effect."
+      },
+      {
+        "title": "Limit of Compensation",
+        "content": "Effective only at one latitude; errors occur when moving away."
+      },
+      {
+        "title": "Transport Wander",
+        "content": "Drift caused by movement across Earth's curved surface."
+      },
+      {
+        "title": "Rotor RPM Errors",
+        "content": "Variation in rotor speed affects accuracy of compensation."
+      },
+      {
+        "title": "Heading Stability",
+        "content": "DGI provides stable and smooth heading indication compared to compass."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 13 - Artificial Horizon",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Artificial Horizon (AH) provides information about the aircraft’s attitude in pitch and roll, replacing the natural horizon in poor visibility."
+      },
+      {
+        "title": "Purpose",
+        "content": "Displays aircraft orientation relative to the earth using pitch and bank indications."
+      },
+      {
+        "title": "Display Components",
+        "content": "Includes a miniature aircraft symbol fixed to the case and a gyro-stabilized horizon bar."
+      },
+      {
+        "title": "Alternate Names",
+        "content": "Also known as Attitude Indicator or Gyro Horizon."
+      },
+      {
+        "title": "Earth Gyro Principle",
+        "content": "Uses an earth gyro where the spin axis is maintained vertical using gravity."
+      },
+      {
+        "title": "Rotor Orientation",
+        "content": "The rotor spins in a horizontal plane, providing stable pitch and roll references."
+      },
+      {
+        "title": "Gyro Axes",
+        "content": "The gyro has three axes: spin axis (vertical), lateral axis, and longitudinal axis."
+      },
+      {
+        "title": "Pitch Indication",
+        "content": "Pitch movement rotates the case and outer gimbal, moving the horizon bar relative to the aircraft symbol."
+      },
+      {
+        "title": "Nose-Up Indication",
+        "content": "When the aircraft pitches up, the horizon bar moves downward relative to the aircraft symbol."
+      },
+      {
+        "title": "Nose-Down Indication",
+        "content": "When the aircraft pitches down, the horizon bar moves upward relative to the aircraft symbol."
+      },
+      {
+        "title": "Roll Indication",
+        "content": "Roll causes the aircraft symbol to rotate relative to the fixed horizon bar."
+      },
+      {
+        "title": "Bank Angle Display",
+        "content": "A pointer shows the angle of bank on a calibrated scale."
+      },
+      {
+        "title": "Limits",
+        "content": "Typical limits are ±60° pitch and 110° roll for older instruments; modern ones allow greater movement."
+      },
+      {
+        "title": "Toppling",
+        "content": "Occurs when pitch or roll exceeds limits, causing loss of gyro stability."
+      },
+      {
+        "title": "Re-Erection Time",
+        "content": "Gyro may take 10–15 minutes to re-stabilize after toppling."
+      },
+      {
+        "title": "Control System",
+        "content": "Maintains the gyro vertical using pendulous vanes (air-driven) or torque motors (electric)."
+      },
+      {
+        "title": "Air-Driven AH",
+        "content": "Uses suction to spin the rotor and pendulous vanes for vertical alignment."
+      },
+      {
+        "title": "Pendulous Vanes",
+        "content": "Control airflow to correct gyro tilt using gravity-based sensing."
+      },
+      {
+        "title": "Equilibrium State",
+        "content": "Equal airflow through all slots keeps the gyro stable with no precession."
+      },
+      {
+        "title": "Correction Mechanism",
+        "content": "Unequal airflow causes precession that restores the gyro to vertical."
+      },
+      {
+        "title": "Acceleration Error",
+        "content": "Acceleration affects pendulous vanes causing false pitch and roll indications."
+      },
+      {
+        "title": "Acceleration Pitch Error",
+        "content": "During acceleration, the instrument shows a false nose-up indication."
+      },
+      {
+        "title": "Acceleration Roll Error",
+        "content": "Acceleration may cause a false wing-down indication due to inertia."
+      },
+      {
+        "title": "Deceleration Error",
+        "content": "Opposite of acceleration error, showing nose-down and opposite roll."
+      },
+      {
+        "title": "Turning Errors",
+        "content": "Caused by centrifugal force affecting pendulous vanes and rotor housing."
+      },
+      {
+        "title": "Turning Error Behavior",
+        "content": "Errors vary during turns but cancel out after a full 360° turn."
+      },
+      {
+        "title": "Rigidity",
+        "content": "High rotor speed provides strong rigidity and stable reference."
+      },
+      {
+        "title": "Pre-Flight Check",
+        "content": "Ensure horizon is level and stable before take-off."
+      },
+      {
+        "title": "In-Flight Behavior",
+        "content": "Should respond immediately to pitch and roll changes."
+      },
+      {
+        "title": "Electric Artificial Horizon",
+        "content": "Uses electric motors and levelling switches instead of airflow."
+      },
+      {
+        "title": "Electric Control System",
+        "content": "Uses mercury switches and torque motors to maintain vertical alignment."
+      },
+      {
+        "title": "Torque Motors",
+        "content": "Apply force that is precessed to correct gyro orientation."
+      },
+      {
+        "title": "Acceleration Error Reduction",
+        "content": "Electric AH reduces errors due to higher rigidity and cut-out switches."
+      },
+      {
+        "title": "Cut-Out Switches",
+        "content": "Prevent false corrections during acceleration and turns."
+      },
+      {
+        "title": "Fast Erection System",
+        "content": "Allows rapid re-alignment of the gyro using increased motor power."
+      },
+      {
+        "title": "Fast Erection Limitation",
+        "content": "Must only be used in level flight to avoid incorrect alignment."
+      },
+      {
+        "title": "Adjustable Datum",
+        "content": "Allows alignment of aircraft symbol with horizon but may be misleading."
+      },
+      {
+        "title": "Vertical Gyro Unit",
+        "content": "Provides stabilized attitude data to other systems like flight directors."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 14 - Turn and Slip Indicator",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Turn and Slip Indicator consists of two instruments: the rate of turn indicator and the slip indicator."
+      },
+      {
+        "title": "Purpose",
+        "content": "Measures rate of turn and indicates whether the turn is balanced."
+      },
+      {
+        "title": "Rate of Turn Indicator",
+        "content": "Uses a rate gyro to measure the rate of turn about the vertical axis."
+      },
+      {
+        "title": "Slip Indicator",
+        "content": "A pendulous device that indicates whether a turn is balanced or unbalanced."
+      },
+      {
+        "title": "Rate Gyro",
+        "content": "A single-gimbal gyro that measures angular velocity instead of position."
+      },
+      {
+        "title": "Degrees of Freedom",
+        "content": "The rate gyro has one gimbal and one degree of freedom."
+      },
+      {
+        "title": "Yaw Detection",
+        "content": "Yaw movement produces a torque that causes gyro precession."
+      },
+      {
+        "title": "Spring System",
+        "content": "A spring resists gyro movement and its deflection measures the rate of turn."
+      },
+      {
+        "title": "Primary Torque",
+        "content": "Applied when aircraft yaws, initiating gyro precession."
+      },
+      {
+        "title": "Primary Precession",
+        "content": "Occurs 90 degrees from applied torque in the direction of rotation."
+      },
+      {
+        "title": "Secondary Torque",
+        "content": "Generated by spring tension opposing gyro movement."
+      },
+      {
+        "title": "Equilibrium Condition",
+        "content": "Occurs when spring torque equals rate of turn, stabilizing the gyro tilt."
+      },
+      {
+        "title": "Turn Rate Measurement",
+        "content": "The tilt of the gyro is proportional to the rate of turn."
+      },
+      {
+        "title": "Rate 1 Turn",
+        "content": "A standard rate turn of 3 degrees per second."
+      },
+      {
+        "title": "Rate 2 Turn",
+        "content": "A turn rate of 6 degrees per second."
+      },
+      {
+        "title": "Calibration",
+        "content": "Instrument is calibrated for a specific true airspeed but errors are small across a wide range."
+      },
+      {
+        "title": "Construction",
+        "content": "Available as suction-driven or electrically driven instruments."
+      },
+      {
+        "title": "Rotor Speed",
+        "content": "Lower than other gyros because precession is required for measurement."
+      },
+      {
+        "title": "Damping System",
+        "content": "Reduces oscillations using mechanical or electromagnetic damping."
+      },
+      {
+        "title": "Gimbal Stops",
+        "content": "Limits gyro tilt to prevent excessive movement."
+      },
+      {
+        "title": "Toppling",
+        "content": "Does not occur because the gyro has only one gimbal."
+      },
+      {
+        "title": "Rotor Speed Error",
+        "content": "Low speed causes under-reading; high speed causes over-reading."
+      },
+      {
+        "title": "Looping Plane Error",
+        "content": "Occurs in steep turns due to additional precession, causing over-reading."
+      },
+      {
+        "title": "Slip Indicator Construction",
+        "content": "Usually a ball-in-tube inclinometer filled with liquid for damping."
+      },
+      {
+        "title": "Ball Behavior",
+        "content": "Acts like a pendulum responding to gravity and centrifugal force."
+      },
+      {
+        "title": "Level Flight Indication",
+        "content": "Ball remains centered when forces are balanced."
+      },
+      {
+        "title": "Balanced Turn",
+        "content": "Ball remains centered indicating correct bank for given speed and turn rate."
+      },
+      {
+        "title": "Centrifugal Force",
+        "content": "Acts outward during a turn and affects the ball position."
+      },
+      {
+        "title": "Slip Condition",
+        "content": "Occurs when too much bank is applied; ball moves inside the turn."
+      },
+      {
+        "title": "Skid Condition",
+        "content": "Occurs when insufficient bank is applied; ball moves outside the turn."
+      },
+      {
+        "title": "Turn Coordination Rule",
+        "content": "Correct turn is achieved when the ball is centered."
+      },
+      {
+        "title": "Rule of Thumb",
+        "content": "Bank angle ≈ (TAS / 10) + 7 for a rate 1 turn."
+      },
+      {
+        "title": "Instrument Display",
+        "content": "Needle shows turn rate while ball shows coordination."
+      },
+      {
+        "title": "Practical Use",
+        "content": "Used to maintain coordinated turns without calculations."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 15 - Turn Co-ordinator",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Turn Co-ordinator is an advanced version of the Turn and Slip Indicator with improved sensitivity."
+      },
+      {
+        "title": "Purpose",
+        "content": "Indicates both rate of turn and rate of roll (bank initiation)."
+      },
+      {
+        "title": "Primary Difference",
+        "content": "The gyro axis is tilted, making it sensitive to both yaw and roll."
+      },
+      {
+        "title": "Gyro Orientation",
+        "content": "The gyro is mounted at approximately 30 degrees to the aircraft longitudinal axis."
+      },
+      {
+        "title": "Spring Restrained Gyro",
+        "content": "The gyro is restrained by a spring which allows controlled precession."
+      },
+      {
+        "title": "Roll Sensitivity",
+        "content": "The tilted gyro detects banking motion, unlike the basic turn indicator."
+      },
+      {
+        "title": "Turn Initiation",
+        "content": "Banking the aircraft causes gyro precession, indicating the start of a turn."
+      },
+      {
+        "title": "Indication Method",
+        "content": "An aircraft symbol moves to show direction and rate of turn."
+      },
+      {
+        "title": "Anticipation Feature",
+        "content": "The instrument shows roll rate, allowing pilots to anticipate turns."
+      },
+      {
+        "title": "Rate Control",
+        "content": "Turn rate is controlled by aligning the aircraft symbol with marked graduations."
+      },
+      {
+        "title": "Rate One Turn",
+        "content": "Standard rate of 3 degrees per second is indicated on the scale."
+      },
+      {
+        "title": "Instrument Variations",
+        "content": "Different instruments may indicate different turn rates based on design."
+      },
+      {
+        "title": "Slip Indicator Integration",
+        "content": "Includes a ball-in-tube inclinometer to indicate balanced or unbalanced turns."
+      },
+      {
+        "title": "Balanced Turn",
+        "content": "A centered ball indicates a coordinated turn."
+      },
+      {
+        "title": "Unbalanced Turn",
+        "content": "Ball displacement indicates slip or skid."
+      },
+      {
+        "title": "No Pitch Information",
+        "content": "The instrument does not provide pitch information despite its aircraft-like display."
+      },
+      {
+        "title": "Comparison with Turn Indicator",
+        "content": "Unlike the basic turn indicator, it responds to both roll and yaw."
+      },
+      {
+        "title": "Operational Advantage",
+        "content": "Provides earlier indication of turn entry due to roll detection."
+      },
+      {
+        "title": "Display Type",
+        "content": "Uses an aircraft symbol instead of a simple needle."
+      },
+      {
+        "title": "Pilot Usage",
+        "content": "Used to maintain coordinated turns and monitor roll rate during maneuvering."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 16 - Aircraft Magnetism",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Aircraft magnetism affects compass accuracy by creating deviation from the magnetic meridian."
+      },
+      {
+        "title": "Deviation Definition",
+        "content": "Deviation is the angular difference between compass heading and magnetic heading."
+      },
+      {
+        "title": "Deviation Direction",
+        "content": "Deviation is easterly if the compass points east of magnetic north and westerly if it points west."
+      },
+      {
+        "title": "Compass vs Magnetic Heading",
+        "content": "Compass heading differs from magnetic heading due to aircraft-induced magnetic fields."
+      },
+      {
+        "title": "Compass Swing",
+        "content": "A procedure used to measure and correct compass deviation."
+      },
+      {
+        "title": "Compass Swing Objectives",
+        "content": "To determine deviation, reduce errors, and record residual deviation."
+      },
+      {
+        "title": "Reference Compass",
+        "content": "A high-accuracy ground compass is used as a reference during compass swing."
+      },
+      {
+        "title": "Hard Iron Magnetism",
+        "content": "Permanent magnetism in aircraft structure that remains constant regardless of heading."
+      },
+      {
+        "title": "Hard Iron Characteristics",
+        "content": "Produces fixed magnetic fields that do not change with aircraft orientation."
+      },
+      {
+        "title": "Soft Iron Magnetism",
+        "content": "Induced magnetism caused by external magnetic fields, mainly Earth's field."
+      },
+      {
+        "title": "Vertical Soft Iron (VSI)",
+        "content": "Induced magnetism due to the vertical component of Earth's magnetic field."
+      },
+      {
+        "title": "Latitude Effect",
+        "content": "Soft iron magnetism varies with latitude because the vertical component of Earth's field changes."
+      },
+      {
+        "title": "Equator Condition",
+        "content": "At the equator, vertical magnetic component is zero, so no VSI magnetism is induced."
+      },
+      {
+        "title": "Magnetic Components",
+        "content": "Deviation can be resolved into components represented by coefficients B and C."
+      },
+      {
+        "title": "Blue Pole Effect",
+        "content": "A magnetic source in the aircraft can alter compass readings depending on heading."
+      },
+      {
+        "title": "Deviation Pattern",
+        "content": "Deviation varies with heading and follows sine or cosine curves."
+      },
+      {
+        "title": "Sine Curve Deviation",
+        "content": "Occurs when magnetic influence is along the longitudinal axis."
+      },
+      {
+        "title": "Cosine Curve Deviation",
+        "content": "Occurs when magnetic influence is along the lateral axis."
+      },
+      {
+        "title": "Coefficient A",
+        "content": "Represents mechanical misalignment of the compass and is corrected physically."
+      },
+      {
+        "title": "Coefficient B",
+        "content": "Represents deviation caused by longitudinal magnetic fields and corrected on east/west headings."
+      },
+      {
+        "title": "Coefficient C",
+        "content": "Represents deviation caused by lateral magnetic fields and corrected on north/south headings."
+      },
+      {
+        "title": "Correction Method",
+        "content": "Adjust compass using calculated corrections for each coefficient."
+      },
+      {
+        "title": "Compass Card",
+        "content": "Displays residual deviation after correction and is placed near the compass."
+      },
+      {
+        "title": "Residual Deviation",
+        "content": "Remaining deviation after corrections that cannot be eliminated."
+      },
+      {
+        "title": "Graphical Representation",
+        "content": "Deviation can be represented using curves or tables."
+      },
+      {
+        "title": "Accuracy Limits",
+        "content": "Direct reading compass must be within ±10°, remote compass within ±1°."
+      },
+      {
+        "title": "Compass Swing Requirement",
+        "content": "Performed when accuracy is uncertain or after maintenance or modification."
+      },
+      {
+        "title": "Maintenance Conditions",
+        "content": "Required after component replacement or inspection."
+      },
+      {
+        "title": "Magnetic Disturbance",
+        "content": "Needed after lightning strikes or major electrical changes."
+      },
+      {
+        "title": "Payload Influence",
+        "content": "Large ferromagnetic loads require compass recalibration."
+      },
+      {
+        "title": "Shock Impact",
+        "content": "Compass must be checked after mechanical shock."
+      },
+      {
+        "title": "Latitude Change",
+        "content": "Compass swing required when operating in significantly different magnetic regions."
+      },
+      {
+        "title": "Storage Effect",
+        "content": "Long-term parking in one direction can induce magnetism requiring recalibration."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 17 - Remote Indicating Magnetic Compass",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "A gyro-magnetic compass combines gyro stability with magnetic reference for accurate heading."
+      },
+      {
+        "title": "Direct Reading Compass Limitations",
+        "content": "Affected by turning and acceleration errors, cockpit magnetic interference, and cannot feed other systems."
+      },
+      {
+        "title": "Directional Gyro Limitations",
+        "content": "Eliminates turning errors but lacks magnetic reference and requires manual synchronization."
+      },
+      {
+        "title": "Need for Gyro-Magnetic Compass",
+        "content": "Combines short-term gyro stability with long-term magnetic correction."
+      },
+      {
+        "title": "System Names",
+        "content": "Also called Remote Indicating Compass, Slaved Gyro Compass, or Gyro-Magnetic Compass."
+      },
+      {
+        "title": "Main Components",
+        "content": "Includes flux valve, heading indicator, precession amplifier, precession motor, and horizontal gyro."
+      },
+      {
+        "title": "Flux Valve Function",
+        "content": "Detects Earth's magnetic field remotely from interference sources."
+      },
+      {
+        "title": "Heading Indicator",
+        "content": "Displays aircraft heading using a compass card driven by the gyro."
+      },
+      {
+        "title": "Precession Amplifier",
+        "content": "Amplifies and processes error signals between gyro and magnetic input."
+      },
+      {
+        "title": "Precession Motor",
+        "content": "Adjusts the gyro position to correct heading errors."
+      },
+      {
+        "title": "Horizontal Gyro",
+        "content": "Provides stable reference unaffected by short-term disturbances."
+      },
+      {
+        "title": "Operation - Steady Heading",
+        "content": "Flux valve and gyro alignment produce no error signal when synchronized."
+      },
+      {
+        "title": "Gyro Drift Correction",
+        "content": "Drift creates an error signal that is amplified and used to realign the gyro."
+      },
+      {
+        "title": "Error Signal Processing",
+        "content": "AC error signal is amplified, phase detected, and converted to DC."
+      },
+      {
+        "title": "Phase Detection",
+        "content": "Determines direction of correction for shortest alignment path."
+      },
+      {
+        "title": "Rectification",
+        "content": "Converts AC signal to DC to drive the precession motor."
+      },
+      {
+        "title": "Operation During Turn",
+        "content": "Gyro remains stable while flux valve and gyro rotate together, maintaining synchronization."
+      },
+      {
+        "title": "Rapid Synchronization",
+        "content": "High-gain mode or clutch allows quick alignment during startup."
+      },
+      {
+        "title": "Flux Valve Construction",
+        "content": "Three-legged magnetic detector mounted remotely, often in wingtip or tail."
+      },
+      {
+        "title": "Flux Valve Principle",
+        "content": "Uses electromagnetic induction to detect Earth's magnetic field."
+      },
+      {
+        "title": "Faraday’s Law",
+        "content": "Changing magnetic flux induces an electromotive force in the coil."
+      },
+      {
+        "title": "Three-Leg System",
+        "content": "Provides accurate heading by resolving magnetic field direction."
+      },
+      {
+        "title": "Rotor-Stator Comparison",
+        "content": "Compares gyro shaft position with magnetic field to detect error."
+      },
+      {
+        "title": "Null Position",
+        "content": "Occurs when rotor is perpendicular to magnetic field, producing no signal."
+      },
+      {
+        "title": "Heading Indicator Features",
+        "content": "Includes compass card, lubber line, heading bug, and warning flag."
+      },
+      {
+        "title": "Heading Selection",
+        "content": "Pilot sets desired heading using heading bug control."
+      },
+      {
+        "title": "FREE Mode",
+        "content": "Operates as a directional gyro without magnetic correction."
+      },
+      {
+        "title": "SLAVE Mode",
+        "content": "Normal mode where gyro is automatically aligned with magnetic input."
+      },
+      {
+        "title": "Manual Adjustment",
+        "content": "Pilot adjusts heading manually in FREE mode using control switch."
+      },
+      {
+        "title": "Annunciator",
+        "content": "Indicates error signal activity and system synchronization."
+      },
+      {
+        "title": "Annunciator Function",
+        "content": "Shows direction of correction and confirms magnetic monitoring."
+      },
+      {
+        "title": "Gyro Drift Types",
+        "content": "Includes drift (horizontal misalignment) and topple (loss of vertical alignment)."
+      },
+      {
+        "title": "Gyro Stabilization",
+        "content": "Maintained using torque motors and levelling systems."
+      },
+      {
+        "title": "Vertical Alignment",
+        "content": "Achieved using gravity switches or yaw-axis alignment systems."
+      },
+      {
+        "title": "Precession Control",
+        "content": "Corrections applied slowly to avoid instability during flight maneuvers."
+      },
+      {
+        "title": "Selsyn System",
+        "content": "Used to transmit heading data to other instruments."
+      },
+      {
+        "title": "Transmitter Function",
+        "content": "Converts heading into electrical signals."
+      },
+      {
+        "title": "Repeater Function",
+        "content": "Reproduces heading at remote displays."
+      },
+      {
+        "title": "System Advantage",
+        "content": "Provides stable, accurate heading and allows data sharing across systems."
+      },
+      {
+        "title": "Overall Summary",
+        "content": "Combines gyro stability with magnetic reference to overcome limitations of standalone systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 18 - Inertial Navigation Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "INS is a self-contained navigation system using accelerometers, gyros, and a computer to calculate position, velocity, and navigation data."
+      },
+      {
+        "title": "Core Components",
+        "content": "Includes Inertial Sensor System (ISS), stable platform, accelerometers, gyroscopes, and computers."
+      },
+      {
+        "title": "INS Outputs",
+        "content": "Provides pitch, roll, heading, track, drift, position, ground speed, and wind data."
+      },
+      {
+        "title": "Waypoint Integration",
+        "content": "Allows storage of waypoints and computes distance, time, and track error to them."
+      },
+      {
+        "title": "Newton’s Laws",
+        "content": "INS operation is based on motion laws relating force, acceleration, and velocity."
+      },
+      {
+        "title": "Einstein’s Principle",
+        "content": "Accelerometers detect changes in velocity, not constant motion."
+      },
+      {
+        "title": "Accelerometer Function",
+        "content": "Measures acceleration in north-south and east-west directions."
+      },
+      {
+        "title": "Accelerometer Principle",
+        "content": "Uses a pendulous system where displacement indicates acceleration."
+      },
+      {
+        "title": "Torque Feedback",
+        "content": "Torque motor restores pendulum to null position and current represents acceleration."
+      },
+      {
+        "title": "First Integration",
+        "content": "Acceleration is integrated over time to produce velocity."
+      },
+      {
+        "title": "Second Integration",
+        "content": "Velocity is integrated over time to produce distance."
+      },
+      {
+        "title": "Position Calculation",
+        "content": "Distance travelled in north and east directions gives latitude and longitude."
+      },
+      {
+        "title": "Gravity Effect",
+        "content": "Accelerometers must remain level to avoid false acceleration due to gravity."
+      },
+      {
+        "title": "Gyro Stabilized Platform",
+        "content": "Keeps accelerometers horizontal regardless of aircraft attitude."
+      },
+      {
+        "title": "Integrating Gyroscope",
+        "content": "Uses viscous damping to measure angular movement."
+      },
+      {
+        "title": "Platform Function",
+        "content": "Maintains a stable reference frame using gyros and gimbals."
+      },
+      {
+        "title": "Three Axis Control",
+        "content": "Gyros stabilize pitch, roll, and yaw axes."
+      },
+      {
+        "title": "Earth Rotation Compensation",
+        "content": "System corrects for Earth’s rotation and curvature."
+      },
+      {
+        "title": "Earth Rate Compensation",
+        "content": "Depends on latitude and corrects gyro drift due to Earth rotation."
+      },
+      {
+        "title": "Transport Rate Compensation",
+        "content": "Corrects for aircraft movement over Earth’s surface."
+      },
+      {
+        "title": "Coriolis Effect",
+        "content": "Accounts for apparent deflection due to Earth’s rotation."
+      },
+      {
+        "title": "Centrifugal Effect",
+        "content": "Corrects acceleration caused by curved motion."
+      },
+      {
+        "title": "Alignment Process",
+        "content": "System must be aligned in position, attitude, and heading before use."
+      },
+      {
+        "title": "Warm-Up Phase",
+        "content": "System components reach operating temperature."
+      },
+      {
+        "title": "Coarse Alignment",
+        "content": "Initial leveling and approximate heading alignment."
+      },
+      {
+        "title": "Fine Alignment",
+        "content": "Accurate leveling and heading adjustment."
+      },
+      {
+        "title": "Gyro Compassing",
+        "content": "Uses Earth rotation to determine true north."
+      },
+      {
+        "title": "Schuler Principle",
+        "content": "Maintains platform horizontal using Earth-radius pendulum analogy."
+      },
+      {
+        "title": "Schuler Period",
+        "content": "Oscillation period of 84.4 minutes maintains stability."
+      },
+      {
+        "title": "Bounded Errors",
+        "content": "Errors that oscillate and return to zero within Schuler cycle."
+      },
+      {
+        "title": "Unbounded Errors",
+        "content": "Errors that accumulate over time such as drift and distance errors."
+      },
+      {
+        "title": "Inherent Errors",
+        "content": "Errors due to Earth shape, movement, and system limitations."
+      },
+      {
+        "title": "Mode Selector Unit",
+        "content": "Controls INS modes such as standby, alignment, and navigation."
+      },
+      {
+        "title": "Standby Mode",
+        "content": "Used to input initial position data."
+      },
+      {
+        "title": "Alignment Mode",
+        "content": "System levels and aligns before navigation."
+      },
+      {
+        "title": "Navigation Mode",
+        "content": "Provides full navigation data during flight."
+      },
+      {
+        "title": "ATT REF Mode",
+        "content": "Provides attitude and limited heading if navigation fails."
+      },
+      {
+        "title": "Battery Backup",
+        "content": "Internal battery maintains operation during power loss."
+      },
+      {
+        "title": "Control Display Unit",
+        "content": "Interface for inputting and displaying navigation data."
+      },
+      {
+        "title": "Waypoint Selection",
+        "content": "Allows pilot to select and manage navigation waypoints."
+      },
+      {
+        "title": "Track and Ground Speed",
+        "content": "Displays aircraft track and ground speed."
+      },
+      {
+        "title": "Heading and Drift",
+        "content": "Displays true heading and drift angle."
+      },
+      {
+        "title": "Cross Track Error",
+        "content": "Shows lateral deviation from planned route."
+      },
+      {
+        "title": "Track Angle Error",
+        "content": "Indicates difference between actual and desired track."
+      },
+      {
+        "title": "Present Position",
+        "content": "Displays aircraft latitude and longitude."
+      },
+      {
+        "title": "Waypoint Position",
+        "content": "Displays stored waypoint coordinates."
+      },
+      {
+        "title": "Waypoint Zero",
+        "content": "Represents current aircraft position for direct routing."
+      },
+      {
+        "title": "Distance and Time",
+        "content": "Shows distance and time to next waypoint."
+      },
+      {
+        "title": "Wind Data",
+        "content": "Displays wind speed and direction."
+      },
+      {
+        "title": "Desired Track",
+        "content": "Shows intended track between waypoints."
+      },
+      {
+        "title": "System Test",
+        "content": "Checks functionality of display and system components."
+      },
+      {
+        "title": "Manual Checks",
+        "content": "Pilot verifies input data and waypoint accuracy."
+      },
+      {
+        "title": "Error Detection",
+        "content": "System detects incorrect latitude inputs during alignment."
+      },
+      {
+        "title": "Operator Errors",
+        "content": "Incorrect waypoint input can lead to navigation errors."
+      },
+      {
+        "title": "System Advantages",
+        "content": "Provides accurate, self-contained navigation without external signals."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 19 - Inertial Reference System",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "IRS uses laser gyros and accelerometers in a strapdown configuration to provide precise inertial data without mechanical platforms."
+      },
+      {
+        "title": "Technological Advancement",
+        "content": "Laser gyros eliminate moving parts like gimbals and torque motors, improving reliability."
+      },
+      {
+        "title": "Inertial Navigation Concept",
+        "content": "Determines position without external references using internal sensors."
+      },
+      {
+        "title": "Strapdown System",
+        "content": "Sensors are fixed to the aircraft structure and stability is achieved mathematically."
+      },
+      {
+        "title": "Inertial Reference Unit (IRU)",
+        "content": "Core component providing all inertial outputs to aircraft systems."
+      },
+      {
+        "title": "Primary Outputs",
+        "content": "Includes pitch, roll, heading, acceleration, velocity, position, and wind data."
+      },
+      {
+        "title": "Derived Outputs",
+        "content": "Includes flight path angle, acceleration rates, and vertical speed."
+      },
+      {
+        "title": "System Users",
+        "content": "Used by flight management, flight control, autopilot, radar, and other avionics systems."
+      },
+      {
+        "title": "Primary Sensors",
+        "content": "Three laser gyros and three accelerometers provide input data."
+      },
+      {
+        "title": "Additional Inputs",
+        "content": "Requires initial position, barometric altitude, and true airspeed."
+      },
+      {
+        "title": "Laser Gyro Principle",
+        "content": "Measures angular rate using light frequency differences."
+      },
+      {
+        "title": "Sagnac Effect",
+        "content": "Frequency difference between counter-rotating light beams indicates rotation."
+      },
+      {
+        "title": "Laser Construction",
+        "content": "Uses mirrors and gas-filled cavity to create coherent light beams."
+      },
+      {
+        "title": "Triangular Path",
+        "content": "Laser beams travel in opposite directions along a triangular path."
+      },
+      {
+        "title": "Frequency Change",
+        "content": "Rotation changes path length, altering beam frequency."
+      },
+      {
+        "title": "Interference Pattern",
+        "content": "Beam interaction creates fringe patterns detected by sensors."
+      },
+      {
+        "title": "Rotation Measurement",
+        "content": "Movement of fringe pattern indicates direction and rate of rotation."
+      },
+      {
+        "title": "Angular Rate Sensor",
+        "content": "Laser gyro acts as a precise angular rate measuring device."
+      },
+      {
+        "title": "Drift Errors",
+        "content": "Caused by mirror imperfections and noise in the system."
+      },
+      {
+        "title": "Accuracy Factor",
+        "content": "Accuracy improves with longer optical path length."
+      },
+      {
+        "title": "Lock-In Effect",
+        "content": "At low rotation rates, beams synchronize causing measurement errors."
+      },
+      {
+        "title": "Dither Motor",
+        "content": "Vibrates gyro to prevent lock-in and maintain accuracy."
+      },
+      {
+        "title": "Platform vs Strapdown",
+        "content": "IRS replaces mechanical platform with mathematical stabilization."
+      },
+      {
+        "title": "Microprocessor Role",
+        "content": "Computes orientation and navigation data in real time."
+      },
+      {
+        "title": "Integration Principle",
+        "content": "Acceleration is integrated to obtain velocity and position."
+      },
+      {
+        "title": "Gravity Compensation",
+        "content": "Removes gravity effects from acceleration measurements."
+      },
+      {
+        "title": "Earth Rotation Compensation",
+        "content": "Corrects for Earth’s rotation at approximately 15.04° per hour."
+      },
+      {
+        "title": "Transport Rate Compensation",
+        "content": "Corrects for aircraft movement over Earth's surface."
+      },
+      {
+        "title": "Schuler Tuning",
+        "content": "Maintains stability with an 84.4-minute oscillation period."
+      },
+      {
+        "title": "Automatic Calibration",
+        "content": "System self-calibrates to maintain accuracy."
+      },
+      {
+        "title": "Alignment Requirement",
+        "content": "System must be aligned before flight while aircraft is stationary."
+      },
+      {
+        "title": "True North Alignment",
+        "content": "Determined using Earth’s rotation when stationary."
+      },
+      {
+        "title": "Latitude Input",
+        "content": "Initial latitude must be entered for accurate calculations."
+      },
+      {
+        "title": "Memory Function",
+        "content": "System remembers last position and detects input errors."
+      },
+      {
+        "title": "Trihedron Establishment",
+        "content": "Mathematical process of aligning system axes."
+      },
+      {
+        "title": "No Movement Condition",
+        "content": "Aircraft must remain stationary during alignment."
+      },
+      {
+        "title": "Fast Activation",
+        "content": "Laser gyros require minimal startup time."
+      },
+      {
+        "title": "Manoeuvre Resistance",
+        "content": "System is unaffected by aircraft accelerations and movements."
+      },
+      {
+        "title": "Mechanical Simplicity",
+        "content": "Fewer moving parts increase reliability."
+      },
+      {
+        "title": "Wide Dynamic Range",
+        "content": "Capable of measuring a wide range of motion accurately."
+      },
+      {
+        "title": "Low Drift",
+        "content": "Laser gyros exhibit very low drift compared to traditional gyros."
+      },
+      {
+        "title": "Human Error Factor",
+        "content": "Most errors arise from incorrect operator input."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 20 - Radio Altimeter",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Radio altimeter measures aircraft height above ground level (AGL) with high accuracy."
+      },
+      {
+        "title": "Primary Functions",
+        "content": "Provides height for display, supports automatic landing systems, and feeds GPWS."
+      },
+      {
+        "title": "FMCW Principle",
+        "content": "Uses Frequency Modulated Continuous Wave to measure distance to ground."
+      },
+      {
+        "title": "Time Measurement",
+        "content": "Measures time taken for radio wave to travel to ground and return."
+      },
+      {
+        "title": "Frequency Sweep",
+        "content": "Transmitted frequency varies continuously in a known pattern."
+      },
+      {
+        "title": "Beat Frequency",
+        "content": "Difference between transmitted and received frequency indicates height."
+      },
+      {
+        "title": "Frequency Averaging",
+        "content": "Average beat frequency is used to avoid errors during sweep reversal."
+      },
+      {
+        "title": "Operating Frequencies",
+        "content": "Modern systems operate in SHF band (4200–4400 MHz)."
+      },
+      {
+        "title": "Frequency Sweep Rate",
+        "content": "Frequency varies ±50 MHz about 300 times per second."
+      },
+      {
+        "title": "Antenna Transmission",
+        "content": "Signal transmitted downward using a horn antenna."
+      },
+      {
+        "title": "Beam Pattern",
+        "content": "Elliptical beam ensures vertical reflection even with aircraft pitch and roll."
+      },
+      {
+        "title": "Receiver Antenna",
+        "content": "Separate antenna receives reflected signal to avoid interference."
+      },
+      {
+        "title": "Radiated Power",
+        "content": "Transmitted power is approximately one watt."
+      },
+      {
+        "title": "Height Measurement Principle",
+        "content": "Height is calculated from shortest path directly below aircraft."
+      },
+      {
+        "title": "Indicator Scale",
+        "content": "Logarithmic scale expanded from 0–500 ft and compressed above."
+      },
+      {
+        "title": "Mask Feature",
+        "content": "Pointer disappears above 2500 ft, during faults, or when switched off."
+      },
+      {
+        "title": "Failure Warning Flag",
+        "content": "Indicates signal issues, interference, or power failure."
+      },
+      {
+        "title": "Test Function",
+        "content": "Test button moves pointer to preset value for system check."
+      },
+      {
+        "title": "Height Selector",
+        "content": "Allows pilot to set decision height reference."
+      },
+      {
+        "title": "Low Height Warning",
+        "content": "Visual and audio alerts when below selected height."
+      },
+      {
+        "title": "EFIS Display - Boeing",
+        "content": "Digital display with color changes and scaling near decision height."
+      },
+      {
+        "title": "EFIS Display - Airbus",
+        "content": "Height shown on PFD with color and size changes."
+      },
+      {
+        "title": "Autopilot Integration",
+        "content": "Used to desensitize autopilot response during landing."
+      },
+      {
+        "title": "GPWS Integration",
+        "content": "Provides height and rate data to ground proximity warning system."
+      },
+      {
+        "title": "Operating Range",
+        "content": "Effective from 0 to 2500 feet AGL."
+      },
+      {
+        "title": "Accuracy",
+        "content": "Accuracy is ±3% or ±1 ft, whichever is greater."
+      },
+      {
+        "title": "Error Sources",
+        "content": "Includes Doppler shift, digital errors, and height lag."
+      },
+      {
+        "title": "Installation Delay",
+        "content": "Compensation required for antenna position and cable length."
+      },
+      {
+        "title": "Residual Height",
+        "content": "Difference between antenna position and wheel touchdown point."
+      },
+      {
+        "title": "Cable Length Compensation",
+        "content": "Adjusts for signal delay due to long cable runs."
+      },
+      {
+        "title": "Touchdown Calibration",
+        "content": "System calibrated to read zero at main wheel touchdown."
+      },
+      {
+        "title": "Negative Ground Reading",
+        "content": "May show negative height on ground due to antenna position."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 21 - Flight Management System",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "FMS improves navigation, fuel efficiency, and reduces pilot workload using onboard computers."
+      },
+      {
+        "title": "Lateral Navigation (LNAV)",
+        "content": "Controls aircraft along programmed route using waypoints and navigation data."
+      },
+      {
+        "title": "Vertical Navigation (VNAV)",
+        "content": "Optimizes climb, cruise, and descent profiles for efficiency."
+      },
+      {
+        "title": "Automation Role",
+        "content": "FMS acts as a central control system for automatic or semi-automatic flight."
+      },
+      {
+        "title": "System Components",
+        "content": "Includes CDU, FMC, FGS, ADC, IRS, and GPS."
+      },
+      {
+        "title": "Control and Display Unit (CDU)",
+        "content": "Primary interface between pilot and FMS."
+      },
+      {
+        "title": "CDU Function",
+        "content": "Allows pilot to input data and monitor flight parameters."
+      },
+      {
+        "title": "Multiple CDU Setup",
+        "content": "Typically two CDUs are installed, sometimes three for redundancy."
+      },
+      {
+        "title": "Flight Management Computer (FMC)",
+        "content": "Processes navigation and performance data."
+      },
+      {
+        "title": "Dual Mode Operation",
+        "content": "Both FMCs operate simultaneously and cross-check data."
+      },
+      {
+        "title": "Single Mode Operation",
+        "content": "One FMC continues operation if the other fails."
+      },
+      {
+        "title": "Independent Mode",
+        "content": "FMCs operate independently without cross-checking."
+      },
+      {
+        "title": "Database Structure",
+        "content": "FMC database includes performance and navigation data."
+      },
+      {
+        "title": "Performance Database",
+        "content": "Contains aircraft performance, drag, fuel, and speed data."
+      },
+      {
+        "title": "Navigation Database",
+        "content": "Contains airports, runways, navaids, SIDs, STARs, and routes."
+      },
+      {
+        "title": "Database Cycle",
+        "content": "Updated every 28 days to match navigation charts."
+      },
+      {
+        "title": "IDENT Page",
+        "content": "Displays aircraft details and database information."
+      },
+      {
+        "title": "POS INIT Page",
+        "content": "Used to initialize aircraft position and time."
+      },
+      {
+        "title": "RTE Page",
+        "content": "Used to enter origin, destination, and route."
+      },
+      {
+        "title": "PERF INIT Page",
+        "content": "Used to input weight, fuel, altitude, and cost index."
+      },
+      {
+        "title": "Cost Index",
+        "content": "Balances fuel cost and time efficiency."
+      },
+      {
+        "title": "VNAV Climb",
+        "content": "Controls climb using optimized speed and thrust."
+      },
+      {
+        "title": "Climb Constraints",
+        "content": "Ensures compliance with altitude and speed restrictions."
+      },
+      {
+        "title": "Cruise Mode",
+        "content": "Maintains efficient cruise speed and altitude."
+      },
+      {
+        "title": "Top of Descent",
+        "content": "Determines optimal point to begin descent."
+      },
+      {
+        "title": "Descent Profile",
+        "content": "Calculates descent path based on constraints and efficiency."
+      },
+      {
+        "title": "Arrival and Approach",
+        "content": "Guides aircraft to final approach or runway threshold."
+      },
+      {
+        "title": "LNAV Operation",
+        "content": "Follows great circle routes and procedure paths."
+      },
+      {
+        "title": "Position Determination",
+        "content": "Uses IRS, VOR, DME, and GPS inputs."
+      },
+      {
+        "title": "Position Error",
+        "content": "Errors accumulate over time in inertial systems."
+      },
+      {
+        "title": "Error Monitoring",
+        "content": "Pilot monitors differences between IRS systems."
+      },
+      {
+        "title": "System Accuracy",
+        "content": "Typical accuracy better than 0.05 NM per hour."
+      },
+      {
+        "title": "GPS Integration",
+        "content": "Improves overall navigation accuracy."
+      },
+      {
+        "title": "Alphanumeric Keys",
+        "content": "Used to input data into the CDU scratchpad."
+      },
+      {
+        "title": "Function Keys",
+        "content": "Access various system modes and data pages."
+      },
+      {
+        "title": "Line Select Keys",
+        "content": "Used to transfer data between display and scratchpad."
+      },
+      {
+        "title": "EXEC Key",
+        "content": "Activates entered data into the active flight plan."
+      },
+      {
+        "title": "CLR Key",
+        "content": "Clears or edits scratchpad entries."
+      },
+      {
+        "title": "DEL Key",
+        "content": "Deletes selected flight plan data."
+      },
+      {
+        "title": "Page Navigation Keys",
+        "content": "Used to switch between display pages."
+      },
+      {
+        "title": "Climb Mode (CLB)",
+        "content": "Displays and manages climb performance."
+      },
+      {
+        "title": "Cruise Mode (CRZ)",
+        "content": "Displays cruise performance data."
+      },
+      {
+        "title": "Descent Mode (DES)",
+        "content": "Displays descent performance data."
+      },
+      {
+        "title": "Route Page (RTE)",
+        "content": "Handles flight plan route input and changes."
+      },
+      {
+        "title": "Legs Page (LEGS)",
+        "content": "Displays detailed route segments."
+      },
+      {
+        "title": "Hold Function",
+        "content": "Allows planning or execution of holding patterns."
+      },
+      {
+        "title": "Direct/Intercept",
+        "content": "Allows direct navigation to a waypoint."
+      },
+      {
+        "title": "Fix Page",
+        "content": "Displays bearing and distance to selected fixes."
+      },
+      {
+        "title": "Progress Page",
+        "content": "Displays ETA, fuel, wind, and flight status."
+      },
+      {
+        "title": "Annunciators",
+        "content": "Provide system status and warnings."
+      },
+      {
+        "title": "MSG Indicator",
+        "content": "Indicates advisory or alert messages."
+      },
+      {
+        "title": "FAIL Indicator",
+        "content": "Indicates FMC failure."
+      },
+      {
+        "title": "DISPLAY Indicator",
+        "content": "Shows non-active flight plan data display."
+      },
+      {
+        "title": "OFFSET Indicator",
+        "content": "Indicates parallel offset navigation."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 22 - Electronic Flight Information Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "EFIS displays attitude and navigation data using electronic screens for better clarity and interpretation."
+      },
+      {
+        "title": "System Integration",
+        "content": "Integrated with digital navigation systems using PFD and ND displays."
+      },
+      {
+        "title": "Display Technology",
+        "content": "Uses CRT or LCD displays for presenting flight information."
+      },
+      {
+        "title": "System Configuration",
+        "content": "Separate systems for Captain and First Officer."
+      },
+      {
+        "title": "Primary Units",
+        "content": "Includes PFD (EADI), ND (EHSI), control panel, symbol generator, and light sensor."
+      },
+      {
+        "title": "Symbol Generator",
+        "content": "Processes and distributes data signals to display units."
+      },
+      {
+        "title": "Backup Symbol Generator",
+        "content": "Provides redundancy in case of failure."
+      },
+      {
+        "title": "Display Units",
+        "content": "PFD and ND units are often interchangeable."
+      },
+      {
+        "title": "Colour Coding",
+        "content": "Different colours represent priority and type of information."
+      },
+      {
+        "title": "White Colour",
+        "content": "Represents primary flight information."
+      },
+      {
+        "title": "Green Colour",
+        "content": "Indicates active system modes or lower priority data."
+      },
+      {
+        "title": "Magenta Colour",
+        "content": "Indicates command or 'fly-to' guidance."
+      },
+      {
+        "title": "Cyan Colour",
+        "content": "Represents background or non-active data."
+      },
+      {
+        "title": "Yellow Colour",
+        "content": "Indicates caution or alerts."
+      },
+      {
+        "title": "Red Colour",
+        "content": "Indicates severe warnings such as weather hazards."
+      },
+      {
+        "title": "Remote Light Sensor",
+        "content": "Adjusts display brightness automatically based on ambient light."
+      },
+      {
+        "title": "Control Panel",
+        "content": "Used to manage display modes and settings."
+      },
+      {
+        "title": "Brightness Control",
+        "content": "Adjusts display brightness."
+      },
+      {
+        "title": "Decision Height Selector",
+        "content": "Sets decision height for landing alerts."
+      },
+      {
+        "title": "Decision Height Reset",
+        "content": "Resets DH alerts."
+      },
+      {
+        "title": "EADI Display",
+        "content": "Shows pitch, roll, flight director, ILS data, and speed error."
+      },
+      {
+        "title": "Decision Height Concept",
+        "content": "Minimum altitude for visual reference during landing."
+      },
+      {
+        "title": "Radio Altitude Display",
+        "content": "Displayed digitally and graphically below 1000 ft."
+      },
+      {
+        "title": "DH Alerts",
+        "content": "Visual and audio alerts triggered near decision height."
+      },
+      {
+        "title": "Speed Error Indicator",
+        "content": "Shows deviation between commanded and actual speed."
+      },
+      {
+        "title": "EHSI Display",
+        "content": "Displays navigation data in various modes."
+      },
+      {
+        "title": "Range Selector",
+        "content": "Controls map and navigation display range."
+      },
+      {
+        "title": "Mode Selector",
+        "content": "Switches between VOR, ILS, MAP, and PLAN modes."
+      },
+      {
+        "title": "Map Switches",
+        "content": "Control display of navigation aids, airports, and routes."
+      },
+      {
+        "title": "Weather Radar Display",
+        "content": "Shows weather intensity using color coding."
+      },
+      {
+        "title": "System Symbols",
+        "content": "Includes waypoints, airports, navaids, and wind indicators."
+      },
+      {
+        "title": "Active Waypoint",
+        "content": "Displayed in magenta as current navigation target."
+      },
+      {
+        "title": "Inactive Waypoint",
+        "content": "Displayed in white as part of route."
+      },
+      {
+        "title": "Navigation Modes",
+        "content": "Includes VOR, ILS, MAP, and PLAN display modes."
+      },
+      {
+        "title": "VOR Mode",
+        "content": "Displays compass rose and VOR navigation data."
+      },
+      {
+        "title": "ILS Mode",
+        "content": "Displays localizer and glide slope data."
+      },
+      {
+        "title": "MAP Mode",
+        "content": "Displays moving map with route and navigation data."
+      },
+      {
+        "title": "PLAN Mode",
+        "content": "Displays static map for route planning."
+      },
+      {
+        "title": "Compass Orientation",
+        "content": "Displays heading or track relative to magnetic or true north."
+      },
+      {
+        "title": "Track and Heading Display",
+        "content": "Shows aircraft heading and track information."
+      },
+      {
+        "title": "Wind Display",
+        "content": "Shows wind speed and direction."
+      },
+      {
+        "title": "Weather Radar Integration",
+        "content": "Displays precipitation intensity and turbulence."
+      },
+      {
+        "title": "Trend Vector",
+        "content": "Predicts future aircraft position."
+      },
+      {
+        "title": "Altitude Arc",
+        "content": "Shows predicted altitude achievement point."
+      },
+      {
+        "title": "Route Display",
+        "content": "Displays active and inactive routes."
+      },
+      {
+        "title": "Offset Path",
+        "content": "Shows parallel flight path offset."
+      },
+      {
+        "title": "Top of Climb/Descent",
+        "content": "Indicates calculated climb and descent points."
+      },
+      {
+        "title": "Failure Indications",
+        "content": "Displayed using flags and messages."
+      },
+      {
+        "title": "Warning Messages",
+        "content": "Displayed for system discrepancies and failures."
+      },
+      {
+        "title": "Data Source Selection",
+        "content": "Allows switching between different sensor inputs."
+      },
+      {
+        "title": "Navigation Symbols",
+        "content": "Standard symbols represent navigation data."
+      },
+      {
+        "title": "Colour Priority System",
+        "content": "Defines importance of displayed information."
+      },
+      {
+        "title": "System Advantages",
+        "content": "Improves readability, reduces workload, and enhances situational awareness."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 23 - Basic Computers",
+    "sub_modules": [
+      {
+        "title": "Definition of Computer",
+        "content": "A computer is a device that stores data and executes programs to process that data."
+      },
+      {
+        "title": "Historical Background",
+        "content": "The first general-purpose computer was the Z3 built by Konrad Zuse in 1941."
+      },
+      {
+        "title": "Types of Computers",
+        "content": "Two main types: analogue and digital computers."
+      },
+      {
+        "title": "Analogue Computers",
+        "content": "Use continuous variables like voltage or pressure to represent data."
+      },
+      {
+        "title": "Analogue Applications",
+        "content": "Used for simulation of physical systems like aircraft structures."
+      },
+      {
+        "title": "Decline of Analogue Computers",
+        "content": "Replaced by digital computers due to flexibility and programmability."
+      },
+      {
+        "title": "Digital Computers",
+        "content": "Use binary data (0 and 1) for processing information."
+      },
+      {
+        "title": "Binary System",
+        "content": "Represents data using two states: ON and OFF."
+      },
+      {
+        "title": "Digital Circuits",
+        "content": "Operate as two-state switching systems."
+      },
+      {
+        "title": "Computer Hardware",
+        "content": "Physical components of a computer system."
+      },
+      {
+        "title": "Central Processing Unit (CPU)",
+        "content": "The brain of the computer that controls all operations."
+      },
+      {
+        "title": "Arithmetic Logic Unit (ALU)",
+        "content": "Performs arithmetic and logical operations."
+      },
+      {
+        "title": "Shift Registers",
+        "content": "Temporary storage for data being processed."
+      },
+      {
+        "title": "Accumulator",
+        "content": "Register that holds intermediate processing data."
+      },
+      {
+        "title": "Control Unit",
+        "content": "Controls operations using timing signals from a clock."
+      },
+      {
+        "title": "Clock System",
+        "content": "Provides timing pulses to synchronize operations."
+      },
+      {
+        "title": "Input Devices",
+        "content": "Provide data to the computer from sensors or user input."
+      },
+      {
+        "title": "Output Devices",
+        "content": "Display or transmit processed data."
+      },
+      {
+        "title": "Aircraft Inputs",
+        "content": "Sensors like radio altimeter, TAS, fuel flow."
+      },
+      {
+        "title": "Aircraft Outputs",
+        "content": "Displayed via EFIS or FMS CDU."
+      },
+      {
+        "title": "BIOS",
+        "content": "Converts input/output signals into usable formats."
+      },
+      {
+        "title": "Working Memory",
+        "content": "Used to store and execute programs."
+      },
+      {
+        "title": "Read Only Memory (ROM)",
+        "content": "Stores permanent instructions programmed by manufacturer."
+      },
+      {
+        "title": "Programmable ROM",
+        "content": "PROM, EPROM, EEPROM allow modification of stored programs."
+      },
+      {
+        "title": "Volatile Memory",
+        "content": "Loses data when power is removed."
+      },
+      {
+        "title": "Non-Volatile Memory",
+        "content": "Retains data without power."
+      },
+      {
+        "title": "Random Access Memory (RAM)",
+        "content": "Allows read/write operations and stores active data."
+      },
+      {
+        "title": "Permanent Storage",
+        "content": "Stores data long-term using various media."
+      },
+      {
+        "title": "Flash Memory",
+        "content": "Fast, rewritable electronic storage."
+      },
+      {
+        "title": "Optical Storage",
+        "content": "Uses CDs or similar media for data storage."
+      },
+      {
+        "title": "Magnetic Storage",
+        "content": "Includes hard drives and older floppy disks."
+      },
+      {
+        "title": "Software",
+        "content": "Programs that control computer operations."
+      },
+      {
+        "title": "Assembly Language",
+        "content": "Low-level programming language tied to hardware."
+      },
+      {
+        "title": "High-Level Languages",
+        "content": "User-friendly programming languages like C++, BASIC, FORTRAN."
+      },
+      {
+        "title": "Scripting Languages",
+        "content": "Used to control applications and automate tasks."
+      },
+      {
+        "title": "Aviation Software Standards",
+        "content": "Software must meet strict safety standards."
+      },
+      {
+        "title": "EUROCAE ED-12B",
+        "content": "Defines safety levels for aviation software."
+      },
+      {
+        "title": "Software Level A",
+        "content": "Catastrophic failure risk."
+      },
+      {
+        "title": "Software Level B",
+        "content": "Hazardous or severe failure risk."
+      },
+      {
+        "title": "Software Level C",
+        "content": "Major impact on operation."
+      },
+      {
+        "title": "Software Level D",
+        "content": "Minor impact on safety."
+      },
+      {
+        "title": "Software Level E",
+        "content": "No effect on safety."
+      },
+      {
+        "title": "Aircraft Computer Systems",
+        "content": "Used in FMS, DFGS, GPWS, TCAS, and fly-by-wire systems."
+      },
+      {
+        "title": "Dedicated Computers",
+        "content": "Each system uses its own processor."
+      },
+      {
+        "title": "Future Integration",
+        "content": "Trend toward centralized processing systems."
+      },
+      {
+        "title": "Integrated Hazard Warning System",
+        "content": "Combines multiple warning systems into one."
+      },
+      {
+        "title": "Analogue to Digital Conversion",
+        "content": "Converts analogue signals into digital form."
+      },
+      {
+        "title": "Digital to Analogue Conversion",
+        "content": "Converts digital output into analogue signals."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 24 - Future Air Navigation Systems (FANS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Traditional ATC uses voice communication with radar in populated areas and procedural control in remote areas."
+      },
+      {
+        "title": "Limitations of Traditional ATC",
+        "content": "HF communication issues and lack of radar lead to large separation distances and low traffic density."
+      },
+      {
+        "title": "Position Reporting",
+        "content": "Aircraft report position periodically, often every 30–60 minutes in oceanic regions."
+      },
+      {
+        "title": "Need for Improvement",
+        "content": "Increasing air traffic requires real-time accurate position and better communication systems."
+      },
+      {
+        "title": "GNSS Role",
+        "content": "Provides highly accurate global positioning."
+      },
+      {
+        "title": "SATCOM Role",
+        "content": "Enables global communication using satellites."
+      },
+      {
+        "title": "Communication Systems",
+        "content": "Includes VHF, HF, and SATCOM communication methods."
+      },
+      {
+        "title": "VHF Communication",
+        "content": "Line-of-sight communication limited to about 200 NM."
+      },
+      {
+        "title": "HF Communication",
+        "content": "Long-range but unreliable due to interference."
+      },
+      {
+        "title": "SELCAL",
+        "content": "Alerts pilots when messages are received without continuous listening."
+      },
+      {
+        "title": "SATCOM Communication",
+        "content": "Provides global communication using satellites."
+      },
+      {
+        "title": "Voice Communication Limitations",
+        "content": "Includes congestion, language issues, and limited channels."
+      },
+      {
+        "title": "Data Link Concept",
+        "content": "Allows digital communication between aircraft and ground systems."
+      },
+      {
+        "title": "Data Link Advantages",
+        "content": "Improves reliability, clarity, and speed of communication."
+      },
+      {
+        "title": "Uplink",
+        "content": "Transmission from ground to aircraft."
+      },
+      {
+        "title": "Downlink",
+        "content": "Transmission from aircraft to ground."
+      },
+      {
+        "title": "Data Link Providers",
+        "content": "Includes SITA and ARINC."
+      },
+      {
+        "title": "CMU",
+        "content": "Controls communication frequencies."
+      },
+      {
+        "title": "DCDU",
+        "content": "Displays data link messages."
+      },
+      {
+        "title": "MCDU",
+        "content": "Combined control and display unit."
+      },
+      {
+        "title": "ACARS",
+        "content": "Data link system for communication between aircraft and ground."
+      },
+      {
+        "title": "ACARS Functions",
+        "content": "Supports operational messages, maintenance data, and flight monitoring."
+      },
+      {
+        "title": "ATSU",
+        "content": "Provides ATC services via data link."
+      },
+      {
+        "title": "ATSU Services",
+        "content": "Includes flight information, alerting, advisory, and control services."
+      },
+      {
+        "title": "CNS/ATM",
+        "content": "Integrated system combining communication, navigation, and surveillance."
+      },
+      {
+        "title": "ATM",
+        "content": "Manages air traffic and operational efficiency."
+      },
+      {
+        "title": "ATC Data Link Messages",
+        "content": "Includes departure clearance, oceanic clearance, and ATIS."
+      },
+      {
+        "title": "AOC Messages",
+        "content": "Used by airlines for operational tracking."
+      },
+      {
+        "title": "OOOI Messages",
+        "content": "Out, Off, On, In status updates."
+      },
+      {
+        "title": "Load Sheet",
+        "content": "Provides aircraft weight and balance data."
+      },
+      {
+        "title": "Passenger Information",
+        "content": "Supports cabin crew operations."
+      },
+      {
+        "title": "Weather Reports",
+        "content": "Provides METAR, TAF, and SIGMET data."
+      },
+      {
+        "title": "Maintenance Reports",
+        "content": "Reports aircraft system issues."
+      },
+      {
+        "title": "Free Text Messages",
+        "content": "Allows flexible communication."
+      },
+      {
+        "title": "Logon Procedure",
+        "content": "Pilot initiates connection with ATSU using ICAO address."
+      },
+      {
+        "title": "AFN",
+        "content": "Air Traffic Service Facility Notification establishes connection."
+      },
+      {
+        "title": "FANS Concept",
+        "content": "Uses GNSS and data link to provide global ATC coverage."
+      },
+      {
+        "title": "FANS Benefits",
+        "content": "Reduces separation distances and improves efficiency."
+      },
+      {
+        "title": "FANS A",
+        "content": "Used in oceanic and remote areas."
+      },
+      {
+        "title": "FANS B",
+        "content": "Used in high-density airspace."
+      },
+      {
+        "title": "ADS",
+        "content": "Automatic Dependent Surveillance provides aircraft position data."
+      },
+      {
+        "title": "ADS-C Contracts",
+        "content": "Includes periodic, event-based, and emergency reporting."
+      },
+      {
+        "title": "CPDLC",
+        "content": "Controller-Pilot Data Link Communication system."
+      },
+      {
+        "title": "CPDLC Messages",
+        "content": "Structured messages for ATC instructions and responses."
+      },
+      {
+        "title": "FANS Architecture",
+        "content": "Includes satellite, VHF, and ground systems."
+      },
+      {
+        "title": "ATN",
+        "content": "Aeronautical Telecommunications Network for data exchange."
+      },
+      {
+        "title": "FANS Coverage",
+        "content": "Global coverage using satellites and data links."
+      },
+      {
+        "title": "System Integration",
+        "content": "Combines communication, navigation, and surveillance systems."
+      },
+      {
+        "title": "Safety Backup",
+        "content": "TCAS provides collision avoidance."
+      },
+      {
+        "title": "Future Trends",
+        "content": "Increasing automation and global integration of ATC systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 25 - Flight Director Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "FDS provides steering and attitude guidance to reduce pilot workload and can interface with autopilot."
+      },
+      {
+        "title": "FDS Purpose",
+        "content": "Integrates attitude, navigation, and flight path data to provide guidance commands."
+      },
+      {
+        "title": "FDS Channels",
+        "content": "Consists of pitch channel and roll channel."
+      },
+      {
+        "title": "Data Sources",
+        "content": "Includes ADC, VOR/ILS, FMS, and IRS inputs."
+      },
+      {
+        "title": "Attitude Information",
+        "content": "Provided by gyro systems or IRS."
+      },
+      {
+        "title": "Electronic Attitude Director Indicator",
+        "content": "Displays pitch, roll, and command bars."
+      },
+      {
+        "title": "Command Bars",
+        "content": "Provide intuitive 'fly-to' guidance for pilot control."
+      },
+      {
+        "title": "Primary Flight Display",
+        "content": "Combines attitude, speed, altitude, and navigation data."
+      },
+      {
+        "title": "Flight Mode Annunciator",
+        "content": "Displays active and armed modes of flight systems."
+      },
+      {
+        "title": "Electronic Horizontal Situation Indicator",
+        "content": "Displays navigation and heading information."
+      },
+      {
+        "title": "Flight Director Computer",
+        "content": "Processes inputs and generates guidance commands."
+      },
+      {
+        "title": "Symbol Generator",
+        "content": "Displays processed data on EFIS screens."
+      },
+      {
+        "title": "Vertical Gyro",
+        "content": "Provides attitude reference in older systems."
+      },
+      {
+        "title": "INS/IRS Integration",
+        "content": "Modern systems use IRS instead of vertical gyro."
+      },
+      {
+        "title": "Mode Control Panel",
+        "content": "Used by pilot to select FDS and autopilot modes."
+      },
+      {
+        "title": "Mode Annunciators",
+        "content": "Indicate system status and mode engagement."
+      },
+      {
+        "title": "Raw Data",
+        "content": "Unprocessed navigation signals like LOC and GS deviation."
+      },
+      {
+        "title": "Computed Data",
+        "content": "Processed guidance commands from FDS."
+      },
+      {
+        "title": "FD Fail Indications",
+        "content": "Flags indicate failures in sensors or system."
+      },
+      {
+        "title": "Gyro Failure Flag",
+        "content": "Indicates failure of attitude reference."
+      },
+      {
+        "title": "Navigation Failure Flag",
+        "content": "Indicates unreliable navigation signals."
+      },
+      {
+        "title": "Command Attitude",
+        "content": "FDS provides pitch guidance for level, climb, or descent."
+      },
+      {
+        "title": "Take-off Mode",
+        "content": "Activated by TO/GA switch providing initial pitch and roll commands."
+      },
+      {
+        "title": "Take-off Guidance",
+        "content": "Commands pitch and speed targets during climb."
+      },
+      {
+        "title": "Altitude Hold",
+        "content": "Maintains selected altitude using pitch commands."
+      },
+      {
+        "title": "Heading Mode",
+        "content": "Maintains selected heading."
+      },
+      {
+        "title": "Navigation Mode",
+        "content": "Uses VOR, LOC, or FMS data for tracking."
+      },
+      {
+        "title": "LNAV",
+        "content": "Uses FMS or GPS for lateral navigation."
+      },
+      {
+        "title": "ILS Approach Mode",
+        "content": "Captures localizer and glide slope."
+      },
+      {
+        "title": "Localizer Capture",
+        "content": "Aligns aircraft with runway centerline."
+      },
+      {
+        "title": "Glide Slope Capture",
+        "content": "Controls descent along glide path."
+      },
+      {
+        "title": "Manual Glide Slope Mode",
+        "content": "Allows capture from above if needed."
+      },
+      {
+        "title": "Go-Around Mode",
+        "content": "Activated using TO/GA switch during missed approach."
+      },
+      {
+        "title": "Go-Around Guidance",
+        "content": "Provides pitch and roll commands for climb."
+      },
+      {
+        "title": "Engine Failure Handling",
+        "content": "Adjusts speed and pitch commands accordingly."
+      },
+      {
+        "title": "Manoeuvre Protection",
+        "content": "Prevents unsafe commands exceeding aircraft limits."
+      },
+      {
+        "title": "Gain Scheduling",
+        "content": "Adjusts command sensitivity based on flight phase."
+      },
+      {
+        "title": "ILS Gain Adjustment",
+        "content": "Reduces command intensity near runway."
+      },
+      {
+        "title": "Radio Altimeter Input",
+        "content": "Used for accurate gain scheduling."
+      },
+      {
+        "title": "Dual FDS",
+        "content": "Provides redundancy with two independent systems."
+      },
+      {
+        "title": "FD Comparator",
+        "content": "Compares outputs of both FDS systems."
+      },
+      {
+        "title": "Comparator Function",
+        "content": "Removes command bars if disagreement detected."
+      },
+      {
+        "title": "System Redundancy",
+        "content": "Ensures continued operation if one system fails."
+      },
+      {
+        "title": "EFIS Integration",
+        "content": "Displays FDS data on PFD and ND."
+      },
+      {
+        "title": "System Reliability",
+        "content": "Includes backup systems and fail-safe features."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 26 - Autopilot",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Autopilot reduces pilot workload and improves flight accuracy by controlling the aircraft automatically."
+      },
+      {
+        "title": "Purpose",
+        "content": "Relieves fatigue and improves accuracy by reacting faster than human pilots."
+      },
+      {
+        "title": "Autothrottle Integration",
+        "content": "Controls engine thrust automatically along with autopilot guidance."
+      },
+      {
+        "title": "Engagement",
+        "content": "Autopilot can be engaged shortly after take-off, typically around 400 feet."
+      },
+      {
+        "title": "Response Time",
+        "content": "Autopilot reacts faster than humans, improving stability and precision."
+      },
+      {
+        "title": "Fail Safe System",
+        "content": "Limits actuator authority to allow pilot override during failures."
+      },
+      {
+        "title": "Basic Autopilot",
+        "content": "Maintains aircraft attitude and stability."
+      },
+      {
+        "title": "Aircraft Stabilization",
+        "content": "Detects disturbances and applies corrective control automatically."
+      },
+      {
+        "title": "Inner Loop Control",
+        "content": "Handles automatic stabilization through feedback control."
+      },
+      {
+        "title": "Inner Loop Functions",
+        "content": "Includes sensing, computing, actuating, feedback, and correction."
+      },
+      {
+        "title": "Control Loops",
+        "content": "Autopilot uses inner loop (stability) and outer loop (guidance)."
+      },
+      {
+        "title": "Closed Loop System",
+        "content": "Uses feedback to correct aircraft attitude continuously."
+      },
+      {
+        "title": "Open Loop System",
+        "content": "Operates without feedback control."
+      },
+      {
+        "title": "Servo Mechanism",
+        "content": "Amplifies small input signals into large control movements."
+      },
+      {
+        "title": "Attitude Sensor",
+        "content": "Detects changes in aircraft attitude using gyros."
+      },
+      {
+        "title": "Transducer",
+        "content": "Converts mechanical motion into electrical signals."
+      },
+      {
+        "title": "Signal Processor",
+        "content": "Computes required corrective action."
+      },
+      {
+        "title": "Servomotor",
+        "content": "Moves control surfaces based on computed signals."
+      },
+      {
+        "title": "Aerodynamic Feedback",
+        "content": "Provides feedback from aircraft response."
+      },
+      {
+        "title": "Outer Loop Control",
+        "content": "Provides guidance modes such as altitude hold and navigation."
+      },
+      {
+        "title": "Autopilot Axes",
+        "content": "Controls roll, pitch, and yaw axes."
+      },
+      {
+        "title": "Single Axis System",
+        "content": "Controls roll only (wing leveller)."
+      },
+      {
+        "title": "Two Axis System",
+        "content": "Controls roll and pitch."
+      },
+      {
+        "title": "Three Axis System",
+        "content": "Controls roll, pitch, and yaw for full stability."
+      },
+      {
+        "title": "EU-OPS Requirements",
+        "content": "Requires at least altitude hold and heading mode for IFR single pilot."
+      },
+      {
+        "title": "Actuator Types",
+        "content": "Includes electromechanical, electrohydraulic, and pneumatic."
+      },
+      {
+        "title": "Parallel Actuator",
+        "content": "Moves both control surface and control stick."
+      },
+      {
+        "title": "Series Actuator",
+        "content": "Moves control surface only."
+      },
+      {
+        "title": "Torque Limiter",
+        "content": "Prevents excessive loads and runaway conditions."
+      },
+      {
+        "title": "Autopilot Interlocks",
+        "content": "Ensure safe engagement by verifying system integrity."
+      },
+      {
+        "title": "Engagement Conditions",
+        "content": "Requires proper system state and no control input from pilot."
+      },
+      {
+        "title": "Disengagement Conditions",
+        "content": "Triggered by failures, pilot input, or system faults."
+      },
+      {
+        "title": "Synchronization",
+        "content": "Ensures smooth engagement without sudden control changes."
+      },
+      {
+        "title": "Trim System",
+        "content": "Relieves control forces to maintain aircraft attitude."
+      },
+      {
+        "title": "Manual Trim",
+        "content": "Operated by pilot using control inputs."
+      },
+      {
+        "title": "Auto Trim",
+        "content": "Automatically adjusts trim during autopilot operation."
+      },
+      {
+        "title": "Trim Detection",
+        "content": "Detects out-of-trim conditions using actuator load or position."
+      },
+      {
+        "title": "Trim Safety",
+        "content": "Failure triggers autopilot disengagement and warnings."
+      },
+      {
+        "title": "Mach Trim",
+        "content": "Prevents Mach tuck at high speeds."
+      },
+      {
+        "title": "Fly-by-Wire",
+        "content": "Uses computers to control aircraft instead of direct mechanical input."
+      },
+      {
+        "title": "Flight Path Modes",
+        "content": "Outer loop modes controlling aircraft trajectory."
+      },
+      {
+        "title": "Mode Control Panel",
+        "content": "Interface for selecting autopilot modes."
+      },
+      {
+        "title": "Mode Types",
+        "content": "Includes hold, capture, and tracking modes."
+      },
+      {
+        "title": "Roll Modes",
+        "content": "Heading, VOR, LOC, LNAV."
+      },
+      {
+        "title": "Pitch Modes",
+        "content": "Altitude hold, vertical speed, VNAV, speed hold."
+      },
+      {
+        "title": "Autoland",
+        "content": "Fully automatic landing using all control axes."
+      },
+      {
+        "title": "Mode Annunciator",
+        "content": "Displays autopilot status and active modes."
+      },
+      {
+        "title": "Sensor Inputs",
+        "content": "Includes air data, attitude, heading, and navigation inputs."
+      },
+      {
+        "title": "Air Data",
+        "content": "Provides altitude, speed, and vertical speed."
+      },
+      {
+        "title": "Attitude Reference",
+        "content": "Provided by gyro or inertial systems."
+      },
+      {
+        "title": "Magnetic Heading",
+        "content": "Provides heading reference to autopilot."
+      },
+      {
+        "title": "Radio Navigation",
+        "content": "Provides VOR and ILS signals."
+      },
+      {
+        "title": "FMS Integration",
+        "content": "Allows autopilot to follow programmed flight routes."
+      },
+      {
+        "title": "Heading Select Mode",
+        "content": "Maintains selected heading."
+      },
+      {
+        "title": "VOR/LOC Mode",
+        "content": "Tracks radio navigation signals."
+      },
+      {
+        "title": "LNAV Mode",
+        "content": "Follows programmed route using FMC."
+      },
+      {
+        "title": "Altitude Hold",
+        "content": "Maintains selected altitude."
+      },
+      {
+        "title": "Altitude Acquire",
+        "content": "Transitions to selected altitude."
+      },
+      {
+        "title": "Speed Hold",
+        "content": "Maintains selected airspeed or Mach."
+      },
+      {
+        "title": "Vertical Speed Mode",
+        "content": "Maintains selected climb or descent rate."
+      },
+      {
+        "title": "Level Change Mode",
+        "content": "Climbs or descends at selected speed."
+      },
+      {
+        "title": "VNAV Mode",
+        "content": "Follows vertical profile from FMC."
+      },
+      {
+        "title": "Operational Phases",
+        "content": "Different modes used for takeoff, climb, cruise, descent, and landing."
+      },
+      {
+        "title": "Control Wheel Steering",
+        "content": "Allows pilot to adjust attitude without disengaging autopilot."
+      },
+      {
+        "title": "Touch Control Steering",
+        "content": "Temporarily disengages autopilot for manual control."
+      },
+      {
+        "title": "Disengage Warning",
+        "content": "Provides visual and aural alerts on autopilot disengagement."
+      },
+      {
+        "title": "Operational Limits",
+        "content": "Includes pitch and roll limits for safe operation."
+      },
+      {
+        "title": "Gain Adaptation",
+        "content": "Adjusts system sensitivity based on flight conditions."
+      },
+      {
+        "title": "Approach Mode",
+        "content": "Handles ILS approach including localizer and glide slope."
+      },
+      {
+        "title": "Flight Management System",
+        "content": "Integrates autopilot, navigation, and performance systems."
+      },
+      {
+        "title": "System Redundancy",
+        "content": "Multiple systems ensure reliability and safety."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 27 - Autoland",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Autoland performs automatic landing by controlling aircraft in pitch, roll, yaw and thrust."
+      },
+      {
+        "title": "Landing Challenges",
+        "content": "Requires alignment, controlled descent, speed reduction and drift correction."
+      },
+      {
+        "title": "Objective",
+        "content": "Ensures safe landing without disturbance, with failure protection and accurate control."
+      },
+      {
+        "title": "System Requirements",
+        "content": "Requires multiple autopilots, radio altimeters and CAT III ILS."
+      },
+      {
+        "title": "Fail Passive System",
+        "content": "Handles failure safely but cannot complete autoland."
+      },
+      {
+        "title": "Fail Operational System",
+        "content": "Continues autoland even after system failure."
+      },
+      {
+        "title": "Autoland Status",
+        "content": "Displayed as LAND 2 (fail passive) or LAND 3 (fail operational)."
+      },
+      {
+        "title": "Automatic Landing Sequence",
+        "content": "Includes approach, capture, flare, touchdown and rollout phases."
+      },
+      {
+        "title": "Approach Mode",
+        "content": "Arms localizer and glide slope capture."
+      },
+      {
+        "title": "Localizer Capture",
+        "content": "Aligns aircraft with runway centerline."
+      },
+      {
+        "title": "Glide Slope Capture",
+        "content": "Controls descent along glide path."
+      },
+      {
+        "title": "Dual Autopilot Operation",
+        "content": "Required for full autoland capability."
+      },
+      {
+        "title": "Radio Altimeter",
+        "content": "Provides accurate height above ground for landing phases."
+      },
+      {
+        "title": "Radio Altimeter Failure",
+        "content": "Reduces system to fail-passive capability."
+      },
+      {
+        "title": "1500 ft RA",
+        "content": "Second autopilot engages and FLARE mode arms."
+      },
+      {
+        "title": "800 ft RA",
+        "content": "Second autopilot must be engaged for autoland."
+      },
+      {
+        "title": "350 ft RA",
+        "content": "If FLARE not armed, autopilot disengages."
+      },
+      {
+        "title": "Flare Mode",
+        "content": "Reduces descent rate for smooth touchdown."
+      },
+      {
+        "title": "Thrust Reduction",
+        "content": "Autothrottle reduces thrust to idle before touchdown."
+      },
+      {
+        "title": "Touchdown Phase",
+        "content": "Aircraft pitch reduces and nose gear lowered."
+      },
+      {
+        "title": "Rollout Mode",
+        "content": "Maintains runway centerline after landing."
+      },
+      {
+        "title": "Runway Alignment",
+        "content": "Yaw control removes drift (de-crabbing)."
+      },
+      {
+        "title": "Go Around Mode",
+        "content": "Allows automatic climb if landing aborted."
+      },
+      {
+        "title": "GA Pitch Control",
+        "content": "Commands climb pitch and speed control."
+      },
+      {
+        "title": "GA Roll Control",
+        "content": "Maintains ground track during go-around."
+      },
+      {
+        "title": "Autoland Completion",
+        "content": "Ends when autopilot is disengaged after landing."
+      },
+      {
+        "title": "Single Autopilot Approach",
+        "content": "Allows auto-approach but not full autoland."
+      },
+      {
+        "title": "ILS System",
+        "content": "Provides localizer and glide slope guidance."
+      },
+      {
+        "title": "ILS Components",
+        "content": "Includes ground transmitters and onboard receivers."
+      },
+      {
+        "title": "Localizer",
+        "content": "Provides lateral guidance."
+      },
+      {
+        "title": "Glide Slope",
+        "content": "Provides vertical guidance."
+      },
+      {
+        "title": "Marker Beacons",
+        "content": "Provide distance information to runway."
+      },
+      {
+        "title": "Weather Minima",
+        "content": "Defines minimum visibility and decision height."
+      },
+      {
+        "title": "Runway Visual Range",
+        "content": "Indicates runway visibility distance."
+      },
+      {
+        "title": "Decision Height",
+        "content": "Altitude where pilot must decide to land or go-around."
+      },
+      {
+        "title": "All Weather Operations",
+        "content": "Allows landing in low visibility within limits."
+      },
+      {
+        "title": "Category 1",
+        "content": "DH ≥ 200 ft and RVR ≥ 550 m."
+      },
+      {
+        "title": "Category 2",
+        "content": "DH 100–200 ft and RVR ≥ 300 m."
+      },
+      {
+        "title": "Category 3A",
+        "content": "DH < 100 ft and RVR ≥ 200 m."
+      },
+      {
+        "title": "Category 3B",
+        "content": "DH < 50 ft and RVR ≥ 75 m."
+      },
+      {
+        "title": "Category 3C",
+        "content": "Landing without visual reference."
+      },
+      {
+        "title": "Alert Height",
+        "content": "Height where failures determine continuation or go-around."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 28 - Autothrottle",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Autothrottle automatically controls engine thrust using N1, EPR or target airspeed."
+      },
+      {
+        "title": "Purpose",
+        "content": "Maintains required thrust or speed throughout all phases of flight."
+      },
+      {
+        "title": "Thrust Measurement",
+        "content": "Thrust is indirectly measured using N1 or EPR values."
+      },
+      {
+        "title": "System Overview",
+        "content": "Autothrottle is an electromechanical system integrated with autopilot and FMS."
+      },
+      {
+        "title": "Inputs",
+        "content": "Includes ADC data, IRS data, engine sensors, AoA, radio altitude, MCP commands and flap position."
+      },
+      {
+        "title": "Outputs",
+        "content": "Controls throttle servos, annunciations, warnings and engine displays."
+      },
+      {
+        "title": "Feedback",
+        "content": "Compares actual and reference values to adjust thrust lever movement."
+      },
+      {
+        "title": "Power Management Control",
+        "content": "PMC refines fuel flow electronically to maintain desired thrust."
+      },
+      {
+        "title": "PMC Failure",
+        "content": "Failure triggers warnings and reverts control to mechanical system."
+      },
+      {
+        "title": "A/T Engagement",
+        "content": "Activated by arming switch and selecting appropriate mode."
+      },
+      {
+        "title": "A/T Disengagement",
+        "content": "Occurs due to switch action, faults, landing or thrust lever mismatch."
+      },
+      {
+        "title": "Take-off Mode",
+        "content": "Engaged via TO/GA switch to set take-off thrust."
+      },
+      {
+        "title": "THR HLD Mode",
+        "content": "Allows manual thrust adjustment during take-off roll."
+      },
+      {
+        "title": "Climb Transition",
+        "content": "Switches from take-off thrust to climb thrust after lift-off."
+      },
+      {
+        "title": "N1 Mode",
+        "content": "Maintains engine thrust at selected N1 limit."
+      },
+      {
+        "title": "Speed Mode",
+        "content": "Maintains selected airspeed or Mach number."
+      },
+      {
+        "title": "FMC Speed Mode",
+        "content": "Maintains speed commanded by FMC during VNAV."
+      },
+      {
+        "title": "N1 Equalization",
+        "content": "Balances thrust between engines."
+      },
+      {
+        "title": "ARM Mode",
+        "content": "System ready but not actively controlling thrust."
+      },
+      {
+        "title": "Descent Retard Mode",
+        "content": "Reduces thrust during descent phases."
+      },
+      {
+        "title": "Landing Retard Mode",
+        "content": "Automatically reduces thrust before touchdown."
+      },
+      {
+        "title": "Go-around Mode",
+        "content": "Increases thrust for climb during missed approach."
+      },
+      {
+        "title": "GA Pitch and Roll Support",
+        "content": "Supports climb and maintains track during go-around."
+      },
+      {
+        "title": "Disengage Switches",
+        "content": "Manual switches allow pilot to disconnect autothrottle."
+      },
+      {
+        "title": "Warning Lights",
+        "content": "Indicate disengagement or system errors."
+      },
+      {
+        "title": "Thrust Mode Annunciator",
+        "content": "Displays active thrust mode and limits."
+      },
+      {
+        "title": "Flexible Take-off",
+        "content": "Reduces engine wear by using reduced thrust for take-off."
+      },
+      {
+        "title": "Turbulence Operation",
+        "content": "Autothrottle usable in light turbulence but not severe conditions."
+      },
+      {
+        "title": "FADEC Overview",
+        "content": "Full Authority Digital Engine Control manages engine operations."
+      },
+      {
+        "title": "FADEC Functions",
+        "content": "Controls fuel flow, engine limits, thrust and starting sequence."
+      },
+      {
+        "title": "FADEC Advantages",
+        "content": "Improves efficiency, safety and reduces pilot workload."
+      },
+      {
+        "title": "FADEC Components",
+        "content": "Includes EEC, sensors, fuel control units and interface systems."
+      },
+      {
+        "title": "Fuel Control",
+        "content": "Regulates fuel flow using HMU and fuel metering valve."
+      },
+      {
+        "title": "Thrust Levers",
+        "content": "Used for manual thrust input and FADEC reference."
+      },
+      {
+        "title": "Thrust Rating Limits",
+        "content": "Defines maximum allowable thrust based on conditions."
+      },
+      {
+        "title": "Manual Mode",
+        "content": "Pilot directly controls thrust using thrust levers."
+      },
+      {
+        "title": "Automatic Mode",
+        "content": "Thrust controlled by FMGS within lever-defined limits."
+      },
+      {
+        "title": "Autothrust Inputs",
+        "content": "Includes air data, engine data and pilot commands."
+      },
+      {
+        "title": "Autothrust Outputs",
+        "content": "Controls fuel system and engine thrust parameters."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 29 - Yaw Dampers",
+    "sub_modules": [
+      {
+        "title": "Dutch Roll",
+        "content": "Oscillation caused by interaction between yaw and roll stability."
+      },
+      {
+        "title": "Cause of Dutch Roll",
+        "content": "Excess lateral stability with low directional stability leads to oscillations."
+      },
+      {
+        "title": "Yaw-Roll Interaction",
+        "content": "Yaw disturbance creates roll and vice versa due to lift and drag differences."
+      },
+      {
+        "title": "Effect of Swept Wings",
+        "content": "Swept wings increase Dutch roll tendency due to lift variations."
+      },
+      {
+        "title": "Dynamic Stability",
+        "content": "Damping reduces oscillations; effectiveness decreases at high altitude."
+      },
+      {
+        "title": "Function of Yaw Damper",
+        "content": "Automatically applies rudder to counter yaw and prevent Dutch roll."
+      },
+      {
+        "title": "System Integration",
+        "content": "Yaw damper is part of autopilot or an additional control system."
+      },
+      {
+        "title": "Operational Role",
+        "content": "Provides turn coordination, runway alignment and asymmetric thrust support."
+      },
+      {
+        "title": "Multiple Systems",
+        "content": "Modern aircraft use multiple yaw dampers for redundancy."
+      },
+      {
+        "title": "Sensing",
+        "content": "Yaw rate is detected using rate gyro or IRS inputs."
+      },
+      {
+        "title": "Phase Advance",
+        "content": "Applies correction at peak yaw rate to prevent overshoot."
+      },
+      {
+        "title": "Dutch Roll Filter",
+        "content": "Allows only Dutch roll frequency signals to control rudder."
+      },
+      {
+        "title": "Filter Function",
+        "content": "Blocks normal turn inputs to avoid interfering with pilot commands."
+      },
+      {
+        "title": "Signal Processing",
+        "content": "Processes gyro input to generate corrective rudder commands."
+      },
+      {
+        "title": "Rudder Authority",
+        "content": "Limited rudder movement (3–6 degrees) to prevent overcontrol."
+      },
+      {
+        "title": "Split Rudder Systems",
+        "content": "Multiple yaw dampers share control for redundancy."
+      },
+      {
+        "title": "Gain Scheduling",
+        "content": "Adjusts rudder authority based on flight conditions."
+      },
+      {
+        "title": "Synchronization Mode",
+        "content": "Prevents transients during yaw damper engagement."
+      },
+      {
+        "title": "Engaged Mode",
+        "content": "Processes signals and commands rudder movement."
+      },
+      {
+        "title": "Feedback System",
+        "content": "Uses position feedback to stabilize rudder movement."
+      },
+      {
+        "title": "Neutral Position Control",
+        "content": "Ensures rudder returns to center after correction."
+      },
+      {
+        "title": "Yaw Damper Testing",
+        "content": "Simulates yaw to verify system operation."
+      },
+      {
+        "title": "Test Indications",
+        "content": "Rudder indicator moves and returns to center if system is working."
+      },
+      {
+        "title": "System Indications",
+        "content": "Includes switches, test buttons and failure lights."
+      },
+      {
+        "title": "Failure Indications",
+        "content": "Alerts for power loss, sensor failure or system faults."
+      },
+      {
+        "title": "Rudder Trim Indicator",
+        "content": "Shows rudder movement due to yaw damper activity."
+      },
+      {
+        "title": "Taxi Test",
+        "content": "Yaw damper operation can be verified during aircraft turns on ground."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 30 - Control Laws",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Autopilot must control aircraft safely within performance and structural limits."
+      },
+      {
+        "title": "Control Logic",
+        "content": "Control inputs are proportional to deviation but limited to safe boundaries."
+      },
+      {
+        "title": "Flight Envelope Limits",
+        "content": "Includes speed, pitch, bank angle, load factor and structural limits."
+      },
+      {
+        "title": "Command Speed Limiting",
+        "content": "Prevents aircraft from exceeding speed and configuration limits."
+      },
+      {
+        "title": "Speed Limits",
+        "content": "Includes VMO/MMO, flap limits, gear limits and minimum speed."
+      },
+      {
+        "title": "Minimum Speed",
+        "content": "Approximately 1.3 VS based on angle of attack."
+      },
+      {
+        "title": "Limit Enforcement",
+        "content": "System restricts speed commands to remain within limits."
+      },
+      {
+        "title": "Overspeed Protection",
+        "content": "Prevents exceeding maximum allowable speeds."
+      },
+      {
+        "title": "Underspeed Protection",
+        "content": "Prevents aircraft from stalling by maintaining minimum speed."
+      },
+      {
+        "title": "Reversion Modes",
+        "content": "System switches modes to maintain safe flight conditions."
+      },
+      {
+        "title": "Placard Limit Reversion",
+        "content": "Reverts to speed control to avoid exceeding limits."
+      },
+      {
+        "title": "Minimum Speed Reversion",
+        "content": "Reverts to maintain safe speed if nearing stall conditions."
+      },
+      {
+        "title": "Pitch Control in Reversion",
+        "content": "Commands nose-down pitch to increase airspeed."
+      },
+      {
+        "title": "Flight Envelope Protection",
+        "content": "Prevents aircraft from exceeding safe operational limits."
+      },
+      {
+        "title": "Purpose of Protection",
+        "content": "Ensures safety during extreme conditions and pilot errors."
+      },
+      {
+        "title": "Protected Parameters",
+        "content": "Angle of attack, speed, pitch, bank angle and load factor."
+      },
+      {
+        "title": "High Angle of Attack Protection",
+        "content": "Limits AoA to prevent stall and activates thrust if needed."
+      },
+      {
+        "title": "High Speed Protection",
+        "content": "Adds nose-up demand to prevent excessive speed."
+      },
+      {
+        "title": "Pitch Attitude Protection",
+        "content": "Limits pitch to 30° nose-up and 15° nose-down."
+      },
+      {
+        "title": "Bank Angle Protection",
+        "content": "Limits roll angle and stabilizes aircraft automatically."
+      },
+      {
+        "title": "Load Factor Protection",
+        "content": "Prevents structural overload by limiting g-forces."
+      },
+      {
+        "title": "Fly-by-Wire Protection",
+        "content": "Advanced systems enforce full flight envelope protection."
+      },
+      {
+        "title": "Pilot Authority",
+        "content": "Allows full control while preventing unsafe actions."
+      },
+      {
+        "title": "Autopilot Gain Scheduling",
+        "content": "Adjusts control sensitivity based on flight phase."
+      },
+      {
+        "title": "Gain Adaptation",
+        "content": "Reduces control authority near ground and at high speeds."
+      },
+      {
+        "title": "Approach Phase Limits",
+        "content": "Autopilot authority reduced during landing and approach."
+      },
+      {
+        "title": "Altitude and Speed Effects",
+        "content": "Control limits vary with altitude and aircraft performance."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 32 - Flight Warning Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Flight Warning System (FWS) produces cautions and warnings to increase crew situational awareness and provide indications of actions required to avoid danger. Due to multiple warning systems, an integrated system prioritizes warnings relevant to each phase of flight."
+      },
+      {
+        "title": "Levels of Alerts",
+        "content": "Alerts are classified into three levels: Level A (Warnings) require immediate action, Level B (Cautions) require immediate awareness and subsequent action, and Level C (Advisories) require crew awareness."
+      },
+      {
+        "title": "Warnings in General",
+        "content": "Warnings and alerts are presented in visual, aural, and sensory (tactile) forms to ensure effective communication to the crew."
+      },
+      {
+        "title": "Visual Warnings",
+        "content": "Visual alerts use colour coding: red for warnings, amber/yellow for cautions, and other colours for advisories. These are displayed on electronic screens or via lights and flags. Master warning and caution lights are placed in the pilot’s central field of view."
+      },
+      {
+        "title": "Aural Warnings",
+        "content": "Aural warnings include sounds and voice alerts. Warnings are prioritized (e.g., Stall, Windshear, GPWS, ACAS). Boeing uses bells, sirens, and voice alerts, while Airbus uses chimes, tones, and synthetic voice alerts."
+      },
+      {
+        "title": "Caution Alerts",
+        "content": "Cautions are indicated by beepers, tones, or chimes to alert the crew of potential safety threats requiring attention."
+      },
+      {
+        "title": "Sensory (Tactile) Warnings",
+        "content": "Tactile warnings include stick shaker and stick pusher systems to warn of stall conditions and assist in recovery."
+      },
+      {
+        "title": "Master Warning Systems",
+        "content": "Master warning indicators and centralized warning panels (or EFIS displays in modern aircraft) present warnings in a structured and prioritized manner."
+      },
+      {
+        "title": "Flight Warning System Functions",
+        "content": "The FWS generates warnings for engine and airframe malfunctions, aerodynamic limits exceeded, and external hazards such as terrain or traffic."
+      },
+      {
+        "title": "Aerodynamic Limit Warnings",
+        "content": "Warnings include altitude alerts, overspeed warnings, and stall warnings when flight limits are exceeded."
+      },
+      {
+        "title": "External Hazard Warnings",
+        "content": "Hazards such as terrain and traffic are managed using systems like GPWS and ACAS."
+      },
+      {
+        "title": "FWS Components",
+        "content": "The system consists of inputs (sensors, GPWS, ACAS), processing units (flight warning computers), and outputs (visual and aural alerts and warnings)."
+      },
+      {
+        "title": "Outputs",
+        "content": "Outputs include visual alerts (lights, text), aural alerts (tones, voice), and attention-getting indicators such as glare shield lights."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 33 - Aerodynamic Warnings",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Flight Warning System alerts the crew of deviations from aerodynamic parameters such as altitude, airspeed, and angle of attack. It provides altitude alerting, overspeed warning, and stall warning."
+      },
+      {
+        "title": "Altitude Alerting System - Function",
+        "content": "The system warns pilots when approaching or deviating from a selected altitude set on the autopilot control panel within defined height bands."
+      },
+      {
+        "title": "Altitude Alerting System - Operation",
+        "content": "Typical alert bands are 300–900 ft (Boeing) and 250–750 ft (Airbus). Alerts include visual indications and audible warnings when approaching or deviating from selected altitude."
+      },
+      {
+        "title": "Approaching Selected Altitude",
+        "content": "At 900 ft before the selected altitude, a white box appears around altitude display with an audible alert. At 300 ft, the box disappears."
+      },
+      {
+        "title": "Deviation from Selected Altitude",
+        "content": "At 300 ft deviation, master caution lights illuminate, a continuous beeper sounds, EICAS shows ALTITUDE ALERT, and altitude box turns amber."
+      },
+      {
+        "title": "System Inhibition",
+        "content": "Altitude alerting is inhibited when glide slope is captured or when landing flaps are selected with gear down."
+      },
+      {
+        "title": "Regulatory Requirement",
+        "content": "EASA requires altitude alerting systems in large turboprop and all turbojet aircraft. The system must alert when approaching and deviating from selected altitude."
+      },
+      {
+        "title": "Overspeed Warning - Function",
+        "content": "Warns crew when airspeed exceeds VMO/MMO limits calculated by the Air Data Computer."
+      },
+      {
+        "title": "Overspeed Warning - Operation",
+        "content": "Triggers siren/horn, red master warning lights, and OVERSPEED message on EICAS. Warning continues until condition is corrected."
+      },
+      {
+        "title": "Overspeed Displays",
+        "content": "Maximum speed is shown by a barber’s pole on ASI or airspeed tape on PFD. As altitude increases, MMO limit reduces in indicated airspeed."
+      },
+      {
+        "title": "Stall Warning System - Function",
+        "content": "Warns the pilot of an impending stall when angle of attack approaches critical value."
+      },
+      {
+        "title": "Stall Warning Systems",
+        "content": "Simple systems use vane sensors; advanced systems include stick-shaker and stick-pusher mechanisms."
+      },
+      {
+        "title": "Stall Warning Indications",
+        "content": "Warnings may be tactile, aural, visual, or combined. Examples include stick shaker vibration, voice alerts, and warning lights."
+      },
+      {
+        "title": "Stall Warning Operation",
+        "content": "Inputs include angle of attack, flap/slat position, landing gear status, and airspeed. System activates during flight conditions such as take-off."
+      },
+      {
+        "title": "Stall Protection",
+        "content": "Systems prevent stall using flight computers, automatic thrust increase, or stick-pusher mechanisms."
+      },
+      {
+        "title": "Angle of Attack (AoA)",
+        "content": "AoA is the angle between wing chord line and airflow. Lift increases with AoA until critical angle is reached, beyond which stall occurs."
+      },
+      {
+        "title": "Angle of Attack Sensors",
+        "content": "Sensors include conical probes and vane detectors mounted on fuselage, often heated to prevent icing."
+      },
+      {
+        "title": "Angle of Attack Indicators",
+        "content": "AoA indicators may be provided to give pilots continuous awareness of aerodynamic conditions."
+      },
+      {
+        "title": "Configuration Warning",
+        "content": "Warns if aircraft is not in proper configuration for take-off or landing, such as incorrect flap setting or gear status."
+      },
+      {
+        "title": "Take-off Configuration Warning",
+        "content": "Triggers warnings if take-off is attempted with improper configuration such as flaps/slats not set, trim incorrect, spoilers deployed, or parking brake engaged."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 34 - Ground Proximity Warning System",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Ground Proximity Warning System (GPWS) provides visual and aural warnings when terrain proximity threatens aircraft safety. It enhances safety by preventing accidents due to crew error, navigation issues, or ATC instructions."
+      },
+      {
+        "title": "System Overview",
+        "content": "GPWS consists of inputs, outputs, and a central processing unit. It operates between 50 ft and 2450 ft above ground and automatically selects the appropriate warning mode."
+      },
+      {
+        "title": "Definitions",
+        "content": "Alert: A caution generated by EGPWS. Warning: A command generated by EGPWS."
+      },
+      {
+        "title": "Types of Alerts",
+        "content": "Alerts can be Genuine (correct operation), Nuisance (correct but unnecessary in safe conditions), or False (due to system fault)."
+      },
+      {
+        "title": "GPWS Operating Modes Overview",
+        "content": "GPWS has multiple modes to detect hazardous conditions including excessive descent rate, terrain closure, altitude loss, unsafe configuration, glide slope deviation, minimum altitude breach, and windshear."
+      },
+      {
+        "title": "Mode 1 - Excessive Descent Rate",
+        "content": "Triggers 'SINK RATE' alert and 'WHOOP WHOOP PULL UP' warning when descent rate exceeds safe limits."
+      },
+      {
+        "title": "Mode 2 - Excessive Terrain Closure Rate",
+        "content": "Triggers 'TERRAIN TERRAIN' alert followed by 'WHOOP WHOOP PULL UP' warning when terrain closure rate is unsafe."
+      },
+      {
+        "title": "Mode 3 - Altitude Loss After Take-off",
+        "content": "Triggers 'DON'T SINK' alert when altitude decreases after take-off or go-around."
+      },
+      {
+        "title": "Mode 4A - Unsafe Terrain Clearance (Gear Up)",
+        "content": "Triggers 'TOO LOW GEAR' or 'TOO LOW TERRAIN' when flying too low without landing gear deployed."
+      },
+      {
+        "title": "Mode 4B - Unsafe Terrain Clearance (Flaps)",
+        "content": "Triggers 'TOO LOW FLAPS' or 'TOO LOW TERRAIN' when flaps are not in landing configuration."
+      },
+      {
+        "title": "Mode 5 - Glide Slope Deviation",
+        "content": "Triggers 'GLIDE SLOPE' alert when aircraft descends below ILS glide path."
+      },
+      {
+        "title": "Mode 6 - Minimum Altitude and Bank Angle",
+        "content": "Includes 'MINIMUMS' alert and bank angle warnings, as well as altitude call-outs."
+      },
+      {
+        "title": "Mode 7 - Windshear Warning",
+        "content": "Provides windshear warnings based on flight parameter changes. Takes priority over all other modes."
+      },
+      {
+        "title": "Pilot Response to Warnings",
+        "content": "Immediate action is required: level wings and initiate maximum climb until safe altitude is reached. Investigation of cause is secondary."
+      },
+      {
+        "title": "Enhanced GPWS (EGPWS)",
+        "content": "EGPWS uses terrain databases and navigation systems to provide look-ahead warnings and terrain displays, improving safety over basic GPWS."
+      },
+      {
+        "title": "Terrain Display",
+        "content": "Displays terrain ahead using color coding (green, yellow, red) and provides early warnings such as 'Terrain Ahead' or 'Pull Up'."
+      },
+      {
+        "title": "Terrain Clearance Floor",
+        "content": "Prevents premature descent during approaches by monitoring aircraft position relative to runway."
+      },
+      {
+        "title": "Integrity Testing",
+        "content": "GPWS includes Built-In Test Equipment (BITE) for preflight testing and continuous in-flight monitoring."
+      },
+      {
+        "title": "Mode Inhibition",
+        "content": "Certain GPWS modes can be inhibited under specific conditions such as non-standard approaches or equipment configurations."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 35 - Airborne Collision and Avoidance System",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Airborne Collision Avoidance System (ACAS), also known as TCAS, provides an independent safety system to prevent mid-air collisions. It operates independently of ATC using aircraft transponders."
+      },
+      {
+        "title": "TCAS Systems Overview",
+        "content": "Four versions exist (I–IV). TCAS I provides traffic awareness only, while TCAS II provides both Traffic Advisories (TAs) and Resolution Advisories (RAs)."
+      },
+      {
+        "title": "TCAS I",
+        "content": "Provides visual and aural traffic alerts ('Traffic, Traffic') but does not provide avoidance instructions."
+      },
+      {
+        "title": "TCAS II",
+        "content": "Provides both Traffic Advisories (TAs) and Resolution Advisories (RAs) such as climb or descend commands to avoid collisions."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "TCAS operates using SSR radar frequencies (1030/1090 MHz) and creates protective 3D zones around the aircraft."
+      },
+      {
+        "title": "Aircraft Equipment Requirements",
+        "content": "Intruder aircraft must have at least Mode A transponder. Mode C provides altitude, and Mode S allows coordinated avoidance via data link."
+      },
+      {
+        "title": "Operation",
+        "content": "Range is determined by time delay of signals, bearing by directional antenna, and altitude by comparing Mode C data."
+      },
+      {
+        "title": "System Interconnections",
+        "content": "TCAS integrates with transponders, displays (PFD, ND, VSI), radio altimeter, ADC, and IRS. It also considers aircraft performance and configuration."
+      },
+      {
+        "title": "Synthetic Voice Prioritization",
+        "content": "Warning priorities are: Stall > Windshear > GPWS > TCAS."
+      },
+      {
+        "title": "Traffic Advisories (TAs)",
+        "content": "Generated when intruder enters outer zone (45–35 seconds to collision). Displayed as amber circles with 'Traffic, Traffic' alert."
+      },
+      {
+        "title": "Resolution Advisories (RAs)",
+        "content": "Generated when intruder enters inner zone (35–15 seconds to collision). Displayed as red symbols with commands like 'Climb' or 'Descend'."
+      },
+      {
+        "title": "Types of Resolution Advisories",
+        "content": "Preventative RAs: 'Monitor Vertical Speed'. Corrective RAs: require climb or descent manoeuvres."
+      },
+      {
+        "title": "Traffic Categories",
+        "content": "Proximate traffic (cyan solid diamond) and other traffic (hollow diamond) are displayed for situational awareness."
+      },
+      {
+        "title": "Data Tag Information",
+        "content": "Displays relative altitude and climb/descent trends using arrows and numerical values."
+      },
+      {
+        "title": "Off Scale and No Bearing Alerts",
+        "content": "Traffic outside display range or without bearing is still shown using partial symbols or text alerts."
+      },
+      {
+        "title": "TCAS Displays",
+        "content": "Information is shown on PPI, VSI, and navigation displays (ND) in modern aircraft."
+      },
+      {
+        "title": "Control Panel Functions",
+        "content": "Includes modes: Standby, On, TA, RA/TA, and Test. Range selection controls display scale."
+      },
+      {
+        "title": "TCAS Modes",
+        "content": "TA mode provides advisories only; RA/TA mode provides full collision avoidance guidance."
+      },
+      {
+        "title": "TCAS Testing",
+        "content": "Built-in test equipment (BITE) verifies system functionality with voice feedback indicating success or failure."
+      },
+      {
+        "title": "Action on Traffic Advisory",
+        "content": "Pilots should visually search for traffic and prepare for possible RA but not manoeuvre based solely on TA."
+      },
+      {
+        "title": "Action on Resolution Advisory",
+        "content": "Pilots must immediately follow RA commands, adjusting flight path accordingly and informing ATC."
+      },
+      {
+        "title": "Priority over ATC",
+        "content": "TCAS RA instructions take priority over ATC instructions if they conflict."
+      },
+      {
+        "title": "Disregarding RAs",
+        "content": "RAs may only be disregarded if visual confirmation ensures no collision risk exists."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 36 - Flight Data Recorder",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Flight Data Recorder (FDR) records aircraft parameters throughout the flight to help determine causes of accidents, support trend analysis, and assist troubleshooting. In smaller aircraft, it may be combined with the Cockpit Voice Recorder."
+      },
+      {
+        "title": "FDR Designs",
+        "content": "The FDR records 10 or 25 hours of data on a digital storage device housed in a shock-resistant box located at the rear of the aircraft. It includes an underwater locating device (ULD)."
+      },
+      {
+        "title": "FDR Components",
+        "content": "Components include a recording system, overhead control unit, pedestal control unit, and Data Interface and Acquisition Unit (DIAU)."
+      },
+      {
+        "title": "Data Processing and Systems Integration",
+        "content": "Data from DIAU is sent to the Aeroplane Condition Monitoring System (ACMS) along with inputs from various aircraft systems for monitoring and analysis."
+      },
+      {
+        "title": "Control Units",
+        "content": "The overhead panel controls CVR and DFDR with ON and AUTO modes. The pedestal has an EVENT push-button to mark significant events in recordings."
+      },
+      {
+        "title": "Automatic Operation",
+        "content": "The FDR starts when the first engine starts and stops automatically 5 minutes after the last engine shutdown."
+      },
+      {
+        "title": "Aircraft Integrated Data Systems (AIDS)",
+        "content": "AIDS processes aircraft system data using a Data Management Unit (DMU) and sends selected data to the FDR and maintenance systems. Data can be transmitted via ACARS."
+      },
+      {
+        "title": "Parameters Recorded",
+        "content": "Mandatory parameters include time, attitude, airspeed, altitude, heading, acceleration, engine power, control positions, and configuration states."
+      },
+      {
+        "title": "Additional Parameters",
+        "content": "Additional data includes flight control positions, radio altitude, navigation data, cockpit warnings, and landing gear position."
+      },
+      {
+        "title": "Regulatory Requirements",
+        "content": "FDR carriage is mandatory based on aircraft weight, passenger capacity, and registration date as per European regulations."
+      },
+      {
+        "title": "Recording Duration Requirements",
+        "content": "Aircraft over 5700 kg must record at least 25 hours. Smaller turbine aircraft with more than 9 passengers must record at least 10 hours."
+      },
+      {
+        "title": "Additional Recording Requirements",
+        "content": "Aircraft over 27000 kg MTOM must record additional parameters beyond the basic set."
+      },
+      {
+        "title": "Operational Requirements",
+        "content": "FDR must start before aircraft movement and stop after it ceases movement. It must include a water-locating device."
+      },
+      {
+        "title": "Combined Recorders",
+        "content": "Aircraft under 5700 kg may combine FDR and CVR, while larger aircraft must have separate or dual combined systems."
+      },
+      {
+        "title": "Dispatch with Inoperative FDR",
+        "content": "Aircraft may operate with an inoperative FDR under strict conditions: limited flights, time restrictions, and functional CVR."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 37 - Cockpit Voice Recorder",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Cockpit Voice Recorder (CVR) preserves critical flight deck audio for accident investigation. It records the last 30 minutes (or up to 2 hours) of cockpit communications and sounds."
+      },
+      {
+        "title": "System Operation",
+        "content": "The CVR operates automatically when AC power is available, engines are running, or the aircraft is airborne."
+      },
+      {
+        "title": "Recording Requirements",
+        "content": "The CVR records from before the aircraft moves under its own power until after it stops, including pre-start and post-shutdown phases."
+      },
+      {
+        "title": "Parameters Recorded",
+        "content": "Recorded data includes cockpit voice communications, ambient sounds, interphone communications, headset audio, and PA system communications."
+      },
+      {
+        "title": "Voice Recorder Unit",
+        "content": "The recorder is housed in a crash-resistant, high-temperature and fire-resistant case located at the rear of the aircraft. It includes an underwater locating device (ULD)."
+      },
+      {
+        "title": "Underwater Locating Device (ULD)",
+        "content": "The ULD emits ultrasonic signals when submerged to aid recovery and operates automatically with a battery lasting several days."
+      },
+      {
+        "title": "Control Unit",
+        "content": "Mounted on the flight deck, the control unit includes monitoring systems and an area microphone to capture cockpit audio."
+      },
+      {
+        "title": "Control Modes",
+        "content": "AUTO mode starts recording with engine start and stops after shutdown. ON mode starts recording immediately until engine start resets it to AUTO."
+      },
+      {
+        "title": "Testing (BITE)",
+        "content": "The TEST function performs system checks using built-in test equipment and provides a visual indication of system status."
+      },
+      {
+        "title": "Erase Function",
+        "content": "Erasure is only possible on the ground with engines off and parking brake set. Safety interlocks prevent accidental erasure."
+      },
+      {
+        "title": "European Regulations",
+        "content": "CVR carriage requirements depend on aircraft weight, passenger capacity, and registration date, similar to FDR regulations."
+      },
+      {
+        "title": "Recording Duration Requirements",
+        "content": "Minimum recording time is 30 minutes, or 2 hours for aircraft over 5700 kg registered after April 1998."
+      },
+      {
+        "title": "Combined Recorders",
+        "content": "Aircraft under 5700 kg may use combined CVR/FDR units. Larger aircraft may also use combined systems but must have redundancy."
+      },
+      {
+        "title": "Dispatch with Inoperative CVR",
+        "content": "Dispatch rules for unserviceable CVR are similar to FDR, with limitations on duration and operational conditions."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 38 - Engine Instrumentation",
+    "sub_modules": [
+      {
+        "title": "Introduction to Engine Instruments",
+        "content": "Engine instruments are essential for safe aircraft operation. They are divided into performance indicators (e.g. EPR, N1) and engine condition indicators (e.g. EGT, oil pressure, temperature)."
+      },
+      {
+        "title": "Types of Display",
+        "content": "Displays are either analogue (clockwork cockpit) or electronic (glass cockpit using CRT, LCD, LED). Modern aircraft predominantly use glass cockpits."
+      },
+      {
+        "title": "Thrust and Power Measurement",
+        "content": "Thrust is measured using P7 pressure or EPR (ratio of jet pipe to intake pressure). Propeller aircraft measure torque as an indication of power."
+      },
+      {
+        "title": "Engine Pressure Ratio (EPR)",
+        "content": "EPR is derived from pressure ratios using sensors and transducers. It varies with airspeed due to intake pressure changes and must be set carefully during take-off."
+      },
+      {
+        "title": "Engine Torque Measurement",
+        "content": "Torque indicates engine power and is measured either using oil pressure systems or electronic shaft displacement systems."
+      },
+      {
+        "title": "Oil Torquemeter System",
+        "content": "Uses axial thrust from helical gears balanced by oil pressure to determine torque output."
+      },
+      {
+        "title": "Electronic Torquemeter",
+        "content": "Uses phase shift between rotating shafts detected via electromagnetic pickups to measure torque."
+      },
+      {
+        "title": "Engine RPM Measurement",
+        "content": "Engine speed is measured using tachometers. Methods include mechanical, electrical generator, and inductive probe systems."
+      },
+      {
+        "title": "Mechanical Tachometer",
+        "content": "Uses rotating magnet and drag cup with eddy currents to drive a pointer against a spring."
+      },
+      {
+        "title": "Electrical Tachometer System",
+        "content": "Uses a generator driven by the engine to produce signals interpreted by an indicator."
+      },
+      {
+        "title": "Inductive Speed Probe",
+        "content": "Uses magnetic flux changes from rotating components to generate frequency signals proportional to engine speed."
+      },
+      {
+        "title": "Speed Indications",
+        "content": "Speed is typically shown as a percentage of maximum (N1, N2, N3). Indicators include colour-coded limits and digital displays."
+      },
+      {
+        "title": "Synchroscope",
+        "content": "Used to synchronize engine speeds in multi-engine aircraft to reduce vibration and noise."
+      },
+      {
+        "title": "Temperature Measurement",
+        "content": "Temperature monitoring is critical to prevent engine damage. Systems measure air, oil, and turbine temperatures."
+      },
+      {
+        "title": "Temperature Measurement Types",
+        "content": "Includes expansion type, vapour pressure type, electrical (resistance and thermocouple), and radiation (pyrometry)."
+      },
+      {
+        "title": "Thermocouple System",
+        "content": "Uses two dissimilar metals to generate voltage proportional to temperature (Seebeck effect). Used for EGT/TGT measurements."
+      },
+      {
+        "title": "Temperature Probe Placement",
+        "content": "Multiple probes are placed around the engine to average readings and improve reliability."
+      },
+      {
+        "title": "Air Temperature Measurement",
+        "content": "Includes SAT, RAT, and TAT. Ram rise affects readings at high speeds and requires correction."
+      },
+      {
+        "title": "Pressure Measurement",
+        "content": "Pressure is measured using direct or remote systems. Units include psi, inHg, bar, and pascal."
+      },
+      {
+        "title": "Pressure Sensing Elements",
+        "content": "Includes diaphragms, capsules, bellows, and Bourdon tubes, each suited for different pressure ranges."
+      },
+      {
+        "title": "Remote Indicating Systems",
+        "content": "Use transmitters and receivers to measure pressure remotely, reducing weight and hazards."
+      },
+      {
+        "title": "Engine Vibration Monitoring",
+        "content": "Uses piezoelectric or magnetic sensors to detect abnormal vibration indicating engine damage."
+      },
+      {
+        "title": "Fuel Quantity Measurement",
+        "content": "Fuel can be measured by volume or mass. Mass measurement is preferred in modern aircraft."
+      },
+      {
+        "title": "Float Type Fuel Gauge",
+        "content": "Uses a float and variable resistor system but is prone to errors due to tank shape and aircraft attitude."
+      },
+      {
+        "title": "Capacitance Fuel System",
+        "content": "Uses capacitors with fuel as dielectric to measure fuel quantity accurately and compensate for temperature changes."
+      },
+      {
+        "title": "Fuel Flow Measurement",
+        "content": "Measures rate of fuel consumption using turbine or pressure-based systems. Can indicate both flow rate and total consumption."
+      },
+      {
+        "title": "Remote Signal Transmission",
+        "content": "Uses transmitters and receivers to indicate positions of engine controls remotely."
+      },
+      {
+        "title": "Flight Hour Meter",
+        "content": "Records engine and system usage, typically activated by weight-on-wheels or airspeed switches."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 39 - Electronic Instrumentation",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Electronic instrumentation displays engine and airframe system parameters using CRT or LCD displays. Systems include EICAS (Boeing) and ECAM (Airbus)."
+      },
+      {
+        "title": "EICAS and ECAM Overview",
+        "content": "EICAS focuses on engine data and alerts, while ECAM integrates system monitoring with checklist and schematic displays."
+      },
+      {
+        "title": "EICAS System Architecture",
+        "content": "EICAS consists of display units, control panel, and dual computers (left and right) with automatic or manual switching."
+      },
+      {
+        "title": "Display Units",
+        "content": "Upper display shows primary engine parameters (N1, EGT, alerts). Lower display shows secondary parameters (N2, fuel flow, oil data, vibration, system status)."
+      },
+      {
+        "title": "Display Colour Coding",
+        "content": "White: normal data, Red: warnings, Green: thrust settings, Blue: test, Yellow: cautions/advisories, Magenta: special operations, Cyan: labels and status."
+      },
+      {
+        "title": "Display Modes",
+        "content": "EICAS operates in three modes: operational, status, and maintenance."
+      },
+      {
+        "title": "Operational Mode",
+        "content": "Displays primary engine data and alerts. Secondary data appears on demand."
+      },
+      {
+        "title": "Status Mode",
+        "content": "Displays aircraft system readiness, flight control positions, and system status for dispatch checks."
+      },
+      {
+        "title": "Maintenance Mode",
+        "content": "Provides troubleshooting and system test information for engineers on the ground."
+      },
+      {
+        "title": "Display Select Panel",
+        "content": "Controls EICAS functions including engine display, status display, event recording, computer selection, brightness, thrust reference, and reset functions."
+      },
+      {
+        "title": "Event Recording",
+        "content": "Stores automatic and manual fault data in system memory for later analysis."
+      },
+      {
+        "title": "Alert Message Levels",
+        "content": "Level A (Warning): immediate action, red. Level B (Caution): amber with tone. Level C (Advisory): amber without tone."
+      },
+      {
+        "title": "Alert Message Handling",
+        "content": "Messages are prioritized, can be cancelled or recalled, and automatically removed when conditions normalize."
+      },
+      {
+        "title": "Display Paging",
+        "content": "If messages exceed display capacity, additional pages are created and accessed via controls."
+      },
+      {
+        "title": "Display Unit Failure",
+        "content": "Failure of a display unit causes data transfer to remaining unit in compact format."
+      },
+      {
+        "title": "Standby Engine Indicator",
+        "content": "Provides essential engine data (N1, N2, EGT) in case of total EICAS failure."
+      },
+      {
+        "title": "ECAM System Overview",
+        "content": "ECAM displays aircraft system data in checklist and schematic formats, focusing on system operation and corrective actions."
+      },
+      {
+        "title": "ECAM Display Units",
+        "content": "Left display shows warnings and procedures; right display shows system schematics."
+      },
+      {
+        "title": "ECAM Display Modes",
+        "content": "Includes flight phase-related, advisory/status, failure-related, and manual system display modes."
+      },
+      {
+        "title": "Flight Phase Mode",
+        "content": "Automatically displays relevant data for each phase of flight such as preflight, take-off, cruise, and landing."
+      },
+      {
+        "title": "Advisory and Status Mode",
+        "content": "Displays aircraft condition summaries and operational limitations."
+      },
+      {
+        "title": "Failure-related Mode",
+        "content": "Displays system failures, corrective actions, and associated system diagrams with highest priority."
+      },
+      {
+        "title": "Manual System Display Mode",
+        "content": "Allows manual selection of system diagrams for monitoring and checks."
+      },
+      {
+        "title": "ECAM Control Panel",
+        "content": "Includes controls for system display selection, clearing messages, recalling alerts, and system isolation."
+      },
+      {
+        "title": "Synoptic Displays",
+        "content": "Graphical system representations used for monitoring aircraft systems."
+      },
+      {
+        "title": "Alert Handling in ECAM",
+        "content": "Warnings trigger visual, aural alerts and guide pilots through corrective procedures step-by-step."
+      }
+    ]
+  }
+]

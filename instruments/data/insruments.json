@@ -1,0 +1,1071 @@
+[
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 1 - Characteristics and General Definitions",
+    "sub_modules": [
+      {
+        "title": "Units",
+        "content": "Distance (metres, kilometres, nautical miles, feet, statute miles), Time (hours, minutes, seconds), Speed (knots, mph, km/h), Mass (kilogram, pound), Pressure (hPa, mb, inHg, mmHg, psi), Temperature (Celsius, Kelvin, Fahrenheit), Volume (litres, pints, gallons), Angles (degrees, minutes, seconds), Position (latitude, longitude)."
+      },
+      {
+        "title": "Introduction",
+        "content": "Pilots receive information about aircraft state such as speed, altitude, position and attitude through instruments. These range from simple analogue dials to modern glass cockpit displays. All instrumentation systems must handle accuracy, reliability, resolution and range."
+      },
+      {
+        "title": "Measuring Range vs Accuracy",
+        "content": "Instruments must display a wide range while maintaining accuracy. Critical values must be readable precisely. Scale design helps balance range and readability."
+      },
+      {
+        "title": "Scales",
+        "content": "Linear scales have uniform spacing. Non-linear scales improve readability in critical ranges such as low climb rates."
+      },
+      {
+        "title": "Display Types",
+        "content": "Analogue displays use pointers and are good for observing trends. Digital displays show numbers and are easier to read precisely. Hybrid displays combine both advantages."
+      },
+      {
+        "title": "Ergonomics",
+        "content": "Ergonomics ensures instruments are easy to use and reduce pilot error. Proper design and placement improve usability and safety."
+      },
+      {
+        "title": "Instrument Layouts",
+        "content": "Standard layouts include the ‘basic six’ and the ‘basic T’, designed to improve pilot scanning and interpretation."
+      },
+      {
+        "title": "Electronic Displays",
+        "content": "Modern aircraft use glass cockpits where displays are electronic and computing systems are located remotely in avionics bays."
+      },
+      {
+        "title": "Readability",
+        "content": "Instruments must align with the pilot’s eye position. Incorrect viewing angle causes parallax error."
+      },
+      {
+        "title": "Colour Coding",
+        "content": "Green indicates normal operation, yellow/amber indicates caution, red indicates danger. Advanced systems also use white (status) and blue (temporary condition)."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 3 - Air Temperature Measurement",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Air temperature measurement is essential for accurate aircraft performance calculations and instrument corrections. Temperature affects air density, engine performance, and aerodynamic behavior."
+      },
+      {
+        "title": "Types of Air Temperature",
+        "content": "Two main types are measured: Static Air Temperature (SAT), which is the ambient air temperature, and Total Air Temperature (TAT), which includes the temperature rise due to air compression as the aircraft moves."
+      },
+      {
+        "title": "Static Air Temperature (SAT)",
+        "content": "SAT represents the true outside air temperature unaffected by aircraft motion. It is used in performance calculations and atmospheric analysis."
+      },
+      {
+        "title": "Total Air Temperature (TAT)",
+        "content": "TAT is the temperature measured when air is brought to rest relative to the aircraft. It is higher than SAT due to kinetic heating caused by airspeed."
+      },
+      {
+        "title": "Ram Rise (Kinetic Heating)",
+        "content": "As air enters the probe, it is compressed, causing an increase in temperature known as ram rise. This effect becomes more significant at higher speeds."
+      },
+      {
+        "title": "Temperature Probes",
+        "content": "Temperature is measured using probes such as resistance thermometers. These probes are designed to minimize errors and respond quickly to temperature changes."
+      },
+      {
+        "title": "Recovery Factor",
+        "content": "The recovery factor represents how efficiently a temperature probe converts kinetic energy into heat. It determines how close the measured temperature is to the true total air temperature."
+      },
+      {
+        "title": "Errors and Corrections",
+        "content": "Temperature measurements can be affected by radiation, conduction, and probe design. Corrections are applied to obtain accurate SAT from measured TAT."
+      },
+      {
+        "title": "Applications",
+        "content": "Air temperature data is used in air data computers, performance calculations, engine control systems, and flight management systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 4 - The Airspeed Indicator (ASI)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Airspeed Indicator (ASI) is a primary flight instrument that measures the speed of an aircraft relative to the surrounding air. It operates using the pitot-static system and is essential for safe flight operations."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The ASI measures the difference between pitot (total) pressure and static pressure. This difference represents dynamic pressure, which is proportional to the square of the aircraft’s speed."
+      },
+      {
+        "title": "Dynamic Pressure",
+        "content": "Dynamic pressure is the result of the aircraft’s motion through the air and is calculated as the difference between total pressure and static pressure. It increases with airspeed."
+      },
+      {
+        "title": "Construction",
+        "content": "The ASI contains a sealed capsule connected to the pitot pressure and a surrounding case connected to static pressure. As dynamic pressure changes, the capsule expands or contracts, moving a pointer on the dial."
+      },
+      {
+        "title": "Types of Airspeed",
+        "content": "Indicated Airspeed (IAS): Direct reading from ASI. Calibrated Airspeed (CAS): IAS corrected for instrument and position errors. Equivalent Airspeed (EAS): CAS corrected for compressibility effects. True Airspeed (TAS): Actual speed relative to the air mass, corrected for air density."
+      },
+      {
+        "title": "Colour Coding on ASI",
+        "content": "Green arc: Normal operating range. Yellow arc: Caution range (smooth air only). White arc: Flap operating range. Red line: Maximum permissible speed (Vne)."
+      },
+      {
+        "title": "Errors",
+        "content": "Position error due to airflow disturbance, instrument error due to mechanical imperfections, and compressibility error at high speeds can affect accuracy."
+      },
+      {
+        "title": "Blockages and Malfunctions",
+        "content": "Blocked pitot tube or static port can cause incorrect readings. For example, a blocked pitot tube may cause the ASI to behave like an altimeter, while a blocked static port causes incorrect airspeed indications."
+      },
+      {
+        "title": "Mach Number",
+        "content": "At high speeds, especially near the speed of sound, Mach number becomes more important than IAS. Mach meters are used to indicate speed relative to the speed of sound."
+      },
+      {
+        "title": "Applications",
+        "content": "ASI is used for maintaining safe operating speeds, avoiding stall and overspeed conditions, and ensuring proper aircraft performance during all phases of flight."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 5 - The Pressure Altimeter",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The pressure altimeter is a primary flight instrument used to measure the aircraft’s altitude based on atmospheric pressure. It operates using the principle that pressure decreases with increasing altitude."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The altimeter measures static pressure from the atmosphere. As altitude increases, pressure decreases, causing internal capsules to expand and move the indicator needle."
+      },
+      {
+        "title": "Construction",
+        "content": "The instrument contains aneroid capsules connected to the static pressure system. These capsules expand or contract with pressure changes, driving a mechanical linkage that moves pointers on the dial."
+      },
+      {
+        "title": "Subscale Setting (Barometric Setting)",
+        "content": "The altimeter includes a subscale to set reference pressure. Common settings include QNH (altitude above mean sea level), QFE (height above airfield), and standard pressure setting (1013.25 hPa) used for flight levels."
+      },
+      {
+        "title": "Types of Altitude",
+        "content": "Indicated Altitude: Direct reading from altimeter. True Altitude: Actual height above mean sea level. Absolute Altitude: Height above ground level. Pressure Altitude: Altitude based on standard pressure. Density Altitude: Pressure altitude corrected for temperature."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors include pressure setting error, temperature error (cold air causes lower true altitude than indicated), instrument error, and position error due to airflow disturbances."
+      },
+      {
+        "title": "Temperature Effect",
+        "content": "In colder-than-standard conditions, the aircraft is lower than indicated altitude. In warmer conditions, it is higher than indicated."
+      },
+      {
+        "title": "Altimeter Displays",
+        "content": "Altimeters may use multiple pointers (like a clock) or digital displays. Modern aircraft often use electronic displays for better readability."
+      },
+      {
+        "title": "Altimetry Settings and Flight Levels",
+        "content": "Aircraft use QNH below transition altitude and standard pressure above it. Flight levels are referenced to standard pressure (1013.25 hPa)."
+      },
+      {
+        "title": "Applications",
+        "content": "Altimeters are used for maintaining safe terrain clearance, navigation, air traffic separation, and compliance with flight levels."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 6 - The Vertical Speed Indicator (VSI)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Vertical Speed Indicator (VSI) is a flight instrument that indicates the rate of climb or descent of an aircraft, usually in feet per minute (ft/min). It helps pilots monitor vertical movement."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The VSI operates using static pressure. It measures the rate of change of static pressure over time to determine whether the aircraft is climbing or descending."
+      },
+      {
+        "title": "Construction",
+        "content": "The instrument consists of a diaphragm connected directly to the static pressure and a surrounding case connected through a calibrated leak. The pressure difference between the diaphragm and the case creates pointer movement."
+      },
+      {
+        "title": "Calibrated Leak",
+        "content": "A small calibrated leak allows pressure in the case to change slowly. This delay creates a pressure difference during climb or descent, which enables the VSI to indicate rate of change."
+      },
+      {
+        "title": "Indications",
+        "content": "When climbing, the static pressure decreases and the instrument shows a positive rate. When descending, static pressure increases and the instrument shows a negative rate. When level, the indication is zero."
+      },
+      {
+        "title": "Lag Error",
+        "content": "The VSI has a slight delay (lag) in indication due to the calibrated leak. This means it does not instantly reflect rapid changes in vertical speed."
+      },
+      {
+        "title": "Instantaneous VSI (IVSI)",
+        "content": "An improved version called IVSI uses accelerometers to reduce lag and provide faster response to vertical speed changes."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors can occur due to instrument imperfections or blockages in the static system. Sudden maneuvers can also cause temporary incorrect readings."
+      },
+      {
+        "title": "Blockages",
+        "content": "If the static source is blocked, the VSI will stop responding to changes in altitude and may indicate zero or incorrect vertical speed."
+      },
+      {
+        "title": "Applications",
+        "content": "The VSI is used for maintaining controlled climbs and descents, ensuring smooth altitude changes, and aiding in instrument flight conditions."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 7 - The Machmeter",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Machmeter is a flight instrument that indicates the ratio of the aircraft’s true airspeed to the speed of sound (Mach number). It becomes important at high speeds where compressibility effects are significant."
+      },
+      {
+        "title": "Mach Number",
+        "content": "Mach number is defined as the ratio of true airspeed (TAS) to the local speed of sound. It varies with temperature, as the speed of sound changes with air temperature."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The Machmeter uses both pitot (total pressure) and static pressure to determine Mach number. It compares dynamic pressure with static pressure to calculate the ratio relative to the speed of sound."
+      },
+      {
+        "title": "Speed of Sound",
+        "content": "The speed of sound decreases with decreasing temperature. At higher altitudes where the air is colder, the speed of sound is lower, making Mach number more critical than indicated airspeed."
+      },
+      {
+        "title": "Construction",
+        "content": "The Machmeter is similar to the airspeed indicator but includes additional mechanisms or electronic systems to account for temperature and pressure variations when calculating Mach number."
+      },
+      {
+        "title": "Mach Limits",
+        "content": "Aircraft have a maximum Mach number (Mmo). Exceeding this limit can cause shock waves, loss of control, or structural damage."
+      },
+      {
+        "title": "Critical Mach Number",
+        "content": "The critical Mach number is the lowest Mach number at which airflow over any part of the aircraft reaches the speed of sound, leading to compressibility effects."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors may arise from inaccuracies in pressure measurements or temperature assumptions. Modern systems reduce these errors using air data computers."
+      },
+      {
+        "title": "Mach/Airspeed Relationship",
+        "content": "At lower speeds, airspeed is the primary reference. At higher altitudes and speeds, Mach number becomes more important due to compressibility effects."
+      },
+      {
+        "title": "Applications",
+        "content": "The Machmeter is used in high-speed aircraft to ensure operation within safe limits, avoid shock wave formation, and maintain efficient flight performance."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 8 - Air Data Computer",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Air Data Computer (ADC) is an electronic system that processes inputs from various sensors to provide accurate flight data such as airspeed, altitude, vertical speed, and Mach number."
+      },
+      {
+        "title": "Inputs to ADC",
+        "content": "The ADC receives inputs from pitot pressure (total pressure), static pressure, and temperature sensors. These inputs are used to compute essential air data parameters."
+      },
+      {
+        "title": "Computed Outputs",
+        "content": "The ADC calculates and provides outputs such as Indicated Airspeed (IAS), True Airspeed (TAS), Mach number, altitude, vertical speed, and air temperature."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The ADC processes pressure and temperature data using electronic circuits or digital processors to convert raw sensor inputs into usable flight information."
+      },
+      {
+        "title": "Integration with Systems",
+        "content": "The ADC supplies data to various aircraft systems including flight instruments, autopilot, flight management systems (FMS), and navigation displays."
+      },
+      {
+        "title": "Redundancy",
+        "content": "Modern aircraft use multiple ADC units to ensure redundancy. If one system fails, others can continue to provide accurate data."
+      },
+      {
+        "title": "Advantages",
+        "content": "ADC improves accuracy, reduces pilot workload, integrates multiple data sources, and supports advanced avionics like glass cockpits."
+      },
+      {
+        "title": "Errors and Failures",
+        "content": "Errors may arise from faulty sensors, blocked pitot-static systems, or system malfunctions. Backup instruments are available in case of ADC failure."
+      },
+      {
+        "title": "Electronic Displays",
+        "content": "In modern aircraft, ADC outputs are displayed on electronic flight displays (EFIS), replacing traditional analogue instruments."
+      },
+      {
+        "title": "Applications",
+        "content": "ADC is essential for modern aviation, providing real-time data for flight control, navigation, performance monitoring, and safety systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 9 - Terrestrial Magnetism",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Terrestrial magnetism refers to the Earth's magnetic field, which is used for navigation. Aircraft instruments like the magnetic compass rely on this field to indicate direction."
+      },
+      {
+        "title": "Earth’s Magnetic Field",
+        "content": "The Earth behaves like a giant magnet with magnetic poles near the geographic poles. Magnetic field lines run from the magnetic north pole to the magnetic south pole."
+      },
+      {
+        "title": "Magnetic Variation",
+        "content": "Magnetic variation is the angle between true north and magnetic north. It varies depending on geographic location and is shown on aeronautical charts."
+      },
+      {
+        "title": "Magnetic Deviation",
+        "content": "Magnetic deviation is the error in compass readings caused by magnetic fields within the aircraft, such as electrical systems and metal structures."
+      },
+      {
+        "title": "Dip (Inclination)",
+        "content": "Magnetic dip is the angle between the Earth's magnetic field and the horizontal plane. It increases as you move toward the poles, affecting compass operation."
+      },
+      {
+        "title": "Magnetic Compass",
+        "content": "The magnetic compass is a simple instrument that aligns itself with the Earth's magnetic field to indicate direction. It is a primary backup navigation instrument."
+      },
+      {
+        "title": "Compass Errors",
+        "content": "Errors include variation, deviation, dip error, turning error, and acceleration error. These errors must be understood and corrected by the pilot."
+      },
+      {
+        "title": "Turning Error",
+        "content": "During turns, the compass may lead or lag depending on hemisphere. In the northern hemisphere, the rule is 'undershoot north, overshoot south.'"
+      },
+      {
+        "title": "Acceleration Error",
+        "content": "When accelerating or decelerating, the compass shows false indications due to dip. In the northern hemisphere: 'accelerate north, decelerate south.'"
+      },
+      {
+        "title": "Applications",
+        "content": "Terrestrial magnetism is essential for navigation, compass operation, heading reference systems, and as a backup to advanced navigation instruments."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 10 - The Direct Indicating Compass",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The direct indicating compass is a magnetic compass that provides heading information by aligning with the Earth’s magnetic field. It is a simple and reliable navigation instrument."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The compass works by aligning a magnetized element with the Earth's magnetic field, allowing it to indicate magnetic north."
+      },
+      {
+        "title": "Construction",
+        "content": "It consists of a magnet attached to a compass card, floating in liquid to reduce friction and damp oscillations."
+      },
+      {
+        "title": "Compass Card",
+        "content": "The compass card is marked with headings and rotates with the magnetic element to indicate direction."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors include variation, deviation, dip error, turning error, and acceleration error."
+      },
+      {
+        "title": "Turning Error",
+        "content": "During turns, the compass leads or lags depending on heading and hemisphere."
+      },
+      {
+        "title": "Acceleration Error",
+        "content": "Acceleration and deceleration cause temporary false indications due to magnetic dip."
+      },
+      {
+        "title": "Applications",
+        "content": "Used as a primary or backup heading reference, especially in case of failure of advanced systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 11 - Gyroscopes",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Gyroscopes are devices used in aviation instruments to provide stability and reference. They are essential for instruments that indicate attitude, heading, and rate of turn."
+      },
+      {
+        "title": "Basic Principles",
+        "content": "Gyroscopes operate based on two main properties: rigidity in space and precession. These properties allow them to maintain orientation and respond predictably to applied forces."
+      },
+      {
+        "title": "Rigidity in Space",
+        "content": "A spinning gyro tends to remain fixed in its plane of rotation regardless of movement of its mounting. This property is used to provide a stable reference in flight instruments."
+      },
+      {
+        "title": "Precession",
+        "content": "When a force is applied to a spinning gyro, the resulting movement occurs at right angles to the applied force. This behavior is called precession."
+      },
+      {
+        "title": "Gyro Construction",
+        "content": "A gyroscope consists of a rotor mounted in gimbals, allowing it to spin freely in one or more axes. This arrangement enables stability and controlled movement."
+      },
+      {
+        "title": "Degrees of Freedom",
+        "content": "Gyroscopes can have one, two, or three degrees of freedom depending on the number of axes around which they can move."
+      },
+      {
+        "title": "Types of Gyros",
+        "content": "Types include free gyros (used for attitude reference), rate gyros (used for turn indication), and tied gyros (used in directional systems)."
+      },
+      {
+        "title": "Power Sources",
+        "content": "Gyroscopes can be powered by vacuum systems, electric motors, or modern solid-state sensors in advanced systems."
+      },
+      {
+        "title": "Drift and Errors",
+        "content": "Gyros experience drift due to friction, imbalance, and Earth’s rotation. These errors require correction or compensation."
+      },
+      {
+        "title": "Applications",
+        "content": "Gyroscopes are used in attitude indicators, heading indicators, turn indicators, autopilot systems, and modern inertial navigation systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 12 - Directional Gyro Indicator (DGI)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Directional Gyro Indicator (DGI), also known as the heading indicator, provides a stable and accurate reference of aircraft heading. It overcomes many limitations of the magnetic compass."
+      },
+      {
+        "title": "Need for DGI",
+        "content": "Magnetic compasses are affected by turning errors, acceleration errors, and magnetic disturbances. The DGI provides a smoother and more stable indication of heading."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The DGI uses a horizontally mounted gyroscope operating on the principle of rigidity in space to maintain a constant reference direction."
+      },
+      {
+        "title": "Construction",
+        "content": "The instrument consists of a spinning gyro mounted in gimbals, connected to a compass card that rotates to indicate heading."
+      },
+      {
+        "title": "Setting the DGI",
+        "content": "Before flight, the DGI must be aligned with the magnetic compass. During flight, periodic realignment is required due to drift."
+      },
+      {
+        "title": "Drift",
+        "content": "Drift occurs due to friction, imbalance, and Earth’s rotation. This causes gradual deviation from the correct heading."
+      },
+      {
+        "title": "Apparent Drift",
+        "content": "Apparent drift is caused by Earth’s rotation and transport wander as the aircraft moves over the Earth's surface."
+      },
+      {
+        "title": "Real Drift",
+        "content": "Real drift is caused by mechanical imperfections such as friction and imbalance within the gyro system."
+      },
+      {
+        "title": "Slaved Systems",
+        "content": "Modern DGIs are often slaved to a magnetic reference (flux valve), allowing automatic correction and reducing the need for manual adjustment."
+      },
+      {
+        "title": "Applications",
+        "content": "The DGI is used for navigation, maintaining heading, autopilot systems, and as part of modern integrated flight displays."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 13 - The Artificial Horizon",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Artificial Horizon, also known as the Attitude Indicator, is a primary flight instrument that displays the aircraft’s orientation relative to the horizon, indicating pitch and bank."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The instrument uses a vertically mounted gyroscope that maintains rigidity in space, providing a stable reference for aircraft attitude."
+      },
+      {
+        "title": "Pitch and Bank Indication",
+        "content": "Pitch shows the aircraft’s nose position relative to the horizon (up or down), while bank indicates the angle of roll (left or right)."
+      },
+      {
+        "title": "Construction",
+        "content": "It consists of a gyro mounted in gimbals with a horizon bar and aircraft symbol. The display moves relative to the gyro to indicate attitude changes."
+      },
+      {
+        "title": "Types of Artificial Horizon",
+        "content": "There are two main types: earth-referenced (moving horizon) and aircraft-referenced (moving aircraft symbol). Modern systems use electronic displays."
+      },
+      {
+        "title": "Erection System",
+        "content": "The erection system keeps the gyro aligned vertically using gravity or other references, correcting any drift."
+      },
+      {
+        "title": "Limits of Operation",
+        "content": "The instrument has pitch and bank limits. Excessive maneuvers can cause the gyro to tumble, resulting in incorrect indications."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors include gyro drift, acceleration errors, and errors due to prolonged turns or extreme attitudes."
+      },
+      {
+        "title": "Power Sources",
+        "content": "Artificial horizons can be powered by vacuum systems, electrical systems, or modern solid-state sensors."
+      },
+      {
+        "title": "Applications",
+        "content": "The artificial horizon is essential for instrument flight, especially in poor visibility, helping pilots maintain correct aircraft attitude."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 14 - The Turn and Slip Indicator",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Turn and Slip Indicator is a flight instrument that shows the rate of turn and whether the aircraft is in coordinated flight. It helps pilots maintain balanced turns."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The instrument uses a rate gyro to measure the rate of turn and a slip indicator (ball) to show lateral balance."
+      },
+      {
+        "title": "Rate of Turn",
+        "content": "The rate gyro detects rotation about the vertical axis and displays the rate of turn, usually calibrated for standard rate turns."
+      },
+      {
+        "title": "Slip Indicator",
+        "content": "The slip indicator consists of a ball in a curved glass tube filled with fluid. The ball moves due to centrifugal force and gravity."
+      },
+      {
+        "title": "Coordinated Flight",
+        "content": "When the ball is centered, the aircraft is in coordinated flight. If the ball moves to one side, it indicates slip or skid."
+      },
+      {
+        "title": "Slip and Skid",
+        "content": "A slip occurs when the aircraft is not turning enough for the bank angle, while a skid occurs when the aircraft is turning too much for the bank angle."
+      },
+      {
+        "title": "Standard Rate Turn",
+        "content": "A standard rate turn is defined as 3° per second, completing a full 360° turn in 2 minutes."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors may occur due to instrument lag or mechanical imperfections, but they are generally small compared to other instruments."
+      },
+      {
+        "title": "Limitations",
+        "content": "The instrument only indicates rate of turn, not bank angle, and must be used with other instruments for full attitude awareness."
+      },
+      {
+        "title": "Applications",
+        "content": "Used during instrument flying to maintain coordinated turns and ensure smooth and controlled maneuvering."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 15 - The Turn Co-ordinator",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Turn Co-ordinator is an improved version of the turn and slip indicator. It indicates both rate of turn and rate of roll, giving earlier and more accurate information about aircraft movement."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The instrument uses a rate gyro mounted at an angle, allowing it to sense both yaw (turn) and roll movements of the aircraft."
+      },
+      {
+        "title": "Rate of Turn Indication",
+        "content": "Like the turn and slip indicator, it shows the rate of turn and is calibrated for standard rate turns."
+      },
+      {
+        "title": "Rate of Roll Detection",
+        "content": "Due to its tilted gyro axis, the turn co-ordinator detects roll rate, allowing it to indicate the start of a turn earlier than the turn and slip indicator."
+      },
+      {
+        "title": "Slip Indicator",
+        "content": "It includes a ball in a curved tube to indicate whether the aircraft is in coordinated flight, similar to the turn and slip indicator."
+      },
+      {
+        "title": "Coordinated Flight",
+        "content": "When the ball is centered, the aircraft is coordinated. If displaced, it indicates slip or skid."
+      },
+      {
+        "title": "Advantages over Turn and Slip Indicator",
+        "content": "Provides earlier indication of turns, detects roll movement, and offers better situational awareness during maneuvering."
+      },
+      {
+        "title": "Errors",
+        "content": "Minor errors may occur due to instrument lag or mechanical limitations, but overall it is more responsive than the traditional turn and slip indicator."
+      },
+      {
+        "title": "Power Source",
+        "content": "Typically electrically powered, making it independent of vacuum system failures."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in instrument flying to monitor turn rate and coordination, especially useful in modern light aircraft."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 16 - Aircraft Magnetism",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Aircraft magnetism refers to the magnetic fields generated within the aircraft structure and systems. These fields affect the accuracy of magnetic compasses."
+      },
+      {
+        "title": "Sources of Aircraft Magnetism",
+        "content": "Magnetism arises from ferrous materials in the aircraft and electrical systems. It can be permanent or induced depending on the source."
+      },
+      {
+        "title": "Permanent Magnetism",
+        "content": "Permanent magnetism is caused by metal components that retain magnetic properties over time, affecting compass readings consistently."
+      },
+      {
+        "title": "Induced Magnetism",
+        "content": "Induced magnetism is created when the aircraft is subjected to the Earth’s magnetic field, varying with heading and location."
+      },
+      {
+        "title": "Deviation",
+        "content": "Deviation is the error in compass readings caused by aircraft magnetism. It varies with heading and must be corrected."
+      },
+      {
+        "title": "Deviation Card",
+        "content": "A deviation card is placed near the compass showing corrections to be applied for different headings."
+      },
+      {
+        "title": "Compass Swinging",
+        "content": "Compass swinging is the procedure used to measure and correct deviation by aligning the aircraft on known headings."
+      },
+      {
+        "title": "Compensation",
+        "content": "Compensation magnets are used to reduce the effects of aircraft magnetism and improve compass accuracy."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors arise due to changes in aircraft configuration, electrical equipment usage, and structural magnetism."
+      },
+      {
+        "title": "Applications",
+        "content": "Understanding aircraft magnetism is essential for accurate navigation and proper use of magnetic compasses."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 17 - Remote Indicating Magnetic Compass",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Remote Indicating Magnetic Compass (RIMC) is an advanced system that separates the sensing unit from the cockpit display to reduce errors caused by aircraft magnetism."
+      },
+      {
+        "title": "Need for Remote Indication",
+        "content": "Traditional compasses are affected by magnetic interference in the cockpit. By placing the sensing unit remotely, accuracy is improved."
+      },
+      {
+        "title": "Flux Valve (Magnetic Sensor)",
+        "content": "The flux valve is the sensing element that detects the Earth’s magnetic field. It is usually located in a magnetically clean area such as the wing or tail."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The flux valve detects magnetic field direction and sends electrical signals to a cockpit indicator, which displays the aircraft’s heading."
+      },
+      {
+        "title": "Cockpit Indicator",
+        "content": "The cockpit display shows heading information derived from the flux valve, often integrated with other systems like the directional gyro."
+      },
+      {
+        "title": "Slaved Gyro System",
+        "content": "The system often includes a slaved directional gyro, where the gyro is automatically corrected using input from the flux valve."
+      },
+      {
+        "title": "Advantages",
+        "content": "Improved accuracy, reduced magnetic interference, stable heading indication, and less need for manual correction."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors may occur due to electrical faults, sensor inaccuracies, or magnetic disturbances, but are generally less than direct-reading compasses."
+      },
+      {
+        "title": "Redundancy",
+        "content": "Aircraft may include backup magnetic compasses in case of failure of the remote system."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in modern aircraft for accurate heading information and integration with navigation and autopilot systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 18 - Inertial Navigation Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Inertial Navigation Systems (INS) provide aircraft position, velocity, and attitude without relying on external references. They are widely used for long-range and precise navigation."
+      },
+      {
+        "title": "Basic Principle",
+        "content": "INS operates based on Newton’s laws of motion. By measuring acceleration and integrating it over time, the system calculates velocity and position."
+      },
+      {
+        "title": "Accelerometers",
+        "content": "Accelerometers measure linear acceleration along different axes. These measurements are used to compute changes in velocity and position."
+      },
+      {
+        "title": "Gyroscopes",
+        "content": "Gyroscopes provide a stable reference frame, allowing the system to determine orientation and direction accurately."
+      },
+      {
+        "title": "Inertial Platform",
+        "content": "Traditional INS uses a stabilized platform maintained by gyroscopes to keep sensors aligned with Earth’s reference axes."
+      },
+      {
+        "title": "Strapdown System",
+        "content": "Modern INS systems use strapdown technology where sensors are fixed to the aircraft and calculations are performed electronically."
+      },
+      {
+        "title": "Alignment",
+        "content": "Before use, the INS must be aligned to determine its initial position and orientation relative to the Earth."
+      },
+      {
+        "title": "Drift and Errors",
+        "content": "Small sensor errors accumulate over time, leading to drift. This is a key limitation of inertial navigation systems."
+      },
+      {
+        "title": "Integration with Other Systems",
+        "content": "INS is often combined with GPS and flight management systems (FMS) to improve accuracy and correct drift."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in commercial aviation, military aircraft, and spacecraft for navigation, autopilot control, and flight management."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 19 - Inertial Reference System",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Inertial Reference System (IRS) is an advanced system that provides aircraft attitude, heading, and position information using inertial sensors without relying on external references."
+      },
+      {
+        "title": "Difference between INS and IRS",
+        "content": "INS provides full navigation capability including position and velocity, while IRS mainly provides attitude and heading data. Modern systems often integrate both functions."
+      },
+      {
+        "title": "Components",
+        "content": "The IRS consists of gyroscopes and accelerometers, along with processing units to compute and output flight data."
+      },
+      {
+        "title": "Attitude and Heading Reference",
+        "content": "IRS provides accurate pitch, roll, and heading information, which is essential for flight control and navigation systems."
+      },
+      {
+        "title": "Laser and Ring Gyros",
+        "content": "Modern IRS uses laser gyros or ring laser gyros instead of mechanical gyros for higher accuracy and reliability."
+      },
+      {
+        "title": "Strapdown System",
+        "content": "Sensors are fixed to the aircraft structure, and computations are performed electronically to determine motion and orientation."
+      },
+      {
+        "title": "Alignment",
+        "content": "The system requires alignment before flight to determine initial position and orientation relative to Earth."
+      },
+      {
+        "title": "Drift and Errors",
+        "content": "Errors accumulate over time due to sensor inaccuracies. These are corrected using external systems such as GPS."
+      },
+      {
+        "title": "Integration",
+        "content": "IRS is integrated with flight management systems (FMS), autopilot, and navigation displays to provide continuous data."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in modern aircraft for attitude reference, navigation support, autopilot operation, and flight display systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 20 - Radio Altimeter",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The radio altimeter measures the aircraft’s height above ground level (AGL) using radio waves. It is especially useful during low altitude operations such as landing."
+      },
+      {
+        "title": "Principle of Operation",
+        "content": "The system transmits radio waves toward the ground and measures the time taken for the reflected signal to return. This time delay is used to calculate height above ground."
+      },
+      {
+        "title": "Frequency Modulated Continuous Wave (FMCW)",
+        "content": "Most radio altimeters use FMCW technique, where a continuous signal with varying frequency is transmitted and compared with the received signal to determine height."
+      },
+      {
+        "title": "Components",
+        "content": "The system consists of a transmitter, receiver, antennas, and a display unit in the cockpit."
+      },
+      {
+        "title": "Height Measurement",
+        "content": "The radio altimeter provides accurate height above terrain directly below the aircraft, unlike pressure altimeters which measure altitude above sea level."
+      },
+      {
+        "title": "Limitations",
+        "content": "Effective only at low altitudes (typically up to 2500 feet). Accuracy reduces at higher altitudes and over uneven terrain."
+      },
+      {
+        "title": "Errors",
+        "content": "Errors may occur due to terrain slope, obstacles, or signal reflection variations."
+      },
+      {
+        "title": "Integration with Systems",
+        "content": "Radio altimeter data is used by autopilot systems, ground proximity warning systems (GPWS), and auto-landing systems."
+      },
+      {
+        "title": "Decision Height",
+        "content": "The instrument is used to set and monitor decision height during instrument approaches, alerting pilots when minimum altitude is reached."
+      },
+      {
+        "title": "Applications",
+        "content": "Essential for landing operations, terrain awareness, and safety systems in modern aircraft."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 21 - Flight Management System (FMS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "The Flight Management System (FMS) is an integrated system that automates navigation, performance calculations, and flight planning to assist pilots in managing the aircraft efficiently."
+      },
+      {
+        "title": "Functions of FMS",
+        "content": "The FMS manages navigation, flight planning, performance optimization, fuel calculations, and guidance commands for the autopilot and flight director."
+      },
+      {
+        "title": "Components",
+        "content": "The system includes a flight management computer (FMC), control display unit (CDU), navigation database, and interfaces with other aircraft systems."
+      },
+      {
+        "title": "Control Display Unit (CDU)",
+        "content": "The CDU is the pilot interface used to input flight plans, waypoints, and performance data into the FMS."
+      },
+      {
+        "title": "Navigation Database",
+        "content": "The FMS uses a stored database containing waypoints, airways, airports, and procedures for route planning."
+      },
+      {
+        "title": "Flight Planning",
+        "content": "Pilots enter the route, including departure, en-route waypoints, and arrival procedures. The FMS calculates the optimal path."
+      },
+      {
+        "title": "Performance Management",
+        "content": "The FMS calculates speeds, fuel consumption, climb and descent profiles to optimize efficiency."
+      },
+      {
+        "title": "Guidance",
+        "content": "The system provides lateral and vertical guidance to the autopilot and flight director for accurate navigation."
+      },
+      {
+        "title": "Integration",
+        "content": "FMS integrates with GPS, IRS, ADC, autopilot, and EFIS to provide complete flight management capability."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in modern aircraft for automated navigation, efficient fuel management, workload reduction, and improved flight safety."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 22 - Electronic Flight Information Systems",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Electronic Flight Information Systems (EFIS) replace traditional analogue instruments with integrated digital displays, improving situational awareness and reducing pilot workload."
+      },
+      {
+        "title": "Basic Concept",
+        "content": "EFIS integrates multiple flight parameters into centralized display units, allowing pilots to view essential information in a clear and organized manner."
+      },
+      {
+        "title": "Primary Flight Display (PFD)",
+        "content": "The PFD presents key flight data such as attitude, airspeed, altitude, vertical speed, and heading in a single display."
+      },
+      {
+        "title": "Navigation Display (ND)",
+        "content": "The ND shows route information, waypoints, navigation aids, weather radar, and traffic information."
+      },
+      {
+        "title": "Display Units",
+        "content": "EFIS uses electronic screens such as LCD or CRT displays to present flight information graphically."
+      },
+      {
+        "title": "Symbol Generator",
+        "content": "The symbol generator processes input data from aircraft systems and converts it into graphical symbols for display."
+      },
+      {
+        "title": "Display Modes",
+        "content": "Different modes allow pilots to select various views such as map mode, approach mode, or expanded navigation display."
+      },
+      {
+        "title": "Advantages",
+        "content": "Improves readability, reduces clutter, enhances situational awareness, and allows flexible information presentation."
+      },
+      {
+        "title": "Redundancy",
+        "content": "Multiple display units and backup systems ensure continuous availability of critical flight information."
+      },
+      {
+        "title": "Applications",
+        "content": "EFIS is widely used in modern aircraft for flight control, navigation, monitoring, and integration with autopilot and FMS."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 23 - Basic Computers",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Basic computers in aviation are used to process data from sensors and systems to provide useful information to pilots and aircraft systems."
+      },
+      {
+        "title": "Purpose of Computers",
+        "content": "Computers perform calculations, data processing, control functions, and system monitoring in modern aircraft."
+      },
+      {
+        "title": "Types of Computers",
+        "content": "Aircraft use analogue computers, digital computers, and hybrid systems depending on the application."
+      },
+      {
+        "title": "Analogue Computers",
+        "content": "Analogue computers process continuous signals and are used in older systems for real-time calculations."
+      },
+      {
+        "title": "Digital Computers",
+        "content": "Digital computers process discrete data and are widely used in modern avionics due to their accuracy and flexibility."
+      },
+      {
+        "title": "Inputs and Outputs",
+        "content": "Computers receive inputs from sensors (pressure, temperature, position) and provide outputs to displays, autopilot, and control systems."
+      },
+      {
+        "title": "Signal Processing",
+        "content": "Computers convert raw sensor data into meaningful information such as speed, altitude, and navigation parameters."
+      },
+      {
+        "title": "Reliability and Redundancy",
+        "content": "Aircraft computers are designed with redundancy and fail-safe features to ensure continuous operation."
+      },
+      {
+        "title": "Integration",
+        "content": "Computers are integrated with systems like ADC, IRS, FMS, and EFIS to provide coordinated operation."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in flight control, navigation, engine monitoring, communication, and safety systems."
+      }
+    ]
+  },
+  {
+    "book_id": "INS-001",
+    "book_name": "Instrumentation",
+    "chapter_name": "Chapter 24 - Future Air Navigation Systems (FANS)",
+    "sub_modules": [
+      {
+        "title": "Introduction",
+        "content": "Future Air Navigation Systems (FANS) are advanced systems designed to improve global air traffic management using satellite-based communication, navigation, and surveillance technologies."
+      },
+      {
+        "title": "Need for FANS",
+        "content": "Traditional navigation systems have limitations in oceanic and remote areas. FANS provides better coverage, accuracy, and efficiency worldwide."
+      },
+      {
+        "title": "Key Components",
+        "content": "FANS includes Communication (data link), Navigation (GPS), and Surveillance (ADS systems), often referred to as CNS systems."
+      },
+      {
+        "title": "Data Link Communication",
+        "content": "Allows pilots and air traffic control to exchange messages digitally instead of voice communication, reducing workload and errors."
+      },
+      {
+        "title": "Automatic Dependent Surveillance (ADS)",
+        "content": "ADS enables aircraft to automatically transmit position and other data to ground stations or other aircraft."
+      },
+      {
+        "title": "GPS Integration",
+        "content": "Global Positioning System (GPS) provides accurate position information, forming the backbone of modern navigation systems."
+      },
+      {
+        "title": "Controller Pilot Data Link Communication (CPDLC)",
+        "content": "CPDLC allows direct digital communication between pilots and controllers, improving efficiency and reducing misunderstandings."
+      },
+      {
+        "title": "Advantages",
+        "content": "Improves safety, reduces communication errors, enhances efficiency, enables optimal routing, and supports global air traffic management."
+      },
+      {
+        "title": "Limitations",
+        "content": "Depends on satellite coverage and system reliability. Requires proper integration and training."
+      },
+      {
+        "title": "Applications",
+        "content": "Used in modern aviation for long-haul operations, oceanic flights, and advanced air traffic management systems."
+      }
+    ]
+  }
+]

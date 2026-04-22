@@ -1,0 +1,1794 @@
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter": "Definitions and Calculations",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "Aircraft must always operate within approved mass and center of gravity limits. The pilot in command is responsible for ensuring compliance at all stages of flight."
+    },
+    {
+      "title": "Limitations",
+      "content": "Mass limits protect structural strength and performance, while CG limits ensure stability and controllability during flight."
+    },
+    {
+      "title": "Effects of Overloading",
+      "key_points": [
+        "Increases structural stress and fatigue",
+        "Reduces aircraft performance",
+        "Increases takeoff and landing distances",
+        "Raises stall speed",
+        "Decreases climb performance and ceiling",
+        "Increases fuel consumption",
+        "Reduces range and endurance",
+        "Increases wear on brakes, tires, and structure"
+      ]
+    },
+    {
+      "title": "Effects of CG Position",
+      "forward_cg": [
+        "Higher stability",
+        "Reduced maneuverability",
+        "Higher stall speed",
+        "Increased drag and fuel consumption",
+        "Higher control forces",
+        "Longer takeoff distance"
+      ],
+      "aft_cg": [
+        "Lower stability",
+        "Higher maneuverability",
+        "Risk of instability",
+        "Reduced control forces",
+        "Difficult spin recovery",
+        "Possible pitch control issues"
+      ]
+    },
+    {
+      "title": "Movement of CG in Flight",
+      "content": "CG changes during flight due to fuel burn, passenger movement, and configuration changes. It must remain within limits at all times."
+    },
+    {
+      "title": "Effects of Increasing Mass",
+      "effects": [
+        "Increase in V-speeds (V1, VR, VS)",
+        "Longer takeoff and landing distances",
+        "Reduced climb rate and ceiling",
+        "Increased descent rate",
+        "Reduced maximum speed",
+        "Increased fuel consumption",
+        "Higher structural stress"
+      ]
+    },
+    {
+      "title": "Key Definitions",
+      "definitions": [
+        {
+          "term": "Center of Gravity (CG)",
+          "meaning": "Point where total aircraft weight acts"
+        },
+        {
+          "term": "Datum",
+          "meaning": "Reference point for all measurements"
+        },
+        {
+          "term": "Arm",
+          "meaning": "Distance from datum to mass"
+        },
+        {
+          "term": "Moment",
+          "meaning": "Mass multiplied by arm"
+        },
+        {
+          "term": "Basic Empty Mass (BEM)",
+          "meaning": "Aircraft mass without payload or usable fuel"
+        },
+        {
+          "term": "Dry Operating Mass (DOM)",
+          "meaning": "Aircraft mass including crew and operational items"
+        },
+        {
+          "term": "Traffic Load",
+          "meaning": "Passengers, baggage, and cargo"
+        },
+        {
+          "term": "Useful Load",
+          "meaning": "Traffic load plus fuel"
+        }
+      ]
+    },
+    {
+      "title": "Aircraft Weighing",
+      "content": "Aircraft are weighed periodically using calibrated systems. Results are recorded in a weighing schedule which determines BEM and CG position."
+    },
+    {
+      "title": "Fuel Mass Calculation",
+      "formula": "Mass = Volume × Density",
+      "notes": [
+        "Fuel may be measured in litres or gallons",
+        "Density (specific gravity) is required for conversion",
+        "Standard density may be used if actual value is unavailable"
+      ]
+    },
+    {
+      "title": "CG Calculation",
+      "formula": "CG = Total Moment / Total Mass",
+      "steps": [
+        "Calculate individual moments",
+        "Sum total mass and total moment",
+        "Divide moment by mass"
+      ]
+    },
+    {
+      "title": "MAC Percentage",
+      "formula": "CG%MAC = ((CG - LE MAC) / MAC Length) × 100",
+      "purpose": "Express CG relative to wing aerodynamics"
+    },
+    {
+      "title": "Repositioning CG",
+      "methods": [
+        "Move existing mass",
+        "Add or remove mass (ballast)"
+      ],
+      "formula_move_mass": "m × d = M × change_in_CG",
+      "formula_add_mass": "(M + m) × new_CG = old_moment + (m × arm)"
+    },
+    {
+      "title": "Cargo Handling",
+      "types": [
+        "Containerized cargo",
+        "Palletized cargo",
+        "Bulk cargo"
+      ]
+    },
+    {
+      "title": "Floor Loading",
+      "types": [
+        {
+          "type": "Linear Load",
+          "description": "Load per unit length"
+        },
+        {
+          "type": "Area Load",
+          "description": "Load per unit area"
+        }
+      ]
+    },
+    {
+      "title": "Load Sheet",
+      "purpose": "Document used to calculate and verify aircraft mass and CG before flight",
+      "includes": [
+        "Aircraft details",
+        "Mass values",
+        "Fuel load",
+        "Traffic load",
+        "CG position",
+        "Limits verification"
+      ]
+    },
+    {
+      "title": "Traffic Load Limits",
+      "formulas": [
+        "Structural Limit = MZFM - DOM",
+        "Takeoff Limit = RTOM - DOM - Takeoff Fuel",
+        "Landing Limit = RLM - DOM - Landing Fuel"
+      ]
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 1 - Performance Introduction",
+  "sub_modules": [
+    {
+      "title": "Basic Aircraft and Aerodrome Definitions",
+      "content": "An aircraft is any machine capable of flight using air reaction. An aeroplane is a powered fixed-wing aircraft producing lift from airflow over its wings. An aerodrome is any area used for aircraft operations including takeoff and landing. Aerodrome elevation refers to the highest point of the landing area, while the reference point defines its geographical center."
+    },
+    {
+      "title": "Altitude and Atmospheric Concepts",
+      "content": "Altitude in aviation is usually expressed as pressure altitude using a standard setting of 1013 hPa. Density altitude reflects air density variations and directly impacts aircraft performance. Flight levels represent constant pressure surfaces referenced to standard pressure."
+    },
+    {
+      "title": "Speed and Airspeed Definitions",
+      "content": "Indicated Airspeed is read directly from instruments, while Calibrated Airspeed corrects instrument errors. Equivalent Airspeed adjusts for compressibility, and True Airspeed reflects actual speed through air. Decision speed (V1) determines whether to continue or abort takeoff."
+    },
+    {
+      "title": "Control Speeds and Limits",
+      "content": "Minimum control speeds define the lowest speeds at which an aircraft remains controllable. VMCA applies in air, while VMCG applies on ground. These speeds are critical when an engine fails, especially the critical engine which has the greatest impact on control."
+    },
+    {
+      "title": "Takeoff and Landing Distances",
+      "content": "TORA is the runway length available for takeoff. TODA includes additional clearway, and ASDA includes stopway for rejected takeoffs. LDA represents the landing distance available. Balanced field occurs when ASDA equals TODA."
+    },
+    {
+      "title": "Runway and Surface Conditions",
+      "content": "Runways may be dry, damp, wet, or contaminated depending on surface moisture. Contaminated runways significantly reduce braking efficiency. Clearways and stopways provide additional safety margins during takeoff operations."
+    },
+    {
+      "title": "Aerodynamic Principles",
+      "content": "Lift acts perpendicular to airflow, while drag opposes motion. Angle of attack is the angle between the wing chord and airflow. Climb gradient represents climb performance as a percentage of vertical to horizontal distance."
+    },
+    {
+      "title": "Ceiling and Performance Limits",
+      "content": "Absolute ceiling is the altitude where climb rate becomes zero. Service ceiling is where climb rate reduces to a minimum. Aerodynamic ceiling occurs where low-speed and high-speed buffet limits meet."
+    },
+    {
+      "title": "Engine and Power Concepts",
+      "content": "Thrust propels the aircraft forward, while brake horsepower represents engine output. Maximum continuous power and thrust can be used indefinitely. Specific fuel consumption measures engine efficiency."
+    },
+    {
+      "title": "Flight Operations and Procedures",
+      "content": "Rejected takeoff (RTO) occurs when takeoff is aborted for safety. A go-around is a discontinued landing attempt, while a missed approach follows a defined climb procedure after aborting landing."
+    },
+    {
+      "title": "Aircraft Structure and Systems",
+      "content": "The airframe includes fuselage, wings, landing gear, and structural components. Auxiliary Power Units (APU) provide power without contributing to propulsion."
+    },
+    {
+      "title": "Performance Measurements",
+      "content": "Measured performance is obtained under ideal test conditions. Gross performance reflects average operational capability. Net performance includes safety margins to account for real-world variations."
+    },
+    {
+      "title": "Environmental Effects",
+      "content": "Aircraft performance is affected by temperature, pressure, and density. Higher temperatures and altitudes reduce air density, decreasing lift and engine efficiency."
+    },
+    {
+      "title": "Runway Geometry and Areas",
+      "content": "Runways are defined surfaces for takeoff and landing. Taxiways connect different parts of an aerodrome. Aprons are used for parking, loading, and unloading aircraft."
+    },
+    {
+      "title": "Important Speeds in Flight",
+      "content": "Rotation speed (VR) initiates takeoff lift. V2 ensures safe climb after takeoff. Stall speeds define minimum controllable speeds. Maximum speeds define structural and operational limits."
+    },
+    {
+      "title": "Weather and Flight Conditions",
+      "content": "IFR conditions occur when visibility is below visual flight limits. Windshear is a sudden change in wind speed or direction that can affect aircraft control, especially during takeoff and landing."
+    },
+    {
+      "title": "Performance Classes",
+      "content": "Aircraft are categorized into Class A (large multi-engine jets), Class B (small propeller aircraft), Class C (large piston aircraft), and unclassified aircraft requiring special consideration."
+    },
+    {
+      "title": "Operational Safety Margins",
+      "content": "Safety margins are applied to performance data to ensure safe operations. Net performance ensures extremely high reliability, meaning aircraft will almost always meet required performance levels."
+    },
+    {
+      "title": "Key Abbreviations",
+      "content": "Common abbreviations include IAS (Indicated Airspeed), TAS (True Airspeed), TORA (Takeoff Run Available), ASDA (Accelerate-Stop Distance Available), MTOM (Maximum Takeoff Mass), and ATC (Air Traffic Control). These are essential for interpreting aviation data."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 2 - General Principles of Take-off",
+  "sub_modules": [
+    {
+      "title": "Take-off Definition",
+      "content": "Take-off is the phase from brake release point to a defined height called screen height. This height is typically 35 ft for larger aircraft and 50 ft for smaller aircraft."
+    },
+    {
+      "title": "Available Distances Overview",
+      "content": "For safe take-off, the required distance must not exceed available runway distances. These include TORA, TODA, and ASDA, which account for runway length and additional safety areas."
+    },
+    {
+      "title": "Clearway",
+      "content": "A clearway is an obstacle-free area beyond the runway that allows aircraft to climb safely after take-off. It is not a physical surface but must remain free from obstacles."
+    },
+    {
+      "title": "Stopway",
+      "content": "A stopway is a prepared surface beyond the runway designed to support an aircraft during an aborted take-off. It helps decelerate the aircraft safely."
+    },
+    {
+      "title": "Take-off Run Available (TORA)",
+      "content": "TORA is the usable runway length available for the aircraft to accelerate during take-off."
+    },
+    {
+      "title": "Take-off Distance Available (TODA)",
+      "content": "TODA is the total distance available for take-off, including runway length and clearway. It must be greater than or equal to the required take-off distance."
+    },
+    {
+      "title": "Accelerate-stop Distance Available (ASDA)",
+      "content": "ASDA includes the runway plus stopway and is used to ensure the aircraft can safely stop in case of a rejected take-off."
+    },
+    {
+      "title": "Take-off Distance Components",
+      "content": "Take-off distance consists of ground roll and airborne distance to screen height. It starts from brake release and ends when the aircraft reaches the defined height."
+    },
+    {
+      "title": "Important Take-off Speeds",
+      "content": "VR is the rotation speed when the nose lifts. VLOF is the lift-off speed when the aircraft leaves the ground. These speeds are critical for safe take-off performance."
+    },
+    {
+      "title": "Gross and Net Take-off Distance",
+      "content": "Gross take-off distance is the calculated value, while net take-off distance includes safety margins to account for real-world variations and ensures safe operation."
+    },
+    {
+      "title": "Acceleration and Distance Relationship",
+      "content": "Take-off distance depends on acceleration and required speed. Greater acceleration reduces distance, while lower acceleration increases take-off distance."
+    },
+    {
+      "title": "Forces During Take-off",
+      "content": "During take-off, thrust moves the aircraft forward while drag resists motion. Excess thrust determines acceleration, which decreases as speed increases."
+    },
+    {
+      "title": "Thrust Characteristics",
+      "content": "Jet engines experience reduced thrust with increasing speed initially, while propeller aircraft generally produce decreasing thrust as speed increases. Engine performance is also affected by temperature and air density."
+    },
+    {
+      "title": "Drag Components",
+      "content": "Total drag includes aerodynamic drag and wheel drag. Aerodynamic drag increases with speed, while wheel drag decreases as lift reduces weight on wheels."
+    },
+    {
+      "title": "Effect of Mass",
+      "content": "Higher aircraft mass increases inertia, wheel drag, required lift, and reduces climb angle. This results in a longer take-off distance."
+    },
+    {
+      "title": "Effect of Air Density",
+      "content": "Lower air density reduces engine performance and lift, increases true airspeed for a given indicated speed, and results in longer take-off distance."
+    },
+    {
+      "title": "Effect of Wind",
+      "content": "Headwinds reduce take-off distance by lowering ground speed, while tailwinds increase it. Regulations assume only partial headwind benefit and increased tailwind penalty for safety."
+    },
+    {
+      "title": "Effect of Runway Slope",
+      "content": "An uphill slope reduces acceleration and increases take-off distance, while a downhill slope improves acceleration and reduces take-off distance."
+    },
+    {
+      "title": "Effect of Runway Surface",
+      "content": "Wet or contaminated runways increase drag and reduce braking efficiency, leading to longer take-off and stopping distances."
+    },
+    {
+      "title": "Airframe Contamination",
+      "content": "Ice, snow, or frost on the aircraft increases drag, reduces lift, and adds weight. Aircraft must be free of contamination before take-off."
+    },
+    {
+      "title": "Effect of Flap Setting",
+      "content": "Flaps increase lift and reduce take-off speed but also increase drag. An optimal flap setting minimizes take-off distance while maintaining climb performance."
+    },
+    {
+      "title": "Obstacle Clearance Considerations",
+      "content": "Flap settings affect climb gradient and obstacle clearance. In some cases, a slightly longer take-off distance may improve climb performance and allow obstacle clearance."
+    }
+  ]
+}
+
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 3 - General Principles - Climb",
+  "sub_modules": [
+    {
+      "title": "Definition of Climb",
+      "content": "Climb is the phase of flight from the end of take-off until the aircraft reaches cruising conditions. It is evaluated using climb angle and rate of climb."
+    },
+    {
+      "title": "Angle of Climb",
+      "content": "The climb angle depends on the balance of forces along the flight path. In a climb, thrust must overcome both aerodynamic drag and a backward component of weight."
+    },
+    {
+      "title": "Excess Thrust",
+      "content": "Excess thrust is the difference between thrust available and drag. It determines the aircraft’s ability to maintain a steady climb and achieve a steeper climb angle."
+    },
+    {
+      "title": "Effect of Weight on Climb Angle",
+      "content": "Increasing aircraft weight increases drag and the backward component of weight, reducing excess thrust and resulting in a lower climb angle."
+    },
+    {
+      "title": "Thrust Available in Climb",
+      "content": "Thrust available is the total thrust produced by the engines. During a steady climb, it must balance both drag and the backward component of weight."
+    },
+    {
+      "title": "Climb Gradient",
+      "content": "Climb gradient is the vertical gain relative to horizontal distance, expressed as a percentage. It depends on excess thrust and aircraft weight."
+    },
+    {
+      "title": "Effect of Engine Failure",
+      "content": "Loss of an engine significantly reduces thrust available, drastically lowering excess thrust and reducing climb performance."
+    },
+    {
+      "title": "Effect of Flaps on Climb",
+      "content": "Flaps increase drag, which reduces excess thrust and results in a lower climb angle. They are typically retracted after take-off."
+    },
+    {
+      "title": "Drag Components",
+      "content": "Total drag consists of parasite drag, which increases with speed, and induced drag, which decreases with speed. Their combination determines overall performance."
+    },
+    {
+      "title": "Minimum Drag Speed (VMD)",
+      "content": "VMD is the speed at which total drag is minimized. It occurs where parasite drag equals induced drag."
+    },
+    {
+      "title": "Best Angle of Climb (VX)",
+      "content": "VX is the speed that provides the steepest climb angle by maximizing excess thrust. For jet aircraft, it occurs near VMD."
+    },
+    {
+      "title": "Effect of Weight on VX",
+      "content": "An increase in weight shifts drag upward and increases the speed required for VX while reducing climb performance."
+    },
+    {
+      "title": "Effect of Configuration",
+      "content": "Extending flaps or landing gear increases parasite drag, reducing excess thrust and lowering climb angle."
+    },
+    {
+      "title": "Effect of Air Density",
+      "content": "Lower air density reduces engine thrust and increases true airspeed requirements, decreasing climb performance."
+    },
+    {
+      "title": "Density Altitude",
+      "content": "Density altitude represents the effective altitude based on air density. Higher density altitude reduces engine performance and climb capability."
+    },
+    {
+      "title": "Air Gradient vs Ground Gradient",
+      "content": "Air gradient measures climb within the air mass and is unaffected by wind. Ground gradient considers wind effects, increasing with headwind and decreasing with tailwind."
+    },
+    {
+      "title": "Rate of Climb",
+      "content": "Rate of climb is the vertical speed of the aircraft, determined by excess power available and influenced by both climb angle and true airspeed."
+    },
+    {
+      "title": "Power and Climb Relationship",
+      "content": "Rate of climb depends on excess power, which is the difference between power available and power required."
+    },
+    {
+      "title": "Best Rate of Climb (VY)",
+      "content": "VY is the speed that provides the maximum rate of climb, giving the greatest altitude gain per unit time."
+    },
+    {
+      "title": "Effect of Weight on Rate of Climb",
+      "content": "Increased weight raises drag and reduces excess power, decreasing rate of climb and increasing the speed required for VY."
+    },
+    {
+      "title": "Effect of Configuration on Rate of Climb",
+      "content": "Using flaps or gear increases drag, reducing excess power and lowering the rate of climb."
+    },
+    {
+      "title": "Effect of Density on Rate of Climb",
+      "content": "Lower air density reduces thrust and increases power required, resulting in reduced climb performance and higher true airspeeds."
+    },
+    {
+      "title": "Absolute Ceiling",
+      "content": "The absolute ceiling is the altitude at which the aircraft’s rate of climb becomes zero due to no excess power."
+    },
+    {
+      "title": "Service Ceiling",
+      "content": "The service ceiling is the maximum altitude at which the aircraft can maintain a minimal but practical rate of climb."
+    },
+    {
+      "title": "Effect of Wind on Climb",
+      "content": "Wind does not affect rate of climb but influences ground gradient. Headwinds improve ground climb performance, while tailwinds reduce it."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 4 - General Principles - Descent",
+  "sub_modules": [
+    {
+      "title": "Definition of Descent",
+      "content": "Descent is the phase where the aircraft loses altitude from cruise towards landing or during emergency situations such as engine failure or depressurization."
+    },
+    {
+      "title": "Measures of Descent Performance",
+      "content": "Descent performance is evaluated using two parameters: angle of descent (range covered) and rate of descent (vertical speed)."
+    },
+    {
+      "title": "Forces in Descent",
+      "content": "In descent, thrust is reduced below drag, creating excess drag. The aircraft pitches down until the forward component of weight balances this excess drag, allowing steady descent."
+    },
+    {
+      "title": "Excess Drag",
+      "content": "Excess drag is the difference between drag and thrust. It is the primary factor controlling the steepness of the descent angle."
+    },
+    {
+      "title": "Descent Gradient",
+      "content": "Descent gradient is determined by excess drag relative to weight and is expressed as a percentage of vertical drop over horizontal distance."
+    },
+    {
+      "title": "Maximum Angle of Descent",
+      "content": "The steepest descent occurs when excess drag is maximized, typically achieved with idle thrust and increased drag using devices such as speed brakes or landing gear."
+    },
+    {
+      "title": "Minimum Angle of Descent (Glide)",
+      "content": "The shallowest descent occurs when excess drag is minimized. This is achieved at the speed for minimum drag (VMD), which provides the best glide distance."
+    },
+    {
+      "title": "Lift-to-Drag Ratio",
+      "content": "The glide performance depends on the lift-to-drag ratio. Maximum lift-to-drag ratio occurs at VMD, giving the minimum descent angle."
+    },
+    {
+      "title": "Effect of Speed on Glide",
+      "content": "Flying slower or faster than VMD increases drag and steepens the descent angle. Maintaining VMD ensures optimal glide performance."
+    },
+    {
+      "title": "Rate of Descent",
+      "content": "Rate of descent is the vertical speed of the aircraft and depends on excess power required, which is the difference between power required and power available."
+    },
+    {
+      "title": "Maximum Rate of Descent",
+      "content": "The highest rate of descent occurs when excess power required is maximized, typically at high speed with idle thrust and increased drag."
+    },
+    {
+      "title": "Minimum Rate of Descent",
+      "content": "The lowest rate of descent occurs at the speed for minimum power required (VMP), giving maximum descent endurance."
+    },
+    {
+      "title": "Effect of Weight on Descent",
+      "content": "Weight does not affect the glide angle at VMD, but it increases the descent speed and rate of descent."
+    },
+    {
+      "title": "Effect of Configuration",
+      "content": "Deploying flaps or landing gear increases drag, leading to a steeper descent angle and higher rate of descent. It also reduces VMD and VMP speeds."
+    },
+    {
+      "title": "Effect of Wind",
+      "content": "Wind affects descent angle but not rate of descent. Headwinds reduce range and steepen descent, while tailwinds increase range and flatten descent."
+    },
+    {
+      "title": "Wind Correction in Glide",
+      "content": "In headwinds, increasing speed reduces time spent against the wind. In tailwinds, reducing speed helps maximize the distance covered."
+    },
+    {
+      "title": "Practical Descent Considerations",
+      "content": "Pilots must manage thrust, speed, and configuration to achieve desired descent profiles while ensuring obstacle clearance and efficient flight path management."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 5 - General Principles - Cruise",
+  "sub_modules": [
+    {
+      "title": "Balance of Forces in Level Flight",
+      "content": "In steady level flight, lift balances weight and thrust balances drag. These forces create pitching moments that must be balanced for stable flight."
+    },
+    {
+      "title": "Pitching Moments and Tailplane Role",
+      "content": "Lift and weight create a strong nose-down moment, while thrust and drag create a weaker nose-up moment. The tailplane generates a downward force to balance these moments and maintain trim."
+    },
+    {
+      "title": "Effects of Tailplane Downforce",
+      "content": "Tailplane downforce increases effective aircraft weight and adds drag, reducing overall performance, range, and endurance."
+    },
+    {
+      "title": "Centre of Gravity (CG) Effects",
+      "content": "A forward CG increases tailplane force, drag, and reduces efficiency. An aft CG reduces tail load and improves range and endurance but must remain within safe limits."
+    },
+    {
+      "title": "Speed in Level Flight",
+      "content": "An aircraft maintains constant speed when thrust equals drag. Acceleration occurs when thrust exceeds drag, and maximum speed is achieved when both forces are equal at their highest values."
+    },
+    {
+      "title": "Minimum and Maximum Speed",
+      "content": "The minimum speed occurs at the lower intersection of thrust and drag curves, while maximum speed occurs at the higher intersection. At high altitudes, this speed range becomes narrower."
+    },
+    {
+      "title": "Indicated Airspeed (IAS)",
+      "content": "IAS is the speed shown on the airspeed indicator and is derived from pressure measurements without correcting for errors."
+    },
+    {
+      "title": "Calibrated Airspeed (CAS)",
+      "content": "CAS is IAS corrected for instrument and position errors, providing a more accurate airspeed reading."
+    },
+    {
+      "title": "Equivalent Airspeed (EAS)",
+      "content": "EAS is CAS corrected for compressibility effects and represents accurate dynamic pressure-based speed."
+    },
+    {
+      "title": "True Airspeed (TAS)",
+      "content": "TAS is EAS corrected for air density and represents the aircraft’s actual speed through the air. TAS increases with altitude for a constant IAS."
+    },
+    {
+      "title": "Ground Speed (GS)",
+      "content": "Ground speed is TAS adjusted for wind. Tailwinds increase GS, while headwinds decrease it."
+    },
+    {
+      "title": "Mach Number",
+      "content": "Mach number is the ratio of true airspeed to the local speed of sound. It is critical in high-speed flight due to compressibility and shock wave effects."
+    },
+    {
+      "title": "Fuel Flow Basics",
+      "content": "Fuel flow in jet aircraft depends on thrust, while in propeller aircraft it depends on power output."
+    },
+    {
+      "title": "Definition of Endurance",
+      "content": "Endurance is the total time an aircraft can remain airborne for a given amount of fuel and depends on minimizing fuel flow."
+    },
+    {
+      "title": "Jet Aircraft Endurance",
+      "content": "Maximum endurance in jets is achieved at minimum drag speed (VMD) and high altitude where fuel efficiency improves."
+    },
+    {
+      "title": "Propeller Aircraft Endurance",
+      "content": "Maximum endurance in propeller aircraft occurs at minimum power speed (VMP), where fuel consumption is lowest."
+    },
+    {
+      "title": "Effect of Weight on Endurance",
+      "content": "Increased weight raises drag or power requirements, increasing fuel flow and reducing endurance. It also increases optimal endurance speeds."
+    },
+    {
+      "title": "Effect of Configuration on Endurance",
+      "content": "Deploying flaps or landing gear increases drag, fuel consumption, and reduces endurance while lowering optimal speeds."
+    },
+    {
+      "title": "Effect of Wind on Endurance",
+      "content": "Wind does not affect endurance since it does not influence fuel consumption over time."
+    },
+    {
+      "title": "Effect of Altitude on Endurance",
+      "content": "Jet aircraft achieve best endurance at high altitudes, turboprops at medium altitudes, and piston aircraft near sea level."
+    },
+    {
+      "title": "Definition of Range",
+      "content": "Range is the total distance an aircraft can travel for a given amount of fuel and depends on speed and fuel flow."
+    },
+    {
+      "title": "Specific Range",
+      "content": "Specific range is defined as true airspeed divided by fuel flow and represents fuel efficiency over distance."
+    },
+    {
+      "title": "Jet Aircraft Range",
+      "content": "Maximum range in jets is achieved at approximately 1.32 times the minimum drag speed (VMD) and at high altitude where fuel efficiency improves."
+    },
+    {
+      "title": "Propeller Aircraft Range",
+      "content": "Maximum range in propeller aircraft occurs at VMD, where the ratio of speed to power required is optimal."
+    },
+    {
+      "title": "Effect of Weight on Range",
+      "content": "Higher weight increases drag and fuel consumption, reducing range while increasing optimal range speed."
+    },
+    {
+      "title": "Effect of Configuration on Range",
+      "content": "Deploying flaps or gear increases drag and fuel consumption, reducing range and lowering optimal speeds."
+    },
+    {
+      "title": "Effect of Wind on Range",
+      "content": "Headwinds reduce range, while tailwinds increase it. Speed adjustments can help optimize range under wind conditions."
+    },
+    {
+      "title": "Effect of Altitude on Range (Jet)",
+      "content": "Range increases with altitude due to higher TAS and lower fuel consumption, but decreases at very high altitudes due to compressibility drag."
+    },
+    {
+      "title": "Optimum Altitude",
+      "content": "Optimum altitude is the level that provides maximum range. It increases as aircraft weight decreases during flight."
+    },
+    {
+      "title": "Cruise Climb and Step Climb",
+      "content": "As fuel burns and weight reduces, aircraft can climb to maintain optimal altitude. This can be done continuously (cruise climb) or in steps (step climb)."
+    },
+    {
+      "title": "Altitude Effects on Propeller Aircraft",
+      "content": "Turboprops gain efficiency with altitude up to a point, while piston aircraft reach maximum range near full throttle height."
+    },
+    {
+      "title": "Payload vs Range Relationship",
+      "content": "Increasing payload reduces range. Maximum range can be achieved by reducing payload and increasing fuel within weight limits."
+    },
+    {
+      "title": "Wind-Altitude Trade-Off",
+      "content": "Pilots may choose different altitudes to optimize range based on wind conditions."
+    },
+    {
+      "title": "Long Range Cruise (LRC)",
+      "content": "LRC is a slightly higher speed than maximum range speed, offering faster travel with minimal loss in fuel efficiency."
+    }
+  ]
+}
+
+
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 6 - General Principles - Landing",
+  "sub_modules": [
+    {
+      "title": "Landing Distance Overview",
+      "content": "The landing phase begins at 50 ft above the runway threshold (landing screen height) and ends when the aircraft comes to a complete stop. This phase consists of two parts: the airborne segment and the ground roll. The airborne segment involves flare and touchdown, while the ground roll includes deceleration using braking, drag, and reverse thrust. The total landing distance must always be less than the available runway length."
+    },
+    {
+      "title": "Landing Reference Speed (VREF)",
+      "content": "VREF is the required speed at 50 ft during landing. For large aircraft, it must be at least 1.23 times the stall speed or meet minimum control speed requirements. For smaller aircraft, it is typically 1.3 times stall speed. Landing distances are calculated assuming VREF is maintained; deviations can significantly affect safety."
+    },
+    {
+      "title": "Landing Phases",
+      "content": "The airborne phase includes reducing thrust and performing a flare to achieve a smooth touchdown. The ground roll begins once the wheels contact the runway, where spoilers, reverse thrust, and brakes are used to slow the aircraft. Efficient transition between these phases is critical for minimizing landing distance."
+    },
+    {
+      "title": "Landing Distance Available (LDA)",
+      "content": "LDA is the usable runway length for landing, measured from the threshold to the end of the safe landing surface. Pilots must ensure that the required landing distance does not exceed this available distance, taking into account any displaced thresholds."
+    },
+    {
+      "title": "Forces During Landing",
+      "content": "Weight acts downward and is supported by lift during flight and by the landing gear after touchdown. Lift becomes undesirable after touchdown as it reduces braking effectiveness. Spoilers are deployed to destroy lift quickly. Thrust must be reduced to zero, and reverse thrust may be used to assist deceleration."
+    },
+    {
+      "title": "Reverse Thrust",
+      "content": "Reverse thrust redirects engine output forward to help slow the aircraft. Jet engines take time to deploy reverse thrust and must deactivate it at low speeds to avoid damage. Propeller aircraft can apply reverse thrust more quickly and maintain it longer, making it more effective."
+    },
+    {
+      "title": "Drag Components",
+      "content": "Aerodynamic drag (induced and parasite) is high during initial landing but decreases as speed reduces. Wheel and brake drag increase as more weight transfers onto the wheels. Early in landing, aerodynamic drag dominates; later, braking becomes the primary decelerating force."
+    },
+    {
+      "title": "Landing Distance Factors",
+      "content": "Landing distance depends on speed, deceleration forces, and environmental conditions. Key contributors include drag, braking effectiveness, reverse thrust, and aircraft mass."
+    },
+    {
+      "title": "Effect of Weight",
+      "content": "Higher aircraft weight increases landing speed and reduces deceleration, resulting in longer landing distances. Although braking force increases, the overall effect is still an increase in landing distance."
+    },
+    {
+      "title": "Effect of Density",
+      "content": "Lower air density increases true airspeed for a given indicated airspeed, leading to longer landing distances."
+    },
+    {
+      "title": "Effect of Wind",
+      "content": "Headwinds reduce landing distance by lowering ground speed, while tailwinds increase it. Safety margins assume reduced headwind benefit and increased tailwind penalty."
+    },
+    {
+      "title": "Effect of Flap Setting",
+      "content": "Flaps reduce landing speed and increase drag, shortening landing distance. Full flap provides minimum landing distance but may reduce go-around performance."
+    },
+    {
+      "title": "Runway Slope",
+      "content": "An uphill slope reduces landing distance, while a downhill slope increases it. A rough estimate is a 5% change in landing distance per 1% slope."
+    },
+    {
+      "title": "Runway Surface Conditions",
+      "content": "Surfaces such as grass, water, snow, or ice reduce braking efficiency and increase landing distance, despite sometimes increasing drag."
+    },
+    {
+      "title": "Hydroplaning",
+      "content": "Hydroplaning occurs when water prevents tyre contact with the runway, eliminating braking and steering. Types include dynamic, viscous, and reverted rubber hydroplaning."
+    },
+    {
+      "title": "Landing Techniques on Slippery Runways",
+      "content": "A firm touchdown, early spoiler deployment, proper braking, and timely reverse thrust are essential. Avoid floating and ensure correct speed to maximize braking effectiveness."
+    },
+    {
+      "title": "Windshear and Microbursts",
+      "content": "Windshear and microbursts cause sudden changes in speed and lift, making landing hazardous. Immediate go-around is required if encountered."
+    }
+  ]
+}
+
+
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 7 - Single-engine Class B Aircraft - Take-off",
+  "sub_modules": [
+    {
+      "title": "Performance Class B Definition",
+      "content": "Single-engine Class B aircraft are propeller-driven aeroplanes with a maximum of 9 passenger seats and a maximum take-off mass of 5700 kg. They fall under CS-23 regulations, covering normal, utility, aerobatic, and commuter categories."
+    },
+    {
+      "title": "General Operating Requirements",
+      "content": "Class B aircraft used for commercial operations must not be flown at night, in IMC (except under special visual rules), or above cloud layers that prevent safe forced landing. Additionally, suitable landing areas must always be available along the route in case of engine failure."
+    },
+    {
+      "title": "Take-off Distance Definition",
+      "content": "The take-off distance is measured from brake release to a height of 50 ft above the runway, with take-off power applied, rotation at VR, and required speed achieved at the screen height."
+    },
+    {
+      "title": "Take-off Speeds",
+      "content": "Rotation speed (VR) must not be lower than the stall speed in the take-off configuration (VS1). The take-off safety speed at 50 ft must be at least 1.2 times VS1 or a speed considered safe under expected conditions."
+    },
+    {
+      "title": "Field Length Requirement",
+      "content": "The only take-off requirement for Class B aircraft is that the take-off must be completed within the available runway distance. This ensures safe operation under all conditions."
+    },
+    {
+      "title": "Take-off Safety Factors",
+      "content": "When no stopway or clearway exists, the take-off distance must be multiplied by 1.25 and must not exceed TORA. If stopways or clearways exist, the take-off distance must not exceed TORA, must not exceed ASDA when multiplied by 1.3, and must not exceed TODA when multiplied by 1.15."
+    },
+    {
+      "title": "Net vs Gross Take-off Distance",
+      "content": "Gross take-off distance is the calculated distance under ideal conditions. Net take-off distance includes safety margins applied by regulations, resulting in a longer required runway length to ensure safety."
+    },
+    {
+      "title": "Factors Affecting Take-off Distance",
+      "content": "Take-off calculations must consider aircraft mass, pressure altitude, temperature, runway surface condition, runway slope, and wind components with regulatory limits applied."
+    },
+    {
+      "title": "Wind Considerations",
+      "content": "Only 50% of headwind and 150% of tailwind components are considered in calculations to account for variability in wind conditions and ensure safety margins."
+    },
+    {
+      "title": "Runway Surface Corrections",
+      "content": "Corrections must be applied if the runway is not dry and paved. Dry grass increases distance by 20%, wet grass by 30%, while wet paved surfaces generally require no correction."
+    },
+    {
+      "title": "Runway Slope Effect",
+      "content": "An upslope increases take-off distance by approximately 5% per 1% slope. No reduction is allowed for downslope to maintain a conservative safety margin."
+    },
+    {
+      "title": "Graphical Performance Data",
+      "content": "Take-off performance is often determined using graphs that account for temperature, altitude, aircraft mass, wind, and obstacle clearance. These graphs assume specific conditions and require corrections for deviations."
+    },
+    {
+      "title": "Example Take-off Calculation",
+      "content": "A typical calculation involves determining take-off distance using environmental conditions, adjusting for aircraft weight and wind, and then applying corrections for runway surface and slope before comparing with available runway length."
+    },
+    {
+      "title": "Surface and Slope Adjustments",
+      "content": "After obtaining the base take-off distance, correction factors are applied for conditions such as wet grass and runway slope, which increase the required distance before applying safety margins."
+    },
+    {
+      "title": "Certification Requirements",
+      "content": "Regulations require that rotation speed (VR) must not be less than VS1, and the speed at 50 ft must be at least 1.2 times VS1 or a safe operational speed. These requirements ensure safe take-off performance."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 8 - Single-engine Class B - Climb",
+  "sub_modules": [
+    {
+      "title": "Climb Performance Overview",
+      "content": "Climb performance for single-engine Class B aircraft is governed by operational guidelines rather than strict regulatory limits. Unlike larger aircraft categories, there are no mandatory obstacle clearance requirements or minimum climb gradients imposed during take-off climb."
+    },
+    {
+      "title": "Obstacle Clearance Considerations",
+      "content": "There is no formal requirement for obstacle clearance because these aircraft operate under conditions where the pilot maintains visual reference with the ground. This allows the pilot to identify and avoid obstacles manually, although performing obstacle calculations is still recommended when hazards are known."
+    },
+    {
+      "title": "Climb Gradient Requirement",
+      "content": "There is no specified minimum climb gradient for single-engine Class B aircraft. This is because certification standards already ensure sufficient performance capability. However, pilots must still ensure that the aircraft can achieve a safe and practical climb."
+    },
+    {
+      "title": "Importance of Climb Awareness",
+      "content": "Even without strict regulatory limits, understanding climb performance is essential for safe operation. Pilots must ensure that the aircraft can climb effectively under given conditions to avoid terrain and maintain safety."
+    },
+    {
+      "title": "Climb Performance Data",
+      "content": "Climb performance is typically presented using graphs in the aircraft flight manual. These graphs provide information such as climb gradient, rate of climb, and performance under specified conditions."
+    },
+    {
+      "title": "Graph Conditions",
+      "content": "Climb graphs assume specific configurations such as maximum power, correct mixture settings, clean configuration (gear and flaps retracted), and a fixed indicated airspeed for climb. These conditions must be followed to obtain accurate results."
+    },
+    {
+      "title": "Using Climb Graphs",
+      "content": "Pilots use climb graphs to determine climb performance by considering variables such as altitude, temperature, and aircraft mass. Accurate reading of the graph is essential for reliable results."
+    },
+    {
+      "title": "True Airspeed Consideration",
+      "content": "When using climb data, true airspeed must be considered, especially when calculating ground distance or obstacle clearance. Conversion from indicated airspeed may be required using navigation tools."
+    },
+    {
+      "title": "Applications of Climb Data",
+      "content": "Climb graphs are mainly used to calculate time to climb to a desired altitude and to determine climb gradients. They can also be used to estimate ground distance covered during climb."
+    },
+    {
+      "title": "Effect of Wind on Climb",
+      "content": "Wind affects ground-based calculations such as obstacle clearance and horizontal distance. Climb gradients derived from graphs must be adjusted for wind when calculating ground performance."
+    },
+    {
+      "title": "Air Gradient vs Ground Gradient",
+      "content": "Air gradient represents climb relative to the air mass, while ground gradient represents climb relative to the ground. Wind influences the ground gradient but not the air gradient."
+    },
+    {
+      "title": "Maximum Permissible Mass (WAT Limit)",
+      "content": "Climb performance can be used to determine the maximum allowable aircraft mass for a required climb gradient. This limit is often referred to as the WAT (Weight, Altitude, Temperature) limit."
+    },
+    {
+      "title": "Climb Distance Calculations",
+      "content": "Climb data can also be used to calculate the horizontal distance required to reach a specific altitude, which is important for terrain and obstacle planning."
+    },
+    {
+      "title": "Practical Use of Examples",
+      "content": "Practice examples in performance manuals help pilots understand how to calculate climb gradients, determine maximum mass limits, and estimate climb distances using graphical data."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 9 - Single-engine Class B - En Route and Descent",
+  "sub_modules": [
+    {
+      "title": "En Route Phase Definition",
+      "content": "The en route phase of flight is defined as the portion between approximately 1500 ft above the departure aerodrome and 1000 ft above the destination aerodrome."
+    },
+    {
+      "title": "En Route Safety Requirement",
+      "content": "Operators must ensure that, under expected weather conditions and in the event of engine failure, the aircraft can reach a location where a safe forced landing can be made."
+    },
+    {
+      "title": "Forced Landing Planning",
+      "content": "To comply with regulations, pilots must identify suitable landing areas along the route and ensure that the aircraft remains within gliding distance of these locations at all times."
+    },
+    {
+      "title": "Factors Affecting Glide Range",
+      "content": "The distance an aircraft can glide after engine failure depends mainly on the cruising altitude and the descent gradient of the aircraft."
+    },
+    {
+      "title": "Descent Range Calculation",
+      "content": "The horizontal glide distance can be calculated by dividing the aircraft's height above ground by the descent gradient and multiplying by 100. This gives the approximate range the aircraft can travel during a glide."
+    },
+    {
+      "title": "Route Planning Using Glide Range",
+      "content": "Pilots must ensure that the flight path always remains within the calculated glide range of safe landing areas. This is often visualized by drawing circles around landing sites and ensuring the route remains within these areas."
+    },
+    {
+      "title": "Effect of Altitude on Glide Range",
+      "content": "Higher cruising altitudes increase glide distance, allowing for more direct routing and greater flexibility in maintaining safe landing options."
+    },
+    {
+      "title": "Altitude Limitation Rule",
+      "content": "When planning glide performance, the aircraft must not be assumed to operate above the altitude where it can maintain a climb rate of at least 300 ft per minute. This limits the altitude used in calculations."
+    },
+    {
+      "title": "Net Descent Gradient",
+      "content": "For planning purposes, the descent gradient must be increased by 0.5% above the actual value. This adjusted value is called the net gradient and accounts for performance uncertainty."
+    },
+    {
+      "title": "Effect of Net Gradient",
+      "content": "Using the net gradient reduces the calculated glide range, ensuring a conservative estimate of performance and improving safety margins."
+    },
+    {
+      "title": "Route Adjustment for Safety",
+      "content": "When using the reduced glide range based on net gradient, flight paths may need to be adjusted to ensure the aircraft always remains within safe landing distance."
+    },
+    {
+      "title": "Regulatory References",
+      "content": "Relevant regulations are distributed throughout operational manuals. Key requirements include maintaining glide range to landing areas, altitude limitations, and use of net descent gradients."
+    },
+    {
+      "title": "Range and Endurance Concepts",
+      "content": "Pilots must understand and apply range and endurance concepts using performance data from aircraft manuals to ensure efficient and safe flight planning."
+    },
+    {
+      "title": "Endurance Graph Usage",
+      "content": "Endurance graphs are used to determine how long an aircraft can remain airborne under specific conditions such as altitude, temperature, and power settings."
+    },
+    {
+      "title": "Range Graph Usage",
+      "content": "Range graphs provide the distance an aircraft can travel under given conditions, helping pilots plan routes effectively."
+    },
+    {
+      "title": "Importance of Engine Management",
+      "content": "Accurate performance calculations depend on proper engine handling, including correct mixture settings, to achieve expected range and endurance values."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 10 - Single-engine Class B - Landing",
+  "sub_modules": [
+    {
+      "title": "Landing Requirement Overview",
+      "content": "The primary requirement for single-engine Class B aircraft is that the landing distance must not exceed the available runway length. The aircraft must be able to come to a complete stop within the runway limits."
+    },
+    {
+      "title": "70% Landing Rule",
+      "content": "Regulations require that the aircraft must be able to land within 70% of the landing distance available. This introduces a safety margin, meaning calculated landing distance must be significantly less than total runway length."
+    },
+    {
+      "title": "Landing Safety Factor",
+      "content": "A factor of 1.43 is applied when converting between landing distance and required runway length. This accounts for performance uncertainty and ensures safe operations."
+    },
+    {
+      "title": "Net vs Gross Landing Distance",
+      "content": "Gross landing distance is the calculated value under ideal conditions, while net landing distance includes safety margins and represents the actual required runway length."
+    },
+    {
+      "title": "Landing Performance Adjustments",
+      "content": "To meet landing requirements, pilots may need to reduce aircraft mass or adjust flap settings if the calculated landing distance exceeds allowable limits."
+    },
+    {
+      "title": "Factors Affecting Landing Distance",
+      "content": "Landing calculations must consider pressure altitude, temperature, runway surface type, runway slope, and wind components, with regulatory limits applied."
+    },
+    {
+      "title": "Wind Considerations",
+      "content": "Landing calculations use no more than 50% of headwind and at least 150% of tailwind components to ensure conservative performance estimates."
+    },
+    {
+      "title": "Grass Runway Correction",
+      "content": "Landing on grass surfaces increases landing distance. A correction factor of 1.15 is applied, increasing the required distance by 15%."
+    },
+    {
+      "title": "Wet Runway Correction",
+      "content": "Wet runway conditions also increase landing distance by approximately 15%. Manufacturer data may be used if it provides more accurate values."
+    },
+    {
+      "title": "Runway Slope Effect",
+      "content": "No reduction is allowed for upslope as it improves performance. Downslope increases landing distance by approximately 5% per 1% slope."
+    },
+    {
+      "title": "Despatch Rules Overview",
+      "content": "Despatch rules ensure that the aircraft can safely land at the destination under expected and worst-case conditions, considering both still air and forecast wind scenarios."
+    },
+    {
+      "title": "Still Air Assumption",
+      "content": "The aircraft must be capable of landing on the most favorable runway assuming zero wind conditions."
+    },
+    {
+      "title": "Forecast Wind Assumption",
+      "content": "The aircraft must also be capable of landing on the most likely runway based on forecast wind conditions."
+    },
+    {
+      "title": "Determining Despatch Mass",
+      "content": "The allowable landing mass is determined by comparing the maximum landing mass under still air and forecast wind conditions, selecting the lower value to ensure safety."
+    },
+    {
+      "title": "Special Case - Tailwind Runways",
+      "content": "On unidirectional runways, tailwind conditions may become the limiting factor, reducing allowable landing mass below still air values."
+    },
+    {
+      "title": "Reference Landing Speed (VREF)",
+      "content": "VREF must be at least 1.3 times the stall speed in landing configuration. Maintaining this speed is essential because performance data is based on it."
+    },
+    {
+      "title": "Landing Performance Graphs",
+      "content": "Landing distance is determined using graphs in the aircraft manual, which account for variables such as altitude, temperature, mass, and wind."
+    },
+    {
+      "title": "Graph Interpretation",
+      "content": "Performance graphs typically include sections for environmental conditions, aircraft mass, wind corrections, and obstacle clearance. Accurate use of these graphs is essential for reliable calculations."
+    },
+    {
+      "title": "Importance of Corrections",
+      "content": "Graphs usually assume ideal conditions such as dry, level, paved runways. Corrections must be applied for any deviations to ensure accurate landing distance calculations."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 11 - Multi-engine Class B - Take-off",
+  "sub_modules": [
+    {
+      "title": "Overview of Multi-engine Class B Take-off",
+      "content": "Multi-engine Class B aircraft follow the same basic take-off requirements as single-engine aircraft but must additionally meet climb performance and obstacle clearance requirements."
+    },
+    {
+      "title": "Climb Gradient Requirements",
+      "content": "Three climb conditions must be satisfied, and the most limiting determines the maximum allowable take-off mass."
+    },
+    {
+      "title": "All Engines Operating Gradient",
+      "content": "A minimum climb gradient of 4% is required with all engines operating, take-off power applied, flaps in take-off position, and climb speed not less than the greater of 1.1 VMC or 1.2 VS1."
+    },
+    {
+      "title": "One Engine Inoperative (Low Altitude)",
+      "content": "At 400 ft above the runway, the aircraft must demonstrate a positive climb gradient with one engine inoperative, gear retracted, and remaining engine at take-off power."
+    },
+    {
+      "title": "One Engine Inoperative (Higher Altitude)",
+      "content": "At 1500 ft, the climb gradient must be at least 0.75% with one engine inoperative, flaps and gear retracted, and engine operating at maximum continuous power."
+    },
+    {
+      "title": "Field Length Requirement",
+      "content": "The take-off distance requirements are identical to single-engine Class B aircraft, ensuring that the take-off can be completed within available runway distances."
+    },
+    {
+      "title": "Take-off Distance Factors",
+      "content": "Take-off calculations must consider aircraft mass, altitude, temperature, runway surface condition, runway slope, and wind components with regulatory limits applied."
+    },
+    {
+      "title": "Runway Surface Corrections",
+      "content": "Dry grass increases take-off distance by 20%, wet grass by 30%, while wet paved surfaces generally require no adjustment."
+    },
+    {
+      "title": "Runway Slope Effect",
+      "content": "An upslope increases take-off distance by approximately 5% per 1% slope. No correction is applied for downslope to maintain safety margins."
+    },
+    {
+      "title": "Take-off Performance Data",
+      "content": "Performance data is presented in graphs, including normal and maximum effort take-off charts. These graphs must be used carefully with corrections applied where necessary."
+    },
+    {
+      "title": "Accelerate-stop Distance",
+      "content": "Accelerate-stop distance is generally not required for non-commuter aircraft, though data may be provided. It represents the distance required to accelerate, recognize engine failure, and stop safely."
+    },
+    {
+      "title": "Take-off Speeds",
+      "content": "Rotation speed (VR) must be at least 1.05 VMC and 1.1 VS1. The take-off safety speed at 50 ft must be at least 1.1 VMC, 1.2 VS1, or a safe operational speed."
+    },
+    {
+      "title": "Obstacle Clearance Requirement",
+      "content": "Aircraft must demonstrate the ability to clear obstacles up to 1500 ft above the runway with specified safety margins, either vertically or horizontally."
+    },
+    {
+      "title": "Obstacle Clearance Margins",
+      "content": "Obstacles must be cleared by at least 50 ft vertically or by a specified horizontal distance that increases with distance from the runway."
+    },
+    {
+      "title": "Flight Path Assumptions",
+      "content": "The climb path begins at 50 ft and continues to 1500 ft. Bank angles are limited, and engine failure is assumed at the point where visual reference is lost."
+    },
+    {
+      "title": "Gradient Adjustments",
+      "content": "All-engine climb gradient is reduced by a factor (typically 0.77) to obtain a conservative net gradient for calculations."
+    },
+    {
+      "title": "Flight Path Construction (Clear Conditions)",
+      "content": "If visual conditions allow, the climb path is calculated using all-engine gradient up to 1500 ft, and obstacle clearance is assessed along this path."
+    },
+    {
+      "title": "Flight Path Construction (Cloud Conditions)",
+      "content": "If visual reference is lost before 1500 ft, the climb is divided into two segments: all engines to cloud base, and one engine inoperative above it."
+    },
+    {
+      "title": "Obstacle Clearance Evaluation",
+      "content": "If obstacles are not cleared, take-off mass must be reduced and calculations repeated until safe clearance is achieved."
+    },
+    {
+      "title": "Gradient and Distance Calculations",
+      "content": "Climb gradient can be derived from rate of climb and ground speed, and used to calculate distance or time required to reach specific altitudes."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 12 - Multi-engine Class B - En Route and Descent",
+  "sub_modules": [
+    {
+      "title": "En Route Definition",
+      "content": "The en route phase extends from 1500 ft above the departure airfield to 1000 ft above the destination airfield."
+    },
+    {
+      "title": "En Route Performance Requirement",
+      "content": "The aircraft must be capable, in expected weather conditions and with one engine inoperative, of continuing flight at safe altitudes and reaching an aerodrome where a landing can be made."
+    },
+    {
+      "title": "Single vs Multi-engine Difference",
+      "content": "Unlike single-engine aircraft that must glide to a landing area, multi-engine aircraft must be able to continue flight after engine failure and reach a suitable airfield."
+    },
+    {
+      "title": "Planning Requirement",
+      "content": "Flight planning must ensure that an aerodrome is always within reach based on the aircraft’s single-engine performance following engine failure."
+    },
+    {
+      "title": "Altitude Limitation Rule",
+      "content": "The aircraft must not be assumed to operate above the altitude where the climb rate falls to 300 ft per minute when calculating performance."
+    },
+    {
+      "title": "Net Gradient Adjustment",
+      "content": "The gross gradient must be adjusted by 0.5% to create a net gradient, reducing assumed performance and adding a safety margin."
+    },
+    {
+      "title": "Drift Down Concept",
+      "content": "After engine failure, the aircraft cannot maintain level flight and begins descending. As it descends, increasing air density improves engine performance until level flight can be re-established."
+    },
+    {
+      "title": "Forces During Drift Down",
+      "content": "Engine failure creates excess drag, causing deceleration. To maintain speed, the aircraft lowers its nose, using weight to provide forward force, resulting in descent."
+    },
+    {
+      "title": "Changing Descent Gradient",
+      "content": "As altitude decreases, air density increases, improving thrust from the remaining engine and reducing descent angle until level flight becomes possible."
+    },
+    {
+      "title": "Drift Down Profile",
+      "content": "The descent path following engine failure is not constant but gradually shallows until the aircraft reaches an altitude where level flight can be maintained."
+    },
+    {
+      "title": "Segmented Calculation Method",
+      "content": "The drift down profile is divided into smaller segments, each with its own descent gradient and altitude change, to calculate total descent range accurately."
+    },
+    {
+      "title": "Descent Range Calculation",
+      "content": "For each segment, horizontal distance is calculated using the descent gradient and height loss. Total descent range is obtained by summing all segment distances."
+    },
+    {
+      "title": "One Engine Cruise Range",
+      "content": "After reaching the level-off altitude, the aircraft continues in cruise with one engine inoperative, and this additional range must be included in total range calculations."
+    },
+    {
+      "title": "Total Range After Engine Failure",
+      "content": "The total distance the aircraft can travel after engine failure is the sum of drift down descent range and single-engine cruise range."
+    },
+    {
+      "title": "Flight Planning with Circles",
+      "content": "Circles representing the maximum range after engine failure are drawn around available airfields. The flight path must remain within these circles at all times."
+    },
+    {
+      "title": "Compliance with Regulations",
+      "content": "To comply with regulations, the aircraft must always be within range of an airfield where a safe landing can be made after engine failure."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 13 - Multi-engine Class B - Landing",
+  "sub_modules": [
+    {
+      "title": "Overview of Landing Requirements",
+      "content": "Multi-engine Class B aircraft must satisfy two main requirements: the landing distance must be within runway limits, and the aircraft must be capable of climbing away if landing cannot be completed."
+    },
+    {
+      "title": "Landing Distance Requirement",
+      "content": "The aircraft must be able to land and stop within the available runway length, ensuring safe landing performance."
+    },
+    {
+      "title": "Landing Climb Requirement",
+      "content": "If a landing is aborted, the aircraft must be capable of climbing safely away from the runway under defined conditions."
+    },
+    {
+      "title": "All Engines Operating Climb Requirement",
+      "content": "A minimum climb gradient of 2.5% is required during a go-around with all engines operating, landing configuration maintained, and climb speed equal to VREF."
+    },
+    {
+      "title": "Go-around Configuration",
+      "content": "During an all-engine go-around, the aircraft is assumed to have landing gear extended and flaps in landing configuration to reflect worst-case conditions."
+    },
+    {
+      "title": "One Engine Inoperative Climb Requirement",
+      "content": "With one engine inoperative, the aircraft must achieve a minimum climb gradient of 0.75% at 1500 ft, using a clean configuration and maximum continuous power."
+    },
+    {
+      "title": "Configuration for Engine Failure",
+      "content": "In one engine inoperative conditions, the landing gear and flaps are retracted to reduce drag and improve climb performance."
+    },
+    {
+      "title": "Landing Climb Limit Mass",
+      "content": "The maximum aircraft mass at which required climb gradients can still be achieved is known as the landing climb limit mass."
+    },
+    {
+      "title": "Climb Gradient vs Rate of Climb",
+      "content": "Performance graphs often provide rate of climb, which must be converted into climb gradient to verify compliance with minimum requirements."
+    },
+    {
+      "title": "Landing Distance Rule (70% Rule)",
+      "content": "The aircraft must be able to land within 70% of the landing distance available, ensuring a safety margin."
+    },
+    {
+      "title": "Landing Safety Factor",
+      "content": "A factor of 1.43 is used when converting landing distance to required runway length, accounting for safety margins."
+    },
+    {
+      "title": "Factors Affecting Landing Distance",
+      "content": "Landing performance calculations must consider altitude, temperature, runway surface condition, slope, wind, and despatch rules."
+    },
+    {
+      "title": "Wind Considerations",
+      "content": "Calculations use up to 50% of headwind and at least 150% of tailwind to ensure conservative estimates."
+    },
+    {
+      "title": "Grass Runway Effect",
+      "content": "Landing distance increases by approximately 15% on grass surfaces, requiring application of correction factors."
+    },
+    {
+      "title": "Wet Runway Effect",
+      "content": "Wet runway conditions also increase landing distance by about 15%, unless more accurate manufacturer data is available."
+    },
+    {
+      "title": "Runway Slope Effect",
+      "content": "Downslope increases landing distance by about 5% per 1% slope, while upslope is not considered to maintain safety margins."
+    },
+    {
+      "title": "Despatch Rules",
+      "content": "Flight planning must consider both still air and forecast wind conditions, ensuring the aircraft can land safely under all expected scenarios."
+    },
+    {
+      "title": "Runway Selection Strategy",
+      "content": "The allowable landing mass is determined by comparing still air and forecast wind conditions, selecting the more restrictive value."
+    },
+    {
+      "title": "Reference Landing Speed (VREF)",
+      "content": "VREF must be at least 1.3 times stall speed and above minimum control speed to ensure safe handling during landing."
+    },
+    {
+      "title": "Landing Performance Graphs",
+      "content": "Landing distance is calculated using performance graphs that incorporate environmental conditions, aircraft mass, wind, and obstacle height."
+    },
+    {
+      "title": "Graph Interpretation",
+      "content": "Graphs typically include sections for altitude and temperature, mass, wind correction, and obstacle clearance, requiring careful interpretation."
+    },
+    {
+      "title": "Importance of Corrections",
+      "content": "Performance graphs assume ideal runway conditions, so corrections must be applied for non-standard conditions to ensure accurate results."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 14 - Class A Aircraft - Take-off",
+  "sub_modules": [
+    {
+      "title": "Introduction to Class A Aircraft",
+      "content": "Class A aircraft include multi-engine jets and large turboprops. They operate under strict safety standards due to high passenger capacity and speed, with engine failure considered at all stages of flight."
+    },
+    {
+      "title": "Regulatory Framework",
+      "content": "Performance is governed by certification rules (CS-25) and operational rules (EU-OPS), ensuring safe take-off under all conditions including engine failure."
+    },
+    {
+      "title": "Take-off Mass Limitation",
+      "content": "The maximum take-off mass must not exceed limits imposed by runway distances, climb performance, obstacle clearance, brake energy, tyre limits, runway strength, and structural limits."
+    },
+    {
+      "title": "Field Limit Mass",
+      "content": "The maximum mass at which the aircraft can safely take off within available runway distances including take-off run, take-off distance, and accelerate-stop distance."
+    },
+    {
+      "title": "Climb Limit Mass",
+      "content": "The maximum mass at which the aircraft can achieve required climb gradients, often referred to as WAT (Weight Altitude Temperature) limit."
+    },
+    {
+      "title": "Obstacle Limit Mass",
+      "content": "The maximum mass that ensures safe clearance of obstacles during take-off climb."
+    },
+    {
+      "title": "Brake Energy Limit (VMBE)",
+      "content": "Defines the maximum speed at which a rejected take-off can occur without exceeding brake energy limits."
+    },
+    {
+      "title": "Tyre Speed Limit Mass",
+      "content": "Limits aircraft mass based on maximum tyre speed capability at lift-off to prevent tyre failure."
+    },
+    {
+      "title": "Runway Strength Limitation",
+      "content": "Aircraft operation depends on pavement strength, ensuring ACN does not exceed PCN for safe operations."
+    },
+    {
+      "title": "Net Take-off Run Required",
+      "content": "Calculated using different scenarios including all engines operating and engine failure, with safety factors applied to determine certified take-off run."
+    },
+    {
+      "title": "Accelerate-Stop Distance",
+      "content": "Distance required to accelerate to decision speed and safely stop after rejecting take-off, including reaction time allowance."
+    },
+    {
+      "title": "Take-off Distance Required",
+      "content": "Distance needed to reach a defined height after take-off, considering both normal and engine failure scenarios."
+    },
+    {
+      "title": "VMCG (Minimum Control Speed Ground)",
+      "content": "Minimum speed on ground at which aircraft remains controllable after engine failure using rudder only."
+    },
+    {
+      "title": "VEF (Engine Failure Speed)",
+      "content": "The speed at which engine failure is assumed to occur during performance calculations."
+    },
+    {
+      "title": "V1 (Decision Speed)",
+      "content": "Critical speed where the pilot decides to continue or abort take-off. Below V1 stop, above V1 continue."
+    },
+    {
+      "title": "Balanced Field Concept",
+      "content": "Occurs when accelerate-stop distance equals take-off distance, giving optimal runway usage."
+    },
+    {
+      "title": "Unbalanced Field",
+      "content": "Occurs when V1 is limited by VMCG, VMBE or VR, leading to unequal take-off and stopping distances."
+    },
+    {
+      "title": "Factors Affecting V1",
+      "content": "V1 is influenced by aircraft mass, flap configuration, air density, runway slope, and wind conditions."
+    },
+    {
+      "title": "VMU (Minimum Unstick Speed)",
+      "content": "Lowest speed at which aircraft can lift off, though not used operationally due to safety margins."
+    },
+    {
+      "title": "VMCA (Minimum Control Speed Air)",
+      "content": "Minimum speed in air at which aircraft remains controllable after engine failure."
+    },
+    {
+      "title": "VR (Rotation Speed)",
+      "content": "Speed at which pilot initiates rotation to lift off, ensuring safe climb performance."
+    },
+    {
+      "title": "VLOF (Lift-off Speed)",
+      "content": "Actual speed at which aircraft leaves the ground, always higher than VMU."
+    },
+    {
+      "title": "V2 (Take-off Safety Speed)",
+      "content": "Minimum safe speed after take-off ensuring climb performance and control with one engine inoperative."
+    },
+    {
+      "title": "V3 Speed",
+      "content": "Steady climb speed with all engines operating after take-off."
+    },
+    {
+      "title": "Relationship Between Speeds",
+      "content": "V1 must lie between VMCG and VMBE and must not exceed VR, ensuring both controllability and stopping capability."
+    },
+    {
+      "title": "Effects of Rotation Errors",
+      "content": "Early or excessive rotation increases drag and take-off distance, potentially reducing performance."
+    },
+    {
+      "title": "Balanced Field Length",
+      "content": "The runway length where both stopping and continuing take-off are equally safe."
+    },
+    {
+      "title": "Performance Limited Mass",
+      "content": "The lowest mass determined from all limiting factors including field, climb, tyre, and brake limits."
+    },
+    {
+      "title": "Regulated Take-off Mass",
+      "content": "The final allowable take-off mass after comparing performance limits with structural limits."
+    },
+    {
+      "title": "Take-off Speed Calculation",
+      "content": "Speeds V1, VR, and V2 are determined from performance tables based on mass, density, configuration, and environmental conditions."
+    },
+    {
+      "title": "Thrust Settings",
+      "content": "Engine thrust settings are selected based on performance data to ensure safe and efficient take-off."
+    },
+    {
+      "title": "Brake Cooling Consideration",
+      "content": "Brakes must be sufficiently cooled before take-off to ensure adequate stopping capability if required."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 15 - Class A Aircraft - Additional Take-off Procedures",
+  "sub_modules": [
+    {
+      "title": "Overview of Additional Procedures",
+      "content": "Non-standard take-off procedures address special conditions such as contaminated runways, improved climb performance, reduced thrust operations, and system failures."
+    },
+    {
+      "title": "Contaminated Runway Definition",
+      "content": "A runway is contaminated when more than 25% of its surface is covered with water, slush, or snow exceeding 3 mm depth."
+    },
+    {
+      "title": "Effects of Contamination",
+      "content": "Contamination increases drag and reduces braking effectiveness, resulting in increased take-off and stopping distances."
+    },
+    {
+      "title": "Impact on Performance",
+      "content": "Maximum take-off mass and V1 are reduced on contaminated runways, with greater reductions as contamination depth increases."
+    },
+    {
+      "title": "Hydroplaning Concept",
+      "content": "Hydroplaning occurs when water prevents tyre contact with the runway, reducing braking effectiveness and control."
+    },
+    {
+      "title": "Contaminated Runway Procedure",
+      "content": "Take-off mass is reduced from normal limits, corrections are applied using performance tables, and V1 is adjusted while ensuring it remains above VMCG."
+    },
+    {
+      "title": "Increased V2 Procedure Purpose",
+      "content": "Used when climb performance limits take-off mass, aiming to improve climb capability by increasing take-off speed."
+    },
+    {
+      "title": "Improved Climb Principle",
+      "content": "By using more runway to accelerate to a higher speed, V2 moves closer to best climb angle speed, improving climb gradient."
+    },
+    {
+      "title": "Effect on Take-off Mass",
+      "content": "Improved climb performance allows an increase in climb-limited mass, increasing allowable take-off weight."
+    },
+    {
+      "title": "Speed Adjustments in Increased V2",
+      "content": "V1, VR, and V2 are increased based on performance graphs, while ensuring compliance with VMBE limits."
+    },
+    {
+      "title": "Reduced Thrust Take-off Purpose",
+      "content": "Used to reduce engine wear and noise when runway length and performance margins allow."
+    },
+    {
+      "title": "Assumed Temperature Method",
+      "content": "Thrust is reduced by assuming a higher temperature, which lowers engine output during take-off."
+    },
+    {
+      "title": "Conditions for Reduced Thrust",
+      "content": "Reduced thrust is not permitted on contaminated or slippery runways, or when critical systems are inoperative."
+    },
+    {
+      "title": "De-rated Thrust Concept",
+      "content": "A fixed reduction in engine thrust, allowing lower control speeds and potentially improving performance under some conditions."
+    },
+    {
+      "title": "Anti-skid System Role",
+      "content": "Anti-skid prevents wheel locking during braking, ensuring effective stopping performance."
+    },
+    {
+      "title": "Effect of Anti-skid Failure",
+      "content": "Without anti-skid, braking performance is reduced, increasing accelerate-stop distance."
+    },
+    {
+      "title": "Anti-skid Inoperative Procedure",
+      "content": "To compensate, V1 is reduced and aircraft mass is lowered to ensure stopping capability within available runway."
+    },
+    {
+      "title": "Trade-off in Anti-skid Procedure",
+      "content": "Reducing V1 improves stopping performance but increases take-off distance, requiring weight reduction to balance both."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 16 - Class A - Take-off Climb",
+  "sub_modules": [
+    {
+      "title": "Take-off Climb Definition",
+      "content": "The take-off climb extends from 35 ft to 1500 ft above the runway, or from 15 ft in contaminated runway conditions."
+    },
+    {
+      "title": "Reference Zero",
+      "content": "The point on the ground directly below the 35 ft screen height is known as reference zero and is used as a starting point for calculations."
+    },
+    {
+      "title": "Primary Requirements",
+      "content": "The aircraft must achieve minimum climb gradients and ensure obstacle clearance after engine failure."
+    },
+    {
+      "title": "Segmented Climb Concept",
+      "content": "The take-off climb is divided into four segments to simplify performance assessment and pilot procedures."
+    },
+    {
+      "title": "Segment 1",
+      "content": "From 35 ft to gear retraction. Aircraft climbs at V2 with gear extended initially, then retracts gear. Minimum requirement is a positive climb gradient."
+    },
+    {
+      "title": "Segment 2",
+      "content": "From gear up to 400 ft. Aircraft maintains V2 and climbs without flap retraction. Minimum gradient is 2.4% for twin-engine aircraft."
+    },
+    {
+      "title": "Segment 3",
+      "content": "From 400 ft to flap retraction completion. Aircraft accelerates, retracts flaps, and transitions to final climb speed. No strict gradient requirement but must achieve acceleration."
+    },
+    {
+      "title": "Segment 4",
+      "content": "From clean configuration to 1500 ft. Aircraft climbs at final segment speed with minimum gradient of 1.2%."
+    },
+    {
+      "title": "Climb Limit Mass",
+      "content": "The maximum mass at which the aircraft can achieve the most demanding climb gradient requirement, typically segment 2."
+    },
+    {
+      "title": "Most Critical Gradient",
+      "content": "Segment 2 has the highest climb gradient requirement (2.4%), making it the limiting factor for climb performance."
+    },
+    {
+      "title": "Obstacle Clearance Requirement",
+      "content": "The net take-off flight path must clear obstacles by at least 35 ft vertically."
+    },
+    {
+      "title": "Horizontal Clearance",
+      "content": "If vertical clearance is not possible, obstacles must be cleared horizontally using defined distance margins."
+    },
+    {
+      "title": "Net vs Gross Gradient",
+      "content": "Obstacle clearance uses net gradient, which is the gross gradient reduced by safety margins."
+    },
+    {
+      "title": "Gradient Reduction Factors",
+      "content": "Net gradient is reduced from gross by 0.8% for twin-engine, 0.9% for three-engine, and 1.0% for four-engine aircraft."
+    },
+    {
+      "title": "Wind Effect on Climb",
+      "content": "Ground gradient is affected by wind, using 50% of headwind and 150% of tailwind for calculations."
+    },
+    {
+      "title": "Turning During Climb",
+      "content": "Turns reduce climb performance due to increased load factor and must be limited during early climb."
+    },
+    {
+      "title": "Turn Restrictions",
+      "content": "No turns below 50 ft, maximum 15° bank below 400 ft, and maximum 25° bank above 400 ft."
+    },
+    {
+      "title": "Turn Penalties",
+      "content": "Higher bank angles require speed increases and result in reduced climb gradient."
+    },
+    {
+      "title": "Obstacle Limit Mass",
+      "content": "The maximum mass at which the aircraft can clear obstacles safely during take-off climb."
+    },
+    {
+      "title": "Noise Abatement Procedures",
+      "content": "Procedures designed to reduce noise impact while maintaining safety during climb."
+    },
+    {
+      "title": "NADP 1",
+      "content": "Delays acceleration and flap retraction to reduce noise near the airport, maintaining lower speeds for longer."
+    },
+    {
+      "title": "NADP 2",
+      "content": "Initiates earlier acceleration and flap retraction to reduce noise further away from the airport."
+    }
+  ]
+}
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 17 - Class A - En Route",
+  "sub_modules": [
+    {
+      "title": "En Route Phase Definition",
+      "content": "The en route phase begins at 1500 ft after departure and ends at 1500 ft before destination, with performance requirements accounting for engine failure."
+    },
+    {
+      "title": "Climb Schedule",
+      "content": "Aircraft initially climbs at constant IAS, then transitions to constant Mach number at crossover altitude."
+    },
+    {
+      "title": "Crossover Altitude",
+      "content": "The altitude where climb changes from constant IAS to constant Mach, decreasing when IAS is increased."
+    },
+    {
+      "title": "Speed Restrictions",
+      "content": "Below 10000 ft, speed is limited to 250 knots, after which higher climb speeds are used."
+    },
+    {
+      "title": "Maximum Operating Speed",
+      "content": "Defined as VMO/MMO, beyond which structural damage or high-speed stall may occur."
+    },
+    {
+      "title": "Maximum Range Cruise (MRC)",
+      "content": "Speed that provides maximum fuel efficiency for a given distance."
+    },
+    {
+      "title": "Long Range Cruise (LRC)",
+      "content": "Slightly faster than MRC, trading small fuel increase for reduced flight time."
+    },
+    {
+      "title": "Cost Index Concept",
+      "content": "Balances time-related costs and fuel costs to determine the most economical speed (ECON)."
+    },
+    {
+      "title": "ECON Speed",
+      "content": "The speed that minimizes total operating cost based on cost index."
+    },
+    {
+      "title": "Cruise Altitude Selection",
+      "content": "Aircraft aims to fly near optimum altitude for maximum efficiency."
+    },
+    {
+      "title": "Optimum Altitude",
+      "content": "Altitude providing best fuel efficiency, increasing as aircraft weight decreases."
+    },
+    {
+      "title": "Step Climb",
+      "content": "Aircraft climbs in stages to remain close to optimum altitude due to ATC constraints."
+    },
+    {
+      "title": "Maximum Altitude",
+      "content": "Highest altitude where available thrust equals required thrust."
+    },
+    {
+      "title": "Aerodynamic Ceiling",
+      "content": "Altitude where low-speed and high-speed buffet limits converge, making further flight impossible."
+    },
+    {
+      "title": "Manoeuvre Ceiling",
+      "content": "Operational ceiling below aerodynamic ceiling allowing safe manoeuvring."
+    },
+    {
+      "title": "Buffet Limits",
+      "content": "Low-speed buffet increases with altitude while high-speed buffet decreases, narrowing safe speed range."
+    },
+    {
+      "title": "Normal Descent",
+      "content": "Descent profile is reverse of climb, transitioning from Mach to IAS with speed restrictions below 10000 ft."
+    },
+    {
+      "title": "Expedited Descent",
+      "content": "Achieved using speed brakes to increase drag and descent rate."
+    },
+    {
+      "title": "Depressurization Descent",
+      "content": "Emergency descent to 10000 ft using maximum speed and drag to ensure passenger safety."
+    },
+    {
+      "title": "Engine Failure Drift Down",
+      "content": "Aircraft descends to altitude where remaining engine thrust equals drag, maintaining VMD."
+    },
+    {
+      "title": "Net Flight Path Concept",
+      "content": "Performance calculations use reduced (net) gradients to ensure safety margins."
+    },
+    {
+      "title": "Obstacle Clearance in En Route",
+      "content": "Aircraft must maintain at least 1000 ft clearance or follow drift down procedure ensuring 2000 ft clearance."
+    },
+    {
+      "title": "Range Limitation",
+      "content": "Aircraft must remain within a specified time range from an alternate airfield in case of engine failure."
+    },
+    {
+      "title": "60 Minute Rule",
+      "content": "Twin-engine aircraft must remain within 60 minutes of a suitable alternate airfield."
+    },
+    {
+      "title": "ETOPS Concept",
+      "content": "Extended range operations allowing twin-engine aircraft to fly further from alternates with approval."
+    },
+    {
+      "title": "ETOPS Benefits",
+      "content": "Enables more direct routes, especially over oceans, improving efficiency."
+    }
+  ]
+}
+
+
+{
+  "book_id": "MAB-001",
+  "book_name": "Mass and Balance",
+  "chapter_name": "Chapter 18 - Class A - Landing",
+  "sub_modules": [
+    {
+      "title": "Maximum Landing Mass",
+      "content": "The maximum landing mass is the lowest of landing climb limit mass, field length limit mass, and structural limit mass."
+    },
+    {
+      "title": "Landing Climb Requirement (All Engines)",
+      "content": "Minimum climb gradient of 3.2% with all engines operating in landing configuration at VREF."
+    },
+    {
+      "title": "VREF Definition",
+      "content": "Reference landing speed not less than VMCL or 1.23VSR0, ensuring controllability and safety."
+    },
+    {
+      "title": "Discontinued Approach Climb (One Engine Inoperative)",
+      "content": "Minimum climb gradient of 2.1% (2 engines), 2.4% (3 engines), 2.7% (4 engines)."
+    },
+    {
+      "title": "Landing Climb Limit Mass",
+      "content": "Determined by the most restrictive climb requirement considering altitude and temperature."
+    },
+    {
+      "title": "Instrument Approach Requirement",
+      "content": "Minimum missed approach gradient of 2.5% or published value for low decision height approaches."
+    },
+    {
+      "title": "Landing Distance Requirement",
+      "content": "Landing distance must not exceed 60% (jets) or 70% (turboprops) of landing distance available."
+    },
+    {
+      "title": "Landing Conditions",
+      "content": "Includes configuration, speed at 50 ft, altitude, temperature, wind factors, and runway slope."
+    },
+    {
+      "title": "Wind Corrections",
+      "content": "Use 50% headwind and 150% tailwind for landing performance calculations."
+    },
+    {
+      "title": "Runway Selection",
+      "content": "Landing performance must be checked for both still air and forecast wind conditions."
+    },
+    {
+      "title": "Despatch Rules",
+      "content": "Aircraft must comply with landing requirements or designate alternate aerodromes."
+    },
+    {
+      "title": "Wet Runway Factor",
+      "content": "Landing distance must be increased by at least 15% for wet runways unless otherwise approved."
+    },
+    {
+      "title": "Graph Usage",
+      "content": "Landing performance is determined using graphs or tables in flight manuals."
+    }
+  ]

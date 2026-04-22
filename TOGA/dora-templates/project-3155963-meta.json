@@ -1,0 +1,86 @@
+{
+  "data": {
+    "item": [
+      {
+        "hide": true,
+        "name": "User",
+        "id": 1001,
+        "publicWrite": false,
+        "type": "user",
+        "publicRead": false,
+        "nameInCode": "User"
+      },
+      {
+        "hide": false,
+        "name": "Entity",
+        "id": 1002,
+        "publicWrite": true,
+        "publicRead": true,
+        "nameInCode": "Entity"
+      }
+    ],
+    "field": [
+      {
+        "type": "int",
+        "required": false,
+        "nameInCode": "id",
+        "itemId": 1001,
+        "unique": false,
+        "name": "id",
+        "id": 1001,
+        "released": true
+      },
+      {
+        "type": "char",
+        "required": false,
+        "nameInCode": "username",
+        "itemId": 1001,
+        "unique": true,
+        "name": "账号名",
+        "id": 1002,
+        "released": true
+      },
+      {
+        "type": "char",
+        "required": false,
+        "nameInCode": "password",
+        "itemId": 1001,
+        "unique": false,
+        "name": "密码",
+        "id": 1003,
+        "released": true
+      },
+      {
+        "type": "char",
+        "required": false,
+        "nameInCode": "token",
+        "itemId": 1001,
+        "unique": false,
+        "name": "token",
+        "id": 1004,
+        "released": true
+      },
+      {
+        "type": "int",
+        "required": false,
+        "nameInCode": "id",
+        "itemId": 1002,
+        "unique": false,
+        "name": "id",
+        "id": 1007,
+        "released": true
+      },
+      {
+        "type": "char",
+        "required": false,
+        "nameInCode": "title",
+        "itemId": 1002,
+        "unique": false,
+        "name": "title",
+        "id": 1008,
+        "released": true
+      }
+    ]
+  },
+  "ok": true
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "book_id": "WB-001",
+    "book_name": "Aircraft Weight and Balance Handbook",
+    "chapter": "Chapter 1",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "There are many factors in the safe and efficient operation of\naircraft, including proper weight and balance control. The\nweight and balance system commonly employed among\naircraft consists of three equally important elements: the\nweighing of the aircraft, the maintaining of the weight and\nbalance records, and the proper loading of the aircraft. An\ninaccuracy in any one of these elements defeats the purpose\nof the system. The final loading calculations are meaningless\nif either the aircraft has been improperly weighed or the\nrecords contain an error.\nImproper loading decreases the effic ency and performance of\nan aircraft from the standpoint of altitude, maneuverability,\nrate of climb, and speed. It may even be the cause of failure\nto complete the flight or, for that matter, failure to start the\nflight. Because of abnormal stresses placed upon the structure\nof an improperly loaded aircraft, or because of changed fly ng\ncharacteristics of the aircraft, loss of life and destruction of\nvaluable equipment may result.\n\fAircraft can perform safely and achieve their designed\nefficiency only when they are operated and maintained in the\nway their designers intended. This safety and efficiency is\ndetermined to a large degree by holding the aircraft\u2019s weight\nand balance parameters within the limits specified for its design.\nThe remainder of this handbook describes how this is done.\nResponsibility for Weight and Balance\nControl\nThe responsibility for proper weight and balance control\nbegins with the engineers and designers and extends to the\ntechnicians who maintain the aircraft and the pilots who\noperate them. Modern aircraft are engineered utilizing stateof-the-art technology and materials to achieve maximum\nreliability and performance for the intended category. As\nmuch care and expertise must be exercised in operating\nand maintaining these efficient aircraft as was taken in their\ndesign and manufacturing:\n1.\nThe designers of an aircraft set the maximum weight\nbased on the amount of lift the wings or rotors can\nprovide under the operational conditions for which\nthe aircraft is designed. The structural strength of the\naircraft also limits the maximum weight the aircraft\ncan safely carry. The designers carefully determine\nthe ideal center of gravity (CG) and calculate the\nmaximum allowable deviation from this specific\nlocation.\n2.\nThe manufacturer provides the aircraft operator with\nthe empty weight of the aircraft and the location of its\nempty weight center of gravity (EWCG) at the time\nthe certified aircraft leaves the factory. Amateur-built\naircraft must have this information determined and\navailable at the time of certification\n3.\nThe FAA-certificated mechanic or repairman who\nmaintains the aircraft keeps the weight and balance\nrecords current, recording any changes that have been\nmade because of repairs or alterations.\n4.\nThe pilot in command (PIC) has the responsibility\nprior to every flight to know the maximum allowable\nweight of the aircraft and its CG limits. This allows\nthe pilot to determine during the preflight inspection\nthat the aircraft is loaded so that the CG is within the\nallowable limits."
+      },
+      {
+        "title": "Responsibility for Weight and Balance Control",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Terminology",
+        "content": "Pilots and FAA-certificated mechanics or repairmen must\nensure they understand the terms as they relate to the\naircraft in question. For small aircraft terminology, use\nthe information found in sources associated with Civil\nAir Regulation (CAR) 3 certification or General Aviation\nManufacturers Association (GAMA) Specification No. 1\nfor part 23 aircraft or part 27 for rotorcraft. For terminology\napplied to large part 25 aircraft, information can be found\nin Advisory Circular (AC) 120-27, Aircraft Weight and\nBalance Control. The glossary contains the most current\nterms and defin tions. Current regulations are available from\nthe Superintendent of Documents; U.S. Government Printing\nOffice; Washington, DC 20402. They are also located on the\nFAA website at www.faa.gov. Earlier regulations may be\navailable in libraries or in the Federal Register."
+      },
+      {
+        "title": "Weight Control",
+        "content": "Weight is a major factor in airplane construction and\noperation, and it demands respect from all pilots and\nparticular diligence by all maintenance personnel. Excessive\nweight reduces the efficiency of an aircraft and the available\nsafety margin if an emergency condition should arise.\nWhen an aircraft is designed, it is made as light as the\nrequired structural strength allows, and the wings or rotors are\ndesigned to support the maximum allowable weight. When\nthe weight of an aircraft is increased, the wings or rotors must\nproduce additional lift and the structure must support not\nonly the additional static loads, but also the dynamic loads\nimposed by flight maneuvers. For example, the wings of a\n3,000-pound airplane must support 3,000 pounds in level\nflight, but when the airplane is turned smoothly and sharply\nusing a bank angle of 60\u00b0, the dynamic load requires the\nwings to support twice this or 6,000 pounds.\nSevere uncoordinated maneuvers or flight into turbulence\ncan impose dynamic loads on the structure great enough\nto cause failure. In accordance with Title 14 of the Code\nof Federal Regulations (14 CFR) part 23, the structure of a\nnormal category airplane must be strong enough to sustain\na load factor of 3.8 times its weight. Every pound of weight\nadded to a normal category aircraft requires that the structure\nbe strong enough to support 3.8 pounds. An aircraft operated\nin the utility category must sustain a load factor of 4.4 times\nits weight, and acrobatic category aircraft must be strong\nenough to withstand 6.0 times their weight.\nThe lift produced by a wing is determined by its airfoil shape,\nangle of attack, speed through the air, and air density. When\nan aircraft takes off from an airport with a high density\naltitude, it must accelerate to a speed faster than would be\nrequired at sea level to produce enough lift to allow takeoff;\ntherefore, a longer takeoff run is necessary. The distance\nneeded may be longer than the available runway. When\noperating from a high density altitude airport, the Pilot\u2019s\nOperating Handbook (POH) or Airplane Flight Manual\n(AFM) must be consulted to determine the maximum weight\nallowed for the aircraft under the conditions of altitude,\ntemperature, wind, and runway conditions."
+      },
+      {
+        "title": "Effects of Weight",
+        "content": "Most modern aircraft are so designed that, when all seats\nare occupied, the baggage compartment is full, and all fuel\ntanks are full, the aircraft is grossly overloaded. This type\nof design requires the pilot to give great consideration to\nthe requirements of each specific flight. If maximum range\nis required, occupants or baggage must be left behind, or if\nthe maximum load must be carried, the range, dictated by\nthe amount of fuel on board, must be reduced.\nOverloading an aircraft can create a variety of problems:\n\u2022\nThe aircraft needs a higher takeoff speed, which results\nin a longer takeoff run.\n\u2022\nBoth the rate and angle of climb are reduced.\n\u2022\nThe service ceiling is lowered.\n\u2022\nThe cruising speed is reduced.\n\u2022\nThe cruising range is shortened.\n\u2022\nManeuverability is decreased.\n\u2022\nA longer landing roll is required because the landing\nspeed is higher.\n\u2022\nExcessive loads are imposed on the structure,\nespecially the landing gear.\nThe POH or AFM includes tables or charts that give the pilot\nan indication of the performance expected for any weight.\nAn important part of careful preflight planning includes a\ncheck of these charts to determine if the aircraft is loaded so\nthe proposed flight can be safely made"
+      },
+      {
+        "title": "Weight Changes",
+        "content": "The maximum allowable weight for an aircraft is determined\nby design considerations. However, the maximum operational\nweight may be less than the maximum allowable weight due\nto such considerations as high density altitude or high-drag\nfield conditions caused by wet grass or water on the runway.\nThe maximum operational weight may also be limited by the\ndeparture or arrival airport\u2019s runway length.\nOne important preflight consideration is the distribution\nof the load in the aircraft. Loading the aircraft so the gross\nweight is less than the maximum allowable is not enough.\nThis weight must be distributed to keep the CG within the\nlimits specified in the POH or AFM\nIf the CG is too far forward, a heavy passenger can be moved\nto one of the rear seats or baggage may be shifted from a\nforward baggage compartment to a rear compartment. If the\nCG is too far aft, passenger weight or baggage can be shifted\nforward. The fuel load should be balanced laterally. The pilot\nshould pay special attention to the POH or AFM regarding\nthe operation of the fuel system in order to keep the aircraft\nbalanced in flight\nWeight and balance of a helicopter is far more critical\nthan for an airplane. Some helicopters may be properly\nloaded for takeoff, but near the end of a long flight when\nthe fuel tanks are almost empty, the CG may have shifted\nenough for the helicopter to be out of balance laterally or\nlongitudinally. Before making any long flight, the CG with\nthe fuel available for landing must be checked to ensure it is\nwithin the allowable range.\nAirplanes with tandem seating normally have a limitation\nrequiring solo flight to be made from the front seat in some\nairplanes or the rear seat in others. Some of the smaller\nhelicopters also require solo flight be made from a specific\nseat, either the right, left, or center. These seating limitations\nare noted by a placard, usually on the instrument panel, and\nthey should be strictly followed.\nAs an aircraft ages, its weight usually increases due to debris\nand dirt collecting in hard-to-reach locations and moisture\nabsorbed in the cabin insulation. This increase in weight is\nnormally small, but it can be determined only by accurately\nweighing the aircraft.\nChanges of fixed equipment may have a major effect upon\nthe weight of the aircraft. Many aircraft are overloaded by\nthe installation of extra radios or instruments. Fortunately,\nthe replacement of older, heavy electronic equipment with\nnewer, lighter types results in a weight reduction. This\nweight change, however helpful, can cause the CG to shift,\nwhich must be computed and annotated in the weight and\nbalance record.\nRepairs and alterations are the major sources of weight\nchanges. It is the responsibility of the FAA-certificate\nmechanic or repairman making any repair or alteration to\nknow the weight and location of a change, to compute the\nCG, record the new empty weight and EWCG in the aircraft\nweight and balance record, and update the equipment lists.\nIf the newly calculated EWCG should happen to fall outside\nthe EWCG range, it is necessary to perform an adverseloading check. This requires a forward and rearward\nadverse-loading check and a maximum weight check.\nThese weight and balance extreme conditions represent the\nmaximum forward and rearward CG position for the aircraft.\nAn adverse-loading check is a deliberate attempt to load an\naircraft in a manner that creates the most critical balance\ncondition and still remains within the design CG limits of the\naircraft. If any of the checks fall outside the loaded CG range,\n\fThe FAA-certificated mechanic or repairman conducting an\nannual or condition inspection must ensure the weight and\nbalance data in the aircraft records is current and accurate. It\nis the responsibility of the PIC to use the most current weight\nand balance data when operating the aircraft."
+      },
+      {
+        "title": "Stability and Balance Control",
+        "content": "Balance control refers to the location of the CG of an aircraft.\nThis is of primary importance to aircraft stability, which is a\nfactor in flight safety. The CG is the point at which the total\nweight of the aircraft is assumed to be concentrated, and the\nCG must be located within specific limits for safe flight. Both\nlateral and longitudinal balance are important, but the prime\nconcern is longitudinal balance; that is, the location of the\nCG along the longitudinal or lengthwise axis.\nAn airplane is designed to have stability that allows it to be\ntrimmed to maintain straight-and-level flight with hands off\nthe controls. Longitudinal stability is maintained by ensuring\nthe CG is slightly ahead of the center of lift. This produces a\nfixed nose-down force independent of the airspeed. This is\nbalanced by a variable nose-up force, which is produced by a\ndownward aerodynamic force on the horizontal tail surfaces\nLift\nCG\nCG\nInsufficient elevator\nNose-down force\nCG too far aft\nFigure 1-2. If the CG is too far aft at the low stall airspeed, there\nmight not be enough elevator nose-down authority to get the nose\ndown for recovery.\nand control. If the CG is too far aft, it is too near the center\nof lift; the airplane is unstable and difficult to recover from\na stall. [Figure 1-2] If the unstable airplane should enter a\nspin, the spin could become flat making recovery difficult\nor impossible. If the CG is too far forward, the downward\ntail load needs to be increased to maintain level flight. This\nincreased tail load has the same effect as carrying additional\nweight; the aircraft must fly at a higher angle of attack and\ndrag increases.\nA more serious problem caused by the CG being too far\nforward is the lack of sufficient elevator authority. At low\ntakeoff speeds, the elevator might not produce enough\nnose-up force to rotate; on landing there may not be enough\nelevator force to flare the airplane. [Figure 1-3] Both takeoff\nand landing runs are lengthened if the CG is too far forward.\nThe basic aircraft design is such that lateral symmetry is\nassumed to exist. For each item of weight added to the left\nof the center line of the aircraft (also known as buttock\nline zero or BL\u20110), there is generally an equal weight at a\ncorresponding location on the right.\nVariable\nNose-up force\ndependent upon airspeed\nCG\nLift\nFixed\nNose-down force\nindependent of airspeed\nLift\nthe aircraft must be reconfigured or placarded to prevent the\npilot from loading the aircraft improperly. It is sometimes\npossible to install a fixed ballast in order for the aircraft to\noperate again within the normal CG range.\nFigure 1-1. Longitudinal forces acting on an airplane in flight.\nthat varies directly with the airspeed. [Figure 1-1]\nIf a rising air current should cause the nose to pitch up, the\nairplane slows and the downward force on the tail decreases.\nThe weight concentrated at the CG pulls the nose back down.\nIf the nose should drop in flight, the airspeed increases and\nthe increased downward tail load brings the nose back up\nto level flight\nAs long as the CG is maintained within the allowable limits\nfor its weight, the airplane has adequate longitudinal stability\nInsufficient elevator\nNose-up force\nCG too far forward\nFigure 1-3. If the CG is too far forward, there is not enough elevator\nnose-up force to flare the airplane for landing.\nThe lateral balance can be upset by uneven fuel loading\nor burnoff. The position of the lateral CG is not normally\ncomputed for an airplane, but the pilot must be aware of\n\fthe adverse effects that result from a laterally unbalanced\ncondition. [Figure 1-4] This is corrected by using the aileron\ntrim tab until enough fuel has been used from the tank on\nthe heavy side to balance the airplane. The deflected trim tab\ndeflects the aileron to produce additional lift on the heavy\nside, but it also produces additional drag, and the airplane\nflies inefficientl\nOutboard fuel: tail heavy\nInboard fuel: nose heavy\nAdditional lift and drag\nEmpty\nFull\nAdditional weight\nFigure 1-4. Lateral imbalance causes wing heaviness, which may\nbe corrected by deflecting the aileron. The additional lift causes\nadditional drag, and the airplane flies inefficiently.\nHelicopters are more often affected by lateral imbalance\nthan airplanes. If a helicopter is loaded with heavy occupants\nand fuel on the same side, it could be out of balance enough\nto make it unsafe to fly. It is also possible that if external\nloads are carried in such a position that requires large lateral\ndisplacement of the cyclic control to maintain level fl ght, the\nfore-and-aft cyclic control effectiveness is limited.\nSwept-wing airplanes are more critical due to fuel imbalance\nbecause as the fuel is used from the outboard tanks, the CG\nshifts forward. As fuel is used from the inboard tanks, the CG\nshifts aft. [Figure 1-5] For this reason, fuel-use scheduling\nin swept-wing airplanes operation is critical."
+      },
+      {
+        "title": "Weight Control for Aircraft Other Than Fixed and Rotor-wing",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Weight-Shift Control Aircraft",
+        "content": "The WSC aircraft has a relatively set platform wing without\na tail. The pilot achieves control by shifting weight. In the\ndesign of this aircraft, the weight of the airframe and its\npayload is attached to the wing at a single point in a pendulous\narrangement. The pilot, through the flight controls, controls the\narm of this pendulum and thereby controls the aircraft. When\na change in flight parameter is desired, the pilot displaces the\naircraft\u2019s weight by the appropriate distance and direction.\nThis change momentarily disrupts the equilibrium between the\nfour forces acting on the aircraft. The wing, due to its inherent\nstability, then moves appropriately to reestablish the desired\nrelationship between these forces; the wing flexes and alter\nits shape. As the shape is changed, lift is varied at different\npoints on the wing to achieve the desired flight parameters\n\fThe flight controls primarily affect the pitch-and-roll axes.\nSince there is no vertical tail plane, there is minimal or no\nyaw control. Unlike in an airplane, the CG experienced by\nthe WSC aircraft wing remains constant. Since the weight\nof the airframe acts through a single point (the wing attach\npoint), the range over which the weight may act is fixed at\nthe pendulum arm or length. Even though weight decreases\nas fuel is consumed, weight remains focused at the wing\nattach point. Because the range is fixed, there is no need to\nestablish a calculated range. The pilot should consult the\nPOH or Aircraft Operating Instructions (AOI) for maximum\ntakeoff weight and minimum and maximum seat weight\nlimits prior to each flight"
+      },
+      {
+        "title": "Powered Parachutes",
+        "content": "The powered parachute is also a pendulum-style aircraft. Its\nairframe CG is fixed at the pendulum attach point. It is more\nlimited in controllability than the WSC aircraft because it\nlacks an aerodynamic pitch control. Pitch (and lift) control\nis primarily a function of the power control. Increased power\nresults in increased lift; cruise power amounts to level flight;\ndecreased power causes a descent. Due to this characteristic,\nthe aircraft is basically a one-airspeed aircraft. Once again,\nbecause the CG is fixed at the attach point to the wing, there\nis no CG range. As with WSC, the pilot should consult the\nPOH or AOI for maximum takeoff weight and minimum and\nmaximum seat weight limits prior to each flight\nRoll control on a powered parachute is achieved by changing\nthe shape of the wing. The change is achieved by varying\nthe length of steering lines attached to the outboard trailing\nedges of the wing. The trailing edge of the parachute is pulled\ndown slightly on one side or the other to create increased\ndrag along that side. This change in drag creates roll and\nyaw, permitting the aircraft to be steered."
+      },
+      {
+        "title": "Balloons",
+        "content": "The balloon is controlled by the pilot only in the vertical\ndimension; this is in contrast to all other aircraft. He or she\nachieves this control through the use of lift and weight.\nWind provides all other movement. The CG of the gondola\nremains constant beneath the balloon envelope. As in WSC\nand powered-parachute aircraft, there is no CG limitation.\nUnderestimating the Importance of\nWeight and Balance\nMany pilots, from sport pilot to commercial pilot, tend to\nunderestimate the importance of proper weight and balance\nof their aircraft. Load sheets are taken for granted and hasty\ncalculations are made of the aircraft\u2019s CG. Unfortunately,\neach year there are a number of accidents related to weight\nand balance issues. Many of these occurrences could have\nbeen avoided had more attention been given to weight and\nbalance.\nEvery student pilot is taught how to work a weight and\nbalance problem and that it is important to make sure\nevery flight is loaded \u201cwithin the envelope\u201d (no more than\nmaximum gross weight) for both takeoff and landing. But\ndoes he or she really understand just why this is so and the\ndisastrous effect of being out of the envelope? Two examples\nof documented cases are provided below in an effort to\nindicate the serious nature of maintaining the proper weight\nand balance. In case studies when weight and balance was\nlisted as the major factor of the accident, many were fatal.\nFor instance, a small aircraft was loaded with hunters, gear,\nand dogs (none of the dogs were secured inside the aircraft).\nDuring takeoff, all the dogs went to the aft of the airplane.\nThis shifted the CG well aft of its allowable limit. The\nairplane stalled and crashed. The airplane was destroyed\nwith casualties.\nAnother accident occurred when a group of skydivers were\nsitting on the floor toward the aft portion of the airplane\n(they were unsecured). During takeoff, the CG was again\nwell beyond its aft limit. The airplane stalled and crashed.\nThe airplane was destroyed with casualties.\nThere is a safety factor built into the formula for maximum\ngross weight. Any airplane can fly when it takes off at a\nweight greater than maximum gross weight if the runway\nis long enough and the density altitude is low enough.\nHowever, landing is a different matter. All airplanes are built\nto withstand an occasional hard landing, but what would\nhappen if the hard landing were combined with a substantially\noverweight airplane? Something would probably break at that\ntime or the structure would be weakened enough to break\nsometime in the future when everything might seem normal to\na pilot unaware of the previous situation. Even more disastrous\nthan an overweight, hard landing is reaching or exceeding\nthe structural integrity of the metal and/or composite design\nvalues when maneuvering or when turbulence is encountered.\nHidden damage could result, causing an unexpected\ncatastrophic failure at some future time.\nIf an airplane is certificated with a maximum gross weight\nof 6,000 pounds (its weight on the ground) and is rolled into\na 60\u00b0 bank, the forces exerted make it feel as if it weighed\n12,000 pounds. At its maximum certificated gross weight,\nthere is no problem because the aircraft is operated within its\ncertificated maneuvering loads. But loaded to 8,000 pounds\nwith a 60\u00b0 bank or an abrupt pullup, it suddenly weighs\n16,000 pounds and might not be able to perform! Even if it\ncould, there would probably be internal stress damage that\nwould show up on future flights"
+      },
+      {
+        "title": "Underestimating the Importance of Weight and Balance",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "[Not found]"
+      }
+    ]
+  },
+  {
+    "book_id": "WB-001",
+    "book_name": "Aircraft Weight and Balance Handbook",
+    "chapter": "Chapter 2",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Weight and balance in aircraft is based on the law of the lever.\nThis chapter discusses the application of the law of the lever\nand its applications relative to locating the balance point of a\nbeam or lever on which various weights are located or shifted.\nThe chapter also discusses the documentation pertaining to\nweight and balance that is furnished by the Federal Aviation\nAdministration (FAA) and aircraft manufacturers."
+      },
+      {
+        "title": "Weight",
+        "content": "and Balance Theory\nIntroduction\nWeight and balance in aircraft is based on the law of the lever.\nThis chapter discusses the application of the law of the lever\nand its applications relative to locating the balance point of a\nbeam or lever on which various weights are located or shifted.\nThe chapter also discusses the documentation pertaining to\nweight and balance that is furnished by the Federal Aviation\nAdministration (FAA) and aircraft manufacturers.\n\fWeight and"
+      },
+      {
+        "title": "Arm",
+        "content": "A (\u221250\")\nArm B (+25\")\nB = 200\nA = 100\nFulcrum"
+      },
+      {
+        "title": "Moment",
+        "content": "A moment is a force that tries to cause rotation and is the\nproduct of the arm, in inches, and the weight, in pounds.\nMoments are generally expressed in pound-inches (lb-in)\nand may be either positive or negative.\nThe Law of the Lever"
+      },
+      {
+        "title": "Basic Weight and Balance Equation",
+        "content": "The following formulas can be used to determine the distance\nweight must be shifted to obtain a desired change in the CG\nlocation. The equation can also be rearranged to fi d the\namount of weight required to be shifted to move the CG\nto a desired location, to find the distance the CG is moved\nwhen a specified amount of weight is shifted, or to find the\ntotal weight that would allow shifting a specified amount of\nweight to move the CG a given distance.\n\u2206 CG"
+      },
+      {
+        "title": "Datum",
+        "content": "\u2212 Moment\n+Force\ns\nArm\nThe arm is usually measured and expressed in inches and\nrefers to the horizontal distance between the CG of an item\nor object and the datum, a point from where all measurements\nare taken."
+      },
+      {
+        "title": "Center of Gravity",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Center of Gravity Limits",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Mean Aerodynamic Chord",
+        "content": "The CG point affects the stability of the aircraft. To ensure\nthe aircraft is safe to fly, the CG must fall within specified\nlimits established by the manufacturer.\nOn some aircraft, the CG is expressed as a percentage of the\nlength of the mean aerodynamic chord (MAC) or \u201cpercent\nMAC.\u201d [Figure 2-14] In order to make such a calculation,\nthe position of the leading edge of the MAC must be known\nahead of time.\n15% MAC\nQuarter chord\nMAC\nHalf\nsemi-span\nIf the 200-pound weight B is shifted from station +80 to\nstation +25, the CG moves from station +72 to station +50.\nA third arrangement of this basic equation is used to\ndetermine the amount the CG is shifted when a given amount\nof weight is moved for a specified distance (as it was done\nin Figure 2-11). The following formula is used to determine\nthe amount the CG is shifted when 200-pound weight B is\nmoved from +80 to +25.\n\u2206 CG ="
+      },
+      {
+        "title": "Empty Weight",
+        "content": "CG Range (EWCG)\nWhen all of the seats and baggage compartments are located\nclose together, it is not possible (as long as the EWCG is\nlocated within the EWCG range) to legally load the aircraft\nso that its operational CG falls outside this allowable range.\nIf the seats and baggage areas extend over a wide range, the\nEWCG range is listed as \u201cNone.\u201d\nMaximum"
+      },
+      {
+        "title": "Basic Empty Weight",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Useful Load",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Maximum Ramp Weight",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Maximum Takeoff Weight",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Maximum Landing Weight",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Empty Weight Center of Gravity",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Effects of Weight",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Balance",
+        "content": "Theory\nIntroduction\nWeight and balance in aircraft is based on the law of the lever.\nThis chapter discusses the application of the law of the lever\nand its applications relative to locating the balance point of a\nbeam or lever on which various weights are located or shifted.\nThe chapter also discusses the documentation pertaining to\nweight and balance that is furnished by the Federal Aviation\nAdministration (FAA) and aircraft manufacturers."
+      },
+      {
+        "title": "Lateral Balance",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Longitudinal Balance",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Stability",
+        "content": "[Not found]"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "[Not found]"
+      }
+    ]
+  }
+]

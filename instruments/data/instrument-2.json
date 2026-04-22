@@ -1,0 +1,352 @@
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 25 - Flight Director Systems",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The Flight Director System (FDS) provides steering and attitude commands to assist the pilot in flying the aircraft. It integrates attitude, heading, and navigation data to generate visual guidance or autopilot inputs.  [oai_citation:1‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "System Inputs",
+      "content": "Inputs to the FDS come from multiple systems including the pitot-static system or Air Data Computer (ADC), navigation receivers (VOR/ILS), and Flight Management or Inertial systems. Older systems used gyros, while modern systems use INS/IRS.  [oai_citation:2‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Channels (Pitch and Roll)",
+      "content": "The FDS operates using two channels: the pitch channel (controls vertical movement) and the roll channel (controls lateral movement). These channels provide guidance commands for aircraft control."
+    },
+    {
+      "title": "Flight Director System Components",
+      "content": "A typical modern FDS consists of several components including the Electronic Attitude Director Indicator (EADI), Primary Flight Display (PFD), Electronic Horizontal Situation Indicator (EHSI), and Flight Director Computer (FDC).  [oai_citation:3‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Electronic Attitude Director Indicator (EADI)",
+      "content": "The EADI displays aircraft attitude and provides command bars indicating required pitch and roll. The pilot follows these command bars to satisfy the FDS guidance.  [oai_citation:4‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Primary Flight Display (PFD)",
+      "content": "The PFD integrates flight data such as attitude, speed, altitude, and vertical speed into one display. It also includes the Flight Mode Annunciator (FMA) showing system modes.  [oai_citation:5‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Electronic Horizontal Situation Indicator (EHSI)",
+      "content": "The EHSI displays heading, course deviation, navigation information, and distance. It may include CDI bars, heading bug, and navigation data.  [oai_citation:6‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Flight Director Computer (FDC)",
+      "content": "The FDC processes all input data and generates commands for display and autopilot systems. Modern systems are digital, while older ones used analogue signals.  [oai_citation:7‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Mode Control Panel (MCP)",
+      "content": "The MCP allows the pilot to select modes, adjust pitch, and control the FDS. In modern aircraft, it integrates with autopilot control systems.  [oai_citation:8‡Instruments.pdf](sediment://file_0000000075e471faa23af4e6753be96c)"
+    },
+    {
+      "title": "Flight Mode Annunciator (FMA)",
+      "content": "The FMA displays active and armed modes of the FDS, autopilot, and autothrottle. Active modes are shown in green and armed modes in white.  [oai_citation:9‡Instruments.pdf](sediment://file_0000000075e471faa23af4e6753be96c)"
+    },
+    {
+      "title": "Flight Director Modes",
+      "content": "FDS modes provide guidance based on navigation and flight conditions. These include heading, altitude, approach, and navigation modes."
+    },
+    {
+      "title": "Raw vs Computed Data",
+      "content": "Raw data shows basic deviation (e.g., glide slope or CDI), while computed data uses rate of change to provide smoother guidance commands for intercepting paths.  [oai_citation:10‡Instruments.pdf](sediment://file_0000000075e471faa23af4e6753be96c)"
+    },
+    {
+      "title": "Failure Indications",
+      "content": "Failures are indicated by flags such as 'Gyro', 'ATT', 'FD', 'GS', or 'NAV'. These indicate unreliable data or system malfunction.  [oai_citation:11‡Instruments.pdf](sediment://file_00000000ae10720b9a54a95c478e7f22)"
+    },
+    {
+      "title": "Command Bars and Control",
+      "content": "Command bars provide visual guidance for pitch and roll. Pilots adjust controls to align with these bars, maintaining desired flight path."
+    },
+    {
+      "title": "Take-off Mode",
+      "content": "During take-off, both flight director systems are typically engaged to provide guidance for initial climb and stabilization."
+    },
+    {
+      "title": "Dual FDS",
+      "content": "Modern aircraft may use dual FDS systems for redundancy and improved reliability, ensuring continued operation in case of failure."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 26 - Autopilot",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The autopilot system is designed to control the aircraft automatically, reducing pilot workload and improving precision during flight. It can control heading, altitude, and navigation based on selected modes."
+    },
+    {
+      "title": "Autopilot Purpose",
+      "content": "Autopilot systems assist in maintaining stable flight by controlling pitch, roll, and sometimes yaw. They allow the pilot to focus on monitoring and decision-making rather than manual control."
+    },
+    {
+      "title": "Autopilot Channels",
+      "content": "Autopilot systems typically operate through multiple channels including pitch, roll, and sometimes yaw. These channels correspond to different axes of aircraft movement."
+    },
+    {
+      "title": "Inputs to Autopilot",
+      "content": "Inputs are received from systems such as Air Data Computer (ADC), Flight Management System (FMS), Inertial Navigation System (INS/IRS), and navigation aids like VOR and ILS."
+    },
+    {
+      "title": "Autopilot Components",
+      "content": "Major components include sensors, Flight Control Computer (FCC), actuators, and control panels such as the Mode Control Panel (MCP)."
+    },
+    {
+      "title": "Flight Control Computer (FCC)",
+      "content": "The FCC processes input data and generates control commands to adjust aircraft attitude and flight path automatically."
+    },
+    {
+      "title": "Actuators",
+      "content": "Actuators convert autopilot commands into physical control movements such as elevator, aileron, and rudder deflections."
+    },
+    {
+      "title": "Mode Control Panel (MCP)",
+      "content": "The MCP allows pilots to select autopilot modes such as heading, altitude, vertical speed, and navigation tracking."
+    },
+    {
+      "title": "Autopilot Modes",
+      "content": "Common modes include heading hold, altitude hold, vertical speed, approach mode, and navigation tracking modes."
+    },
+    {
+      "title": "Engagement and Disengagement",
+      "content": "Autopilot can be engaged manually by the pilot and is automatically disengaged during certain failures or when manual override is applied."
+    },
+    {
+      "title": "Autopilot Limitations",
+      "content": "Autopilot systems have operational limits and cannot replace pilot judgment. They require proper monitoring and may disengage in abnormal conditions."
+    },
+    {
+      "title": "Failure Indications",
+      "content": "Failures are indicated through warning lights, annunciators, and alerts. These inform the pilot of system malfunctions or disengagement."
+    },
+    {
+      "title": "Integration with Flight Director",
+      "content": "The autopilot works closely with the Flight Director System (FDS), using its commands to control the aircraft automatically."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 27 - Autoland",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Autoland is an automatic landing system that allows an aircraft to land with minimal or no pilot input, typically used in low visibility conditions."
+    },
+    {
+      "title": "Purpose of Autoland",
+      "content": "The system is designed to ensure safe and precise landings when visibility is poor, reducing pilot workload and improving safety."
+    },
+    {
+      "title": "System Integration",
+      "content": "Autoland integrates with autopilot, flight director, radio altimeter, and navigation systems such as ILS to guide the aircraft during landing."
+    },
+    {
+      "title": "Instrument Landing System (ILS)",
+      "content": "Autoland relies heavily on ILS signals including localizer (lateral guidance) and glide slope (vertical guidance) for accurate approach and landing."
+    },
+    {
+      "title": "Phases of Autoland",
+      "content": "The system operates through phases such as approach, flare, touchdown, and rollout, each controlled automatically."
+    },
+    {
+      "title": "Flare and Touchdown",
+      "content": "During flare, the system reduces descent rate and aligns the aircraft for a smooth touchdown. Control is maintained until landing is complete."
+    },
+    {
+      "title": "Rollout Phase",
+      "content": "After touchdown, the system maintains directional control along the runway centerline using rudder and steering inputs."
+    },
+    {
+      "title": "Redundancy",
+      "content": "Multiple autopilot systems are used to ensure redundancy. Fail-operational and fail-passive systems determine system capability during failures."
+    },
+    {
+      "title": "Categories of Autoland",
+      "content": "Autoland is categorized under ILS categories such as CAT II and CAT III, depending on visibility and system capability."
+    },
+    {
+      "title": "Limitations",
+      "content": "Autoland depends on proper system functioning and accurate ILS signals. Environmental factors and system failures can limit performance."
+    },
+    {
+      "title": "Failure Indications",
+      "content": "Failures are indicated through warnings and annunciators, alerting the pilot to take manual control if necessary."
+    },
+    {
+      "title": "Applications",
+      "content": "Used in commercial aviation for operations in low visibility conditions, enhancing safety and operational reliability."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 28 - Autothrottle",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "The autothrottle system automatically controls engine thrust to maintain selected airspeed or thrust settings, reducing pilot workload."
+    },
+    {
+      "title": "Purpose of Autothrottle",
+      "content": "It ensures optimal speed control during various phases of flight such as climb, cruise, descent, and approach."
+    },
+    {
+      "title": "System Inputs",
+      "content": "Inputs are received from air data systems, flight management system (FMS), and pilot-selected targets such as speed or thrust mode."
+    },
+    {
+      "title": "Throttle Control",
+      "content": "The system adjusts throttle lever position automatically to maintain desired speed or thrust."
+    },
+    {
+      "title": "Operating Modes",
+      "content": "Common modes include speed mode, thrust mode, idle mode, and go-around mode depending on flight phase."
+    },
+    {
+      "title": "Speed Mode",
+      "content": "In this mode, the autothrottle adjusts thrust to maintain a selected airspeed."
+    },
+    {
+      "title": "Thrust Mode",
+      "content": "The system maintains a set thrust level, often used during climb or take-off."
+    },
+    {
+      "title": "Integration with Autopilot",
+      "content": "Autothrottle works with autopilot and flight director systems to provide coordinated flight control."
+    },
+    {
+      "title": "Flight Mode Annunciator (FMA)",
+      "content": "The status and modes of the autothrottle are displayed on the FMA, informing the pilot of active and armed modes."
+    },
+    {
+      "title": "Limitations",
+      "content": "The system requires proper monitoring and may disengage during abnormal conditions or system failures."
+    },
+    {
+      "title": "Failure Indications",
+      "content": "Failures are indicated through warnings and alerts, requiring pilot intervention."
+    },
+    {
+      "title": "Applications",
+      "content": "Used in modern aircraft to optimize fuel efficiency, maintain speed control, and assist during all phases of flight."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 29 - Yaw Dampers",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Yaw dampers are automatic control systems that reduce unwanted yawing motion of an aircraft, improving stability and passenger comfort."
+    },
+    {
+      "title": "Purpose of Yaw Damper",
+      "content": "The system minimizes oscillations such as Dutch roll and helps maintain directional stability during flight."
+    },
+    {
+      "title": "Dutch Roll",
+      "content": "Dutch roll is a combined oscillation in yaw and roll that can occur in swept-wing aircraft. Yaw dampers help suppress this motion."
+    },
+    {
+      "title": "Principle of Operation",
+      "content": "The yaw damper detects yaw rate using sensors and automatically applies rudder inputs to counteract unwanted motion."
+    },
+    {
+      "title": "Sensors",
+      "content": "Yaw rate sensors or gyros detect rotational movement about the vertical axis and provide input to the system."
+    },
+    {
+      "title": "Control System",
+      "content": "A control unit processes sensor data and sends corrective commands to the rudder through actuators."
+    },
+    {
+      "title": "Rudder Actuation",
+      "content": "The system uses rudder movements to counteract yawing tendencies and stabilize the aircraft."
+    },
+    {
+      "title": "Integration with Autopilot",
+      "content": "Yaw dampers are often integrated with autopilot systems but can also operate independently."
+    },
+    {
+      "title": "Limitations",
+      "content": "The system cannot replace pilot control and must be monitored. It may be disengaged during certain flight conditions."
+    },
+    {
+      "title": "Failure Indications",
+      "content": "Failures are indicated by warning lights or alerts, requiring pilot awareness and possible manual correction."
+    },
+    {
+      "title": "Applications",
+      "content": "Used in modern aircraft to improve flight stability, especially in high-speed and swept-wing configurations."
+    }
+  ]
+}
+
+{
+  "book_id": "INS-001",
+  "book_name": "Instrumentation",
+  "chapter_name": "Chapter 30 - Control Laws",
+  "sub_modules": [
+    {
+      "title": "Introduction",
+      "content": "Control laws define how pilot inputs are interpreted and translated into control surface movements in modern fly-by-wire aircraft."
+    },
+    {
+      "title": "Purpose of Control Laws",
+      "content": "They ensure aircraft stability, safety, and performance by modifying pilot inputs based on flight conditions."
+    },
+    {
+      "title": "Fly-by-Wire Concept",
+      "content": "In fly-by-wire systems, pilot inputs are converted into electrical signals and processed by computers instead of direct mechanical linkage."
+    },
+    {
+      "title": "Types of Control Laws",
+      "content": "Control laws are typically categorized into normal law, alternate law, and direct law depending on system status and failures."
+    },
+    {
+      "title": "Normal Law",
+      "content": "Provides full flight envelope protection, ensuring the aircraft operates within safe limits automatically."
+    },
+    {
+      "title": "Alternate Law",
+      "content": "Provides reduced protection when some systems fail, with limited automatic safeguards."
+    },
+    {
+      "title": "Direct Law",
+      "content": "Provides minimal or no protection, where pilot inputs directly control the surfaces with limited computer assistance."
+    },
+    {
+      "title": "Flight Envelope Protection",
+      "content": "Prevents the aircraft from exceeding limits such as stall angle, overspeed, and excessive bank angles."
+    },
+    {
+      "title": "Control Surface Commands",
+      "content": "The system adjusts control surface movements based on pilot input and aircraft state to maintain stability."
+    },
+    {
+      "title": "Redundancy",
+      "content": "Multiple computers and backup systems ensure reliability and continued operation in case of failures."
+    },
+    {
+      "title": "Limitations",
+      "content": "Control laws depend on system integrity; failures may reduce protection levels and require greater pilot input."
+    },
+    {
+      "title": "Applications",
+      "content": "Used in modern aircraft to enhance safety, reduce workload, and optimize performance through intelligent flight control systems."
+    }
+  ]
+}
+

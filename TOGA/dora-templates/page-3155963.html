@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+      content="Dora is a cloud-based design collaboration platform for creating responsive apps and websites without coding.">
+    <meta name="keywords" content="Dora,NoCode,Design" />
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dora">
+    <link rel="apple-touch-icon" href="https://cdn-static-e.dora.run/dora_editor_v2/icons/Icon-192.236e1b6a908f48a9.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://cdn-static-e.dora.run/dora_editor_v2/favicon.4ee7a8ea1aaf88ec.png" />
+    <base href="/">
+
+    <title>Dora - NoCode Design Platform</title>
+    <link rel="manifest" href="https://cdn-static-e.dora.run/dora_editor_v2/manifest.9c9985e1c68620b3.json">
+
+    <script>
+      window.__ENV = {"TARGET":"online","HOME_HOST":"www.dora.run","RUN_HOST":"dora.run","PREVIEW_HOST":"preview.dora.run","SWIMLANE_HOST":"","API_HOST":"api-us.dora.run","CDN_API_HOST":"cdn-api.dora.run","NEO_API_HOST":"neo-api.dora.run","CDN_NEO_API_HOST":"cdn-neo-api.dora.run","STATIC_ASSETS_HOST":"cdn-static-e.dora.run","USER_ASSETS_HOST":"cdn-design-e.dora.run","CDN_IMGS_HOST":"cdn-imgs.dora.run","ADMIN_API_HOST":"","REALTIME_HOST":"realtime-next-us.dora.run","CDN_REALTIME_HOST":"cdn-realtime-next-e.dora.run","LEGACY_REALTIME_HOST":"realtime-us.dora.run","TRINITY_API_HOST":"trinity-api.dora.run","SENTRY_DSN_URL":"https://c1a0c96cec54481aba6b4510bae37d3c@trinity-api.dora.run/functions/translate-sentry-report/1296719/4505130475323392"};
+      window.__ASSET_PREFIX = 'https://cdn-static-e.dora.run/dora_editor_v2';
+    </script>
+    <script>
+      window.FLUTTER_PRE_ASSET_BUNDLE = {"AssetManifest.json":"{\"animations/coupon-confetti.json\":[\"animations/coupon-confetti.cd747b8d03496be9.json\"],\"animations/generate_v_1.webm\":[\"animations/generate_v_1.b7faef07ca83cbf8.webm\"],\"animations/loading-3d-black-c.json\":[\"animations/loading-3d-black-c.2ef3e1cd44fef202.json\"],\"images/Datatype/bool_active.png\":[\"images/Datatype/bool_active.9b138710172766a3.png\"],\"images/Datatype/bool_default.png\":[\"images/Datatype/bool_default.3d62e146d0bc6335.png\"],\"images/Datatype/bool_error.png\":[\"images/Datatype/bool_error.c8a6db9be9337212.png\"],\"images/Datatype/date_active.png\":[\"images/Datatype/date_active.d35fa539ec161a0b.png\"],\"images/Datatype/date_default.png\":[\"images/Datatype/date_default.8193bd93934f2a83.png\"],\"images/Datatype/date_error.png\":[\"images/Datatype/date_error.5a5bfa2b72bfbbc0.png\"],\"images/Datatype/entity_active.png\":[\"images/Datatype/entity_active.12b3b2463b1f57a1.png\"],\"images/Datatype/entity_default.png\":[\"images/Datatype/entity_default.1e6a7bd40d2b3315.png\"],\"images/Datatype/entity_error.png\":[\"images/Datatype/entity_error.57a710dc62f93955.png\"],\"images/Datatype/exp_none_active.png\":[\"images/Datatype/exp_none_active.018b7573599282d2.png\"],\"images/Datatype/exp_none_error.png\":[\"images/Datatype/exp_none_error.a40f42c11b907330.png\"],\"images/Datatype/file_active.png\":[\"images/Datatype/file_active.393340407f56623c.png\"],\"images/Datatype/file_default.png\":[\"images/Datatype/file_default.c62ac87e21f6306f.png\"],\"images/Datatype/file_error.png\":[\"images/Datatype/file_error.49968806f7dfab6d.png\"],\"images/Datatype/globalvar_bool_default.png\":[\"images/Datatype/globalvar_bool_default.7e668a9fee0fb816.png\"],\"images/Datatype/globalvar_date_default.png\":[\"images/Datatype/globalvar_date_default.fedb195a8c4a5b1d.png\"],\"images/Datatype/globalvar_entity_default.png\":[\"images/Datatype/globalvar_entity_default.ffbd94ae2a8f8991.png\"],\"images/Datatype/globalvar_file_default.png\":[\"images/Datatype/globalvar_file_default.a7891ca319bd107f.png\"],\"images/Datatype/globalvar_num_default.png\":[\"images/Datatype/globalvar_num_default.3d6d9331c730f094.png\"],\"images/Datatype/globalvar_record_default.png\":[\"images/Datatype/globalvar_record_default.f4d8d01dafff6161.png\"],\"images/Datatype/globalvar_text_default.png\":[\"images/Datatype/globalvar_text_default.995705db7bdde092.png\"],\"images/Datatype/list_active.png\":[\"images/Datatype/list_active.dbffe1f82f85b4e0.png\"],\"images/Datatype/list_error.png\":[\"images/Datatype/list_error.003bb0d0a6922e43.png\"],\"images/Datatype/num_active.png\":[\"images/Datatype/num_active.f14767d9faf7b6c9.png\"],\"images/Datatype/num_default.png\":[\"images/Datatype/num_default.a27a0326f8754fd1.png\"],\"images/Datatype/num_error.png\":[\"images/Datatype/num_error.5272bcc4a7d2c84c.png\"],\"images/Datatype/record_active.png\":[\"images/Datatype/record_active.a69a552316705e85.png\"],\"images/Datatype/record_default.png\":[\"images/Datatype/record_default.96153abbdd24c60c.png\"],\"images/Datatype/record_error.png\":[\"images/Datatype/record_error.38618069c1c0f92b.png\"],\"images/Datatype/text_active.png\":[\"images/Datatype/text_active.01f37c16a49c0353.png\"],\"images/Datatype/text_default.png\":[\"images/Datatype/text_default.8696b75a906d5d8e.png\"],\"images/Datatype/text_error.png\":[\"images/Datatype/text_error.6c4f87fbe019ce09.png\"],\"images/Homepage_16.png\":[\"images/Homepage_16.04a619eb140994a6.png\"],\"images/Page/404.png\":[\"images/Page/404.23740a9206e0313f.png\"],\"images/Page/500.png\":[\"images/Page/500.9fe6fbe893865211.png\"],\"images/Page/502_503.png\":[\"images/Page/502_503.942d3200a3c31b10.png\"],\"images/Page/ArrowRight.png\":[\"images/Page/ArrowRight.a19cbaa6ec280fab.png\"],\"images/Page/dora.png\":[\"images/Page/dora.771762b2765eeeba.png\"],\"images/Page/logo.png\":[\"images/Page/logo.a7df27d66ed7f226.png\"],\"images/Property/assets_placeholder.png\":[\"images/Property/assets_placeholder.9f727a1dc329b746.png\"],\"images/Property/border_all.png\":[\"images/Property/border_all.fe207c8556344355.png\"],\"images/Property/border_bottom.png\":[\"images/Property/border_bottom.cfc996ba219fccac.png\"],\"images/Property/border_left.png\":[\"images/Property/border_left.f0614f7266005610.png\"],\"images/Property/border_right.png\":[\"images/Property/border_right.b4166c43790c567d.png\"],\"images/Property/border_top.png\":[\"images/Property/border_top.a43f9c7ed395b114.png\"],\"images/Property/constraint_chain_connect.png\":[\"images/Property/constraint_chain_connect.41ee4d4a0690415c.png\"],\"images/Property/constraint_connect.png\":[\"images/Property/constraint_connect.68384d3b1d2cf387.png\"],\"images/Property/constraint_dash.png\":[\"images/Property/constraint_dash.2663b221d762870b.png\"],\"images/Property/constraint_delete_hover.png\":[\"images/Property/constraint_delete_hover.4ab562a9536e8b6a.png\"],\"images/Property/constraint_mixed.png\":[\"images/Property/constraint_mixed.96b641890d009bd0.png\"],\"images/Property/constraint_unconnect.png\":[\"images/Property/constraint_unconnect.a700aaba27b85094.png\"],\"images/Property/padding4.png\":[\"images/Property/padding4.81e04a9ae077beae.png\"],\"images/Property/padding_b.png\":[\"images/Property/padding_b.3b77cdbfd833a275.png\"],\"images/Property/padding_l.png\":[\"images/Property/padding_l.af776d7916fe6a49.png\"],\"images/Property/padding_l_r.png\":[\"images/Property/padding_l_r.8008523be93366ec.png\"],\"images/Property/padding_r.png\":[\"images/Property/padding_r.56341e60e445c457.png\"],\"images/Property/padding_t.png\":[\"images/Property/padding_t.a9844426520889c7.png\"],\"images/Property/padding_t_b.png\":[\"images/Property/padding_t_b.1f6400b76829c617.png\"],\"images/add_16.png\":[\"images/add_16.f1dd0361f208ffb7.png\"],\"images/ai/bad.webp\":[\"images/ai/bad.a1d15ba7f9754f55.webp\"],\"images/ai/blue_heart.webp\":[\"images/ai/blue_heart.4920d0de49953acd.webp\"],\"images/ai/btn.webp\":[\"images/ai/btn.fca07a7ab3f4c538.webp\"],\"images/ai/btn_c.webp\":[\"images/ai/btn_c.0bf0d8ec400e7bd9.webp\"],\"images/ai/btn_hover.png\":[\"images/ai/btn_hover.7aca06f23695d92e.png\"],\"images/ai/btn_l.webp\":[\"images/ai/btn_l.ed78b4b596a12b30.webp\"],\"images/ai/btn_r.webp\":[\"images/ai/btn_r.2c021f92418aeac6.webp\"],\"images/ai/credit.webp\":[\"images/ai/credit.1fcb73f2030dff16.webp\"],\"images/ai/credit2.webp\":[\"images/ai/credit2.29287e6aaaa9a844.webp\"],\"images/ai/credit_small.webp\":[\"images/ai/credit_small.71f7a6a2c9fd3862.webp\"],\"images/ai/feature_icon.webp\":[\"images/ai/feature_icon.b684c58420eb7c7a.webp\"],\"images/ai/generate_1.webp\":[\"images/ai/generate_1.1f4624b5a2dd9209.webp\"],\"images/ai/generate_2.webp\":[\"images/ai/generate_2.dc6c4e5d8a994595.webp\"],\"images/ai/generate_3.webp\":[\"images/ai/generate_3.834618249c3f4b6f.webp\"],\"images/ai/generate_v_1.webp\":[\"images/ai/generate_v_1.67287c3667d09a9d.webp\"],\"images/ai/generate_v_2.webp\":[\"images/ai/generate_v_2.6b4cc33c06ce4af6.webp\"],\"images/ai/good.webp\":[\"images/ai/good.cbe6f3f44d3d40ea.webp\"],\"images/ai/hover.webp\":[\"images/ai/hover.a442f2c7bcbfe4cf.webp\"],\"images/ai/invite_beckon.webp\":[\"images/ai/invite_beckon.d0e8735a9ad8ee94.webp\"],\"images/ai/okay.webp\":[\"images/ai/okay.5492173dfb6ebfa5.webp\"],\"images/ai/questionnaire.webp\":[\"images/ai/questionnaire.c014ba13868f0177.webp\"],\"images/ai/queue.webp\":[\"images/ai/queue.09eabaa5565483f6.webp\"],\"images/ai/tutorial.webp\":[\"images/ai/tutorial.1c3838888bd8baec.webp\"],\"images/ai_flow.gif\":[\"images/ai_flow.df4d6a728550b481.gif\"],\"images/animate.png\":[\"images/animate.d702f788285ebedc.png\"],\"images/autolayout/alignment-default.png\":[\"images/autolayout/alignment-default.9c4850111de7cfc9.png\"],\"images/autolayout/autolayout_leftbar_left_16.png\":[\"images/autolayout/autolayout_leftbar_left_16.202cc20f8d4f098a.png\"],\"images/autolayout/col-width.png\":[\"images/autolayout/col-width.a1aba3bd1b85d8b3.png\"],\"images/autolayout/gap-h.png\":[\"images/autolayout/gap-h.5139233fade9c876.png\"],\"images/autolayout/gap-v.png\":[\"images/autolayout/gap-v.af988de9b1f624ad.png\"],\"images/autolayout/h-default.png\":[\"images/autolayout/h-default.c272f1de91309ade.png\"],\"images/autolayout/h-f-f-11.png\":[\"images/autolayout/h-f-f-11.939585783213b464.png\"],\"images/autolayout/h-f-f-21.png\":[\"images/autolayout/h-f-f-21.31a194bffb1cfe71.png\"],\"images/autolayout/h-f-f-31.png\":[\"images/autolayout/h-f-f-31.68025a7a7440734b.png\"],\"images/autolayout/h-f-t-12.png\":[\"images/autolayout/h-f-t-12.522743d68636d900.png\"],\"images/autolayout/h-f-t-22.png\":[\"images/autolayout/h-f-t-22.e435ca07c04a7dfb.png\"],\"images/autolayout/h-f-t-32.png\":[\"images/autolayout/h-f-t-32.8b9249df76194fbb.png\"],\"images/autolayout/h-t-f-11.png\":[\"images/autolayout/h-t-f-11.beac5d7686e8a540.png\"],\"images/autolayout/h-t-f-12.png\":[\"images/autolayout/h-t-f-12.498c14989bb1614d.png\"],\"images/autolayout/h-t-f-13.png\":[\"images/autolayout/h-t-f-13.b47d2b7a4d4022b6.png\"],\"images/autolayout/h-t-t-12.png\":[\"images/autolayout/h-t-t-12.f8d25a57eb291b24.png\"],\"images/autolayout/h-t-t-22.png\":[\"images/autolayout/h-t-t-22.a215bb00a3e51f09.png\"],\"images/autolayout/h-t-t-32.png\":[\"images/autolayout/h-t-t-32.e7ee97753f7710b6.png\"],\"images/autolayout/mode-column.png\":[\"images/autolayout/mode-column.abfa258b0553e664.png\"],\"images/autolayout/mode-row.png\":[\"images/autolayout/mode-row.ec77801bbebbbb45.png\"],\"images/autolayout/row-fill-height.png\":[\"images/autolayout/row-fill-height.fa1b6dcc21368357.png\"],\"images/autolayout/row-fixed-height.png\":[\"images/autolayout/row-fixed-height.b5ce49e93a040366.png\"],\"images/autolayout/row-height.png\":[\"images/autolayout/row-height.75d050349500d1fc.png\"],\"images/autolayout/row-hug-height.png\":[\"images/autolayout/row-hug-height.d243a64a67f7b909.png\"],\"images/autolayout/v-default.png\":[\"images/autolayout/v-default.f708eac648a3c54f.png\"],\"images/autolayout/v-f-f-11.png\":[\"images/autolayout/v-f-f-11.37ee506b2887ccc2.png\"],\"images/autolayout/v-f-f-12.png\":[\"images/autolayout/v-f-f-12.a249ea02cfa7c1b5.png\"],\"images/autolayout/v-f-f-13.png\":[\"images/autolayout/v-f-f-13.4fac9972b955414a.png\"],\"images/autolayout/v-f-t-21.png\":[\"images/autolayout/v-f-t-21.115a198e010300b0.png\"],\"images/autolayout/v-f-t-22.png\":[\"images/autolayout/v-f-t-22.9eb522264d87896a.png\"],\"images/autolayout/v-f-t-23.png\":[\"images/autolayout/v-f-t-23.f0a883247281b2f8.png\"],\"images/autolayout/v-t-f-11.png\":[\"images/autolayout/v-t-f-11.543d82ed7e298e0a.png\"],\"images/autolayout/v-t-f-21.png\":[\"images/autolayout/v-t-f-21.e39634657b0f4c4d.png\"],\"images/autolayout/v-t-f-31.png\":[\"images/autolayout/v-t-f-31.60b5ec15ec0bf64c.png\"],\"images/autolayout/v-t-t-21.png\":[\"images/autolayout/v-t-t-21.e62db6b0288b7d4d.png\"],\"images/autolayout/v-t-t-22.png\":[\"images/autolayout/v-t-t-22.36b5d0852bf8018f.png\"],\"images/autolayout/v-t-t-23.png\":[\"images/autolayout/v-t-t-23.a1145894053713a9.png\"],\"images/canvas/audio_placeholder.png\":[\"images/canvas/audio_placeholder.8aef8d5b3cf171de.png\"],\"images/canvas/audio_placeholder_error.png\":[\"images/canvas/audio_placeholder_error.4eea309a15583642.png\"],\"images/canvas/embed_form_placeholder.png\":[\"images/canvas/embed_form_placeholder.6aba3d0e8a10956d.png\"],\"images/canvas/embed_form_placeholder_error.png\":[\"images/canvas/embed_form_placeholder_error.edba793ce9d822ce.png\"],\"images/canvas/embed_placeholder.png\":[\"images/canvas/embed_placeholder.e0471f08fccbfa1f.png\"],\"images/canvas/embed_placeholder_error.png\":[\"images/canvas/embed_placeholder_error.f1e9eaea227df7dc.png\"],\"images/canvas/image_placeholder.png\":[\"images/canvas/image_placeholder.03a031cc8eb15f51.png\"],\"images/canvas/youtube_placholder_error.png\":[\"images/canvas/youtube_placholder_error.8efd417f23e26fcb.png\"],\"images/canvas_indicator/Cursor.png\":[\"images/canvas_indicator/Cursor.7460e7acd61831bf.png\"],\"images/check_circle_16.png\":[\"images/check_circle_16.fce64774743b3b6b.png\"],\"images/checkerboard.png\":[\"images/checkerboard.e5e5ad52636019fe.png\"],\"images/client_variable.png\":[\"images/client_variable.2f356d915e01e1c0.png\"],\"images/coupon_10_dollar_off.png\":[\"images/coupon_10_dollar_off.55c624ff94cb7623.png\"],\"images/coupon_default.png\":[\"images/coupon_default.d1d81f3a0c976c88.png\"],\"images/credit.png\":[\"images/credit.e5f731e4c14a7cd5.png\"],\"images/dashed_box.png\":[\"images/dashed_box.2489c139aedad5da.png\"],\"images/drivers/fixAddCursorHover.png\":[\"images/drivers/fixAddCursorHover.1f1892017d15eb3b.png\"],\"images/drivers/fixAddDef.png\":[\"images/drivers/fixAddDef.ab4e1f2a14139e1c.png\"],\"images/drivers/fixCursorHover.png\":[\"images/drivers/fixCursorHover.6f03a4c492258a3f.png\"],\"images/drivers/fixCursorSel.png\":[\"images/drivers/fixCursorSel.5b1a3d4cd285a599.png\"],\"images/drivers/fixDef.png\":[\"images/drivers/fixDef.b2e0bc0bedbf87d3.png\"],\"images/drivers/fixDel.png\":[\"images/drivers/fixDel.8531251cc9fd56ce.png\"],\"images/drivers/fixIndicatorSel.png\":[\"images/drivers/fixIndicatorSel.06ee37cb127abbc3.png\"],\"images/drivers/fixIndicatorSelCursorSel.png\":[\"images/drivers/fixIndicatorSelCursorSel.e5c83359f231e5c0.png\"],\"images/drivers/keyAddCursorHover.png\":[\"images/drivers/keyAddCursorHover.4b79109676471eb2.png\"],\"images/drivers/keyAddCursorSelHover.png\":[\"images/drivers/keyAddCursorSelHover.fdd7d1177aa2f013.png\"],\"images/drivers/keyAddDef.png\":[\"images/drivers/keyAddDef.ffed4dce7c298ae9.png\"],\"images/drivers/keyCursorHover.png\":[\"images/drivers/keyCursorHover.670f1fce0af91b46.png\"],\"images/drivers/keyCursorSel.png\":[\"images/drivers/keyCursorSel.9283e2928a195fa9.png\"],\"images/drivers/keyDef.png\":[\"images/drivers/keyDef.42d6d707c3d5fee5.png\"],\"images/drivers/keyDelCursorSel.png\":[\"images/drivers/keyDelCursorSel.1fd34ad71f203f5c.png\"],\"images/drivers/keyDelCursorSelHover.png\":[\"images/drivers/keyDelCursorSelHover.9c2d3a7662217d77.png\"],\"images/drivers/keyHoverDelIndicatiorSelCursorSel.png\":[\"images/drivers/keyHoverDelIndicatiorSelCursorSel.5d30c97f24dbd738.png\"],\"images/drivers/keyIndicatiorSelCursorSel.png\":[\"images/drivers/keyIndicatiorSelCursorSel.7e13509f97764e48.png\"],\"images/drivers/keyIndicatorSel.png\":[\"images/drivers/keyIndicatorSel.4972191e7e69e58b.png\"],\"images/embed_form_tips.png\":[\"images/embed_form_tips.5a17e763e5222cc0.png\"],\"images/embed_spotify_tips.png\":[\"images/embed_spotify_tips.29d0224063901979.png\"],\"images/entity.png\":[\"images/entity.072c6cfc3be5f208.png\"],\"images/entity_attribute.png\":[\"images/entity_attribute.e399464d97990f50.png\"],\"images/entity_dragbar_14.png\":[\"images/entity_dragbar_14.7855076a7026b990.png\"],\"images/event.png\":[\"images/event.52f38b8db5b5c4fc.png\"],\"images/exp_dot_add.png\":[\"images/exp_dot_add.811b425de243851a.png\"],\"images/exp_dot_add_hover.png\":[\"images/exp_dot_add_hover.c5e36e4e241b7672.png\"],\"images/exp_dot_delete.png\":[\"images/exp_dot_delete.8af5e0e35bed795b.png\"],\"images/exp_dot_delete_hover.png\":[\"images/exp_dot_delete_hover.17848d4a5b79d481.png\"],\"images/favicon_preview.png\":[\"images/favicon_preview.e698d8099f3d3478.png\"],\"images/folder_close.png\":[\"images/folder_close.d9fcfddb16789c77.png\"],\"images/gap-pattern.png\":[\"images/gap-pattern.3d2022678bc6e1ed.png\"],\"images/groovy_action.png\":[\"images/groovy_action.2e814b7f622630b9.png\"],\"images/image_placeholder.png\":[\"images/image_placeholder.0ffe85628b71820d.png\"],\"images/input_parameter.png\":[\"images/input_parameter.892628e95e5fda27.png\"],\"images/insert2_widget_3d.png\":[\"images/insert2_widget_3d.0213c6e58715e043.png\"],\"images/insert2_widget_apple_music.png\":[\"images/insert2_widget_apple_music.fae2e6621a0778ba.png\"],\"images/insert2_widget_audio.png\":[\"images/insert2_widget_audio.2eb883ea280e4329.png\"],\"images/insert2_widget_columns.png\":[\"images/insert2_widget_columns.83507965d697dba0.png\"],\"images/insert2_widget_container.png\":[\"images/insert2_widget_container.9c97eb3b3426b123.png\"],\"images/insert2_widget_embed.png\":[\"images/insert2_widget_embed.3105c882e551c649.png\"],\"images/insert2_widget_embed_forms.png\":[\"images/insert2_widget_embed_forms.68a3a52cc6a25a0e.png\"],\"images/insert2_widget_feather.png\":[\"images/insert2_widget_feather.e7d371f96a0829be.png\"],\"images/insert2_widget_get_waitlist.png\":[\"images/insert2_widget_get_waitlist.ab783e3407dcbc6e.png\"],\"images/insert2_widget_grid.png\":[\"images/insert2_widget_grid.5ff9af65a0779d63.png\"],\"images/insert2_widget_grid_view.png\":[\"images/insert2_widget_grid_view.89b8daecff8bf837.png\"],\"images/insert2_widget_hubspot.png\":[\"images/insert2_widget_hubspot.f3757c675aab387f.png\"],\"images/insert2_widget_iconoir.png\":[\"images/insert2_widget_iconoir.4cd3a9ab4da64d98.png\"],\"images/insert2_widget_image.png\":[\"images/insert2_widget_image.3bc80f05446d60fc.png\"],\"images/insert2_widget_image_seq.png\":[\"images/insert2_widget_image_seq.fce134c8d43c8c5c.png\"],\"images/insert2_widget_input.png\":[\"images/insert2_widget_input.3da84aa4927bea2d.png\"],\"images/insert2_widget_list_view.png\":[\"images/insert2_widget_list_view.f867ceb49e19f8a1.png\"],\"images/insert2_widget_lottie.png\":[\"images/insert2_widget_lottie.fdbf35d897000dde.png\"],\"images/insert2_widget_mailchimp.png\":[\"images/insert2_widget_mailchimp.bf876d088d221a1e.png\"],\"images/insert2_widget_material.png\":[\"images/insert2_widget_material.ee4c276903913cd2.png\"],\"images/insert2_widget_phosphor.png\":[\"images/insert2_widget_phosphor.f5e4b066034b5c5e.png\"],\"images/insert2_widget_remix.png\":[\"images/insert2_widget_remix.37ff9ec730386c31.png\"],\"images/insert2_widget_rows.png\":[\"images/insert2_widget_rows.6307766831a32c8e.png\"],\"images/insert2_widget_spotify.png\":[\"images/insert2_widget_spotify.dddbe56aa0174131.png\"],\"images/insert2_widget_text.png\":[\"images/insert2_widget_text.ca75b26b01d7aaf0.png\"],\"images/insert2_widget_typeform.png\":[\"images/insert2_widget_typeform.3c14e941f95abc60.png\"],\"images/insert2_widget_video.png\":[\"images/insert2_widget_video.897f30476310ca5d.png\"],\"images/insert2_widget_youtube.png\":[\"images/insert2_widget_youtube.5daa3ff0ef1fc401.png\"],\"images/lightning_16.png\":[\"images/lightning_16.7b48bbfb5ddd5afc.png\"],\"images/lightning_active_16.png\":[\"images/lightning_active_16.26166e31403df52d.png\"],\"images/lightning_circle_16.png\":[\"images/lightning_circle_16.31d0cc41dac2931b.png\"],\"images/lightning_circle_active.png\":[\"images/lightning_circle_active.b3c13de3b888bbfc.png\"],\"images/lightning_circle_hover_16.png\":[\"images/lightning_circle_hover_16.d8a3ab16b907b5e1.png\"],\"images/lightning_hover_16.png\":[\"images/lightning_hover_16.3b1693bed0115cb0.png\"],\"images/loading.gif\":[\"images/loading.b59c51fab6a8d60f.gif\"],\"images/loading_white.gif\":[\"images/loading_white.80ac0bd6a33360bc.gif\"],\"images/logic_action.png\":[\"images/logic_action.199bf27602ad3aea.png\"],\"images/logic_generic_action.png\":[\"images/logic_generic_action.95c11f77efac955c.png\"],\"images/logic_go_page.png\":[\"images/logic_go_page.b4425b1f32f5268b.png\"],\"images/logic_server_action.png\":[\"images/logic_server_action.3c9a7980ed666346.png\"],\"images/long_arrow.png\":[\"images/long_arrow.14b29eb753eaf34e.png\"],\"images/long_arrow_down.png\":[\"images/long_arrow_down.6dcc39a0425fd881.png\"],\"images/ndflow_1.gif\":[\"images/ndflow_1.0de3132cce20171b.gif\"],\"images/ndflow_2.gif\":[\"images/ndflow_2.65cb421f0ef31760.gif\"],\"images/ndflow_3.gif\":[\"images/ndflow_3.3b331df4f9a44319.gif\"],\"images/ndflow_4.gif\":[\"images/ndflow_4.7897b90a6dc32f67.gif\"],\"images/onboarding_complete.png\":[\"images/onboarding_complete.73b91f3bfd25ebfb.png\"],\"images/onboarding_quit_midway.png\":[\"images/onboarding_quit_midway.16ef0ae600895e2a.png\"],\"images/out_parameter.png\":[\"images/out_parameter.1bc2c153ab414e5c.png\"],\"images/page.png\":[\"images/page.419218ff62e76224.png\"],\"images/progress_indicator_blue.png\":[\"images/progress_indicator_blue.7470ceac08c08ce2.png\"],\"images/progress_indicator_white.png\":[\"images/progress_indicator_white.eb87d1662e561006.png\"],\"images/ref_entity_identifier.png\":[\"images/ref_entity_identifier.65272bf8867be7d9.png\"],\"images/server_data_action.png\":[\"images/server_data_action.b0776ae48efa7fa1.png\"],\"images/step_one.png\":[\"images/step_one.1dcefcc3e840f04f.png\"],\"images/step_two.png\":[\"images/step_two.0e4e7c6fc64e004f.png\"],\"images/step_two_center.png\":[\"images/step_two_center.9ef298df7f796562.png\"],\"images/step_two_left.png\":[\"images/step_two_left.81f6563b4c6e1f54.png\"],\"images/step_two_ok.png\":[\"images/step_two_ok.b9be5299234bdcfb.png\"],\"images/step_two_right.png\":[\"images/step_two_right.1959fdd82827d764.png\"],\"images/threed_in_list.png\":[\"images/threed_in_list.d509a8cdb10ac389.png\"],\"images/threed_placeholder.png\":[\"images/threed_placeholder.457a031bb868fdb3.png\"],\"images/topbar_logo_20.png\":[\"images/topbar_logo_20.9712852f086aa916.png\"],\"images/topbar_logo_active_20.png\":[\"images/topbar_logo_active_20.1c8a56e0c46b40e9.png\"],\"images/topbar_publish_image.png\":[\"images/topbar_publish_image.c0c3a8324ea50ab2.png\"],\"images/unpublished_status.png\":[\"images/unpublished_status.2ec310d87fccc502.png\"],\"images/variable.png\":[\"images/variable.3d2de480f7460bc6.png\"],\"images/video_play_cover.png\":[\"images/video_play_cover.e5bbb035fe11a560.png\"],\"images/video_preview_checkerboard.png\":[\"images/video_preview_checkerboard.ff7a3bb6d64feb48.png\"],\"packages/dora_icons/fonts/icon_12.ttf\":[\"packages/dora_icons/fonts/icon_12.403f324ab9508baf.ttf\"],\"packages/dora_icons/fonts/icon_16.ttf\":[\"packages/dora_icons/fonts/icon_16.5cd92e421219e5ec.ttf\"],\"packages/dora_icons/fonts/icon_24.ttf\":[\"packages/dora_icons/fonts/icon_24.0468950914598b69.ttf\"],\"packages/dora_icons/fonts/icon_32.ttf\":[\"packages/dora_icons/fonts/icon_32.d9bd000d8c182eb2.ttf\"],\"packages/embed_widget/html/index.html\":[\"packages/embed_widget/html/index.b44772e36aabfc53.html\"],\"packages/html2canvas/assets/html2canvas.min.js\":[\"packages/html2canvas/assets/html2canvas.min.d26bc29304f817a1.js\"],\"packages/keyframe/images/keyframe_auto_key_off.png\":[\"packages/keyframe/images/keyframe_auto_key_off.9fccb1a5457114be.png\"],\"packages/keyframe/images/keyframe_auto_key_on.png\":[\"packages/keyframe/images/keyframe_auto_key_on.788ef107f4e1ffe0.png\"],\"packages/keyframe/images/keyframe_delete_widget.png\":[\"packages/keyframe/images/keyframe_delete_widget.d0025c96b7e23782.png\"],\"packages/keyframe/images/keyframe_fix.png\":[\"packages/keyframe/images/keyframe_fix.ab4e1f2a14139e1c.png\"],\"packages/keyframe/images/keyframe_fix_del.png\":[\"packages/keyframe/images/keyframe_fix_del.8531251cc9fd56ce.png\"],\"packages/keyframe/images/keyframe_fix_hover.png\":[\"packages/keyframe/images/keyframe_fix_hover.1f1892017d15eb3b.png\"],\"packages/ui_kit/fonts.json\":[\"packages/ui_kit/fonts.f35899969bdca7a5.json\"],\"packages/youtube_player/html/player.html\":[\"packages/youtube_player/html/player.64bd4e71a486fe93.html\"],\"packages/youtube_player/images/back_to_start.png\":[\"packages/youtube_player/images/back_to_start.a52f343e5323c817.png\"],\"packages/youtube_player/images/mute.png\":[\"packages/youtube_player/images/mute.95b04f47768ca4ad.png\"],\"packages/youtube_player/images/play.png\":[\"packages/youtube_player/images/play.1e2d86f0812b3b25.png\"],\"packages/youtube_player/images/stop.png\":[\"packages/youtube_player/images/stop.e83acc101c599f14.png\"],\"packages/youtube_player/images/unmute.png\":[\"packages/youtube_player/images/unmute.0ef0737e7e8dc720.png\"],\"packages/youtube_player/images/youtube_logo.png\":[\"packages/youtube_player/images/youtube_logo.6b903e9130dcbb5d.png\"],\"threed_renderer/build/chunk.bundle.js\":[\"threed_renderer.ae9978b6ff7b0e25/build/chunk.bundle.js\"],\"threed_renderer/build/chunk.bundle.js.map\":[\"threed_renderer.ae9978b6ff7b0e25/build/chunk.bundle.js.map\"],\"threed_renderer/build/draco_decoder_gltf.wasm\":[\"threed_renderer.ae9978b6ff7b0e25/build/draco_decoder_gltf.wasm\"],\"threed_renderer/build/draco_encoder.wasm\":[\"threed_renderer.ae9978b6ff7b0e25/build/draco_encoder.wasm\"],\"threed_renderer/build/editor.js\":[\"threed_renderer.ae9978b6ff7b0e25/build/editor.js\"],\"threed_renderer/build/editor.js.LICENSE.txt\":[\"threed_renderer.ae9978b6ff7b0e25/build/editor.js.LICENSE.txt\"],\"threed_renderer/build/editor.js.map\":[\"threed_renderer.ae9978b6ff7b0e25/build/editor.js.map\"],\"threed_renderer/build/glbCompress.js\":[\"threed_renderer.ae9978b6ff7b0e25/build/glbCompress.js\"],\"threed_renderer/build/glbCompress.js.map\":[\"threed_renderer.ae9978b6ff7b0e25/build/glbCompress.js.map\"],\"threed_renderer/build/runner.js\":[\"threed_renderer.ae9978b6ff7b0e25/build/runner.js\"],\"threed_renderer/build/runner.js.LICENSE.txt\":[\"threed_renderer.ae9978b6ff7b0e25/build/runner.js.LICENSE.txt\"],\"threed_renderer/build/runner.js.map\":[\"threed_renderer.ae9978b6ff7b0e25/build/runner.js.map\"]}","FontManifest.json":"[{\"family\":\"packages/dora_icons/DoraIcon12\",\"fonts\":[{\"asset\":\"https://cdn-static-e.dora.run/dora_editor_v2/assets/packages/dora_icons/fonts/icon_12.403f324ab9508baf.ttf\"}]},{\"family\":\"packages/dora_icons/DoraIcon16\",\"fonts\":[{\"asset\":\"https://cdn-static-e.dora.run/dora_editor_v2/assets/packages/dora_icons/fonts/icon_16.5cd92e421219e5ec.ttf\"}]},{\"family\":\"packages/dora_icons/DoraIcon24\",\"fonts\":[{\"asset\":\"https://cdn-static-e.dora.run/dora_editor_v2/assets/packages/dora_icons/fonts/icon_24.0468950914598b69.ttf\"}]},{\"family\":\"packages/dora_icons/DoraIcon32\",\"fonts\":[{\"asset\":\"https://cdn-static-e.dora.run/dora_editor_v2/assets/packages/dora_icons/fonts/icon_32.d9bd000d8c182eb2.ttf\"}]}]","NOTICES":"Dora Inc."};
+      const _fetch = window.fetch;
+      window.fetch = (resource, options) => {
+        if (typeof resource === 'string') {
+          if (resource.startsWith('assets/')) {
+            const assetKey = resource.replace('assets/', '')
+            const assetValue = window.FLUTTER_PRE_ASSET_BUNDLE[assetKey]
+            if (assetValue) {
+              return new Promise((resolve, reject) => resolve(new Response(assetValue)))
+            }
+          } else if (resource.includes('/version.json?cachebuster')) {
+            const versionJson = {
+              'app_name': 'dora_editor',
+              'version': '2.3.7',
+              'package_name': 'dora_editor',
+            };
+            return new Promise((resolve, reject) =>
+              resolve(new Response(JSON.stringify(versionJson))),
+            )
+          }
+        }
+        return _fetch(resource, options);
+      };
+    </script>
+    
+
+    <script>
+      function isChromeAndVersionAbove120() {
+        const userAgentString = navigator.userAgent;
+        const chromeAgent = userAgentString.match(/Chrome\/(\d+)/);
+
+        if (chromeAgent && chromeAgent.length > 1) {
+          const version = parseInt(chromeAgent[1], 10);
+          return version >= 120;
+        }
+        return false;
+      }
+
+      async function disableImageDecoder() {
+        if (window.ImageDecoder) {
+          var data = await navigator.userAgentData.getHighEntropyValues(['architecture']);
+
+          if (data.platform === "macOS" && data.architecture === "x86") {
+            if (isChromeAndVersionAbove120()) {
+              delete window.ImageDecoder
+            }
+          }
+        }
+      }
+
+      try {
+        disableImageDecoder();
+      } catch (error) {
+        console.warn(error)
+      }
+    </script>
+
+    <script>
+      function loadScript(src) {
+        return new Promise(function (resolve, reject) {
+          var script = document.createElement('script');
+          script.src = src;
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.appendChild(script);
+        });
+      }
+      function preload(src) {
+        return new Promise(function (resolve, reject) {
+          var el = document.createElement('link');
+          el.rel = 'preload';
+          el.href = src;
+          el.as = 'script';
+          document.head.appendChild(el);
+        });
+      }
+    </script>
+
+
+
+    <script>
+      window.captureError = function (event, source, lineno, colno, error) {
+        window.captureErrorDart && window.captureErrorDart(event, source, lineno, colno, error)
+      }
+    </script>
+    <script>
+      (function (global) {
+        document.addEventListener('contextmenu', function (e) {
+          e.preventDefault();
+        })
+      })(window);
+    </script>
+
+    <script>
+      (function () {
+        if (
+          (/^http:\/\/localhost:\d+\/.*\?.*preview[tT]oken=/.test(window.location.href) ||
+            /^[^.]+\.preview(-(test|prerelease))?\.dora.run$/.test(window.location.host))
+        ) {
+          if (document.querySelector("#loading")) {
+              document.querySelector("#loading").bgColor = 'black';
+          }
+          if (document.querySelector("#loading_gif")) {
+              document.querySelector("#loading_gif").src = "https://cdn-static-e.dora.run/dora_editor_v2/loading_white.80ac0bd6a33360bc.gif";
+          }
+        }
+
+      })();
+    </script>
+
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+        overscroll-behavior-x: none;
+      }
+      video {
+        clip-path: inset(1px 1px);
+      }
+      video:focus {
+        outline: -webkit-focus-ring-color auto 0px;
+      }
+      #loading {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+      }
+      #loading img {
+        width: 58px;
+        height: 58px;
+      }
+
+      @font-face {
+        font-family: 'Inter';
+        src: url('https://cdn-static-e.dora.run/fonts/v4/Inter-600.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <script>
+      window.startPreload = function(assetUrls) {
+        if( assetUrls != undefined) {
+          assetUrls.split(',').forEach(element => {
+            var link = document.createElement("link");
+            link.rel = 'prefetch';
+            link.href = element;
+            link.as = 'fetch';
+            link.setAttribute("crossorigin", "anonymous");
+            document.head.appendChild(link);
+          });
+        }
+      }
+
+      window.startPreloadElements = function() {
+        let elements = document.querySelectorAll('head > link[class="preload"]');
+        for (let elem of elements) {
+          var link = document.createElement("link");
+          link.rel = 'prefetch';
+          link.href = elem.href;
+          link.as = elem.as;
+          link.setAttribute("crossorigin", elem.getAttribute("crossorigin"));
+          document.head.appendChild(link);
+        }
+      }
+
+      async function fetchImage(url) {
+        let response = await fetch(url, { mode: "cors", keepalive: true });
+        const reader = response.body.getReader();
+        const contentLength = +response.headers.get('Content-Length');
+        return [reader, contentLength, response.status];
+      }
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-JPSGKY82PS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.MEASUREMENT_ID = 'G-JPSGKY82PS';
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', MEASUREMENT_ID);
+    </script>
+
+
+
+  <script>window.DORA_PROJECT_PREPARATION="{\"summary\":{\"fonts\":{\"PingFang SC-Regular\":[\"WOeGJX4gj\",\"WVwBTypRC\"],\"PingFang SC Lite-Medium\":[\"WjXtL35G3\",\"Wi5E3rXZ6\",\"WyzeRtDIJ\",\"Wc7sFlo4R\",\"WCy4pNiTY\",\"WFAWB3EKf\",\"WBtZjSZMT\",\"W3rSIILJb\",\"WmC67Wdfg\",\"WG9itpnho\",\"W1zacl0iE\",\"WK1jejB4i\",\"WowyHkduW\",\"W5xA1u87b\",\"W5du7VC1H\",\"W0Y6DTk1y\",\"WLyW3yzjX\",\"WUYNezdlu\",\"WxA5WK6gx\",\"WzJOOda14\",\"WnRwSBxkt\"],\"PingFang SC Lite-Light\":[\"WCkUY1RzT\",\"W06NF5YZt\",\"WfmRcVkrU\",\"WxAc2eE2i\"],\"Poppins-SemiBold\":[\"WF8j3Z7BV\",\"Wy26QMOaR\",\"WTKMvrxA5\",\"WtQ9JRZlH\"],\"Gothic A1-Bold\":[\"W5jXEwgP0\",\"W1XNtwoY5\",\"WMnnRoqJA\",\"Wk5ajhS2M\"],\"PingFang SC Lite-SemiBold\":[\"WQmQXECLI\",\"W4op5pNgf\",\"WwsqP7v4f\",\"WjUSRUA5O\"],\"Roboto-Regular\":[\"CIgwrzqPG~1#root\"],\"Source Sans Pro-Bold\":[\"WlDctuzk0\",\"WE0nJ6GXK\"],\"Source Sans Pro-Regular\":[\"WsdHKYR1o\",\"WsyhPNyT8\",\"W1qMZ1DBt\",\"W1OnI3rCb\",\"WGDW8VmOS\"]},\"last_modified\":1683274622860},\"editorVersion\":\"v2\",\"releaseVersion\":null,\"domain\":null,\"name\":\"iPad Air-copy\",\"id\":\"3155963\",\"api\":{\"/action\":{\"version\":\"811be905-32cc-4bf2-89b9-6d4730c61584\"},\"/project/get\":{\"version\":\"0fc878de-8442-4856-9203-9bdb743b34e5\"},\"/meta\":{\"version\":\"5688ca19-2621-4336-a302-9a31b2ee3d16\"}}}";</script><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/PingFang-SC-regular.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/PingFang-SC-Lite-500.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/PingFang-SC-Lite-300.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/Poppins-600.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/Gothic-A1-700.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/PingFang-SC-Lite-600.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/Roboto-regular.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/Source-Sans-Pro-700.ttf" as="font" crossorigin="anonymous"><link rel="preload" href="https://cdn-static-e.dora.run/fonts/v4/Source-Sans-Pro-regular.ttf" as="font" crossorigin="anonymous"><!-- Open Graph / Facebook -->
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="Dora Site Remix Link">
+            <meta property="og:description" content="Duplicate and remix my Dora site!">
+            <!-- Twitter -->
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:title" content="Dora Site Remix Link">
+            <meta name="twitter:description" content="Duplicate and remix my Dora site!">
+            <style>
+  .dora-shutdown-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999999;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 0 16px;
+    gap: 4px;
+  }
+  .dora-shutdown-banner a {
+    color: #7cb3ff;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .dora-shutdown-banner a:hover {
+    text-decoration: underline;
+  }
+  .h-screen {
+    height: calc(100vh - 40px) !important;
+  }
+  body > .h-screen {
+    margin-top: 40px !important;
+  }
+  #headlessui-portal-root .fixed {
+    top: 40px !important;
+  }
+  @media (max-width: 520px) {
+    .dora-shutdown-banner {
+      font-size: 12px;
+      height: 36px;
+    }
+    .h-screen {
+      height: calc(100vh - 36px) !important;
+    }
+    body > .h-screen {
+      margin-top: 36px !important;
+    }
+    #headlessui-portal-root .fixed {
+      top: 36px !important;
+    }
+  }
+</style>
+<script>
+(function() {
+  var H = window.matchMedia('(max-width:520px)').matches ? 36 : 40;
+  var GUIDE = 'https://dolomite-apartment-b0f.notion.site/Dora-will-be-shutting-down-on-May-1-2026-33309680815f802aab6df9f880feff61';
+  var adjusted = new WeakSet();
+
+  function createBanner() {
+    var d = document.createElement('div');
+    d.className = 'dora-shutdown-banner';
+    d.innerHTML = '<span>Dora will be shutting down on May 1, 2026.</span> ' +
+      '<a href="' + GUIDE + '" target="_blank" rel="noopener noreferrer">View the migration guide\u00a0\u2192</a>';
+    return d;
+  }
+
+  function ensureBanner() {
+    if (!document.body) return;
+    if (document.querySelector('.dora-shutdown-banner')) return;
+    document.body.prepend(createBanner());
+  }
+
+  function adjust(el) {
+    if (adjusted.has(el)) return;
+    if (el.classList && el.classList.contains('dora-shutdown-banner')) return;
+    var tag = el.tagName;
+    if (tag === 'STYLE' || tag === 'SCRIPT' || tag === 'LINK') return;
+    var s = window.getComputedStyle(el);
+    var pos = s.position;
+    if (pos === 'absolute' || pos === 'fixed') {
+      var t = parseInt(s.top, 10) || 0;
+      el.style.setProperty('top', (t + H) + 'px', 'important');
+      var h = s.height;
+      if (h === '100%' || h === window.innerHeight + 'px' || h === document.documentElement.clientHeight + 'px') {
+        el.style.setProperty('height', 'calc(100% - ' + H + 'px)', 'important');
+      }
+      adjusted.add(el);
+    }
+  }
+
+  function adjustLayout() {
+    if (!document.body) return;
+    var children = document.body.children;
+    for (var i = 0; i < children.length; i++) adjust(children[i]);
+  }
+
+  function run() {
+    ensureBanner();
+    adjustLayout();
+  }
+
+  var bodyObs;
+  function watchBody() {
+    if (bodyObs || !document.body) return;
+    run();
+    bodyObs = new MutationObserver(run);
+    bodyObs.observe(document.body, { childList: true });
+  }
+
+  if (document.body) {
+    watchBody();
+  } else {
+    var htmlObs = new MutationObserver(function() {
+      if (document.body) {
+        htmlObs.disconnect();
+        watchBody();
+      }
+    });
+    htmlObs.observe(document.documentElement, { childList: true });
+  }
+})();
+</script></head>
+
+  <body>
+    <div id="dora_edit_skeleton">
+    </div>
+    <script>
+      if (/^\/e\/\d+/.test(window.document.location.pathname)) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", "https://cdn-static-e.dora.run/dora_editor_v2/edit_skeleton.26707066dc7fc1be.html", false);
+        xmlhttp.send();
+        var dom = document.getElementById('dora_edit_skeleton');
+        if (dom) {
+          dom.innerHTML = xmlhttp.responseText;
+        }
+      }
+    </script>
+    <div id="loading">
+      <picture>
+        <img id="loading_gif" src="https://cdn-static-e.dora.run/dora_editor_v2/loading.6330c237a27f80f1.gif" alt="loading">
+      </picture>
+    </div>
+    <div id="simple_loading" style="display: none;" data-loading-png="logomark.png"  data-loading-webp="https://cdn-static-e.dora.run/dora_editor_v2/loading.be79e9c282eb3c27.webp" data-loading-gif="https://cdn-static-e.dora.run/dora_editor_v2/loading.6330c237a27f80f1.gif"></div>
+    <script src="https://cdn-zip-us-aws-e.dora.run/@lume/kiwi@0.3.2/lib/kiwi.min.js"></script>
+    <script src="https://cdn-static-e.dora.run/loro-umd@1.1.3/loro.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+
+
+    <script>
+            (()=>{var L=()=>navigator.vendor==="Google Inc."||navigator.agent==="Edg/",W=()=>typeof ImageDecoder>"u"?!1:L(),E=()=>typeof Intl.v8BreakIterator<"u"&&typeof Intl.Segmenter<"u",P=()=>{let s=[0,97,115,109,1,0,0,0,1,5,1,95,1,120,0];return WebAssembly.validate(new Uint8Array(s))},p={hasImageCodecs:W(),hasChromiumBreakIterators:E(),supportsWasmGC:P(),crossOriginIsolated:window.crossOriginIsolated};function u(...s){return new URL(S(...s),"https://cdn-static-e.dora.run/dora_editor_v2/").toString()}function S(...s){return s.filter(t=>!!t).map((t,i)=>i===0?_(t):j(_(t))).filter(t=>t.length).join("/")}function j(s){let t=0;for(;t<s.length&&s.charAt(t)==="/";)t++;return s.substring(t)}function _(s){let t=s.length;for(;t>0&&s.charAt(t-1)==="/";)t--;return s.substring(0,t)}function b(s,t){return s.canvasKitBaseUrl?s.canvasKitBaseUrl:t.engineRevision&&!t.useLocalCanvasKit?S("https://www.gstatic.com/flutter-canvaskit",t.engineRevision):"canvaskit"}var h=class{constructor(){this._scriptLoaded=!1}setTrustedTypesPolicy(t){this._ttPolicy=t}async loadEntrypoint(t){let{entrypointUrl:i=u("main.dart.js"),onEntrypointLoaded:r,nonce:e}=t||{};return this._loadJSEntrypoint(i,r,e)}async load(t,i,r,e,n){n??=o=>{o.initializeEngine(r).then(l=>l.runApp())};let{entryPointBaseUrl:a}=r;if(t.compileTarget==="dart2wasm")return this._loadWasmEntrypoint(t,i,a,n);{let o=t.mainJsPath??"main.dart.js",l=u(a,o);return this._loadJSEntrypoint(l,n,e)}}didCreateEngineInitializer(t){typeof this._didCreateEngineInitializerResolve=="function"&&(this._didCreateEngineInitializerResolve(t),this._didCreateEngineInitializerResolve=null,delete _flutter.loader.didCreateEngineInitializer),typeof this._onEntrypointLoaded=="function"&&this._onEntrypointLoaded(t)}_loadJSEntrypoint(t,i,r){let e=typeof i=="function";if(!this._scriptLoaded){this._scriptLoaded=!0;let n=this._createScriptTag(t,r);if(e)console.debug("Injecting <script> tag. Using callback."),this._onEntrypointLoaded=i,document.head.append(n);else return new Promise((a,o)=>{console.debug("Injecting <script> tag. Using Promises. Use the callback approach instead!"),this._didCreateEngineInitializerResolve=a,n.addEventListener("error",o),document.head.append(n)})}}async _loadWasmEntrypoint(t,i,r,e){if(!this._scriptLoaded){this._scriptLoaded=!0,this._onEntrypointLoaded=e;let{mainWasmPath:n,jsSupportRuntimePath:a}=t,o=u(r,n),l=u(r,a);this._ttPolicy!=null&&(l=this._ttPolicy.createScriptURL(l));let m=WebAssembly.compileStreaming(fetch(o)),c=await import(l),w;t.renderer==="skwasm"?w=(async()=>{let d=await i.skwasm;return window._flutter_skwasmInstance=d,{skwasm:d.wasmExports,skwasmWrapper:d,ffi:{memory:d.wasmMemory}}})():w={};let f=await c.instantiate(m,w);await c.invoke(f)}}_createScriptTag(t,i){let r=document.createElement("script");r.type="application/javascript",i&&(r.nonce=i);let e=t;return this._ttPolicy!=null&&(e=this._ttPolicy.createScriptURL(t)),r.src=e,r}};async function T(s,t,i){if(t<0)return s;let r,e=new Promise((n,a)=>{r=setTimeout(()=>{a(new Error(`${i} took more than ${t}ms to resolve. Moving on.`,{cause:T}))},t)});return Promise.race([s,e]).finally(()=>{clearTimeout(r)})}var v=class{setTrustedTypesPolicy(t){this._ttPolicy=t}loadServiceWorker(t){if(!t)return console.debug("Null serviceWorker configuration. Skipping."),Promise.resolve();if(!("serviceWorker"in navigator)){let o="Service Worker API unavailable.";return window.isSecureContext||(o+=`
+The current context is NOT secure.`,o+=`
+Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts`),Promise.reject(new Error(o))}let{serviceWorkerVersion:i,serviceWorkerUrl:r=u(`flutter_service_worker.js?v=${i}`),timeoutMillis:e=4e3}=t,n=r;this._ttPolicy!=null&&(n=this._ttPolicy.createScriptURL(n));let a=navigator.serviceWorker.register(n).then(o=>this._getNewServiceWorker(o,i)).then(this._waitForServiceWorkerActivation);return T(a,e,"prepareServiceWorker")}async _getNewServiceWorker(t,i){if(!t.active&&(t.installing||t.waiting))return console.debug("Installing/Activating first service worker."),t.installing||t.waiting;if(t.active.scriptURL.endsWith(i))return console.debug("Loading from existing service worker."),t.active;{let r=await t.update();return console.debug("Updating service worker."),r.installing||r.waiting||r.active}}async _waitForServiceWorkerActivation(t){if(!t||t.state==="activated")if(t){console.debug("Service worker already active.");return}else throw new Error("Cannot activate a null service worker!");return new Promise((i,r)=>{t.addEventListener("statechange",()=>{t.state==="activated"&&(console.debug("Activated new service worker."),i())})})}};var y=class{constructor(t,i="flutter-js"){let r=t||[/\.js$/,/\.mjs$/];window.trustedTypes&&(this.policy=trustedTypes.createPolicy(i,{createScriptURL:function(e){if(e.startsWith("blob:"))return e;let n=new URL(e,window.location),a=n.pathname.split("/").pop();if(r.some(l=>l.test(a)))return n.toString();console.error("URL rejected by TrustedTypes policy",i,":",e,"(download prevented)")}}))}};var g=s=>{let t=WebAssembly.compileStreaming(fetch(s));return(i,r)=>((async()=>{let e=await t,n=await WebAssembly.instantiate(e,i);r(n,e)})(),{})};var I=(s,t,i,r)=>(window.flutterCanvasKitLoaded=(async()=>{if(window.flutterCanvasKit)return window.flutterCanvasKit;let e=i.hasChromiumBreakIterators&&i.hasImageCodecs;if(!e&&t.canvasKitVariant=="chromium")throw"Chromium CanvasKit variant specifically requested, but unsupported in this browser";let n=e&&t.canvasKitVariant!=="full",a=r;n&&(a=u(a,"chromium"));let o=u(a,"canvaskit.js");s.flutterTT.policy&&(o=s.flutterTT.policy.createScriptURL(o));let l=g(u(a,"canvaskit.wasm")),m=await import(o);return window.flutterCanvasKit=await m.default({instantiateWasm:l}),window.flutterCanvasKit})(),window.flutterCanvasKitLoaded);var U=async(s,t,i,r)=>{let e=u(r,"skwasm.js"),n=e;s.flutterTT.policy&&(n=s.flutterTT.policy.createScriptURL(n));let a=g(u(r,"skwasm.wasm"));return await(await import(n)).default({instantiateWasm:a,locateFile:(l,m)=>{let c=m+l;return c.endsWith(".worker.js")?URL.createObjectURL(new Blob([`importScripts('${c}');`],{type:"application/javascript"})):c},mainScriptUrlOrBlob:e})};var k=class{async loadEntrypoint(t){let{serviceWorker:i,...r}=t||{},e=new y,n=new v;n.setTrustedTypesPolicy(e.policy),await n.loadServiceWorker(i).catch(o=>{console.warn("Exception while loading service worker:",o)});let a=new h;return a.setTrustedTypesPolicy(e.policy),this.didCreateEngineInitializer=a.didCreateEngineInitializer.bind(a),a.loadEntrypoint(r)}async load({serviceWorkerSettings:t,onEntrypointLoaded:i,nonce:r,config:e}={}){e??={};let n=_flutter.buildConfig;if(!n)throw"FlutterLoader.load requires _flutter.buildConfig to be set";let a=d=>{switch(d){case"skwasm":return p.crossOriginIsolated&&p.hasChromiumBreakIterators&&p.hasImageCodecs&&p.supportsWasmGC;default:return!0}},o=(d,C)=>{switch(d.renderer){case"auto":return C=="canvaskit"||C=="html";default:return d.renderer==C}},l=d=>d.compileTarget==="dart2wasm"&&!p.supportsWasmGC||e.renderer&&!o(d,e.renderer)?!1:a(d.renderer),m=n.builds.find(l);if(!m)throw"FlutterLoader could not find a build compatible with configuration and environment.";let c={};c.flutterTT=new y,t&&(c.serviceWorkerLoader=new v,c.serviceWorkerLoader.setTrustedTypesPolicy(c.flutterTT.policy),await c.serviceWorkerLoader.loadServiceWorker(t).catch(d=>{console.warn("Exception while loading service worker:",d)}));let w=b(e,n);m.renderer==="canvaskit"?c.canvasKit=I(c,e,p,w):m.renderer==="skwasm"&&(c.skwasm=U(c,e,p,w));let f=new h;return f.setTrustedTypesPolicy(c.flutterTT.policy),this.didCreateEngineInitializer=f.didCreateEngineInitializer.bind(f),f.load(m,c,e,r,i)}};window._flutter||(window._flutter={});window._flutter.loader||(window._flutter.loader=new k);})();
+//# sourceMappingURL=flutter.js.map
+
+if (!window._flutter) {
+  window._flutter = {};
+}
+_flutter.buildConfig = {"engineRevision":"a18df97ca57a249df5d8d68cd0820600223ce262","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.3e714c56bf344968.js"}]};
+
+
+_flutter.loader.load({
+  config: {
+    canvasKitBaseUrl: 'https://cdn-zip-us-aws-e.dora.run/flutter-canvaskit/a18df97ca57a249df5d8d68cd0820600223ce262/',
+  },
+  serviceWorkerSettings: {
+    serviceWorkerVersion: "1237936627",
+  },
+})
+
+          </script>
+
+    <script src="https://cdn-static-e.dora.run/dora_editor_v2/assets/threed_renderer.ae9978b6ff7b0e25/build/editor.js"></script>
+
+
+    <script>
+      (function () {
+        if (!window.WebAssembly || !window.WebAssembly.Memory) return;
+        var Memory = WebAssembly.Memory;
+        var _grow = Memory.prototype.grow;
+        Memory.prototype.grow = function (n) {
+          var r = _grow.call(this, n);
+          if (r !== -1) {
+            var event = new CustomEvent('wasm-memory-grow', {
+              detail: {
+                size: this.buffer.byteLength
+              }
+            });
+            window.dispatchEvent(event);
+          }
+          return r;
+        };
+      })();
+    </script>
+    <script>
+      (function (global) {
+        global.DoraEditor = {
+          onHotRestart: null,
+          hookHotRestart: function () {
+            var _fn = window.$dartHotRestartDwds;
+            if (_fn) {
+              window.$dartHotRestartDwds = (...args) => {
+                _fn.call(null, ...args)
+                if (typeof DoraEditor['onHotRestart'] == 'function') {
+                  DoraEditor['onHotRestart']();
+                }
+              }
+            }
+          }
+        };
+      })(window);
+    </script>
+
+    <script>
+      (function (global) {
+        global.doraKeyboard = {
+          checker: null,
+        };
+        window.addEventListener('keydown', function (event) {
+          if (typeof global.doraKeyboard.checker !== 'function') return;
+          if (event.ctrlKey || event.metaKey) {
+            global.doraKeyboard.checker(event);
+          }
+          if (event.keyCode == 8 && event.target == document.body) {
+            event.preventDefault();
+          }
+        }, { passive: false });
+        window.addEventListener('focus', function (event) {
+          if (typeof global.doraKeyboard['onFocus'] !== 'function') return;
+          global.doraKeyboard['onFocus'](event);
+        });
+        window.addEventListener('blur', function (event) {
+          if (typeof global.doraKeyboard['onBlur'] !== 'function') return;
+          global.doraKeyboard['onBlur'](event);
+        });
+      })(window);
+
+      window.addEventListener('mousewheel', function (event) {
+        if (event.ctrlKey === true || event.metaKey) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      window.addEventListener('wheel', function (event) {
+        if (event.ctrlKey === true || event.metaKey) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+
+      //firefox
+      window.addEventListener('DOMMouseScroll', function (event) {
+        if (event.ctrlKey === true || event.metaKey) {
+          event.preventDefault();
+        }
+      }, { passive: false });
+    </script>
+
+    <script>
+      window.intercomSettings = {
+        api_base: "https://api-iam.intercom.io",
+        app_id: "q12ieooz",
+        hide_default_launcher: true,
+      };
+      // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/q12ieooz'
+      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/q12ieooz';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+  </body>
+
+</html>

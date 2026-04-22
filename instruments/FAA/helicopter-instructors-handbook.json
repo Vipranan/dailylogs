@@ -1,0 +1,800 @@
+[
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 1: Introduction to Flight Training",
+    "sections": [
+      {
+        "title": "Purpose of Flight Training",
+        "content": "It is the helicopter instructor\u2019s responsibility to discuss the overall purpose of flight training with the student. Explain that the goal of flight training is the acquisition and honing of basic airmanship skills that provide the student with: \u2022 An understanding of the principles of flight. \u2022 The ability to safely operate a helicopter with competence and precision both on the ground and in the air. \u2022 The knowledge required to exercise sound judgment when making decisions affecting operational safety and efficiency. 1-1 Ensure the student understands that a helicopter operates in a three-dimensional environment and requires specific skills to control the aircraft: \u2022 Coordination\u2014the ability to use the hands and feet together subconsciously and in the proper relationship to produce desired"
+      },
+      {
+        "title": "Practical Flight Instructor Strategies",
+        "content": "As discussed in Chapter 8 of the Aviation Instructor Handbook, certificated flight instructors (CFIs) should remember they are a role model for the student. The flight instructor should demonstrate good aviation air sense and practices at all times. 1-2 \u2022 Before the flight\u2014discuss the procedures for the exchange of controls, establish scan areas for clearing the aircraft, and establish who is responsible for initiating immediate action in an emergency. \u2022 During flight\u2014prioritize the tasks of aviating, navigating, and communicating. Instill the importance of \u201csee and avoid\u201d and utilizing aircraft lighting to be more visible in certain flight conditions. \u2022 During landing\u2014conduct stabilized approaches, maintain proper angle and desired rate of closure on final. Use aeronautical decision-makin"
+      },
+      {
+        "title": "Role",
+        "content": "It is imperative that a new student be introduced and become familiar with the role of the Federal Aviation Administration (FAA) in aviation. For the new student, this includes introducing him or her to the parts and subparts of 14 CFR that relate to flight training and pilot certification. To be included are pertinent handbooks, the PTS, and any references the CFI determines to be valuable to the student pilot learning experience. For transitioning pilots, the PTS for the helicopter is a key reference. The student should also be introduced to the Knowledge Test Guides that can be found at www.faa.gov. An online session at the FAA website provides the CFI with an opportunity to introduce the new student and/or transitioning pilot to the many resources now available around the clock. The si"
+      },
+      {
+        "title": "FAA Reference Material",
+        "content": "The reference materials described below, as revised, can be used by the CFI to assemble a handout for the student. An example of such a handout can be found in Appendix A. \u2022 Pilot\u2019s Handbook of Aeronautical Knowledge (FAA-H-8083-25)\u2014provides essential knowledge for pilots as they progress through pilot training. Useful to beginning pilots, as well as those pursuing more advanced certificates. \u2022 Helicopter Flying Handbook (FAA-H-8083-21)\u2014 designed as a technical manual for applicants who are preparing for their private, commercial, or flight instructor pilot certificates with a helicopter class rating. The handbook contains detailed coverage of aerodynamics, flight controls, systems, performance, flight maneuvers, emergencies, and ADM specific to helicopter flight, which makes it a valuable"
+      },
+      {
+        "title": "Role of the Examiner",
+        "content": "The subject of the PTS also offers the CFI an opportunity to discuss the role of the examiner who plays an important role in the FAA\u2019s mission of promoting aviation safety by administering FAA practical tests for pilot and flight instructor certificates and associated ratings. To satisfy the need for pilot testing and certification services, the FAA delegates certain of these responsibilities to private individuals who are not FAA employees. Appointed in accordance with 14 CFR section 183.23, a designated pilot examiner (DPE) is an individual who meets the qualification requirements of the Pilot Examiner\u2019s Handbook, Order 8710.3, and who: \u2022 Is technically qualified. \u2022 Holds all pertinent category, class, and type ratings for each aircraft related to their designation. \u2022 Meets requirements "
+      },
+      {
+        "title": "Role of the Certificated Flight Instructor",
+        "content": "(CFI) The FAA places full responsibility for student flight training on the shoulders of the CFI, who is the cornerstone of aviation safety. It is the job of the flight instructor to train the student in all the knowledge areas and teach the skills necessary for the student to operate safely and competently as a certificated pilot in the NAS. The training is not limited to airmanship skills, but includes pilot judgment and decision-making and good operating practices. A pilot training program depends on the quality of the ground and flight instruction the student receives. A competent instructor must possess a thorough understanding of the learning process, knowledge of the fundamentals of teaching, and the ability to communicate effectively with the student. He or she uses a syllabus and "
+      },
+      {
+        "title": "Flight Safety Practices",
+        "content": "A major component of the FAA\u2019s mission is to improve the nation\u2019s aviation safety record by conveying safety principles and practices through training, outreach, and education. The goal to reduce the number of accidents in the ever increasingly populated airways means safe flight practices are an important element of flight instruction. It is the CFI\u2019s responsibility to incorporate flight safety into the program of training. Do not become complacent about safety while instructing. The CFI must always be vigilant about safety and must instill a safety-first attitude in the student. According to statistics from Helicopter Association International\u2019s (HAI) Five-Year Comparative U.S. Civil Helicopter Safety Trends, the ratio of instructional/training-related accidents to total accidents in the"
+      },
+      {
+        "title": "Helicopter Hazards",
+        "content": "During the entire training program, CFIs should emphasize safe operation of the aircraft. The student must be introduced to and completely understand the flight characteristics of the type helicopter being flown. Loss of tail rotor effectiveness (LTE), dynamic rollover (DRO), and the meaning of and how to interpret the height velocity diagram are three topics of discussion for continuous review. By virtue of its many moving parts, the helicopter presents numerous hazards. [Figure 1-5] It is the responsibility of the CFI to teach safe operating practices in and around the aircraft. A CFI should draw to the attention of the student the hazards that include, but are not limited to the following: \u2022 For single rotor helicopters, students should be taught from the beginning that it is preferred "
+      },
+      {
+        "title": "Instructional Hazards",
+        "content": "Flying a helicopter offers a different set of physical and mental challenges for a student. The stress of learning how to fly is coupled with the physical demands of flying the helicopter. The constant vibration of the aircraft, as well as the continually need to make control inputs to \u201cfly\u201d the aircraft, make helicopter flight a more physically and mentally strenuous type of flying. The vibration, noise, and stress can lead to fatigue, which can have a detrimental effect upon the ability of the student not only to fly a helicopter but to absorb instruction. To combat this hazard, limit the length of the lesson to less than an hour until the student becomes accustomed to the demands of this type of flying. For further discussion of medical factors associated with flying, refer to the Pilot"
+      },
+      {
+        "title": "Collision Avoidance",
+        "content": "While pilots often believe that having a CFI on board minimizes the possibility of a midair collision (MAC),"
+      },
+      {
+        "title": "FAA research reveals that flight instructors were on",
+        "content": "board the aircraft in 37 percent of the accidents studied. From a collision perspective, flight training is one of the most dangerous missions\u2014an especially frightening fact, considering that flight instructors comprise less than 10 percent of the pilot population. Figure 1-6. Robinson Helicopter R-22."
+      },
+      {
+        "title": "See and Avoid",
+        "content": "As discussed in the Aviation Instructor\u2019s Handbook, the CFI must ensure from the start of flight training that the student develops the habit of maintaining airspace surveillance at all times. [Figure 1-7] If a student believes the instructor assumes all responsibility for scanning and collision avoidance procedures, he or she will not develop the habit of maintaining the constant vigilance essential to safety. Establish scan areas and communication practices for keeping the aircraft cleared as outlined in the AIM, paragraphs 4-4-15 and 8-8-6c. For example, \u201cClear left? Cleared left. Turning left.\u201d should be verbalized in conjunction with the actual scanning. In addition to clearing left and right, a helicopter pilot must also clear directly above and below since the helicopter has the abi"
+      },
+      {
+        "title": "Positive Exchange of Flight Controls",
+        "content": "Incident/accident statistics indicate a need to place additional emphasis on the exchange of control of an aircraft by pilots. Numerous accidents have occurred due to a lack of communication or misunderstanding as to who actually had control of the aircraft, particularly between students and flight instructors. Establishing the following procedure during initial training ensures the formation of a habit pattern that should stay with students throughout their flying careers. They are more likely to relinquish control willingly and promptly when instructed to do so during flight training. During flight training, there must always be a clear understanding between the student and the flight instructor of who has control of the aircraft. [Figure 1-8] Prior to flight, a briefing should be conduc"
+      },
+      {
+        "title": "Single-Pilot Resource Management",
+        "content": "(SRM) According to data presented at the 2005 International Helicopter Safety Symposium, the helicopter accident rate is 30 percent higher than the general aviation (GA) accident rate. Reducing this rate is an industry wide goal and the CFI plays an important role in reaching it by stressing single-pilot resource management (SRM) and risk management during flight training. As discussed in the Aviation Instructor\u2019s Handbook and the Pilot\u2019s Handbook of Aeronautical Knowledge, SRM is the art and science of managing all resources (both onboard the aircraft and from outside sources) available to a single pilot (prior and during flight) to ensure the successful outcome of the flight. SRM grew out of the airline industry\u2019s crew resource management (CRM) training for flight crews that was launched"
+      },
+      {
+        "title": "Risk Management",
+        "content": "The FAA is committed to reducing the number of helicopter accidents and promoting risk management as an important component of flight training. The objective of risk Risk management is the method used to control, eliminate, or reduce the hazard to an acceptable level. The individual pilot is unique to risk management. An acceptable level of risk to one pilot may not necessarily be the same to another pilot. Unfortunately in many cases, the pilot perceives that his or her level of risk acceptability is actually greater than their capability, thereby taking on risk that is dangerous. References and resources for risk management include: \u2022 Pilot\u2019s Handbook of Aeronautical Knowledge, FAA-H-8083-25 \u2022 Pilot risk management brochures located at www.faa. gov (brochures include tips for teaching pr"
+      },
+      {
+        "title": "Risk Management Handbook, FAA-H-8083-2",
+        "content": "Since the DPE evaluates the applicant\u2019s ability to use good ADM procedures in order to evaluate risks throughout the practical test, it is important the CFI incorporates risk management into the flight lessons as soon as possible. The scenarios should be realistic and within the capabilities of the helicopter used for the practical test. To teach risk management, CFIs must understand system safety flight training occurs in three phases. First, there are the traditional aircraft control maneuvers. In order to apply critical thinking skills, the student must first have a high degree of confidence in their ability to fly the aircraft. Basic airmanship skill is the priority during this phase of flight training. The CFI accepts the responsibility of risk management until the student is able to "
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter introduced the purpose of flight training, resources available to the CFI, a brief overview of flight safety practices, and hazards unique to helicopter flying. System Safety Process Define Objectives System Descriptions System/Process Review Documentation Hazard Identification: Identify Hazards and Consequences Risk Analysis: Analyze Hazards and Identify Risks Risk Assessment: Consolidate and Prioritize Risks"
+      },
+      {
+        "title": "Risk Management",
+        "content": "Decision-Making: Develop an Action Plan Validation of Control: Evaluate Results for Further Action Modify System/Process"
+      },
+      {
+        "title": "Risk Management",
+        "content": "Figure 1-10. An example of a system safety process an instructor could use in flight training. 1-13 1-14 Chapter 2"
+      },
+      {
+        "title": "Introduction",
+        "content": "The objective of the first flight lesson is to determine the student\u2019s motivation and goals and introduce the student to: \u2022 Training procedures \u2022 The helicopter \u2022 Local flying area and prominent landmarks \u2022 The relationship between control inputs and aircraft attitude 2-1"
+      },
+      {
+        "title": "Training Procedures",
+        "content": "The introduction to training procedures offers the certificated flight instructor (CFI) an opportunity to better ascertain the student\u2019s experience and background, which influence training. At this time, the CFI explains the general safety procedures, lay out of the school, the course syllabus and how it is used. This includes how, when, and where instruction will take place. The CFI also discusses the role of preflight and postflight briefings in the training program, as well as how he or she monitors the student\u2019s progress. Additionally, the introduction to training should be used to determine the student\u2019s motivation for flight training and learn what their goals are. By understanding what the student would like to gain through flight training, the CFI will be better prepared to tailor "
+      },
+      {
+        "title": "Introduction to the Helicopter",
+        "content": "Walking the student through a preflight provides an excellent opportunity to introduce or review the main components of the helicopter. [Figure 2-1] Refer the student to the Helicopter Flying Handbook for in-depth information on the rotor systems, landing gear, and flight controls. During the discussion, the CFI should demonstrate how to enter and exit the helicopter properly while the rotors are turning. This is also a good time to explain or review: \u2022 General helicopter hazards, such as main and tail rotor blades. A simple demonstration of how low main rotor blades can droop is possible by manually pulling down on the tip of a static blade. In aircraft equipped with retractable droop stops, the CFI must explain that actual droop can be greater once the stops retract with greater rotor re"
+      },
+      {
+        "title": "Introduction to Flying",
+        "content": "For the first flight, the instructor should give the student just enough flight experience to make the student want to come back for more. During the first flight, the CFI should allow the student to fly the aircraft and have fun doing it. An enjoyable introductory flight builds student motivation and the student will be more ready to learn. Solo flight comes after more flight experience, so there is plenty of time for the student to learn local landmarks. [Figure 2-2] This flight should be an introduction to flying itself and should follow the pattern of learning simple tasks before more complex tasks. The student should learn to fly first, and then learn where to fly. Figure 2-2. During an introductory flight, a student pilot receives the first helicopter flight experience while being sh"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 For the airplane pilot transitioning to helicopters, remind the student that a helicopter is very different from an airplane and much negative transfer is possible if they do not continually remind themselves of which aircraft that they are flying at the time. Helicopters are designed and built to be controllable. Airplanes are designed and built to be stable. Helicopter flight controls are considerably more sensitive than those in an airplane, which can be difficult for a former airplane pilot to adjust to. CFI\u2019s must also explain the aerodynamic effects that must be controlled by the helicopter pilot due to the main rotors\u2019 blade tip speed. [Figure 2-3] The Helicopter Flying Handbook is a good reference for detailed explanations on the calculations of the main rotors\u2019 blade tip speeds "
+      },
+      {
+        "title": "Introduction to the Helicopter",
+        "content": "Objective The purpose of this lesson is to introduce the student to rotary-wing flight. The student demonstrates a basic knowledge of the main components, safe helicopter entry and exit, and use of flight controls in cruise flight. Content 1. Preflight Discussion a. Discuss lesson objective and completion standards b. Normal checklist procedures coupled with introductory material c. Weather analysis 2. Review 3. Instructor Actions a. Preflight used as introductory tool b. Short, familiarization flight 4. Student Actions a. Enters and exits helicopter safely b. Handles controls in cruising flight"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 1, Introduction to the Helicopter, and Chapter 2, Aerodynamics of Flight. Figure 2-3. Example of a traditional lesson plan. \u2022 Always practice positive transfer of control procedures and acknowledgments. This is particularly important in the early stages of training to instill good habits and safety when either the student or the CFI is on the controls for a long period of time. \u2022 Helicopters are not acrobatic in the general sense. Therefore, positive \u201cG\u201d loads are the normal condition. All good helicopter pilots are smooth flyers because they know smooth flight is good for the machine and passengers/cargo. \u2022 Sudden or violent maneuvering is usually the precursor for main rotor or tail rotor strikes. The helicopt"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 2: Introduction to the Helicopter",
+    "sections": [
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter provided the CFI with the objectives of an introductory flight. It also set the stage for the future training sessions, leading to the development of a competent, safety conscious, and cordial pilot. 2-6 Chapter 3"
+      },
+      {
+        "title": "Introduction",
+        "content": "All helicopter pilots must have a basic knowledge of the aerodynamic principles that enable helicopter flight. While the principles that apply to a helicopter are the same as those that apply to other aircraft, the application of these principles is more complex due to the rotating airfoils. Chapters 2 and 3 of the Helicopter Flying Handbook (FAA-H-8083-21) and Aircraft Weight and Balance Handbook (FAA-H-8083-1), form the foundation for this chapter. As with any training, begin the presentation of new material at the student\u2019s level of understanding. This can be determined throughout the introductory meeting with the student simply by engaging conversation about helicopters and general flight. Any previous flight experience will be apparent during preflight and while flying. Written or ora"
+      },
+      {
+        "title": "Forces Acting on the Aircraft",
+        "content": "moves through the air. Further discussion should include the following points and examples: 1. Show the student a picture of an airfoil and how the air pressure changes when the air is disrupted. A picture of an airfoil is usually a small cutout or slice of the entire wing or rotor blade. The instructor should explain that the entire rotor blade(s) are essentially one large airfoil. 2. As airspeed increases, surface air pressure decreases accordingly and this difference in pressure around the airfoil is directly related to the flight of an aircraft. 3. As an airfoil starts moving through the air, it divides the mass of air molecules at its leading edge. The distance over the top of the blade with the angle of attack is greater than the distance along the bottom surface of the rotor blade. "
+      },
+      {
+        "title": "Lift",
+        "content": "A very easy way to confuse new flight students is to throw a lot of obscure information at them with no concrete references or examples. Aerodynamics can be very difficult for the new student to understand because it is difficult to visualize what is happening to the rotor blades or tail rotor in flight. When teaching the student about lift and how the helicopter is able to obtain lift, the instructor must be creative and find ways to explain the theories, such as Bernoulli\u2019s Principle and Newton\u2019s Laws of Motion, in direct relation to the helicopter and how every flight control movement affects lift. Bernoulli\u2019s Principle Instructors should introduce Bernoulli\u2019s Principle to the student in simple terms and attempt to relate the theory directly to the production of lift that is created fro"
+      },
+      {
+        "title": "Drag",
+        "content": "First Law\u2014the Law of Inertia A body at rest remains at rest, and a body in motion remains in motion at the same speed and in the same direction unless acted upon by some external force. The key point to explain is that if there is no net force resulting from unbalanced forces acting on an object (if all the external forces cancel each other out), then the object maintains a constant velocity. If that velocity is zero, then the object remains at rest. And, if an additional external force is applied, the velocity changes because of the force. A Parasite drag B Profile drag C Induced drag Speed Figure 3-1. Drag graph. Total drag is the sum of parasite drag and induced drag as shown in Figure 3-1, Point A and C. The total drag curve can also be referred to as the thrust required curve because "
+      },
+      {
+        "title": "Weight",
+        "content": "As weight increases, the power required to produce lift needed to compensate for the added weight must also increase. This is accomplished through the use of the collective. Most 3-4 Load factor (G units) 6 5 4 3 2 1 0 0\u00b0 10\u00b0 20\u00b0 30\u00b0 40\u00b0 50\u00b0 60\u00b0 70\u00b0 80\u00b0 90\u00b0 Bank angle Figure 3-3. Load factor."
+      },
+      {
+        "title": "Thrust",
+        "content": "Thrust, like lift, is generated by the rotation of the main rotor system. Point out to the student that in a helicopter thrust can be forward, rearward, sideward, or vertical. The direction of the thrust is controlled with the cyclic. If cyclic control to produce thrust is too great, lift is lost and the aircraft descends. Conversely, if too little cyclic control is made, the aircraft begins a climb. Using visual aids, demonstrate how the resultant lift and thrust determines the direction of movement of the helicopter. [Figure 3-4] Explain to the student that the tail rotor also produces thrust. The amount of thrust is variable through the application of Total force"
+      },
+      {
+        "title": "Lift",
+        "content": "2. Profile drag\u2014caused by the frictional resistance of the rotor blades passing through the air. 3. Induced drag\u2014results from producing lift."
+      },
+      {
+        "title": "Weight",
+        "content": "Resultant of drag and weight Figure 3-4. Thrust. the antitorque pedals and is used to control the helicopter\u2019s heading during hovering flight and trim during cruise flight."
+      },
+      {
+        "title": "Drag",
+        "content": "No discussion of aerodynamics is complete without its defining the three types of drag, how drag is created, and its effect on the aircraft. A certificated flight instructor (CFI) must become intimately familiar with the drag chart and how it relates to airspeed and power demands. Demonstrate this during the performance planning phase as the student has actual torque values to compare. Then, when the student is flying the helicopter, apply the values that were computed and show the effect on the helicopter. A technique is to show how each flight control is affected by simple hover flight maneuvers. Demonstrate the change in torque that occurs between left and right pedal turns and explain why. Discuss how the cyclic is utilized to hold position over the ground, while the pedals rotate the "
+      },
+      {
+        "title": "Lift",
+        "content": "Figure 3-5. Balanced forces in hover. On much larger helicopters such as the BH-205, S-76, and BK-117, in which an additional gearbox is used to raise the tail rotor up to the main rotor plane, the tilting of the fuselage is not as prevalent."
+      },
+      {
+        "title": "Drag",
+        "content": "The pitch attitude will vary depending on the loading of the helicopter. Many helicopters when flown single pilot will be nose high at a hover. Conversely, they may be nose load when fully loaded. The center of gravity (CG) of the helicopter determines which portion of the landing gear will come off the ground first. The CFI must pay particular attention to the attitude of the helicopter as the student lifts it off the ground. If excess power is applied in other than a level attitude, the helicopter may proceed to roll beyond its dynamic rollover limits. When lifted off the surface correctly and safely, the pilot has the opportunity to lower the collective if a portion of the landing gear is attached or hung on the surface, thus preventing a rollover incident from occurring. It is imperati"
+      },
+      {
+        "title": "Weight",
+        "content": "Resultant of weight and drag Figure 3-6. Steady state\u2014balanced forces. Any time opposing forces become unequal (unbalanced), acceleration results in direction of the greater force. If lift is greater than weight the helicopter climbs. If thrust is greater than drag, the helicopter moves horizontally. Point out that thrust can occur in any or all directions. For example, if the helicopter is moving sideways or backwards, thrust is in the direction that it is moving. [Figure 3-7] Airfoil Define and discuss the different types of airfoils with the student and stress the importance of using standardized terminology. An airfoil is a curved surface body or structure designed to produce a lift or thrust force when subjected to an airflow. An instructor can check the student\u2019s understanding of air"
+      },
+      {
+        "title": "Weight",
+        "content": "Resultant of weight and drag Figure 3-7. Acceleration or deceleration\u2014unbalanced forces. Mean camber line Trailing edge Camber of upper surface Camber of lower surface Leading edge Chord line Figure 3-8. Elements of an airfoil. and distribute lifting force more evenly along the blade due to the lift differential along the blade. Blade twist provides greater pitch angles at the blade root where velocity is low and smaller angles at the tip where blade velocity is higher. This increases the induced air velocity and blade loading near the inboard section of the blade. These terms related to the rotor hub and blades are best discussed in the classroom and identified on the aircraft during a preflight. Airflow and Reactions in the Rotor System When introducing and describing the airflow in a ro"
+      },
+      {
+        "title": "Rotor Blade and Hub Definitions",
+        "content": "The CFI must be familiar with the following basic terms and be able to explain them to the student. 1. Hub\u2014the attachment point of the rotor blades. 2. Tip of the blade\u2014the farthest outboard section of the rotor blade. 3. Root of the blade\u2014the section of the blade closest to the hub and where the attachment point is located. 4. Twist\u2014the change in blade angle with respect to the angle at the hub outward to the tip. 5. Taper\u2014the change (decrease) in blade chord with radial distance. Resultant relative wind Chord line Figure 3-9. Air movements in a rotor blade system. \u2022 The movement of a rotor blade through the air creates relative wind. Relative wind moves in a parallel but opposite direction to the movement of the rotor blade. \u2022 The flow of air parallel to and opposite the flightpath of an"
+      },
+      {
+        "title": "Rotor Blade Angles",
+        "content": "Angle of incidence is the acute angle between the chord line of the airfoil and the plane of rotation (tip path plane) or the angle between the chord line of a blade and the relative wind. Sometimes, this is referred to as the blade pitch angle. The angle is changed through rotation of the rotor blade around its spanwise axis, which is known as feathering. [Figure 3-10] An instructor can use training aids to discuss the angle of incidence in the classroom, but it is best demonstrated at the aircraft. Show the student how the angle of incidence Discuss lift at different AOAs. With the use of diagrams, an instructor can explain how the AOA affects the amount of lift. An easy demonstration of how the AOA affects lift is to remind the student of what happens if an arm is extended out of the wi"
+      },
+      {
+        "title": "Hover",
+        "content": "At a hover, relative wind velocity is: \u2022 Approximately 400 knots at the tips. \u2022 Approximately 300 knots one-fourth of the way in from the tips. 3-13 \u2022 Approximately 200 knots one-half of the way in from the tips. \u2022 Approximately 100 knots three-fourths of the way in from the tips. \u2022 0 knots at the center of the hub. Translational Flight In translational flight, relative wind velocity: 1. Advancing blade\u2014greater lift. 2. Retreating blade\u2014less lift. Discuss roll and explain that American-designed helicopters (counterclockwise rotation) would roll to the left and pitch up if transverse flow and dissymmetry of lift were not overcome. Explain main rotor method of overcoming dissymmetry of lift (flapping). 1. Advancing blade produces more lift; when flapping up, AOA decreases due to an increase "
+      },
+      {
+        "title": "Cyclic feathering also compensates for dissymmetry",
+        "content": "of lift (changes AOA) in the following ways: \u2022 Of the advancing blade is blade speed plus airspeed. \u2022 2 Airspeed 80 knots 180 kn o ots kn ots kn 40 0 kn ot s 0 32 380 knots O knots nots 0k 28 120 k not s ots kn 80 on = 4 ity 0 Dire Rot ction atio of na ro l v ta elo ti c ts 220 knots Relative wind as a result of aircraft movement at 120 knots Is a combination of blade speed and airspeed. Relative wind as a result of aircraft movement at 120 knots \u2022 400 knots = Rotational velocity \u2212 80 knots = Aircraft airspeed 400 knots = Rotational velocity + 80 knots = Aircraft airspeed 320 knots = Wind velocity 480 knots = Wind velocity Figure 3-19. Relative wind velocity in forward flight. 3-14 5. a."
+      },
+      {
+        "title": "Cyclic feathering changes the angle of incidence",
+        "content": "differently around the rotor system. b. Forward cyclic decreases angle of incidence on advancing blade, resulting in reduced AOA, and increases angle of incidence on retreating blade resulting in increased AOA. Tail rotor compensates for dissymmetry of lift by both flapping and feathering at the same time, accomplished by rotor design and mounting. A delta hinge allows for flapping, which automatically introduces feathering of the tail rotor. Exercise caution during a low-altitude, high-speed takeoff as pitch attitude is very low. If an engine failure or partial power condition were experienced, the pilot would not be able to safely place the aircraft in an autorotative profile. A quick review of the height velocity diagram would be very useful here. Sideward, Rearward, and Turning Flight "
+      },
+      {
+        "title": "Autorotation",
+        "content": "To help students better understand autorotation, divide it into four distinct phases: entry, steady-state descent, deceleration, and touchdown. Guide the student through each phase, stressing how it is aerodynamically different from the others. Entry Guide the student through the entry or first stage of autorotation and explain that this phase is entered after loss of engine power. The loss of engine power and rotor rpm are more pronounced when the helicopter is at high gross weight, high forward speed, or in high density altitude conditions. Any of these conditions demand increased power (high collective position) and a more abrupt reaction to loss of that power. In most helicopters, it takes only seconds for rpm decay to bring rpm to a minimum safe range, requiring a quick collective res"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "4. The student cannot be allowed to increase the collective too soon, and the student must be prompted to use available collective to cushion the landing soon enough. 5. The collective must be used to cushion the touchdown, but the student should not be allowed to hold the helicopter off the surface. 6. The student must not be allowed to retain an excessive decelerating attitude at too low an altitude allowing a tailboom or tail rotor strike. The student must be taught how to begin the flare and then decrease the nose high attitude to a landing attitude. 7. The student cannot be allowed to move the cyclic aft after touchdown. This generally allows the rotor blades to dip aft over the tailboom and when occurring at the same time as the actual touchdown, results in a tailboom strike. \u2022 Start"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 3: Aerodynamics of Flight",
+    "sections": [
+      {
+        "title": "Aerodynamics of Flight",
+        "content": "Objective Identify characteristics of translating tendency and methods of compensation in a single-rotor helicopter. The student demonstrates the consistent ability to identify and compensate for characteristics of translating tendency in a single-rotor helicopter. Content Classroom discussion: \u2022 Define translating thrust. \u2022 Provide instruction on the thrusting characteristics of a tail rotor during hovering flight. \u2022 Identify the methods used to overcome translating tendency."
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Critique student performance. Preview the next lesson. Assign Helicopter Flying Handbook Chapter 3, Helicopter Flight Controls. Figure 3-20. Sample lesson plan. 3-16 Chapter 4 Helicopter Flight Controls"
+      },
+      {
+        "title": "Introduction",
+        "content": "When introducing a student to the flight controls of a helicopter, the instructor must ensure the student understands how each control affects the flight of the aircraft. [Figure 4-1] The student may not be comfortable with the helicopter controls for some time, but must understand the function of each control and the reactions of the other controls when control movements are made. For example, if increasing the collective pitch increases power. If the engine is manually controlled, the throttle must be adjusted to maintain 4-1 Name Function Primary Effect Secondary Effect In Forward Flight In Hover Flight Cyclic (lateral) Directly varies main rotor blade pitch (left versus right) Creates left/right directional thrust and tilted rotor system Induces rolling/tilting moment Turns the helicop"
+      },
+      {
+        "title": "Collective",
+        "content": "Directly controls main rotor pitch angle/angle of incidence Increases/decreases Increases/decreases Adjusts/maintains total main rotor total thrust for altitude and/or altitude and/or airspeed settings thrust airspeed, power, and antitorque requirements Antitorque pedals Directly controls antitorque thrust Varies antitorque thrust Controls yaw Maintains trim for coordinated flight Maintains heading"
+      },
+      {
+        "title": "Throttle controls/",
+        "content": "power levers Maintains rotor rpm Affects powerplant output range Determines performance power limits of helicopter Sets cruise rpm Sets hover rpm Moves helicopter forward or backward Adjusts/maintains hover altitude Figure 4-1. Helicopter controls and effects. revolutions per minute (rpm). If the helicopter powerplant has a governor, then the pilot must ensure that power stays within limitations. If the cyclic is moved, then the collective must be moved to maintain altitude because lift has now been redirected into thrust for travel. Anytime the collective is moved, the pedals must be adjusted for heading or trim. Training for this control coordination can be accomplished by using a simulator or a helicopter. Use of a simulator for this instruction reduces student stress levels and may enh"
+      },
+      {
+        "title": "Collective Pitch Control",
+        "content": "Explain to the student that the collective changes the pitch of the main rotor blades (angle of incidence) and, as a result of that pitch angle change, is used to increase or decrease the blade angle of attack (AOA). This is accomplished through a series of mechanical linkages that changes the angle of incidence of all blades simultaneously, or collectively. [Figure 4-2] Demonstrate on a static helicopter how pulling up on the collective increases the pitch of the rotor blades while lowering the collective decreases the pitch. Explain how the collective is used to increase both lift and thrust by changing the lift vector. the collective to climb, descend, and maintain altitude during a turn. Explain the proper application and use of collective friction. Demonstrate how the collective is us"
+      },
+      {
+        "title": "Throttle Control",
+        "content": "An instructor may demonstrate how to use the collective to initiate takeoff, climb, and descent. One technique for practicing the application of collective pitch occurs during flight. Climb to a safe altitude and allow the student to operate A student must thoroughly understand the intricacies of the helicopter being flown. While some helicopters have a governor to control the engine revolutions per minute (rpm), or a correlator to increase/decrease throttle inputs automatically to an acceptable range that generally requires some pilot input, other models rely solely on the pilot\u2019s manual input of twisting the throttle. [Figure 4-3] Even when rpm is controlled by a governor or fuel control system, emergency procedures require manual operation of the throttle to control engine and, ultimate"
+      },
+      {
+        "title": "Cyclic",
+        "content": "Determines speed and direction of travel"
+      },
+      {
+        "title": "Collective",
+        "content": "Tail rotor (antitorque) pedals Determines heading at a hover and trim in flight by changing tail rotor pitch Determines lift/thrust in powered flight and rotor rpm during autorotation and provides lift and thrust to move the helicopter vertically and horizontally"
+      },
+      {
+        "title": "Collective",
+        "content": "Figure 4-2. There are four major controls in the helicopter that the pilot must use during flight: collective pitch, throttle, cyclic pitch, and antitorque. 4-3 or manual throttle operation should be explained, but a demonstration and practice should occur only after the student has mastered all the control inputs required to fly. Explain that revision to the manual mode of operation is an abnormal, or emergency, procedure and is almost exclusive to reciprocating powered helicopters. Few large turbine powered helicopters have a manual override function suitable for training. Decrease rpm Increase rpm Stress to the student the importance of checking the throttle during the preflight. The throttle, whether governed or not, must have freedom of movement from stop to stop. There should be no b"
+      },
+      {
+        "title": "Cyclic Pitch Control",
+        "content": "A student should understand that moving the cyclic control tilts the rotor system in the direction the cyclic is displaced whether it is fore or aft, or in a side to side motion thereby providing thrust in the direction the rotor is tilted. [Figure 4-4] This cyclic movement from the pilot\u2019s right Rearward flight"
+      },
+      {
+        "title": "Hover",
+        "content": "Forward flight Left sideward flight"
+      },
+      {
+        "title": "Hover",
+        "content": "Right sideward flight Figure 4-4. Cyclic control stick position and the main rotor disk position relative to pilot in helicopter. 4-4 hand results in the aircraft moving in the direction the pilot desires as the cyclic is displaced. Any movement from the cyclic has a corresponding effect on the pitch of each blade either increased or decreased pitch as they move or cycle thru every rotation 360\u00b0. This enables the aircraft to move in the direction the pilot desires. Emphasis must be placed on keeping the cyclic free of obstructions. Students must understand the importance of ensuring the cyclic is free to move its full travel and to keep it clear of anything that could interfere with or limit its movement such as knee boards or passenger legs. Demonstrate the cyclic input required to hover."
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter provided the instructor with techniques of introducing flight controls and their application to a student. It also offered the instructor safety related points of emphasis regarding helicopter flight controls. Medium Positive Pitch High Positive Pitch es ov m l i Ta s Right pedal input Figure 4-6. Pedal control position and thrust at tail rotor. 4-6"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "Left pedal input Helicopter Flight Controls Objective The purpose of this lesson is to introduce the student to helicopter flight controls. The student will demonstrate a basic knowledge of the aerodynamics effects of and helicopter reaction to the movement of each flight control. Content 1. Preflight discussion: a. Discuss lesson objective and completion standards b. Normal checklist procedures coupled with introductory material c. Weather analysis 2. Review basic helicopter aerodynamics. Schedule \u2022 \u2022 \u2022 \u2022 Preflight Discussion: 10 Instructor Demonstrations: 25 Student Practice: 45 Postflight Critique: 10 Equipment Chalkboard or notebook for preflight discussion. Instructor actions a. Preflight used as introductory tool b. Establish a straight-and-level cruise c. Demonstrate the effects of "
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review the flight; preview and assign the next lesson. Assign the Helicopter Flying Handbook, Chapter 4, Helicopter Components, Sections, and Systems. Figure 4-7. Sample lesson plan. 4-7 4-8 Chapter 5"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 4: Helicopter Flight Controls",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "When introducing the student to helicopter components, sections, and systems, the instructor must ensure that the student is familiar with and understands the basic functions and use of each system. Ideally, this is accomplished by use of a static aircraft or a mock-up of the aircraft depicting most of the parts. Allowing the student to touch and explore these components, sections, and systems enhances learning. Knowing the basics of each major component, section, and system gives the student a better ability to recognize malfunctions and possible emergency situations. Understanding the interactions of these systems allows the student to make an informed decision and take appropriate corrective action should a problem arise. Point out to the student what should be checked during preflight."
+      },
+      {
+        "title": "Airframe design is a field of engineering that combines",
+        "content": "aerodynamics, materials technology, and manufacturing methods to achieve balances of performance, reliability and cost, which can affect both maintenance and flight. Composites, for example, are very sensitive to ultraviolet (UV) radiation from the sun and must be painted to protect them, whereas aluminum has minimum UV degradation from the sunlight but will corrode over time if flown around salt water. Aluminum is light and reasonable easy to fabricate into parts, but composites can be much stronger although more difficult to manufacture. In addition, composite materials seem to suffer from bonding failures. In some structures, this appears as a thickening or expansion, sometimes forming a bubble in an area."
+      },
+      {
+        "title": "Rotor Blade Design",
+        "content": "Wooden rotor blades have an infinite fatigue life provided that moisture is kept out of them. The metal attachment fittings on the wooden blade do have a fatigue life; therefore, a life limit is placed on the blade. Although wooden blades are used, they do not perform as well as modern metal or composite blades. Another comparison is composite rotor blades versus metal rotor blades. Composite rotor blades are closer to an \u201con condition\u201d replacement status, potentially saving thousands of dollars for operations but are softer and at least require the leading edge abrasion strip to be replaced. Metal blades are generally less expensive to manufacture; composite blades may perform better and last longer with less maintenance, but at a higher initial cost."
+      },
+      {
+        "title": "Powerplant Design",
+        "content": "When discussing the powerplant, comparisons of reciprocating and turbine engines can be explained. A reciprocating engine uses much less fuel than a turbine engine does, but turbine 5-2 engines can produce much more power from a very light powerplant for more flight hours. However, a turbine engine can easily be ten times the cost of a reciprocating powerplant. Turbine engines are usually much more reliable, but failures are often much more dramatic with high-speed shrapnel flying through other structures, causing tremendous damage throughout the powerplant. Antitorque System Design Enclosed antitorque tailrotor systems are usually more resistant to foreign object damage but can be more complicated to build and heavier, which causes them to perform less well than open antitorque systems. O"
+      },
+      {
+        "title": "Landing Gear System Design",
+        "content": "Wheel type landing gear systems are easier to retract for increased cruise speeds with less fuel flow and are much easier to store and move when conducting maintenance. Wheel type landing gear systems are more expensive compared to skid type landing gear with many more parts to inspect, buy, and maintain. They usually have brakes, which also require inspection, service, repair, or replacement. Skid type landing gear is a simpler design, easier to manufacture, and reasonably light in weight. Skid landing gear is a parasitic drag source, which increases exponentially at faster airspeeds. Skid landing gear are less expensive overall but more difficult to move for maintenance or storage and always requires additional equipment on the ground. Inform the student to use care when handling the act"
+      },
+      {
+        "title": "Airframe",
+        "content": "Airframe discussions should explain that the airframe, or structure, of a helicopter can be made of different types of material. Figure 5-1 is an example of the many different materials that are used in the construction of a helicopter. The importance of learning the structures and construction materials of the helicopter is to help the student to determine the airworthiness of the helicopter and potential failures and hazards to be found on pre and post flight inspections. The goal is not to make the pilot into a helicopter aeronautical engineer but rather a safe pilot who can understand the full consequences of an unknown condition of a helicopter component. Helicopters can be made of metal, wood, or Carbon Fiber/Kevlar/Nomex Carbon Fiber/Nomex Skin stringer Kevlar/Nomex Honeycomb struct"
+      },
+      {
+        "title": "Landing gear",
+        "content": "Figure 5-2. Major components. Discussions with the student regarding the different types of main rotor systems can be accomplished with additional manufacturer drawings. Pay particular attention to the type of main rotor system that the student will be flying. By now, the student probably has read about the different types of rotor systems but may not fully understand the differences. Explain to the student identifiable characteristics of each rotor system that make it different from the other system types. Also, be ready to answer the student\u2019s questions about the advantages and disadvantages of each type of system, cost, and maintenance requirements versus ride quality, performance, reliability, and durability. Rigid Rotor System When introducing the rigid rotor system, instructors shoul"
+      },
+      {
+        "title": "Lift",
+        "content": "Pitch change tube Pitch change link Cross head assembly Air intake Rotating nozzle Figure 5-20. Bell model 427 tail rotor assembly. allowing it to have smaller blades. [Figure 5-21] The smaller diameter allows use of higher fan speeds and sometimes requires higher fan rpm ranges to equal thrust from a much larger unducted system. The housing, although somewhat heavier, does offer some protection on the ground and is more streamlined in forward flight. Discuss with the student that propellers and rotors alike are designed to be less than transonic at the tips. Figure 5-21. Fenestron, or \u201cfan-in-tail,\u201d antitorque system. This design provides an improved margin of safety during ground operations. The other type of tail rotor is the NOTAR\u00ae system (no tail rotor). The NOTAR system represents th"
+      },
+      {
+        "title": "Throttle",
+        "content": "Carburetor Figure 5-27. The components of a typical gravity feed fuel system in a helicopter with a reciprocating engine. Show the student the major components of the fuel control system, if installed. Two types of fuel control system that are used today by most modern turbine helicopters are the FADEC and analog electronic engine control (EEC). True FADECs have no form of manual override available (in case of FADEC failure), giving the computer full authority over the operating parameters of the engine. If a total FADEC failure occurs, the engine fails. If the engine is controlled digitally and electronically but allows for manual override, it is considered an EEC or electronic control unit. An EEC allows the pilot to continue to operate the engine with the throttle while in emergency mod"
+      },
+      {
+        "title": "Preflight and Deicing",
+        "content": "Instructors should stress the importance of checking for fuselage and component icing when doing the preflight with the student. Rotorblades, pitot tubes, and engine parts are all susceptible to icing and should be checked thoroughly before starting the helicopter. Explain that de-icing is the process of removing frozen contaminant, snow, ice, slush, from a surface. Deicing of the helicopter fuselage and rotor blades is critical prior to starting. If possible, show the student a helicopter that has been sheltered from the elements and then compare it to one that has not. Helicopters that are unsheltered by hangars are subject to frost, snow, freezing drizzle, and freezing rain all of which can cause icing of rotor blades and fuselages, rendering them unairworthy until cleaned. Asymmetrical"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Always supervise the student when first introduced to the helicopter. [Figure 5-31] \u2022 Point out to the student the danger areas and the sharp portions of the helicopter. \u2022 Show the student the \u201cNo Step\u201d areas, if present. \u2022 Allow the student to touch each component of the helicopter as it introduced and say the name of the part. On the next preflight, the student should begin to describe the function of each part, and on every preflight after that, the student should be asked the next component or components in order of the checklist until the student has learned the functions of each component of that specific helicopter. \u2022 If appropriate, tell the student well ahead of time what will be covered during the next lesson and what the student should study or reference. The student should al"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "The components, sections, and systems that were covered in this chapter were described so you as the instructor can convey this information to your student. This is your guide to further create a lesson plan and teach the student the \u201cwhys\u201d of the helicopter components, sections, and systems. What was not covered in this chapter was the responsibility of the instructor to also introduce the student to the helicopter\u2019s service reports, what they mean, and how to obtain them. Helicopter Components, Sections, and Systems Objective The purpose of this lesson plan is to introduce the student to the basic components, sections, and systems of the helicopter. The student will demonstrate a basic knowledge of the location of components, sections, and systems (if installed). The student will have a "
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "1. Review what was covered during this phase of training. 2. Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 5, Rotorcraft Flight Manual. Figure 5-31. A sample lesson plan. 5-27 5-28 Chapter 6"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 5: Helicopter Components",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "An essential component of flight instruction is ensuring the student becomes familiar with publications that provide information required for flight. One of those publications, the Rotorcraft Flight Manual (RFM), not only contains information critical to safe flight, it is also required to be carried in the aircraft. Introduce students to this manual and the material it contains at the beginning of the training program. [Figure 6-1] 6-1 ROBINSON R22 R OTORCRAFT F LIGHT M ANUAL Figure 6-1. Rotorcraft Flight Manuals. Introducing the Manual When introducing the manual for a particular helicopter, a good place to begin is the certification basis of the helicopter as defined by Title 14 of the Code of Federal Regulations (14 CFR) part 27, Airworthiness Standards: Normal Category Rotorcraft, or "
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Much of the information in this chapter lends itself to oral assessment of fact questions (discussed in Chapter 5, Assessment, from the Aviation Instructor\u2019s Handbook) based on memory or recall. \u2022 To engage the interest of the student, make the information as relevant as possible to the flying experience. [Figure 6-6] Rotorcraft Flight Manual Objective The purpose of this lesson plan is to explain the relationship between the RFM and safe procedures and introduce the sections of the RFM. Content 1. Discuss lesson objective and completion standards. 2. Review the sections of the RFM, and discuss their relevance to safe flight. 3. Discuss that all flights and ground procedures should remain within established parameters. 4. Explain that any questions to the written procedures should not be"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 6, Weight and Balance. Figure 6-6. Sample lesson plan. 6-7"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter provided discussion points for the instructor to help the student learn the important limitations stated in the RFM. It also explained how to assist the student in understanding the importance of preflight planning in regard to safe flights, as well as recognizing the critical steps in the published emergency procedures. The applicable 14 CFR regulations were discussed and how the relationships integrate to satisfy safety regulations and safe flight practices. 6-8 Chapter 7"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 6: Rotorcraft Flight Manual",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This chapter is intended to help the instructor to teach the student the basics of helicopter weight and balance and how to compute the weight and balance forms. Definitions are abbreviated slightly, as the instructor\u2019s experience is recognized when working with the weight and balance form and records. It is not intended to instruct the student on the actual weighing of aircraft. The student must understand the reasons for weight and balance control. Listed in Figure 7-1 are some of the important topics of discussion. Discuss the list with the student. Refer the student to the Aircraft Weight and Balance Handbook, FAA-H-8083-1, as well as the Rotorcraft Flight Manual for that specific helicopter. 7-1"
+      },
+      {
+        "title": "Weight",
+        "content": "1. Operating above the weight limit stated by the manufacturer compromises the structural integrity of the helicopter and adversely affects maximum performance. It causes more wear than anticipated in the rotor system, driveline, and structures that can lead to premature failure of a part or parts. 2. If the helicopter is overweight, a unknown larger than normal takeoff and landing area is required, rate and angle of climb are reduced by an unknown value, maximum speed is reduced by an unknown value, and fuel burn rate is higher. 3. Reduced maneuverability. 4. Instability. 5. Time before overhaul (TBO) is designed given a certain predicted usage cycle and flight profile. If this flight profile is not strictly followed, the TBO schedule is affected and costs begin to skyrocket, with a crash"
+      },
+      {
+        "title": "Weight",
+        "content": "The weight of a helicopter is critical during any and all flight maneuvers. This chapter primarily considers the weight of the loaded helicopter while at rest. Definitions Discuss all the weight and balance terms with the student which can be found in the Aircraft Weight and Balance 7-2 Handbook, FAA-H-8083-1. The student should have an understanding of the terms in order to consistently and successfully monitor weight and balance and complete weight and balance forms. Never intentionally exceed the load limits for which a helicopter is certificated. Operating above the maximum weight could result in structural deformation or failure during flight if excessive load factors, strong wind gusts, or turbulence were encountered, as well as operating below a minimum crew weight could adversely a"
+      },
+      {
+        "title": "CG Forward of Forward Limit",
+        "content": "Forward CG may occur when a heavy pilot and passenger take off without baggage or proper ballast located aft of the rotor mast. This situation becomes worse if the fuel tanks are located aft of the rotor mast because as fuel burns the CG continues to shift forward. Teach the student to assess the helicopter control response prior to each flight. Have the student get the helicopter light on the skids/gear and ensure helicopter is free of surface obstructions or attachments and will ascend to a hover in a nearly level attitude. Ensure that there is enough cyclic control to continue. Once at a low hover, ensure the helicopter remains nearly level. Point out to the student what a normal hover attitude looks like, and that if things do not feel or look right, then to lower the collective slowly"
+      },
+      {
+        "title": "CG Aft of Aft Limit",
+        "content": "Exceeding aft CG may occur when: Changing the CG changes the angle at which the aircraft hangs from the rotor. When the CG is directly under the rotor mast, the helicopter hangs horizontally; if the CG is too far forward of the mast, the helicopter hangs with its nose tilted down; if the CG is too far aft of the mast, the nose tilts up. [Figure 7-2] Discuss with the student some of the reactions of the helicopter and problems associated with a forward CG and an aft CG."
+      },
+      {
+        "title": "CG directly under the rotor mast",
+        "content": "CG \u2022 A lightweight pilot takes off solo with a full load of fuel located aft of the rotor mast. \u2022 A lightweight pilot takes off with maximum baggage allowed in a baggage compartment located aft of the rotor mast. \u2022 A lightweight pilot takes off with a combination of baggage and substantial fuel, both of which are aft of the rotor mast. Forward CG CG Aft CG CG Figure 7-2. The location of the CG strongly influences how the helicopter handles. 7-3 Easily recognized when coming to a hover, the helicopter has a tail-low attitude, and needs excessive forward displacement of cyclic control to maintain a hover in a no-wind condition. If there is a wind, even greater forward cyclic is needed. ballast weights to maintain the CG position within the CG limits. 2. NOTE: One technique used in smaller he"
+      },
+      {
+        "title": "Weight and Balance Calculations",
+        "content": "To determine whether a helicopter is properly loaded, ask the following questions: 1. Is the gross weight less than or equal to the maximum allowable gross weight? Answer: Add the weights of the items comprising the useful load to the basic empty weight of the helicopter (pilot, passengers, fuel, oil (if applicable), cargo, and baggage). 2. Is the CG within the allowable CG range, and will it stay within the allowable range throughout the duration of flight including all loading configurations that may be encountered? Answer: Use CG or moment information from loading charts, tables, or graphs in the RFM. Then using one of the methods described below, calculate the loaded moment and/or loaded CG and verify that it falls within the allowable CG range shown in the RFM. NOTE: Discuss with the "
+      },
+      {
+        "title": "CG and verify that it falls within the allowable CG",
+        "content": "range shown in the RFM. It is important to note that any weight and balance computation is only as accurate as the information provided. Therefore, determine passenger weight and add a few pounds to account for the additional weight of clothing, especially during the winter months. The baggage weight should be weighed on a scale, if practical. If a scale is not available, compute personal loading values according to each individual estimate."
+      },
+      {
+        "title": "Weight Versus Aircraft Performance",
+        "content": "Overloading an aircraft may cause structural failure or result in reduced engine and airframe life. An increase in gross weight has the following effects on aircraft performance: a. Increases takeoff distance b. Reduces hover performance c. Reduces rate of climb d. Reduces cruising speed e. Reduces maneuverability f. Reduces ceiling g. Reduces range h. Increases landing distances NOTE: Ensure that the student understands the importance of not overloading the helicopter (operating at maximum weights) and also understands how the helicopters weight versus performance is also affected. Accurate performance planning based on current and forecast environmental conditions is critical in determining the helicopter\u2019s actual maximum operational weight for any given set of conditions Figure 7-3 indi"
+      },
+      {
+        "title": "Weight",
+        "content": "(pounds) Arm (inches) Moment (lb-in) 198,050 1,700 116.5 Oil 12 179.0 2,148 Pilot 190 65.0 12,350 Forward Passenger Passengers Aft Baggage Fuel Total CG (loaded) 170 65.0 11,050 510 40 553 3,175 104 148 120 53,040 5,920 66,360 348,918 109.9 Max Gross Weight = 3,200 lb CG Range = 106.0\u2013114.2 inches + \u2212 Figure 7-5. The lateral reference datum is located longitudinally through the center of the helicopter; therefore, there are positive and negative values. is also referred to as the tendency of an object to rotate or pivot about a point. The farther an object is from a pivotal point, the greater its force."
+      },
+      {
+        "title": "Weight and Balance Methods",
+        "content": "Discuss with the student the two different methods of obtaining the weight and balance of the helicopter: computational and loading chart. Computational Method The first method is the computational method, which uses simple mathematics to solve weight and balance problems. 1. 7-6 Figure 7-6. In this example, the helicopter\u2019s weight of 1,700 pounds is recorded in the first column, its CG or arm of 116.5 inches in the second, and its moment of 198,050 lb-in in the last. Notice that the weight of the helicopter multiplied by its CG equals its moment. If adjustments need to be made to the loading, refer the student to the Aircraft Weight and Balance Handbook, FAA-H-8083-1. Loading Chart Method The second method is the loading chart method. Three sample problems are given for this method. Take "
+      },
+      {
+        "title": "Weight",
+        "content": "(lb) 100 200 300 400 500 Load Weight (lb) NOTE: Reduction factors are often used to reduce the size of large numbers to manageable levels. In Figure 7-8, the scale on the loading graph gives moments in thousands of pound-inches. In most cases, when using this type of chart, a pilot need not be concerned with reduction factors because the CG/moment envelope chart normally uses the same reduction factor. [Figure 7-9] Combination Method Figure 7-8. Moments for fuel, pilot, and passenger. 6. 7-8 Using Figure 7-8, start at the bottom scale labeled load weight. Draw a line from 211 lb up to the line labeled \u201cFuel\u2014station 108.5.\u201d Draw a line to the left The combination method usually uses the computation method to determine the moments and CG. Then, these figures are plotted on a graph to determi"
+      },
+      {
+        "title": "Weight",
+        "content": "(pounds) Basic Empty Weight Pilot Forward Passenger Right Forward Baggage Left Forward Baggage Right Aft Passenger Left Aft Passenger Right Aft Baggage Left Aft Baggage 1,400 170 250 Totals without fuel 2,105 Main Fuel Tank Auxiliary Fuel Tank 184 110 Totals with fuel CG 2,399 185 50 50 Basic Empty Weight Pilot Fwd Passenger Right Fwd Baggage Left Fwd Baggage Right Aft Passenger Left Aft Passenger Right Aft Baggage Left Aft Baggage 1,400 170 250 Totals with Zero Fuel 2,105 184 110 Totals with Fuel CG 2,399 Moment (lb/in) 107.75 49.5 49.5 44 44 79.5 79.5 79.5 79.5 150,850 8,415 12,375 0 0 0 14,708 3,975 3,975 194,298 106 102 19,504 11,220 Arm (inches) Moment (lb-in) 0 12.2 \u221210.4 11.5 \u221211.5 12.2 \u221212.2 12.2 \u221212.2 0 2,074 \u22122,600 0 0 0 \u22122,257 610 \u2212610 \u22122,783 \u221213.5 13 \u22122,484 1,430 \u22123,837 \u22121.6 Fi"
+      },
+      {
+        "title": "Weight",
+        "content": "(pounds) 91 93 95 97 99 101 103 Point A Forwardmost CG with full fuel 2,100 1,900 1,700 C L Main Rotor 1,500 225,022 93.8 Figure 7-10. Use the computed longitudinal CGs (left) and the longitudinal CG envelope (right) to determine if the helicopter is loaded properly. 7-9 the resulting total moment is \u20133,837 lb-in. To calculate CG, divide \u20133,837 lb-in by the total weight of 2,399 lb. The result is \u20131.6 inches, or a CG that is 1.6 inches left of the aircraft centerline. Lateral CG is often plotted against the longitudinal CG. [Figure 7-12] In this case, \u20131.6 is plotted against 93.8, which was the longitudinal CG determined in the previous problem. The intersection of the two lines falls well within the lateral CG envelope."
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Review all the terms associated with weight and balance with the student. \u2022 Review the sample weight and balance problems with the student. \u2022 Ensure that the student understands weight and balance must remain within limits after all loading, unloading, refueling, and fuel consumption. \u2022 Ensure that the student understands current and forecast environmental conditions affect the performance of the aircraft, thereby affecting weight and loading limitations. \u2022 Review and practice with the student the actual weight and balance forms for the helicopter to be flown. \u2022 Ensure the student understands the charts by using weights and/or balances that may put the helicopter in an out-of-weight or out-of-balance condition. \u2022 The more the student works the weight and balance figures, the more profici"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter explained how to introduce weight and balance to the student, how to read the charts necessary for computing weight and balance of the helicopter, and definitions of common terms associated with weight and balance."
+      },
+      {
+        "title": "Weight and Balance",
+        "content": "Objective The purpose of this lesson plan is to give the student the solid understanding of weight and balance concepts (including computations) necessary for safe flight. Content 1. Preflight discussion: discuss lesson objective and completion standards. 2. Review terms associated with weight and balance. 3. Instructor actions: a. In a classroom environment, review all terms associated with weight and balance. b. Discuss with the student the difference between the computational method and the combinational method. c. Have the student review and practice the computations for sample problems 1, 2, and 3. d. Once the student has a understanding of the contents of chapter 7, introduce that student to the actual weight and balance computations for his or her helicopter using the FAA-approved R"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "\u2022 Review what was covered during this phase of training. \u2022 Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 7, Helicopter Performance. Figure 7-13. Sample lesson plan. 7-11 7-12 Chapter 8"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 7: Weight and Balance",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "It is imperative for the student to realize safety correlates directly to a comprehensive understanding of performance planning. Performance planning incorporates engine power available and rotor system efficiency to establish helicopter performance values. The student must be able to recognize the impact of density altitude, helicopter weight, and other environmental factors in order to maximize each helicopter\u2019s unique capabilities, while understanding its limitations. Failure to conduct performance planning properly may lead to disastrous consequences. 8-1 Factors Affecting Performance Instructors should ensure the student has a firm grasp on the four major factors affecting helicopter performance: density altitude, weight, loads, and wind. Emphasis must be placed on the importance of p"
+      },
+      {
+        "title": "Weight",
+        "content": "The student should possess a basic understanding of the aerodynamics of weight opposing lift. As the weight of the helicopter increases, the power required to produce lift also must increase. The instructor should use the helicopter\u2019s performance charts in the relevant Pilot\u2019s Operating Handbook (POH) to demonstrate minimum and maximum weight configurations and how that correlates to required power with a given set of environmental conditions. A beneficial technique is to show various power/torque requirements at graduated weight and altitude increments, culminating with high gross weight/high altitude condition. This demonstrates the additional power required as weight and/or density altitude increase. Validation of this exercise can be accomplished using similar data in performance chart"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Take every opportunity to advance the student\u2019s awareness of environmental conditions. Accurate and thorough performance planning are essential to safe and successful flight operations. \u2022 Require the student to complete performance planning prior to each training flight. This instills the habit and highlights the importance of performance planning. \u2022 The student must use the appropriate POH/RFM for the helicopter being flown for all performance planning. This allows the student to become familiarized with the capabilities and limitations of the particular helicopter. \u2022 Remember, as an instructor, you should capitalize on opportunities throughout training to correlate the academic training to practical flight applications. \u2022 Tailor scenarios to the student\u2019s reason for helicopter training"
+      },
+      {
+        "title": "Performance Planning",
+        "content": "To make the discussion of performance planning relevant to the student, develop a series of exercises that are scenario based and require use of performance graphs from the POH/ RFM. Each scenario based lesson plan must have a targeted learning point. Different scenarios can demonstrate the effect of each environmental factor (Atmospheric Pressure, Altitude, Temperature and Moisture) affecting density altitude. 8-5 Helicopter Performance Objective The objective of this lesson plan is for the student to conduct performance planning, using the POH/RFM, and gain a deeper understanding of the impact environmental conditions have on helicopter performance. Content 1. Scenario: You are going to depart location X with given pressure altitude, temperature, aircraft weight, wind. Plan a flight to l"
+      },
+      {
+        "title": "Postflight Discussion and Debriefing",
+        "content": "This should include a dialogue between the instructor and student encompassing the flight planning, preparation, and the flight. Generally, the instructor should start the discussion by identifying positive aspects of the planning and flight, encouraging the student to be more receptive to areas needing improvement. Asking questions that generate reflective thinking assists the instructor in evaluating the student\u2019s assessment skills, judgment, and decision-making skills. The instructor should encourage the student to self-critique and should assist the student in identifying performance planning issues that may need further discussion or problem solving. Based on this analysis, the instructor and student should discuss methods for improvement and continued awareness of these issues. Previ"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed the effects ambient weather, weight and environmental conditions have on performance planning and flight operations. Additionally, this chapter provided instructional methods to apply practical, in-flight application of academic knowledge. Chapter 9"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 8: Preflight and Postflight",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Ground operations, inspections, and checks must be accomplished prior, during, and at the completion of any flight. Procedures for accomplishing many of these tasks have been developed by the manufacturer and are contained in the Rotorcraft Flight Manual (RFM) or Pilot\u2019s Operating Handbook (POH). 9-1 Checklists It is essential that the student understand that the purpose of the checklist is not to provide a comprehensive procedure, but rather to provide a systematic, sequential directory of those tasks to be accomplished for the safe operation of the helicopter. The student should be shown that the checklist is derived from those procedures found in the applicable RFM/ POH. [Figure 9-1] It cannot be stressed enough that the use of the checklist ensures that items necessary for safe operati"
+      },
+      {
+        "title": "Lift",
+        "content": "....... Area . . N T DOW Fastened On Off el free Full trav free el Full trav friction on n, Full dow on Friction Neutral Off In Off Full rich Installed d locked Down an Off ged Disenga Set ged Disenga Off E AND NGIN ING E T STAR INE G ENG TARTIN RE S BEFO SHU ..... ....... .... e down . Collectiv als neutral . . . . . . . ed . /p . . ...."
+      },
+      {
+        "title": "Cyclic",
+        "content": "r ..... ..... Governo to 80% . . . . . . . . . . . . 70 . . at .... Idle ..... ....... Throttle itch . . . . . . . . . . . . . . . sw . h . Clutc s ... second . . . . . . . . . . . . Wait 30 ..... guard . . Mixture conds . . . . . . . . . . . se Wait 30 ht off . . . . . . . . lig h Clutc On ired As requ Closed Clear On en both Start, th Out y) 55% (no dela Engaged lay) de s nd On (no an 5 seco Less th inimum 25 PSI m On Out % 70 to 75 Green nds Out in 2 seco 7% max rop /d CAT rise lit sp Needles d latched an Closed Check Off 2-104% RPM 10 % ht at 97 Horn/lig Clear on Friction on Friction Off op dr CHT Closed ge Disenga cut-off Pull idle mixture on e Back tor brak Apply ro s off he All switc Figure 9-1. Sample of a Robinson R22 checklist. 9-2 P RUN-U of checklists. While maintaining a posit"
+      },
+      {
+        "title": "Preflight inspection",
+        "content": "\u2022 Before engine start \u2022 Engine start \u2022 Before taxi \u2022 Before takeoff \u2022 After takeoff \u2022 Cruise \u2022 Descent \u2022 Before landing \u2022 After landing \u2022 Engine shutdown and securing Required Documents Emphasize to the student that a safe flight begins with a careful inspection of the helicopter. The purpose of the preflight inspection is two-fold: \u2022 Determine if the helicopter is legally airworthy, and \u2022 Determine if the helicopter is in condition for safe flight. The airworthiness is determined, in part, by the certificates and documents that must be on board the helicopter during operation. [Figure 9-2] Educate the student on potential liabilities and subsequent ramifications of not having verified these documents. An excellent reference publication for a student pilot is the Plane Sense handbook. This"
+      },
+      {
+        "title": "Preflight inspections should only be accomplished after",
+        "content": "the instructor has conducted a thorough preflight briefing with the student which should be done in a place free of distractions to maximize learning and retention. If the student has not been told exactly what to expect step by step of the preflight inspection, they will probably be overwhelmed by the observations and information presented to them when conducting the inspection. A good initial preflight in a hangar is preferable to one that is conducted on the flightline. If a similar helicopter is disassembled for maintenance, this could serve as a good training aid and allow the student to see the actual part or piece of the helicopter that they may not be able to see during an actual preflight. The preflight inspection should be performed in accordance with the printed checklist provid"
+      },
+      {
+        "title": "Takeoff",
+        "content": "Right hand behind back; left hand pointing up. Move downward Arms extended, palms down; arms sweeping down. Land Arms crossed in front of body and pointing downward. Shut down Either hand, palm down, across the neck in a \u201cthroat-cutting\u201d motion. Figure 9-4. Hand signals. 9-5 Signal Type and Color Aircraft on the Ground Aircraft in Flight Movement of Vehicles, Equipment, and Personnel Steady green Cleared for takeoff Cleared to land Cleared to cross Proceed Go Flashing green Cleared to taxi Return for landing (to be followed by a steady green at the proper time) Not applicable Steady red Stop Give way to other aircraft and continue circling Stop Flashing red Taxi clear of landing area or runway in use Airport unsafe DO NOT land Clear the taxiway or runway Flashing white Return to starting p"
+      },
+      {
+        "title": "Cyclic and collective controls locked",
+        "content": "Master fuel valve in All instruments in static condition All circuit breakers in except heater All electrical equipment off Battery switch on Position beacon on Check fuel quantity Check fuel low light Check transmission light Check tail rotor chip detector light Check clutch light Clutch switch down/disengaged Fuel cut off out"
+      },
+      {
+        "title": "Throttle open \u00bc inch",
+        "content": "Fuel boost on Fuel cut off in for 3 seconds Fuel cut off out Fuel boost off"
+      },
+      {
+        "title": "Throttle closed",
+        "content": "Mags to both Engine starter button until the engine fires Slowly depress fuel cut off when engine fires Immediately roll on throttle to increase engine rpm to 1,300 Alternator on Radios on Transponder to standby Headset on Engine rpm to 1,500 Check area surrounding helo is clear Clutch switch engage until rotor blades move one width of a blade, then back down to neutral Wait until engine climbs back up to 1,500 rpm Clutch switch engage two more times until rotor rpm needle joins engine rpm needle. When clutch light is out, increase engine rpm to 2,000 Alternator check When engine oil temp reaches 104 \u00b0F, proceed with following 2 checks Increase manifold pressure to 14 psi with engine rpm at 2,500. Turn key to left mag for 2 seconds, then back to both, then right mag for 2 seconds, then bac"
+      },
+      {
+        "title": "Collective and cyclic frictions off",
+        "content": "Trim to pilot side Contact tower, and you are off and away Figure 9-6. Sample checklist for engine start. Before-Takeoff Checks Prior to takeoff, the pilot shall consider the following items, and brief the passenger(s), as appropriate: 1. Hydraulics \u2013 ON 2. GOV \u2013 ON/RPM \u2013 100% 3. Clear area (left, right, overhead) 4. Check gauges (engine, transmission, fuel) 5. Transponder \u2013 ON/Alt Figure 9-7. Sample guidelines for a takeoff briefing. 9-8 Ensure the student understands that exceptions may be necessary under strong wind conditions (particular attention must be observed to avoid potential damage to the rotor head and/or tail boom). If possible, demonstrate alternate options. Unless parking in a designated, supervised area, the student should be instructed to select a location and heading tha"
+      },
+      {
+        "title": "Postflight",
+        "content": "Point out that a flight is never complete until the engine is shut down, rotors have stopped, and the helicopter is secured. When the rotors have stopped, the pilot then carries out a postflight inspection to include checking the general condition of the aircraft. Stress to the student that the postflight procedure is an essential part of any flight. Although not meant to be a thorough inspection, the postflight is no less important. Discrepancies noted on postflight allow maintenance personnel more time to make appropriate repairs and prepare the aircraft for subsequent flights. Using experience, point out common or frequent trends found during postflight. Ask the student or have the student question what he or she may see. Are the fluid levels within limits? Are they at the same level as"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter described those flight preparations and ground procedures normally associated with helicopter flight. In this discussion, particular emphasis was placed on the use of the manufacturer\u2019s procedures and checklists in accomplishing various functions. For additional information in any of these areas, refer to the RFM for the helicopter being flown. 9-9 Using Checklists Objective The purpose of this lesson is demonstration by the student of the proper use of checklists during preflight inspection. The student will demonstrate the ability to perform a preflight inspection using the checklist. Content 1. Preflight discussion: lesson objective and completion standards 2. Instructor actions: review use of checklists 3. Student actions: select correct checklist and use it to perform a p"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Instructor critiques student performance, previews next lesson, and assigns the Helicopter Flying Handbook, Chapter 9, Basic Flight Maneuvers. Figure 9-8. Sample lesson plan. 9-10 Chapter 10"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 9: Basic Flight Maneuvers",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This chapter provides information to help the instructor explain and demonstrate basic flight maneuvers to students. Since instructors often forget the difficulties they encountered in mastering various flight maneuvers, this chapter is designed as a teaching aid to refresh the instructor\u2019s memory of the difficulties involved in learning various helicopter maneuvers. 10-1 Basic Maneuvers Basic flight maneuvers consist of five fundamental modes of flight: straight-and-level, turns, climbs, descents, and hovering. A student should understand that all maneuvers are based on one or a combination of these fundamental modes. Inform the student that the Practical Test Standards (PTS) establish the minimum standards or acceptable limits for the performance of each maneuver. Prior to flight, a brie"
+      },
+      {
+        "title": "Hover",
+        "content": "The normal takeoff from a hover is the transition from hovering flight into a climb over a specified ground track. During the climb, airspeed and altitude should be such that the crosshatched or shaded areas of the height/velocity diagram are avoided. Other types of takeoff may be performed; however, the student needs to learn early how and why he or she is performing a specific takeoff. The pilot should be making a risk assessment to determine which type of takeoff is the safest. Instructional Points Discuss with the student during the preflight, what control inputs are required during hovering flight and takeoffs. There is more to a normal takeoff than just adding forward cyclic. Bring the helicopter to a hover and make a performance check, which includes power, balance, and flight contr"
+      },
+      {
+        "title": "Collective increase",
+        "content": "Cruise This is often referred to as \u201cthe law of inertia.\u201d The student can get ahead of the helicopter and make control inputs before the helicopter has had time to completely respond to any inputs. This is the normal progression of the student gaining experience and getting the \u201cfeel\u201d of the helicopter. RPM Control In the initial attempts at hovering, the student usually does not check rpm and make the necessary corrections. On helicopters equipped with a governor or correlator, rpm control is considerably easier. Periodically call attention to the rpm, and point out that changes in engine rpm can also be heard. Coordination It is not uncommon for a student, particularly a student transitioning from airplanes, to attempt to gain altitude by applying rearward cyclic pressure, or attempt to "
+      },
+      {
+        "title": "Hover",
+        "content": "Accelerate Figure 10-5. Sequence of attitudes from hover to hover. 10-13 rollover. Abrupt aft cyclic movement can also lead to the tail guard/stinger striking the ground and, in worse cases, the tail rotor. To help avoid this problem, continually reinforce what the correct height should look like and continuously remind the student that a good scan helps prevent unwanted altitude changes. This is because the wind is striking the tail surface and the tail rotor area, making it more difficult for the tail to turn into the wind. As pedal pressures increase due to crosswind forces, additional cyclic pressure into the wind is required to maintain position. Use the collective with the throttle to maintain a constant altitude and rpm. Hovering Turn Demonstrate how a hovering turn is accomplished "
+      },
+      {
+        "title": "Landing From a Hover",
+        "content": "The helicopter is stabilized in a hover directly over the intended landing spot, then gently lowered onto the ground. It should not drift in any direction at the point of touchdown. The instructor should remind the student pilot of the flight control changes that must occur during this seemingly simple task. As the helicopter begins to settle onto the surface, all of the flight controls must be manipulated simultaneously and in coordination to achieve a smooth landing. When choosing a landing area for the student to practice landing from a hover, instructors should keep in mind that certain conditions usually dictate a landing directly to the ground with little or no hover. For example, dust, sand, or snow landings are very difficult and should not be attempted until the student has shown "
+      },
+      {
+        "title": "Hover Taxi",
+        "content": "The term hover taxi is used to describe a helicopter movement conducted above the surface and in ground effect at airspeeds less than approximately 20 knots. [Figure 10-10] The actual height may vary, and some helicopters may hover taxi above 25 feet above ground level (AGL) to reduce ground effect turbulence or provide clearance for cargo slingloads. Less rotor downwash Hover taxi (25 feet or less) Figure 10-12. Surface taxi. Ground taxi can form the basis for a running takeoff used by older, underpowered helicopters. Ground taxi creates less downwash, since less thrust is required to slide the skids than to support the entire weight of the helicopter. Wheeled taxi is very efficient. Water or ski taxi is between those two extremes in terms of power required. Poor surface conditions or ski"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 A student will attempt to imitate instructor actions. Do not take shortcuts. Instill safety from the first day. Insist the student clear the helicopter in all directions prior to performing any maneuver. \u2022 Stay close to the controls at all times, but especially during the hover. Be prepared for both the expected and the unexpected. \u2022 Students transitioning to helicopters from airplanes may have \u201cair sense\u201d but, remember, they are still students. Students do the unexpected, especially students who are transitioning from airplanes to helicopters, and should be closely supervised. There are many negative transfers of training from airplanes to helicopters. In instances of stress, the airplane pilot can be expected to revert to \u201cfirst learned\u201d behaviors, which can have deadly consequences in"
+      },
+      {
+        "title": "Hover requirements at the highest altitude and",
+        "content": "temperature for that day. 1. Power required to hover (OGE, IGE) 2. Total power available 3. Power available at the highest altitude and temperature for the day. It is essential to discuss the meeting of these parameter values and to ensure that the student understands the limitations imposed by these values, even if the RFM does not state them as limits. [Figure 10-16] Basic Flight Maneuvers Objective The purpose of this lesson is for the student to learn how to turn at a hover. The student will demonstrate a basic ability to turn the helicopter at a hover. Content 1. Preflight Discussion a. Discuss lesson objective and completion standards. b. Review normal checklist procedures coupled with introductory material. c. Review weather analysis d. Explain to the student that maneuvering close "
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review the flight, preview the next lesson, and assign Helicopter Flying Handbook, Chapter 10, Advanced Flight Maneuvers. Figure 10-16. Sample lesson plan. 10-23"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter presented some training techniques and instructional points an instructor can use to teach hovering flight and basic flight maneuvers. Common difficulties students encounter when attempting to perform hovering flight and basic maneuvers were also discussed. 10-24 Chapter 11"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 10: Advanced Flight Maneuvers",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Advanced maneuvers are practiced to increase the student\u2019s proficiency and confidence and to introduce the full capability of the helicopter in everyday flight operations. Basic movement in and around airports, specifically air taxi operations, require advanced maneuvers, such as rapid decelerations or quick stops, and necessitate a higher degree of pilot coordination and confidence. (See the Aeronautical Information Manual (AIM) paragraph 4-3-17b for additional information.) Additional advanced maneuvers include high altitude operations, slope landings, confined area operations, and pinnacle landings. Practicing rapid decelerations, or quick stops, also enhances coordination and pilot confidence. 11-1 Instructor\u2019s Approach The Commercial Pilot Practical Test Standards (PTS) provides a lis"
+      },
+      {
+        "title": "Landing area\u2014the suitability of the landing area must",
+        "content": "be evaluated by the pilot. o Is the area large enough for landing and takeoff? o Determine slope of the intended landing area. Perhaps the scenario calls for loading or unloading of cargo or passengers, is that feasible with the perceived slope? o Obstacles in and around the area. How do the obstacles affect the wind inside the area? o Any surface debris that could damage the aircraft. Is there tall grass? (Bushes or saplings may cause tail rotor/under carriage damage.) o Dust or snow may cause whiteout/brownout. o Is there uneven terrain, or slopes? Takeoff route\u2014locate the takeoff direction (into the wind) and lowest obstacles, and identify potential forced landing areas. Does the confined area permit repositioning to allow more room for departure? Remember, when teaching a student, stre"
+      },
+      {
+        "title": "Landing",
+        "content": "The objective in a running landing is to maintain a sufficient forward speed to take advantage of translational lift until touchdown. As in the running takeoff, power should be limited to less than that required to hover. A shallow final approach should be used to maintain a low rate of descent. Since the helicopter is sliding or rolling to a stop during this maneuver, the landing area must be smooth and long enough to accomplish this task. [Figure 11-6] 5\u00b0 Descent The loss of ETL occurs higher in a steep approach, requiring an increase in the collective to prevent settling, and more forward cyclic to achieve the proper rate of closure. For training, terminate the approach at hovering altitude above the intended landing point with zero groundspeed. If power has been properly applied during"
+      },
+      {
+        "title": "Collective Control",
+        "content": "Collective should not be fully lowered until the helicopter has stopped. Students tend to lower the collective immediately after landing, as in a normal landing from a hover. Rapidly lowering the collective while the helicopter is still sliding results in a deceleration rate that can impose undue stress on the landing gear support, rotor mast, transmission, or supporting structure. Touchdown Common problems on touchdown include improper use of the collective and cyclic controls. Just prior to touchdown, there is a tendency to apply aft cyclic to cushion the landing. This causes the tail of the skids to touch first, followed by a forward pitching moment. A student may attempt to correct this action with more aft. In extreme cases, this can cause the main rotor blades to contact the tail boo"
+      },
+      {
+        "title": "Takeoff",
+        "content": "A confined area takeoff is considered an \u201caltitude over airspeed\u201d maneuver. This means it is more important to gain altitude than airspeed. Make the best takeoff possible to attain a normal attitude and climb airspeed to avoid or exit the crosshatched or shaded areas of the height/velocity diagram as quickly as possible. Because this is primarily an altitude acquiring maneuver, it usually requires lowering the nose to gain airspeed after the obstructions are cleared. Before takeoff, make a ground reconnaissance to determine the type of takeoff to be performed. Doing so helps determine the point in which the takeoff should be initiated to ensure the maximum amount of available area, and how to best maneuver the helicopter from the landing point to the proposed takeoff position. If wind cond"
+      },
+      {
+        "title": "Takeoff",
+        "content": "Attitude control problems during the takeoff and climb to 500 feet above the ground may be caused by several factors. Initially, the student might be tempted to look at reference points that are too close to the helicopter, focusing on things that can still be seen clearly. When airborne, a reference well in front of the helicopter should be used for attitude control. During the initial departure from a lighted area into the darkness beyond, it is necessary to refer to the airspeed indicator and altimeter frequently in order to confirm the desired attitude. Airborne Following the first night takeoff, spend a few minutes away from the traffic pattern in a poorly lighted area. This allows the student to relax and become acclimated to the night environment and gain confidence in the ability t"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 A student will attempt to imitate instructor actions. Do not take shortcuts. Instill safety from the first day. Insist the student follow established procedures when performing any maneuver. \u2022 Make the training relevant to the student. [Figure 11-12] Explain how the student will use the maneuver in future operations. \u2022 During maneuvers that bring the helicopter in close proximity to the ground or obstacles, instructors should stay close to the controls but not \u201con the controls.\u201d Staying on the controls ruins the control feel for the student and makes it more difficult for the instructor to judge exactly what the student is doing, and may hurt the student\u2019s confidence to fly. It is important to not let the helicopter depart the instructor\u2019s comfort zone. It does not really matter what the"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review and critique the flight being sure to discuss student strengths and weaknesses. Remember to provide suggestions on how to improve performance. Preview the next lesson and assign Helicopter Flying Handbook, Chapter 11, Helicopter Emergencies. Figure 11-12. Sample lesson plan. 11-19 turns. Rather than have the student attempt the entire maneuver, try having the student practice the entry. When no difficulty is experienced with the entry, add the next stage, then continue until the entire maneuver is completed. If the student continues to have a difficult time, it may be best to revert to the classroom and discuss what the helicopter should be doing, what the student should be seeing, where the student should be looking, and what responses can be expected. If the student cannot explain"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter presented training techniques and instructional points an instructor can use to teach advanced flight maneuvers. Common difficulties encountered by students when attempting to perform these maneuvers were also discussed, as well as suggestions for instructional techniques. 11-20 Chapter 12"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 11: Helicopter Emergencies",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "Learning emergency procedures is an important component of helicopter flight training. The instructor must ensure a student is completely familiar with the emergency procedures section of the Rotorcraft Flight Manual (RFM) pertinent to the helicopter model being flown. Many instructors require students to memorize emergency procedures and are satisfied when the student offers a simple recitation of the steps outlined in a procedure. While memorizing steps in a procedure is an important element of acquiring knowledge, it does not supply the knowledge needed to solve a problem or provide a solution to something that is not covered by the newly acquired knowledge. As discussed in the Aviation Instructor\u2019s Handbook, understanding, or the ability to notice similarities and make associations bet"
+      },
+      {
+        "title": "Autorotation",
+        "content": "of Di re cti on Direction of flight flig ht Normal Powered Flight Figure 12-1. During an autorotation, the upward flow of relative wind permits the main rotor blades to rotate at normal speed. In effect, the blades are \u201cgliding\u201d in their rotational plane. 12-2 decrease the rate of descent. Point out that the cyclic control is not moved rearward so abruptly as to cause the helicopter to climb. 1 2 3 4 5 Figure 12-2. Straight-in autorotation. Demonstrate the maneuver using the manufacturer\u2019s recommended airspeeds for autorotative descent or the best gliding speed. The instructor should require the student to review the performance charts and know the minimum and maximum glide airspeeds for the day\u2019s conditions. Especially during the early phases of training, the flights should be conducted a"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "By using simulation or flight training programs, the student experiences the virtual reality of various helicopter hazards, especially ones that cannot be demonstrated due to possible structural damage to the aircraft. Refer to Figure 12-7 for a general lesson plan to be used to help outline training."
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter addressed various emergency procedures and provided the instructor with some topics for discussion with a student. Emergencies were discussed in general terms; this chapter is not intended to replace the procedures recommended by the manufacturer in the RFM. Helicopter Emergencies Objective The purpose of this lesson is to teach the student how to land safely following an engine failure at the hover or hover taxi. Engines can fail just as easily at the hover or hover taxi as in flight. The helicopter will land very quickly should this happen, and it is vital that a pilot be able to react quickly and prevent an incident from becoming an expensive accident. The student will demonstrate the ability to land safely following an engine failure at the hover or hover taxi. Content 1. "
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review and critique the flight, being sure to discuss student strengths and weaknesses. Remember to provide suggestions on how to improve performance. Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 12, Attitude Instrument Flying. Figure 12-7. General lesson planning. 12-15 12-16 Chapter 13"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 12: Attitude Instrument Flying",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This chapter is intended to assist the helicopter instructor in further explaining attitude instrument flying in helicopters. When appropriate, refer to the Instrument Flying Handbook and the Advanced Avionics Handbook for the definition or further explanation of a system instrument. Many of the current helicopter instrument systems have been included in those handbooks; however, it is not feasible to include every helicopter instrument system that may be installed in any particular helicopter. Instrument systems on different aircraft serve the same purpose; however, the configuration of the instrument panel and the design may be somewhat different. 13-1 Ideally, the helicopter instructor will wait to explain this chapter until after a basic understanding of instruments is achieved. Once t"
+      },
+      {
+        "title": "Emergencies",
+        "content": "\u2022 Instrument takeoff Perform a learning check by asking the student the location and function of each instrument used for attitude instrument flight. During flight, these demonstrations indicate if the student is able to maintain aircraft control during attitude instrument flight using both cross-check and instrument interpretation. Ensure the student knows what to do if the instrument fails and how that failure affects the scan being used. Allocate adequate time to train recovery from unusual attitudes. The student needs an understanding of the errors inherent in each instrument and common errors for the tasks to be performed. Instructional Techniques Instrument flying is simply composed of level, turning, climbing, and descending instrument flight maneuvers. Do not overwhelm the student "
+      },
+      {
+        "title": "Performance instruments",
+        "content": "\u2022 Navigation instruments \u2022 Four-step process used to change attitude: establish, trim, cross-check, and adjust \u2022 Apply the four-step process for: pitch control, bank control, and power control \u2022 Primary and supporting method: pitch control, straight-and-level flight, primary pitch, primary bank, primary yaw, and primary power \u2022 Scanning techniques of attitude instrument flying \u2022 Common errors of attitude instrument flying: fixation, omission, and emphasis More detailed information, as well as additional explanations can be found in the following references: Instructional Objectives Continue to reinforce the basic standards throughout this training. Proper performance planning can be used to demonstrate the understanding and use of power settings in stabilized instrument flight techniques. "
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Review with the student how all the flight instruments operate and the actual location of each instrument inside the helicopter. \u2022 Review and practice with the student what instruments are utilized during attitude instrument flight. \u2022 Aviation Instructor\u2019s Handbook \u2022"
+      },
+      {
+        "title": "Instrument Flying Handbook",
+        "content": "\u2022 Practice a \u201cgood cross-check\u201d with the student. \u2022 Helicopter Flying Handbook \u2022 \u2022 Instrument Procedures Handbook Practice with the student how to interpret the instruments during flight. \u2022 Aeronautical Information Manual (AIM) \u2022 \u2022 Advanced Avionics Handbook Ensure the student uses smooth control inputs at all times during flight. 13-6 \u2022 Review with the student the common errors with each task and instrument. \u2022 If appropriate, tell the student well ahead of time what will be covered (task(s) to be flown) for the lesson plan and what the student should study or reference. [Figure 13-4]"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed all the common instrument references and concepts associated with attitude instrument flying and some common errors associated with helicopter flight. The chapter covered which flight tasks are accomplished during attitude instrument flying and how to accomplish those tasks with the instruments. Attitude Instrument Flying Objective The purpose of this lesson plan is to review with the student the common tasks associated with attitude instrument flying. The student needs to know the name and location of each flight instrument and its functions. Instruments that should be discussed are the airspeed indicator, attitude indicator, altimeter, turn indicator, heading indicator, and the vertical speed indicator. The student needs to know how each flight instrument operates "
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "\u2022 Review what was covered during this phase of training. \u2022 If any problems were encountered during the flight tasks, correct or, if necessary, retrain for that particular task(s). \u2022 Preview and assign the next lesson. Assign Helicopter Flying Handbook, Chapter 13, Night Operations. Figure 13-4. Sample lesson plan. 13-7 13-8 Chapter 14"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 13: Night Operations",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "By definition, night flight is flying between the hours of sunset (end of evening civil twilight) and sunrise (beginning of morning civil twilight). During day or night, vision is the sense that makes a pilot aware of the position of the helicopter in space. The eyes can rapidly identify and interpret visual cues during daylight. During darkness, however, visual acuity is decreased proportionally as the level of illumination decreases. Night vision devices improve the capability of the human eye to see at night. Night vision goggles (NVGs) are being utilized more and more by police departments, emergency management services, and civilian pilots. This chapter covers only night flight without the use of NVGs. 14-1 Instructor\u2019s Objective Vision is the most important sense for flying. Vision a"
+      },
+      {
+        "title": "Preflight Inspection",
+        "content": "The aircraft preflight inspection is a critical aspect of safety, and it must comply with the appropriate aircraft operator\u2019s manual. Preflight should be scheduled as early as possible, preferably during daylight hours, allowing time for maintenance assistance if necessary. If a night preflight is necessary, a flashlight with an unfiltered lens should be used to supplement lighting. Oil and hydraulic fluid levels and leaks are difficult to detect with blue-green or red lens. Windscreens must be checked to ensure they are clean and relatively free of scratches. Slight scratches are acceptable for day but may not be acceptable for night flight. The searchlight or landing light should be positioned for the best possible illumination during an emergency descent. Also included in preflight plan"
+      },
+      {
+        "title": "Preflight and aircraft lighting",
+        "content": "\u2022 Proper cockpit lighting \u2022 Engine starting (rotor engagement, if installed) \u2022 Taxi \u2022"
+      },
+      {
+        "title": "Takeoff",
+        "content": "\u2022 En route procedures \u2022 Specific night emergencies \u25cb Light failure \u25cb Alternator failure \u25cb Loss of orientation \u25cb Inadvertent IFR \u2022 Collision avoidance \u2022 Approach and landing Each instructor must determine what type of night training is best for each particular student based on that student\u2019s learning style and understanding. It is beneficial to require portions of training with and without aircraft lighting and training with night vision devices, when necessary. Ensure that the training is always based on the appropriate Rotorcraft Flight Manual (RFM) of the particular helicopter being flown and that the training is tailored to the individual\u2019s needs. Remember, a successful training session depends on adequate support such as flight hours, equipment, and training areas. See Figure 14-8 for "
+      },
+      {
+        "title": "Preflight and aircraft lighting",
+        "content": "Proper cockpit lighting Engine starting (rotor engagement, if installed) Taxi"
+      },
+      {
+        "title": "Takeoff",
+        "content": "En route procedures Specific night emergencies 1. Light failure 2. Alternator failure 3. Loss of orientation 4. Inadvertent IFR \u2022 Collision avoidance \u2022 Approach and landingtent Content 1. Preflight discussion: a. Discuss lesson objective and completion standards. 2. Review terms associated with night operations. 3. Instructor actions: a. In a classroom environment, review all terms associated with night operations. b. Discus with the student the visual deficiencies. c. Discus with the student the anatomy of the eye and the night blind spot. d. Discus with the student the visual illusions, and how to detect and react to the illusions. e. Discuss with the student the proper night scanning techniques. f. Discuss with the student the proper lighting inside the helicopter. g. Discuss with the s"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review what was covered during this phase of training. If any problems were encountered during the flight tasks, correct or, if necessary, retrain the student in that particular task(s). Discuss what will be covered on the next lesson plan. Figure 14-8. Sample lesson plan. 14-9 If the flight is planned to be above the maximum elevations, all obstructions should be cleared by a reasonable margin. Proper flight planning can truly save a life or lives. If the helicopter is IFR equipped and the student is IFR rated, than teach the student IFR recovery techniques."
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Ensure that the student can recognize and understands the visual deficiencies. \u2022 Ensure the student has a basic understanding of the anatomy and physiology of the eye. \u2022 Point out visual illusions to the student during flight, when possible. \u2022 Discuss with the student the inability to see weather phenomena while flying at night. \u2022 Discuss how unusual attitudes are harder to detect at night without the normal visual references. \u2022 If corrective lenses are prescribed to aircrew members, they must use corrective lenses (glasses) in all modes of flight. \u2022 Be aware that it will take 30 to 45 minutes for the average individual\u2019s eyes to reach maximum dark adaptation. \u2022 Use off-center vision when viewing objects under reduced lighting conditions. \u2022 Avoid self-imposed stress. \u2022 Protect night visi"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter described the basic anatomy and physiology of the eye. Night flying and visual illusions were explained, and how a pilot can overcome them while in flight. Various techniques were described to teach the student safer ways to conduct flight at night. Instructors should ensure that the student has a basic understanding of the requirements and common problems associated with night flying. 14-10 Chapter 15"
+      }
+    ]
+  },
+  {
+    "book_id": "Helicopter-Instructor-001",
+    "book_name": "Helicopter Instructor's Handbook",
+    "chapter": "Chapter 14: Helicopter Operations",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": "This chapter provides information to help the instructor guide the student through various helicopter operations. It includes operational and safety considerations for on the ground and in the air. 15-1"
+      },
+      {
+        "title": "Collision Avoidance",
+        "content": "As discussed in this handbook\u2019s Chapter 1, Introduction to Flight Training, as well as in the Aviation Instructor\u2019s Handbook, the instructor must ensure the student develops the habit of looking for other air traffic at all times. If a student believes the instructor assumes all responsibility for scanning and collision avoidance procedures, he or she will not develop the habit of maintaining the constant vigilance essential to safety. Remember to establish scan areas and communication practices for keeping the aircraft cleared. Any observed tendency of a student to enter flight maneuvers without first making a careful check for other air traffic must be corrected immediately. From the first flight, the instructor must make the student aware that it is every pilot\u2019s responsibility to see a"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "\u2022 Review what was covered during this phase of training. \u2022 If any problems were encountered during the flight tasks, correct or, if necessary, retrain for that particular task(s). \u2022 Discuss what will be covered on the next lesson plan. Figure 15-4. Sample lesson plan. the procedures contained in the Rotorcraft Flight Manual (RFM) for the helicopter being used. turning should be expected until sufficient rpm is gained to allow heading control with the pedals. Floats Fixed inflated type floats must be checked daily for inflation and may limit the airspeeds and maneuvering capability of the helicopter. Water landings can be uneventful or very demanding, depending on the winds and waves. Autorotations to the water can be very challenging if the water is smooth and calm. Rotor wash disturbs the"
+      },
+      {
+        "title": "FAA and each must hold a current Commercial or Airline",
+        "content": "Transport Pilot Certificate, with a rating appropriate for the rotorcraft as prescribed in 14 CFR section 133.19. The holder of a Rotorcraft External-Load Operator Certificate must report any change in designation of chief pilot or assistant chief pilot immediately to the FAA certificateholding office. The new chief pilot must be designated and must comply with 14 CFR section 133.23, within 30 days or the operator may not conduct further operations under the Rotorcraft External-Load Operator Certificate unless otherwise authorized by the FAA certificate-holding office. Knowledge and Skill The applicant, or the chief pilot designated in accordance with 14 CFR part 133, section 133.21(b), must demonstrate to the FAA satisfactory knowledge and skill regarding rotorcraft external-load operatio"
+      },
+      {
+        "title": "Performance capabilities, under approved operating",
+        "content": "procedures and limitations, of the rotorcraft to be used. 15-7 4. Proper instructions of flight crew and ground workers. 5. Appropriate rotorcraft-load combination flight manual. The test of skill requires appropriate maneuvers for each class requested. The appropriate maneuvers for each load class must be demonstrated in the rotorcraft as prescribed in 14 CFR part 133, section 133.19. These include: 1. Takeoffs and landings. 2. Demonstration of directional control while hovering. 3. Acceleration from a hover. 4. Flight at operational airspeeds. 5. Approaches to landing or working area. 6. Maneuvering the external load into the release position. 7. Demonstration of winch operation, if a winch is installed to hoist the external load. Before attempting external loads, the student must be fam"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 Remind the student that all aircraft have blind spots whether they are in the air or on the ground, and pilots must maintain a continuous scan to keep the helicopter clear. \u2022 During external load training, remind the student that not only the helicopter needs to clear an obstacle on takeoff, sufficient altitude must also be attained in order for the load to clear the obstacle. \u2022 Stay close to the controls at all times and always be ready to take control of the aircraft. Be prepared for both the expected and the unexpected."
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter presented some training techniques and instructional points that can be used to familiarize the student with helicopter operations in and around airports. It also briefly discussed transition of students into turbine and multiengine helicopters, as well as points to emphasize during external load training. Chapter 16 Practical Examination and Preparation for Flight Review"
+      },
+      {
+        "title": "Introduction",
+        "content": "The instructor must be able to prepare the student for a practical examination as well as the flight review. Documentation Every instructor must have a thorough understanding of Title 14 of the Code of Federal Regulations (14 CFR) part 61. For instance, 14 CFR part 61, section 61.3, provides information on certificates, ratings, and authorizations. Prior to recommending the student pilot for the practical examination or prior to conducting a flight review, the student must have documentation of experience and training requirements. Part 61 also provides regulatory guidance for the requirements and documentation needed for the knowledge test (14 CFR section 61.35), practical test (14 CFR section 61.39), and flight review (14 CFR section 61.56), as well as other pertinent information. 16-1 R"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Replay, reflect, reconstruct, redirect Questions from applicant STEP 5 Aeronautical Health Maintenance & Improvement Plan Personal minimums checklist Personal proficiency practice plan Training plan (if desired) Figure 16-1. Sample flight review checklist. It should be noted that in a flight review, the two possible outcomes are a sign-off in the logbook for successful completion or an opportunity to return and practice more to regain or sharpen certain aircraft skills. There is no possibility of failure in a flight review. At the conclusion of a successful flight review, the logbook of the pilot should be endorsed as recommended by AC 61-65, Certification: Pilots and Flight and Ground Instructors. [Figure 16-2] The purpose of the flight review is to provide for an independent evaluation o"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter discussed the instructor\u2019s role in a student pilot\u2019s preparation for a practical examination. It also outlined recommended procedures for conducting a flight review. 16-6 Chapter 17 Single-Pilot Resource Management, Aeronautical Decision-Making, and Risk Management"
+      },
+      {
+        "title": "Introduction",
+        "content": "The accident rate for helicopters has traditionally been higher than the accident rate for airplanes, probably due to the helicopter\u2019s unique abilities to fly and land in more diverse situations than airplanes. With no significant improvement in helicopter accident rates for the last 20 years, the Helicopter Association International (HAI) set the goal of an 80 percent reduction in helicopter accidents by the year 2016. The Federal Aviation Administration (FAA) has joined HAI and other members of the helicopter community in accepting the challenge of improving the safety of helicopter operations. 17-1 According to the National Transportation Safety Board (NTSB) statistics, approximately 80 percent of all aviation accidents are caused by \u201cpilot error\u201d or the human factor. [Figure 17-1] Many"
+      },
+      {
+        "title": "Landing",
+        "content": "Other Figure 17-1. The percentage of aviation accidents by different phases of flight. Note that the greatest percentage of accidents take place during a minor percentage of the total flight. 17-2 available during solo flights. Good preflight briefings review past performances, provide suggestions for improvement, and define the flight lessons to be demonstrated and performed during this training period. Performance of any new maneuvers should be understood by the student prior to leaving the briefing room. An effective instructor of ADM guides the student through the decision process by: \u2022 Posing a question or situation that engages the student pilot in some form of decision-making activity. \u2022 Examining the decisions made. \u2022 Exploring other ways to solve the problem. \u2022 Evaluating which wa"
+      },
+      {
+        "title": "FAA Resources",
+        "content": "FAA resources offer the instructor a variety of structured frameworks for decision-making that provide assistance in organizing the decision process. These models include but are not limited to the 3P, the 5P, the OODA, and the DECIDE models. All these models and their variations are discussed in detail in the Pilot\u2019s Handbook of Aeronautical Knowledge chapter on aeronautical decision-making. [Figure 17-2] Whatever model is used, the instructor wants to ensure the student learns how to define a problem, recognize all feasible options available, choose a course of action, implement the decision, and evaluate the outcome (continuing the process if necessary). Remember, there is no one right answer in this process. Each student is expected to analyze the situation in light of experience level"
+      },
+      {
+        "title": "Single-Pilot Resource Management",
+        "content": "5P model: Plan, Plane, Pilot, Passengers, Programming Incorporates the elements of Risk g Management Task g Management Information g Management Automation g Management Risk management is a decision-making process designed to systematically identify hazards, assess the degree of risk, and determine the best course of action. Task management is the process pilots use to manage the many concurrent tasks involved in safety flying an aircraft. Information management is the process pilots use to gather pertinent information from all appropriate sources. Automation management is the ability to control and navigate an aircraft by correctly managing its automated systems. 3P Model Perceive, Process, Perform to identify, evaluate, and mitigate hazards related to: Pilot Aircraft EnVironment External "
+      },
+      {
+        "title": "Risk Management",
+        "content": "Risk management is a formalized way of dealing with hazards. It is the logical process of weighing the potential costs of risks against the possible benefits of allowing those risks to stand uncontrolled. It is a decision-making process designed to help the pilot identify hazards systematically, 17-6 assess the degree of risk, and determine the best course of action. Once risks are identified, they must be assessed. The risk assessment determines the degree of risk (negligible, low, medium, or high) and whether the degree of risk is worth the outcome of the planned activity. If the degree of risk is \u201cacceptable,\u201d the planned activity may then be undertaken. Once the planned activity is started, consideration must then be given whether to continue. Pilots must have preplanned, viable altern"
+      },
+      {
+        "title": "Chapter Summary",
+        "content": "This chapter provided the flight instructor with a review of ADM and SRM. It also offered recommendations on how ADM and SRM can be integrated into training"
+      },
+      {
+        "title": "Instructor Tips",
+        "content": "\u2022 NTSB accident records offer many accident/incident reports that can be tailored to test the student\u2019s ADM knowledge. \u2022 A student will attempt to imitate instructor actions. Do not take shortcuts. Instill safety from the first day. \u2022 Questions or situations posed by the instructor must be open ended (rather than requiring only rote or one-line responses). Single-Pilot Resource Management, Aeronautical Decision-Making, and Risk Management Objective The purpose of this lesson is for the student to learn how to assess risk effectively when given a flight scenario. The student will demonstrate the ability to assess risk effectively when given a flight scenario. Content 1. Preflight Discussion a. Discuss lesson objective and completion standards. b. Review the elements of SRM. 2. Instructor Ac"
+      },
+      {
+        "title": "Postflight Discussion",
+        "content": "Review the flight scenario. Preview the next lesson, and assign Helicopter Flying Handbook, Chapter 16, Airport Operations. Figure 17-9. Sample lesson plan. 17-14 Glossary Absolute altitude. The actual distance an object is above the ground. Antitorque pedal. The pedal used to control the pitch of the tail rotor or air diffuser in a NOTAR\u00ae system. AD. See Airworthiness Directive. Antitorque rotor. See tail rotor. Advancing blade. The blade moving in the same direction as the helicopter. In rotorcraft that have counterclockwise main rotor blade rotation as viewed from above, the advancing blade is in the right half of the rotor disk area during forward movement. Articulated rotor. A rotor system in which each of the blades is connected to the rotor hub in such a way that it is free to chang"
+      }
+    ]
+  }
+]

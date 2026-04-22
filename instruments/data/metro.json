@@ -1,0 +1,2387 @@
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 1 - The Atmosphere",
+  "sub_modules": [
+    {
+      "title": "Definition of Meteorology",
+      "content": "Meteorology is the branch of science dealing with the Earth's atmosphere and the physical processes occurring within it."
+    },
+    {
+      "title": "Reasons for Studying Meteorology",
+      "content": "Meteorology is studied to understand atmospheric processes, identify weather hazards and their effects on aircraft, interpret weather data, analyze and evaluate weather conditions before and during flight, and develop solutions to weather-related problems. Weather is uncontrollable, but understanding it helps pilots anticipate risks."
+    },
+    {
+      "title": "Weather-Influenced Aviation Risks",
+      "content": "Weather plays a significant role in aviation accidents. Major contributing factors include wind and turbulence (43.3%), visibility (21.1%), icing/snow (21.1%), rain/wet runway (11.5%), and lightning (2.9%). Fatal accidents are most commonly linked to poor visibility."
+    },
+    {
+      "title": "Definition of the Atmosphere",
+      "content": "The atmosphere is the spheroidal gaseous envelope surrounding the Earth."
+    },
+    {
+      "title": "Composition of the Atmosphere",
+      "content": "The atmosphere consists mainly of nitrogen (78.09%), oxygen (20.95%), argon (0.93%), and carbon dioxide (0.03%), along with trace gases such as neon, helium, methane, ozone, and others. Water vapour is the most important component for weather. The composition remains constant up to about 60 km."
+    },
+    {
+      "title": "Properties of the Atmosphere",
+      "content": "The atmosphere varies in pressure, temperature, density, and humidity. It behaves as a fluid, supports life in lower levels, and is a poor conductor of heat."
+    },
+    {
+      "title": "Structure of the Atmosphere",
+      "content": "The atmosphere is divided into layers: the troposphere (lowest layer containing most weather), the tropopause (boundary where temperature lapse stops), and the stratosphere (temperature initially constant then increases due to ozone absorption of UV radiation). Above lies the mesosphere."
+    },
+    {
+      "title": "Troposphere",
+      "content": "The troposphere contains about three-quarters of the atmosphere's mass and nearly all weather phenomena. Temperature decreases with altitude in this layer."
+    },
+    {
+      "title": "Tropopause",
+      "content": "The tropopause is the boundary between the troposphere and stratosphere where temperature stops decreasing with height. Its height varies: higher at the equator (~16–18 km) and lower at the poles (~8 km). It is associated with jet streams, maximum wind speeds, and turbulence."
+    },
+    {
+      "title": "Stratosphere",
+      "content": "In the stratosphere, temperature initially remains constant and then increases due to ozone absorbing ultraviolet radiation. This layer extends up to about 50 km."
+    },
+    {
+      "title": "Temperature Distribution",
+      "content": "In the troposphere, temperature decreases with altitude and increases from poles to equator. In the lower stratosphere, temperature trends vary depending on season and latitude."
+    },
+    {
+      "title": "Atmospheric Hazards",
+      "content": "At higher altitudes, ozone concentration and cosmic radiation become significant. Ozone must be filtered at high altitudes, while solar flares can increase radiation exposure, requiring flight level adjustments."
+    },
+    {
+      "title": "International Standard Atmosphere (ISA)",
+      "content": "ISA is a standardized atmospheric model used for calibration and aircraft performance. It defines conditions such as MSL temperature of +15°C, pressure of 1013.25 hPa, density of 1.225 kg/m³, and a temperature lapse rate of 2°C per 1000 ft up to 11 km, above which temperature remains constant."
+    },
+    {
+      "title": "ISA Temperature and Deviation",
+      "content": "ISA temperature at altitude is calculated using: ISA Temp = 15 - 2 × altitude (in 1000 ft). ISA deviation is the difference between actual temperature and ISA temperature. This is crucial for determining true altitude and aircraft performance."
+    },
+    {
+      "title": "Pressure and Density Variation",
+      "content": "Pressure decreases with altitude, and density reduces accordingly. The rate of pressure change varies with altitude and temperature and affects aircraft performance and altimeter readings."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 2 - Pressure",
+  "sub_modules": [
+    {
+      "title": "Introduction to Pressure",
+      "content": "Atmospheric pressure variations are closely linked to weather changes. Falling pressure often indicates deteriorating weather. The study of pressure forms the foundation of meteorology."
+    },
+    {
+      "title": "Atmospheric Pressure Definition",
+      "content": "Atmospheric pressure is the force per unit area exerted by the weight of the air above a surface. Pressure decreases with increasing altitude because the weight of the overlying air reduces."
+    },
+    {
+      "title": "Units of Measurement",
+      "content": "Pressure is measured in Pascals (Pa), typically expressed as hectopascals (hPa). Standard sea level pressure is 1013.25 hPa. Other units include millibars (mb), inches of mercury (29.92 inHg), and millimetres of mercury (760 mmHg)."
+    },
+    {
+      "title": "Mercury Barometer",
+      "content": "A mercury barometer measures atmospheric pressure by the height of a mercury column. The higher the pressure, the higher the column."
+    },
+    {
+      "title": "Aneroid Barometer",
+      "content": "An aneroid barometer uses sealed, partially evacuated capsules that expand and contract with pressure changes. These movements are translated into pressure readings."
+    },
+    {
+      "title": "Barograph",
+      "content": "A barograph records continuous pressure changes over time using a rotating drum. It is used to determine pressure tendency, which is important for weather forecasting."
+    },
+    {
+      "title": "Variation of Pressure with Height",
+      "content": "Pressure decreases with altitude. The rate of decrease depends on temperature: in warm air, pressure decreases slowly; in cold air, it decreases rapidly. Height change per 1 hPa increases with altitude."
+    },
+    {
+      "title": "Effect of Temperature on Pressure",
+      "content": "Warm air expands, causing pressure to decrease slowly with height. Cold air is denser, causing pressure to decrease rapidly. Therefore, pressure at a given height is higher in warm air and lower in cold air."
+    },
+    {
+      "title": "Diurnal Variation",
+      "content": "Pressure changes slightly throughout the day due to atmospheric oscillations, typically with a 12-hour cycle. Variations are small (1 hPa in temperate regions, up to 3 hPa in tropics)."
+    },
+    {
+      "title": "QFE",
+      "content": "QFE is the atmospheric pressure at the aerodrome reference point. When set on the altimeter, it reads zero when on the ground at that aerodrome."
+    },
+    {
+      "title": "QNH",
+      "content": "QNH is QFE corrected to mean sea level using ISA conditions. When set on the altimeter, it reads the aerodrome elevation. It does not account for actual temperature deviations."
+    },
+    {
+      "title": "QFF",
+      "content": "QFF is QFE corrected to mean sea level using actual temperature conditions. It represents true mean sea level pressure and is used in weather analysis and forecasting."
+    },
+    {
+      "title": "Relationship between QNH and QFF",
+      "content": "If conditions are warmer than ISA above MSL or colder than ISA below MSL, then QNH is greater than QFF. Otherwise, QFF is greater than QNH. At mean sea level, QNH equals QFF regardless of temperature."
+    },
+    {
+      "title": "Pressure Range",
+      "content": "Typical mean sea level pressure ranges from 950 to 1050 hPa. Extreme values include lows of around 870 hPa (typhoons) and highs above 1085 hPa (cold continental regions)."
+    },
+    {
+      "title": "Pressure Definitions",
+      "content": "QFE: Pressure at aerodrome level. QNH: Pressure reduced to MSL using ISA. QFF: Pressure reduced to MSL using actual temperature. Standard Pressure Setting (SPS): 1013 hPa."
+    },
+    {
+      "title": "Isobars and Analysis Charts",
+      "content": "Isobars are lines joining points of equal pressure (usually QFF). They are used on weather charts to analyze pressure patterns and forecast weather changes."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 3 - Density",
+  "sub_modules": [
+    {
+      "title": "Definition of Density",
+      "content": "Density is defined as mass per unit volume. It can be expressed as grams per cubic metre, relative density (percentage of standard density), or density altitude (the altitude in ISA corresponding to the observed density)."
+    },
+    {
+      "title": "Effect of Pressure on Density",
+      "content": "Density is directly proportional to pressure. Increasing pressure compresses air, reducing volume and increasing density. Decreasing pressure expands air, increasing volume and reducing density."
+    },
+    {
+      "title": "Effect of Temperature on Density",
+      "content": "Density is inversely proportional to temperature. When air is heated, it expands, reducing the mass per unit volume and therefore decreasing density."
+    },
+    {
+      "title": "Effect of Humidity on Density",
+      "content": "Density is inversely proportional to water vapour content. Water vapour is lighter than nitrogen and oxygen, so increasing humidity reduces air density."
+    },
+    {
+      "title": "Effect of Altitude on Density",
+      "content": "As altitude increases, both pressure and temperature decrease. However, the effect of pressure dominates, so density decreases with altitude. In ISA, density is approximately 100% at sea level, 50% at 20000 ft, 25% at 40000 ft, and 10% at 60000 ft."
+    },
+    {
+      "title": "Effect of Latitude on Density",
+      "content": "At the surface, density increases from the equator to the poles due to decreasing temperature. At around 26000 ft, density is nearly constant with latitude. Above this altitude, density decreases with increasing latitude, with maximum variation around 50000 ft."
+    },
+    {
+      "title": "Density Variation Rules",
+      "content": "Density changes approximately by 1% for every 3°C change in temperature or 10 hPa change in pressure."
+    },
+    {
+      "title": "Effects of Density on Aircraft Performance",
+      "content": "Low density reduces lift, increases take-off distance, and reduces engine performance. It also affects instrument accuracy such as airspeed indicators and Mach meters. High, hot, and humid conditions significantly reduce aircraft performance."
+    },
+    {
+      "title": "Operational Impact Locations",
+      "content": "Airfields at high altitude (e.g., Denver, Nairobi, Sana’a), high temperature (e.g., Bahrain, Khartoum, Singapore), and high humidity regions experience reduced aircraft performance due to low air density."
+    },
+    {
+      "title": "Lift Relationship with Density",
+      "content": "Lift is proportional to air density as given by the equation: L = CL × 1/2 × ρ × V² × S, where lower density reduces lift for a given speed."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 4 - Pressure Systems",
+  "sub_modules": [
+    {
+      "title": "Introduction to Pressure Systems",
+      "content": "Pressure systems are patterns formed by isobars that help in weather forecasting. These include depressions (lows), anticyclones (highs), troughs, ridges, and cols."
+    },
+    {
+      "title": "Buys Ballot’s Law",
+      "content": "If an observer stands with their back to the wind in the Northern Hemisphere, low pressure lies to their left. In the Southern Hemisphere, low pressure lies to their right."
+    },
+    {
+      "title": "Advection",
+      "content": "Advection refers to the horizontal movement of air."
+    },
+    {
+      "title": "Depressions (Low Pressure Systems)",
+      "content": "A depression is an area of low pressure with circular isobars and lowest pressure at the center. Winds circulate anticlockwise in the Northern Hemisphere. Air converges at the surface, rises, and diverges at higher altitudes."
+    },
+    {
+      "title": "Types of Depressions",
+      "content": "There are two types: frontal depressions (large-scale, polar front systems in temperate regions) and non-frontal depressions (small-scale, including thermal depressions and tropical cyclones)."
+    },
+    {
+      "title": "Frontal Depressions",
+      "content": "Form where warm subtropical air meets cold polar air. They move west to east and are common in temperate latitudes."
+    },
+    {
+      "title": "Non-Frontal Depressions",
+      "content": "Form due to surface heating (thermal depressions) or over warm oceans (tropical cyclones). They may also form in cold air over seas in winter."
+    },
+    {
+      "title": "Troughs",
+      "content": "A trough is an extension of a low-pressure system. It is often associated with fronts and brings similar weather conditions to depressions."
+    },
+    {
+      "title": "Depression Weather",
+      "content": "Typically includes extensive cloud cover, precipitation (continuous or showery), poor visibility in rain, strong winds, and temperature changes depending on season and air mass."
+    },
+    {
+      "title": "Anticyclones (High Pressure Systems)",
+      "content": "An anticyclone is an area of high pressure with widely spaced isobars. Air converges aloft, descends (subsidence), and diverges at the surface."
+    },
+    {
+      "title": "Types of Anticyclones",
+      "content": "Includes warm anticyclones, cold anticyclones, temporary cold anticyclones, ridges, and blocking anticyclones."
+    },
+    {
+      "title": "Cold Anticyclones",
+      "content": "Form in cold regions where air cools, becomes dense, and sinks, increasing surface pressure. Common at poles and over continents in winter."
+    },
+    {
+      "title": "Warm Anticyclones",
+      "content": "Form due to descending air in subtropical regions caused by global circulation (Hadley cell). Example: Azores High."
+    },
+    {
+      "title": "Ridges",
+      "content": "Ridges are elongated areas of high pressure extending from an anticyclone. They are always rounded in shape."
+    },
+    {
+      "title": "Temporary Cold Anticyclones",
+      "content": "Occur between two depressions and last for short durations (up to 24 hours)."
+    },
+    {
+      "title": "Blocking Anticyclones",
+      "content": "Large, persistent high-pressure systems that block the normal west-to-east movement of depressions, causing prolonged weather conditions."
+    },
+    {
+      "title": "Anticyclonic Weather",
+      "content": "In summer: clear skies, light winds, moderate visibility. In winter: stratus cloud, fog, drizzle, and poor visibility may occur."
+    },
+    {
+      "title": "Cols",
+      "content": "A col is a region of nearly uniform pressure between two highs and two lows, resulting in weak or variable winds."
+    },
+    {
+      "title": "Col Weather",
+      "content": "Generally calm and stable, but can produce fog in winter and thunderstorms in summer."
+    },
+    {
+      "title": "Movement of Pressure Systems",
+      "content": "Frontal depressions move rapidly, anticyclones move slowly and persist, non-frontal systems vary, and cols are usually stationary."
+    },
+    {
+      "title": "Terminology",
+      "content": "Depressions deepen when pressure falls and fill when pressure rises. Anticyclones build when pressure rises and weaken when pressure falls."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 5 - Temperature",
+  "sub_modules": [
+    {
+      "title": "Introduction to Temperature",
+      "content": "Temperature is a key atmospheric variable. Its variation both vertically and horizontally is fundamental to understanding meteorology."
+    },
+    {
+      "title": "Temperature Scales",
+      "content": "Temperature is measured using Celsius (°C), Kelvin (K), and Fahrenheit (°F). Meteorology mainly uses Celsius and Kelvin. Conversion formulas: °C = 5/9(°F - 32), °F = 9/5°C + 32, K = °C + 273."
+    },
+    {
+      "title": "Measurement Instruments",
+      "content": "Surface temperature is measured using mercury thermometers in a Stevenson Screen. Upper air temperature is measured using radiosondes attached to balloons. Aircraft use electrical thermometers, though readings may be affected by compressibility."
+    },
+    {
+      "title": "Heating of the Troposphere",
+      "content": "The sun is the primary energy source, but the troposphere is mainly heated from below. Solar radiation heats the Earth's surface (insolation), which then heats the air."
+    },
+    {
+      "title": "Heating Processes",
+      "content": "Four main processes heat the troposphere: terrestrial radiation (longwave heat from Earth), conduction (heat transfer from surface to air), convection (rising warm air), and condensation (release of latent heat during cloud formation)."
+    },
+    {
+      "title": "Temperature Variation with Height",
+      "content": "Temperature generally decreases with altitude in the troposphere due to decreasing heating from the Earth's surface."
+    },
+    {
+      "title": "Lapse Rate",
+      "content": "The lapse rate is the rate of temperature decrease with height. The ISA lapse rate is approximately 2°C per 1000 ft."
+    },
+    {
+      "title": "Isothermal Layer",
+      "content": "An isothermal layer occurs when temperature remains constant with height."
+    },
+    {
+      "title": "Temperature Inversion",
+      "content": "An inversion occurs when temperature increases with height. Types include radiation inversion, subsidence inversion, and inversions near the tropopause or due to turbulence."
+    },
+    {
+      "title": "Surface Temperature Influences",
+      "content": "Surface temperature varies due to latitude, season, diurnal variation, cloud cover, wind, surface type, and air mass origin."
+    },
+    {
+      "title": "Latitude Effect",
+      "content": "Temperature decreases from the Equator to the poles due to the angle of solar radiation."
+    },
+    {
+      "title": "Seasonal Effect",
+      "content": "Temperature varies with seasons due to Earth's tilt. Maximum heating occurs after the summer solstice, and minimum temperatures occur after the winter solstice."
+    },
+    {
+      "title": "Diurnal Variation",
+      "content": "Temperature rises after sunrise, peaks around 1500 local time, and falls overnight to a minimum shortly after sunrise. Typical variation is ±6°C in temperate regions."
+    },
+    {
+      "title": "Effect of Cloud",
+      "content": "Cloud reduces daytime heating by reflecting solar radiation and reduces nighttime cooling by trapping terrestrial radiation."
+    },
+    {
+      "title": "Effect of Wind",
+      "content": "Wind mixes air, reducing maximum daytime temperature and increasing minimum nighttime temperature, thus reducing diurnal variation."
+    },
+    {
+      "title": "Effect of Surface Type",
+      "content": "Land heats and cools quickly, while the sea heats and cools slowly due to higher specific heat. This leads to greater temperature variation over land."
+    },
+    {
+      "title": "Sea vs Land Effects",
+      "content": "Sea has minimal diurnal variation, while land shows large variation. This difference contributes to phenomena like sea breezes."
+    },
+    {
+      "title": "Location Effects",
+      "content": "Valleys are colder at night due to cold air drainage, leading to fog formation. Elevated areas are generally warmer at night."
+    },
+    {
+      "title": "Ocean and Monsoon Effect",
+      "content": "In winter, land cools faster than sea, causing airflow from land to sea. In summer, the reverse occurs, leading to monsoon patterns."
+    },
+    {
+      "title": "Origin of Air Mass",
+      "content": "Air retains its original temperature characteristics. Air from polar regions brings cold conditions, while air from lower latitudes brings warmth."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 6 - Humidity",
+  "sub_modules": [
+    {
+      "title": "Latent Heat",
+      "content": "Latent heat is the heat absorbed or released during a change of state without a change in temperature. It is absorbed during melting and evaporation, and released during condensation and freezing."
+    },
+    {
+      "title": "Evaporation",
+      "content": "Evaporation is the change of state from liquid to vapour and involves absorption of latent heat. It can occur at any temperature until the air becomes saturated."
+    },
+    {
+      "title": "Saturation",
+      "content": "Air is saturated when it contains the maximum amount of water vapour possible at a given temperature. Saturation can occur by adding water vapour or by cooling the air."
+    },
+    {
+      "title": "Condensation",
+      "content": "Condensation is the change of state from vapour to liquid and releases latent heat. It requires condensation nuclei and leads to the formation of clouds and fog."
+    },
+    {
+      "title": "Freezing",
+      "content": "Freezing is the change from liquid to solid. It requires freezing nuclei. Supercooled water droplets can exist below 0°C and are important in aircraft icing."
+    },
+    {
+      "title": "Melting",
+      "content": "Melting is the change from solid to liquid."
+    },
+    {
+      "title": "Sublimation",
+      "content": "Sublimation is the direct change between vapour and ice without passing through the liquid state. It releases latent heat when forming ice."
+    },
+    {
+      "title": "Absolute Humidity",
+      "content": "Absolute humidity is the mass of water vapour per unit volume of air, expressed in grams per cubic metre (g/m³)."
+    },
+    {
+      "title": "Humidity Mixing Ratio (HMR)",
+      "content": "HMR is the mass of water vapour per unit mass of dry air, expressed in g/kg. It remains constant during ascent in unsaturated air."
+    },
+    {
+      "title": "Saturation Mixing Ratio (SMR)",
+      "content": "SMR is the maximum water vapour a unit mass of dry air can hold at a given temperature."
+    },
+    {
+      "title": "Relative Humidity (RH)",
+      "content": "Relative humidity is the ratio of actual water vapour to the maximum possible at that temperature, expressed as a percentage. RH = (HMR / SMR) × 100%. RH = 100% indicates saturation."
+    },
+    {
+      "title": "Bergeron Theory",
+      "content": "At temperatures below 0°C, saturation vapour pressure over water is higher than over ice. This causes water vapour to deposit directly as ice, leading to precipitation formation in cold clouds."
+    },
+    {
+      "title": "Measurement of Humidity",
+      "content": "Humidity is measured using a dry bulb and wet bulb hygrometer (psychrometer) or electrical hygrometers. The wet bulb temperature depends on evaporation rate, which varies with humidity."
+    },
+    {
+      "title": "Psychrometer Principle",
+      "content": "If air is dry, evaporation cools the wet bulb significantly. If air is saturated, no evaporation occurs and both dry and wet bulb temperatures are equal."
+    },
+    {
+      "title": "Dew Point",
+      "content": "Dew point is the temperature to which air must be cooled at constant pressure to reach saturation. It has a lapse rate of 0.5°C per 1000 ft."
+    },
+    {
+      "title": "Relationship of Temperatures",
+      "content": "At saturation: dry bulb temperature = wet bulb temperature = dew point temperature. Otherwise, wet bulb lies between dry bulb and dew point."
+    },
+    {
+      "title": "Diurnal Variation of Humidity",
+      "content": "Relative humidity decreases during the day as temperature rises and increases at night as temperature falls. Maximum RH occurs shortly after sunrise."
+    },
+    {
+      "title": "Humidity Definitions",
+      "content": "Saturated air has RH = 100%. Dry air has RH less than 100%, even if very close to saturation (e.g., 99.9%)."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 7 - Adiabatics and Stability",
+  "sub_modules": [
+    {
+      "title": "Adiabatic Temperature Change",
+      "content": "An adiabatic temperature change occurs when air is compressed or expanded without any heat exchange with the surroundings. Rising air expands and cools, while descending air compresses and warms."
+    },
+    {
+      "title": "Dry Adiabatic Lapse Rate (DALR)",
+      "content": "The DALR is the rate at which unsaturated (dry) air cools when rising. It has a constant value of 1°C per 100 m (approximately 3°C per 1000 ft)."
+    },
+    {
+      "title": "Saturated Adiabatic Lapse Rate (SALR)",
+      "content": "The SALR is the rate at which saturated air cools when rising. Due to latent heat release during condensation, it is lower than DALR, averaging about 0.6°C per 100 m (1.8°C per 1000 ft)."
+    },
+    {
+      "title": "Variation of SALR",
+      "content": "SALR varies with temperature. Warmer air releases more latent heat during condensation, reducing the cooling rate. At lower temperatures, less latent heat is released, so SALR approaches DALR."
+    },
+    {
+      "title": "Environmental Lapse Rate (ELR)",
+      "content": "The ELR is the actual rate of temperature change with height in the atmosphere, measured by radiosondes. It varies with time and location."
+    },
+    {
+      "title": "Atmospheric Stability",
+      "content": "Stability refers to the tendency of air to resist or enhance vertical motion. It depends on how the temperature of a rising air parcel compares to the surrounding environment."
+    },
+    {
+      "title": "Absolute Instability",
+      "content": "Occurs when ELR > DALR. Both dry and saturated air parcels become warmer than the environment when lifted and continue to rise. This leads to strong convection and unstable conditions."
+    },
+    {
+      "title": "Absolute Stability",
+      "content": "Occurs when ELR < SALR. Both dry and saturated air parcels become cooler than the environment when lifted and sink back. This results in stable atmospheric conditions."
+    },
+    {
+      "title": "Conditional Instability",
+      "content": "Occurs when DALR > ELR > SALR. Unsaturated air is stable, but saturated air becomes unstable. Stability depends on whether the air is saturated."
+    },
+    {
+      "title": "Neutral Stability",
+      "content": "Occurs when ELR equals DALR (for dry air) or SALR (for saturated air). The air parcel remains at its new level after displacement."
+    },
+    {
+      "title": "Stability and Weather",
+      "content": "Stable air produces stratiform clouds, poor visibility, and light continuous precipitation. Unstable air produces cumuliform clouds, showers, turbulence, and good visibility except in precipitation."
+    },
+    {
+      "title": "Cloud Types and Stability",
+      "content": "Stable air forms layered clouds such as stratus and stratocumulus. Unstable air forms vertically developed clouds such as cumulus and cumulonimbus."
+    },
+    {
+      "title": "Key Stability Relationships",
+      "content": "ELR > DALR indicates absolute instability. ELR < SALR indicates absolute stability. DALR > ELR > SALR indicates conditional instability. ELR = DALR indicates neutral stability."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 8 - Turbulence and Windshear",
+  "sub_modules": [
+    {
+      "title": "Introduction to Turbulence",
+      "content": "Turbulence refers to disturbed or irregular air motion. It results from changes in wind speed and/or direction and affects aircraft stability and comfort."
+    },
+    {
+      "title": "Windshear Definition",
+      "content": "Windshear is a sudden change in wind speed and/or direction, including vertical currents. It directly affects aircraft energy and performance."
+    },
+    {
+      "title": "Types of Windshear",
+      "content": "Vertical windshear is change in wind with height (knots per 100 ft). Horizontal windshear is change in wind across distance (knots per 1000 ft). Updrafts and downdrafts also contribute."
+    },
+    {
+      "title": "Low-Level Windshear",
+      "content": "Occurs during takeoff, landing, and initial climb. It is particularly dangerous due to limited recovery height and rapid energy changes."
+    },
+    {
+      "title": "Friction Layer Turbulence",
+      "content": "Occurs from surface to about 2000–3000 ft. Influenced by terrain roughness, wind speed, and atmospheric stability. Includes thermal and mechanical turbulence."
+    },
+    {
+      "title": "Thermal Turbulence",
+      "content": "Caused by convection due to surface heating. Strongest around 1500 local time on sunny days. Absent over the sea due to minimal heating variation."
+    },
+    {
+      "title": "Mechanical Turbulence",
+      "content": "Caused by obstacles such as buildings, trees, and terrain disrupting airflow, leading to eddies and irregular motion."
+    },
+    {
+      "title": "Mountain Waves",
+      "content": "Form when stable air flows over mountains with sufficient wind speed and perpendicular direction. Can extend far downwind and reach high altitudes."
+    },
+    {
+      "title": "Mountain Wave Hazards",
+      "content": "Severe turbulence occurs in rotor zones beneath wave crests. Lenticular clouds, rotor clouds, and cap clouds indicate their presence."
+    },
+    {
+      "title": "Rotor Streaming",
+      "content": "Occurs when strong low-level winds decrease or reverse at higher altitudes, creating moving rotor zones downwind of mountains."
+    },
+    {
+      "title": "Jet Stream Turbulence",
+      "content": "Occurs near the tropopause, especially on the cold side of the jet stream where wind shear is strongest. Can extend into the stratosphere."
+    },
+    {
+      "title": "Clear Air Turbulence (CAT)",
+      "content": "Occurs in cloudless regions, often near jet streams or upper-level troughs and ridges due to strong wind shear."
+    },
+    {
+      "title": "Cumulonimbus Turbulence",
+      "content": "Severe turbulence occurs within and around CB clouds due to strong updrafts and downdrafts. Associated with thunderstorms and microbursts."
+    },
+    {
+      "title": "Microbursts",
+      "content": "Highly concentrated downdrafts associated with thunderstorms. Cause rapid wind changes leading to dangerous loss of airspeed during approach or takeoff."
+    },
+    {
+      "title": "Gust Fronts",
+      "content": "Outflow boundaries from thunderstorms producing strong wind shifts and turbulence ahead of the storm."
+    },
+    {
+      "title": "Frontal Windshear",
+      "content": "Occurs along weather fronts due to sharp changes in temperature and wind direction/speed."
+    },
+    {
+      "title": "Inversion Windshear",
+      "content": "Occurs near temperature inversions where wind speed and direction change rapidly with height."
+    },
+    {
+      "title": "Effects of Windshear on Aircraft",
+      "content": "Windshear alters aircraft energy. Loss of headwind reduces lift and airspeed, while gain increases lift but may cause handling issues."
+    },
+    {
+      "title": "Downdraft Effects",
+      "content": "Downdrafts reduce angle of attack and lift. Pilot response increases angle of attack, but excessive angle may lead to stall."
+    },
+    {
+      "title": "Windshear Encounter Sequence",
+      "content": "Typical sequence: headwind gain → downdraft → tailwind. This results in rapid energy loss and potential stall risk."
+    },
+    {
+      "title": "Avoidance Strategies",
+      "content": "Avoid thunderstorms, strong winds, and forecast windshear areas. Use weather radar and forecasts to anticipate hazards."
+    },
+    {
+      "title": "Recovery Techniques",
+      "content": "Apply maximum thrust, increase pitch, coordinate power and pitch, and be prepared for go-around if necessary."
+    },
+    {
+      "title": "Microburst Avoidance",
+      "content": "Avoid approach if microburst is suspected. If encountered, maximize thrust and maintain safe pitch attitude."
+    },
+    {
+      "title": "Turbulence Reporting",
+      "content": "Pilots report turbulence intensity (light, moderate, severe), location, altitude, and aircraft type to ATC."
+    },
+    {
+      "title": "Turbulence Intensity Levels",
+      "content": "Light: slight discomfort. Moderate: noticeable difficulty. Severe: large abrupt changes, possible loss of control."
+    },
+    {
+      "title": "Operational Summary",
+      "content": "Recognize windshear hazards, avoid when possible, prepare for encounters, recover using correct techniques, and report incidents."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 9 - Altimetry",
+  "sub_modules": [
+    {
+      "title": "Altimeter Basics",
+      "content": "An altimeter measures atmospheric pressure and displays altitude based on ISA calibration. As pressure decreases with height, altitude increases."
+    },
+    {
+      "title": "Pressure and Altitude Relationship",
+      "content": "At constant indicated altitude, flying into lower pressure reduces true altitude, while flying into higher pressure increases true altitude."
+    },
+    {
+      "title": "Temperature Effect on Altitude",
+      "content": "Cold air compresses pressure levels causing true altitude to be lower than indicated. Warm air expands pressure levels causing true altitude to be higher than indicated."
+    },
+    {
+      "title": "Altimeter Settings - QFE",
+      "content": "QFE is the pressure at the aerodrome. With QFE set, the altimeter reads zero on the ground and height above the aerodrome when airborne."
+    },
+    {
+      "title": "Altimeter Settings - QNH",
+      "content": "QNH is pressure reduced to mean sea level using ISA. With QNH set, the altimeter reads elevation on the ground and altitude above MSL in flight."
+    },
+    {
+      "title": "Forecast QNH",
+      "content": "Forecast QNH is the lowest expected pressure in a region. It ensures a safety margin as the altimeter will read lower than actual altitude."
+    },
+    {
+      "title": "Standard Pressure Setting (SPS)",
+      "content": "1013 hPa is used above transition altitude. Altimeter then reads pressure altitude and is expressed as flight levels."
+    },
+    {
+      "title": "Altimetry Terminology",
+      "content": "Altitude: height above MSL. Height: vertical distance above a datum. Elevation: height of terrain above MSL. Flight Level: pressure altitude referenced to 1013 hPa."
+    },
+    {
+      "title": "Barometric Error",
+      "content": "Occurs when incorrect pressure is set. Approximate correction is 27 ft per hPa difference."
+    },
+    {
+      "title": "Temperature Error",
+      "content": "Occurs due to deviation from ISA temperature. Correction is 4 ft per °C per 1000 ft of height."
+    },
+    {
+      "title": "HI-LO-HI Rule",
+      "content": "From high pressure to low pressure, true altitude decreases. From warm to cold, true altitude decreases."
+    },
+    {
+      "title": "True vs Indicated Altitude",
+      "content": "True altitude equals indicated altitude plus pressure correction and temperature correction."
+    },
+    {
+      "title": "Cold Temperature Hazard",
+      "content": "In cold conditions, aircraft may be significantly lower than indicated altitude, increasing terrain collision risk."
+    },
+    {
+      "title": "Minimum Safe Flight Level",
+      "content": "The lowest flight level ensuring terrain clearance, accounting for pressure and temperature corrections."
+    },
+    {
+      "title": "Altimeter Correction Formula",
+      "content": "True altitude = Indicated altitude + (Indicated altitude/1000 × ISA deviation × 4) + 27 × (actual pressure - pressure setting)."
+    },
+    {
+      "title": "Transition Altitude",
+      "content": "Altitude below which QNH is used for vertical reference."
+    },
+    {
+      "title": "Transition Level",
+      "content": "Lowest flight level above the transition altitude using standard pressure 1013 hPa."
+    },
+    {
+      "title": "Transition Layer",
+      "content": "The airspace between transition altitude and transition level."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 10 - Winds",
+  "sub_modules": [
+    {
+      "title": "Introduction to Wind",
+      "content": "Wind is air in horizontal motion with both direction and speed. Direction is given as the direction from which the wind is blowing."
+    },
+    {
+      "title": "Wind Direction and Speed",
+      "content": "Wind direction is measured in degrees (true or magnetic). Wind speed is usually given in knots, but may also be expressed in m/s or km/h."
+    },
+    {
+      "title": "Veering and Backing",
+      "content": "Veering is a clockwise change in wind direction. Backing is an anticlockwise change."
+    },
+    {
+      "title": "Gusts and Lulls",
+      "content": "A gust is a sudden increase in wind speed lasting less than one minute. A lull is a sudden decrease in wind speed."
+    },
+    {
+      "title": "Squalls and Strong Winds",
+      "content": "Squalls last more than one minute and cover a larger area. Gale: >33 kt. Hurricane force: >63 kt."
+    },
+    {
+      "title": "Wind Measurement",
+      "content": "Surface wind is measured using wind vanes (direction) and anemometers (speed). Upper winds are measured using radiosondes and aircraft reports."
+    },
+    {
+      "title": "Pressure Gradient Force (PGF)",
+      "content": "PGF drives wind from high to low pressure. Closer isobars indicate stronger PGF and higher wind speed."
+    },
+    {
+      "title": "Coriolis Force (CF)",
+      "content": "Caused by Earth's rotation. Deflects wind to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Increases with wind speed and latitude."
+    },
+    {
+      "title": "Geostrophic Wind",
+      "content": "Occurs when PGF and CF are balanced. Wind flows parallel to straight isobars above the friction layer."
+    },
+    {
+      "title": "Geostrophic Wind Conditions",
+      "content": "Requires straight isobars, steady pressure, latitude >15°, and location above the friction layer."
+    },
+    {
+      "title": "Effect of Latitude on Wind",
+      "content": "For the same pressure gradient, wind speed decreases as latitude increases due to increased Coriolis force."
+    },
+    {
+      "title": "Gradient Wind",
+      "content": "Occurs when isobars are curved. Involves PGF, CF, and centrifugal force, causing wind to follow curved paths."
+    },
+    {
+      "title": "Centrifugal Force",
+      "content": "Acts outward from the centre of curvature. Influences wind speed in curved flow."
+    },
+    {
+      "title": "Gradient Wind in Low Pressure",
+      "content": "Centrifugal force opposes PGF, reducing wind speed compared to geostrophic wind."
+    },
+    {
+      "title": "Gradient Wind in High Pressure",
+      "content": "Centrifugal force reinforces PGF, increasing wind speed compared to geostrophic wind."
+    },
+    {
+      "title": "Surface Wind and Friction",
+      "content": "Friction reduces wind speed near the surface, weakening CF and causing wind to cross isobars toward low pressure."
+    },
+    {
+      "title": "Surface Wind Rules",
+      "content": "Over land: wind backs ~30° and reduces to ~50%. Over sea: backs ~10° and reduces to ~70%."
+    },
+    {
+      "title": "Diurnal Variation of Wind",
+      "content": "By day: wind increases and veers. By night: wind decreases and backs due to changes in thermal mixing."
+    },
+    {
+      "title": "Sea Breeze",
+      "content": "Daytime wind from sea to land caused by differential heating. Typically 10–15 kt and extends ~10 NM inland."
+    },
+    {
+      "title": "Land Breeze",
+      "content": "Nighttime wind from land to sea due to cooling of land. Weaker (~5 kt) and limited in extent."
+    },
+    {
+      "title": "Valley and Ravine Winds",
+      "content": "Wind accelerates through valleys due to restriction (Venturi effect), often causing turbulence."
+    },
+    {
+      "title": "Venturi Effect",
+      "content": "Wind speed increases through narrow gaps, causing pressure drop and reduced true altitude."
+    },
+    {
+      "title": "Katabatic Winds",
+      "content": "Cold dense air flows downhill at night due to cooling of slopes. Can cause fog and inversions."
+    },
+    {
+      "title": "Anabatic Winds",
+      "content": "Warm air rises up slopes during the day due to heating. Typically light winds (~5 kt)."
+    },
+    {
+      "title": "Föhn Winds",
+      "content": "Warm, dry winds on the leeward side of mountains caused by adiabatic warming after moisture loss. Associated with turbulence and temperature rise."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 11 - Upper Winds",
+  "sub_modules": [
+    {
+      "title": "Introduction to Upper Winds",
+      "content": "Upper winds are governed by Pressure Gradient Force (PGF), Coriolis Force (CF), and Centrifugal Force. They are stronger at altitude due to lower air density."
+    },
+    {
+      "title": "Effect of Density on Wind Speed",
+      "content": "Wind speed increases with altitude as density decreases. At 20000 ft, wind speed may be double that at the surface for the same pressure gradient."
+    },
+    {
+      "title": "Constant Pressure Charts",
+      "content": "These charts show the height of pressure levels (e.g., 500 hPa) above mean sea level. Heights are represented by contour lines (isohypses)."
+    },
+    {
+      "title": "Interpretation of Contour Charts",
+      "content": "Closely spaced contours indicate strong winds. Wind flows parallel to contours. Higher contours indicate high pressure; lower contours indicate low pressure."
+    },
+    {
+      "title": "Standard Pressure Levels",
+      "content": "Charts are produced for standard pressure levels such as 850 hPa (FL050), 500 hPa (FL180), and 300 hPa (FL300)."
+    },
+    {
+      "title": "Isotachs",
+      "content": "Lines joining points of equal wind speed. Used to identify areas of strong winds such as jet streams."
+    },
+    {
+      "title": "Thermal Wind Concept",
+      "content": "Upper winds are driven by temperature differences between air masses. Greater temperature gradients produce stronger winds."
+    },
+    {
+      "title": "Buys Ballot’s Law (Upper Winds)",
+      "content": "With your back to the wind in the Northern Hemisphere, low pressure, low temperature, or lower altitude contours lie on the left."
+    },
+    {
+      "title": "General Upper Wind Direction",
+      "content": "Upper winds are generally westerly in both hemispheres due to temperature gradients and Earth's rotation."
+    },
+    {
+      "title": "Jet Streams Definition",
+      "content": "Jet streams are narrow, fast-moving air currents near the tropopause with speeds exceeding 60 kt, often reaching 200–300 kt."
+    },
+    {
+      "title": "Jet Stream Dimensions",
+      "content": "Typically 2000 miles long, 200 miles wide, and 2 miles deep."
+    },
+    {
+      "title": "Jet Stream Causes",
+      "content": "Caused by strong horizontal temperature gradients between air masses."
+    },
+    {
+      "title": "Subtropical Jet Stream",
+      "content": "Located around 25°–45° latitude. Found near the 200 hPa level. Moves seasonally with the sun."
+    },
+    {
+      "title": "Polar Front Jet Stream",
+      "content": "Associated with polar front depressions. Found between 40°–65° latitude. Stronger in winter."
+    },
+    {
+      "title": "Other Jet Streams",
+      "content": "Includes Polar Night Jet, Tropical Easterly Jet, Arctic Jet, and local jets like the Somali jet."
+    },
+    {
+      "title": "Jet Stream Direction and Speed",
+      "content": "Generally westerly. Maximum speeds occur near the tropopause. Speeds can exceed 300 kt."
+    },
+    {
+      "title": "Clear Air Turbulence (CAT)",
+      "content": "Occurs near jet stream boundaries due to strong wind shear. Strongest below the jet core on the cold side."
+    },
+    {
+      "title": "Jet Stream Movement",
+      "content": "Jet streams shift with seasonal temperature changes. Move north in summer and south in winter."
+    },
+    {
+      "title": "Recognition of Jet Streams",
+      "content": "Identified by cirrus cloud streaks, strong winds, temperature changes, and turbulence."
+    },
+    {
+      "title": "Forecasting Upper Winds",
+      "content": "Forecasted using radiosonde data, contour charts, and aircraft reports."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 12 - Clouds",
+  "sub_modules": [
+    {
+      "title": "Introduction to Clouds",
+      "content": "Clouds are visible masses of water droplets or ice crystals and act as indicators of current and future weather conditions. They pose hazards such as turbulence, icing, poor visibility, precipitation, and lightning."
+    },
+    {
+      "title": "Cloud Amount (Oktas)",
+      "content": "Cloud cover is measured in oktas (eighths of the sky): FEW (1–2), SCT (3–4), BKN (5–7), OVC (8)."
+    },
+    {
+      "title": "Cloud Base",
+      "content": "The height of the lowest part of a cloud above ground level where water droplets or ice crystals begin."
+    },
+    {
+      "title": "Cloud Ceiling",
+      "content": "The height above aerodrome level of the lowest cloud layer covering more than 4 oktas."
+    },
+    {
+      "title": "Cloud Base Measurement",
+      "content": "Measured using balloon ascent (day), alidade and searchlight (night), or ceilometers (laser-based instruments)."
+    },
+    {
+      "title": "Cloud Movement",
+      "content": "Measured using a nephoscope which determines cloud speed and direction based on angular movement."
+    },
+    {
+      "title": "Cloud Classification",
+      "content": "Clouds are classified by shape: stratiform (layered), cumuliform (heaped), and cirriform (fibrous)."
+    },
+    {
+      "title": "Cloud Height Bands",
+      "content": "Clouds are categorized into low, medium, and high levels depending on altitude within the troposphere."
+    },
+    {
+      "title": "Low-Level Clouds",
+      "content": "Includes stratus, stratocumulus, cumulus, and cumulonimbus. Typically found below 6500 ft."
+    },
+    {
+      "title": "Medium-Level Clouds",
+      "content": "Includes altostratus, altocumulus, and nimbostratus. Found between 6500 ft and 23000 ft."
+    },
+    {
+      "title": "High-Level Clouds",
+      "content": "Includes cirrus, cirrostratus, and cirrocumulus. Found above 16500 ft and composed of ice crystals."
+    },
+    {
+      "title": "Stratus (St)",
+      "content": "Low, grey layered cloud producing drizzle and poor visibility. Often causes hill fog."
+    },
+    {
+      "title": "Stratocumulus (Sc)",
+      "content": "Low cloud with patches or layers. Produces light turbulence and drizzle."
+    },
+    {
+      "title": "Nimbostratus (Ns)",
+      "content": "Dense rain-bearing cloud associated with warm fronts. Produces continuous precipitation and poor visibility."
+    },
+    {
+      "title": "Cumulus (Cu)",
+      "content": "Convective cloud with vertical development. Indicates thermal activity and possible turbulence."
+    },
+    {
+      "title": "Cumulonimbus (Cb)",
+      "content": "Highly developed convective cloud causing severe turbulence, heavy precipitation, lightning, icing, and thunderstorms."
+    },
+    {
+      "title": "Altocumulus (Ac)",
+      "content": "Mid-level cloud with rounded masses. Includes lenticularis (mountain waves) and castellanus (instability indicator)."
+    },
+    {
+      "title": "Altostratus (As)",
+      "content": "Grey or bluish sheet cloud. Often associated with warm fronts and steady precipitation."
+    },
+    {
+      "title": "Cirrus (Ci)",
+      "content": "High-level wispy cloud composed of ice crystals. Indicates fair weather or approaching warm front."
+    },
+    {
+      "title": "Cirrostratus (Cs)",
+      "content": "Thin veil cloud producing halo effects. Indicates approaching warm front."
+    },
+    {
+      "title": "Cirrocumulus (Cc)",
+      "content": "High-level rippled cloud layer composed of ice crystals. Rare and usually indicates stable conditions."
+    },
+    {
+      "title": "Cloud Hazards",
+      "content": "Clouds may cause turbulence, icing, precipitation, lightning, and reduced visibility depending on type."
+    },
+    {
+      "title": "Cumulus Development Stages",
+      "content": "Stages include Cu fractus, Cu humilis, Cu mediocris, Cu congestus, Cb calvus, and Cb capillatus."
+    },
+    {
+      "title": "Aviation Importance of Clouds",
+      "content": "Cloud recognition is essential for flight safety as different clouds indicate specific weather hazards."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 13 - Cloud Formation and Precipitation",
+  "sub_modules": [
+    {
+      "title": "Vertical Motion and Cloud Formation",
+      "content": "Clouds form when air rises, expands, and cools adiabatically to its dew point, causing condensation."
+    },
+    {
+      "title": "Condensation Level",
+      "content": "The height at which rising air cools to its dew point. This is the cloud base."
+    },
+    {
+      "title": "Mechanisms of Uplift",
+      "content": "Air is lifted by turbulence, orographic uplift, convection, frontal uplift, and convergence."
+    },
+    {
+      "title": "Turbulence Cloud",
+      "content": "Formed in stable air due to limited vertical motion. Produces stratiform clouds like stratus and stratocumulus."
+    },
+    {
+      "title": "Orographic Cloud",
+      "content": "Formed when air is forced to rise over terrain. Can produce stratiform or cumuliform clouds depending on stability."
+    },
+    {
+      "title": "Föhn Effect",
+      "content": "Warm, dry conditions on the leeward side of mountains due to descending air warming adiabatically."
+    },
+    {
+      "title": "Convection Cloud",
+      "content": "Formed by surface heating. Produces cumuliform clouds such as cumulus and cumulonimbus."
+    },
+    {
+      "title": "Critical Temperature",
+      "content": "The surface temperature required for rising air to reach the condensation level and form clouds."
+    },
+    {
+      "title": "Convection Cloud Development",
+      "content": "Clouds develop through stages: Cu humilis, Cu mediocris, Cu congestus, and cumulonimbus."
+    },
+    {
+      "title": "Frontal Uplift",
+      "content": "Occurs when warm air rises over cold air at fronts. Produces layered clouds at warm fronts and cumuliform clouds at cold fronts."
+    },
+    {
+      "title": "Convergence Cloud",
+      "content": "Air converging at low pressure rises and forms clouds. Can lead to stratus or cumulonimbus depending on instability."
+    },
+    {
+      "title": "Mountain Effects",
+      "content": "Mountains enhance uplift, leading to strong cloud development and increased precipitation."
+    },
+    {
+      "title": "Inversions",
+      "content": "Temperature increases with height, creating stability and suppressing vertical motion and cloud formation."
+    },
+    {
+      "title": "Precipitation Formation",
+      "content": "Cloud droplets grow through collision and coalescence until they become heavy enough to fall."
+    },
+    {
+      "title": "Bergeron Theory",
+      "content": "In cold clouds, ice crystals grow at the expense of water droplets and fall as precipitation."
+    },
+    {
+      "title": "Coalescence Theory",
+      "content": "In warm clouds, larger droplets merge with smaller ones until they fall as rain."
+    },
+    {
+      "title": "Types of Precipitation",
+      "content": "Includes drizzle, rain, snow, hail, graupel, and ice pellets."
+    },
+    {
+      "title": "Precipitation Intensity",
+      "content": "Classified as slight, moderate, or heavy based on rainfall rate."
+    },
+    {
+      "title": "Showers vs Continuous Rain",
+      "content": "Showers are short-lived and associated with cumuliform clouds, while continuous precipitation comes from stratiform clouds."
+    },
+    {
+      "title": "Measurement of Precipitation",
+      "content": "Measured using rain gauges and rainfall recorders to determine amount and intensity."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 14 - Thunderstorms",
+  "sub_modules": [
+    {
+      "title": "Conditions for Thunderstorms",
+      "content": "Thunderstorms require a steep lapse rate (greater than SALR), sufficient moisture, and a trigger mechanism such as convection, orographic uplift, convergence, or frontal uplift."
+    },
+    {
+      "title": "Types of Thunderstorms",
+      "content": "Thunderstorms are classified as air mass type (isolated, summer, daytime) and frontal type (organized, winter, any time)."
+    },
+    {
+      "title": "Air Mass Thunderstorms",
+      "content": "Occur mainly over land in summer due to surface heating. Usually isolated and dissipate at night."
+    },
+    {
+      "title": "Frontal Thunderstorms",
+      "content": "Occur along cold fronts or occlusions. Often form in lines (squall lines) and move quickly."
+    },
+    {
+      "title": "Thunderstorm Development Stages",
+      "content": "Thunderstorms develop in three stages: initial (updrafts only), mature (updrafts and downdrafts), and dissipating (downdrafts dominate)."
+    },
+    {
+      "title": "Initial Stage",
+      "content": "Strong upcurrents form towering cumulus. No precipitation yet. Lasts 15–20 minutes."
+    },
+    {
+      "title": "Mature Stage",
+      "content": "Characterized by heavy precipitation, strong updrafts and downdrafts, lightning, turbulence, and gust fronts."
+    },
+    {
+      "title": "Dissipating Stage",
+      "content": "Downdrafts dominate, precipitation continues, and the storm weakens over 1.5–2.5 hours."
+    },
+    {
+      "title": "Gust Front",
+      "content": "A strong outflow of cold air ahead of the storm caused by downdrafts, often producing windshear."
+    },
+    {
+      "title": "Microbursts",
+      "content": "Intense localized downdrafts causing severe windshear, dangerous during takeoff and landing."
+    },
+    {
+      "title": "Supercell Thunderstorms",
+      "content": "Highly organized storms with strong wind shear, capable of producing tornadoes and lasting several hours."
+    },
+    {
+      "title": "Thunderstorm Movement",
+      "content": "Typically follows the wind at around 10000 ft (700 hPa), but can deviate."
+    },
+    {
+      "title": "Squall Lines",
+      "content": "Lines of thunderstorms often found ahead of cold fronts, producing severe weather."
+    },
+    {
+      "title": "Clear Air Turbulence and Windshear",
+      "content": "Strong vertical and horizontal windshear occurs in and around thunderstorms."
+    },
+    {
+      "title": "Thunderstorm Hazards",
+      "content": "Include turbulence, icing, hail, lightning, windshear, pressure variations, and poor visibility."
+    },
+    {
+      "title": "Icing in Thunderstorms",
+      "content": "Severe icing occurs between 0°C and -45°C due to supercooled water droplets."
+    },
+    {
+      "title": "Lightning Effects",
+      "content": "Can cause temporary blindness, instrument errors, and electrical disturbances."
+    },
+    {
+      "title": "Hail",
+      "content": "Large hailstones can cause severe structural damage to aircraft."
+    },
+    {
+      "title": "Static Electricity",
+      "content": "Causes radio interference and phenomena like St Elmo’s Fire."
+    },
+    {
+      "title": "Pressure Variations",
+      "content": "Rapid pressure changes can cause altimeter errors up to ±1000 ft."
+    },
+    {
+      "title": "Water Ingestion",
+      "content": "Heavy rain can disrupt engine performance or cause flameout."
+    },
+    {
+      "title": "Tornadoes",
+      "content": "Violent rotating columns of air associated with severe thunderstorms, especially supercells."
+    },
+    {
+      "title": "Thunderstorm Avoidance",
+      "content": "Pilots should avoid thunderstorms by large margins using weather radar and visual cues."
+    },
+    {
+      "title": "Radar Detection",
+      "content": "Airborne weather radar and stormscope systems help detect precipitation and electrical activity."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 15 - Visibility",
+  "sub_modules": [
+    {
+      "title": "Definition of Visibility",
+      "content": "Meteorological Optical Range (MOR) is the greatest horizontal distance at which a dark object can be seen or a light of known intensity can be detected."
+    },
+    {
+      "title": "Ground Visibility",
+      "content": "Ground visibility is the visibility reported at an aerodrome by an observer."
+    },
+    {
+      "title": "Causes of Reduced Visibility",
+      "content": "Visibility is reduced by water droplets (fog, cloud), solid particles (dust, smoke), precipitation (rain, snow), or mixtures like smog."
+    },
+    {
+      "title": "General Characteristics",
+      "content": "Poor visibility is usually associated with stable air, light winds, inversions, anticyclones, ridges, and cols."
+    },
+    {
+      "title": "Mist",
+      "content": "Visibility ≥ 1000 m with RH > 95%, caused by very small water droplets."
+    },
+    {
+      "title": "Fog",
+      "content": "Visibility < 1000 m with water droplets and RH near 100%."
+    },
+    {
+      "title": "Haze",
+      "content": "Reduced visibility due to small solid particles such as dust or smoke."
+    },
+    {
+      "title": "Radiation Fog",
+      "content": "Formed by cooling of the ground at night leading to condensation near the surface. Requires clear skies, high humidity, and light winds."
+    },
+    {
+      "title": "Radiation Fog Characteristics",
+      "content": "Occurs over land, especially in valleys, mainly in autumn and winter during night and early morning."
+    },
+    {
+      "title": "Radiation Fog Dissipation",
+      "content": "Clears by heating (insolation) or strong winds lifting it into stratus cloud."
+    },
+    {
+      "title": "Hill (Orographic) Fog",
+      "content": "Occurs when cloud forms over hills due to forced uplift of moist air."
+    },
+    {
+      "title": "Advection Fog",
+      "content": "Formed when warm moist air moves over a cold surface. Requires moderate wind, high humidity, and cold surface."
+    },
+    {
+      "title": "Advection Fog Locations",
+      "content": "Occurs over land in winter and over sea in late spring and summer, especially with tropical maritime air."
+    },
+    {
+      "title": "Steaming Fog (Arctic Smoke)",
+      "content": "Occurs when cold air moves over warmer water, causing evaporation and condensation."
+    },
+    {
+      "title": "Frontal Fog",
+      "content": "Occurs at warm fronts due to precipitation lowering cloud base and mixing of air masses."
+    },
+    {
+      "title": "Freezing Fog",
+      "content": "Occurs when supercooled water droplets freeze on contact with surfaces, forming rime or hoar frost."
+    },
+    {
+      "title": "Ice Fog",
+      "content": "Occurs at extremely low temperatures (< -40°C) when ice crystals form in the air."
+    },
+    {
+      "title": "Smoke",
+      "content": "Solid particles from combustion reduce visibility, especially in stable conditions."
+    },
+    {
+      "title": "Dust",
+      "content": "Fine particles lifted by wind (>15 kt) and carried high into the atmosphere."
+    },
+    {
+      "title": "Sand",
+      "content": "Heavier particles lifted near the surface by winds >20 kt."
+    },
+    {
+      "title": "Precipitation Effects",
+      "content": "Visibility is reduced by drizzle, rain, and snow depending on intensity."
+    },
+    {
+      "title": "Visibility Measurement (Day)",
+      "content": "Measured using known landmarks at set distances."
+    },
+    {
+      "title": "Visibility Measurement (Night)",
+      "content": "Measured using instruments such as transmissometers."
+    },
+    {
+      "title": "Runway Visual Range (RVR)",
+      "content": "Distance a pilot can see runway lights or markers from 15 ft above runway level."
+    },
+    {
+      "title": "RVR Reporting",
+      "content": "Reported when visibility <1500 m. Values vary depending on runway zones."
+    },
+    {
+      "title": "Transmissometer",
+      "content": "Measures visibility by comparing transmitted and received light intensity."
+    },
+    {
+      "title": "Instrumented RVR (IRVR)",
+      "content": "Uses multiple transmissometers along runway for accurate readings."
+    },
+    {
+      "title": "Forward Scatter Visibility Meter",
+      "content": "Measures scattered light to determine visibility and type of particles."
+    },
+    {
+      "title": "Visibility Factors",
+      "content": "Visibility is worse looking toward the sun, better at night with reflections, and poorest in drizzle and blowing snow."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 16 - Icing",
+  "sub_modules": [
+    {
+      "title": "Introduction to Icing",
+      "content": "Airframe icing reduces aircraft performance, increases drag, weight, fuel consumption, and affects control."
+    },
+    {
+      "title": "Conditions for Icing",
+      "content": "Icing occurs when supercooled water droplets exist, air temperature is below 0°C, and airframe temperature is below 0°C."
+    },
+    {
+      "title": "Supercooled Water Droplets (SWD)",
+      "content": "Water droplets that remain liquid below 0°C and freeze upon contact with an aircraft."
+    },
+    {
+      "title": "SWD Size and Distribution",
+      "content": "Large droplets occur in Cu, Cb, Ns (0°C to -20°C). Small droplets occur in layer clouds and at lower temperatures."
+    },
+    {
+      "title": "Aerodynamic Effects of Icing",
+      "content": "Reduces lift, increases drag, increases stalling speed, and distorts aerofoil shape."
+    },
+    {
+      "title": "Weight Effects of Icing",
+      "content": "Uneven ice accumulation increases weight, shifts center of gravity, and causes instability."
+    },
+    {
+      "title": "Instrument Effects",
+      "content": "Ice can block pitot tubes and affect ASI, VSI, altimeter, and machmeter readings."
+    },
+    {
+      "title": "General Effects",
+      "content": "Ice can obscure windscreens, interfere with antennas, and affect landing gear operation."
+    },
+    {
+      "title": "Clear Ice",
+      "content": "Transparent ice formed from large supercooled droplets with flowback. Most dangerous type due to rapid accumulation."
+    },
+    {
+      "title": "Clear Ice Conditions",
+      "content": "Occurs in Cu, Cb, Ns clouds between 0°C and -20°C."
+    },
+    {
+      "title": "Rime Ice",
+      "content": "White opaque ice formed from small supercooled droplets freezing instantly with no flowback."
+    },
+    {
+      "title": "Rime Ice Conditions",
+      "content": "Occurs in layer clouds and upper levels of Cu, Cb, Ns between 0°C and -40°C."
+    },
+    {
+      "title": "Mixed Ice",
+      "content": "Combination of clear and rime ice formed when both large and small droplets are present."
+    },
+    {
+      "title": "Rain Ice",
+      "content": "Formed when supercooled rain freezes on impact, typically ahead of warm fronts at low levels."
+    },
+    {
+      "title": "Pack Snow",
+      "content": "Mixture of snow and supercooled droplets that can block air intakes."
+    },
+    {
+      "title": "Hoar Frost",
+      "content": "Ice crystals formed by sublimation when water vapor freezes directly onto a cold surface."
+    },
+    {
+      "title": "Hoar Frost Occurrence",
+      "content": "Occurs on the ground at night or in flight during rapid descent or climb through inversion."
+    },
+    {
+      "title": "Factors Affecting Icing Severity",
+      "content": "Includes droplet size, droplet concentration, aircraft shape, cloud type, and temperature."
+    },
+    {
+      "title": "Cloud Type and Icing Severity",
+      "content": "Cu, Cb, Ns produce moderate to severe icing; Sc moderate; As, Ac, St light; Ci negligible."
+    },
+    {
+      "title": "Aircraft Shape Effects",
+      "content": "Thin surfaces accumulate ice faster; high speeds increase icing risk."
+    },
+    {
+      "title": "Cloud Base Temperature",
+      "content": "Higher cloud base temperature increases water content and icing severity."
+    },
+    {
+      "title": "Kinetic Heating",
+      "content": "Temperature increase due to speed may reduce or increase icing depending on conditions."
+    },
+    {
+      "title": "Icing Forecasting",
+      "content": "Based on cloud type and vertical extent; classified as light, moderate, or severe."
+    },
+    {
+      "title": "Freezing Level",
+      "content": "Altitude where temperature is 0°C; may have multiple levels due to inversion."
+    },
+    {
+      "title": "Icing Reporting",
+      "content": "Pilots report time, location, altitude, intensity, and type of icing encountered."
+    },
+    {
+      "title": "Icing Intensity",
+      "content": "Trace, Light, Moderate, Severe based on accumulation rate and hazard level."
+    },
+    {
+      "title": "Piston Engine Icing",
+      "content": "Includes impact icing, fuel icing, and carburettor icing."
+    },
+    {
+      "title": "Carburettor Icing",
+      "content": "Occurs due to temperature drop in venturi and fuel evaporation, typically between -10°C and +25°C."
+    },
+    {
+      "title": "Jet Engine Icing",
+      "content": "Occurs at intake and inlet guide vanes; may damage engine if ice breaks off."
+    },
+    {
+      "title": "Jet Engine Precautions",
+      "content": "Engine anti-icing should be ON when temperature is +10°C or below with precipitation."
+    },
+    {
+      "title": "Additional Hazards",
+      "content": "Fuel freezing, probe icing, and hidden ice on aircraft surfaces can affect performance."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 17 - Air Masses and Fronts",
+  "sub_modules": [
+    {
+      "title": "Definition of Air Mass",
+      "content": "A large body of air with uniform temperature and humidity in the horizontal."
+    },
+    {
+      "title": "Formation of Air Mass",
+      "content": "Air masses form over uniform surfaces under high pressure and are initially stable."
+    },
+    {
+      "title": "Modification of Air Mass",
+      "content": "Warm surface makes air unstable, warmer, and lowers RH; cold surface makes it stable, colder, and increases RH."
+    },
+    {
+      "title": "Air Mass Classification",
+      "content": "Classified by moisture (continental/maritime), source region (E, T, P, A), and temperature (warm/cold)."
+    },
+    {
+      "title": "Major Air Mass Types",
+      "content": "mAc, mPc, cPc, mTw, cTw are the main air masses affecting Europe."
+    },
+    {
+      "title": "Arctic Maritime (mAc)",
+      "content": "Very cold, dry, becomes unstable over sea, producing snow showers and CB clouds."
+    },
+    {
+      "title": "Polar Maritime (mPc)",
+      "content": "Cold, moist, unstable over UK producing Cu, Cb, showers, and good visibility."
+    },
+    {
+      "title": "Polar Continental (cPc)",
+      "content": "Very cold, dry, stable; may become unstable over sea producing snow showers."
+    },
+    {
+      "title": "Tropical Continental (cTw)",
+      "content": "Hot, dry, stable air from Africa producing clear skies and haze."
+    },
+    {
+      "title": "Tropical Maritime (mTw)",
+      "content": "Warm, moist, stable air producing low cloud, drizzle, and poor visibility."
+    },
+    {
+      "title": "Returning Polar Maritime (mPw)",
+      "content": "Modified mPc air gaining warmth and moisture, behaving like mTw or mPc depending on season."
+    },
+    {
+      "title": "Definition of Front",
+      "content": "Boundary between two air masses of different temperatures."
+    },
+    {
+      "title": "Frontal Structure",
+      "content": "Warm air rises over cold air forming a sloping surface with cloud and precipitation."
+    },
+    {
+      "title": "Major Global Fronts",
+      "content": "Polar Front, Arctic Front, Mediterranean Front, ITCZ."
+    },
+    {
+      "title": "Polar Front",
+      "content": "Boundary between polar and tropical air where depressions form."
+    },
+    {
+      "title": "Arctic Front",
+      "content": "Boundary between Arctic and polar air masses at high latitudes."
+    },
+    {
+      "title": "Mediterranean Front",
+      "content": "Boundary between polar and tropical continental air across Mediterranean."
+    },
+    {
+      "title": "ITCZ",
+      "content": "Zone where trade winds converge near the equator."
+    },
+    {
+      "title": "Frontal Equilibrium",
+      "content": "When winds flow parallel to front with little interaction, forming quasi-stationary fronts."
+    },
+    {
+      "title": "Frontal Convergence",
+      "content": "Airflow towards front causes lifting, cloud formation, and precipitation."
+    },
+    {
+      "title": "Warm Front",
+      "content": "Warm air replaces cold air with gentle slope (~1:150) producing layered cloud and continuous rain."
+    },
+    {
+      "title": "Cold Front",
+      "content": "Cold air replaces warm air with steep slope (~1:50) producing heavy showers and CB clouds."
+    },
+    {
+      "title": "Quasi-Stationary Front",
+      "content": "Front with little movement producing prolonged but mild weather."
+    },
+    {
+      "title": "Warm Sector",
+      "content": "Region between warm and cold fronts containing tropical air."
+    },
+    {
+      "title": "Weather Ahead of Warm Front",
+      "content": "Falling pressure, increasing cloud (Ci, Cs, As, Ns), continuous rain, poor visibility."
+    },
+    {
+      "title": "Weather at Warm Front",
+      "content": "Temperature rise, heavy continuous rain, low cloud, very poor visibility."
+    },
+    {
+      "title": "Weather in Warm Sector",
+      "content": "Warm, moist air with low cloud, drizzle, and poor visibility."
+    },
+    {
+      "title": "Weather at Cold Front",
+      "content": "Temperature drop, gusts, heavy showers, CB clouds, good visibility after passage."
+    },
+    {
+      "title": "Weather Behind Cold Front",
+      "content": "Cool, unstable air with showers, good visibility."
+    },
+    {
+      "title": "Jet Stream Relation",
+      "content": "Jet streams run parallel to fronts and influence movement of depressions."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 18 - Occlusions",
+  "sub_modules": [
+    {
+      "title": "Definition of Occlusion",
+      "content": "An occlusion occurs when a faster moving cold front catches up with a warm front."
+    },
+    {
+      "title": "Triple Point",
+      "content": "The point where warm front, cold front, and occluded front meet."
+    },
+    {
+      "title": "Warm Occlusion",
+      "content": "Occurs when air ahead of the warm front is colder than air behind the cold front."
+    },
+    {
+      "title": "Warm Occlusion Mechanism",
+      "content": "Cold air behind rises over colder air ahead, lifting the warm sector off the ground."
+    },
+    {
+      "title": "Warm Occlusion Weather",
+      "content": "Widespread precipitation ahead of the occlusion with embedded CB in layered cloud."
+    },
+    {
+      "title": "Cold Occlusion",
+      "content": "Occurs when air behind the cold front is colder than air ahead of the warm front."
+    },
+    {
+      "title": "Cold Occlusion Mechanism",
+      "content": "Colder air behind undercuts the less cold air ahead, lifting the warm sector."
+    },
+    {
+      "title": "Cold Occlusion Weather",
+      "content": "Precipitation mainly occurs behind the occlusion with embedded CB clouds."
+    },
+    {
+      "title": "Cloud Characteristics",
+      "content": "Mixture of stratiform and cumuliform clouds, often with embedded cumulonimbus."
+    },
+    {
+      "title": "General Occlusion Weather",
+      "content": "Bad weather due to concentrated cloud and precipitation in a narrow band."
+    },
+    {
+      "title": "Occlusion Duration",
+      "content": "Occurs late in depression lifecycle, often slow moving, causing prolonged weather."
+    },
+    {
+      "title": "Inactive Occlusion",
+      "content": "May produce little cloud and precipitation as depression decays."
+    },
+    {
+      "title": "Back Bent Occlusion",
+      "content": "Curved extension of occlusion behind depression producing thundery rain."
+    },
+    {
+      "title": "Movement of Occlusion",
+      "content": "Tracked by projecting warm and cold fronts; triple point marks new occlusion."
+    },
+    {
+      "title": "Depression Movement",
+      "content": "Moves anticlockwise in Northern Hemisphere depending on isobar spacing."
+    },
+    {
+      "title": "Lifecycle of Depression",
+      "content": "Growth ~4 days, decay ~10 days; eventually absorbed into other systems."
+    },
+    {
+      "title": "Formation of Secondary Depressions",
+      "content": "New depressions form along polar front, often at occlusion points."
+    },
+    {
+      "title": "Summary of Occlusions",
+      "content": "Occlusions combine characteristics of warm and cold fronts and are often ill-defined."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 19 - Other Depressions",
+  "sub_modules": [
+    {
+      "title": "Introduction to Other Depressions",
+      "content": "Apart from polar front depressions, other types include orographic and thermal depressions."
+    },
+    {
+      "title": "Orographic (Lee) Depressions",
+      "content": "Form when air flows around mountains creating low pressure on the lee side."
+    },
+    {
+      "title": "Föhn Effect",
+      "content": "Warm, dry conditions occur on the lee side when air descends and warms adiabatically."
+    },
+    {
+      "title": "Moist Orographic Conditions",
+      "content": "Moist air over mountains leads to Cu, Cb, showers, and thunderstorms."
+    },
+    {
+      "title": "Cold Front and Mountains",
+      "content": "Cold air crossing mountains enhances instability, producing severe convective weather."
+    },
+    {
+      "title": "Thermal Depressions",
+      "content": "Form due to surface heating causing air expansion and surface pressure fall."
+    },
+    {
+      "title": "Thermal Depression Weather",
+      "content": "Cu, Cb, heavy showers, good visibility outside showers, turbulence."
+    },
+    {
+      "title": "Monsoon Low",
+      "content": "Large thermal low over continents in summer controlling seasonal wind patterns."
+    },
+    {
+      "title": "Polar Air Depressions",
+      "content": "Form when cold Arctic air moves over warmer sea causing convection and instability."
+    },
+    {
+      "title": "Inland Water Depressions",
+      "content": "Thermal lows over warm seas in winter caused by cold air moving over warmer water."
+    },
+    {
+      "title": "Thermal Lows Over Land",
+      "content": "Summer heating creates shallow lows producing thunderstorms and squalls."
+    },
+    {
+      "title": "Tropical Revolving Storms (TRS)",
+      "content": "Intense thermal depressions over warm oceans with strong winds and heavy rain."
+    },
+    {
+      "title": "TRS Formation Conditions",
+      "content": "Requires warm sea (>26°C), Coriolis force, deep warm water, and low wind shear."
+    },
+    {
+      "title": "TRS Development Stages",
+      "content": "Tropical depression → Tropical storm → Tropical cyclone."
+    },
+    {
+      "title": "TRS Structure",
+      "content": "Includes eye (calm), eyewall (severe weather), and spiral rainbands."
+    },
+    {
+      "title": "TRS Movement",
+      "content": "Initially moves west with trade winds, then curves eastward at higher latitudes."
+    },
+    {
+      "title": "Avoidance of TRS",
+      "content": "In Northern Hemisphere, adjust heading until port drift occurs to move away."
+    },
+    {
+      "title": "Secondary Depressions",
+      "content": "Smaller depressions forming within or along larger depression systems."
+    },
+    {
+      "title": "Cold Air Pools",
+      "content": "Regions of cold air aloft identified by thickness charts, producing convection."
+    },
+    {
+      "title": "Tornadoes",
+      "content": "Small-scale intense rotating columns of air associated with cumulonimbus clouds."
+    },
+    {
+      "title": "Tornado Characteristics",
+      "content": "High wind speeds, low pressure core, short duration, severe localized damage."
+    },
+    {
+      "title": "Tornado Formation",
+      "content": "Occurs when cold dry air meets warm moist air, especially in unstable conditions."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 20 - Global Climatology",
+  "sub_modules": [
+    {
+      "title": "Introduction to Climatology",
+      "content": "Climatology studies global weather patterns based on temperature, precipitation, humidity, sunshine, and wind."
+    },
+    {
+      "title": "Factors Affecting Climate",
+      "content": "Latitude, land/sea distribution, pressure systems, altitude, and geography influence climate."
+    },
+    {
+      "title": "Idealized Air Circulation",
+      "content": "Assumes Earth covered by water with uniform heating, forming global circulation cells."
+    },
+    {
+      "title": "Hadley Cell",
+      "content": "Circulation between Equator and 30° with rising air at Equator and sinking at subtropics."
+    },
+    {
+      "title": "Ferrel Cell",
+      "content": "Mid-latitude circulation between 30° and 60° driven by interaction of tropical and polar air."
+    },
+    {
+      "title": "Polar Cell",
+      "content": "Cold air sinks at poles and flows toward mid-latitudes."
+    },
+    {
+      "title": "Intertropical Convergence Zone (ITCZ)",
+      "content": "Region near Equator where trade winds converge causing rising air and thunderstorms."
+    },
+    {
+      "title": "Subtropical High Pressure",
+      "content": "High pressure belts around 30° caused by descending air from Hadley cells."
+    },
+    {
+      "title": "Polar Front",
+      "content": "Boundary between warm tropical and cold polar air masses causing frontal weather."
+    },
+    {
+      "title": "Basic Climatic Zones",
+      "content": "Equatorial wet, subtropical dry, temperate wet, polar dry zones."
+    },
+    {
+      "title": "Koeppen Climate Classification",
+      "content": "Classification into A (tropical), B (dry), C (temperate), D (continental), E (polar)."
+    },
+    {
+      "title": "Transitional Climatic Zones",
+      "content": "Savannah and Mediterranean climates showing seasonal variation."
+    },
+    {
+      "title": "Seasonal Movement of Climate Zones",
+      "content": "Due to Earth's axial tilt, climatic zones shift north and south annually."
+    },
+    {
+      "title": "Temperature Distribution",
+      "content": "Temperature varies with latitude, land-sea contrast, and seasonal effects."
+    },
+    {
+      "title": "Diurnal and Seasonal Temperature Variation",
+      "content": "Greater temperature variation over land than sea."
+    },
+    {
+      "title": "Freezing Level Variation",
+      "content": "Freezing level highest near Equator and varies seasonally with latitude."
+    },
+    {
+      "title": "Relative Humidity Distribution",
+      "content": "Varies with latitude and season, higher near Equator."
+    },
+    {
+      "title": "Global Pressure Distribution (January)",
+      "content": "High pressure over continents, low pressure over oceans."
+    },
+    {
+      "title": "Global Pressure Distribution (July)",
+      "content": "Low pressure over heated continents, highs over oceans."
+    },
+    {
+      "title": "Westerlies",
+      "content": "Prevailing winds in mid-latitudes caused by Coriolis effect."
+    },
+    {
+      "title": "Trade Winds",
+      "content": "Consistent winds blowing toward Equator from subtropical highs."
+    },
+    {
+      "title": "Horse Latitudes",
+      "content": "Calm wind zones near subtropical highs."
+    },
+    {
+      "title": "Monsoons",
+      "content": "Seasonal winds caused by pressure differences between land and sea."
+    },
+    {
+      "title": "Sea Breezes",
+      "content": "Local winds caused by differential heating between land and sea."
+    },
+    {
+      "title": "Temperate Depressions",
+      "content": "Frontal depressions along polar front causing variable weather."
+    },
+    {
+      "title": "Polar Air Outbreaks",
+      "content": "Cold air moving into lower latitudes causing sharp temperature drops."
+    },
+    {
+      "title": "ITCZ Weather",
+      "content": "Heavy convection, thunderstorms, turbulence, and icing."
+    },
+    {
+      "title": "Monsoon Weather",
+      "content": "Wet or dry conditions depending on wind direction and moisture source."
+    },
+    {
+      "title": "Global Rainfall Distribution",
+      "content": "High near ITCZ and temperate zones, low in subtropical and polar regions."
+    },
+    {
+      "title": "Jet Streams",
+      "content": "High-speed upper winds including subtropical and polar jets."
+    },
+    {
+      "title": "Tropical Easterly Jet",
+      "content": "Strong easterly winds in summer over tropical regions."
+    },
+    {
+      "title": "Arctic Jet",
+      "content": "Jet stream separating Arctic and polar air masses."
+    },
+    {
+      "title": "Upper Winds Over India",
+      "content": "Seasonal reversal of upper winds during monsoon."
+    },
+    {
+      "title": "Easterly Waves",
+      "content": "Disturbances moving westward that can develop into tropical storms."
+    },
+    {
+      "title": "Westerly Waves",
+      "content": "Wave patterns associated with mid-latitude depressions."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 21 - Local Winds and Weather",
+  "sub_modules": [
+    {
+      "title": "Introduction to Local Winds",
+      "content": "Local winds are regional wind systems influenced by terrain, pressure differences, and temperature variations."
+    },
+    {
+      "title": "Föhn Winds",
+      "content": "Warm, dry winds descending on the lee side of mountains due to adiabatic warming."
+    },
+    {
+      "title": "Chinook Wind",
+      "content": "A Föhn-type wind in North America causing rapid temperature rise and snow melt."
+    },
+    {
+      "title": "Valley Winds",
+      "content": "Winds funneled through valleys or mountain gaps, often strong and turbulent."
+    },
+    {
+      "title": "Mistral",
+      "content": "Cold, strong northerly wind through the Rhône Valley causing turbulence and low temperatures."
+    },
+    {
+      "title": "Bora",
+      "content": "Cold, gusty katabatic wind blowing towards the Adriatic Sea, strongest in winter."
+    },
+    {
+      "title": "Mediterranean Winds Overview",
+      "content": "Hot, dusty winds ahead of depressions along North African coast."
+    },
+    {
+      "title": "Sirocco",
+      "content": "Hot, dusty wind from Sahara, may become moist and produce fog near coast."
+    },
+    {
+      "title": "Ghibli",
+      "content": "Hot desert wind affecting Libya with similar characteristics to Sirocco."
+    },
+    {
+      "title": "Khamsin",
+      "content": "Hot, dry wind over Egypt ahead of depressions, also affects Red Sea."
+    },
+    {
+      "title": "Squalls Overview",
+      "content": "Short-lived but intense wind systems associated with storms."
+    },
+    {
+      "title": "Pampero",
+      "content": "Cold, gusty wind in South America behind cold fronts causing temperature drop."
+    },
+    {
+      "title": "Sumatras",
+      "content": "Night-time squalls in the Malacca Strait caused by thunderstorms moving offshore."
+    },
+    {
+      "title": "Harmattan",
+      "content": "Dry, dusty northeast trade wind from Sahara reducing visibility in West Africa."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 22 - Area Climatology",
+  "sub_modules": [
+    {
+      "title": "Northwest Africa Overview",
+      "content": "Region between 35°N and 5°N influenced by Sahara desert, ITCZ movement, and Canary current."
+    },
+    {
+      "title": "NW Africa - Winter (South of 20°N)",
+      "content": "Dry conditions dominated by Harmattan winds, dust, and occasional advection fog over cold Canary current."
+    },
+    {
+      "title": "NW Africa - Winter (North of 20°N)",
+      "content": "Affected by polar front depressions bringing westerlies, cloud, and precipitation; otherwise dry Harmattan conditions."
+    },
+    {
+      "title": "NW Africa - Summer (South of 20°N)",
+      "content": "ITCZ moves north, SW monsoon replaces Harmattan bringing heavy rain, thunderstorms, and convective cloud."
+    },
+    {
+      "title": "NW Africa - Summer (North of 20°N)",
+      "content": "Subtropical high dominates with dry dusty NE winds and possible coastal fog."
+    },
+    {
+      "title": "West African Tornadoes",
+      "content": "Thunderstorms forming along valleys during ITCZ transition, moving westwards."
+    },
+    {
+      "title": "NW Africa Upper Winds",
+      "content": "Winter: subtropical jet over north; Summer: weaker westerlies, jet shifts north."
+    },
+    {
+      "title": "North Atlantic Region Overview",
+      "content": "Region influenced by polar front activity, Azores High, and North American systems."
+    },
+    {
+      "title": "North Atlantic - Winter",
+      "content": "Strong polar front depressions, frequent storms, jet streams, and heavy cloud/icing."
+    },
+    {
+      "title": "North Atlantic - Summer",
+      "content": "Weaker depressions, northward shift of polar front, hurricanes, and advection fog."
+    },
+    {
+      "title": "Jet Streams in North Atlantic",
+      "content": "Polar front jet (~300 hPa) and subtropical jet (~200 hPa) influence wind and drift."
+    },
+    {
+      "title": "Continental NW Europe - Winter",
+      "content": "Polar front depressions, Siberian high influence, snow, fog, and icing."
+    },
+    {
+      "title": "Continental NW Europe - Summer",
+      "content": "Weaker fronts, thermal depressions, thunderstorms, and improved visibility."
+    },
+    {
+      "title": "Mediterranean Region Overview",
+      "content": "Semi-enclosed sea with strong seasonal contrasts and local winds."
+    },
+    {
+      "title": "Mediterranean - Winter",
+      "content": "Frontal depressions, orographic lows, thunderstorms, and strong regional winds (Mistral, Bora, Sirocco)."
+    },
+    {
+      "title": "Mediterranean - Summer",
+      "content": "Dominated by Azores High, dry conditions, local winds like Levanter and Etesian."
+    },
+    {
+      "title": "Arabian Region Overview",
+      "content": "Desert climate with strong seasonal heating, ITCZ influence, and monsoons."
+    },
+    {
+      "title": "Arabian Region - Winter",
+      "content": "Influenced by Siberian High, westerlies, and occasional thunderstorms."
+    },
+    {
+      "title": "Arabian Region - Summer",
+      "content": "Baluchistan Low, intense heat, dust storms, SW monsoon influence in east."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 23 - Route Climatology",
+  "sub_modules": [
+    {
+      "title": "Calcutta to Singapore - Winter",
+      "content": "Dominated by NE monsoon with generally clear weather, increasing convection towards Malaysia."
+    },
+    {
+      "title": "Calcutta to Singapore - Summer",
+      "content": "SW monsoon brings thunderstorms, heavy rain, and poor flying conditions; Sumatras occur."
+    },
+    {
+      "title": "Singapore to Tokyo - Winter",
+      "content": "NE monsoon dominates; convection in south, snow in Japan, and fog (Crachin) near Hong Kong."
+    },
+    {
+      "title": "Singapore to Tokyo - Summer",
+      "content": "SW monsoon, ITCZ movement, typhoons, and heavy rainfall along route."
+    },
+    {
+      "title": "Singapore to Auckland - Winter",
+      "content": "SE trade winds, dry Australian interior, and polar front activity near New Zealand."
+    },
+    {
+      "title": "Singapore to Auckland - Summer",
+      "content": "ITCZ, tropical cyclones, thunderstorms, and strong convection dominate."
+    },
+    {
+      "title": "Cairo to Johannesburg - January",
+      "content": "Dry Sahara conditions in north; ITCZ brings thunderstorms and wet season in south."
+    },
+    {
+      "title": "Cairo to Johannesburg - July",
+      "content": "ITCZ shifts north; Haboobs in Sudan; dry winter conditions in Johannesburg."
+    },
+    {
+      "title": "Nairobi Region",
+      "content": "Two ITCZ passages cause Long Rains (spring) and Short Rains (autumn), with orographic cloud and thunderstorms."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 24 - Satellite Observations",
+  "sub_modules": [
+    {
+      "title": "Introduction to Satellite Meteorology",
+      "content": "Satellites provide real-time weather data and images, improving forecasting and global observation."
+    },
+    {
+      "title": "Polar Orbiting Satellites",
+      "content": "Low altitude satellites providing high-resolution images but not continuous coverage."
+    },
+    {
+      "title": "Geostationary Satellites",
+      "content": "High altitude satellites providing continuous monitoring over a fixed region."
+    },
+    {
+      "title": "Visual Satellite Images",
+      "content": "Daytime images showing clouds clearly but unavailable at night."
+    },
+    {
+      "title": "Infrared (IR) Images",
+      "content": "24-hour imaging based on temperature differences; useful for detecting cloud height."
+    },
+    {
+      "title": "False Colour Images",
+      "content": "Enhanced images using colour to differentiate cloud types and temperatures."
+    },
+    {
+      "title": "Image Location and Grids",
+      "content": "Use of grids and coastlines to identify positions on satellite images."
+    },
+    {
+      "title": "Interpretation of Satellite Images",
+      "content": "Satellite images are best interpreted alongside synoptic charts and time-lapse sequences."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 25 - Meteorological Aerodrome Reports (METARs)",
+  "sub_modules": [
+    {
+      "title": "Introduction to METAR",
+      "content": "METAR is a coded report of actual weather conditions at an aerodrome at a specific time."
+    },
+    {
+      "title": "Report Structure Overview",
+      "content": "METAR consists of groups including report type, aerodrome, time, wind, visibility, weather, cloud, temperature, and pressure."
+    },
+    {
+      "title": "Wind Information",
+      "content": "Includes direction, speed, gusts, and variability of wind."
+    },
+    {
+      "title": "Visibility and RVR",
+      "content": "Visibility is reported in metres; RVR is included when visibility is poor."
+    },
+    {
+      "title": "Weather Group",
+      "content": "Describes present weather using standardized codes for precipitation, obscuration, and phenomena."
+    },
+    {
+      "title": "Cloud Information",
+      "content": "Cloud amount, height, and significant cloud types (CB, TCU) are reported."
+    },
+    {
+      "title": "CAVOK and Obscuration",
+      "content": "CAVOK indicates good conditions; VV is used when sky is obscured."
+    },
+    {
+      "title": "Temperature and Dew Point",
+      "content": "Reported in Celsius with dew point indicating moisture content."
+    },
+    {
+      "title": "QNH (Pressure)",
+      "content": "Surface pressure reduced to sea level, reported in hPa or inches Hg."
+    },
+    {
+      "title": "Recent Weather (RE)",
+      "content": "Indicates significant weather in the past hour."
+    },
+    {
+      "title": "Windshear (WS)",
+      "content": "Reports presence of windshear affecting runways."
+    },
+    {
+      "title": "Trend Forecast",
+      "content": "Short-term forecast using BECMG, TEMPO, or NOSIG."
+    },
+    {
+      "title": "Runway State Group",
+      "content": "Provides information about runway contamination and braking conditions."
+    },
+    {
+      "title": "Special Reports (SPECI)",
+      "content": "Issued when significant weather changes occur between METARs."
+    },
+    {
+      "title": "AUTO METAR",
+      "content": "Automatically generated METARs with missing data indicated by slashes."
+    },
+    {
+      "title": "End of Message",
+      "content": "Equals sign (=) indicates end of METAR."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 26 - Terminal Aerodrome Forecasts (TAFs)",
+  "sub_modules": [
+    {
+      "title": "Introduction to TAF",
+      "content": "TAF is a forecast of weather conditions at an aerodrome for a specified time period."
+    },
+    {
+      "title": "TAF Structure Overview",
+      "content": "TAF format includes report type, aerodrome, issue time, validity period, wind, visibility, weather, and cloud."
+    },
+    {
+      "title": "Date-Time Groups",
+      "content": "Includes issue time and validity period of the forecast."
+    },
+    {
+      "title": "Wind, Visibility, and Weather",
+      "content": "Same coding as METAR for wind, visibility, and weather conditions."
+    },
+    {
+      "title": "Cloud Information",
+      "content": "Cloud amount and height are reported; NSC used when no significant cloud."
+    },
+    {
+      "title": "Forecast Change Indicators",
+      "content": "Includes FM, BECMG, TEMPO, and PROB to indicate changes in forecast conditions."
+    },
+    {
+      "title": "FM (From)",
+      "content": "Indicates rapid change with a completely new set of conditions."
+    },
+    {
+      "title": "BECMG (Becoming)",
+      "content": "Indicates gradual and permanent change over a specified time period."
+    },
+    {
+      "title": "TEMPO (Temporary)",
+      "content": "Indicates temporary fluctuations lasting less than one hour at a time."
+    },
+    {
+      "title": "PROB (Probability)",
+      "content": "Indicates likelihood of certain weather events, usually 30% or 40%."
+    },
+    {
+      "title": "Temperature Forecast",
+      "content": "Some TAFs include maximum and minimum temperature forecasts."
+    },
+    {
+      "title": "Amendments (AMD)",
+      "content": "Indicates that the TAF has been updated."
+    },
+    {
+      "title": "End of Message",
+      "content": "Equals sign (=) indicates the end of the TAF."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 27 - Significant Weather and Wind Charts",
+  "sub_modules": [
+    {
+      "title": "Introduction to WAFS",
+      "content": "Global system providing aviation weather charts via WAFC London and Washington."
+    },
+    {
+      "title": "SIGWX Charts",
+      "content": "Show significant weather phenomena such as turbulence, icing, jet streams, and CB clouds."
+    },
+    {
+      "title": "Jet Streams",
+      "content": "Depicted with arrows and feathers showing wind speed and direction at high altitude."
+    },
+    {
+      "title": "Turbulence and Icing",
+      "content": "Areas of CAT, turbulence, and icing are indicated with altitude ranges."
+    },
+    {
+      "title": "Cloud and Thunderstorm Areas",
+      "content": "CB clouds and storm areas are shown with descriptors like ISOL, OCNL, FRQ, and SQL."
+    },
+    {
+      "title": "Tropopause and Freezing Level",
+      "content": "Tropopause height and freezing levels are indicated on charts."
+    },
+    {
+      "title": "Wind and Temperature Charts",
+      "content": "Provide wind direction, speed, and temperature at various flight levels."
+    },
+    {
+      "title": "Interpolation of Winds",
+      "content": "Wind and temperature values between grid points are estimated through interpolation."
+    },
+    {
+      "title": "Low-Level Forecast Charts (Forms 215/415)",
+      "content": "Provide regional forecasts including visibility, cloud, weather, and freezing levels."
+    },
+    {
+      "title": "Weather Coverage Terms",
+      "content": "Definitions of ISOL, OCNL, FRQ, and WDSPR used to describe weather distribution."
+    },
+    {
+      "title": "Spot Wind Charts (Forms 214/414)",
+      "content": "Provide wind and temperature data at specific locations and altitudes."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 28 - Warning Messages",
+  "sub_modules": [
+    {
+      "title": "Introduction to Warning Messages",
+      "content": "Different meteorological warnings alert pilots to hazardous conditions during flight and at aerodromes."
+    },
+    {
+      "title": "Aerodrome Warnings",
+      "content": "Warnings for hazards such as strong winds, thunderstorms, snow, fog, frost, and freezing precipitation."
+    },
+    {
+      "title": "Windshear Warnings",
+      "content": "Alerts for windshear conditions affecting approach and departure paths."
+    },
+    {
+      "title": "SIGMET",
+      "content": "Warnings for significant en-route weather hazards such as turbulence, icing, thunderstorms, and volcanic ash."
+    },
+    {
+      "title": "Volcanic Ash Advisory",
+      "content": "Messages from VAACs providing information about volcanic ash clouds and their movement."
+    },
+    {
+      "title": "Aviation Colour Codes",
+      "content": "Colour-coded system indicating volcanic activity levels (Green, Yellow, Orange, Red)."
+    },
+    {
+      "title": "Tropical Cyclone Advisory",
+      "content": "Warnings issued by specialized centres tracking tropical cyclones and their forecast paths."
+    }
+  ]
+}
+
+{
+  "book_id": "MET-001",
+  "book_name": "Meteorology",
+  "chapter_name": "Chapter 29 - Meteorological Information for Aircraft in Flight",
+  "sub_modules": [
+    {
+      "title": "Introduction to In-Flight Weather Information",
+      "content": "Pilots can receive real-time weather updates during flight via radio broadcasts."
+    },
+    {
+      "title": "VOLMET",
+      "content": "Continuous broadcast of METARs, TAFs, and SIGMETs over VHF and HF frequencies."
+    },
+    {
+      "title": "VOLMET Operation",
+      "content": "Regional stations provide sequential weather updates for multiple aerodromes."
+    },
+    {
+      "title": "HF VOLMET",
+      "content": "Global VOLMET broadcasts used especially for oceanic routes like the North Atlantic."
+    },
+    {
+      "title": "ATIS",
+      "content": "Continuous broadcast of current aerodrome weather and operational information."
+    },
+    {
+      "title": "ATIS Operation",
+      "content": "Updated with changes and identified by alphabetical codes (Alpha, Bravo, etc.)."
+    },
+    {
+      "title": "Use of ATIS",
+      "content": "Pilots must listen to ATIS before contacting ATC and report the information code."
+    }
+  ]
+}
