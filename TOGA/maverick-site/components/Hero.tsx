@@ -1,70 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
-import { useState } from "react";
-
-const Spline = dynamic(() => import("@splinetool/react-spline"), {
-  ssr: false,
-  loading: () => (
-    <div className="w-[280px] h-[500px] rounded-lg animate-pulse bg-white/5" />
-  ),
-});
-
-const SPLINE_URL =
-  "https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode";
-
-function SplineScene() {
-  const [loaded, setLoaded] = useState(false);
-  const [error, setError] = useState(false);
-
-  return (
-    <div className="relative flex flex-col items-center gap-4">
-      {/* Skeleton shown until Spline loads */}
-      {!loaded && !error && (
-        <div className="w-[280px] h-[500px] rounded-lg animate-pulse bg-white/5" />
-      )}
-
-      {/* Error fallback */}
-      {error && (
-        <div className="w-[280px] h-[500px] rounded-lg bg-white/5 flex items-center justify-center">
-          <span
-            className="text-xs uppercase tracking-widest text-white/25"
-            style={{ fontFamily: "var(--font-geist-mono)" }}
-          >
-            Preview unavailable
-          </span>
-        </div>
-      )}
-
-      {/* Spline scene */}
-      {!error && (
-        <div
-          className="w-[280px] h-[500px]"
-          style={{ display: loaded ? "block" : "none" }}
-        >
-          <Spline
-            scene={SPLINE_URL}
-            onLoad={() => setLoaded(true)}
-            onError={() => {
-              setLoaded(false);
-              setError(true);
-            }}
-            style={{ width: "100%", height: "100%" }}
-          />
-        </div>
-      )}
-
-      {/* Drag label */}
-      <span
-        className="text-[10px] uppercase tracking-[3px] text-white/25"
-        style={{ fontFamily: "var(--font-geist-mono)" }}
-      >
-        DRAG TO ROTATE
-      </span>
-    </div>
-  );
-}
+import PhoneModel from "@/components/PhoneModel";
 
 export default function Hero() {
   return (
@@ -145,14 +82,30 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Right Column — Spline 3D Device */}
+          {/* Right Column — 3D Phone */}
           <motion.div
             className="flex justify-center lg:justify-end items-center lg:h-auto h-[420px]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
           >
-            <SplineScene />
+            <div className="flex flex-col items-center justify-center h-full">
+              <div style={{ width: "100%", height: "520px" }}>
+                <PhoneModel />
+              </div>
+              <p
+                style={{
+                  fontFamily: "var(--font-geist-mono)",
+                  fontSize: "10px",
+                  letterSpacing: "3px",
+                  color: "rgba(255,255,255,0.25)",
+                  textTransform: "uppercase",
+                  marginTop: "16px",
+                }}
+              >
+                Drag to rotate
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>
