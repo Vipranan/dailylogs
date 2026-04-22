@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maverick by AIRMAN — Your AI Co‑Pilot",
+  title: "TOGA by AIRMAN — Your AI Co‑Pilot",
   description:
     "An integrated aviation training platform combining study tools, flight planning, community features, and AI-powered coaching.",
 };
