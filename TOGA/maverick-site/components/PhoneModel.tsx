@@ -36,13 +36,19 @@ function SceneContent() {
           <meshStandardMaterial color="#1a1a1a" roughness={0.3} metalness={0.8} />
         </RoundedBox>
 
-        {/* Screen */}
+        {/* Front screen */}
         <mesh position={[0, 0, 0.07]}>
           <planeGeometry args={[1.55, 3.1]} />
           <meshBasicMaterial map={textures[activeIndex]} toneMapped={false} />
         </mesh>
 
-        {/* Notch */}
+        {/* Back screen — rotated 180° on Y so it faces backward, cycles offset by 1 */}
+        <mesh position={[0, 0, -0.07]} rotation={[0, Math.PI, 0]}>
+          <planeGeometry args={[1.55, 3.1]} />
+          <meshBasicMaterial map={textures[(activeIndex + 1) % 3]} toneMapped={false} />
+        </mesh>
+
+        {/* Front notch */}
         <mesh position={[0, 1.42, 0.08]}>
           <boxGeometry args={[0.4, 0.06, 0.01]} />
           <meshStandardMaterial color="#000000" />
