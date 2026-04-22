@@ -72,7 +72,7 @@ const features = [
   },
   {
     id: "ai",
-    title: "Captain MAVERICK AI",
+    title: "Captain TOGA AI",
     description:
       "Adaptive learning, real-time flight briefing, cross-ecosystem sync, and live intelligence integration.",
     inverted: true,
@@ -128,66 +128,79 @@ export default function Features() {
           Everything a pilot needs. One platform.
         </motion.h2>
 
-        {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {features.map((feature, index) => (
-            <motion.div
-              key={feature.id}
-              className={[
-                "rounded-lg p-6 md:p-8 transition-all duration-300 cursor-default",
-                feature.inverted
-                  ? "hover:scale-[1.01]"
-                  : "border border-white/10 hover:border-white/25 hover:scale-[1.01]",
-              ].join(" ")}
-              style={
-                feature.inverted
-                  ? { background: "#ffffff" }
-                  : { background: "#0d0d0d" }
-              }
-              initial={{ opacity: 0, y: 24 }}
-              animate={
-                isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }
-              }
-              transition={{
-                duration: 0.6,
-                ease: "easeOut",
-                delay: staggerDelays[index],
-              }}
-            >
-              {/* Icon container */}
-              <div
-                className="w-8 h-8 rounded flex items-center justify-center"
+        {/* Bento Grid — wrapped in perspective container */}
+        <motion.div
+          style={{
+            perspective: "1000px",
+            perspectiveOrigin: "center",
+            transformStyle: "preserve-3d",
+          }}
+        >
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 gap-4"
+            style={{ transformStyle: "preserve-3d" }}
+          >
+            {features.map((feature, index) => (
+              <motion.div
+                key={feature.id}
+                className={[
+                  "rounded-lg p-6 md:p-8 transition-all duration-300 cursor-default",
+                  feature.inverted
+                    ? "hover:scale-[1.01]"
+                    : "border border-white/10 hover:border-white/25 hover:scale-[1.01]",
+                ].join(" ")}
                 style={
                   feature.inverted
-                    ? { background: "rgba(0,0,0,0.08)", color: "#000000" }
-                    : { background: "rgba(255,255,255,0.08)", color: "#ffffff" }
+                    ? { background: "#ffffff", transformStyle: "preserve-3d" }
+                    : { background: "#0d0d0d", transformStyle: "preserve-3d" }
                 }
-              >
-                {feature.icon}
-              </div>
-
-              {/* Title */}
-              <h3
-                className="text-lg font-semibold mt-4 mb-2"
-                style={{ color: feature.inverted ? "#000000" : "#ffffff" }}
-              >
-                {feature.title}
-              </h3>
-
-              {/* Description */}
-              <p
-                className="text-sm leading-relaxed"
-                style={{
-                  color: feature.inverted
-                    ? "rgba(0,0,0,0.5)"
-                    : "rgba(255,255,255,0.5)",
+                initial={{ opacity: 0, y: 60, rotateX: 15, z: -80 }}
+                animate={
+                  isInView
+                    ? { opacity: 1, y: 0, rotateX: 0, z: 0 }
+                    : { opacity: 0, y: 60, rotateX: 15, z: -80 }
+                }
+                transition={{
+                  duration: 0.7,
+                  ease: [0.25, 0.46, 0.45, 0.94],
+                  delay: staggerDelays[index],
                 }}
               >
-                {feature.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+                {/* Icon container */}
+                <div
+                  className="w-8 h-8 rounded flex items-center justify-center"
+                  style={
+                    feature.inverted
+                      ? { background: "rgba(0,0,0,0.08)", color: "#000000" }
+                      : { background: "rgba(255,255,255,0.08)", color: "#ffffff" }
+                  }
+                >
+                  {feature.icon}
+                </div>
+
+                {/* Title */}
+                <h3
+                  className="text-lg font-semibold mt-4 mb-2"
+                  style={{ color: feature.inverted ? "#000000" : "#ffffff" }}
+                >
+                  {feature.title}
+                </h3>
+
+                {/* Description */}
+                <p
+                  className="text-sm leading-relaxed"
+                  style={{
+                    color: feature.inverted
+                      ? "rgba(0,0,0,0.5)"
+                      : "rgba(255,255,255,0.5)",
+                  }}
+                >
+                  {feature.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

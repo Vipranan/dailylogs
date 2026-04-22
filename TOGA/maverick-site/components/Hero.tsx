@@ -1,18 +1,44 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import PhoneModel from "@/components/PhoneModel";
 
 export default function Hero() {
+  const heroRef = useRef<HTMLElement>(null);
+
+  const { scrollYProgress } = useScroll({
+    target: heroRef,
+    offset: ["start start", "end start"],
+  });
+
+  // Left text column transforms
+  const textOpacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const textY = useTransform(scrollYProgress, [0, 1], [0, -60]);
+  const textRotateX = useTransform(scrollYProgress, [0, 1], [0, 8]);
+
+  // Right phone column transforms
+  const phoneY = useTransform(scrollYProgress, [0, 1], [0, -30]);
+  const phoneOpacity = useTransform(scrollYProgress, [0, 1], [1, 0.2]);
+
   return (
     <section
+      ref={heroRef}
       className="min-h-screen pt-16 lg:pt-20 flex items-center"
-      style={{ background: "#080808" }}
+      style={{ background: "#080808", perspective: "1000px" }}
     >
       <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 lg:py-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Column — Text Content */}
-          <div className="flex flex-col gap-6">
+          <motion.div
+            className="flex flex-col gap-6"
+            style={{
+              opacity: textOpacity,
+              y: textY,
+              rotateX: textRotateX,
+              transformPerspective: 800,
+            }}
+          >
             {/* Eyebrow */}
             <motion.p
               className="text-xs uppercase tracking-widest text-white/40"
@@ -80,16 +106,43 @@ export default function Hero() {
                 Learn More
               </button>
             </motion.div>
-          </div>
+          </motion.div>
 
           {/* Right Column — 3D Phone */}
           <motion.div
             className="flex justify-center lg:justify-end items-center lg:h-auto h-[420px]"
+            style={{
+              y: phoneY,
+              opacity: phoneOpacity,
+              position: "relative",
+            }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
           >
-            <div className="flex flex-col items-center justify-center h-full">
+            {/* Floating glowing orb behind phone */}
+            <motion.div
+              style={{
+                position: "absolute",
+                width: "300px",
+                height: "300px",
+                borderRadius: "50%",
+                background:
+                  "radial-gradient(circle, rgba(255,255,255,0.03), transparent 70%)",
+                filter: "blur(40px)",
+                zIndex: 0,
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+              }}
+              animate={{ y: [0, -20, 0], x: [0, 10, 0] }}
+              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            />
+
+            <div
+              className="flex flex-col items-center justify-center h-full"
+              style={{ position: "relative", zIndex: 1 }}
+            >
               <div style={{ width: "100%", height: "520px" }}>
                 <PhoneModel />
               </div>

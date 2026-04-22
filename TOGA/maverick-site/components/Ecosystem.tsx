@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, useScroll, useTransform } from "framer-motion";
 
 const bullets = [
   "Auto-sync flight data from XB70 directly to your logbook",
@@ -33,6 +33,15 @@ export default function Ecosystem() {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "end start"],
+  });
+
+  // Scroll-linked diagram tilt
+  const diagramRotateY = useTransform(scrollYProgress, [0, 0.5, 1], [-8, 0, 8]);
+  const diagramRotateX = useTransform(scrollYProgress, [0, 0.5, 1], [6, 0, -4]);
+
   return (
     <section
       ref={sectionRef}
@@ -61,15 +70,24 @@ export default function Ecosystem() {
           Built to connect.
         </motion.h2>
 
-        {/* Connected Diagram */}
+        {/* Connected Diagram — scroll-linked tilt wrapper */}
         <motion.div
           className="flex flex-row items-center justify-center mb-16 max-w-2xl mx-auto"
+          style={{
+            rotateY: diagramRotateY,
+            rotateX: diagramRotateX,
+            transformPerspective: 1200,
+          }}
           initial={{ opacity: 0, y: 24 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.15 }}
         >
           {/* XB70 Node */}
-          <div className="flex flex-col items-center gap-3">
+          <motion.div
+            className="flex flex-col items-center gap-3"
+            whileHover={{ scale: 1.1, rotateY: 15 }}
+            style={{ transformStyle: "preserve-3d" }}
+          >
             <div
               className="w-16 h-16 rounded-full border border-white/30 flex items-center justify-center"
               style={{ background: "transparent" }}
@@ -80,13 +98,17 @@ export default function Ecosystem() {
             >
               XB70
             </span>
-          </div>
+          </motion.div>
 
-          {/* Line XB70 → MAVERICK */}
+          {/* Line XB70 → TOGA */}
           <ConnectingLine direction="right" />
 
-          {/* MAVERICK Node (hero / center) */}
-          <div className="flex flex-col items-center gap-3">
+          {/* TOGA Node (hero / center) */}
+          <motion.div
+            className="flex flex-col items-center gap-3"
+            whileHover={{ scale: 1.05, rotateY: -10 }}
+            style={{ transformStyle: "preserve-3d" }}
+          >
             <div
               className="w-20 h-20 rounded-full flex items-center justify-center"
               style={{ background: "#ffffff", border: "2px solid #ffffff" }}
@@ -95,15 +117,19 @@ export default function Ecosystem() {
               className="text-xs tracking-widest text-black font-semibold"
               style={{ fontFamily: "var(--font-geist-mono)", color: "#ffffff" }}
             >
-              MAVERICK
+              TOGA
             </span>
-          </div>
+          </motion.div>
 
-          {/* Line MAVERICK → SKYNET */}
+          {/* Line TOGA → SKYNET */}
           <ConnectingLine direction="right" />
 
           {/* SKYNET Node */}
-          <div className="flex flex-col items-center gap-3">
+          <motion.div
+            className="flex flex-col items-center gap-3"
+            whileHover={{ scale: 1.1, rotateY: 15 }}
+            style={{ transformStyle: "preserve-3d" }}
+          >
             <div
               className="w-16 h-16 rounded-full border border-white/30 flex items-center justify-center"
               style={{ background: "transparent" }}
@@ -114,7 +140,7 @@ export default function Ecosystem() {
             >
               SKYNET
             </span>
-          </div>
+          </motion.div>
         </motion.div>
 
         {/* Bullet Points */}

@@ -67,19 +67,21 @@ export default function Community() {
             the cockpit, not the classroom.
           </motion.p>
 
-          {/* Right — channel list */}
-          <div className="flex flex-col">
+          {/* Right — channel list with perspective */}
+          <div className="flex flex-col" style={{ perspective: "800px" }}>
             {channels.map((channel, i) => (
               <motion.div
                 key={channel.name}
                 className="flex flex-row items-center gap-3 py-4"
                 style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}
-                initial={{ opacity: 0, y: 16 }}
+                initial={{ opacity: 0, x: 40, rotateY: -12 }}
                 animate={
-                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }
+                  isInView
+                    ? { opacity: 1, x: 0, rotateY: 0 }
+                    : { opacity: 0, x: 40, rotateY: -12 }
                 }
                 transition={{
-                  duration: 0.5,
+                  duration: 0.6,
                   ease: "easeOut",
                   delay: 0.15 + i * 0.1,
                 }}
